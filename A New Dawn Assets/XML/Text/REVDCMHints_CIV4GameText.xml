@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- RevolutionDCM Hints -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_1</Tag>
+		<English>*Revolutions Mod Hint*: The Revolution Watch Advisor screen is totally customisable in the same way as the Domestic Advisor Screen.</English>
+		<French>*Conseil Mod Revolution*: l'Ecran de Conseiller de Révolution est entièrement configurable de la même manière que l'écran du Conseiller Domestique (CDA).</French>
+		<German>*Revolutions Mod Hint*: The Revolution Watch Advisor screen is totally customisable in the same way as the Domestic Advisor Screen.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: La schermata del Consigliere Rivoluzionario &#232; completamente personalizzabile come lo schermata del Consigliere Interno.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: La pantalla del Consejero de la Revoluci&#243;n es totalmente personalizable de la misma forma que la pantalla del Consejero de Interior.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: The Revolution Watch Advisor screen is totally customisable in the same way as the Domestic Advisor Screen.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_2</Tag>
+		<English>*Revolutions Mod Hint*: Customise the Revolution Watch Advisor to suit your playing style and imagination! Put the culture level column next to the Revolution trend column, it doesn't matter!</English>
+		<French>*Conseil Mod Revolution*: Personnalisez l'Ecran de Conseiller de Révolution pour l'adapter à votre style de Jeu! Placez le niveau de Culture tout de suite à côté de la tendance de Revolution, peu importe!</French>
+		<German>*Revolutions Mod Hint*: Customise the Revolution Watch Advisor to suit your playing style and imagination! Put the culture level column next to the Revolution trend column, it doesn't matter!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Personalizza la schermata del Consigliere Rivoluzionario per adattarla al tuo stile di gioco ed immaginazione! Inserisci la colonna del livello culturale vicino a quella della tendenza alla rivolta. non ti preoccupare!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: &#161;Personaliza la pantalla del Consejero de la Revoluci&#243;n para ajustarlo a tu estilo de juego! Coloca la columna del nivel cultural junto a la del estado de la Revoluci&#243;n, &#161;nadie se va a quejar!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Customise the Revolution Watch Advisor to suit your playing style and imagination! Put the culture level column next to the Revolution trend column, it doesn't matter!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_3</Tag>
+		<English>*Revolutions Mod Hint*: The Revolution Watch Advisor can also display important buildings constructed in a city that are relevant to Revolutions, especially cultural buildings like wonders, and theatres!</English>
+		<French>*Conseil Mod Revolution*: l'Ecran de Conseiller de Révolution peut également afficher les bâtiments construits, ayant une influence pour la stabilité de l'Empire, particulièrement les bâtiments culturels (Merveilles, théatres,...)</French>
+		<German>*Revolutions Mod Hint*: The Revolution Watch Advisor can also display important buildings constructed in a city that are relevant to Revolutions, especially cultural buildings like wonders, and theatres!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: La schermata del Consigliere Rivoluzionario pu&#242; mostrare edifici cittadini rilevanti per 'Revolutions', tipo edifici culturali come Meraviglie e Teatri!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: El Consejero de la Revoluci&#243;n puede mostrar tambi&#233;n edificios importantes construidos en una ciudad que es relevante para 'Revolutions', especialmente edificios culturales como maravillas y teatros.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: The Revolution Watch Advisor can also display important buildings constructed in a city that are relevant to Revolutions, especially cultural buildings like wonders, and theatres!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_4</Tag>
+		<English>*Revolutions Mod Hint*: City bribing can be initiated from the city screen or the Revolutions Watch Advisor screen.</English>
+		<French>*Conseil Mod Revolution*: La Corruption de la Ville peut être ordonnée depuis l'écran de Ville ou l'Ecran de Conseiller de Révolution.</French>
+		<German>*Revolutions Mod Hint*: City bribing can be initiated from the city screen or the Revolutions Watch Advisor screen.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Puoi tentare una 'donazione' per una citt&#224; dalla schermata cittadina o da quella del Consigliere Rivoluzionario.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Se puede sobornar a los ciudadanos tanto desde la pantalla de ciudad como desde la pantalla del Consejero de la Revoluci&#243;n.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: City bribing can be initiated from the city screen or the Revolutions Watch Advisor screen.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_5</Tag>
+		<English>*Revolutions Mod Hint*: The civ info screen can now graph the overall revolt stability of your empire, or your enemies empire! You just need sufficient espionage points...</English>
+		<French>*Conseil Mod Revolution*: L'Ecran d'informations affiche maintenant un graphique de la stabilité de chaque Empire. Il faut juste suffisamment de points d'espionnage...</French>
+		<German>*Revolutions Mod Hint*: The civ info screen can now graph the overall revolt stability of your empire, or your enemies empire! You just need sufficient espionage points...</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: la 'Schermata delle informazioni' ora pu&#242; rappresentare graficamente la stabilit&#224; complessiva del tuo impero o degli imperi nemici! Hai solo bisogno di sufficienti punti spionaggio...</Italian>
+		<Spanish>*Consejos Mod Revolutions *:La pantalla de informaci&#243;n de la civilizaci&#243;n puede mostrar gr&#225;ficos sobre el estado de las revueltas a lo largo de tu imperio, &#161;o del imperio de tus enemigos! Tan solo necesitas los suficientes puntos de espionaje...</Spanish>
+		<Finnish>*Revolutions Mod Hint*: The civ info screen can now graph the overall revolt stability of your empire, or your enemies empire! You just need sufficient espionage points...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_6</Tag>
+		<English>*Revolutions Mod Hint*: Pay attention to the underlying rebellion issues in your city! If the citizens are sick of slavery, you may need to do something about it or accept the consequences!</English>
+		<French>*Conseil Mod Revolution*: Prêtez attention à l'état de rebellion de votre Ville! Si les citoyens sont outrés par l'esclavage, il vous faudra soit faire quelque chose, soit en accepter les conséquences!</French>
+		<German>*Revolutions Mod Hint*: Pay attention to the underlying rebellion issues in your city! If the citizens are sick of slavery, you may need to do something about it or accept the consequences!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Presta attenzione ai motivi di rivolta della tua citt&#224;! Se i cittadini sono stanchi della schiavit&#249;, potrebbe essere necessario fare qualcosa al riguardo o accettarne le conseguenze!!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: &#161;Presta atenci&#243;n a los motivos subyacentes de la rebeli&#243;n! Si los ciudadanos est&#225;n hartos de la esclavitud, deber&#237;as hacer algo al respecto ... &#161;o aceptar las consecuencias!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Pay attention to the underlying rebellion issues in your city! If the citizens are sick of slavery, you may need to do something about it or accept the consequences!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_7</Tag>
+		<English>*Revolutions Mod Hint*: Play Revolutions with an experimental mindset. Cause and effect are not necessarily immediately obvious...</English>
+		<French>*Conseil Mod Revolution*: Jouez à Revolutions aec un état d'esprit nouveau : les Causes et les Effets ne sont pas forcément immédiatement évident...</French>
+		<German>*Revolutions Mod Hint*: Play Revolutions with an experimental mindset. Cause and effect are not necessarily immediately obvious...</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Gioca 'Revolutions' con atteggiamento aperto ad ogni esperimento. Causa ed effetto non sono necessariamente quelli che ci si aspetterebbe a prima vista...</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Mant&#233;n la mente abierta cuando juegues a Revolutions. Causa y efecto no tienen por qu&#233; ser inmediatamente obvios</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Play Revolutions with an experimental mindset. Cause and effect are not necessarily immediately obvious...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_8</Tag>
+		<English>*Revolutions Mod Hint*: If you decide to go to war, make sure you have the peoples support! If you have chosen a bad target or get bogged down in the war, the people may drop their support for you!</English>
+		<French>*Conseil Mod Revolution*: Si vous décidez de partir à la Guerre, soyez sûrs d'avoir le soutien du peuple! Si vous choisissez une mauvaise cible ou vous enlisez dans la guerre, le peuple pourrait se retourner contre vous!</French>
+		<German>*Revolutions Mod Hint*: If you decide to go to war, make sure you have the peoples support! If you have chosen a bad target or get bogged down in the war, the people may drop their support for you!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se decidi di andare in guerra, assicurati il consenso popolare! Se hai scelto il bersaglio sbagliato o resti impantanato nella guerra, il popolo potrebbe toglierti il suo sostegno!</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Si decides ir a la guerra, &#161;aseg&#250;rate que la gente te apoya! Si te topas con un hueso duro de roer o quedas enzarzado en una lucha sin avances, &#161;tu pueblo puede decidir retirarte su apoyo!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you decide to go to war, make sure you have the peoples support! If you have chosen a bad target or get bogged down in the war, the people may drop their support for you!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_9</Tag>
+		<English>*Revolutions Mod Hint*: Running a deficit economy for too long, can make the people's approval of you decline. If you destroy the economy, you could well be destroyed!</English>
+		<French>*Conseil Mod Revolution*: Avoir une économie en déficit pendant trop longtemps peut avoir des conséquences néfastes pour votre popularité. Si vous détruisez votre économie, vous risquez d'être vous-même détruit!</French>
+		<German>*Revolutions Mod Hint*: Running a deficit economy for too long, can make the people's approval of you decline. If you destroy the economy, you could well be destroyed!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se l'economia del tuo impero rimane in perdita per troppo tempo, pu&#242; far crollare il consenso popolare. Se distruggi l'economia, potrai essere distrutto a tua volta!</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Aplicar una encomia deficitaria durante largos periodos de tiempo puede hacer que tu popularidad caiga por los suelos. Si destruyes la econom&#237;a, &#161;puede que seas t&#250; lo siguiente en ser destruido!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Running a deficit economy for too long, can make the people's approval of you decline. If you destroy the economy, you could well be destroyed!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_10</Tag>
+		<English>*Revolutions Mod Hint*: Spend a surplus wisely. If you waste it, you may not have the money to buy bribes or pay for civic infrastructure vital to keep the people placid.</English>
+		<French>*Conseil Mod Revolution*: Utilisez votre trésor intelligemment. Si vous le gaspillez, vous pourriez être à cours d'or pour corrompre ou payer des infrastructures vitales pour garder le peuple passif.</French>
+		<German>*Revolutions Mod Hint*: Spend a surplus wisely. If you waste it, you may not have the money to buy bribes or pay for civic infrastructure vital to keep the people placid.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Investi saggiamente i tuoi guadagni. Se li sprechi, resterai senza il denaro per corrompere o per mantenere le infrastrutture essenziali a mantenere tranquillo il popolo.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Gasta tu tesoro sabiamente. Si lo desperdicias, puede que no tengas dinero para sobornar a los ciudadanos o establecer nuevas infraestructuras vitales para mantener a la gente tranquila.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Spend a surplus wisely. If you waste it, you may not have the money to buy bribes or pay for civic infrastructure vital to keep the people placid.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_11</Tag>
+		<English>*Revolutions Mod Hint*: Think of yourself at all times as being a servant of your people. They are your boss, whether you are running a democracy or a dictatorship!</English>
+		<French>*Conseil Mod Revolution*: Considérez-vous toujours comme un serviteur de votre peuple. Ils sont votre patron, que vous soyez en démocratie ou Chef de la Dictature!</French>
+		<German>*Revolutions Mod Hint*: Think of yourself at all times as being a servant of your people. They are your boss, whether you are running a democracy or a dictatorship!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Pensa sempre a te stesso come servitore del tuo popolo. Sono loro il tuo vero capo, sia in democrazia che in dittatura!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Imag&#237;nate siempre como un siervo del pueblo. Ellos son los jefes, &#161;sin importar si eres un dem&#243;crata o un dictador!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Think of yourself at all times as being a servant of your people. They are your boss, whether you are running a democracy or a dictatorship!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_12</Tag>
+		<English>*Revolutions Mod Hint*: In Revolutions, your potential opponent is not just your rival civ, but your own people...</English>
+		<French>*Conseil Mod Revolution*: Dans Révolutions, votre adversaire potentiel n'est pas uniquement une Civ rivale, mais également votre propre peuple...</French>
+		<German>*Revolutions Mod Hint*: In Revolutions, your potential opponent is not just your rival civ, but your own people..</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: In 'Revolutions', il nemico potenziale non &#232; solo una delle civilt&#224; rivali, ma il tuo stesso popolo..</Italian>
+		<Spanish>*Consejos Mod Revolutions *: En Revolutions, tu enemigo potencial no son solo las civilizaciones rivales, sino tambi&#233;n tu propio pueblo...</Spanish>
+		<Finnish>*Revolutions Mod Hint*: In Revolutions, your potential opponent is not just your rival civ, but your own people...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_13</Tag>
+		<English>*Revolutions Mod Hint*: If your overall empire domestic stability is good, the world is your oyster!</English>
+		<French>*Conseil Mod Revolution*: Si la stabilité globale de votre Empire est bonne, le Monde est votre huître!</French>
+		<German>*Revolutions Mod Hint*: If your overall empire domestic stability is good, the world is your oyster!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se la stabilit&#224; del tuo impero &#232; buona, il mondo &#232; il tuo giardino!</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Si la estabilidad general de los asuntos internos de tu impero es buena, &#161;el mundo es tu ostra! (N. del T. Expresi&#243;n inglesa similar a &#161;el mundo est&#225; a tus pies!)</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If your overall empire domestic stability is good, the world is your oyster!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_14</Tag>
+		<English>*Revolutions Mod Hint*: When you have domestic problems, think of what has happened in real history to deal with those problems. It is no different in the game!</English>
+		<French>*Conseil Mod Revolution*: Lorsque vous avez des problèmes internes, pensez à ce qui s'est passé dans l'Histoire pour résoudre ces problèmes. Ce n'est pas différent dans le Jeu!</French>
+		<German>*Revolutions Mod Hint*: When you have domestic problems, think of what has happened in real history to deal with those problems. It is no different in the game!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se hai problemi interni, considera come sono stati gestiti gli stessi problemi nella Storia reale. Non c'&#232; differenza nel gioco!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Cuando tengas problemas internos en tu imperio, piensa en lo que ha ocurrido en la historia real y como se solucion&#243;. &#161;No es muy distinto en el juego!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: When you have domestic problems, think of what has happened in real history to deal with those problems. It is no different in the game!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_15</Tag>
+		<English>*Revolutions Mod Hint*: At some point, underlying rebellion can explode into violence no matter what you do. Be ready with law enforcement troops if needed!</English>
+		<French>*Conseil Mod Revolution*: D'une certaine façon, la rébellion peut parfois exploser de manière violente indépendemment de vos actions. Soyez prêts à renforcer vos armées si nécessaire!</French>
+		<German>*Revolutions Mod Hint*: At some point, underlying rebellion can explode into violence no matter what you do. Be ready with law enforcement troops if needed!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Ad un certo punto, la rivolta pu&#242; scoppiare in violenze, indipendentemente da quello che cerchi di fare! Sii pronto ad usare l'esercito per riportare l'ordine, se occorre!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: En alg&#250;n momento, los fuegos de la revoluci&#243;n pueden explotar desencadenando la violencia, no importa lo que hagas. &#161;Ten preparadas a las tropas para restablecer el orden si es necesario!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: At some point, underlying rebellion can explode into violence no matter what you do. Be ready with law enforcement troops if needed!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_16</Tag>
+		<English>*Revolutions Mod Hint*: If you face a revolt, don't panic. So long as you are not in the middle of a foreign war, you can apply military force on the rebels and gain experience!</English>
+		<French>*Conseil Mod Revolution*: Si vous faites face à une révolte, ne paniquez pas. Dans que vous n'êtes pas impliquez dans une autre Guerre, vous pouvez utiliser vos forces militaires contre les rebelles et gagner de l'expérience!</French>
+		<German>*Revolutions Mod Hint*: If you face a revolt, don't panic. So long as you are not in the middle of a foreign war, you can apply military force on the rebels and gain experience!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se affronti una rivolta, stai calmo. Finch&#233; non ti troverai coinvolto in una guerra con civilt&#224; straniere, puoi usare la tua forza militare contro i ribelli e acquisire esperienza!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si te enfrentas a una revuelta, no pierdas los nervios. Mientras que no te encuentres inmerso en una guerra con otra civilizaci&#243;n, puedes dedicar todos tus recursos militares a aplastar a los rebeldes, &#161;y ganaras experiencia!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you face a revolt, don't panic. So long as you are not in the middle of a foreign war, you can apply military force on the rebels and gain experience!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_17</Tag>
+		<English>*Revolutions Mod Hint*: To protect your unstable cities, make sure you have law enforcement entrenched, and law enforcement units around the city too! Rebels will burn the countryside not just the city!</English>
+		<French>*Conseil Mod Revolution*: Pour protéger vos Villes instables, soyez sûrs d'avoir suffisamment de troupes, à la fois pour la Ville et pour ses alentours! Les Rebelles brûlerons la campagne, pas uniquement la Ville!</French>
+		<German>*Revolutions Mod Hint*: To protect your unstable cities, make sure you have law enforcement entrenched, and law enforcement units around the city too! Rebels will burn the countryside not just the city!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Per proteggere le citt&#224; in rivolta, assicura la presenza di forze militari in citt&#224;, e anche nei dintorni ! I ribelli daranno saboteranno i miglioramenti esterni oltre che la citt&#224;!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Para proteger tus ciudades inestables, aseg&#250;rate que tienes una presencia militar importante en la ciudad, &#161;as&#237; como en los alrededores de la ciudad! Los rebeldes pueden dedicarse a quemar los campos no solo la ciudad.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: To protect your unstable cities, make sure you have law enforcement entrenched, and law enforcement units around the city too! Rebels will burn the countryside not just the city!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_18</Tag>
+		<English>*Revolutions Mod Hint*: If a rebellion emerges, remember that not all rebels are visible. Rebel spies can do damage if you are not prepared...</English>
+		<French>*Conseil Mod Revolution*: Si une rébellion émerge, souvenez-vous que tous les rebelles ne sont pas forcément visibles : des espions peuvent également causer des dommages si vous n'êtes pas préparés...</French>
+		<German>*Revolutions Mod Hint*: If a rebellion emerges, remember that not all rebels are visible. Rebel spies can do damage if you are not prepared...</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se scoppia una rivolta, ricorda che non tutti i ribelli saranno visibili. Spie ribelli potranno far danni, se non sei preparato...</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si aparece una revoluci&#243;n, recuerda que no todos los rebeldes son visibles. Los esp&#237;as rebeldes pueden hacer mucho da&#241;o si no est&#225;s preparado...</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If a rebellion emerges, remember that not all rebels are visible. Rebel spies can do damage if you are not prepared...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_19</Tag>
+		<English>*Revolutions Mod Hint*: If you are overthrown and the citizens demand a new leader, it is not all bad. You will loose control of your empire for a time, but after this time you will have a new and interesting scenario to deal with.</English>
+		<French>*Conseil Mod Revolution*: Si vous êtes renversé et que les citoyens demandent un nouveau Leader, ce n'est pas forcément mauvais. Vous allez perdre le contrôle de votre Empire pour un temps, mais vous allez ensuite avoir un nouveau scénario tout aussi intéressant à mener.</French>
+		<German>*Revolutions Mod Hint*: If you are overthrown and the citizens demand a new leader, it is not all bad. You will loose control of your empire for a time, but after this time you will have a new and interesting scenario to deal with.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se sei spodestato e i cittadini richiedono un nuovo leader, non va tutto male. Perderai il controllo del tuo impero per un po', ma dopo avrai un nuovo ed interessante scenario da affrontare.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si eres derrocado y los ciudadanos demandan un nuevo l&#237;der, no est&#225; todo perdido. Perder&#225;s el control de tu imperio durante un tiempo, pero despu&#233;s de ese tiempo, te estar&#225;s enfrentando a un nuevo e interesante escenario.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you are overthrown and the citizens demand a new leader, it is not all bad. You will loose control of your empire for a time, but after this time you will have a new and interesting scenario to deal with.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_20</Tag>
+		<English>*Revolutions Mod Hint*: Bribing dissidents and city officials can buy you important time to deal with regional discontent!</English>
+		<French>*Conseil Mod Revolution*: Corrompre les dissidents et les politiques peut vous acheter du temps crucial, pour gérer les contentieux régionaux!</French>
+		<German>*Revolutions Mod Hint*: Bribing dissidents and city officials can buy you important time to deal with regional discontent!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Corrompere dissidenti e comandanti cittadini pu&#242; farti guadagnare tempo importante per affrontare il malcontento regionale!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Sobornar a los disidentes y a los oficiales de la ciudad, &#161;puede conseguirte un tiempo precioso para lidiar con el descontento regional!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Bribing dissidents and city officials can buy you important time to deal with regional discontent!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_21</Tag>
+		<English>*Revolutions Mod Hint*: If you decide that you need to deal with rebellion with bribery, remember that your corruption does not go unwatched...</English>
+		<French>*Conseil Mod Revolution*: Si vous décidez de gérer la rébellion par la corruption, souvenez-vous que ces actes ne sont pas invisibles...</French>
+		<German>*Revolutions Mod Hint*: If you decide that you need to deal with rebellion with bribery, remember that your corruption does not go unwatched...</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se decidi di trattare con i ribelli usando il denaro, ricorda che la tua corruzione non passer&#224; inosservata...</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si eliges lidiar con una revuelta por medio de los sobornos, recuerda que la corrupci&#243;n que generes no pasara inadvertida...</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you decide that you need to deal with rebellion with bribery, remember that your corruption does not go unwatched...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_22</Tag>
+		<English>*Revolutions Mod Hint*: Bribery is an important strategic element in advanced Revolutions play.</English>
+		<French>*Conseil Mod Revolution*: La Corruption est un élément stratéqieu important dans le Jeu avec Revolutions.</French>
+		<German>*Revolutions Mod Hint*: Bribery is an important strategic element in advanced Revolutions play.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: La corruzione &#232; un elemento fondamentele di strategia nel gioco avanzato con 'Revolutions'.</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Los sobornos son un importante elemento estrat&#233;gico en el juego avanzado de Revolutions.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Bribery is an important strategic element in advanced Revolutions play.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_23</Tag>
+		<English>*Revolutions Mod Hint*: If you pay out cash to one city in order to keep it quiet, other cities may increase their disloyalty too...unless you pay up to them as well!</English>
+		<French>*Conseil Mod Revolution*: Si vous payez une Ville pour la réduire au silence, les autres Villes pourraient se montrer de moins en moins loyales également...jusqu'à que vous ayez à payer pour toutes!</French>
+		<German>*Revolutions Mod Hint*: If you pay out cash to one city in order to keep it quiet, other cities may increase their disloyalty too...unless you pay up to them as well!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se cominci a pagare una citt&#224; per mantenere la calma, altre citt&#224; potranno aumentare il loro dissenso, fino quando non pagherai anche loro!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si repartes dinero en una ciudad para mantener el orden, otras ciudades podrian incrementar su deslealtad tambien.... &#161;a no ser que les pagues tambien a ellos!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you pay out cash to one city in order to keep it quiet, other cities may increase their disloyalty too...unless you pay up to them as well!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_24</Tag>
+		<English>*Revolutions Mod Hint*: Beware of the Domino Effect...If one city rebels, this can cascade into a regional or empire wide rebellion!</English>
+		<French>*Conseil Mod Revolution*: Attention à l'Effet Domino...Si une Ville se rebelle, cela peut se propager en une rebellion régionale, voire une révolution dans tout l'Empire!</French>
+		<German>*Revolutions Mod Hint*: Beware of the Domino Effect...If one city rebels, this can cascade into a regional or empire wide rebellion!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Attenzione all'Effetto Domino... Se in una citt&#224; scoppia la rivolta, questa si potr&#224; diffondere su scala regionale o anche nazionale!</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Ten cuidado del efecto Domino... Si una ciudad se rebela, puede generar una cascada de rebeliones regionales, &#161;o incluso a lo largo de todo tu imperio!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Beware of the Domino Effect...If one city rebels, this can cascade into a regional or empire wide rebellion!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_25</Tag>
+		<English>*Revolutions Mod Hint*: If a rebel movement has taken control of parts of your empire, do not be frustrated! Patiently wait until the time is right and hit back at the rebellion with your loyal army!</English>
+		<French>*Conseil Mod Revolution*: Si un mouvement de rebellion a pris le contrôle d'une partie de votre Empire, ne soyez pas frustrés! Attendez patiemment le bon moment et frappé cette rebellion avec votre armée loyale!</French>
+		<German>*Revolutions Mod Hint*: If a rebel movement has taken control of parts of your empire, do not be frustrated! Patiently wait until the time is right and hit back at the rebellion with your loyal army!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se un fronte rivoluzionario prende il controllo di una parte del tuo dominio, non essere frustrato! Aspetta pazientemente il momento adatto per colpire la rivolta con il tuo leale esercito!</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Si un movimiento rebelde ha tomado el control de una parte de tu imperio, calma y serenidad. Espera pacientemente al momento oportuno y &#161;aplasta a los rebeldes con la fuerza tu ej&#233;rcito leal!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If a rebel movement has taken control of parts of your empire, do not be frustrated! Patiently wait until the time is right and hit back at the rebellion with your loyal army!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_26</Tag>
+		<English>*Revolutions Mod Hint*: If parts of your empire have broken away under independent rule, make sure their leaders do not side with your enemies!</English>
+		<French>*Conseil Mod Revolution*: Si des parties de votre Empire ont finis par se rendre indépendantes, attention à ce qu'elles ne s'allient pas à vos ennemis!</French>
+		<German>*Revolutions Mod Hint*: If parts of your empire have broken away under independent rule, make sure their leaders do not side with your enemies!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se una parte del tuo impero ha ottenuto l'indipendenza, assicurati che il suo leader non si allei con i tuoi nemici!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si una parte de tu imperio se ha independizado, &#161;aseg&#250;rate al menos que se al&#237;en con tus enemigos!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If parts of your empire have broken away under independent rule, make sure their leaders do not side with your enemies!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_27</Tag>
+		<English>*Revolutions Mod Hint*: The speed of city growth is an important element in controlling the stability of your empire. Grow too big too fast and their will be rogue elements emerging, be sure of that!</English>
+		<French>*Conseil Mod Revolution*: La vitesse de croissance de vos Villes est un élément important dans le contrôle de la stabilité de votre Empire. Croître trop grand ou trop vite peut entraîner à coup sûr des événements de révolte!</French>
+		<German>*Revolutions Mod Hint*: The speed of city growth is an important element in controlling the stability of your empire. Grow too big too fast and their will be rogue elements emerging, be sure of that!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: La velocit&#224; di crescita delle citt&#224; &#232; un elemento fondamentale per la stabilit&#224; del tuo impero. Se crescono troppo e troppo in fretta, si presenteranno i dissidenti, stanne certo!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: La velocidad de crecimiento de las ciudades es una pieza importante a la hora de controlar la estabilidad de tu imperio. Crece demasiado deprisa y habr&#225; disidentes por doquier, &#161;tenlo por seguro!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: The speed of city growth is an important element in controlling the stability of your empire. Grow too big too fast and their will be rogue elements emerging, be sure of that!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_28</Tag>
+		<English>*Revolutions Mod Hint*: The speed of city growth is one important aspect of advanced Revolutions game play. Keep city growth capped if need be, but not too long either!</English>
+		<French>*Conseil Mod Revolution*: La croissance de la ville est un aspect important des jeu avec Revolution. Contrôlez et ralentissez la croissance si nécessaire, mais pas trop longtemps non plus!</French>
+		<German>*Revolutions Mod Hint*: The speed of city growth is one important aspect of advanced Revolutions game play. Keep city growth capped if need be, but not too long either!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: La velocit&#224; di crescita delle citt&#224; &#232; un aspetto importante del gioco avanzato in 'Revolutions'. Se necessario mantienila limitata, ma non per troppo tempo!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: La velocidad de crecimiento de las ciudades es un aspecto importante de una partida avanzada en Revolutions. Mant&#233;n restringido el crecimiento de las ciudades si es necesario, &#161;pero tampoco te pases!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: The speed of city growth is one important aspect of advanced Revolutions game play. Keep city growth capped if need be, but not too long either!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_29</Tag>
+		<English>*Revolutions Mod Hint*: The loyalty of the citizenry is more easily kept in check in a tightly knit well connected empire.</English>
+		<French>*Conseil Mod Revolution*: La loyauté du peuple est assurée plus facilement dans un Empire très uni et bien relié.</French>
+		<German>*Revolutions Mod Hint*: The loyalty of the citizenry is more easily kept in check in a tightly knit well connected empire.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: La fedelt&#224; dei cittadini &#232; pi&#249; facile da tenere sotto controllo in un solido e ben collegato impero.</Italian>
+		<Spanish>*Consejos Mod Revolutions *:La lealtad de la ciudadan&#237;a es m&#225;s f&#225;cil de mantener a raya en un imperio conectado eficientemente.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: The loyalty of the citizenry is more easily kept in check in a tightly knit well connected empire.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_30</Tag>
+		<English>*Revolutions Mod Hint*: Without question, the most difficult aspect of Revolutions management, is the issue of distant settlements and colonies. These need special attention.</English>
+		<French>*Conseil Mod Revolution*: Sans aucun doute, l'aspect le plus difficile dans Revolution est la gestion des Villes distantes et des colonies. Elles nécessitent une attention toute particulière.</French>
+		<German>*Revolutions Mod Hint*: Without question, the most difficult aspect of Revolutions management, is the issue of distant settlements and colonies. These need special attention.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Senza dubbio, l'aspetto pi&#249; difficile in 'Revolutions', &#232; la gestione di colonie ed insediamenti lontani. Questi hanno bisogno di un'attenzione speciale.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Sin lugar a dudas, el aspecto m&#225;s complicado a manejar en Revolutions, es el tema de los asentamientos lejanos y las colonias. Van a necesitar constante atenci&#243;n y cuidado.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Without question, the most difficult aspect of Revolutions management, is the issue of distant settlements and colonies. These need special attention.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_31</Tag>
+		<English>*Revolutions Mod Hint*: It is a common misconception that you cannot expand into a mighty global empire under Revolutions. You can! You just have to do it right!</English>
+		<French>*Conseil Mod Revolution*: C'est une erreur fréquente de croire qu'il n'est pas possible de gérer un vaste Empire avec 'Revolution'. C'est possible! il faut juste le faire bien!</French>
+		<German>*Revolutions Mod Hint*: It is a common misconception that you cannot expand into a mighty global empire under Revolutions. You can! You just have to do it right!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: E' un equivoco diffuso che non sia possibile espandere un potente impero mondiale in 'Revolutions'. Si pu&#242;! Devi solo farlo bene!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Es un error muy com&#250;n pensar que no puedes expandirte y formar un vasto imperio global en Revolutions. &#161;Si que puedes! Solo que tienes que hacerlo muy bien.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: It is a common misconception that you cannot expand into a mighty global empire under Revolutions. You can! You just have to do it right!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_32</Tag>
+		<English>*Revolutions Mod Hint*: War gathers it's own momentum, not just in conquest, but in the approval of your citizens. Keep it rolling with rewards for them, and they will support you!</English>
+		<French>*Conseil Mod Revolution*: La Guerre peut générer son propre élan, pas uniquement par la conquête, mais aussi dans l'approbation de vos citoyens. Continuez à leur Offrir des récompenses, et ils vous soutiendront!</French>
+		<German>*Revolutions Mod Hint*: War gathers it's own momentum, not just in conquest, but in the approval of your citizens. Keep it rolling with rewards for them, and they will support you!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: La guerra guadagna impulso, non solo con la conquista ma anche con l'approvazione dei cittadini. Distribuisci il bottino e loro ti daranno il loro supporto!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: La guerra tiene su propio ritmo, no solo en la conquista, sino tambi&#233;n en la aprobaci&#243;n de la poblaci&#243;n. Ofr&#233;celes las mieles del triunfo, &#161;y ellos continuaran apoy&#225;ndote!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: War gathers it's own momentum, not just in conquest, but in the approval of your citizens. Keep it rolling with rewards for them, and they will support you!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_33</Tag>
+		<English>*Revolutions Mod Hint*: Religion plays a huge role in the stability of your society. Try to run your civics to match the religious needs of your society.</English>
+		<French>*Conseil Mod Revolution*: La Religion joue une role très important dans la stabilité de votre société. Essayez d'adapter vos Doctrines pour vous adapter aux besoins de votre société.</French>
+		<German>*Revolutions Mod Hint*: Religion plays a huge role in the stability of your society. Try to run your civics to match the religious needs of your society.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: La religione svolge un ruolo enorme nella stabilit&#224; del tuo impero. Scegli forme di governo che vengano incontro alle esigenze religiose della tua societ&#224;.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: La religi&#243;n juega un papel muy importante en la estabilidad de tu sociedad. Intenta ajustar los principios a las necesidades religiosas de tu sociedad.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Religion plays a huge role in the stability of your society. Try to run your civics to match the religious needs of your society.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_34</Tag>
+		<English>*Revolutions Mod Hint*: If you are faced with an empire with many different faiths, fear not! So long as you don't attempt to run a theocracy or organised religious state, the people may really respect you!</English>
+		<French>*Conseil Mod Revolution*: Si vous devez gérer un empire avec des croyances différentes, ne prenez pas peur! Tant que vous n'essayez pas de gouverner en Théocracie ou avec une religion d'état, le peuple peut très bien vous respecter!</French>
+		<German>*Revolutions Mod Hint*: If you are faced with an empire with many different faiths, fear not! So long as you don't attempt to run a theocracy or organised religious state, the people may really respect you!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se ti confronti con un impero con varie fedi diverse, non temere! Finch&#233; non scegli la 'Teocrazia' o la 'Religione Organizzata', il popolo potr&#224; veramente rispettarti !</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si encuentras de repente que tu imperio tiene distintas fes, &#161;no temas! Mientras que no intentes imponer la Teocracia o la Religi&#243;n Organizada, &#161;el pueblo te respetara!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you are faced with an empire with many different faiths, fear not! So long as you don't attempt to run a theocracy or organised religious state, the people may really respect you!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_35</Tag>
+		<English>*Revolutions Mod Hint*: If you want religious purity in your empire, do it wisely but be extra vigilant to non-state religions taking hold!</English>
+		<French>*Conseil Mod Revolution*: Si vous voulez une pureté religieuse au sein de votre Empire, soyez très vigilant aux religions non officielles qui voudraient s'y implanter!</French>
+		<German>*Revolutions Mod Hint*: If you want religious purity in your empire, do it wisely but be extra vigilant to non-state religions taking hold!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se desideri la purezza religiosa nel tuo impero, fallo con saggezza, ma sii molto vigili per non far sviluppare religioni non di Stato!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si pretendes la pureza religiosa en tu imperio, hazlo sabiamente pero mantente siempre alerta y vigila que las religiones no oficiales no asiente un pie en tu imperio.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you want religious purity in your empire, do it wisely but be extra vigilant to non-state religions taking hold!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_36</Tag>
+		<English>*Revolutions Mod Hint*: Without question, the management of holy city sites is one of the biggest challenges in Revolutions.</English>
+		<French>*Conseil Mod Revolution*: Sans aucun doute, la gestion des Lieux sacrés de vos Villes est un des plus grands challenges de Revolutions.</French>
+		<German>*Revolutions Mod Hint*: Without question, the management of holy city sites is one of the biggest challenges in Revolutions.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Senza dubbio, la gestione delle Citt&#224; Sante &#232; una delle maggiori sfide in 'Revolutions'.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Sin lugar a dudas, la administraci&#243;n de las Ciudades Santas es uno de los mayores retos en Revolutions.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Without question, the management of holy city sites is one of the biggest challenges in Revolutions.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_37</Tag>
+		<English>*Revolutions Mod Hint*: Under Revolutions you can hold firm more than one holy city in your empire. Two holy cities is fine, the challenge accumulates as the number of holy sites increase!</English>
+		<French>*Conseil Mod Revolution*: Avec Revolutions vous pouvez tenir plus d'une Ville Sainte dans votre Empire. Deux Villes Saintes c'est bien, le Challenge commence lorsque vous accumulez les villes Saintes!</French>
+		<German>*Revolutions Mod Hint*: Under Revolutions you can hold firm more than one holy city in your empire. Two holy cities is fine, the challenge accumulates as the number of holy sites increase!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: In 'Revolutions' puoi controllare pi&#249; di una Citt&#224; Santa nel tuo impero. Con due tutto andr&#224; bene, la sfida sar&#224; pi&#249; difficile con l'aumento delle Citt&#224; Sante!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: En Revolutions pues albergar a mas de una Ciudad Santa en tu imperio. Dos ciudades santas estan biem, &#161;pero el reto se incrementa segun va creciendo el numero de ciudades santas!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Under Revolutions you can hold firm more than one holy city in your empire. Two holy cities is fine, the challenge accumulates as the number of holy sites increase!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_38</Tag>
+		<English>*Revolutions Mod Hint*: The tools you have to manage Revolutions are many. Civics, culture, surplus cash, infrastructure, wonders, military, luxuries, war success are but a few.</English>
+		<French>*Conseil Mod Revolution*: Les Outils pour gérer Revolutions sont nombeux : Doctrines, Culture, Or, Infrastructures, Merveilles, Armée, Ressources de Luxe en font partie.</French>
+		<German>*Revolutions Mod Hint*: The tools you have to manage Revolutions are many. Civics, culture, surplus cash, infrastructure, wonders, military, luxuries, war success are but a few.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Gli strumenti per controllare le rivolte sono tanti. Forme di governo, cultura, denaro, infrastrutture, Meraviglie, esercito, beni di lusso, vittorie militari, sono solo alcuni.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Las herramientas de las que dispones para manejar las revoluciones son muchas y diversas. Principios, cultura, maletines de dinero, infraestructuras, art&#237;culos de lujo y victorias militares son tan solo un peque&#241;o ejemplo de ellas.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: The tools you have to manage Revolutions are many. Civics, culture, surplus cash, infrastructure, wonders, military, luxuries, war success are but a few.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_39</Tag>
+		<English>*Revolutions Mod Hint*: It is a common misconception that Revolutions fundamentally changes the basic game play. It does not. It merely adds another strategic layer upon the game, the management of your people...</English>
+		<French>*Conseil Mod Revolution*: C'est une erreur de penser que Revolutions change complètement le mécanisme du jeu. Ce n'est pas le cas. Il ajoute simplement un élément stratégique supplémentaire, la gestion de votre peuple...</French>
+		<German>*Revolutions Mod Hint*: It is a common misconception that Revolutions fundamentally changes the basic game play. It does not. It merely adds another strategic layer upon the game, the management of your people...</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: E' un equivoco diffuso che 'Revolutions' modifichi sostanzialmente i meccanismi di gioco. No. Aggiunge al gioco solo un altro livello strategico, la gestione del tuo popolo ...</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Es un error frecuenta pensar que Revolutions cambia fundamentalmente los mecanismos de juego. No lo hace. Tan solo a&#241;ade una capa m&#225;s a la estrategia del juego, la gesti&#243;n de tus gentes...</Spanish>
+		<Finnish>*Revolutions Mod Hint*: It is a common misconception that Revolutions fundamentally changes the basic game play. It does not. It merely adds another strategic layer upon the game, the management of your people...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_40</Tag>
+		<English>*Revolutions Mod Hint*: Keep in mind the distinction between the general apathetic citizenry who are dictated by happiness and health, from the dissident minorities that have their own agendas.</English>
+		<French>*Conseil Mod Revolution*: Gardez à l'esprit la différense entre l'apathie de la majorité des citoyens dictée par le moral et la santé, et les minorités dissidentes qui ont leur propres agendas.</French>
+		<German>*Revolutions Mod Hint*: Keep in mind the distinction between the general apathetic citizenry who are dictated by happiness and health, from the dissident minorities that have their own agendas.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Tieni presente la differenza tra i comuni cittadini che sono influenzati da felicit&#224; e salute, e le minoranze dissidenti che hanno le proprie priorit&#224;.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Ten presente la diferencia entre los ciudadanos de a pie que se sienten influenciados por la felicidad y la salubridad, y aquellas minor&#237;as disidentes que poseen su propia agenda.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Keep in mind the distinction between the general apathetic citizenry who are dictated by happiness and health, from the dissident minorities that have their own agendas.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_41</Tag>
+		<English>*Revolutions Mod Hint*: A city may appear to be happy, but this may only be a surface manifestation. If their are many foreign nationals, the desire for independence by force can emerge anyway!</English>
+		<French>*Conseil Mod Revolution*: Un Ville peut paraître heureuse, mais c'est uniquement une manifestation en surface. S'il y a beaucoup de nationalités étrangères, le désir d'indépendance par la force peut tout de même émerger!</French>
+		<German>*Revolutions Mod Hint*: A city may appear to be happy, but this may only be a surface manifestation. If their are many foreign nationals, the desire for independence by force can emerge anyway!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Una citt&#224; pu&#242; sembrare felice, ma questa potrebbe essere solo apparenza. Se ci sono molti cittadini stranieri, pu&#242; emergere un desiderio di indipendenza, anche con la forza!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Una ciudad puede parecer contenta, pero esto es solo la punta del iceberg. Si hay muchas nacionalidades extranjeras, el deseo de independencia  por la fuerza aparecer&#225; tarde o temprano.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: A city may appear to be happy, but this may only be a surface manifestation. If their are many foreign nationals, the desire for independence by force can emerge anyway!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_42</Tag>
+		<English>*Revolutions Mod Hint*: Distant settlements need special attention. Give them extras like cultural assets, defence assets and military support to ensure that you are looking after them!</English>
+		<French>*Conseil Mod Revolution*: Les Villes Distantes ont besion d'attention spéciale. Donnez-leur des extras comme des éléments culturels, défensifs, et le soutien militaire nécesssaire pour leur assurer que vous les considérez!</French>
+		<German>*Revolutions Mod Hint*: Distant settlements need special attention. Give them extras like cultural assets, defence assets and military support to ensure that you are looking after them!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Insediamenti lontani devno essere seguiti con attenzione. Sviluppa per loro infrastrutture culturali e militari aggiuntive, per convincerli che ti prendi cura di loro!</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Los asentamientos lejanos necesitan una especial atenci&#243;n. Proporcionales comodidades como infraestructuras culturales o soporte militar... &#161; para que sea palpable que te preocupas por ellos!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Distant settlements need special attention. Give them extras like cultural assets, defence assets and military support to ensure that you are looking after them!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_43</Tag>
+		<English>*Revolutions Mod Hint*: Your citizens like constant improvements to their circumstances. Stagnation is your biggest enemy, not the people!</English>
+		<French>*Conseil Mod Revolution*: Vos citoyens aiment l'amélioration constante de leur quotidien. La Stagnation est votre pire ennemi, pas le peuple!</French>
+		<German>*Revolutions Mod Hint*: Your citizens like constant improvements to their circumstances. Stagnation is your biggest enemy, not the people!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: I cittadini apprezzano miglioramenti costanti alla loro situazione. Il tuo peggior nemico &#232; la mancanza di sviluppo, non il popolo!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: A tus ciudadanos les encantan la constante mejora de su situaci&#243;n. El estancamiento es tu peor enemigo, &#161;no el pueblo!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Your citizens like constant improvements to their circumstances. Stagnation is your biggest enemy, not the people!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_44</Tag>
+		<English>*Revolutions Mod Hint*:In big empires, it is often better to let a city or even a region break away. The break always may be weak and exploitable.</English>
+		<French>*Conseil Mod Revolution*:Dans le Grand Empire, il est souvent mieux de laisser une ville ou région accéder à l'indépendance. Ces dissidents sont souvent faibles et exploitables.</French>
+		<German>*Revolutions Mod Hint*:In big empires, it is often better to let a city or even a region break away. The break always may be weak and exploitable.</German>
+		<Italian>*Revolutions Mod Hint*:In vasti imperi, spesso &#232; meglio separarsi da una citt&#224; o anche da una regione. La regione separata pu&#242; essere debole e attaccabile.</Italian>
+		<Spanish>*Consejos Mod Revolutions *:En grandes imperios, a veces es mejor dar la independencia a una ciudad o incluso a una regi&#243;n. El nuevo estado siempre ser&#225; d&#233;bil y explotable.</Spanish>
+		<Finnish>*Revolutions Mod Hint*:In big empires, it is often better to let a city or even a region break away. The break always may be weak and exploitable.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_45</Tag>
+		<English>*Revolutions Mod Hint*: In Revolutions, you may think that it is the end for a leader and a nation if they are defeated. But it may not be! Leaders will go underground and re-emerge rather than be destroyed for all time.</English>
+		<French>*Conseil Mod Revolution*: Dans Revolutions, vous pouvez penser que c'est la fin lorsqu'un leader ou une nation a été défaite. Ce n'est pas le cas! les Leaders vont se fondre dans l'ombre quelque temps et émerger à nouveau plutôt que d'être détruits pour toujours.</French>
+		<German>*Revolutions Mod Hint*: In Revolutions, you may think that it is the end for a leader and nation if they are defeated. But it may not be! Leaders will go underground and re-emerge rather than be destroyed for all time.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: In 'Revolutions', potresti pensare che la sconfitta rappresenta la fine di un leader e della sua nazione. Non sempre! I leader andranno in clandestinit&#224; e potranno anche ripresentarsi, senza essere distrutti per sempre.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: En Revolutions, podr&#237;as llegar a pensar que la derrota es el final de una civilizaci&#243;n y su l&#237;der. &#161;Pero puede que no! Sus l&#237;deres podr&#237;an esconderse y emerger de nuevo pasado un tiempo en vez de ser destruidos por el fin de los d&#237;as.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: In Revolutions, you may think that it is the end for a leader and a nation if they are defeated. But it may not be! Leaders will go underground and re-emerge rather than be destroyed for all time.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_46</Tag>
+		<English>*Revolutions Mod Hint*: If you want to conquest an enemy, make sure you get every last one of them! Even a single remainder can re-emerge as a resistance movement!</English>
+		<French>*Conseil Mod Revolution*: Si vous voulez conquérir un ennemi, soyez sûrs vous l'avez eu jusqu'au dernier! Parfois, un seul survivant peut faire réapparaître en mouvement de résistance!</French>
+		<German>*Revolutions Mod Hint*: If you want to conquest an enemy, make sure you get every last one of them! Even a single remainder can re-emerge as a resistance movement!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se vuoi conquistare un nemico, devi essere certo di eliminarne tutte le unit&#224;! Anche da un piccolo residuo pu&#242; riemergere un movimento di resistenza!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si quieres conquistar a un enemigo, aseg&#250;rate de que acabas con todos ellos. Un solo recordatorio de su civilizaci&#243;n y &#161;puedes encontrarte lidiando con un movimiento de resistencia!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you want to conquest an enemy, make sure you get every last one of them! Even a single remainder can re-emerge as a resistance movement!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_47</Tag>
+		<English>*Revolutions Mod Hint*: A cultural victory strategy has a spin off in Revolutions. The people will love you and you may wait for rival super powers to implode...</English>
+		<French>*Conseil Mod Revolution*: La Stratégie de Victoire culturelle a un avantage dans Revolutions. Le Peuple va vous adorer et vous pouvez toujours attendre les 'Super pouvoirs' de vos rivaux pour faire imploser votre Empire...</French>
+		<German>*Revolutions Mod Hint*: A cultural victory strategy has a spin off in Revolutions. The people will love you and you may wait for rival super powers to implode...</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Una strategia per la vittoria culturale in 'Revolutions' porta anche ad un altro scenario. Il popolo ti amer&#224; e potrai attendere la caduta delle superpotenze rivali...</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Conseguir la victoria cultural en Revolutions puede tener un interesante escenario. Deja a la gente que te adore y espera a que las s&#250;per potencias rivales implosionen bajo su propio peso...</Spanish>
+		<Finnish>*Revolutions Mod Hint*: A cultural victory strategy has a spin off in Revolutions. The people will love you and you may wait for rival super powers to implode...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_48</Tag>
+		<English>*Revolutions Mod Hint*: If word spreads that an empire has collapsed into anarchy and rebellion, try to exploit it. These foreign citizens can be won over to your cause more easily than if you were to conquest that empire.</English>
+		<French>*Conseil Mod Revolution*: Si vous entendez des rumeurs d'un Empire en train de s'effondrer dans l'anarchie et la rebellion, essayez de l'exploiter. Ces étrangers peuvent être gagnés à votre cuse plus facilement que la conquête d'un Empire uni.</French>
+		<German>*Revolutions Mod Hint*: If word spreads that an empire has collapsed into anarchy and rebellion, try to exploit it. These foreign can be won over to your cause more easily than if you were to conquest that empire.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se ti giunge voce che un impero &#232; sprofondato in anarchia e rivolta, cerca di attaccarlo. E' pi&#249; facile guadagnare il supporto di questi popoli in rivolta che conquistare l'impero organizzato.</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Si se extiende el rumor de que un imperio ha ca&#237;do en la anarqu&#237;a y la revoluci&#243;n, intenta sacar taja de ello. Los ciudadanos extranjeros podr&#237;an ser camelados a tu causa m&#225;s f&#225;cilmente que si tuvieras que conquistar ese imperio al completo.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If word spreads that an empire has collapsed into anarchy and rebellion, try to exploit it. These foreign citizens can be won over to your cause more easily than if you were to conquest that empire.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_49</Tag>
+		<English>*Revolutions Mod Hint*: Without question, capturing cities and holding them is more difficult in Revolutions. Military strategy must always keep in mind long term domestic stability of newly acquired territories.</English>
+		<French>*Conseil Mod Revolution*: Sans aucun doute, capturer des Villes et le conserver est plus difficile dans Revolutions. A la stratégie militaire doit toujours être associée une volonté de prendre en compte à long terme la stabilité des territoires nouvellement acquis.</French>
+		<German>*Revolutions Mod Hint*: Without question, capturing cities and holding them is more difficult in Revolutions. Military strategy must always keep in mind long term domestic stability of newly acquired territories.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Certamente, catturare e mantenere citt&#224; &#232; pi&#249; difficile in 'Revolutions'. La strategia militare deve tenere conto della stabilit&#224; interna a lungo termine dei territori appena conquistati.</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Sin lugar a dudas, capturar ciudades y mantenerlas es mucho m&#225;s dif&#237;cil en Revolutions. La estrategia militar siempre debe tener presente la estabilidad interna a largo plazo de los nuevos territorios conquistados.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Without question, capturing cities and holding them is more difficult in Revolutions. Military strategy must always keep in mind long term domestic stability of newly acquired territories.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_50</Tag>
+		<English>*Revolutions Mod Hint*: A long term unstable settlement along way from home is not a bad thing. So long as there is strong military presence, medium term cycles of anarchy are manageable.</English>
+		<French>*Conseil Mod Revolution*: Une Ville Distante régulièrement instable n'est pas forcément une mauvaise chose. Tant qu'il y a une présence militaire importante, des cycles moyens d'anrachie sont 'gérables'.</French>
+		<German>*Revolutions Mod Hint*: A long term unstable settlement along way from home is not a bad thing. So long as there is strong military presence, medium term cycles of anarchy are manageable.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: L'instabilit&#224; perdurante di un insediamento lontano non &#232; una cosa negativa. Finch&#233; vi &#232; una forte presenza militare, brevi periodi di anarchia sono gestibili.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Un asentamiento lejano e inestable no es una cosa negativa. Mientras mantenga una fuerza militar considerable, breves periodos de anarqu&#237;a intermitente son manejables.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: A long term unstable settlement along way from home is not a bad thing. So long as there is strong military presence, medium term cycles of anarchy are manageable.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_51</Tag>
+		<English>*Revolutions Mod Hint*: Distant holy city sites are always going to be tricky to hold unless you concede at least in part, to the faith of that city.</English>
+		<French>*Conseil Mod Revolution*: Une Ville Sainte Distante va être toujours parituclièrement difficile à maintenir, sauf si vous concédez au moins un point, la foi dans cette ville.</French>
+		<German>*Revolutions Mod Hint*: Distant holy city sites are always going to be tricky to hold unless you concede at least in part, to the faith of that city.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Una Citt&#224; Santa lontana dalla capitale sar&#224; difficile da mantenere, a meno che non ne ammetterai la fede - almeno in parte.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Las Ciudades Santas lejanas siempre van a ser un poco dif&#237;ciles de mantener a menos que permitas un poco al menos, la fe de esa ciudad.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Distant holy city sites are always going to be tricky to hold unless you concede at least in part, to the faith of that city.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_52</Tag>
+		<English>*Barbarian Civ Hint*: It is not always wise to eliminate every last barbarian city before they evolve into minor civs. You may need trading partners!</English>
+		<French>*Conseil Civ. Barbare*: Ce n'est pas toujours le meilleur choix d'éliminer les villes barbares pour les empêcher d'évoluer en civilisations mineures. Vous aurez peut-être besoin de partenaires pour le commerce!</French>
+		<German>*Barbarian Civ Hint*: It is not always wise to eliminate every last barbarian city before they evolve into minor civs. You may need trading partners!</German>
+		<Italian>*Suggerimento da 'Barbarian Civ'*: Non &#232; sempre saggio eliminare fino all' ultima citt&#224; barbarica, prima che si evolva in civilt&#224; minori. Potresti avere bisogno di partner commerciali!</Italian>
+		<Spanish>*Barbarian Civ Hint*:No siempre es buena idea eliminar toda ciudad b&#225;rbara antes de que evolucionen en civilizaciones menores. &#161;Puedes llegar a necesitar socios comerciales!</Spanish>
+		<Finnish>*Barbarian Civ Hint*: It is not always wise to eliminate every last barbarian city before they evolve into minor civs. You may need trading partners!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_53</Tag>
+		<English>*Barbarian Civ Hint*: Start a game with only yourself! Competitors will emerge. Just make sure you turn off conquest and domination victory conditions!</English>
+		<French>*Conseil Civ. Barbare*: Démarrez une partie tout seul! Les adversaires viendront progressivement. Il faut juste désactiver alors les victoires par conquête ou domination!</French>
+		<German>*Barbarian Civ Hint*: Start a game with only yourself! Competitors will emerge. Just make sure you turn off conquest and domination victory conditions!</German>
+		<Italian>*Suggerimento da 'Barbarian Civ'*: Puoi iniziare una partita con solo te, come giocatore! I tuoi rivali compariranno. Solo fa' in modo togliere 'Conquista' e 'Dominazione' dalle condizioni di vittoria!</Italian>
+		<Spanish>*Barbarian Civ Hint*: &#161;Comienza una partida tu solo como jugador! Los rivales ir&#225;n apareciendo. Aseg&#250;rate que desactivas las victorias por Conquista y Dominaci&#243;n previamente.</Spanish>
+		<Finnish>*Barbarian Civ Hint*: Start a game with only yourself! Competitors will emerge. Just make sure you turn off conquest and domination victory conditions!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_54</Tag>
+		<English>*Barbarian Civ Hint*: If a barbarian city emerges as a minor civilization, don't despair. Farm them accordingly and pounce on them if they are weak, for more rewards than if they had remained as barbarians!</English>
+		<French>*Conseil Civ. Barbare*: Si une Ville barbare évolue en civilisation mineure, ne soyez pas désespéré. Accueillez-les et exploitez-les s'ils sont faibles. Cela vous rapportera plus que s'ils étaient resté barbares!</French>
+		<German>*Barbarian Civ Hint*: If a barbarian city emerges as a minor civilization, don't despair. Farm them accordingly and pounce on them if they are weak, for more rewards than if they had remained as barbarians!</German>
+		<Italian>*Suggerimento da 'Barbarian Civ'*: Se una citt&#224; barbarica si evolve in una Civilt&#224; Minore, non disperare. Saccheggiali di conseguenza e attaccali se sono deboli, con un bottino maggiore di quello ricavato se fossero rimasti barbari!</Italian>
+		<Spanish>*Barbarian Civ Hint*: Si una ciudad b&#225;rbara se convierte de civilizaci&#243;n menor, no desesperes. Cos&#233;chala adecuadamente y abal&#225;nzate sobre ellos si son d&#233;biles, consiguiendo m&#225;s beneficios que si hubieran permanecido como barbaros.</Spanish>
+		<Finnish>*Barbarian Civ Hint*: If a barbarian city emerges as a minor civilization, don't despair. Farm them accordingly and pounce on them if they are weak, for more rewards than if they had remained as barbarians!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_55</Tag>
+		<English>*Barbarian Civ Hint*: Barbarians evolve into minor civilizations. Minor civilizations evolve into full blooded civilizations. At each stage, they get stronger, economically and militarily.</English>
+		<French>*Conseil Civ. Barbare*: Les Barbares évoluent en civilisations mineurs, puis en vraies Civilisations. A chaque étapes, il deviennent plus forts, économiquement et militairement.</French>
+		<German>*Barbarian Civ Hint*: Barbarians evolve into minor civilizations. Minor civilizations evolve into full blooded civilizations. At each stage, they get stronger, economically and militarily.</German>
+		<Italian>*MOD Barbarian Civ Hint*: I Barbari si evolvono in Civilt&#224; Minori. Civilt&#224; Minori si evolvono in vere Civilt&#224;. Ad ogni passaggio, diventano sempre pi&#249; forti economicamente e militarmente.</Italian>
+		<Spanish>*Barbarian Civ Hint*: Las ciudades b&#225;rbaras evolucionan en civilizaciones menores. Las civilizaciones menores evolucionan a civilizaciones completas. En cada fase, se vuelven m&#225;s fuertes, econ&#243;mica y militarmente.</Spanish>
+		<Finnish>*Barbarian Civ Hint*: Barbarians evolve into minor civilizations. Minor civilizations evolve into full blooded civilizations. At each stage, they get stronger, economically and militarily.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_56</Tag>
+		<English>*Barbarian Civ Hint*: If you are all alone on a continent, encourage not just one minor nation to emerge, but at least a third. You may need to trade in a tri-pact relationship. Binary pacts rarely work.</English>
+		<French>*Conseil Civ. Barbare*: Si vous êtes seuls sur un continent, n'encouragez pas juste l'émergence d'une seule nation mineure, mais au moins deux. Les relations binaires ne marchent que rarement.</French>
+		<German>*Barbarian Civ Hint*: If you are all alone on a continent, encourage not just one minor nation to emerge, but at least a third. You may need to trade in tri-pact relationship. Binary pacts rarely work.</German>
+		<Italian>*Suggerimento da 'Barbarian Civ'*: Se sei solo in un continente, spingi per la formazione non di una sola nazione minore, ma almeno di un'altra. Potresti aver bisogno di scambi triangolari. Raramente i patti a due funzionano.</Italian>
+		<Spanish>*Barbarian Civ Hint*: Si te encuentras solo en un continente, deja al menos a un par de ciudades b&#225;rbaras que evolucionen en civilizaciones. Puedes necesitar que el comercio se desarrolle a tres bandas. Los pactos entre dos dif&#237;cilmente funcionaran.</Spanish>
+		<Finnish>*Barbarian Civ Hint*: If you are all alone on a continent, encourage not just one minor nation to emerge, but at least a third. You may need to trade in tri-pact relationship. Binary pacts rarely work.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_57</Tag>
+		<English>*Barbarian Civ Hint*: If a minor civ emerges in your region, be warned that your outlying settlements may begin to become more loyal to them, not you!</English>
+		<French>*Conseil Civ. Barbare*: Si une Civ mineure émerge dans votre région, il y a un risque pour que vos Villes aux frontières deviennent plus loyales envers eux!</French>
+		<German>*Barbarian Civ Hint*: If a minor civ emerges in your region, be warned that your outlying settlements may begin to become more loyal to them, not you!</German>
+		<Italian>*Suggerimento da 'Barbarian Civ'*: Se una Civilt&#224; Minore appare nella tua regione, attento: i tuoi insediamenti periferici possono cominciare a diventare pi&#249; fedeli ad essa!</Italian>
+		<Spanish>*Barbarian Civ Hint*: Si una civilizaci&#243;n menor aparece en tu regi&#243;n, estate preparado ya que tus ciudades perif&#233;ricas pueden empezar a ser m&#225;s leales hacia ella.</Spanish>
+		<Finnish>*Barbarian Civ Hint*: If a minor civ emerges in your region, be warned that your outlying settlements may begin to become more loyal to them, not you!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_58</Tag>
+		<English>*Barbarian Civ Hint*: The emergence of minor civs with capable armies may appear unfair, but remember that they need something to ensure a chance of long term survival.</English>
+		<French>*Conseil Civ. Barbare*: L'émergence de civilisation mineures avec une puissante armée peut apparaître injuste, mais noubliez-pas qu'il leur faut un minimum pour avoir une chance de survie à long terme.</French>
+		<German>*Barbarian Civ Hint*: The emergence of minor civs with capable armies may appear unfair, but remember that they need something to ensure a chance of long term survival.</German>
+		<Italian>*Suggerimento da 'Barbarian Civ'*: La nascita di Civilt&#224; Minori con forze militari pu&#242; sembrare ingiusta, ma ricorda che hanno bisogno di qualcosa che garantisca loro la possibilit&#224; di una lunga sopravvivenza.</Italian>
+		<Spanish>*Barbarian Civ Hint*: La aparici&#243;n de civilizaciones menores con ej&#233;rcitos listos para el combate puede parecer injusto y desproporcionado, pero recuerda que necesitan algo para asegurar la supervivencia a largo plazo.</Spanish>
+		<Finnish>*Barbarian Civ Hint*: The emergence of minor civs with capable armies may appear unfair, but remember that they need something to ensure a chance of long term survival.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_59</Tag>
+		<English>*Barbarian Civ Hint*: A minor civ does all the things a full civ does, but is more primitive in sophistication. A minor civ is insular and will not talk with you for example.</English>
+		<French>*Conseil Civ. Barbare*: Une Civilisation mineure fait la même chose qu'une Civilisation normale, mais de manière plus primitive. Elle est plus réservé et ne va pas vnir vous parler par exemple.</French>
+		<German>*Barbarian Civ Hint*: A minor civ does all the things a full civ does, but is more primitive in sophistication. A minor civ is insular and will not talk with you for example.</German>
+		<Italian>*Suggerimento da 'Barbarian Civ'*: Una Civilt&#224; Minore fa tutto quello che fa una Civilt&#224; completa, ma &#232; pi&#249; primitiva. Ad esempio una Civilt&#224; Minore &#232; insulare e non comunicher&#224; con te.</Italian>
+		<Spanish>*Barbarian Civ Hint*:Una civilizaci&#243;n menor hace todas las cosas que una civilizaci&#243;n completa, pero es m&#225;s primitiva en sofisticaci&#243;n. Una civilizaci&#243;n menor es insular y no hablara contigo, por ejemplo.</Spanish>
+		<Finnish>*Barbarian Civ Hint*: A minor civ does all the things a full civ does, but is more primitive in sophistication. A minor civ is insular and will not talk with you for example.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_60</Tag>
+		<English>*Barbarian Civ Hint*: Yes it is irritating if a minor civ settles vast fields of wild dye, leaving you without!</English>
+		<French>*Conseil Civ. Barbare*: Oui, c'est irritant, lorsqu'une civilisation mineure s'établit, de vastes étendues de nature sauvage disparaîssent sous vos yeux!</French>
+		<German>*Barbarian Civ Hint*: Yes it is irritating if a minor civ settles vast fields of wild dye, leaving you without!</German>
+		<Italian>*Suggerimento da 'Barbarian Civ'*: S&#236;, &#232; irritante se un una Civilt&#224; Minore riesce a prendere il controllo di una risorsa, lasciando te senza!</Italian>
+		<Spanish>*Barbarian Civ Hint*:Si, es irritante si una civilizaci&#243;n menor se asienta sobre vasto campos de tintura, &#161;dej&#225;ndote a ti sin ello!</Spanish>
+		<Finnish>*Barbarian Civ Hint*: Yes it is irritating if a minor civ settles vast fields of wild dye, leaving you without!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_61</Tag>
+		<English>*Barbarian Civ Hint*: New world maps are great. The old world you are on will one day discover a fully viable new world that has evolved of itself.</English>
+		<French>*Conseil Civ. Barbare*: Les Cartes avec un 'nouveau monde' sont intéressantes. L'ancien monde dans lequel vous êtes va un jour découvrir un nouveau monde viable qui a évolué tout seul.</French>
+		<German>*Barbarian Civ Hint*: New world maps are great. The old world you are on will one day discover a fully viable new world that has evolved of itself.</German>
+		<Italian>*MOD Barbarian Civ Hint*: Le mappe con il 'Nuovo Mondo' sono grandi. Il 'Vecchio Mondo', nel quale ti trovi, un giorno scoprir&#224; un 'Nuovo Mondo' completamente attivo, che si &#232; evoluto da solo.</Italian>
+		<Spanish>*Barbarian Civ Hint*: Los mapas del Nuevo Mundo son grandes. El Viejo Mundo en el que est&#225;s un d&#237;a descubrir&#225; un Nuevo Mundo completamente viable que ha evolucionado por s&#237; solo.</Spanish>
+		<Finnish>*Barbarian Civ Hint*: New world maps are great. The old world you are on will one day discover a fully viable new world that has evolved of itself.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_62</Tag>
+		<English>*Revolutions Mod Hint*: Try the game options "Start as Minors". If you like early warfare, it is the option of choice!</English>
+		<French>*Conseil Mod Revolution*: essayez l'option "Démarrage Barbare". Si vous aimez les guerres primitives, cette option est faite pour vous!</French>
+		<German>*Revolutions Mod Hint*: Try the game options "Start as Minors". If you like early warfare, it is the option of choice!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Prova l'opzione "Start as Minors". Se ti piace combattere nelle fasi iniziali, sar&#224; la tua scelta preferita!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Prueba la opci&#243;n "Comenzar como Menor". Si te gusta guerra de &#233;pocas tempranas, &#161;esta es tu elecci&#243;n!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Try the game options "Start as Minors". If you like early warfare, it is the option of choice!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_63</Tag>
+		<English>*Revolutions Mod Hint*: There is no conspiracy in the "Start as Minors" option. You will make friends if you are influential enough!</English>
+		<French>*Conseil Mod Revolution*: Il n'y a pas de conspiration avec l'option "Démarrage Barbare". Vous vous ferez des amis si vous êtes assez influents!</French>
+		<German>*Revolutions Mod Hint*: There is no conspiracy in the "Start as Minors" option. You will make friends if you are influential enough!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Non c'&#232; un complotto nella opzione "Start as Minors". Ti farai amici solo se sei abbastanza influente!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: No hay conspiraciones en la opci&#243;n "Comenzar como Menor". &#161;Har&#225;s amigos si eres lo suficientemente influyente!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: There is no conspiracy in the "Start as Minors" option. You will make friends if you are influential enough!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_64</Tag>
+		<English>*Revolutions Mod Hint*: Lacking a little spice in your life? Try "Start as Minors" with "Aggressive AI". That should do it!</English>
+		<French>*Conseil Mod Revolution*: Un peu de piment dans votre vie ? Essayez "Démarrage Barbare" avec  "IA Aggressive". Ca pourrait le faire!</French>
+		<German>*Revolutions Mod Hint*: Lacking a little spice in your life? Try "Start as Minors" with "Aggressive AI". That should do it!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Vuoi un po' di pepe nella tua vita? Prova le opzioni "Start as Minors" assieme a "Aggressive AI". Vedrai!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: &#191;Te falta un poco de picante en tu vida? Prueba "Comenzar como Menor" junto con "IA Agresiva". Ya ver&#225;s la que te espera.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Lacking a little spice in your life? Try "Start as Minors" with "Aggressive AI". That should do it!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_65</Tag>
+		<English>*Revolutions Mod Hint*: Revolutions games are more interesting and diverse than standard games. It is well worth writing down your game history turn by turn, in the autolog with the [ALT E] keystroke.</English>
+		<French>*Conseil Mod Revolution*: Les Parties de Revolutions sont plus intéressantes et diverses que les parties standard. C'est tout à fair intéressant d'écrire votre Histoire tout après tour, en utilisant les fonctions d'autolog - touches [ALT E].</French>
+		<German>*Revolutions Mod Hint*: Revolutions games are more interesting and diverse than standard games. It is well worth writing down your game history turn by turn, in the autolog with the [ALT E] keystroke.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Le partite in 'Revolutions' sono pi&#249; interessanti e varie rispetto al gioco standard. Vale la pena scrivere la storia della tua partita turno per turno: con l'autolog, utilizzando la combinazione [ALT+E].</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Las partidas de Revolutions son mas interesantes y diversas que las partidas est&#225;ndar. Vale la pena ir escribiendo la historia de la partida turno a turno, utilizando el autolog con la combinaci&#243;n [ALT E] para ir anotando.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Revolutions games are more interesting and diverse than standard games. It is well worth writing down your game history turn by turn, in the autolog with the [ALT E] keystroke.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_66</Tag>
+		<English>*Revolutions Mod Hint*: Hereditary Rule is not necessarily the answer to all your revolt problems! The character of this political system will mean that war will have to be more carefully thought out to win your kingdom's support.</English>
+		<French>*Conseil Mod Revolution*: La règle héréditaire n'est pas forcément la réponse à tous vos problèmes de révolte! La caractéristique de ce système politique peut entraîner des difficultés pour obtenir le soutien du peuple en cas de guerre.</French>
+		<German>*Revolutions Mod Hint*: Hereditary Rule is not necessarily the answer to all your revolt problems! The character of this political system will mean that war will have to be more carefully thought out to win your kingdom's support.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: il 'Governo Ereditario' non &#232; necessariamente la risposta ai tuoi problemi di rivolte! Il carattere di questo sistema politico implica dovrai attentamente valutare l'entrata in guerra, per ottenere il sostegno tuo regno.</Italian>
+		<Spanish>*Consejos Mod Revolutions *:El Gobierno Hereditario no es necesariamente la soluci&#243;n a tus problemas con las revueltas.  El fundamento de este sistema pol&#237;tico implica que la guerra debe ser planificada cuidadosamente para conseguir el apoyo de tu reino.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Hereditary Rule is not necessarily the answer to all your revolt problems! The character of this political system will mean that war will have to be more carefully thought out to win your kingdom's support.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_67</Tag>
+		<English>*Revolutions Mod Hint*: Despotism is a viable option! A despot has less ethical issues to deal with so long as his people can be kept in the dark about them! A despot can win wars when a King cannot!</English>
+		<French>*Conseil Mod Revolution*: Le Despotisme est une option viable! Un despote a moins de problème d'éthique tant que le peuple est maintenu dans l'obscurité sur ces sujets. Un despote peut gagner des guerres qu'un Roi ne pourrait pas!</French>
+		<German>*Revolutions Mod Hint*: Despotism is a viable option! A despot has less ethical issues to deal with so long as his people can be kept in the dark about them! A despot can win wars when a King cannot!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Il 'Dispotismo' &#232; una scelta valida! Un despota ha meno problemi etici da affrontare finch&#233; il popolo ne viene lasciato all'oscuro! Un despota &#232; in grado di vincere guerre che un re non pu&#242;!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: &#161;El Despotismo es una opci&#243;n viable! Un d&#233;spota tiene menos trabas &#233;ticas con las que lidiar, mientras que su pueblo pueda ser mantenido en la ignorancia sobre estas pr&#225;cticas. &#161;Un d&#233;spota puede ganar guerras que un Rey no podr&#237;a!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Despotism is a viable option! A despot has less ethical issues to deal with so long as his people can be kept in the dark about them! A despot can win wars when a King cannot!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_68</Tag>
+		<English>*Revolutions Mod Hint*: Pay particular attention to the labour reforms your society adopts. It is these that the people must work under!</English>
+		<French>*Conseil Mod Revolution*: Faites attention aux réformes de travail que votre société adopte. Ce sont celles-ci qui concernent directement votre peuple!</French>
+		<German>*Revolutions Mod Hint*: Pay particular attention to the labour reforms your society adopts. It is these that the people must work under!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Presta particolare attenzione alle politiche del lavoro che adotta la tua societ&#224;. Sono quelle che dovr&#224; seguire la tua gente!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Presta particular atenci&#243;n a las reformas laborales que tu sociedad adopte. &#161;Tu pueblo tendr&#225; que trabajar bajo ellas!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Pay particular attention to the labour reforms your society adopts. It is these that the people must work under!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_69</Tag>
+		<English>*Revolutions Mod Hint*: The Sevopedia now displays revolutions specific civic effects and leader traits can be customised for revolution effects!</English>
+		<French>*Conseil Mod Revolution*: La Sevopedia affiche à présent les effets des doctrines et traits de caractères qui ont des effets sur la stabilité!</French>
+		<German>*Revolutions Mod Hint*: The Sevopedia now displays revolutions specific civic effects and leader traits can be customised for revolution effects!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: La Sevopedia ora mostra gli effetti, specifici per le rivoluzioni, delle forme di governo, e ora i 'punti di forza' dei Leader possono essere personalizzati per gli effetti rivoluzionari!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: La Sevopedia muestra los efectos de los Principios sobre las revoluciones espec&#237;ficamente y los rasgos de los lideres que pueden ser personalizados.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: The Sevopedia now displays revolutions specific civic effects and leader traits can be customised for revolution effects!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_70</Tag>
+		<English>*Revolutions Mod Hint*: Don't be scared to run slavery! The citizens will endure the whipping.....for a time!</English>
+		<French>*Conseil Mod Revolution*: Ne soyez pas effrayés par l'esclavage! Les citoyens vont endurer le fouet.....pour un temps!</French>
+		<German>*Revolutions Mod Hint*: Don't be scared to run slavery! The citizens will endure the whipping.....for a time!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Non abbiate paura di imporre lo Schiavismo! I cittadini sapranno sopportare le frustate.....  per un po'!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: &#161;No tengas miedo de adoptar la Esclavitud! Los ciudadanos podr&#225;n soporta los latigazos.... &#161;al menos durante un tiempo!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Don't be scared to run slavery! The citizens will endure the whipping.....for a time!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_71</Tag>
+		<English>*Revolutions Mod Hint*: Really, in a diverse religious state, you wouldn't run organised religion, would you?</English>
+		<French>*Conseil Mod Revolution*: Réellement, dans un état avec une diversité religieuse, vous ne pourriez pas instaurer la religion organisé et une seul religion d'état, ou bien ?</French>
+		<German>*Revolutions Mod Hint*: Really, in a diverse religious state, you wouldn't run organised religion, would you?</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: In effetti, in uno stato con differenti religioni, non sceglierai la forma di governo 'Religione Organizzata', vero?</Italian>
+		<Spanish>*Consejos Mod Revolutions *:De verdad, en un estado con diversidad religiosa, no tiene sentido adoptar la Religi&#243;n Organizada, en serio.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Really, in a diverse religious state, you wouldn't run organised religion, would you?</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_72</Tag>
+		<English>*Revolutions Mod Hint*: If you really want democracy, have it! But reform doesn't end there!</English>
+		<French>*Conseil Mod Revolution*: Si vous voulez absolument la démocracie, mettez-la en place! Mais les réformes ne s'arrêtent pas là!</French>
+		<German>*Revolutions Mod Hint*: If you really want democracy, have it! But reform doesn't end there!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se desideri veramente la democrazia, mettila in pratica! Ma le riforme non si limitano a questo!</Italian>
+		<Spanish>*Consejos Mod Revolutions *:Si de verdad quieres la Democracia, &#161;tenla! Pero las reformas no deber&#237;an acabar ah&#237;.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you really want democracy, have it! But reform doesn't end there!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_73</Tag>
+		<English>*Revolutions Mod Hint*: Switching to a police state may be good at times of instability! How else can you keep the empire under your thumb?</English>
+		<French>*Conseil Mod Revolution*: Instaurer un état policier peut être judicieux lorsque votre empire est trop instable. Comment sinon conserver l'Empire sous votre talon?</French>
+		<German>*Revolutions Mod Hint*: Switching to a police state may be good at times of instability! How else can you keep the empire under your thumb?</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Il passaggio ad uno Stato di Polizia pu&#242; essere positivo in tempi di instabilit&#224;! In quale altro modo puoi tenere in pugno l'impero?</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Cambiar a un Estado Policial puede estar bien en tiempos de inestabilidad. &#191;Como si no vas a mantener a tu Imperio sometido?</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Switching to a police state may be good at times of instability! How else can you keep the empire under your thumb?</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_74</Tag>
+		<English>*Revolutions Mod Hint*: There is nothing more fun than to slowly destabilise a super power by stagnating it, and to grab the spoils when it implodes!</English>
+		<French>*Conseil Mod Revolution*: Il n'y a rien de plus amusant que de déstabiliser lentement une super puissance en la faisant stagner, et de récupérer les restes lorsqu'elle implose!</French>
+		<German>*Revolutions Mod Hint*: There is nothing more fun than to slowly destabilise a super power by stagnating it, and to grab the spoils when it implodes!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Non c'&#232; niente di pi&#249; divertente che destabilizzare lentamente una superpotenza, fermandone lo sviluppo, ed infine raccoglierne i resti quando crolla!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: No hay nada m&#225;s divertido que desestabilizar a una s&#250;per potencia poco a poco estanc&#225;ndola, &#161;y luego recoger los trocitos cuando implosione!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: There is nothing more fun than to slowly destabilise a super power by stagnating it, and to grab the spoils when it implodes!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_75</Tag>
+		<English>*Revolutions Mod Hint*: Che Guevara is the symbol for this mod! Play the game like he did, and you should be fine!</English>
+		<French>*Conseil Mod Revolution*: Che Guevara est l'icone de ce mod! Jouez le jeu comme il l'aurait fait, et tout devrait aller bien!</French>
+		<German>*Revolutions Mod Hint*: Che Guevara is the symbol for this mod! Play the game like he did, and you should be fine!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Che Guevara &#232; il simbolo di questo MOD! Gioca la partita come avrebbe fatto lui, e tutto andr&#224; bene!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Che Guevara es el s&#237;mbolo de este Mod. Juega la partida como lo har&#237;a &#233;l, &#161;y todo ir&#225; sobre ruedas!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Che Guevara is the symbol for this mod! Play the game like he did, and you should be fine!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_76</Tag>
+		<English>*Revolutions Mod Hint*: If you are sick of constant rebellious uprisings against you, don't forget [CTRL-SHIFT-L] and you can switch over to the rebels side!</English>
+		<French>*Conseil Mod Revolution*: Si vous êtes malade de la rebellion qui gagne constament du terrain contre vous, n'oubliez pas [CTRL-SHIFT-L] qui vous permet de passer du côté des forces rebelles!</French>
+		<German>*Revolutions Mod Hint*: If you are sick of constant rebellious uprisings against you, don't forget [CTRL-SHIFT-L] and you can switch over to the rebels side!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se sei stufo di continue rivolte contro di te, non dimenticare che [CTRL-SHIFT-L] ti consente di passare dalla parte dei ribelli!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si estas harto de las constantes rebeliones en tus dominios, no olvides que con [CTRL-SHIFT-L] &#161;puedes cambiarte al lado rebelde!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you are sick of constant rebellious uprisings against you, don't forget [CTRL-SHIFT-L] and you can switch over to the rebels side!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_77</Tag>
+		<English>*Revolutions Mod Hint*: If you think about it, a mod that makes the game more difficult like Revolutions, also makes the game more rewarding...</English>
+		<French>*Conseil Mod Revolution*: Si vous y réfléchissez, un mod comme Revolutions qui rend le jeu plus difficile rend également la victoire plus gratifiante...</French>
+		<German>*Revolutions Mod Hint*: If you think about it, a mod that makes the game more difficult like Revolutions, also makes the game more rewarding...</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se ci pensi, un MOD che rende il gioco pi&#249; difficile come 'Revolutions', lo rende anche pi&#249; gratificante...</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si lo piensas un poquito, un Mod que hace el juego m&#225;s complicado como Revolutions, tambi&#233;n hace que la experiencia sea m&#225;s gratificante...</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you think about it, a mod that makes the game more difficult like Revolutions, also makes the game more rewarding...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_78</Tag>
+		<English>*Revolutions Mod Hint*: If you have stabilised your domestic society and you are the leader the people want, any standard BTS strategy is available for you to implement.</English>
+		<French>*Conseil Mod Revolution*: Si vous avez stabilisé votre société et que vous êtes le leader que le peuple souhaite, n'importe laquelle des stratégies de BTS s'offre à vous.</French>
+		<German>*Revolutions Mod Hint*: If you have stabilised your domestic society and you are the leader the people want, any standard BTS strategy is available for you to implement.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se hai stabilizzato la tua civilt&#224; e sei il leader che il popolo desidera, puoi attuare tutte le strategie definite per BtS.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si has conseguido estabilizar tus asuntos internos y eres el l&#237;der que la gente quiere, cualquier estrategia est&#225;ndar de BTS funcionara a las mil maravillas.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you have stabilised your domestic society and you are the leader the people want, any standard BTS strategy is available for you to implement.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_79</Tag>
+		<English>*DCM Hint*: Catapults cannot range bombard.</English>
+		<French>*Conseils DCM*: Les Catapultes ne peuvent pas bombarder à distance.</French>
+		<German>*DCM Hint*: Catapults cannot range bombard.</German>
+		<Italian>*Suggerimento da MOD 'RevDCM'*: Le catapulte non possono effettuare il 'Bombardamento ad Area'.</Italian>
+		<Spanish>*Consejos DCM*: Las catapultas no pueden realizar Ataque a Distancia.</Spanish>
+		<Finnish>*DCM Hint*: Catapults cannot range bombard.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_80</Tag>
+		<English>*DCM Hint*: Range bombarding cities has a slightly different effect to bombarding them directly. Range bombarding aims fire at the defenders of the city as well as the defences!</English>
+		<French>*Conseils DCM*: Le Bombardement à distance des Villes a un effet relativement différent que le bombardement direct. Le bombardement à distance vise à la fois les défenseurs de la Villes et ses défenses!</French>
+		<German>*DCM Hint*: Range bombarding cities has a slightly different effect to bombarding them directly. Range bombarding aims fire at the defenders of the city as well as the defences!</German>
+		<Italian>*Suggerimento da MOD 'RevDCM'*: Il 'Bombardamento ad Area' contro le citt&#224; ha un effetto leggermente diverso dal bombardamento diretto. Il 'Bombardamento ad Area' ha come obbiettivo sia i difensori della citt&#224;, che le sue difese!!</Italian>
+		<Spanish>*Consejos DCM*: Realizar Ataque a Distancia sobre las ciudades tiene un efecto distinto que el bombardeo atacando directamente la ciudad. &#161;El Ataque a Distancia afecta a los defensores de la ciudad as&#237; como a sus defensas!</Spanish>
+		<Finnish>*DCM Hint*: Range bombarding cities has a slightly different effect to bombarding them directly. Range bombarding aims fire at the defenders of the city as well as the defences!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_81</Tag>
+		<English>*DCM Hint*: Range bombarding cities has much less impact on the defenders than the defences of the city. Defenders can seek cover even behind damaged walls!....for a time...</English>
+		<French>*Conseils DCM*: Le Bombardement à distance des Villes a beaucoup moins d'impact sur les défenseurs que sur les défenses. Ceux-ci peuvent chercher à se protéger derrière les ruines!....pour un temps...</French>
+		<German>*DCM Hint*: Range bombarding cities has much less impact on the defenders than the defences of the city. Defenders can seek cover even behind damaged walls!....for a time...</German>
+		<Italian>*Suggerimento da MOD 'RevDCM'*: Il 'Bombardamento ad Area' contro le citt&#224; ha meno impatto sui difensori che sulle difese. I difensori possono cercare riparo anche dietro le mura danneggiate !.... per una sola volta ...</Italian>
+		<Spanish>*Consejos DCM*: Realizar Ataque a Distancia sobre las ciudades produce mucho menos impacto sobre los defensores que sobre las defensas. Los defensores pues buscar cobijo incluso detr&#225;s de las murallas da&#241;adas, al menos durante un tiempo...</Spanish>
+		<Finnish>*DCM Hint*: Range bombarding cities has much less impact on the defenders than the defences of the city. Defenders can seek cover even behind damaged walls!....for a time...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_82</Tag>
+		<English>*DCM Hint*: If you want to take down a cities defences at maximum thrift, just straight bombard the city defences and leave the defenders until there is no where for them to hide.</English>
+		<French>*Conseils DCM*: Si vous voulez abattre les défenses d'une ville le plus efficacement, Bomberez uniquement les défences, et laissez les défenseurs jusqu'à qu'ils n'aient plus d'endroit où se cacher.</French>
+		<German>*DCM Hint*: If you want to take down a cities defences at maximum thrift, just straight bombard the city defences and leave the defenders until there is no where for them to hide.</German>
+		<Italian>*Suggerimento da MOD 'RevDCM'*: Se vuoi abbattere le difese cittadine con il minimo costo, colpisci solo le difese e lascia stare i difensori, finch&#233; non rimane nulla in cui nascondersi.</Italian>
+		<Spanish>*Consejos DCM*: Si quieres tomar una ciudad con el m&#237;nimo esfuerzo, bombardea &#250;nicamente las defensas enemigas y deja a los defensores para el momento en que no tengan donde esconderse.</Spanish>
+		<Finnish>*DCM Hint*: If you want to take down a cities defences at maximum thrift, just straight bombard the city defences and leave the defenders until there is no where for them to hide.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_83</Tag>
+		<English>*DCM Hint*: If you are defending your precious city from an enemy stack, range bombard the attackers as best you can from inside the city, but remember that your accuracy is compromised by being behind city structures and impediments.</English>
+		<French>*Conseils DCM*: If you are defending your precious city from an enemy stack, range bombard the attackers as best you can from inside the city, but remember that your accuracy is compromised by being behind city structures and impediments.</French>
+		<German>*DCM Hint*: If you are defending your precious city from an enemy stack, range bombard the attackers as best you can from inside the city, but remember that your accuracy is compromised by being behind city structures and impediments.</German>
+		<Italian>*Suggerimento da MOD 'RevDCM'*: Se stai difendendo la tua preziosa citt&#224; da un gruppo nemico, il pi&#249; possibile usa il 'Bombardamento ad Area' dall'interno della citt&#224; contro gli attaccanti, ma ricorda che le strutture cittadine ne diminuiscono la precisione.</Italian>
+		<Spanish>*Consejos DCM*: Si te encuentras defendiendo una ciudad valiosa ante apilamiento enemigo, bombardea a los atacantes utilizando el Ataque a Distancia desde el interior de tus murallas, pero recuerda que la punter&#237;a se ve afectada negativamente al disparar detr&#225;s de edificios y otros impedimentos.</Spanish>
+		<Finnish>*DCM Hint*: If you are defending your precious city from an enemy stack, range bombard the attackers as best you can from inside the city, but remember that your accuracy is compromised by being behind city structures and impediments.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_84</Tag>
+		<English>*DCM Hint*: Properly set-up defensive structures like forts or field deployments with properly constructed frontlines, are by far the most effective way to range bombard.</English>
+		<French>*Conseils DCM*: Placez bien les structures défensives comme les forts ou les barbelés pour en faire des lignes de front. C'est de loin la méthode la plus efficace pour utiliser le bombardement à distance en tout sécurité.</French>
+		<German>*DCM Hint*: Properly set-up defensive structures like forts or field deployments with properly constructed frontlines, are by far the most effective way to range bombard.</German>
+		<Italian>*Suggerimento da MOD 'RevDCM'*: Strutture difensive ben approntate come forti o spiegamenti di forze ben impostati, sono di gran lunga il modo pi&#249; efficace di difendersi dal 'Bombardamento ad Area'.</Italian>
+		<Spanish>*Consejos DCM*: Desplegar adecuadamente tus unidades en la frontera junto a la buena ubicaci&#243;n de fuertes, son por descontado la forma m&#225;s efectiva de utilizar el Ataque a distancia.</Spanish>
+		<Finnish>*DCM Hint*: Properly set-up defensive structures like forts or field deployments with properly constructed frontlines, are by far the most effective way to range bombard.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_85</Tag>
+		<English>*DCM Hint*: Range bombard now only issues standard BTS collateral damage upon stacks. It is completely useless against single units and siege as well as the head defender of the enemy stack.</English>
+		<French>*Conseils DCM*: Le Bombardement à distance génère des dommages collatéraux uniquement sur des groupes d'unités. C'est complètement inefficace contre les unités seules ainsi que le meilleur défenseur du groupe.</French>
+		<German>*DCM Hint*: Range bombard now only issues standard collateral damage upon stacks. It is completely useless against single units and siege as well as the head defender of the enemy stack.</German>
+		<Italian>*Suggerimento da MOD 'RevDCM'*: Il 'Bombardamento ad Area' provoca solo danni collaterali normali contro un gruppo. E' completamente inutile contro unit&#224; singole e d'assedio cos&#236; come contro l'unit&#224; in prima linea del gruppo.</Italian>
+		<Spanish>*Consejos DCM*: El Ataque a Distancia solo infringe el da&#241;o colateral sobre los apilamientos. Es completamente ineficaz contra unidades solas y contra armas de asedio, as&#237; como contra el principal defensor de un apilamiento.</Spanish>
+		<Finnish>*DCM Hint*: Range bombard now only issues standard BTS collateral damage upon stacks. It is completely useless against single units and siege as well as the head defender of the enemy stack.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_86</Tag>
+		<English>*DCM Hint*: When thinking about range bombardment and how it causes damage, imagine the battle scenario. Range bombard tends to hit the main throng of the enemy army, missing the frontline attackers and not reaching the counter siege at the rear!</English>
+		<French>*Conseils DCM*: En pensant au bombardement à distance et à la façon dont les dommages sont causés, imaginez un scénario de bataille. Les bombardement ont tendance à frapper le gros des troupes, sans affecter l'avant garde qui attaque ni l'artillerie en arrière!</French>
+		<German>*DCM Hint*: When thinking about range bombardment and how it causes damage, imagine the battle scenario. Range bombard tends to hit the main throng of the enemy army, missing the frontline attackers and not reaching the counter siege at the rear!</German>
+		<Italian>*Suggerimento da MOD 'RevDCM'*: Per comprendere il 'Bombardamento ad Area' e come provoca danni, immagina lo scenario di battaglia. Il 'Bombardamento ad Area' tende a colpire il grosso dell'esercito nemico, mancando la prima linea e senza raggiungere le unit&#224; di contrassedio nelle retrovie!</Italian>
+		<Spanish>*Consejos DCM*: Cuando pienses en c&#243;mo funciona el Ataque a Distancia y como se calcula el da&#241;o que provoca, imagina el campo de batalla. El Ataque a Distancia tendera a impactar sobre el n&#250;cleo principal del ej&#233;rcito enemigo, dejando intacto la primera l&#237;nea de defensa y las ultimas l&#237;neas en la retaguardia donde se encuentra la artiller&#237;a enemiga.</Spanish>
+		<Finnish>*DCM Hint*: When thinking about range bombardment and how it causes damage, imagine the battle scenario. Range bombard tends to hit the main throng of the enemy army, missing the frontline attackers and not reaching the counter siege at the rear!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_87</Tag>
+		<English>*DCM Hint*: Range bombardment effect can be customised in GlobalDefinesAlt.xml</English>
+		<French>*Conseils DCM*: les Effets du Bombardement à Distance peuvent être modifiés dans le fichier GlobalDefinesAlt.xml</French>
+		<German>*DCM Hint*: Range bombardment effect can be customised in GlobalDefinesAlt.xml</German>
+		<Italian>*Suggerimento da MOD 'RevDCM'*: Gli effetti del 'Bombardamento ad Area' possono essere personalizzati nel file 'GlobalDefinesAlt.xml'</Italian>
+		<Spanish>*Consejos DCM*: El efecto del Ataque a Distancia puede ser personalizado en el archivoGlobalDefinesAlt.xml</Spanish>
+		<Finnish>*DCM Hint*: Range bombardment effect can be customised in GlobalDefinesAlt.xml</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_88</Tag>
+		<English>*Revolutions Mod Hint*: Try the Barbarian world option where barbs sometimes start with cities in place at game start! This can make them more competitive but also give you a nice early target for conquest!</English>
+		<French>*Conseil Mod Revolution*: Essayez l'option 'Monde Barbare', où les barbares possède des villes dès le début du jeu. Cela augmenta la compétition, mais permet également une cible à conquérir très tôt dans le jeu!</French>
+		<German>*Revolutions Mod Hint*: Try the Barbarian world option where barbs sometimes start with cities in place at game start! This can make them more competitive but also give you a nice early target for conquest!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Prova l'opzione 'Barbarian world' dove talvolta anche i barbari iniziano la partita con una citt&#224;! Questo li render&#224; pi&#249; pericolosi, ma vi dar&#224; anche un obiettivo da conquistare!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Prueba la opci&#243;n Mundo B&#225;rbaro donde los b&#225;rbaros comienzan la partida con ciudades establecidas. Esto les hace m&#225;s competitivos aunque tambi&#233;n te proporciona un objetivo muy atractivo para la conquista.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Try the Barbarian world option where barbs sometimes start with cities in place at game start! This can make them more competitive but also give you a nice early target for conquest!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_89</Tag>
+		<English>*Revolutions Mod Hint*: Revolutions and it's components are configurable and customisable in Revolution.ini</English>
+		<French>*Conseil Mod Revolution*: Revolutions et ses composants est configurable et personnalisable dans le fichier Revolution.ini</French>
+		<German>*Revolutions Mod Hint*: Revolutions and it's components are configurable and customisable in Revolution.ini</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: 'Revolutions' e i suoi componenti sono configurabili e personalizzabili nel file 'Revolution.ini'</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Revolutions y sus componentes pueden ser configurados en el archivo Revolution.ini</Spanish>
+		<Finnish>*Revolutions Mod Hint*: Revolutions and it's components are configurable and customisable in Revolution.ini</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_90</Tag>
+		<English>*Revolutions Mod Hint*: If you want an interesting variation of Revolutions, that effectively turns down the overall difficulty of the mod, try the "Inquisitions" option or "Limited Religions" or both!</English>
+		<French>*Conseil Mod Revolution*: Si vous voulez une variante intéressante de 'Révolution', qui réduit la difficulté du mod, essayez l'option 'Inquisition' ou 'Religions limitées', ou alors combinez les deux!</French>
+		<German>*Revolutions Mod Hint*: If you want an interesting variation of Revolutions, that effectively turns down the overall difficulty of the mod, try the "Inquisitions" option or "Limited Religions" or both!</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: Se cerchi una variazione interessante di 'Revolutions', per diminuire realmente la difficolt&#224; del MOD, prova le opzioni "Inquisizioni Limitate" "Religioni Limitate" or entrambe!</Italian>
+		<Spanish>*Consejos Mod Revolutions *: Si quieres una interesante variaci&#243;n en Revolutions, que reduce ampliamente la dificultad general del juego, prueba las opciones "Inquisici&#243;n" o "Religiones Limitadas"...  &#161;o ambas!</Spanish>
+		<Finnish>*Revolutions Mod Hint*: If you want an interesting variation of Revolutions, that effectively turns down the overall difficulty of the mod, try the "Inquisitions" option or "Limited Religions" or both!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_91</Tag>
+		<English>*Revolutions Mod Hint*: From most difficult to least difficult are: Straight Revolutions, Limited Religions or Inquisitions, Limited Religion and Inquisitions.</English>
+		<French>*Conseil Mod Revolution*: Du plus difficile au plus facile : Revolutions, Religions limitées ou Inquisition, Religions limitées et Inquisition.</French>
+		<German>*Revolutions Mod Hint*: From most difficult to least difficult are: Straight Revolutions, Limited Religions or Inquisitions, Limited Religion and Inquisitions.</German>
+		<Italian>*Suggerimento del MOD 'Revolutions'*: In ordine di difficolt&#224; decrescente ci sono: Rivoluzioni Complete, Religioni o Inquisizioni Limitate, Religioni E Inquisizioni Limitate.</Italian>
+		<Spanish>*Consejos Mod Revolutions *: De m&#225;s dif&#237;cil a menos: Revolutions Completo, Religiones Limitadas o Inquisici&#243;n, Religiones Limitadas e Inquisici&#243;n.</Spanish>
+		<Finnish>*Revolutions Mod Hint*: From most difficult to least difficult are: Straight Revolutions, Limited Religions or Inquisitions, Limited Religion and Inquisitions.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_92</Tag>
+		<English>*Influence Driven War*: If you need to ensure you keep your borders intact, you may have to get out from behind city fortification and fight in the field!</English>
+		<French>*Influence Driven War*: Si vous voulez être sûr de conserver vos frontières intactes, il vous faudra sortir des fortifications de vos Villes et vous battre sur le terrain!</French>
+		<German>*Influence Driven War*: If you need to ensure you keep your borders intact, you may have to get out from behind city fortification and fight in the field!</German>
+		<Italian>*Suggerimento da MOD 'IDW'*: Se vuoi conservare intatti i tuoi confini, devi uscire dalla protezione delle tue fortezze e combattere sul campo!</Italian>
+		<Spanish>*Consejos IDW*: Si quieres asegurar tus fronteras intactas, &#161;vas a tener que salir de la ciudad y pelear en campo abierto!</Spanish>
+		<Finnish>*Influence Driven War*: If you need to ensure you keep your borders intact, you may have to get out from behind city fortification and fight in the field!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_93</Tag>
+		<English>*Influence Driven War*: If you have a choice of where you want to fight, pick a location that will be most useful to you so that if you win the battle, your influence around the battle region is good enough to keep the territory!</English>
+		<French>*Influence Driven War*: Si vous pouvez choisir l'emplacement de vos batailles, choisissez un emplacement qui pourrait vous être utile, car en cas de victoire, votre influence pourrait vous faire gagner le territoire!</French>
+		<German>*Influence Driven War*: If you have a choice of where you want to fight, pick a location that will be most useful to you so that if you win the battle, your influence around the battle region is good enough to keep the territory!</German>
+		<Italian>*Suggerimento da MOD 'IDW'*: Se puoi scegliere dove combattere, scegli il posto migliore in cui, in caso di vittoria, l'influenza culturale diventer&#224; sufficiente a conquistare la casella!</Italian>
+		<Spanish>*Consejos IDW*: Si puedes escoger donde pelear, elige una localizaci&#243;n en la que si consigues ganar la batalla, tu influencia alrededor de la casilla es lo suficientemente alta como para mantener ese casilla.</Spanish>
+		<Finnish>*Influence Driven War*: If you have a choice of where you want to fight, pick a location that will be most useful to you so that if you win the battle, your influence around the battle region is good enough to keep the territory!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_94</Tag>
+		<English>*Influence Driven War*: Keep an eye out for the culture mix of the tile you are contesting. It is possible that a 5% influence swing to you may be enough to win the territory!</English>
+		<French>*Influence Driven War*: Gardez un oeil aux informations de culture des cases que vous revendiquez. Il est possible que seulement 5% de modifications de l'influence soient suffisants pour gagner le territoire!</French>
+		<German>*Influence Driven War*: Keep an eye out for the culture mix of the tile you are contesting. It is possible that a 5% influence swing to you may be enough to win the territory!</German>
+		<Italian>*Suggerimento da MOD 'IDW'*: Attento alle influenze culturali di una casella da conquistare. E' possibile che una variazione del 5% dell'influenza culturale possa farti conquistare il territorio!</Italian>
+		<Spanish>*Consejos IDW*: Mant&#233;n un ojo en la mezcla cultural de la casilla que estas disputando. &#161;Es posible que con un peque&#241;o cambio del 5% te otorgue el territorio!</Spanish>
+		<Finnish>*Influence Driven War*: Keep an eye out for the culture mix of the tile you are contesting. It is possible that a 5% influence swing to you may be enough to win the territory!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_95</Tag>
+		<English>*RevolutionDCM*: All game options are configurable within the user interface. Most are accessible via the BUG hot key [CTRL-ALT-O] under the "RevDCM" tab.</English>
+		<French>*RevolutionDCM*: Toutes les options de jeu sont configurables via l'interface utilisateur. La plupart sont accessibles avec le Raccourci du menu BUG : [CTRL-ALT-O] sous l'onglet 'RevDCM'.</French>
+		<German>*RevolutionDCM*: All game options are configurable within the user interface. Most are accessible via the BUG hot key [CTRL-ALT-O] under the "RevDCM" tab.</German>
+		<Italian>*Suggerimento del MOD 'RevDCM'*: Tutte le opzioni di gioco sono configurabili graficamente. La maggior parte sono accessibili con la hot key [CTRL-ALT-O] del MOD BUG nella scheda "RevDCM".</Italian>
+		<Spanish>*RevolutionDCM*: Todas las opciones son configurables dentro de la interfaz. La mayor&#237;a son accesibles mediante la tecla [CTRL-ALT-O] y dentro de la pesta&#241;a "RevDCM".</Spanish>
+		<Finnish>*RevolutionDCM*: All game options are configurable within the user interface. Most are accessible via the BUG hot key [CTRL-ALT-O] under the "RevDCM" tab.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_96</Tag>
+		<English>*RevolutionDCM*: If you select the "debug" option under the RevDCM tab, game options will update on the next turn!</English>
+		<French>*RevolutionDCM*: Si vous sélectionnez l'option "debug" de l'onglet RevDCM, les options de jeu vont être prises en compte au tour suivant!</French>
+		<German>*RevolutionDCM*: If you select the "debug" option under the RevDCM tab, game options will update on the next turn!</German>
+		<Italian>*Suggerimento del MOD 'RevDCM'*: Se selezioni l'opzione "debug" nella cartella 'RevDCM', il prossimo turno saranno aggiornate le opzioni!</Italian>
+		<Spanish>*RevolutionDCM*:Si seleccionas la opci&#243;n "debug" en la pesta&#241;a RevDCM, las opciones de juegos se actualizaran en el pr&#243;ximo turno.</Spanish>
+		<Finnish>*RevolutionDCM*: If you select the "debug" option under the RevDCM tab, game options will update on the next turn!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_97</Tag>
+		<English>*RevolutionDCM*: Some game options like enabling or disabling Revolutions, can only be done at the start of a game in the custom game screen.</English>
+		<French>*RevolutionDCM*: Certaines options de jeu (comme activer ou non Revolutions), peuvent oniquement être choisies lors du démarrage d'un jeu personnalisé.</French>
+		<German>*RevolutionDCM*: Some game options like enabling or disabling Revolutions, can only be done at the start of a game in the custom game screen.</German>
+		<Italian>*Suggerimento del MOD 'RevDCM'*: Alcune opzioni come attivare o disattivare 'Revolutions', possono essere selezionate solo all'inizio della partita nella schermata opzioni.</Italian>
+		<Spanish>*RevolutionDCM*: Algunas opciones, como activar o desactivar Revolutions, solo se pueden hacer al inicio de la partida en la pantalla de opciones de juego.</Spanish>
+		<Finnish>*RevolutionDCM*: Some game options like enabling or disabling Revolutions, can only be done at the start of a game in the custom game screen.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_98</Tag>
+		<English>*Super Spies*: Be wary of counter espionage! AI's are very conscious about it against adversaries they do not trust. This will make you more vulnerable to espionage if ignored and more expensive for you to conduct!</English>
+		<French>*Super Espions*: Faites attention au Contre-espionnage! l'IA est particulièrement attentive envers les adversaires qu'elle ne croit pas. Cela va vous rendre l'espionnage plus vulnérable si vous l'ignorez, et plus cher à conduire!</French>
+		<German>*Super Spies*: Be wary of counter espionage! AI's are very conscious about it against adversaries they do not trust. This will make you more vulnerable to espionage if ignored and more expensive for you to conduct!</German>
+		<Italian>*Suggerimento del MOD 'Super Spie'*: Attento al Controspionaggio! L'IA lo conosce bene e lo usa contro gli avversari di cui non si fida. Se lo trascuri, sarai pi&#249; vulnerabile allo spionaggio nemico e il tuo sar&#224; pi&#249; costoso!</Italian>
+		<Spanish>*Consejos S&#250;per Esp&#237;as*: &#161;Estate atento al contra espionaje! La IA sabe c&#243;mo usarlo y lo utilizara contra los adversarios en los que no conf&#237;a. Esto te har&#225; m&#225;s vulnerable al espionaje si lo ignoras y ser&#225; mucho m&#225;s costoso para llevar a cabo.</Spanish>
+		<Finnish>*Super Spies*: Be wary of counter espionage! AI's are very conscious about it against adversaries they do not trust. This will make you more vulnerable to espionage if ignored and more expensive for you to conduct!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_99</Tag>
+		<English>*Super Spies*: Experiment with different combinations of spy promotions. Who knows, you might end up with your own James Bond!</English>
+		<French>*Super Espions*: Expérimentez différentes combinaisons de promotions des espions. Qui sait, vous pourrez finir avec votre propre James Bond!</French>
+		<German>*Super Spies*: Experiment with different combinations of spy promotions. Who knows, you might end up with your own James Bond!</German>
+		<Italian>*Suggerimento del MOD 'Super Spie'*: Prova con diverse combinazioni di promozioni spia. Chi lo sa, potersti trovare il tuo James Bond!</Italian>
+		<Spanish>*Consejos S&#250;per Esp&#237;as*: Experimenta con diferentes combinaciones de ascensos para los esp&#237;as. Qui&#233;n sabe, &#161;lo mismo acabas con tu propio James Bond!</Spanish>
+		<Finnish>*Super Spies*: Experiment with different combinations of spy promotions. Who knows, you might end up with your own James Bond!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_HINT_100</Tag>
+		<English>*Super Spies*: Once the era of bureaucratic espionage is possible, security bureau's and intelligence agencies matter!</English>
+		<French>*Super Espions*: Dès que l'ère de l'espionage bueaucratique est possible, les bureaux de sécurité et les agences prennent de l'importance!</French>
+		<German>*Super Spies*: Once the era of bureaucratic espionage is possible, security bureau's and intelligence agencies matter!</German>
+		<Italian>*Suggerimento del MOD 'Super Spie'*: Quando diventa possibile lo spionaggio burocratico, 'Agenzia di Sicurezza' e 'Servizi Segreti' diventano importanti!</Italian>
+		<Spanish>*Consejos S&#250;per Esp&#237;as*: Una vez que el espionaje burocr&#225;tico es posible, &#161;la Agencia de inteligencia y el Servicio de contraespionaje son muy importantes!</Spanish>
+		<Finnish>*Super Spies*: Once the era of bureaucratic espionage is possible, security bureau's and intelligence agencies matter!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

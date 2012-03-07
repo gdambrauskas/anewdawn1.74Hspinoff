@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Emperor Clothing -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EMPCLOTH</Tag>
+		<English>Emperors Clothing</English>
+		<French>Habits Impériaux</French>
+		<German>Emperors Clothing</German>
+		<Italian>Emperors Clothing</Italian>
+		<Spanish>Emperors Clothing</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EMPCLOTH_HQ</Tag>
+		<English>Emperors Clothing Headquarters</English>
+		<French>Siège des Habits Impériaux</French>
+		<German>Emperors-Clothing-Zentrale</German>
+		<Italian>Emperors Clothing Headquarters</Italian>
+		<Spanish>Emperors Clothing Headquarters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EMPCLOTH_STORE</Tag>
+		<English>Emperors Clothing Store</English>
+		<French>Magasin d'Habits Impériaux</French>
+		<German>Emperors-Clothing-Laden</German>
+		<Italian>Emperors Clothing Store</Italian>
+		<Spanish>Emperors Clothing Store</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EMPCLOTH_EXECUTIVE</Tag>
+		<English>Emperors Clothing Executive</English>
+		<French>Gérant d'Habits Impériaux</French>
+		<German>Emperors-Clothing-Geschäftsführer</German>
+		<Italian>Emperors Clothing Executive</Italian>
+		<Spanish>Emperors Clothing Executive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EMPCLOTH_PEDIA</Tag>
+		<English>See Fashion House for details. Emperors Clothing is a rival of Fashion House, and thus requires many of the same resources.</English>
+		<French>See Fashion House for details. Emperors Clothing is a rival of Fashion House, and thus requires many of the same resources.</French>
+		<German>See Fashion House for details. Emperors Clothing is a rival of Fashion House, and thus requires many of the same resources.</German>
+		<Italian>See Fashion House for details. Emperors Clothing is a rival of Fashion House, and thus requires many of the same resources.</Italian>
+		<Spanish>See Fashion House for details. Emperors Clothing is a rival of Fashion House, and thus requires many of the same resources.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EMPCLOTH_STORE_PEDIA</Tag>
+		<English>Your local store to get your clothes.</English>
+		<French>Your local store to get your clothes.</French>
+		<German>Your local store to get your clothes.</German>
+		<Italian>Your local store to get your clothes.</Italian>
+		<Spanish>Your local store to get your clothes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPCLOTH_STRATEGY</Tag>
+		<English>[TAB]Build the [COLOR_BUILDING_TEXT]Emperors Clothing[COLOR_REVERT] Headquarters to create the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] which consumes [COLOR_HIGHLIGHT_TEXT]Silk[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Cotton[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Dye[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Sheep[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Fur[COLOR_REVERT] and adds a culture bonus to every city where the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] is present. The Headquarters provide gold for each city in the world with a Emperors Clothing franchise.</English>
+		<French>[TAB]Build the [COLOR_BUILDING_TEXT]Emperors Clothing[COLOR_REVERT] Headquarters to create the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] which consumes [COLOR_HIGHLIGHT_TEXT]Silk[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Cotton[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Dye[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Sheep[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Fur[COLOR_REVERT] and adds a culture bonus to every city where the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] is present. The Headquarters provide gold for each city in the world with a Emperors Clothing franchise.</French>
+		<German>[TAB]Build the [COLOR_BUILDING_TEXT]Emperors Clothing[COLOR_REVERT] Headquarters to create the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] which consumes [COLOR_HIGHLIGHT_TEXT]Silk[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Cotton[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Dye[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Sheep[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Fur[COLOR_REVERT] and adds a culture bonus to every city where the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] is present. The Headquarters provide gold for each city in the world with a Emperors Clothing franchise.</German>
+		<Italian>[TAB]Build the [COLOR_BUILDING_TEXT]Emperors Clothing[COLOR_REVERT] Headquarters to create the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] which consumes [COLOR_HIGHLIGHT_TEXT]Silk[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Cotton[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Dye[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Sheep[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Fur[COLOR_REVERT] and adds a culture bonus to every city where the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] is present. The Headquarters provide gold for each city in the world with a Emperors Clothing franchise.</Italian>
+		<Spanish>[TAB]Build the [COLOR_BUILDING_TEXT]Emperors Clothing[COLOR_REVERT] Headquarters to create the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] which consumes [COLOR_HIGHLIGHT_TEXT]Silk[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Cotton[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Dye[COLOR_REVERT],[COLOR_HIGHLIGHT_TEXT]Sheep[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Fur[COLOR_REVERT] and adds a culture bonus to every city where the [COLOR_HIGHLIGHT_TEXT]Emperors Clothing Corporation[COLOR_REVERT] is present. The Headquarters provide gold for each city in the world with a Emperors Clothing franchise.</Spanish>
+	</TEXT>	
+</Civ4GameText>

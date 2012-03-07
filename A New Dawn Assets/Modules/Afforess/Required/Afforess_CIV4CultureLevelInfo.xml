@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jesse Smith (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Culture Level Infos -->
+<Civ4CultureLevelInfo xmlns="x-schema:Afforess_CIV4GameInfoSchema.xml">
+	<CultureLevelInfos>
+		<CultureLevelInfo>
+			<Type>CULTURELEVEL_FLEDGLING</Type>
+			<SpeedThresholds>
+				<SpeedThreshold>
+					<GameSpeedType>GAMESPEED_ETERNITY</GameSpeedType>
+					<iThreshold>180</iThreshold>
+				</SpeedThreshold>
+			</SpeedThresholds>
+		</CultureLevelInfo>
+		<CultureLevelInfo>
+			<Type>CULTURELEVEL_DEVELOPING</Type>
+			<SpeedThresholds>
+				<SpeedThreshold>
+					<GameSpeedType>GAMESPEED_ETERNITY</GameSpeedType>
+					<iThreshold>1800</iThreshold>
+				</SpeedThreshold>
+			</SpeedThresholds>
+		</CultureLevelInfo>
+		<CultureLevelInfo>
+			<Type>CULTURELEVEL_REFINED</Type>
+			<SpeedThresholds>
+				<SpeedThreshold>
+					<GameSpeedType>GAMESPEED_ETERNITY</GameSpeedType>
+					<iThreshold>9000</iThreshold>
+				</SpeedThreshold>
+			</SpeedThresholds>
+		</CultureLevelInfo>
+		<CultureLevelInfo>
+			<Type>CULTURELEVEL_INFLUENTIAL</Type>
+			<SpeedThresholds>
+				<SpeedThreshold>
+					<GameSpeedType>GAMESPEED_ETERNITY</GameSpeedType>
+					<iThreshold>90000</iThreshold>
+				</SpeedThreshold>
+			</SpeedThresholds>
+		</CultureLevelInfo>
+		<CultureLevelInfo>
+			<Type>CULTURELEVEL_LEGENDARY</Type>
+			<SpeedThresholds>
+				<SpeedThreshold>
+					<GameSpeedType>GAMESPEED_ETERNITY</GameSpeedType>
+					<iThreshold>900000</iThreshold>
+				</SpeedThreshold>
+			</SpeedThresholds>
+		</CultureLevelInfo>
+	</CultureLevelInfos>
+</Civ4CultureLevelInfo>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Build Infos -->
+<Civ4BuildInfos xmlns="x-schema:Make_Jungle_CIV4UnitSchema.xml">
+	<BuildInfos>
+		<BuildInfo>
+			<Type>BUILD_MAKE_JUNGLE</Type>
+			<Description>TXT_KEY_BUILD_MAKE_JUNGLE</Description>
+			<Help/>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<iTime>3000</iTime>
+			<iCost>40</iCost>
+			<bKill>0</bKill>
+			<ImprovementType>IMPROVEMENT_MAKE_JUNGLE</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<FeatureChange>FEATURE_JUNGLE</FeatureChange>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs>
+				<FeatureStruct>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<PrereqTech/>
+					<iTime>400</iTime>
+					<iProduction>0</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+			</FeatureStructs>
+			<HotKey>KB_F</HotKey>
+			<bAltDown>1</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>1</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>Art/Interface/Buttons/TerrainFeatures/Jungle.dds</Button>
+		</BuildInfo>
+	</BuildInfos>
+</Civ4BuildInfos>

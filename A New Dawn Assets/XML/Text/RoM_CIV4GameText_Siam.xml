@@ -1,0 +1,1738 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!-- ##### Siam - Begin ##### -->
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SIAM_DESC</Tag>
+		<English>Siamese Empire</English>
+		<French>Empire Siamese</French>
+		<German>Siamesisches Reich</German>
+		<Italian>Siamese Empire</Italian>
+		<Spanish>Siamese Empire</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SIAM_SHORT_DESC</Tag>
+		<English>Siam</English>
+		<French>Siam</French>
+		<German>Siam</German>
+		<Italian>Siam</Italian>
+		<Spanish>Siam</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SIAM_ADJECTIVE</Tag>
+		<English>Siamese</English>
+		<French>
+			<Text>siamese:siamese:siameses:siameses</Text>
+			<Gender>Male:Female:Male:Female</Gender>
+			<Plural>0:0:1:1</Plural>
+		</French>	
+		<German>Siamesisch</German>
+		<Italian>Siamese</Italian>
+		<Spanish>Siamese</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MONGKUT</Tag>
+		<English>Mongkut</English>
+		<French>Mongkut</French>
+		<German>Mongkut</German>
+		<Italian>Mongkut</Italian>
+		<Spanish>Mongkut</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MONGKUT_PEDIA</Tag>
+		<English>[H1]Mongkut[\H1][NEWLINE][BOLD]King of Siam[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] October 18, 1804 - October 18, 1868 AD[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Mongkut (Rama IV), was king of Thailand from 1851 to 1868. Mongkut may also be referred to as Vajirayana (Rama IV), reigning title Phra Mongkut Klao Chaoyuhua. Historians have widely regarded King Mongkut as one of the most remarkable kings of the Chakri Dynasty.[PARAGRAPH:2]Prince Mongkut was the son of King Rama II and his first wife Queen Sri Suriyendra, whose first son died at birth in 1801. Prince Mongkut was five years old when his father succeeded to the throne in 1809. According to the law of succession, he was the first in line to the throne; but when his father died, his influential half-brother, Nangklao, was strongly supported by the nobility to assume the throne. Prince Mongkut decided to enter the Buddhist priesthood and travelled in exile to many locations in Thailand. Prince Mongkut spent the following twenty-seven years searching for Western knowledge; he had studied Latin, English, and astronomy with missionaries and sailors. Prince Mongkut would later be noted for his excellent command of English, although it is said that his younger brother, Vice-King Pinklao, could speak even better English.[PARAGRAPH:2]After his twenty-seven years of pilgrimage, King Mongkut succeeded to the throne in 1851. He took the name Phra Chom Klao, although foreigners continued to call him Mongkut. His awareness of the threat from the British and French imperial powers, led him to many innovative activities. He ordered the nobility to wear shirts while attending his court; this was to show that Siam was no longer barbaric from the Western point of view. King Mongkut hired an English woman, Anna Leonowens, whose influence was later the subject of great Thai controversy, to be his sons' tutor. It is still debated how much this affected the worldview of one of his sons, Prince Chulalongkorn, who succeeded to the throne. Anna claimed that her conversations with Prince Chulalongkorn about human freedom, and her relating to him the story of Uncle Tom's Cabin, became the inspiration for his abolition of slavery almost 40 years later. However, the slavery system in Siam was very different from that in the United States, where slavery was based on race. One could be punished for torturing slaves in Siam and some 'slaves' could buy their own freedom. Leonowens' story would become the inspiration for the Rodgers and Hammerstein musical, The King and I.[PARAGRAPH:2]As king, Mongkut worked to establish the Thammayut Nikaya, an order of Buddhist monks that he believed would conform more closely to the orthodoxy of the Theravada school.[PARAGRAPH:2]One of King Mongkut's last official duties came in 1868, when he invited the British consuls from Singapore to watch the solar eclipse, which Mongkut had predicted two years earlier, at Wakor district in Prachuap Khiri Khan province. This became perilous when Mongkut and Prince Chula were infected with malaria. The king died several days later, and was succeeded by his son, who survived the malaria.[PARAGRAPH:2]Reportedly, Mongkut once remarked to a Christian missionary friend: "What you teach us to do is admirable, but what you teach us to believe is foolish".</English>
+		<French>[H1]Mongkut[\H1][NEWLINE][BOLD]King of Siam[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] October 18, 1804 - October 18, 1868 AD[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Mongkut (Rama IV), was king of Thailand from 1851 to 1868. Mongkut may also be referred to as Vajirayana (Rama IV), reigning title Phra Mongkut Klao Chaoyuhua. Historians have widely regarded King Mongkut as one of the most remarkable kings of the Chakri Dynasty.[PARAGRAPH:2]Prince Mongkut was the son of King Rama II and his first wife Queen Sri Suriyendra, whose first son died at birth in 1801. Prince Mongkut was five years old when his father succeeded to the throne in 1809. According to the law of succession, he was the first in line to the throne; but when his father died, his influential half-brother, Nangklao, was strongly supported by the nobility to assume the throne. Prince Mongkut decided to enter the Buddhist priesthood and travelled in exile to many locations in Thailand. Prince Mongkut spent the following twenty-seven years searching for Western knowledge; he had studied Latin, English, and astronomy with missionaries and sailors. Prince Mongkut would later be noted for his excellent command of English, although it is said that his younger brother, Vice-King Pinklao, could speak even better English.[PARAGRAPH:2]After his twenty-seven years of pilgrimage, King Mongkut succeeded to the throne in 1851. He took the name Phra Chom Klao, although foreigners continued to call him Mongkut. His awareness of the threat from the British and French imperial powers, led him to many innovative activities. He ordered the nobility to wear shirts while attending his court; this was to show that Siam was no longer barbaric from the Western point of view. King Mongkut hired an English woman, Anna Leonowens, whose influence was later the subject of great Thai controversy, to be his sons' tutor. It is still debated how much this affected the worldview of one of his sons, Prince Chulalongkorn, who succeeded to the throne. Anna claimed that her conversations with Prince Chulalongkorn about human freedom, and her relating to him the story of Uncle Tom's Cabin, became the inspiration for his abolition of slavery almost 40 years later. However, the slavery system in Siam was very different from that in the United States, where slavery was based on race. One could be punished for torturing slaves in Siam and some 'slaves' could buy their own freedom. Leonowens' story would become the inspiration for the Rodgers and Hammerstein musical, The King and I.[PARAGRAPH:2]As king, Mongkut worked to establish the Thammayut Nikaya, an order of Buddhist monks that he believed would conform more closely to the orthodoxy of the Theravada school.[PARAGRAPH:2]One of King Mongkut's last official duties came in 1868, when he invited the British consuls from Singapore to watch the solar eclipse, which Mongkut had predicted two years earlier, at Wakor district in Prachuap Khiri Khan province. This became perilous when Mongkut and Prince Chula were infected with malaria. The king died several days later, and was succeeded by his son, who survived the malaria.[PARAGRAPH:2]Reportedly, Mongkut once remarked to a Christian missionary friend: "What you teach us to do is admirable, but what you teach us to believe is foolish".</French>
+		<German>[H1]Mongkut[\H1][NEWLINE][BOLD]King of Siam[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] October 18, 1804 - October 18, 1868 AD[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Mongkut (Rama IV), was king of Thailand from 1851 to 1868. Mongkut may also be referred to as Vajirayana (Rama IV), reigning title Phra Mongkut Klao Chaoyuhua. Historians have widely regarded King Mongkut as one of the most remarkable kings of the Chakri Dynasty.[PARAGRAPH:2]Prince Mongkut was the son of King Rama II and his first wife Queen Sri Suriyendra, whose first son died at birth in 1801. Prince Mongkut was five years old when his father succeeded to the throne in 1809. According to the law of succession, he was the first in line to the throne; but when his father died, his influential half-brother, Nangklao, was strongly supported by the nobility to assume the throne. Prince Mongkut decided to enter the Buddhist priesthood and travelled in exile to many locations in Thailand. Prince Mongkut spent the following twenty-seven years searching for Western knowledge; he had studied Latin, English, and astronomy with missionaries and sailors. Prince Mongkut would later be noted for his excellent command of English, although it is said that his younger brother, Vice-King Pinklao, could speak even better English.[PARAGRAPH:2]After his twenty-seven years of pilgrimage, King Mongkut succeeded to the throne in 1851. He took the name Phra Chom Klao, although foreigners continued to call him Mongkut. His awareness of the threat from the British and French imperial powers, led him to many innovative activities. He ordered the nobility to wear shirts while attending his court; this was to show that Siam was no longer barbaric from the Western point of view. King Mongkut hired an English woman, Anna Leonowens, whose influence was later the subject of great Thai controversy, to be his sons' tutor. It is still debated how much this affected the worldview of one of his sons, Prince Chulalongkorn, who succeeded to the throne. Anna claimed that her conversations with Prince Chulalongkorn about human freedom, and her relating to him the story of Uncle Tom's Cabin, became the inspiration for his abolition of slavery almost 40 years later. However, the slavery system in Siam was very different from that in the United States, where slavery was based on race. One could be punished for torturing slaves in Siam and some 'slaves' could buy their own freedom. Leonowens' story would become the inspiration for the Rodgers and Hammerstein musical, The King and I.[PARAGRAPH:2]As king, Mongkut worked to establish the Thammayut Nikaya, an order of Buddhist monks that he believed would conform more closely to the orthodoxy of the Theravada school.[PARAGRAPH:2]One of King Mongkut's last official duties came in 1868, when he invited the British consuls from Singapore to watch the solar eclipse, which Mongkut had predicted two years earlier, at Wakor district in Prachuap Khiri Khan province. This became perilous when Mongkut and Prince Chula were infected with malaria. The king died several days later, and was succeeded by his son, who survived the malaria.[PARAGRAPH:2]Reportedly, Mongkut once remarked to a Christian missionary friend: "What you teach us to do is admirable, but what you teach us to believe is foolish".</German>
+		<Italian>[H1]Mongkut[\H1][NEWLINE][BOLD]King of Siam[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] October 18, 1804 - October 18, 1868 AD[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Mongkut (Rama IV), was king of Thailand from 1851 to 1868. Mongkut may also be referred to as Vajirayana (Rama IV), reigning title Phra Mongkut Klao Chaoyuhua. Historians have widely regarded King Mongkut as one of the most remarkable kings of the Chakri Dynasty.[PARAGRAPH:2]Prince Mongkut was the son of King Rama II and his first wife Queen Sri Suriyendra, whose first son died at birth in 1801. Prince Mongkut was five years old when his father succeeded to the throne in 1809. According to the law of succession, he was the first in line to the throne; but when his father died, his influential half-brother, Nangklao, was strongly supported by the nobility to assume the throne. Prince Mongkut decided to enter the Buddhist priesthood and travelled in exile to many locations in Thailand. Prince Mongkut spent the following twenty-seven years searching for Western knowledge; he had studied Latin, English, and astronomy with missionaries and sailors. Prince Mongkut would later be noted for his excellent command of English, although it is said that his younger brother, Vice-King Pinklao, could speak even better English.[PARAGRAPH:2]After his twenty-seven years of pilgrimage, King Mongkut succeeded to the throne in 1851. He took the name Phra Chom Klao, although foreigners continued to call him Mongkut. His awareness of the threat from the British and French imperial powers, led him to many innovative activities. He ordered the nobility to wear shirts while attending his court; this was to show that Siam was no longer barbaric from the Western point of view. King Mongkut hired an English woman, Anna Leonowens, whose influence was later the subject of great Thai controversy, to be his sons' tutor. It is still debated how much this affected the worldview of one of his sons, Prince Chulalongkorn, who succeeded to the throne. Anna claimed that her conversations with Prince Chulalongkorn about human freedom, and her relating to him the story of Uncle Tom's Cabin, became the inspiration for his abolition of slavery almost 40 years later. However, the slavery system in Siam was very different from that in the United States, where slavery was based on race. One could be punished for torturing slaves in Siam and some 'slaves' could buy their own freedom. Leonowens' story would become the inspiration for the Rodgers and Hammerstein musical, The King and I.[PARAGRAPH:2]As king, Mongkut worked to establish the Thammayut Nikaya, an order of Buddhist monks that he believed would conform more closely to the orthodoxy of the Theravada school.[PARAGRAPH:2]One of King Mongkut's last official duties came in 1868, when he invited the British consuls from Singapore to watch the solar eclipse, which Mongkut had predicted two years earlier, at Wakor district in Prachuap Khiri Khan province. This became perilous when Mongkut and Prince Chula were infected with malaria. The king died several days later, and was succeeded by his son, who survived the malaria.[PARAGRAPH:2]Reportedly, Mongkut once remarked to a Christian missionary friend: "What you teach us to do is admirable, but what you teach us to believe is foolish".</Italian>
+		<Spanish>[H1]Mongkut[\H1][NEWLINE][BOLD]King of Siam[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] October 18, 1804 - October 18, 1868 AD[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Mongkut (Rama IV), was king of Thailand from 1851 to 1868. Mongkut may also be referred to as Vajirayana (Rama IV), reigning title Phra Mongkut Klao Chaoyuhua. Historians have widely regarded King Mongkut as one of the most remarkable kings of the Chakri Dynasty.[PARAGRAPH:2]Prince Mongkut was the son of King Rama II and his first wife Queen Sri Suriyendra, whose first son died at birth in 1801. Prince Mongkut was five years old when his father succeeded to the throne in 1809. According to the law of succession, he was the first in line to the throne; but when his father died, his influential half-brother, Nangklao, was strongly supported by the nobility to assume the throne. Prince Mongkut decided to enter the Buddhist priesthood and travelled in exile to many locations in Thailand. Prince Mongkut spent the following twenty-seven years searching for Western knowledge; he had studied Latin, English, and astronomy with missionaries and sailors. Prince Mongkut would later be noted for his excellent command of English, although it is said that his younger brother, Vice-King Pinklao, could speak even better English.[PARAGRAPH:2]After his twenty-seven years of pilgrimage, King Mongkut succeeded to the throne in 1851. He took the name Phra Chom Klao, although foreigners continued to call him Mongkut. His awareness of the threat from the British and French imperial powers, led him to many innovative activities. He ordered the nobility to wear shirts while attending his court; this was to show that Siam was no longer barbaric from the Western point of view. King Mongkut hired an English woman, Anna Leonowens, whose influence was later the subject of great Thai controversy, to be his sons' tutor. It is still debated how much this affected the worldview of one of his sons, Prince Chulalongkorn, who succeeded to the throne. Anna claimed that her conversations with Prince Chulalongkorn about human freedom, and her relating to him the story of Uncle Tom's Cabin, became the inspiration for his abolition of slavery almost 40 years later. However, the slavery system in Siam was very different from that in the United States, where slavery was based on race. One could be punished for torturing slaves in Siam and some 'slaves' could buy their own freedom. Leonowens' story would become the inspiration for the Rodgers and Hammerstein musical, The King and I.[PARAGRAPH:2]As king, Mongkut worked to establish the Thammayut Nikaya, an order of Buddhist monks that he believed would conform more closely to the orthodoxy of the Theravada school.[PARAGRAPH:2]One of King Mongkut's last official duties came in 1868, when he invited the British consuls from Singapore to watch the solar eclipse, which Mongkut had predicted two years earlier, at Wakor district in Prachuap Khiri Khan province. This became perilous when Mongkut and Prince Chula were infected with malaria. The king died several days later, and was succeeded by his son, who survived the malaria.[PARAGRAPH:2]Reportedly, Mongkut once remarked to a Christian missionary friend: "What you teach us to do is admirable, but what you teach us to believe is foolish".</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MONGKUT_1</Tag>
+		<English>Sawatdi! I am [OUR_NAME] of [OUR_EMPIRE]. "Num lod tor pud." At low tide the stump emerges. I hope that our two great peoples can live together in peace.</English>
+		<French>Sawatdi! Je suis [OUR_NAME] de [OUR_EMPIRE]. "Num lod tor pud." À marée basse, la souche émerge. J'espère que nos deux grands peuples peuvent vivre ensemble en paix.</French>
+		<German>Sawatdi! Ich bin [OUR_NAME] vom [OUR_EMPIRE]. "Num lod tor pud." Bei Ebbe erscheint der Baumstumpf. Ich hoffe dass unsere beiden gro&#223;en V&#246;lker in Frieden zusammenleben k&#246;nnen.</German>
+		<Spanish>Sawatdi! I am [OUR_NAME] of [OUR_EMPIRE]. "Num lod tor pud." At low tide the stump emerges. I hope that our two great peoples can live together in peace.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+		<Italian>Sawatdi! I am [OUR_NAME] of [OUR_EMPIRE]. "Num lod tor pud." At low tide the stump emerges. I hope that our two great peoples can live together in peace.</Italian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAMKHAM</Tag>
+		<English>Ramkhamhaeng</English>
+		<French>Ramkhamhaeng</French>
+		<German>Ramkhamhaeng</German>
+		<Italian>Ramkhamhaeng</Italian>
+		<Spanish>Ramkhamhaeng</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAMKHAM_PEDIA</Tag>
+		<English>[H1]Ramkhamhaeng the Great[\H1][NEWLINE][BOLD]King of Sukhothai kingdom[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] c.1239 - 1317 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Ramkhamhaeng, a son of King Sri-inthrathit, is the most famous and dynamic monarch ever to rule the Sukhothai kingdom. He was a valiant warrior, a wise statesman, a far-sighted scholar and a brilliant diplomat. His attributes of a warrior can be seen from the fact that during his reign, the Sukhothai was an extensive kingdom, bordering in the north on the kingdom of Lannatai at Lampang, including in the north-east Phrae, Nan and Luang Prabang and in the east Wiengchan (Vientiane). To the south, it extended to the towns in the Malay Peninsula and in the west to Tenesserim, Tovoy, Martaban and Hangsawadi up to the Bay of Bengal.[PARAGRAPH:1]King Ramkamhaeng was an absolute monarch who organized the government of the country along military lines. He was himself the head of the army, and all the governors and officials in the cities and towns served under him, in diminishing ranks. He also governed with justice and magnanimity his own people as well as people of other nationalities that lived within his kingdom. Their welfare received his unfailing attention. He was accessible to his people. For example, he had a bell hung in front of a palace gate so that any subject with a grievance could ring it and ask for justice. He also showed considerable interest in the moral education of the people. He persuaded them to observe the simple Buddhist precepts, to make merit and give alms, and to attend a sermon regularly.[PARAGRAPH:1]King Ramkamhaeng created in 1283 the first Thai alphabet so that it was a symbol of the nation's independence. Although his original script has undergone some changes, it is still in use now. It consists of 44 consonants, 32 vowels, and 5 tones of sound. In 1292, King Ramkamhaeng had a stone inscription built.[PARAGRAPH:1]It is considered to be a seminal source of Sukhothai history as well as a masterpiece of Thai literature. The Thais still learn about Sukhothai in the 13th century from this inscription.[PARAGRAPH:1]King Ramkhamhaeng was a paternalistic and benevolent king. His people were happy. Most of them engaged in agriculture while others carried on trade, which was greatly facilitated because no tax was collected. This style of kingship has caused posterity to regard the Sukhothai Kingdom's heyday as a "golden age" in Thai history. Under the reign of King Ramkhamhaeng, Sukhothai was both prosperous and well governed.[PARAGRAPH:1]</English>
+		<French>[H1]Ramkhamhaeng the Great[\H1][NEWLINE][BOLD]King of Sukhothai kingdom[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] c.1239 - 1317 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Ramkhamhaeng, a son of King Sri-inthrathit, is the most famous and dynamic monarch ever to rule the Sukhothai kingdom. He was a valiant warrior, a wise statesman, a far-sighted scholar and a brilliant diplomat. His attributes of a warrior can be seen from the fact that during his reign, the Sukhothai was an extensive kingdom, bordering in the north on the kingdom of Lannatai at Lampang, including in the north-east Phrae, Nan and Luang Prabang and in the east Wiengchan (Vientiane). To the south, it extended to the towns in the Malay Peninsula and in the west to Tenesserim, Tovoy, Martaban and Hangsawadi up to the Bay of Bengal.[PARAGRAPH:1]King Ramkamhaeng was an absolute monarch who organized the government of the country along military lines. He was himself the head of the army, and all the governors and officials in the cities and towns served under him, in diminishing ranks. He also governed with justice and magnanimity his own people as well as people of other nationalities that lived within his kingdom. Their welfare received his unfailing attention. He was accessible to his people. For example, he had a bell hung in front of a palace gate so that any subject with a grievance could ring it and ask for justice. He also showed considerable interest in the moral education of the people. He persuaded them to observe the simple Buddhist precepts, to make merit and give alms, and to attend a sermon regularly.[PARAGRAPH:1]King Ramkamhaeng created in 1283 the first Thai alphabet so that it was a symbol of the nation's independence. Although his original script has undergone some changes, it is still in use now. It consists of 44 consonants, 32 vowels, and 5 tones of sound. In 1292, King Ramkamhaeng had a stone inscription built.[PARAGRAPH:1]It is considered to be a seminal source of Sukhothai history as well as a masterpiece of Thai literature. The Thais still learn about Sukhothai in the 13th century from this inscription.[PARAGRAPH:1]King Ramkhamhaeng was a paternalistic and benevolent king. His people were happy. Most of them engaged in agriculture while others carried on trade, which was greatly facilitated because no tax was collected. This style of kingship has caused posterity to regard the Sukhothai Kingdom's heyday as a "golden age" in Thai history. Under the reign of King Ramkhamhaeng, Sukhothai was both prosperous and well governed.[PARAGRAPH:1]</French>
+		<German>[H1]Ramkhamhaeng the Great[\H1][NEWLINE][BOLD]King of Sukhothai kingdom[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] c.1239 - 1317 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Ramkhamhaeng, a son of King Sri-inthrathit, is the most famous and dynamic monarch ever to rule the Sukhothai kingdom. He was a valiant warrior, a wise statesman, a far-sighted scholar and a brilliant diplomat. His attributes of a warrior can be seen from the fact that during his reign, the Sukhothai was an extensive kingdom, bordering in the north on the kingdom of Lannatai at Lampang, including in the north-east Phrae, Nan and Luang Prabang and in the east Wiengchan (Vientiane). To the south, it extended to the towns in the Malay Peninsula and in the west to Tenesserim, Tovoy, Martaban and Hangsawadi up to the Bay of Bengal.[PARAGRAPH:1]King Ramkamhaeng was an absolute monarch who organized the government of the country along military lines. He was himself the head of the army, and all the governors and officials in the cities and towns served under him, in diminishing ranks. He also governed with justice and magnanimity his own people as well as people of other nationalities that lived within his kingdom. Their welfare received his unfailing attention. He was accessible to his people. For example, he had a bell hung in front of a palace gate so that any subject with a grievance could ring it and ask for justice. He also showed considerable interest in the moral education of the people. He persuaded them to observe the simple Buddhist precepts, to make merit and give alms, and to attend a sermon regularly.[PARAGRAPH:1]King Ramkamhaeng created in 1283 the first Thai alphabet so that it was a symbol of the nation's independence. Although his original script has undergone some changes, it is still in use now. It consists of 44 consonants, 32 vowels, and 5 tones of sound. In 1292, King Ramkamhaeng had a stone inscription built.[PARAGRAPH:1]It is considered to be a seminal source of Sukhothai history as well as a masterpiece of Thai literature. The Thais still learn about Sukhothai in the 13th century from this inscription.[PARAGRAPH:1]King Ramkhamhaeng was a paternalistic and benevolent king. His people were happy. Most of them engaged in agriculture while others carried on trade, which was greatly facilitated because no tax was collected. This style of kingship has caused posterity to regard the Sukhothai Kingdom's heyday as a "golden age" in Thai history. Under the reign of King Ramkhamhaeng, Sukhothai was both prosperous and well governed.[PARAGRAPH:1]</German>
+		<Italian>[H1]Ramkhamhaeng the Great[\H1][NEWLINE][BOLD]King of Sukhothai kingdom[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] c.1239 - 1317 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Ramkhamhaeng, a son of King Sri-inthrathit, is the most famous and dynamic monarch ever to rule the Sukhothai kingdom. He was a valiant warrior, a wise statesman, a far-sighted scholar and a brilliant diplomat. His attributes of a warrior can be seen from the fact that during his reign, the Sukhothai was an extensive kingdom, bordering in the north on the kingdom of Lannatai at Lampang, including in the north-east Phrae, Nan and Luang Prabang and in the east Wiengchan (Vientiane). To the south, it extended to the towns in the Malay Peninsula and in the west to Tenesserim, Tovoy, Martaban and Hangsawadi up to the Bay of Bengal.[PARAGRAPH:1]King Ramkamhaeng was an absolute monarch who organized the government of the country along military lines. He was himself the head of the army, and all the governors and officials in the cities and towns served under him, in diminishing ranks. He also governed with justice and magnanimity his own people as well as people of other nationalities that lived within his kingdom. Their welfare received his unfailing attention. He was accessible to his people. For example, he had a bell hung in front of a palace gate so that any subject with a grievance could ring it and ask for justice. He also showed considerable interest in the moral education of the people. He persuaded them to observe the simple Buddhist precepts, to make merit and give alms, and to attend a sermon regularly.[PARAGRAPH:1]King Ramkamhaeng created in 1283 the first Thai alphabet so that it was a symbol of the nation's independence. Although his original script has undergone some changes, it is still in use now. It consists of 44 consonants, 32 vowels, and 5 tones of sound. In 1292, King Ramkamhaeng had a stone inscription built.[PARAGRAPH:1]It is considered to be a seminal source of Sukhothai history as well as a masterpiece of Thai literature. The Thais still learn about Sukhothai in the 13th century from this inscription.[PARAGRAPH:1]King Ramkhamhaeng was a paternalistic and benevolent king. His people were happy. Most of them engaged in agriculture while others carried on trade, which was greatly facilitated because no tax was collected. This style of kingship has caused posterity to regard the Sukhothai Kingdom's heyday as a "golden age" in Thai history. Under the reign of King Ramkhamhaeng, Sukhothai was both prosperous and well governed.[PARAGRAPH:1]</Italian>
+		<Spanish>[H1]Ramkhamhaeng the Great[\H1][NEWLINE][BOLD]King of Sukhothai kingdom[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] c.1239 - 1317 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Ramkhamhaeng, a son of King Sri-inthrathit, is the most famous and dynamic monarch ever to rule the Sukhothai kingdom. He was a valiant warrior, a wise statesman, a far-sighted scholar and a brilliant diplomat. His attributes of a warrior can be seen from the fact that during his reign, the Sukhothai was an extensive kingdom, bordering in the north on the kingdom of Lannatai at Lampang, including in the north-east Phrae, Nan and Luang Prabang and in the east Wiengchan (Vientiane). To the south, it extended to the towns in the Malay Peninsula and in the west to Tenesserim, Tovoy, Martaban and Hangsawadi up to the Bay of Bengal.[PARAGRAPH:1]King Ramkamhaeng was an absolute monarch who organized the government of the country along military lines. He was himself the head of the army, and all the governors and officials in the cities and towns served under him, in diminishing ranks. He also governed with justice and magnanimity his own people as well as people of other nationalities that lived within his kingdom. Their welfare received his unfailing attention. He was accessible to his people. For example, he had a bell hung in front of a palace gate so that any subject with a grievance could ring it and ask for justice. He also showed considerable interest in the moral education of the people. He persuaded them to observe the simple Buddhist precepts, to make merit and give alms, and to attend a sermon regularly.[PARAGRAPH:1]King Ramkamhaeng created in 1283 the first Thai alphabet so that it was a symbol of the nation's independence. Although his original script has undergone some changes, it is still in use now. It consists of 44 consonants, 32 vowels, and 5 tones of sound. In 1292, King Ramkamhaeng had a stone inscription built.[PARAGRAPH:1]It is considered to be a seminal source of Sukhothai history as well as a masterpiece of Thai literature. The Thais still learn about Sukhothai in the 13th century from this inscription.[PARAGRAPH:1]King Ramkhamhaeng was a paternalistic and benevolent king. His people were happy. Most of them engaged in agriculture while others carried on trade, which was greatly facilitated because no tax was collected. This style of kingship has caused posterity to regard the Sukhothai Kingdom's heyday as a "golden age" in Thai history. Under the reign of King Ramkhamhaeng, Sukhothai was both prosperous and well governed.[PARAGRAPH:1]</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_RAMKHAM_1</Tag>
+		<English>The Lord of the realm does not levy toll on his subjects. Neither does he connive with thieves. I am [OUR_NAME] of [OUR_EMPIRE].</English>
+		<French>Le Seigneur du royaume ne perçoit pas de taxes sur ses sujets. Il n'est pas non plus de connivence avec les voleurs. Je suis [OUR_NAME] de [OUR_EMPIRE].</French>
+		<German>Der Herr dieses Reiches erhebt keine Abgaben von seinem Volk. Ebenso verschw&#246;rt er sich nicht mit Dieben. Ich bin [OUR_NAME] vom [OUR_EMPIRE].</German>
+		<Italian>The Lord of the realm does not levy toll on his subjects. Neither does he connive with thieves. I am [OUR_NAME] of [OUR_EMPIRE].</Italian>
+		<Spanish>The Lord of the realm does not levy toll on his subjects. Neither does he connive with thieves. I am [OUR_NAME] of [OUR_EMPIRE].</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BANGKOK</Tag>
+		<English>Bangkok</English>
+		<French>
+			<Text>Bangkok</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Bangkok</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Bangkok</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Bangkok</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PATTAYA</Tag>
+		<English>Pattaya</English>
+		<French>
+			<Text>Pattaya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Pattaya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Pattaya</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pattaya</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NONTHABURI</Tag>
+		<English>Nonthaburi</English>
+		<French>
+			<Text>Nonthaburi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Nonthaburi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nonthaburi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Nonthaburi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PAK_KRET</Tag>
+		<English>Pak Kret</English>
+		<French>
+			<Text>Pak Kret</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Pak Kret</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Pak Kret</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pak Kret</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAT_YAI</Tag>
+		<English>Hat Yai</English>
+		<French>
+			<Text>Hat Yai</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Hat Yai</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Hat Yai</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Hat Yai</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PHRA_NAKHON_SI_AYUTTHAYA</Tag>
+		<English>Phra Nakhon Si Ayutthaya</English>
+		<French>
+			<Text>Phra Nakhon Si Ayutthaya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Phra Nakhon Si Ayutthaya</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Phra Nakhon Si Ayutthaya</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Phra Nakhon Si Ayutthaya</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SAMUT_PRAKAN</Tag>
+		<English>Samut Prakan</English>
+		<French>
+			<Text>Samut Prakan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Samut Prakan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Samut Prakan</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Samut Prakan</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_RAYONG</Tag>
+		<English>Rayong</English>
+		<French>
+			<Text>Rayong</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Rayong</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Rayong</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Rayong</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NAKHON_PATHOM</Tag>
+		<English>Nakhon Pathom</English>
+		<French>
+			<Text>Nakhon Pathom</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Nakhon Pathom</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nakhon Pathom</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Nakhon Pathom</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SAMUT_SAKHON</Tag>
+		<English>Samut Sakhon</English>
+		<French>
+			<Text>Samut Sakhon</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Samut Sakhon</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Samut Sakhon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Samut Sakhon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NAKHON_RATCHASIMA</Tag>
+		<English>Nakhon Ratchasima</English>
+		<French>
+			<Text>Nakhon Ratchasima</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Nakhon Ratchasima</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nakhon Ratchasima</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Nakhon Ratchasima</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KHON_KAEN</Tag>
+		<English>Khon Kaen</English>
+		<French>
+			<Text>Khon Kaen</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Khon Kaen</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Khon Kaen</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Khon Kaen</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_UDON_THANI</Tag>
+		<English>Udon Thani</English>
+		<French>
+			<Text>Udon Thani</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Udon Thani</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Udon Thani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Udon Thani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_UBON_RATCHATHANI</Tag>
+		<English>Ubon Ratchathani</English>
+		<French>
+			<Text>Ubon Ratchathani</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Ubon Ratchathani</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Ubon Ratchathani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ubon Ratchathani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NAKHON_SAWAN</Tag>
+		<English>Nakhon Sawan</English>
+		<French>
+			<Text>Nakhon Sawan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Nakhon Sawan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nakhon Sawan</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Nakhon Sawan</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PHITSANULOK</Tag>
+		<English>Phitsanulok</English>
+		<French>
+			<Text>Phitsanulok</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Phitsanulok</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Phitsanulok</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Phitsanulok</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHIANG_MAI</Tag>
+		<English>Chiang Mai</English>
+		<French>
+			<Text>Chiang Mai</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Chiang Mai</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Chiang Mai</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Chiang Mai</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_LAMPANG</Tag>
+		<English>Lampang</English>
+		<French>
+			<Text>Lampang</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Lampang</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Lampang</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Lampang</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NAKHON_SRI_THAMMARAT</Tag>
+		<English>Nakhon Sri Thammarat</English>
+		<French>
+			<Text>Nakhon Sri Thammarat</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Nakhon Sri Thammarat</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nakhon Sri Thammarat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Nakhon Sri Thammarat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TRANG</Tag>
+		<English>Trang</English>
+		<French>
+			<Text>Trang</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Trang</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Trang</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Trang</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_YALA</Tag>
+		<English>Yala</English>
+		<French>
+			<Text>Yala</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Yala</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Yala</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Yala</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SONGKHLA</Tag>
+		<English>Songkhla</English>
+		<French>
+			<Text>Songkhla</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Songkhla</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Songkhla</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Songkhla</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SURAT_THANI</Tag>
+		<English>Surat Thani</English>
+		<French>
+			<Text>Surat Thani</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Surat Thani</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Surat Thani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Surat Thani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BANG_BUA_THONG</Tag>
+		<English>Bang Bua Thong</English>
+		<French>
+			<Text>Bang Bua Thong</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Bang Bua Thong</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Bang Bua Thong</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Bang Bua Thong</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BANG_KRUAI</Tag>
+		<English>Bang Kruai</English>
+		<French>
+			<Text>Bang Kruai</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Bang Kruai</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Bang Kruai</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Bang Kruai</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PATHUM_THANI</Tag>
+		<English>Pathum Thani</English>
+		<French>
+			<Text>Pathum Thani</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Pathum Thani</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Pathum Thani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pathum Thani</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_MUEANGTHA_KHLONG</Tag>
+		<English>Mueangtha Khlong</English>
+		<French>
+			<Text>Mueangtha Khlong</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Mueangtha Khlong</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mueangtha Khlong</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mueangtha Khlong</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KHU_KHOT</Tag>
+		<English>Khu Khot</English>
+		<French>
+			<Text>Khu Khot</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Khu Khot</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Khu Khot</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Khu Khot</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SENA</Tag>
+		<English>Sena</English>
+		<French>
+			<Text>Sena</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sena</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sena</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sena</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PHRA_PRADAENG</Tag>
+		<English>Phra Pradaeng</English>
+		<French>
+			<Text>Phra Pradaeng</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Phra Pradaeng</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Phra Pradaeng</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Phra Pradaeng</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_AANG_THONG</Tag>
+		<English>Aang Thong</English>
+		<French>
+			<Text>Aang Thong</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Aang Thong</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Aang Thong</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Aang Thong</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHAI_NAT</Tag>
+		<English>Chai Nat</English>
+		<French>
+			<Text>Chai Nat</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Chai Nat</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Chai Nat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Chai Nat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NAKHON_NAYOK</Tag>
+		<English>Nakhon Nayok</English>
+		<French>
+			<Text>Nakhon Nayok</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Nakhon Nayok</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Nakhon Nayok</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Nakhon Nayok</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_LOP_BURI</Tag>
+		<English>Lop Buri</English>
+		<French>
+			<Text>Lop Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Lop Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Lop Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Lop Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BAN_MI</Tag>
+		<English>Ban Mi</English>
+		<French>
+			<Text>Ban Mi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Ban Mi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Ban Mi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ban Mi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SARABURI</Tag>
+		<English>Saraburi</English>
+		<French>
+			<Text>Saraburi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Saraburi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Saraburi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Saraburi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SING_BURI</Tag>
+		<English>Sing Buri</English>
+		<French>
+			<Text>Sing Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Sing Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sing Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sing Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SUPHAN_BURI</Tag>
+		<English>Suphan Buri</English>
+		<French>
+			<Text>Suphan Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Suphan Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Suphan Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Suphan Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHANTHABURI</Tag>
+		<English>Chanthaburi</English>
+		<French>
+			<Text>Chanthaburi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Chanthaburi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Chanthaburi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Chanthaburi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KHLUNG</Tag>
+		<English>Khlung</English>
+		<French>
+			<Text>Khlung</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Khlung</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Khlung</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Khlung</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHACHOENGSAO</Tag>
+		<English>Chachoengsao</English>
+		<French>
+			<Text>Chachoengsao</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Chachoengsao</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Chachoengsao</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Chachoengsao</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHON_BURI</Tag>
+		<English>Chon Buri</English>
+		<French>
+			<Text>Chon Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Chon Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Chon Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Chon Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SAEN_SUK</Tag>
+		<English>Saen Suk</English>
+		<French>
+			<Text>Saen Suk</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Saen Suk</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Saen Suk</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Saen Suk</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BAN_BUENG</Tag>
+		<English>Ban Bueng</English>
+		<French>
+			<Text>Ban Bueng</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Ban Bueng</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Ban Bueng</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ban Bueng</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PHANAT_NIKHOM</Tag>
+		<English>Phanat Nikhom</English>
+		<French>
+			<Text>Phanat Nikhom</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Phanat Nikhom</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Phanat Nikhom</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Phanat Nikhom</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SI_RACHA</Tag>
+		<English>Si Racha</English>
+		<French>
+			<Text>Si Racha</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Si Racha</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Si Racha</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Si Racha</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TRAT</Tag>
+		<English>Trat</English>
+		<French>
+			<Text>Trat</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Trat</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Trat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Trat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PRACHIN_BURI</Tag>
+		<English>Prachin_Buri</English>
+		<French>
+			<Text>Prachin_Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Prachin_Buri</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Prachin_Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Prachin_Buri</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KANCHANABURI</Tag>
+		<English>Kanchanaburi</English>
+		<French>
+			<Text>Kanchanaburi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kanchanaburi</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Kanchanaburi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Kanchanaburi</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PRACHUAP_KHIRI_KHAN</Tag>
+		<English>Prachuap Khiri Khan</English>
+		<French>
+			<Text>Prachuap Khiri Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Prachuap Khiri Khan</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Prachuap Khiri Khan</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Prachuap Khiri Khan</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIAM_HO_TRAI</Tag>
+		<English>Ho Trai</English>
+		<French>Ho Trai</French>
+		<German>Ho Trai</German>
+		<Italian>Ho Trai</Italian>
+		<Spanish>Ho Trai</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIAM_HO_TRAI_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]Ho Trai[COLOR_REVERT] (the Siamese replacement for a [COLOR_BUILDING_TEXT]Library[COLOR_REVERT]) boost your cities' research and provide culture. They are required to build [COLOR_BUILDING_TEXT]Universities[COLOR_REVERT], the [COLOR_BUILDING_TEXT]Great Library[COLOR_REVERT] wonder, and the [COLOR_BUILDING_TEXT]National Epic[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Heroic Epic[COLOR_REVERT] national wonders.</English>
+		<French>[COLOR_BUILDING_TEXT]Ho Trai[COLOR_REVERT] (the Siamese replacement for a [COLOR_BUILDING_TEXT]Library[COLOR_REVERT]) boost your cities' research and provide culture. They are required to build [COLOR_BUILDING_TEXT]Universities[COLOR_REVERT], the [COLOR_BUILDING_TEXT]Great Library[COLOR_REVERT] wonder, and the [COLOR_BUILDING_TEXT]National Epic[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Heroic Epic[COLOR_REVERT] national wonders.</French>
+		<German>[COLOR_BUILDING_TEXT]Ho Trai[COLOR_REVERT] (der Siamesische Ersatz f&#252;r [COLOR_BUILDING_TEXT]Bibliothek[COLOR_REVERT]) erh&#246;ht die Forschung der Stadt und bringt Kultur. Sie werden ben&#246;tigt zum Bau von [COLOR_BUILDING_TEXT]Universit&#228;ten[COLOR_REVERT], des Weltwunders [COLOR_BUILDING_TEXT]Gro&#223;en Bibliothek[COLOR_REVERT], und der Nationalen Wunder [COLOR_BUILDING_TEXT]Nationalepos[COLOR_REVERT] und [COLOR_BUILDING_TEXT]Heldenepos[COLOR_REVERT].</German>
+		<Italian>[COLOR_BUILDING_TEXT]Ho Trai[COLOR_REVERT] (the Siamese replacement for a [COLOR_BUILDING_TEXT]Library[COLOR_REVERT]) boost your cities' research and provide culture. They are required to build [COLOR_BUILDING_TEXT]Universities[COLOR_REVERT], the [COLOR_BUILDING_TEXT]Great Library[COLOR_REVERT] wonder, and the [COLOR_BUILDING_TEXT]National Epic[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Heroic Epic[COLOR_REVERT] national wonders.</Italian>
+		<Spanish>[COLOR_BUILDING_TEXT]Ho Trai[COLOR_REVERT] (the Siamese replacement for a [COLOR_BUILDING_TEXT]Library[COLOR_REVERT]) boost your cities' research and provide culture. They are required to build [COLOR_BUILDING_TEXT]Universities[COLOR_REVERT], the [COLOR_BUILDING_TEXT]Great Library[COLOR_REVERT] wonder, and the [COLOR_BUILDING_TEXT]National Epic[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Heroic Epic[COLOR_REVERT] national wonders.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIAM_HO_TRAI_PEDIA</Tag>
+		<English>[TAB]Ho Trai is the library where book cases are kept. There is no definite design of this structure. It varies in form and size. In the past, most libraries were built in wood on poles over ponds to prevent the white ants from harming the palm-leave books. Some Ho Trai have a basement in brick and the room in wood, others have the ground room in brick and a wooden one over it. Of this type, which is common in the north of Thailand there are fine examples in Chiang Mai and Lumphun.[PARAGRAPH:1]Usually the Ho Trai has no interior decoration but some, like that of Wat Rakhangk in the west bank of the Chao Phraya River in Bangkok, have fine paintings on the walls, window and daoor panels. This Ho Trai is formed by three parallel attached rooms, each room having a proper roof. The inner sides of the roofs of the right and left rooms join the slopes of the central one and the water of the four slopes is received by two gutters.[PARAGRAPH:1]To build two or three rooms attached to each other with separated roofs, typical of the Thai common houses, is quite logical because by roofing each room the Thai avoided building a large and high roof which had to span the total breadth. In this case the lower part of the building would appear too small in comparison with the roof.[PARAGRAPH:1]</English>
+		<French>[TAB]Ho Trai is the library where book cases are kept. There is no definite design of this structure. It varies in form and size. In the past, most libraries were built in wood on poles over ponds to prevent the white ants from harming the palm-leave books. Some Ho Trai have a basement in brick and the room in wood, others have the ground room in brick and a wooden one over it. Of this type, which is common in the north of Thailand there are fine examples in Chiang Mai and Lumphun.[PARAGRAPH:1]Usually the Ho Trai has no interior decoration but some, like that of Wat Rakhangk in the west bank of the Chao Phraya River in Bangkok, have fine paintings on the walls, window and daoor panels. This Ho Trai is formed by three parallel attached rooms, each room having a proper roof. The inner sides of the roofs of the right and left rooms join the slopes of the central one and the water of the four slopes is received by two gutters.[PARAGRAPH:1]To build two or three rooms attached to each other with separated roofs, typical of the Thai common houses, is quite logical because by roofing each room the Thai avoided building a large and high roof which had to span the total breadth. In this case the lower part of the building would appear too small in comparison with the roof.[PARAGRAPH:1]</French>
+		<German>[TAB]Ho Trai is the library where book cases are kept. There is no definite design of this structure. It varies in form and size. In the past, most libraries were built in wood on poles over ponds to prevent the white ants from harming the palm-leave books. Some Ho Trai have a basement in brick and the room in wood, others have the ground room in brick and a wooden one over it. Of this type, which is common in the north of Thailand there are fine examples in Chiang Mai and Lumphun.[PARAGRAPH:1]Usually the Ho Trai has no interior decoration but some, like that of Wat Rakhangk in the west bank of the Chao Phraya River in Bangkok, have fine paintings on the walls, window and daoor panels. This Ho Trai is formed by three parallel attached rooms, each room having a proper roof. The inner sides of the roofs of the right and left rooms join the slopes of the central one and the water of the four slopes is received by two gutters.[PARAGRAPH:1]To build two or three rooms attached to each other with separated roofs, typical of the Thai common houses, is quite logical because by roofing each room the Thai avoided building a large and high roof which had to span the total breadth. In this case the lower part of the building would appear too small in comparison with the roof.[PARAGRAPH:1]</German>
+		<Italian>[TAB]Ho Trai is the library where book cases are kept. There is no definite design of this structure. It varies in form and size. In the past, most libraries were built in wood on poles over ponds to prevent the white ants from harming the palm-leave books. Some Ho Trai have a basement in brick and the room in wood, others have the ground room in brick and a wooden one over it. Of this type, which is common in the north of Thailand there are fine examples in Chiang Mai and Lumphun.[PARAGRAPH:1]Usually the Ho Trai has no interior decoration but some, like that of Wat Rakhangk in the west bank of the Chao Phraya River in Bangkok, have fine paintings on the walls, window and daoor panels. This Ho Trai is formed by three parallel attached rooms, each room having a proper roof. The inner sides of the roofs of the right and left rooms join the slopes of the central one and the water of the four slopes is received by two gutters.[PARAGRAPH:1]To build two or three rooms attached to each other with separated roofs, typical of the Thai common houses, is quite logical because by roofing each room the Thai avoided building a large and high roof which had to span the total breadth. In this case the lower part of the building would appear too small in comparison with the roof.[PARAGRAPH:1]</Italian>
+		<Spanish>[TAB]Ho Trai is the library where book cases are kept. There is no definite design of this structure. It varies in form and size. In the past, most libraries were built in wood on poles over ponds to prevent the white ants from harming the palm-leave books. Some Ho Trai have a basement in brick and the room in wood, others have the ground room in brick and a wooden one over it. Of this type, which is common in the north of Thailand there are fine examples in Chiang Mai and Lumphun.[PARAGRAPH:1]Usually the Ho Trai has no interior decoration but some, like that of Wat Rakhangk in the west bank of the Chao Phraya River in Bangkok, have fine paintings on the walls, window and daoor panels. This Ho Trai is formed by three parallel attached rooms, each room having a proper roof. The inner sides of the roofs of the right and left rooms join the slopes of the central one and the water of the four slopes is received by two gutters.[PARAGRAPH:1]To build two or three rooms attached to each other with separated roofs, typical of the Thai common houses, is quite logical because by roofing each room the Thai avoided building a large and high roof which had to span the total breadth. In this case the lower part of the building would appear too small in comparison with the roof.[PARAGRAPH:1]</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SIAM_ELEPHANT</Tag>
+		<English>Battle Elephant</English>
+		<French>Eléphant de Bataille</French>
+		<German>Schlacht-Elefant</German>
+		<Italian>Battle Elephant</Italian>
+		<Spanish>Battle Elephant</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SIAM_ELEPHANT_STRATEGY</Tag>
+		<English>This powerful early mounted combat unit (the Siamese replacement for the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT]) is a more powerful counter to units like the [COLOR_UNIT_TEXT]Horse Archer[COLOR_REVERT]. It is slightly more powerful than the standard unit and can move one extra space per turn.</English>
+		<French>This powerful early mounted combat unit (the Siamese replacement for the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT]) is a more powerful counter to units like the [COLOR_UNIT_TEXT]Horse Archer[COLOR_REVERT]. It is slightly more powerful than the standard unit and can move one extra space per turn.</French>
+		<German>Diese m&#228;chtige fr&#252;he berittene Kampfeinheit (der siamesische Ersatz f&#252;r [COLOR_UNIT_TEXT]Kriegselefant[COLOR_REVERT]) ist eine st&#228;rkerer Gegner f&#252;r Einheiten wie den[COLOR_UNIT_TEXT]Berittenen Bogensch&#252;tzen[COLOR_REVERT]. Er ist etwas st&#228;rker als die Standardeinheit und pro Durchgang eine weitere Bewegung zur&#252;cklegen.</German>
+		<Italian>This powerful early mounted combat unit (the Siamese replacement for the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT]) is a more powerful counter to units like the [COLOR_UNIT_TEXT]Horse Archer[COLOR_REVERT]. It is slightly more powerful than the standard unit and can move one extra space per turn.</Italian>
+		<Spanish>This powerful early mounted combat unit (the Siamese replacement for the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT]) is a more powerful counter to units like the [COLOR_UNIT_TEXT]Horse Archer[COLOR_REVERT]. It is slightly more powerful than the standard unit and can move one extra space per turn.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SIAM_ELEPHANT_PEDIA</Tag>
+		<English>[TAB]War elephants were important, although not widespread, weapons in ancient military history. Their main use was in charges, to trample the enemy and/or break their ranks. War elephants were exclusively male animals, because they were faster, more aggressive, and the females had a tendency to run away from other females.[PARAGRAPH:1]Elephant taming began in the Indus valley around 4,000 years ago. Taming is not used here as a synonym of domestication. Domesticated animals, such as cows or dogs, are born in captivity and eventually subjected to selective breeding. Elephants, probably due to their bad temper, expensive feeding and slow growth rate (15 years to adulthood), were, with very few exceptions, always caught in the wild and subsequently tamed for several purposes. The first species to be tamed was thus the Asian elephant, for agricultural ends. The first military application of elephants dates from around 1100 BC and is mentioned in several Sanskrit hymns.</English>
+		<French>[TAB]War elephants were important, although not widespread, weapons in ancient military history. Their main use was in charges, to trample the enemy and/or break their ranks. War elephants were exclusively male animals, because they were faster, more aggressive, and the females had a tendency to run away from other females.[PARAGRAPH:1]Elephant taming began in the Indus valley around 4,000 years ago. Taming is not used here as a synonym of domestication. Domesticated animals, such as cows or dogs, are born in captivity and eventually subjected to selective breeding. Elephants, probably due to their bad temper, expensive feeding and slow growth rate (15 years to adulthood), were, with very few exceptions, always caught in the wild and subsequently tamed for several purposes. The first species to be tamed was thus the Asian elephant, for agricultural ends. The first military application of elephants dates from around 1100 BC and is mentioned in several Sanskrit hymns.</French>
+		<German>[TAB]War elephants were important, although not widespread, weapons in ancient military history. Their main use was in charges, to trample the enemy and/or break their ranks. War elephants were exclusively male animals, because they were faster, more aggressive, and the females had a tendency to run away from other females.[PARAGRAPH:1]Elephant taming began in the Indus valley around 4,000 years ago. Taming is not used here as a synonym of domestication. Domesticated animals, such as cows or dogs, are born in captivity and eventually subjected to selective breeding. Elephants, probably due to their bad temper, expensive feeding and slow growth rate (15 years to adulthood), were, with very few exceptions, always caught in the wild and subsequently tamed for several purposes. The first species to be tamed was thus the Asian elephant, for agricultural ends. The first military application of elephants dates from around 1100 BC and is mentioned in several Sanskrit hymns.</German>
+		<Italian>[TAB]War elephants were important, although not widespread, weapons in ancient military history. Their main use was in charges, to trample the enemy and/or break their ranks. War elephants were exclusively male animals, because they were faster, more aggressive, and the females had a tendency to run away from other females.[PARAGRAPH:1]Elephant taming began in the Indus valley around 4,000 years ago. Taming is not used here as a synonym of domestication. Domesticated animals, such as cows or dogs, are born in captivity and eventually subjected to selective breeding. Elephants, probably due to their bad temper, expensive feeding and slow growth rate (15 years to adulthood), were, with very few exceptions, always caught in the wild and subsequently tamed for several purposes. The first species to be tamed was thus the Asian elephant, for agricultural ends. The first military application of elephants dates from around 1100 BC and is mentioned in several Sanskrit hymns.</Italian>
+		<Spanish>[TAB]War elephants were important, although not widespread, weapons in ancient military history. Their main use was in charges, to trample the enemy and/or break their ranks. War elephants were exclusively male animals, because they were faster, more aggressive, and the females had a tendency to run away from other females.[PARAGRAPH:1]Elephant taming began in the Indus valley around 4,000 years ago. Taming is not used here as a synonym of domestication. Domesticated animals, such as cows or dogs, are born in captivity and eventually subjected to selective breeding. Elephants, probably due to their bad temper, expensive feeding and slow growth rate (15 years to adulthood), were, with very few exceptions, always caught in the wild and subsequently tamed for several purposes. The first species to be tamed was thus the Asian elephant, for agricultural ends. The first military application of elephants dates from around 1100 BC and is mentioned in several Sanskrit hymns.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SIAM_PEDIA</Tag>
+		<English>[TAB]Siam was a country in Southeast Asia; it is now called Thailand.[PARAGRAPH:1]By the time the name was officially changed in 1939, the borders of the country had been secured, and they have not changed since, except for a brief period during the World War II Japanese occupation of Thailand, when other parts of Japanese-occupied Southeast Asia were transferred to Thailand and briefly swelled the kingdom. Thailand was punished for its bad choice of ally after the war was over, and the borders were returned to their previous locations.[PARAGRAPH:1]But such changes are not uncommon in this little corner of Asia; throughout its long history, Siam has been much larger, and much smaller, than it is today.[PARAGRAPH:1]The mapping of the borders of the country did not in fact occur until the nineteenth century. Previously Siam, like most Southeast Asian polities, was home to a host of waxing and waning kingdoms whose fortunes depended, in large part, on the strategic and tactical prowess of their rulers.[PARAGRAPH:1]It is common in Thai nationalist historiography to trace the origins of the Siamese (and Thai) state back to a kingdom centred around the city of Sukhothai and ruled by the benevolent patriarch Ramkhamhaeng, one of those powerful rulers who was able to subjugate many of his neighbours and greatly expand his territory. However, during Ramkhamhaeng's day and after a powerful kingdom co-existed close by, centred around present-day Chiang Mai, which was founded by Ramkhamhaeng's friend and rival, Mangrai; other nearby powers included Phrae and Luang Phrabang. There were southern kingdoms near what is now Malaysia, and the Burmese and Khmer - now Cambodians - have long been major players in this arena. But all are given short shrift in the drive to identify a unitary lineage which leads to modern Thailand. That lineage moves from Sukhothai to Ayuthaya, and thence to Thonburi and Bangkok.[PARAGRAPH:1]By the nineteenth century European powers were busy colonizing Asia and the king, Chulalongkorn, realized that he better make formal what had previously been rather elastic, so he arranged for some intrepid farang (western) and Thai explorers to map the borders of the kingdom. Chulalongkorn's father Mongkut had already had to cede some Siamese territory to the British, and Chulalongkorn gave away much more to the French. But this was negotiated in return for concessions, not seized or tricked away from the Siamese, and the most important concession Siam was able to demand was independence. Thus the modern kingdom of Siam literally took shape in the nineteenth century, and Siam stood alone in Southeast Asia in being able to avoid colonization.[PARAGRAPH:1]The term Siam itself has been in use for a very long time in Asia.[PARAGRAPH:1]Apparently a twelfth-century Khmer inscription at Angkor Wat mentions syam, "dark brown people", said to be vassals of the Khmer king; they were probably settled around Sukhothai. The term quickly took hold in Europe as well, and farang visitors who visited Ayuthaya in the seventeenth century referred to the kingdom as Siam (or Sayam), but also Ayuthaya (Ayutthaya, Ayuthiya, and lots of other variants), and reported that the inhabitants themselves called their country Meuang Thai, "Land of the Free". This was the convention drawn on when changing the name from Siam to Thailand.[PARAGRAPH:1]The name change was controversial, and some still prefer Siam. However, "Land of the Free" has better connotations than "dark brown people" and the name Thailand, though an English translation, does have clear indigenous roots that the term Siam lacks. In any case, Siam became Thailand, and there the matter rests today.[PARAGRAPH:1]</English>
+		<French>[TAB]Siam was a country in Southeast Asia; it is now called Thailand.[PARAGRAPH:1]By the time the name was officially changed in 1939, the borders of the country had been secured, and they have not changed since, except for a brief period during the World War II Japanese occupation of Thailand, when other parts of Japanese-occupied Southeast Asia were transferred to Thailand and briefly swelled the kingdom. Thailand was punished for its bad choice of ally after the war was over, and the borders were returned to their previous locations.[PARAGRAPH:1]But such changes are not uncommon in this little corner of Asia; throughout its long history, Siam has been much larger, and much smaller, than it is today.[PARAGRAPH:1]The mapping of the borders of the country did not in fact occur until the nineteenth century. Previously Siam, like most Southeast Asian polities, was home to a host of waxing and waning kingdoms whose fortunes depended, in large part, on the strategic and tactical prowess of their rulers.[PARAGRAPH:1]It is common in Thai nationalist historiography to trace the origins of the Siamese (and Thai) state back to a kingdom centred around the city of Sukhothai and ruled by the benevolent patriarch Ramkhamhaeng, one of those powerful rulers who was able to subjugate many of his neighbours and greatly expand his territory. However, during Ramkhamhaeng's day and after a powerful kingdom co-existed close by, centred around present-day Chiang Mai, which was founded by Ramkhamhaeng's friend and rival, Mangrai; other nearby powers included Phrae and Luang Phrabang. There were southern kingdoms near what is now Malaysia, and the Burmese and Khmer - now Cambodians - have long been major players in this arena. But all are given short shrift in the drive to identify a unitary lineage which leads to modern Thailand. That lineage moves from Sukhothai to Ayuthaya, and thence to Thonburi and Bangkok.[PARAGRAPH:1]By the nineteenth century European powers were busy colonizing Asia and the king, Chulalongkorn, realized that he better make formal what had previously been rather elastic, so he arranged for some intrepid farang (western) and Thai explorers to map the borders of the kingdom. Chulalongkorn's father Mongkut had already had to cede some Siamese territory to the British, and Chulalongkorn gave away much more to the French. But this was negotiated in return for concessions, not seized or tricked away from the Siamese, and the most important concession Siam was able to demand was independence. Thus the modern kingdom of Siam literally took shape in the nineteenth century, and Siam stood alone in Southeast Asia in being able to avoid colonization.[PARAGRAPH:1]The term Siam itself has been in use for a very long time in Asia.[PARAGRAPH:1]Apparently a twelfth-century Khmer inscription at Angkor Wat mentions syam, "dark brown people", said to be vassals of the Khmer king; they were probably settled around Sukhothai. The term quickly took hold in Europe as well, and farang visitors who visited Ayuthaya in the seventeenth century referred to the kingdom as Siam (or Sayam), but also Ayuthaya (Ayutthaya, Ayuthiya, and lots of other variants), and reported that the inhabitants themselves called their country Meuang Thai, "Land of the Free". This was the convention drawn on when changing the name from Siam to Thailand.[PARAGRAPH:1]The name change was controversial, and some still prefer Siam. However, "Land of the Free" has better connotations than "dark brown people" and the name Thailand, though an English translation, does have clear indigenous roots that the term Siam lacks. In any case, Siam became Thailand, and there the matter rests today.[PARAGRAPH:1]</French>
+		<Italian>[TAB]Siam was a country in Southeast Asia; it is now called Thailand.[PARAGRAPH:1]By the time the name was officially changed in 1939, the borders of the country had been secured, and they have not changed since, except for a brief period during the World War II Japanese occupation of Thailand, when other parts of Japanese-occupied Southeast Asia were transferred to Thailand and briefly swelled the kingdom. Thailand was punished for its bad choice of ally after the war was over, and the borders were returned to their previous locations.[PARAGRAPH:1]But such changes are not uncommon in this little corner of Asia; throughout its long history, Siam has been much larger, and much smaller, than it is today.[PARAGRAPH:1]The mapping of the borders of the country did not in fact occur until the nineteenth century. Previously Siam, like most Southeast Asian polities, was home to a host of waxing and waning kingdoms whose fortunes depended, in large part, on the strategic and tactical prowess of their rulers.[PARAGRAPH:1]It is common in Thai nationalist historiography to trace the origins of the Siamese (and Thai) state back to a kingdom centred around the city of Sukhothai and ruled by the benevolent patriarch Ramkhamhaeng, one of those powerful rulers who was able to subjugate many of his neighbours and greatly expand his territory. However, during Ramkhamhaeng's day and after a powerful kingdom co-existed close by, centred around present-day Chiang Mai, which was founded by Ramkhamhaeng's friend and rival, Mangrai; other nearby powers included Phrae and Luang Phrabang. There were southern kingdoms near what is now Malaysia, and the Burmese and Khmer - now Cambodians - have long been major players in this arena. But all are given short shrift in the drive to identify a unitary lineage which leads to modern Thailand. That lineage moves from Sukhothai to Ayuthaya, and thence to Thonburi and Bangkok.[PARAGRAPH:1]By the nineteenth century European powers were busy colonizing Asia and the king, Chulalongkorn, realized that he better make formal what had previously been rather elastic, so he arranged for some intrepid farang (western) and Thai explorers to map the borders of the kingdom. Chulalongkorn's father Mongkut had already had to cede some Siamese territory to the British, and Chulalongkorn gave away much more to the French. But this was negotiated in return for concessions, not seized or tricked away from the Siamese, and the most important concession Siam was able to demand was independence. Thus the modern kingdom of Siam literally took shape in the nineteenth century, and Siam stood alone in Southeast Asia in being able to avoid colonization.[PARAGRAPH:1]The term Siam itself has been in use for a very long time in Asia.[PARAGRAPH:1]Apparently a twelfth-century Khmer inscription at Angkor Wat mentions syam, "dark brown people", said to be vassals of the Khmer king; they were probably settled around Sukhothai. The term quickly took hold in Europe as well, and farang visitors who visited Ayuthaya in the seventeenth century referred to the kingdom as Siam (or Sayam), but also Ayuthaya (Ayutthaya, Ayuthiya, and lots of other variants), and reported that the inhabitants themselves called their country Meuang Thai, "Land of the Free". This was the convention drawn on when changing the name from Siam to Thailand.[PARAGRAPH:1]The name change was controversial, and some still prefer Siam. However, "Land of the Free" has better connotations than "dark brown people" and the name Thailand, though an English translation, does have clear indigenous roots that the term Siam lacks. In any case, Siam became Thailand, and there the matter rests today.[PARAGRAPH:1]</Italian>
+		<German>[TAB]Siam was a country in Southeast Asia; it is now called Thailand.[PARAGRAPH:1]By the time the name was officially changed in 1939, the borders of the country had been secured, and they have not changed since, except for a brief period during the World War II Japanese occupation of Thailand, when other parts of Japanese-occupied Southeast Asia were transferred to Thailand and briefly swelled the kingdom. Thailand was punished for its bad choice of ally after the war was over, and the borders were returned to their previous locations.[PARAGRAPH:1]But such changes are not uncommon in this little corner of Asia; throughout its long history, Siam has been much larger, and much smaller, than it is today.[PARAGRAPH:1]The mapping of the borders of the country did not in fact occur until the nineteenth century. Previously Siam, like most Southeast Asian polities, was home to a host of waxing and waning kingdoms whose fortunes depended, in large part, on the strategic and tactical prowess of their rulers.[PARAGRAPH:1]It is common in Thai nationalist historiography to trace the origins of the Siamese (and Thai) state back to a kingdom centred around the city of Sukhothai and ruled by the benevolent patriarch Ramkhamhaeng, one of those powerful rulers who was able to subjugate many of his neighbours and greatly expand his territory. However, during Ramkhamhaeng's day and after a powerful kingdom co-existed close by, centred around present-day Chiang Mai, which was founded by Ramkhamhaeng's friend and rival, Mangrai; other nearby powers included Phrae and Luang Phrabang. There were southern kingdoms near what is now Malaysia, and the Burmese and Khmer - now Cambodians - have long been major players in this arena. But all are given short shrift in the drive to identify a unitary lineage which leads to modern Thailand. That lineage moves from Sukhothai to Ayuthaya, and thence to Thonburi and Bangkok.[PARAGRAPH:1]By the nineteenth century European powers were busy colonizing Asia and the king, Chulalongkorn, realized that he better make formal what had previously been rather elastic, so he arranged for some intrepid farang (western) and Thai explorers to map the borders of the kingdom. Chulalongkorn's father Mongkut had already had to cede some Siamese territory to the British, and Chulalongkorn gave away much more to the French. But this was negotiated in return for concessions, not seized or tricked away from the Siamese, and the most important concession Siam was able to demand was independence. Thus the modern kingdom of Siam literally took shape in the nineteenth century, and Siam stood alone in Southeast Asia in being able to avoid colonization.[PARAGRAPH:1]The term Siam itself has been in use for a very long time in Asia.[PARAGRAPH:1]Apparently a twelfth-century Khmer inscription at Angkor Wat mentions syam, "dark brown people", said to be vassals of the Khmer king; they were probably settled around Sukhothai. The term quickly took hold in Europe as well, and farang visitors who visited Ayuthaya in the seventeenth century referred to the kingdom as Siam (or Sayam), but also Ayuthaya (Ayutthaya, Ayuthiya, and lots of other variants), and reported that the inhabitants themselves called their country Meuang Thai, "Land of the Free". This was the convention drawn on when changing the name from Siam to Thailand.[PARAGRAPH:1]The name change was controversial, and some still prefer Siam. However, "Land of the Free" has better connotations than "dark brown people" and the name Thailand, though an English translation, does have clear indigenous roots that the term Siam lacks. In any case, Siam became Thailand, and there the matter rests today.[PARAGRAPH:1]</German>
+		<Spanish>[TAB]Siam was a country in Southeast Asia; it is now called Thailand.[PARAGRAPH:1]By the time the name was officially changed in 1939, the borders of the country had been secured, and they have not changed since, except for a brief period during the World War II Japanese occupation of Thailand, when other parts of Japanese-occupied Southeast Asia were transferred to Thailand and briefly swelled the kingdom. Thailand was punished for its bad choice of ally after the war was over, and the borders were returned to their previous locations.[PARAGRAPH:1]But such changes are not uncommon in this little corner of Asia; throughout its long history, Siam has been much larger, and much smaller, than it is today.[PARAGRAPH:1]The mapping of the borders of the country did not in fact occur until the nineteenth century. Previously Siam, like most Southeast Asian polities, was home to a host of waxing and waning kingdoms whose fortunes depended, in large part, on the strategic and tactical prowess of their rulers.[PARAGRAPH:1]It is common in Thai nationalist historiography to trace the origins of the Siamese (and Thai) state back to a kingdom centred around the city of Sukhothai and ruled by the benevolent patriarch Ramkhamhaeng, one of those powerful rulers who was able to subjugate many of his neighbours and greatly expand his territory. However, during Ramkhamhaeng's day and after a powerful kingdom co-existed close by, centred around present-day Chiang Mai, which was founded by Ramkhamhaeng's friend and rival, Mangrai; other nearby powers included Phrae and Luang Phrabang. There were southern kingdoms near what is now Malaysia, and the Burmese and Khmer - now Cambodians - have long been major players in this arena. But all are given short shrift in the drive to identify a unitary lineage which leads to modern Thailand. That lineage moves from Sukhothai to Ayuthaya, and thence to Thonburi and Bangkok.[PARAGRAPH:1]By the nineteenth century European powers were busy colonizing Asia and the king, Chulalongkorn, realized that he better make formal what had previously been rather elastic, so he arranged for some intrepid farang (western) and Thai explorers to map the borders of the kingdom. Chulalongkorn's father Mongkut had already had to cede some Siamese territory to the British, and Chulalongkorn gave away much more to the French. But this was negotiated in return for concessions, not seized or tricked away from the Siamese, and the most important concession Siam was able to demand was independence. Thus the modern kingdom of Siam literally took shape in the nineteenth century, and Siam stood alone in Southeast Asia in being able to avoid colonization.[PARAGRAPH:1]The term Siam itself has been in use for a very long time in Asia.[PARAGRAPH:1]Apparently a twelfth-century Khmer inscription at Angkor Wat mentions syam, "dark brown people", said to be vassals of the Khmer king; they were probably settled around Sukhothai. The term quickly took hold in Europe as well, and farang visitors who visited Ayuthaya in the seventeenth century referred to the kingdom as Siam (or Sayam), but also Ayuthaya (Ayutthaya, Ayuthiya, and lots of other variants), and reported that the inhabitants themselves called their country Meuang Thai, "Land of the Free". This was the convention drawn on when changing the name from Siam to Thailand.[PARAGRAPH:1]The name change was controversial, and some still prefer Siam. However, "Land of the Free" has better connotations than "dark brown people" and the name Thailand, though an English translation, does have clear indigenous roots that the term Siam lacks. In any case, Siam became Thailand, and there the matter rests today.[PARAGRAPH:1]</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+<!-- ##### Siam - End ##### -->
+</Civ4GameText>

@@ -1,0 +1,4405 @@
+array set info {
+AllowLanguageSelection
+{No}
+
+AppName
+{A New Dawn <%Version%>}
+
+ApplicationID
+{5E66F5BE-048B-44F5-8B5D-B7F445C38DA9}
+
+ApplicationURL
+{}
+
+AutoRefreshFiles
+{Yes}
+
+BuildFailureAction
+{Continue without including missing files}
+
+CancelledInstallAction
+{Rollback and Stop}
+
+CleanupCancelledInstall
+{Yes}
+
+CommandLineFailureAction
+{Continue without including missing files}
+
+Company
+{}
+
+CompressionLevel
+{9}
+
+CompressionMethod
+{lzma (solid)}
+
+Copyright
+{}
+
+DefaultDirectoryLocation
+{}
+
+DefaultLanguage
+{English}
+
+DefaultToSystemLanguage
+{No}
+
+EnableResponseFiles
+{Yes}
+
+Ext
+{.exe}
+
+ExtractSolidArchivesOnStartup
+{No}
+
+Icon
+{C:/Program Files (x86)/InstallJammer/Images/Other/style6green-banner.png}
+
+IgnoreDirectories
+{_svn}
+
+IgnoreFiles
+{}
+
+Image
+{C:/Program Files (x86)/InstallJammer/Images/Other/style6green-dialog.png}
+
+IncludeDebugging
+{Yes}
+
+InstallPassword
+{}
+
+InstallVersion
+{1.0.0.0}
+
+Language,ca
+{Yes}
+
+Language,cs
+{Yes}
+
+Language,de
+{Yes}
+
+Language,en
+{Yes}
+
+Language,es
+{Yes}
+
+Language,fr
+{Yes}
+
+Language,hu
+{Yes}
+
+Language,it
+{Yes}
+
+Language,lt
+{Yes}
+
+Language,nl
+{Yes}
+
+Language,pl
+{Yes}
+
+Language,pt_br
+{Yes}
+
+Language,ru
+{Yes}
+
+LastIgnoreDirectories
+{_svn}
+
+LastIgnoreFiles
+{}
+
+PackageDescription
+{}
+
+PackageLicense
+{}
+
+PackageMaintainer
+{Afforess}
+
+PackageName
+{A New Dawn}
+
+PackagePackager
+{}
+
+PackageRelease
+{1.74}
+
+PackageSummary
+{}
+
+PackageVersion
+{1.74}
+
+PreserveFileAttributes
+{Yes}
+
+PreserveFilePermissions
+{Yes}
+
+ProjectID
+{FB0AEDC1-98FA-45AB-ADD9-DD1E82CC35ED}
+
+ProjectVersion
+{1.2.14.1}
+
+SaveOnlyToplevelDirs
+{Yes}
+
+ScriptExt
+{.bat}
+
+ShortAppName
+{A New Dawn}
+
+SkipUnusedFileGroups
+{Yes}
+
+Theme
+{Modern_Wizard}
+
+ThemeDir
+{Modern_Wizard}
+
+ThemeVersion
+{1}
+
+UpgradeApplicationID
+{5E66F5BE-048B-44F5-8B5D-B7F445C38DA9}
+
+Version
+{1.74}
+
+WizardHeight
+{365}
+
+WizardWidth
+{500}
+
+}
+
+array set ::InstallJammer::InstallCommandLineOptions {
+debug
+{Debugging Switch Yes No {} {run installer in debug mode}}
+
+debugconsole
+{ShowConsole Switch Yes No {} {run installer with a debug console open}}
+
+mode
+{InstallMode Choice No No {Console Default Silent Standard} {set the mode to run the installer in}}
+
+prefix
+{InstallDir String No No {} {set the installation directory}}
+
+test
+{Testing Switch Yes No {} {run installer without installing any files}}
+
+}
+array set ::InstallJammer::UninstallCommandLineOptions {
+debug
+{Debugging Switch Yes No {} {run uninstaller in debug mode}}
+
+debugconsole
+{ShowConsole Switch Yes No {} {run uninstaller with a debug console open}}
+
+mode
+{UninstallMode Choice No No {Console Silent Standard} {set the mode to run the uninstaller in}}
+
+test
+{Testing Switch Yes No {} {run uninstaller without uninstalling any files}}
+
+}
+FileGroup ::C466C274-CA74-45B4-B5E2-6EC48DBC8073 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Military Civics} -parent FileGroups
+File ::E93AD492-8605-4F10-B375-9E627B209972 -type dir -name {A New Dawn Assets/Modules/Afforess/MilitaryCivics} -parent C466C274-CA74-45B4-B5E2-6EC48DBC8073
+FileGroup ::7934A0C2-886F-46F6-BC7B-4967CC08A996 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Beautification Project} -parent FileGroups
+File ::BDF7DC16-5EE4-46C9-8D5C-B7CC9A6D2011 -type dir -name {A New Dawn Assets/Modules/Afforess/BeautificationProject} -parent 7934A0C2-886F-46F6-BC7B-4967CC08A996
+FileGroup ::5AEA3CCB-63E4-4794-98E7-6303AD110DE8 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Castle Improvements} -parent FileGroups
+File ::710CB454-7AF5-4CB0-9736-B9FFCD61F618 -type dir -name {A New Dawn Assets/Modules/Afforess/Castles} -parent 5AEA3CCB-63E4-4794-98E7-6303AD110DE8
+FileGroup ::09FD6D20-1129-4A94-9F0C-6B951EB13A5B -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Ice Breaker} -parent FileGroups
+File ::CDF7AC78-D6C5-40FA-8CA8-A9E858E2E487 -type dir -name {A New Dawn Assets/Modules/Afforess/Ice Breaker} -parent 09FD6D20-1129-4A94-9F0C-6B951EB13A5B
+FileGroup ::C532566C-E8CC-45C4-A778-CDF7ABDBC254 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name Meteorology -parent FileGroups
+File ::81DA7BF3-5CF8-4B39-BA1E-FE380D3CE0CD -type dir -name {A New Dawn Assets/Modules/Afforess/Meteorology} -parent C532566C-E8CC-45C4-A778-CDF7ABDBC254
+FileGroup ::FDEC7D6E-1694-470B-BE6F-F281BEF1EC50 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Required Files} -parent FileGroups
+File ::D142C447-AB25-41DD-BAB1-8F51D9F1D318 -directory <%InstallDir%>/Assets/Modules -name {A New Dawn Assets/Modules/MLF_CIV4ModularLoadingControls.xml} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::AF5CF570-4631-4E85-8752-59A2CFEFB774 -directory <%InstallDir%>/Assets -name {A New Dawn Assets/CvGameCoreDLL.dll} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::6A606065-607E-42DE-AD0E-208B026166BA -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Config -name {A New Dawn Assets/Config} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::EA58FA5E-09BB-4591-B6E8-318F7415A19B -directory <%InstallDir%>/Assets/Modules/Afforess -name {A New Dawn Assets/Modules/Afforess/CIV4ModularLoadingControlsSchema.xml} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::B67D62E2-B87D-48AA-95FF-59A39F4D0380 -directory <%InstallDir%>/Assets/Modules/Afforess -name {A New Dawn Assets/Modules/Afforess/MLF_CIV4ModularLoadingControls.xml} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::EEB2F47B-93B4-4A85-B4CC-E4348C4D5247 -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Modules/Afforess/Required -name {A New Dawn Assets/Modules/Afforess/Required} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::A503D79A-16E0-41A1-BF71-B9EE428A6856 -type dir -directory <%InstallDir%>/Assets/Sounds -name {A New Dawn Assets/Sounds} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::0A5F4A3F-8E2B-48FD-ABB2-B2370EAB3BA8 -filemethod {Always overwrite files} -type dir -directory {<%InstallDir%>/Assets/Modules/MLF Frontend} -name {A New Dawn Assets/Modules/MLF Frontend} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::7F94A9ED-A966-4149-ADDC-0BFADDC37548 -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/res -name {A New Dawn Assets/res} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::62B5CEDC-2817-43AB-B8C5-5B7AF7A35FF6 -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Modules/WonderMovies -name {A New Dawn Assets/Modules/WonderMovies} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::05172C12-7F16-4D6C-8C8D-05A2166F42E4 -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Python -name {A New Dawn Assets/Python} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::625EF8D4-977D-4F74-9282-26B161B571F0 -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Art/Interface -name {A New Dawn Assets/art/Interface} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::FA0A6D26-E02A-4CFC-91F6-9C6E7BC63E9D -directory <%InstallDir%> -name {OverWriting Components/Main Mod Folder/Rise of Mankind.ini} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::5B44031D-3656-46ED-8677-0B77F760E562 -directory <%InstallDir%> -name {OverWriting Components/Main Mod Folder/Rise of Mankind Config.ini} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::391EC555-7216-4B68-90B0-BE1916D774C8 -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/PrivateMaps -name {OverWriting Components/Main Mod Folder/PrivateMaps} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::AB808912-8202-4159-8517-50ED25155E8D -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Modules/Projects/Vincentz/Icons -name {A New Dawn Assets/Modules/Projects/Vincentz/Icons} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::B9908A0D-19F5-4FDF-9D8E-673A84841F5B -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/XML -name {A New Dawn Assets/XML} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::0EF107BB-FF13-4164-B2F6-CC9CF245F32C -filemethod {Always overwrite files} -directory {<%InstallDir%>/Assets/Modules/Projects\Vincentz} -name {A New Dawn Assets/Modules/Projects/Vincentz/MLF_CIV4ModularLoadingControls.xml} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+File ::95687534-9B11-4FA9-AA60-3CC3CC6BB099 -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Modules/Afforess/Random_Events -name {A New Dawn Assets/Modules/Afforess/Random_Events} -parent FDEC7D6E-1694-470B-BE6F-F281BEF1EC50
+FileGroup ::B2FBAD7A-AD47-4093-9540-51540CFDEBF7 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name Arctic -parent FileGroups
+File ::6CBAFBFF-CF05-4799-A672-C40A8E9CEAE9 -type dir -name {A New Dawn Assets/Modules/Afforess/Arctic} -parent B2FBAD7A-AD47-4093-9540-51540CFDEBF7
+FileGroup ::7E0B60D9-FC5C-4872-9219-DA5DFE43B7A7 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Larger Cities} -parent FileGroups
+File ::2BD8FF9F-9448-4B3F-8B07-E3137E2EB586 -type dir -name {A New Dawn Assets/Modules/Jooyo/3PlotRadius - Later} -parent 7E0B60D9-FC5C-4872-9219-DA5DFE43B7A7
+FileGroup ::5CD5AEC0-888C-45AE-81E6-96036BF7C98B -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Plant Jungles & Forests} -parent FileGroups
+File ::B28BC27E-1C8E-4017-B646-54F3DDC538BD -type dir -name {A New Dawn Assets/Modules/Jooyo/Make Jungle} -parent 5CD5AEC0-888C-45AE-81E6-96036BF7C98B
+File ::20B469F3-41F3-4D55-9DC9-B067062FC917 -type dir -name {A New Dawn Assets/Modules/Jooyo/Plant Forest} -parent 5CD5AEC0-888C-45AE-81E6-96036BF7C98B
+FileGroup ::1E3E6C11-5E4D-4E97-B478-FC0D73A57A35 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Sea Tunnels} -parent FileGroups
+File ::1356ADDF-CE09-47B6-98B3-B6057DA244A9 -type dir -name {A New Dawn Assets/Modules/Jooyo/Sea Tunnel} -parent 1E3E6C11-5E4D-4E97-B478-FC0D73A57A35
+FileGroup ::77ED7946-4045-47A3-AD7F-E0FA5FC7637E -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name Terraforming -parent FileGroups
+File ::ADC66FA6-23B5-4BD6-9B76-B0367F84BF22 -type dir -name {A New Dawn Assets/Modules/Jooyo/Terraforming} -parent 77ED7946-4045-47A3-AD7F-E0FA5FC7637E
+FileGroup ::F5719CD3-A304-41CE-A79F-83CA9CF6BDFD -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Lead From Behind} -parent FileGroups
+File ::74F80F79-31BD-49B7-8798-FB2C37255918 -type dir -name {A New Dawn Assets/Modules/Afforess/Lead_From_Behind} -parent F5719CD3-A304-41CE-A79F-83CA9CF6BDFD
+FileGroup ::05804387-EABE-4DE2-92F8-2661B81EF2F9 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Event Images} -parent FileGroups
+File ::B9AD16B9-0C0C-4B5C-91BF-74AFC0BA335F -type dir -name {A New Dawn Assets/Modules/Afforess/Event_Images} -parent 05804387-EABE-4DE2-92F8-2661B81EF2F9
+FileGroup ::23CBFF69-1596-4777-A4AD-DB73CD527B9D -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name Sports -parent FileGroups
+File ::0C8D2B97-14B3-406E-B847-88026BB0FBEF -type dir -name {A New Dawn Assets/Modules/Afforess/Sports} -parent 23CBFF69-1596-4777-A4AD-DB73CD527B9D
+FileGroup ::0B442730-51D7-4176-AA45-985BD4CC6ECB -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Civic Buildings} -parent FileGroups
+File ::B50FF877-0379-41F3-8B39-C893F51F62A4 -type dir -directory <%InstallDir%>/Assets/Modules/Custom_Buildings/Modular_Civics_Buildings -name {A New Dawn Assets/Modules/Custom_Buildings/Modular_Civics_Buildings} -parent 0B442730-51D7-4176-AA45-985BD4CC6ECB
+File ::642B7255-3EC0-45BA-A24F-8DEE5A572110 -directory <%InstallDir%>/Assets/Modules/Custom_Buildings -name {A New Dawn Assets/Modules/Custom_Buildings/MLF_CIV4ModularLoadingControls.xml} -parent 0B442730-51D7-4176-AA45-985BD4CC6ECB
+File ::9FE35668-05CB-4008-BB28-57044D84E4AA -filemethod {Always overwrite files} -directory <%InstallDir%>/Assets/Modules/Custom_Buildings -name {A New Dawn Assets/Modules/Custom_Buildings/CIV4ModularLoadingControlsSchema.xml} -parent 0B442730-51D7-4176-AA45-985BD4CC6ECB
+FileGroup ::2AFF4AE0-69C8-46BA-A4F6-5BA60CC2B661 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Brown Theme} -parent FileGroups
+File ::46190695-C6A7-4059-A6F5-EE7539E80F2E -type dir -name {A New Dawn Assets/Modules/Jooyo/Brown Theme} -parent 2AFF4AE0-69C8-46BA-A4F6-5BA60CC2B661
+FileGroup ::81B07D5F-C419-4C98-9F21-B9B2493FE6FB -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Early Buildings} -parent FileGroups
+File ::D7A6F3A6-9D85-4374-8873-AB8D8F0C3AAC -type dir -name {A New Dawn Assets/Modules/Custom_Buildings/Early_Buildings} -parent 81B07D5F-C419-4C98-9F21-B9B2493FE6FB
+FileGroup ::ECDAFB97-DEC6-46DC-AE64-64313417A663 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name ANM -parent FileGroups
+File ::76635D76-C627-4197-8276-9EDD3AEE507B -type dir -directory <%InstallDir%>/Assets/Modules/Civ_Fuehrer -name {A New Dawn Assets/Modules/Civ_Fuehrer} -parent ECDAFB97-DEC6-46DC-AE64-64313417A663
+FileGroup ::E1EF0B07-8447-4953-824E-9E7FFFD76B7A -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Historical Wonders} -parent FileGroups
+File ::72A2C767-F459-4BE4-B581-F2D5D267666A -type dir -name {A New Dawn Assets/Modules/Custom_Buildings/RoMModularWonders} -parent E1EF0B07-8447-4953-824E-9E7FFFD76B7A
+File ::F60203D1-37DF-42CE-A0CE-DA97E4474A6E -name {A New Dawn Assets/Modules/Custom_Buildings/CIV4ModularLoadingControlsSchema.xml} -parent E1EF0B07-8447-4953-824E-9E7FFFD76B7A
+File ::E1804AF4-AEF0-4801-A343-C4BA74064870 -name {A New Dawn Assets/Modules/Custom_Buildings/MLF_CIV4ModularLoadingControls.xml} -parent E1EF0B07-8447-4953-824E-9E7FFFD76B7A
+FileGroup ::0580B954-9EC6-4713-8305-484ADEAADBEF -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name Formations -parent FileGroups
+File ::451D51E6-CC28-41B4-8773-91C7ADCFE916 -type dir -name {A New Dawn Assets/Modules/Afforess/Formations} -parent 0580B954-9EC6-4713-8305-484ADEAADBEF
+FileGroup ::C5BAEE72-3B36-461C-B286-9D8913B6D239 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Mega Civ Patch} -parent FileGroups
+File ::8144E5C6-CA8C-4663-B2B6-E0E8BE55F04E -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Modules -name {OverWriting Components/Mega Civ Patch} -parent C5BAEE72-3B36-461C-B286-9D8913B6D239
+FileGroup ::9A0C7246-0405-4D2F-B504-0D4A4C424438 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Better RoM} -parent FileGroups
+File ::C254EB30-25DF-4CBB-A558-E57ADDDB0B96 -type dir -directory <%InstallDir%>/Assets/XML/GameInfo -name {OverWriting Components/Better RoM/GameInfo} -parent 9A0C7246-0405-4D2F-B504-0D4A4C424438
+File ::971DBDE0-FB4F-4DD2-8685-C9CD8C772B00 -filemethod {Always overwrite files} -type dir -directory {<%InstallDir%>/Assets/Modules/Afforess/Better RoM} -name {A New Dawn Assets/Modules/Afforess/Better RoM} -parent 9A0C7246-0405-4D2F-B504-0D4A4C424438
+File ::77DE3BF7-D0BE-4AE5-AF0B-F906865D134E -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Modules/DancingHoskuld/SpyUpgradesToAgent -name {A New Dawn Assets/Modules/DancingHoskuld/SpyUpgradesToAgent} -parent 9A0C7246-0405-4D2F-B504-0D4A4C424438
+File ::6E7F5A8A-17D3-409D-AC63-434F5F92A353 -filemethod {Always overwrite files} -type dir -directory <%InstallDir%>/Assets/Modules/Os79 -name {A New Dawn Assets/Modules/OS79} -parent 9A0C7246-0405-4D2F-B504-0D4A4C424438
+FileGroup ::83116B3B-3A89-4F58-AFCD-EFF315F1306E -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name Guilds -parent FileGroups
+File ::A5C6EBE7-689F-4CF6-BF04-DCC4EC9ABDBD -type dir -name {A New Dawn Assets/Modules/Guilds} -parent 83116B3B-3A89-4F58-AFCD-EFF315F1306E
+FileGroup ::AAE1C6DE-7403-4BCE-A72C-3EA243C96CDB -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Modern Corporations} -parent FileGroups
+File ::5C5CEE60-1067-40FD-8A06-FC463A3A734A -type dir -name {A New Dawn Assets/Modules/Custom_Corporations} -parent AAE1C6DE-7403-4BCE-A72C-3EA243C96CDB
+FileGroup ::9DBB71AA-B8BC-4F72-84C6-21C56440C8FA -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Coal UI} -parent FileGroups
+File ::411FA571-2826-493C-9773-78717589B6C2 -type dir -name {A New Dawn Assets/Modules/Afforess/Coal UI} -parent 9DBB71AA-B8BC-4F72-84C6-21C56440C8FA
+FileGroup ::B761CAA1-491D-4BD2-8381-8BB022D0926B -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Blue Marble Terrain} -parent FileGroups
+File ::33BE1FBF-6890-4B7C-86BF-4883D9A86223 -type dir -name {A New Dawn Assets/art} -parent B761CAA1-491D-4BD2-8381-8BB022D0926B
+FileGroup ::40AB6BEC-EEC7-45FE-9A3F-63C151A11618 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Better Artwork} -parent FileGroups
+File ::56686FDD-4ECA-4E45-ABDC-9704C485393C -type dir -name {A New Dawn Assets/Modules/DancingHoskuld/ExtraMovies} -parent 40AB6BEC-EEC7-45FE-9A3F-63C151A11618
+File ::6F72AB6B-E5F3-4C13-A71C-6A9EC89E9CCE -type dir -name {A New Dawn Assets/Modules/DancingHoskuld/LongboatButton} -parent 40AB6BEC-EEC7-45FE-9A3F-63C151A11618
+File ::7317D138-5710-481F-8FC3-08C0EDB1C345 -type dir -name {A New Dawn Assets/Modules/DancingHoskuld/TradeCaravanGraphics} -parent 40AB6BEC-EEC7-45FE-9A3F-63C151A11618
+FileGroup ::EA52C625-5465-43AA-BE31-815384D6FEB4 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Forest UI} -parent FileGroups
+File ::379D51EB-A959-4A12-943E-BDB5AC6DA555 -type dir -name {A New Dawn Assets/Modules/Afforess/Forest UI} -parent EA52C625-5465-43AA-BE31-815384D6FEB4
+FileGroup ::6D4D7FB5-1760-4A44-A15B-8013F318081F -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Black UI} -parent FileGroups
+File ::ABF4FD4D-330F-45E7-A5DE-5A0C392C3F91 -type dir -name {A New Dawn Assets/Modules/Afforess/Black UI} -parent 6D4D7FB5-1760-4A44-A15B-8013F318081F
+FileGroup ::B1AC2151-E8E0-4C30-A332-6935D32BAEA1 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Civic Diplomacy} -parent FileGroups
+File ::97ACF2C8-43F5-4601-A15C-815C42C57EB3 -type dir -name {A New Dawn Assets/Modules/Afforess/Civic Diplomacy} -parent B1AC2151-E8E0-4C30-A332-6935D32BAEA1
+FileGroup ::253E9512-AB04-4027-97E5-F1E4BB800A62 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Improved Art} -parent FileGroups
+File ::AA10A877-9BE7-468E-AA29-FAA7F44F5FF4 -type dir -name {A New Dawn Assets/Modules/Afforess/ImprovedArt} -parent 253E9512-AB04-4027-97E5-F1E4BB800A62
+FileGroup ::31AC81D2-1EB4-4081-A0D0-7A07C8DC5E5F -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Building Upgrades} -parent FileGroups
+File ::B3709A4C-6AA5-4136-97A8-C7FB5F828954 -type dir -name {A New Dawn Assets/Modules/Killtech} -parent 31AC81D2-1EB4-4081-A0D0-7A07C8DC5E5F
+FileGroup ::1FE6DA29-5ECB-4FF2-83CC-0406DD136CA8 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Cerulean UI} -parent FileGroups
+File ::1231CCCB-0B65-4690-9643-2B4205618A42 -type dir -name {A New Dawn Assets/Modules/Afforess/Cerulean UI} -parent 1FE6DA29-5ECB-4FF2-83CC-0406DD136CA8
+FileGroup ::7A727718-A07D-4C69-95A4-8A20A9E1EC6F -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Silver UI} -parent FileGroups
+File ::DF8E1068-C939-42A4-AE9C-56E9BB8FB5E1 -type dir -name {A New Dawn Assets/Modules/Afforess/Silver UI} -parent 7A727718-A07D-4C69-95A4-8A20A9E1EC6F
+FileGroup ::7C6818E3-4FE2-462F-8780-7E401A2EE1C2 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Red UI} -parent FileGroups
+File ::19BAC2B7-5872-4EAB-B219-34231331A078 -type dir -name {A New Dawn Assets/Modules/Afforess/Red UI} -parent 7C6818E3-4FE2-462F-8780-7E401A2EE1C2
+FileGroup ::ED4A8CF8-3EDA-49C2-AE4B-D55AD8BDD31D -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows TarArchive ZipArchive} -name {Purple UI} -parent FileGroups
+File ::0C9A2DBD-93F9-4F52-BD3F-D389B840642D -type dir -name {A New Dawn Assets/Modules/Afforess/Purple UI} -parent ED4A8CF8-3EDA-49C2-AE4B-D55AD8BDD31D
+Component ::904744F4-A665-44FA-9720-37D4F6B7CB8E -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Required Files} -parent Components
+Component ::B8C95E86-D1C7-483E-B457-E659DE706671 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Military Civics} -parent Components
+Component ::CD85F858-6D1B-416D-8E43-EAC670DD1DC4 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name Sports -parent Components
+Component ::894CA5BA-FC70-4970-A7E8-66217AB0074D -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name ANM -parent Components
+Component ::F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name Formations -parent Components
+Component ::5027E95D-EDC9-4631-B9F4-05279B3FB4B7 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Better RoM} -parent Components
+Component ::B79DDD2E-579F-430A-AD94-D65D24D38E98 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Coal UI} -parent Components
+Component ::14906938-6A0F-4F8E-9909-4198C6E3333F -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Deep-Red Interface} -parent Components
+Component ::A6B3DF8B-C865-4013-AE29-931B0565D0CE -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Mint Green UI} -parent Components
+Component ::AB6AE12B-BA68-4D11-BF97-EB01479ACE44 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Silver UI} -parent Components
+Component ::6691AB45-4BF6-480A-A683-A578F633FE86 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Black UI} -parent Components
+Component ::9BEC5E16-5747-4283-AF2F-87199C39314E -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Red UI} -parent Components
+Component ::45D52018-F826-4E79-B2E3-90D299987289 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Cerulean UI} -parent Components
+Component ::A4096F8D-B85F-4A65-B041-379F2823BEE5 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Purple UI} -parent Components
+Component ::6C2D35C3-9536-4F3A-BAF4-50D6C1FE229A -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Blue Marble Terrain} -parent Components
+Component ::D31CF98E-14FA-4768-A4E7-D0085EA8A903 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Civic Diplomacy} -parent Components
+Component ::BEA17AC7-6D81-4EB6-AC71-ABE1059245A6 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Building Upgrades} -parent Components
+SetupType ::0EA0F959-4492-424E-8346-A81FEF872AAE -setup Install -alias Recommended -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name Standard -parent SetupTypes
+SetupType ::9FDA6ECE-A4B4-4E6F-B81B-BDCA1CEE736B -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name Lite -parent SetupTypes
+SetupType ::A59252B4-8C89-4F88-8A5F-C39A7D2BA07C -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name Full -parent SetupTypes
+SetupType ::69DBBFD8-AF31-4147-936F-7B98ECB12866 -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 FreeBSD-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name Custom -parent SetupTypes
+
+InstallComponent B92A3B1F-9795-4B73-99F9-04EFAAE5C143 -setup Install -type pane -title {Welcome Screen} -component Welcome -active Yes -parent StandardInstall
+InstallComponent 30358A91-BD58-4148-B9C2-29CC50CE8217 -setup Install -type action -title {Set Virtual Text} -component SetVirtualText -active No -parent B92A3B1F-9795-4B73-99F9-04EFAAE5C143
+InstallComponent 0A39CFFC-B0CB-4CCC-98F8-B79731C74968 -setup Install -type action -conditions 5BBE7DBD-9D6E-41F3-84E0-1786E87FF544 -title {Set Virtual Text} -component SetVirtualText -command insert -active No -parent B92A3B1F-9795-4B73-99F9-04EFAAE5C143
+Condition 5BBE7DBD-9D6E-41F3-84E0-1786E87FF544 -active Yes -parent 0A39CFFC-B0CB-4CCC-98F8-B79731C74968 -title {Registry Test Condition} -component RegistryTestCondition -TreeObject::id 5BBE7DBD-9D6E-41F3-84E0-1786E87FF544
+InstallComponent E5CA598D-21D9-45C5-A7E6-884DF6A9F406 -setup Install -type action -title {Message Box} -component MessageBox -active No -parent B92A3B1F-9795-4B73-99F9-04EFAAE5C143
+InstallComponent AEAC7941-FC30-4F58-86D3-87394F5CCCB9 -setup Install -type action -conditions B731EB7F-34B7-482D-A709-C308D7C4D779 -title {Set Virtual Text} -component SetVirtualText -command insert -active No -parent B92A3B1F-9795-4B73-99F9-04EFAAE5C143
+Condition B731EB7F-34B7-482D-A709-C308D7C4D779 -active Yes -parent AEAC7941-FC30-4F58-86D3-87394F5CCCB9 -title {String Is Condition} -component StringIsCondition -TreeObject::id F892C40F-2665-4AAC-AA1C-70EDAB59339A
+InstallComponent E681F537-EB56-458C-8C63-3032B38715D2 -setup Install -type action -conditions F892C40F-2665-4AAC-AA1C-70EDAB59339A -title {Set Virtual Text} -component SetVirtualText -command insert -active Yes -parent B92A3B1F-9795-4B73-99F9-04EFAAE5C143
+Condition F892C40F-2665-4AAC-AA1C-70EDAB59339A -active Yes -parent E681F537-EB56-458C-8C63-3032B38715D2 -title {String Is Condition} -component StringIsCondition -TreeObject::id F892C40F-2665-4AAC-AA1C-70EDAB59339A
+InstallComponent 5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6 -setup Install -type pane -conditions {B0B8D57E-4555-4632-AB68-016BF880838E F4819E99-F334-4AC1-A987-6E2CA242B70F} -title {Select Destination} -component SelectDestination -command insert -active Yes -parent StandardInstall
+Condition B0B8D57E-4555-4632-AB68-016BF880838E -active Yes -parent 5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6 -title {File Permission Condition} -component FilePermissionCondition -TreeObject::id 9C70BE9F-3EB0-4DF7-8EFD-08DF134B161A
+Condition F4819E99-F334-4AC1-A987-6E2CA242B70F -active No -parent 5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6 -title {String Is Condition} -component StringIsCondition -TreeObject::id F4819E99-F334-4AC1-A987-6E2CA242B70F
+InstallComponent EB15C3F2-57C7-447D-9241-4E65EBEBD523 -setup Install -type pane -conditions 4012D6A4-2D44-4FE1-A9E4-EE3694D0FDFA -title {Wrong Location?} -component CustomBlankPane1 -command insert -alias {Wrong Location?} -active Yes -parent StandardInstall
+Condition 4012D6A4-2D44-4FE1-A9E4-EE3694D0FDFA -active Yes -parent EB15C3F2-57C7-447D-9241-4E65EBEBD523 -title {File Exists Condition} -component FileExistsCondition -TreeObject::id 89B24704-D27A-4271-A4D3-354356607F40
+InstallComponent 0A34B75F-AEC7-4C7D-891B-037B9C30E1D8 -setup Install -type pane -conditions E14BAC11-B11A-43B7-B362-C061F6848A98 -title {Setup Type} -component SetupType -command insert -active Yes -parent StandardInstall
+Condition E14BAC11-B11A-43B7-B362-C061F6848A98 -active Yes -parent 0A34B75F-AEC7-4C7D-891B-037B9C30E1D8 -title {Script Condition} -component ScriptCondition -TreeObject::id E14BAC11-B11A-43B7-B362-C061F6848A98
+InstallComponent D2A4C64C-4154-45D1-8D87-439730541523 -setup Install -type action -title {Populate Setup Types} -component PopulateSetupTypes -active Yes -parent 0A34B75F-AEC7-4C7D-891B-037B9C30E1D8
+InstallComponent B2D057EA-694F-408D-8093-6454D97F0982 -setup Install -type pane -conditions 8CFE0227-77D8-441C-A766-82A17F0D6479 -title {Choose Components} -component ChooseComponents -command insert -active Yes -parent StandardInstall
+Condition 8CFE0227-77D8-441C-A766-82A17F0D6479 -active Yes -parent B2D057EA-694F-408D-8093-6454D97F0982 -title {String Equal Condition} -component StringEqualCondition -TreeObject::id 8CFE0227-77D8-441C-A766-82A17F0D6479
+InstallComponent 6367824A-850F-4BC6-8E13-C81218848957 -setup Install -type action -title {Populate Components} -component PopulateComponents -command reorder -active Yes -parent B2D057EA-694F-408D-8093-6454D97F0982
+InstallComponent 9A21910B-9B86-4AB0-B4EB-AA023BFAB59A -setup Install -type pane -title {Choose Interface Setup} -component CustomBlankPane1 -alias {Choose Interface Setup} -active No -parent StandardInstall
+InstallComponent A6952BE0-C11E-4A34-81E4-E650F4C3D9A3 -setup Install -type action -title {Add Widget} -component AddWidget -active Yes -parent 9A21910B-9B86-4AB0-B4EB-AA023BFAB59A
+InstallComponent 88EAC47E-7602-4974-8F63-93FC3CA5E1B4 -setup Install -type action -title {Add Widget} -component AddWidget -active Yes -parent 9A21910B-9B86-4AB0-B4EB-AA023BFAB59A
+InstallComponent 5F447E15-72E2-45FA-B9CC-144949C0323A -setup Install -type action -title {Add Widget} -component AddWidget -active Yes -parent 9A21910B-9B86-4AB0-B4EB-AA023BFAB59A
+InstallComponent A213181D-E152-43A4-BCC8-D67991CDB442 -setup Install -type action -title {Add Widget} -component AddWidget -active Yes -parent 9A21910B-9B86-4AB0-B4EB-AA023BFAB59A
+InstallComponent 4D338D7B-822A-4F9E-B19E-8072BEBEF7A3 -setup Install -type action -title {Execute Script} -component ExecuteScript -active Yes -parent 9A21910B-9B86-4AB0-B4EB-AA023BFAB59A
+InstallComponent DF2829FF-1DF5-4477-B956-B03100B418EA -setup Install -type pane -conditions 8E008C2E-E754-4CB1-B7D5-E6686DF0D5FD -title {Start Copying Files} -component StartCopyingFiles -command insert -active Yes -parent StandardInstall
+Condition 8E008C2E-E754-4CB1-B7D5-E6686DF0D5FD -active Yes -parent DF2829FF-1DF5-4477-B956-B03100B418EA -title {File Exists Condition} -component FileExistsCondition -TreeObject::id 8E008C2E-E754-4CB1-B7D5-E6686DF0D5FD
+InstallComponent C43DC309-549D-42F9-A89E-96721F909A79 -setup Install -type action -title {Add Windows Registry Key} -component AddWindowsRegistryKey -active Yes -parent DF2829FF-1DF5-4477-B956-B03100B418EA
+InstallComponent 8538D2C3-2886-4FDC-B243-B570A4934A87 -setup Install -type pane -title {Back Up Files} -component CustomBlankPane1 -command reorder -alias {Back Up Files} -active No -parent StandardInstall
+InstallComponent 5E68096E-1F38-41D1-8DEC-AC48392EBA0C -setup Install -type action -title {Create Folder} -component CreateFolder -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent BC600C3F-A93B-4C06-80DA-126229BB0302 -setup Install -type action -title {Create Folder} -component CreateFolder -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent 43B85450-D7E2-48C7-A036-C80427D5F2CB -setup Install -type action -title {Create Folder} -component CreateFolder -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent FEDE3AB2-D769-468F-A392-4251550715E7 -setup Install -type action -title {Create Folder} -component CreateFolder -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent 6979577C-CE4B-4BEB-A350-66766A845195 -setup Install -type action -title {Copy File} -component CopyFile -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent B7D2C016-52AF-4E0C-8753-4E6B0CAC93AD -setup Install -type action -title {Copy File} -component CopyFile -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent 9F94C037-9812-422F-A68E-661A7B54A955 -setup Install -type action -title {Copy File} -component CopyFile -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent F72DFAD1-EBE8-49CF-8FBE-F0F0439560E9 -setup Install -type action -title {Delete File} -component DeleteFile -command reorder -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent 62B2FC6A-9C66-4E39-9DAB-A61DD4CF0AD8 -setup Install -type action -title Wait -component Wait -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent A563A0CB-8004-4A0A-9430-FCAB300C36AE -setup Install -type action -title {Move Forward} -component MoveForward -active Yes -parent 8538D2C3-2886-4FDC-B243-B570A4934A87
+InstallComponent DA4ED708-8462-45E1-9A1A-A567690141E4 -setup Install -type pane -title {Copying Files} -component CopyFiles -command reorder -active Yes -parent StandardInstall
+InstallComponent EE5A99BD-F91E-41FA-B091-CE230BF8211E -setup Install -type action -title {Disable Buttons} -component ModifyWidget -active Yes -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent 0BBC3CDC-F17E-40E8-91E1-16F1241195F8 -setup Install -type action -title {Back up the CvGameCore} -component RenameFile -alias {Back up the CvGameCore} -active No -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent 23B7337B-1955-434E-B785-918388D2667A -setup Install -type action -title {Delete File} -component DeleteFile -command reorder -active Yes -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent A55F5DB3-1F11-491A-96D1-0471BC9102CE -setup Install -type action -title {Execute Action} -component ExecuteAction -active Yes -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent FB60B8C9-CF8C-48F4-AA96-52BB93733E43 -setup Install -type action -title {Install Uninstaller} -component InstallUninstaller -active No -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent 6B4C9C29-899F-460C-8A72-80E9EA8E8683 -setup Install -type action -title {Install Desktop Shortcut} -component InstallDesktopShortcut -active No -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent C62F766D-802F-413A-8ADB-3F31D3C3B7F9 -setup Install -type action -title {Launch File} -component LaunchFile -active Yes -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent A067255E-5599-4767-9CAD-16CBD915598C -setup Install -type action -title Wait -component Wait -active Yes -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent BFC90F21-D17D-4ACE-A4BF-F2868D57DA1D -setup Install -type action -title {Write Text To File} -component WriteTextToFile -active Yes -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent 2C38EDC4-A0D6-4099-9069-F1B34F21B520 -setup Install -type action -title {Log Installed Components.} -component ExecuteScript -alias {Log Installed Components.} -active No -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent 9324F277-C02A-4EA3-A856-8710A607AFB5 -setup Install -type action -title {Remove From Uninstall} -component RemoveFromUninstall -active Yes -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent 3276237C-7DDB-49B9-8D17-3245541A1CFA -setup Install -type action -title {Move Forward} -component MoveForward -active Yes -parent DA4ED708-8462-45E1-9A1A-A567690141E4
+InstallComponent 0010DA36-6D02-4171-8255-5C72CC38C489 -setup Install -type pane -title {Setup Complete} -component SetupComplete -command reorder -active Yes -parent StandardInstall
+InstallComponent FA561405-E718-49FE-8CA1-541ABC1BA6FA -setup Install -type pane -title {Copying Files} -component CopyFiles -active Yes -parent DefaultInstall
+InstallComponent C2F9E461-BD59-4A09-B4AC-613714B57787 -setup Install -type action -title {Disable Buttons} -component ModifyWidget -active Yes -parent FA561405-E718-49FE-8CA1-541ABC1BA6FA
+InstallComponent CBC426D9-8EC6-4AC5-B182-BDBF38A6D3DC -setup Install -type action -title {Execute Action} -component ExecuteAction -active Yes -parent FA561405-E718-49FE-8CA1-541ABC1BA6FA
+InstallComponent 099196F4-FC0F-4942-9FD4-97E27DFF4C5E -setup Install -type action -title {Move Forward} -component MoveForward -active Yes -parent FA561405-E718-49FE-8CA1-541ABC1BA6FA
+InstallComponent 4F321A80-A0EB-431D-9974-98D6471C3E0D -setup Install -type pane -title {Setup Complete} -component SetupComplete -active Yes -parent DefaultInstall
+InstallComponent 081AF4FB-4BB6-4A78-BCEB-514755EC8BB9 -setup Install -type action -title {Console Ask Yes Or No} -component ConsoleAskYesOrNo -active Yes -parent ConsoleInstall
+InstallComponent 335F397F-7D1C-47C2-916E-B8497E5015A0 -setup Install -type action -conditions AEE43EA5-553C-41DE-969B-78739AD1D92D -title Exit -component Exit -command insert -active Yes -parent ConsoleInstall
+Condition AEE43EA5-553C-41DE-969B-78739AD1D92D -active Yes -parent 335F397F-7D1C-47C2-916E-B8497E5015A0 -title {String Is Condition} -component StringIsCondition -TreeObject::id AEE43EA5-553C-41DE-969B-78739AD1D92D
+InstallComponent 5F5B5538-FC86-467E-998D-0A97FF088526 -setup Install -type action -conditions C377180C-73BD-4428-8557-3B4303D07823 -title {Console Get User Input} -component ConsoleGetUserInput -command insert -active Yes -parent ConsoleInstall
+Condition C377180C-73BD-4428-8557-3B4303D07823 -active Yes -parent 5F5B5538-FC86-467E-998D-0A97FF088526 -title {File Permission Condition} -component FilePermissionCondition -TreeObject::id C377180C-73BD-4428-8557-3B4303D07823
+InstallComponent D1896701-2BC9-400A-8D45-39C12D8FA7AF -setup Install -type action -title {Console Message} -component ConsoleMessage -active Yes -parent ConsoleInstall
+InstallComponent BC670820-C2B0-455A-9134-FC809D0CD47C -setup Install -type action -title {Execute Action} -component ExecuteAction -active Yes -parent ConsoleInstall
+InstallComponent BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B -setup Install -type action -title {Console Message} -component ConsoleMessage -active Yes -parent ConsoleInstall
+InstallComponent 1B906D09-1872-4189-9968-F9867D11E2D4 -setup Install -type action -title Exit -component Exit -active Yes -parent ConsoleInstall
+InstallComponent F5585FA0-AA9D-4851-AE3F-0EC3F9B8676A -setup Install -type action -title {Execute Action} -component ExecuteAction -active Yes -parent SilentInstall
+InstallComponent E308AE97-D0DE-47BE-AA0C-1B68E46C4181 -setup Install -type action -title Exit -component Exit -active Yes -parent SilentInstall
+InstallComponent 083B509E-AC6F-4CB2-ADF3-67EB91CC9D85 -setup Install -type actiongroup -title {Setup Actions} -alias {Setup Actions} -active Yes -parent ActionGroupsInstall
+InstallComponent 56AA9FF5-D4F2-4DF9-A511-247287D1DBC9 -setup Install -type actiongroup -title {Startup Actions} -alias {Startup Actions} -active Yes -parent ActionGroupsInstall
+InstallComponent 0178CFDB-F9CF-4FC6-AE4F-CBDD3094911F -setup Install -type action -conditions {B4E04200-58AB-4FBE-9A06-06D5BF339E99 B6E6EF4D-CA05-4E07-ADE4-C838F35499C9} -title Exit -component Exit -command insert -active Yes -parent 56AA9FF5-D4F2-4DF9-A511-247287D1DBC9
+Condition B4E04200-58AB-4FBE-9A06-06D5BF339E99 -active Yes -parent 0178CFDB-F9CF-4FC6-AE4F-CBDD3094911F -title {String Is Condition} -component StringIsCondition -TreeObject::id B4E04200-58AB-4FBE-9A06-06D5BF339E99
+Condition B6E6EF4D-CA05-4E07-ADE4-C838F35499C9 -active Yes -parent 0178CFDB-F9CF-4FC6-AE4F-CBDD3094911F -title {Ask Yes or No} -component AskYesOrNo -TreeObject::id B6E6EF4D-CA05-4E07-ADE4-C838F35499C9
+InstallComponent 91BEB422-D3B6-4C4A-BA32-60A916C710ED -setup Install -type action -title {Create Install Panes} -component CreateInstallPanes -active Yes -parent 56AA9FF5-D4F2-4DF9-A511-247287D1DBC9
+InstallComponent 3AED0F07-AE4B-4D82-9092-7DCD24997F0E -setup Install -type actiongroup -title {Install Actions} -alias {Install Actions} -active Yes -parent ActionGroupsInstall
+InstallComponent 14B135B8-D0C3-434E-82B6-50578773A5E3 -setup Install -type action -title {Install Selected Files} -component InstallSelectedFiles -active Yes -parent 3AED0F07-AE4B-4D82-9092-7DCD24997F0E
+InstallComponent 83980A5D-092F-4607-9F72-3474089328DE -setup Install -type action -conditions 64E10B3B-D040-4783-BF57-8C8EDFBDDCD2 -title {Install Uninstaller} -component InstallUninstaller -command insert -active Yes -parent 3AED0F07-AE4B-4D82-9092-7DCD24997F0E
+Condition 64E10B3B-D040-4783-BF57-8C8EDFBDDCD2 -active Yes -parent 83980A5D-092F-4607-9F72-3474089328DE -title {String Is Condition} -component StringIsCondition -TreeObject::id 64E10B3B-D040-4783-BF57-8C8EDFBDDCD2
+InstallComponent BDE24058-8209-42C6-8ACC-553D53EF171A -setup Install -type action -conditions 88FDB969-749F-48BF-B566-0838BE798C4A -title {Windows Uninstall Registry} -component AddWindowsUninstallEntry -command insert -active Yes -parent 3AED0F07-AE4B-4D82-9092-7DCD24997F0E
+Condition 88FDB969-749F-48BF-B566-0838BE798C4A -active Yes -parent BDE24058-8209-42C6-8ACC-553D53EF171A -title {String Is Condition} -component StringIsCondition -TreeObject::id 88FDB969-749F-48BF-B566-0838BE798C4A
+InstallComponent 43FA2C20-3736-4727-8F89-2F3C388E25DF -setup Install -type actiongroup -title {Finish Actions} -alias {Finish Actions} -active Yes -parent ActionGroupsInstall
+InstallComponent A0ECF84E-E007-481F-A0C3-8EC1CE1670A2 -setup Install -type actiongroup -title {Cancel Actions} -alias {Cancel Actions} -active Yes -parent ActionGroupsInstall
+InstallComponent 81FB50AE-522E-421B-9DE6-3F5369E8E0EF -setup Uninstall -type pane -title {Custom Blank Pane 1} -component CustomBlankPane1 -active Yes -parent StandardUninstall
+InstallComponent E98B216B-7FD5-4BB7-9AF6-E5662F4972B7 -setup Uninstall -type pane -title Uninstall -component Uninstall -active Yes -parent StandardUninstall
+InstallComponent 6BA6710A-6CC3-4B25-B13E-77A2AF5DD212 -setup Uninstall -type action -title {Modify Widget} -component ModifyWidget -active Yes -parent E98B216B-7FD5-4BB7-9AF6-E5662F4972B7
+InstallComponent 34F2C178-FDEF-4399-850C-031FAA3299ED -setup Uninstall -type action -title {Save MLF Controls File} -component RenameFile -alias {Save MLF Controls File} -active Yes -parent E98B216B-7FD5-4BB7-9AF6-E5662F4972B7
+InstallComponent 941EABB3-253F-411C-B86B-BF2947A02149 -setup Uninstall -type action -title {Execute Action} -component ExecuteAction -command reorder -active Yes -parent E98B216B-7FD5-4BB7-9AF6-E5662F4972B7
+InstallComponent 7ED4C1FE-5E42-489B-934D-91DC6D02C119 -setup Uninstall -type action -title {Restore the CvGameCore} -component RenameFile -alias {Restore the CvGameCore} -active Yes -parent E98B216B-7FD5-4BB7-9AF6-E5662F4972B7
+InstallComponent E8F2C162-F580-4BFB-AA4A-6A43E96403E7 -setup Uninstall -type action -title {Save the MLF controls file} -component RenameFile -alias {Save the MLF controls file} -active Yes -parent E98B216B-7FD5-4BB7-9AF6-E5662F4972B7
+InstallComponent 0F18B011-552C-4244-8D64-DFC3B3C2209F -setup Uninstall -type action -title {Move Forward} -component MoveForward -active Yes -parent E98B216B-7FD5-4BB7-9AF6-E5662F4972B7
+InstallComponent 8F926B90-2551-4DD5-A05B-8DB732097F04 -setup Uninstall -type pane -title {Custom Blank Pane 1} -component CustomBlankPane1 -active Yes -parent StandardUninstall
+InstallComponent 53413CA8-810D-4618-B290-65F487CC95D4 -setup Uninstall -type action -title {Delete File} -component DeleteFile -active Yes -parent 8F926B90-2551-4DD5-A05B-8DB732097F04
+InstallComponent 52F47313-DCCF-4A6F-A94D-F5F036E21D03 -setup Uninstall -type action -title {Delete File} -component DeleteFile -active Yes -parent 8F926B90-2551-4DD5-A05B-8DB732097F04
+InstallComponent 13F25AE7-2753-40A0-9E52-8FAAA35970E9 -setup Uninstall -type action -title {Delete File} -component DeleteFile -active Yes -parent 8F926B90-2551-4DD5-A05B-8DB732097F04
+InstallComponent B44F3B41-3A99-4BCD-ACC9-494690163BAA -setup Uninstall -type action -title {Copy File} -component CopyFile -active Yes -parent 8F926B90-2551-4DD5-A05B-8DB732097F04
+InstallComponent 826546BC-DD79-4140-B13F-2DCFE23EFE19 -setup Uninstall -type action -title {Copy File} -component CopyFile -active Yes -parent 8F926B90-2551-4DD5-A05B-8DB732097F04
+InstallComponent 7C5BC636-D85B-4964-B12B-7F550C24F71E -setup Uninstall -type action -title {Copy File} -component CopyFile -active Yes -parent 8F926B90-2551-4DD5-A05B-8DB732097F04
+InstallComponent 8E51A08F-243D-435D-9E97-5A8E939AA481 -setup Uninstall -type action -title {Delete File} -component DeleteFile -active Yes -parent 8F926B90-2551-4DD5-A05B-8DB732097F04
+InstallComponent 3D1DE1E7-BCF9-4B25-9408-811056FF6268 -setup Uninstall -type action -title {Move Forward} -component MoveForward -active Yes -parent 8F926B90-2551-4DD5-A05B-8DB732097F04
+InstallComponent 21A4E099-59B7-4C67-96CB-BFAA612802B9 -setup Uninstall -type pane -title {Uninstall Complete} -component UninstallComplete -active Yes -parent StandardUninstall
+InstallComponent F7DC7C1D-C514-49D1-95B3-84C4CDC4D743 -setup Uninstall -type action -title {Console Ask Yes Or No} -component ConsoleAskYesOrNo -active Yes -parent ConsoleUninstall
+InstallComponent A742DDAB-E726-4F49-826C-ED2E52CCF6D3 -setup Uninstall -type action -conditions 172444DA-690E-4984-9E5E-80231E3172CD -title Exit -component Exit -command insert -active Yes -parent ConsoleUninstall
+Condition 172444DA-690E-4984-9E5E-80231E3172CD -active Yes -parent A742DDAB-E726-4F49-826C-ED2E52CCF6D3 -title {String Is Condition} -component StringIsCondition -TreeObject::id 172444DA-690E-4984-9E5E-80231E3172CD
+InstallComponent 8339BC15-92FD-4F8C-A33D-CDCE63A7D899 -setup Uninstall -type action -title {Console Message} -component ConsoleMessage -active Yes -parent ConsoleUninstall
+InstallComponent D6C32609-EB89-4B20-BA7E-D7AC9E243A5E -setup Uninstall -type action -title {Execute Action} -component ExecuteAction -active Yes -parent ConsoleUninstall
+InstallComponent 10513218-9CD6-406B-8BB0-0D06BC29951B -setup Uninstall -type action -title {Console Message} -component ConsoleMessage -active Yes -parent ConsoleUninstall
+InstallComponent B7060D60-7EE2-4D16-BA93-6B4F0B78AF4C -setup Uninstall -type action -title Exit -component Exit -active Yes -parent ConsoleUninstall
+InstallComponent 059AD353-929D-45F1-A606-5B3A78EF0D33 -setup Uninstall -type action -title {Execute Action} -component ExecuteAction -active Yes -parent SilentUninstall
+InstallComponent 6BE4D2BF-B520-4704-80C2-610AD9200419 -setup Uninstall -type action -title Exit -component Exit -active Yes -parent SilentUninstall
+InstallComponent B6B6AADB-7512-4AE3-AAB1-F4B45D171D71 -setup Uninstall -type actiongroup -title {Setup Actions} -alias {Setup Actions} -active Yes -parent ActionGroupsUninstall
+InstallComponent C5ADFF57-151C-4089-B393-59E528443492 -setup Uninstall -type actiongroup -title {Startup Actions} -alias {Startup Actions} -active Yes -parent ActionGroupsUninstall
+InstallComponent 6DCA482A-0EF5-432C-9ABD-1BD453F9E61B -setup Uninstall -type action -conditions {69FC3646-3EF8-40F7-99BA-AF7D01506AF8 F1E7E6A1-3551-425B-BD67-FD6533B6203C} -title Exit -component Exit -command insert -active Yes -parent C5ADFF57-151C-4089-B393-59E528443492
+Condition 69FC3646-3EF8-40F7-99BA-AF7D01506AF8 -active Yes -parent 6DCA482A-0EF5-432C-9ABD-1BD453F9E61B -title {String Is Condition} -component StringIsCondition -TreeObject::id 69FC3646-3EF8-40F7-99BA-AF7D01506AF8
+Condition F1E7E6A1-3551-425B-BD67-FD6533B6203C -active Yes -parent 6DCA482A-0EF5-432C-9ABD-1BD453F9E61B -title {Ask Yes or No} -component AskYesOrNo -TreeObject::id F1E7E6A1-3551-425B-BD67-FD6533B6203C
+InstallComponent 4AB63185-0870-45CD-BC06-D67196636112 -setup Uninstall -type actiongroup -title {Uninstall Actions} -alias {Uninstall Actions} -active Yes -parent ActionGroupsUninstall
+InstallComponent C8DE2083-2EFE-4BF1-BD9F-FC8DA96821D4 -setup Uninstall -type action -title {Uninstall Selected Files} -component UninstallSelectedFiles -active Yes -parent 4AB63185-0870-45CD-BC06-D67196636112
+InstallComponent AF2D4D60-7A9B-458D-9B7C-9D65CA660A88 -setup Uninstall -type actiongroup -title {Finish Actions} -alias {Finish Actions} -active Yes -parent ActionGroupsUninstall
+InstallComponent 5FF268D6-50D7-438F-A452-382D2154F25C -setup Uninstall -type actiongroup -title {Cancel Actions} -alias {Cancel Actions} -active Yes -parent ActionGroupsUninstall
+
+array set Properties {
+0010DA36-6D02-4171-8255-5C72CC38C489,BackButton,subst
+{1}
+
+0010DA36-6D02-4171-8255-5C72CC38C489,CancelButton,subst
+{1}
+
+0010DA36-6D02-4171-8255-5C72CC38C489,Caption,subst
+{1}
+
+0010DA36-6D02-4171-8255-5C72CC38C489,Conditions
+{0 conditions}
+
+0010DA36-6D02-4171-8255-5C72CC38C489,Message,subst
+{1}
+
+0010DA36-6D02-4171-8255-5C72CC38C489,NextButton,subst
+{1}
+
+0178CFDB-F9CF-4FC6-AE4F-CBDD3094911F,Comment
+{Ask the user if they want to proceed with the install.}
+
+0178CFDB-F9CF-4FC6-AE4F-CBDD3094911F,Conditions
+{2 conditions}
+
+05804387-EABE-4DE2-92F8-2661B81EF2F9,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+05804387-EABE-4DE2-92F8-2661B81EF2F9,FileSize
+{20773264}
+
+05804387-EABE-4DE2-92F8-2661B81EF2F9,Name
+{Event Images}
+
+0580B954-9EC6-4713-8305-484ADEAADBEF,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+0580B954-9EC6-4713-8305-484ADEAADBEF,FileSize
+{2279503}
+
+0580B954-9EC6-4713-8305-484ADEAADBEF,FileUpdateMethod
+{Always overwrite files}
+
+0580B954-9EC6-4713-8305-484ADEAADBEF,Name
+{Formations}
+
+059AD353-929D-45F1-A606-5B3A78EF0D33,Action
+{Uninstall Actions}
+
+059AD353-929D-45F1-A606-5B3A78EF0D33,Conditions
+{0 conditions}
+
+081AF4FB-4BB6-4A78-BCEB-514755EC8BB9,Conditions
+{0 conditions}
+
+081AF4FB-4BB6-4A78-BCEB-514755EC8BB9,Default
+{Yes}
+
+081AF4FB-4BB6-4A78-BCEB-514755EC8BB9,Prompt
+{<%InstallStartupText%>}
+
+083B509E-AC6F-4CB2-ADF3-67EB91CC9D85,Alias
+{Setup Actions}
+
+083B509E-AC6F-4CB2-ADF3-67EB91CC9D85,Conditions
+{0 conditions}
+
+099196F4-FC0F-4942-9FD4-97E27DFF4C5E,Conditions
+{0 conditions}
+
+09FD6D20-1129-4A94-9F0C-6B951EB13A5B,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+09FD6D20-1129-4A94-9F0C-6B951EB13A5B,FileSize
+{67927}
+
+09FD6D20-1129-4A94-9F0C-6B951EB13A5B,FileUpdateMethod
+{Always overwrite files}
+
+09FD6D20-1129-4A94-9F0C-6B951EB13A5B,Name
+{Ice Breaker}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,Active
+{Yes}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,BackButton,subst
+{1}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,CancelButton,subst
+{1}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,Caption,subst
+{1}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,Conditions
+{1 condition}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,DescriptionLabel,subst
+{0}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,Message,subst
+{1}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,NextButton,subst
+{1}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,Subtitle,subst
+{1}
+
+0A34B75F-AEC7-4C7D-891B-037B9C30E1D8,Title,subst
+{1}
+
+0A39CFFC-B0CB-4CCC-98F8-B79731C74968,Active
+{No}
+
+0A39CFFC-B0CB-4CCC-98F8-B79731C74968,AutoUpdate
+{No}
+
+0A39CFFC-B0CB-4CCC-98F8-B79731C74968,Conditions
+{1 condition}
+
+0A39CFFC-B0CB-4CCC-98F8-B79731C74968,SubstituteValue
+{Yes}
+
+0A39CFFC-B0CB-4CCC-98F8-B79731C74968,Value
+{<%RegValue "HKEY_LOCAL_MACHINE" ANewDawnInstallDir%>}
+
+0A39CFFC-B0CB-4CCC-98F8-B79731C74968,VirtualText
+{ANewDawnInstallDir}
+
+0B442730-51D7-4176-AA45-985BD4CC6ECB,Destination
+{<%InstallDir%>}
+
+0B442730-51D7-4176-AA45-985BD4CC6ECB,FileSize
+{7103768}
+
+0B442730-51D7-4176-AA45-985BD4CC6ECB,FileUpdateMethod
+{Always overwrite files}
+
+0B442730-51D7-4176-AA45-985BD4CC6ECB,Name
+{Civic Buildings}
+
+0BBC3CDC-F17E-40E8-91E1-16F1241195F8,Active
+{No}
+
+0BBC3CDC-F17E-40E8-91E1-16F1241195F8,Alias
+{Back up the CvGameCore}
+
+0BBC3CDC-F17E-40E8-91E1-16F1241195F8,Conditions
+{0 conditions}
+
+0BBC3CDC-F17E-40E8-91E1-16F1241195F8,Destination
+{<%InstallDir%>\Assets\CvGameCoreDLL.bak}
+
+0BBC3CDC-F17E-40E8-91E1-16F1241195F8,IgnoreErrors
+{Yes}
+
+0BBC3CDC-F17E-40E8-91E1-16F1241195F8,Source
+{<%InstallDir%>\Assets\CvGameCoreDLL.dll}
+
+0EA0F959-4492-424E-8346-A81FEF872AAE,Alias
+{Recommended}
+
+0EA0F959-4492-424E-8346-A81FEF872AAE,Components
+{904744F4-A665-44FA-9720-37D4F6B7CB8E B8C95E86-D1C7-483E-B457-E659DE706671 CD85F858-6D1B-416D-8E43-EAC670DD1DC4 894CA5BA-FC70-4970-A7E8-66217AB0074D 5027E95D-EDC9-4631-B9F4-05279B3FB4B7 D31CF98E-14FA-4768-A4E7-D0085EA8A903 BEA17AC7-6D81-4EB6-AC71-ABE1059245A6}
+
+0EA0F959-4492-424E-8346-A81FEF872AAE,Description,subst
+{1}
+
+0EA0F959-4492-424E-8346-A81FEF872AAE,DisplayName,subst
+{1}
+
+0EA0F959-4492-424E-8346-A81FEF872AAE,Name
+{Standard}
+
+0F18B011-552C-4244-8D64-DFC3B3C2209F,Conditions
+{0 conditions}
+
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message,subst
+{1}
+
+13F25AE7-2753-40A0-9E52-8FAAA35970E9,Conditions
+{0 conditions}
+
+13F25AE7-2753-40A0-9E52-8FAAA35970E9,Files
+{<%InstallDir%>\Assets\XML}
+
+14906938-6A0F-4F8E-9909-4198C6E3333F,Checked
+{No}
+
+14906938-6A0F-4F8E-9909-4198C6E3333F,ComponentGroup
+{Interface}
+
+14906938-6A0F-4F8E-9909-4198C6E3333F,Description,subst
+{1}
+
+14906938-6A0F-4F8E-9909-4198C6E3333F,DisplayName,subst
+{1}
+
+14906938-6A0F-4F8E-9909-4198C6E3333F,FileGroups
+{2AFF4AE0-69C8-46BA-A4F6-5BA60CC2B661}
+
+14906938-6A0F-4F8E-9909-4198C6E3333F,Name
+{Deep-Red Interface}
+
+14B135B8-D0C3-434E-82B6-50578773A5E3,Conditions
+{0 conditions}
+
+172444DA-690E-4984-9E5E-80231E3172CD,CheckCondition
+{Before Action is Executed}
+
+172444DA-690E-4984-9E5E-80231E3172CD,Operator
+{false}
+
+172444DA-690E-4984-9E5E-80231E3172CD,String
+{<%Answer%>}
+
+1B906D09-1872-4189-9968-F9867D11E2D4,ExitType
+{Finish}
+
+1E3E6C11-5E4D-4E97-B478-FC0D73A57A35,Destination
+{<%InstallDir%>/Assets/Modules/Jooyo}
+
+1E3E6C11-5E4D-4E97-B478-FC0D73A57A35,FileSize
+{138983}
+
+1E3E6C11-5E4D-4E97-B478-FC0D73A57A35,FileUpdateMethod
+{Always overwrite files}
+
+1E3E6C11-5E4D-4E97-B478-FC0D73A57A35,Name
+{Sea Tunnels}
+
+1FE6DA29-5ECB-4FF2-83CC-0406DD136CA8,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+1FE6DA29-5ECB-4FF2-83CC-0406DD136CA8,FileSize
+{19128008}
+
+1FE6DA29-5ECB-4FF2-83CC-0406DD136CA8,FileUpdateMethod
+{Always overwrite files}
+
+1FE6DA29-5ECB-4FF2-83CC-0406DD136CA8,Name
+{Cerulean UI}
+
+21A4E099-59B7-4C67-96CB-BFAA612802B9,BackButton,subst
+{1}
+
+21A4E099-59B7-4C67-96CB-BFAA612802B9,CancelButton,subst
+{1}
+
+21A4E099-59B7-4C67-96CB-BFAA612802B9,Caption,subst
+{1}
+
+21A4E099-59B7-4C67-96CB-BFAA612802B9,Conditions
+{0 conditions}
+
+21A4E099-59B7-4C67-96CB-BFAA612802B9,Message,subst
+{1}
+
+21A4E099-59B7-4C67-96CB-BFAA612802B9,NextButton,subst
+{1}
+
+23B7337B-1955-434E-B785-918388D2667A,Conditions
+{0 conditions}
+
+23B7337B-1955-434E-B785-918388D2667A,Files
+{<%InstallDir%>/Assets/Python/EntryPoints/CvDiplomacyInterface.py}
+
+23B7337B-1955-434E-B785-918388D2667A,IgnoreErrors
+{Yes}
+
+23CBFF69-1596-4777-A4AD-DB73CD527B9D,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+23CBFF69-1596-4777-A4AD-DB73CD527B9D,FileSize
+{2163948}
+
+23CBFF69-1596-4777-A4AD-DB73CD527B9D,FileUpdateMethod
+{Always overwrite files}
+
+23CBFF69-1596-4777-A4AD-DB73CD527B9D,Name
+{Sports}
+
+253E9512-AB04-4027-97E5-F1E4BB800A62,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+253E9512-AB04-4027-97E5-F1E4BB800A62,FileSize
+{5933822}
+
+253E9512-AB04-4027-97E5-F1E4BB800A62,FileUpdateMethod
+{Always overwrite files}
+
+253E9512-AB04-4027-97E5-F1E4BB800A62,Name
+{Improved Art}
+
+2AFF4AE0-69C8-46BA-A4F6-5BA60CC2B661,Destination
+{<%InstallDir%>/Assets/Modules/Jooyo}
+
+2AFF4AE0-69C8-46BA-A4F6-5BA60CC2B661,FileSize
+{18746298}
+
+2AFF4AE0-69C8-46BA-A4F6-5BA60CC2B661,FileUpdateMethod
+{Always overwrite files}
+
+2AFF4AE0-69C8-46BA-A4F6-5BA60CC2B661,Name
+{Brown Theme}
+
+2C38EDC4-A0D6-4099-9069-F1B34F21B520,Active
+{No}
+
+2C38EDC4-A0D6-4099-9069-F1B34F21B520,Alias
+{Log Installed Components.}
+
+2C38EDC4-A0D6-4099-9069-F1B34F21B520,Conditions
+{0 conditions}
+
+2C38EDC4-A0D6-4099-9069-F1B34F21B520,IgnoreErrors
+{Yes}
+
+2C38EDC4-A0D6-4099-9069-F1B34F21B520,TclScript
+{set fp [open "<%InstallDir%>/A New Dawn2.log" w]
+foreach comp <%SelectedComponents%> {
+    puts $fp "$comp: [expr {[$comp active] ? "Installed" : "Not Installed"}]"
+}
+close $fp}
+
+30358A91-BD58-4148-B9C2-29CC50CE8217,Active
+{No}
+
+30358A91-BD58-4148-B9C2-29CC50CE8217,Conditions
+{0 conditions}
+
+30358A91-BD58-4148-B9C2-29CC50CE8217,Value
+{<%InstallDir%>}
+
+30358A91-BD58-4148-B9C2-29CC50CE8217,VirtualText
+{ANewDawnInstallDir}
+
+31AC81D2-1EB4-4081-A0D0-7A07C8DC5E5F,Destination
+{<%InstallDir%>/Assets/Modules}
+
+31AC81D2-1EB4-4081-A0D0-7A07C8DC5E5F,FileSize
+{13110241}
+
+31AC81D2-1EB4-4081-A0D0-7A07C8DC5E5F,FileUpdateMethod
+{Always overwrite files}
+
+31AC81D2-1EB4-4081-A0D0-7A07C8DC5E5F,Name
+{Building Upgrades}
+
+3276237C-7DDB-49B9-8D17-3245541A1CFA,Conditions
+{0 conditions}
+
+335F397F-7D1C-47C2-916E-B8497E5015A0,Conditions
+{1 condition}
+
+34F2C178-FDEF-4399-850C-031FAA3299ED,Alias
+{Save MLF Controls File}
+
+34F2C178-FDEF-4399-850C-031FAA3299ED,Conditions
+{0 conditions}
+
+34F2C178-FDEF-4399-850C-031FAA3299ED,Destination
+{<%InstallDir%>\Assets\Modules\MLF_CIV4ModularLoadingControls.bak}
+
+34F2C178-FDEF-4399-850C-031FAA3299ED,Source
+{<%InstallDir%>\Assets\Modules\MLF_CIV4ModularLoadingControls.xml}
+
+3AED0F07-AE4B-4D82-9092-7DCD24997F0E,Alias
+{Install Actions}
+
+3AED0F07-AE4B-4D82-9092-7DCD24997F0E,Conditions
+{0 conditions}
+
+3D1DE1E7-BCF9-4B25-9408-811056FF6268,Conditions
+{0 conditions}
+
+4012D6A4-2D44-4FE1-A9E4-EE3694D0FDFA,Filename
+{<%InstallDir%>/Assets/Modules/woc_installer.jar}
+
+4012D6A4-2D44-4FE1-A9E4-EE3694D0FDFA,Operator
+{does not exist}
+
+40AB6BEC-EEC7-45FE-9A3F-63C151A11618,Destination
+{<%InstallDir%>/Assets/Modules/DancingHoskuld}
+
+40AB6BEC-EEC7-45FE-9A3F-63C151A11618,FileSize
+{2423209}
+
+40AB6BEC-EEC7-45FE-9A3F-63C151A11618,FileUpdateMethod
+{Always overwrite files}
+
+40AB6BEC-EEC7-45FE-9A3F-63C151A11618,Name
+{Better Artwork}
+
+43B85450-D7E2-48C7-A036-C80427D5F2CB,Conditions
+{0 conditions}
+
+43B85450-D7E2-48C7-A036-C80427D5F2CB,FolderName
+{<%InstallDir%>\Backup Files\Assets\Python}
+
+43FA2C20-3736-4727-8F89-2F3C388E25DF,Alias
+{Finish Actions}
+
+43FA2C20-3736-4727-8F89-2F3C388E25DF,Conditions
+{0 conditions}
+
+45D52018-F826-4E79-B2E3-90D299987289,Checked
+{No}
+
+45D52018-F826-4E79-B2E3-90D299987289,ComponentGroup
+{Interface}
+
+45D52018-F826-4E79-B2E3-90D299987289,Description,subst
+{1}
+
+45D52018-F826-4E79-B2E3-90D299987289,DisplayName,subst
+{1}
+
+45D52018-F826-4E79-B2E3-90D299987289,FileGroups
+{1FE6DA29-5ECB-4FF2-83CC-0406DD136CA8}
+
+45D52018-F826-4E79-B2E3-90D299987289,Name
+{Cerulean UI}
+
+4AB63185-0870-45CD-BC06-D67196636112,Alias
+{Uninstall Actions}
+
+4AB63185-0870-45CD-BC06-D67196636112,Conditions
+{0 conditions}
+
+4D338D7B-822A-4F9E-B19E-8072BEBEF7A3,Conditions
+{0 conditions}
+
+4D338D7B-822A-4F9E-B19E-8072BEBEF7A3,TclScript
+{<%InstallBlueMarble%>}
+
+4F321A80-A0EB-431D-9974-98D6471C3E0D,BackButton,subst
+{1}
+
+4F321A80-A0EB-431D-9974-98D6471C3E0D,CancelButton,subst
+{1}
+
+4F321A80-A0EB-431D-9974-98D6471C3E0D,Caption,subst
+{1}
+
+4F321A80-A0EB-431D-9974-98D6471C3E0D,Conditions
+{0 conditions}
+
+4F321A80-A0EB-431D-9974-98D6471C3E0D,Message,subst
+{1}
+
+4F321A80-A0EB-431D-9974-98D6471C3E0D,NextButton,subst
+{1}
+
+5027E95D-EDC9-4631-B9F4-05279B3FB4B7,Description,subst
+{1}
+
+5027E95D-EDC9-4631-B9F4-05279B3FB4B7,DisplayName,subst
+{1}
+
+5027E95D-EDC9-4631-B9F4-05279B3FB4B7,FileGroups
+{9A0C7246-0405-4D2F-B504-0D4A4C424438}
+
+5027E95D-EDC9-4631-B9F4-05279B3FB4B7,Name
+{Better RoM}
+
+52F47313-DCCF-4A6F-A94D-F5F036E21D03,Conditions
+{0 conditions}
+
+52F47313-DCCF-4A6F-A94D-F5F036E21D03,Files
+{<%InstallDir%>\Assets\Python}
+
+53413CA8-810D-4618-B290-65F487CC95D4,Conditions
+{0 conditions}
+
+53413CA8-810D-4618-B290-65F487CC95D4,Files
+{<%InstallDir%>\Assets\Config}
+
+56AA9FF5-D4F2-4DF9-A511-247287D1DBC9,Alias
+{Startup Actions}
+
+56AA9FF5-D4F2-4DF9-A511-247287D1DBC9,Conditions
+{0 conditions}
+
+5AEA3CCB-63E4-4794-98E7-6303AD110DE8,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+5AEA3CCB-63E4-4794-98E7-6303AD110DE8,FileSize
+{1158554}
+
+5AEA3CCB-63E4-4794-98E7-6303AD110DE8,FileUpdateMethod
+{Always overwrite files}
+
+5AEA3CCB-63E4-4794-98E7-6303AD110DE8,Name
+{Castle Improvements}
+
+5BBE7DBD-9D6E-41F3-84E0-1786E87FF544,CheckCondition
+{Before Action is Executed}
+
+5BBE7DBD-9D6E-41F3-84E0-1786E87FF544,FailureMessage
+{Registry Key Does Not Exist!}
+
+5BBE7DBD-9D6E-41F3-84E0-1786E87FF544,RegistryKey
+{HKEY_LOCAL_MACHINE}
+
+5BBE7DBD-9D6E-41F3-84E0-1786E87FF544,RegistryValue
+{A New Dawn InstallDir}
+
+5CD5AEC0-888C-45AE-81E6-96036BF7C98B,Destination
+{<%InstallDir%>/Assets/Modules/Jooyo}
+
+5CD5AEC0-888C-45AE-81E6-96036BF7C98B,FileSize
+{227994}
+
+5CD5AEC0-888C-45AE-81E6-96036BF7C98B,FileUpdateMethod
+{Always overwrite files}
+
+5CD5AEC0-888C-45AE-81E6-96036BF7C98B,Name
+{Plant Jungles & Forests}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton,subst
+{1}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton,subst
+{1}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText,subst
+{1}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton,subst
+{1}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption,subst
+{1}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Conditions
+{2 conditions}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination,subst
+{1}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel,subst
+{0}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message,subst
+{1}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton,subst
+{1}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle,subst
+{1}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title,subst
+{1}
+
+5E68096E-1F38-41D1-8DEC-AC48392EBA0C,Conditions
+{0 conditions}
+
+5E68096E-1F38-41D1-8DEC-AC48392EBA0C,FolderName
+{<%InstallDir%>\Backup Files}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Checked
+{Yes}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Conditions
+{0 conditions}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text,subst
+{1}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Type
+{checkbutton}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,ValidateEntryOn
+{Select}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Values
+{<%ForestUI%>}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,X
+{225}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Y
+{155}
+
+5F5B5538-FC86-467E-998D-0A97FF088526,Prompt
+{<%ConsoleSelectDestinationText%>}
+
+5F5B5538-FC86-467E-998D-0A97FF088526,VirtualText
+{InstallDir}
+
+5FF268D6-50D7-438F-A452-382D2154F25C,Alias
+{Cancel Actions}
+
+62B2FC6A-9C66-4E39-9DAB-A61DD4CF0AD8,Conditions
+{0 conditions}
+
+62B2FC6A-9C66-4E39-9DAB-A61DD4CF0AD8,WaitTime
+{3500}
+
+6367824A-850F-4BC6-8E13-C81218848957,Conditions
+{0 conditions}
+
+64E10B3B-D040-4783-BF57-8C8EDFBDDCD2,CheckCondition
+{Before Action is Executed}
+
+64E10B3B-D040-4783-BF57-8C8EDFBDDCD2,Operator
+{false}
+
+64E10B3B-D040-4783-BF57-8C8EDFBDDCD2,String
+{<%UpgradeInstall%>}
+
+6691AB45-4BF6-480A-A683-A578F633FE86,Checked
+{No}
+
+6691AB45-4BF6-480A-A683-A578F633FE86,ComponentGroup
+{Interface}
+
+6691AB45-4BF6-480A-A683-A578F633FE86,Description,subst
+{1}
+
+6691AB45-4BF6-480A-A683-A578F633FE86,DisplayName,subst
+{1}
+
+6691AB45-4BF6-480A-A683-A578F633FE86,FileGroups
+{6D4D7FB5-1760-4A44-A15B-8013F318081F}
+
+6691AB45-4BF6-480A-A683-A578F633FE86,Name
+{Black UI}
+
+6979577C-CE4B-4BEB-A350-66766A845195,Conditions
+{0 conditions}
+
+6979577C-CE4B-4BEB-A350-66766A845195,Destination
+{<%InstallDir%>\Backup Files\Assets\Config}
+
+6979577C-CE4B-4BEB-A350-66766A845195,Source
+{<%InstallDir%>\Assets\Config}
+
+69DBBFD8-AF31-4147-936F-7B98ECB12866,Components
+{904744F4-A665-44FA-9720-37D4F6B7CB8E B8C95E86-D1C7-483E-B457-E659DE706671 CD85F858-6D1B-416D-8E43-EAC670DD1DC4 894CA5BA-FC70-4970-A7E8-66217AB0074D F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48 5027E95D-EDC9-4631-B9F4-05279B3FB4B7 B79DDD2E-579F-430A-AD94-D65D24D38E98 14906938-6A0F-4F8E-9909-4198C6E3333F A6B3DF8B-C865-4013-AE29-931B0565D0CE AB6AE12B-BA68-4D11-BF97-EB01479ACE44 6691AB45-4BF6-480A-A683-A578F633FE86 9BEC5E16-5747-4283-AF2F-87199C39314E 45D52018-F826-4E79-B2E3-90D299987289 A4096F8D-B85F-4A65-B041-379F2823BEE5 6C2D35C3-9536-4F3A-BAF4-50D6C1FE229A D31CF98E-14FA-4768-A4E7-D0085EA8A903 BEA17AC7-6D81-4EB6-AC71-ABE1059245A6}
+
+69DBBFD8-AF31-4147-936F-7B98ECB12866,Description,subst
+{1}
+
+69DBBFD8-AF31-4147-936F-7B98ECB12866,DisplayName,subst
+{1}
+
+69DBBFD8-AF31-4147-936F-7B98ECB12866,Name
+{Custom}
+
+69FC3646-3EF8-40F7-99BA-AF7D01506AF8,CheckCondition
+{Before Action is Executed}
+
+69FC3646-3EF8-40F7-99BA-AF7D01506AF8,String
+{<%GuiMode%>}
+
+6B4C9C29-899F-460C-8A72-80E9EA8E8683,Active
+{No}
+
+6B4C9C29-899F-460C-8A72-80E9EA8E8683,CommandLineArguments
+{mod="Rise of Mankind"}
+
+6B4C9C29-899F-460C-8A72-80E9EA8E8683,Conditions
+{0 conditions}
+
+6B4C9C29-899F-460C-8A72-80E9EA8E8683,IconPath
+{<%InstallDir%>\Assets\Modules\MLF Frontend\Civ4BtS.ico}
+
+6B4C9C29-899F-460C-8A72-80E9EA8E8683,InstallForAllUsers
+{Yes}
+
+6B4C9C29-899F-460C-8A72-80E9EA8E8683,ShortcutName
+{Rise of Mankind: A New Dawn}
+
+6B4C9C29-899F-460C-8A72-80E9EA8E8683,TargetFileName
+{<%InstallDir%>\..}
+
+6B4C9C29-899F-460C-8A72-80E9EA8E8683,WorkingDirectory
+{<%DESKTOPDIRECTORY%>}
+
+6BA6710A-6CC3-4B25-B13E-77A2AF5DD212,Conditions
+{0 conditions}
+
+6BA6710A-6CC3-4B25-B13E-77A2AF5DD212,ExecuteAction
+{Before Pane is Displayed}
+
+6BA6710A-6CC3-4B25-B13E-77A2AF5DD212,State
+{disabled}
+
+6BA6710A-6CC3-4B25-B13E-77A2AF5DD212,Widget
+{NextButton; CancelButton}
+
+6BE4D2BF-B520-4704-80C2-610AD9200419,Conditions
+{0 conditions}
+
+6BE4D2BF-B520-4704-80C2-610AD9200419,ExitType
+{Finish}
+
+6C2D35C3-9536-4F3A-BAF4-50D6C1FE229A,Checked
+{No}
+
+6C2D35C3-9536-4F3A-BAF4-50D6C1FE229A,Description,subst
+{1}
+
+6C2D35C3-9536-4F3A-BAF4-50D6C1FE229A,DisplayName,subst
+{1}
+
+6C2D35C3-9536-4F3A-BAF4-50D6C1FE229A,FileGroups
+{B761CAA1-491D-4BD2-8381-8BB022D0926B}
+
+6C2D35C3-9536-4F3A-BAF4-50D6C1FE229A,Name
+{Blue Marble Terrain}
+
+6D4D7FB5-1760-4A44-A15B-8013F318081F,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+6D4D7FB5-1760-4A44-A15B-8013F318081F,FileSize
+{19017438}
+
+6D4D7FB5-1760-4A44-A15B-8013F318081F,FileUpdateMethod
+{Always overwrite files}
+
+6D4D7FB5-1760-4A44-A15B-8013F318081F,Name
+{Black UI}
+
+6DCA482A-0EF5-432C-9ABD-1BD453F9E61B,Comment
+{Ask the user if they want to proceed with the uninstall.}
+
+77ED7946-4045-47A3-AD7F-E0FA5FC7637E,Destination
+{<%InstallDir%>/Assets/Modules/Jooyo}
+
+77ED7946-4045-47A3-AD7F-E0FA5FC7637E,FileSize
+{122523}
+
+77ED7946-4045-47A3-AD7F-E0FA5FC7637E,FileUpdateMethod
+{Always overwrite files}
+
+77ED7946-4045-47A3-AD7F-E0FA5FC7637E,Name
+{Terraforming}
+
+7934A0C2-886F-46F6-BC7B-4967CC08A996,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+7934A0C2-886F-46F6-BC7B-4967CC08A996,FileSize
+{122309}
+
+7934A0C2-886F-46F6-BC7B-4967CC08A996,FileUpdateMethod
+{Always overwrite files}
+
+7934A0C2-886F-46F6-BC7B-4967CC08A996,Name
+{Beautification Project}
+
+7A727718-A07D-4C69-95A4-8A20A9E1EC6F,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+7A727718-A07D-4C69-95A4-8A20A9E1EC6F,FileSize
+{19128014}
+
+7A727718-A07D-4C69-95A4-8A20A9E1EC6F,FileUpdateMethod
+{Always overwrite files}
+
+7A727718-A07D-4C69-95A4-8A20A9E1EC6F,Name
+{Silver UI}
+
+7C5BC636-D85B-4964-B12B-7F550C24F71E,Conditions
+{0 conditions}
+
+7C5BC636-D85B-4964-B12B-7F550C24F71E,Destination
+{<%InstallDir%>\Assets\XML}
+
+7C5BC636-D85B-4964-B12B-7F550C24F71E,Source
+{<%InstallDir%>\Backup Files\Assets}
+
+7C6818E3-4FE2-462F-8780-7E401A2EE1C2,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+7C6818E3-4FE2-462F-8780-7E401A2EE1C2,FileSize
+{19128002}
+
+7C6818E3-4FE2-462F-8780-7E401A2EE1C2,FileUpdateMethod
+{Always overwrite files}
+
+7C6818E3-4FE2-462F-8780-7E401A2EE1C2,Name
+{Red UI}
+
+7E0B60D9-FC5C-4872-9219-DA5DFE43B7A7,Destination
+{<%InstallDir%>/Assets/Modules/Jooyo}
+
+7E0B60D9-FC5C-4872-9219-DA5DFE43B7A7,FileSize
+{88593}
+
+7E0B60D9-FC5C-4872-9219-DA5DFE43B7A7,FileUpdateMethod
+{Always overwrite files}
+
+7E0B60D9-FC5C-4872-9219-DA5DFE43B7A7,Name
+{Larger Cities}
+
+7ED4C1FE-5E42-489B-934D-91DC6D02C119,Alias
+{Restore the CvGameCore}
+
+7ED4C1FE-5E42-489B-934D-91DC6D02C119,Conditions
+{0 conditions}
+
+7ED4C1FE-5E42-489B-934D-91DC6D02C119,Destination
+{<%InstallDir%>\Assets\CvGameCoreDLL.dll}
+
+7ED4C1FE-5E42-489B-934D-91DC6D02C119,IgnoreErrors
+{Yes}
+
+7ED4C1FE-5E42-489B-934D-91DC6D02C119,Source
+{<%InstallDir%>\Assets\CvGameCoreDLL.bak}
+
+81B07D5F-C419-4C98-9F21-B9B2493FE6FB,Destination
+{<%InstallDir%>/Assets/Modules/Custom_Buildings}
+
+81B07D5F-C419-4C98-9F21-B9B2493FE6FB,FileSize
+{3388786}
+
+81B07D5F-C419-4C98-9F21-B9B2493FE6FB,FileUpdateMethod
+{Always overwrite files}
+
+81B07D5F-C419-4C98-9F21-B9B2493FE6FB,Name
+{Early Buildings}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,Active
+{Yes}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,BackButton,subst
+{1}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,Buttons
+{Next/Cancel}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,CancelButton,subst
+{1}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,Caption,subst
+{1}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,Conditions
+{0 conditions}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,Message,subst
+{1}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,NextButton,subst
+{1}
+
+826546BC-DD79-4140-B13F-2DCFE23EFE19,Conditions
+{0 conditions}
+
+826546BC-DD79-4140-B13F-2DCFE23EFE19,Destination
+{<%InstallDir%>\Assets\Python}
+
+826546BC-DD79-4140-B13F-2DCFE23EFE19,Source
+{<%InstallDir%>\Backup Files\Assets}
+
+83116B3B-3A89-4F58-AFCD-EFF315F1306E,Destination
+{<%InstallDir%>/Assets/Modules}
+
+83116B3B-3A89-4F58-AFCD-EFF315F1306E,FileSize
+{7595532}
+
+83116B3B-3A89-4F58-AFCD-EFF315F1306E,FileUpdateMethod
+{Always overwrite files}
+
+83116B3B-3A89-4F58-AFCD-EFF315F1306E,Name
+{Guilds}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message,subst
+{1}
+
+83980A5D-092F-4607-9F72-3474089328DE,Conditions
+{1 condition}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,Alias
+{Back Up Files}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,BackButton,subst
+{1}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,Buttons
+{NONE}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,CancelButton,subst
+{1}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,Caption,subst
+{1}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,Conditions
+{0 conditions}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,Message,subst
+{1}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,NextButton,subst
+{0}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Checked
+{Yes}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Conditions
+{0 conditions}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text,subst
+{1}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Type
+{checkbutton}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,ValidateEntryOn
+{Select}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Values
+{<%ForestUI%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,X
+{225}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Y
+{135}
+
+88FDB969-749F-48BF-B566-0838BE798C4A,CheckCondition
+{Before Action is Executed}
+
+88FDB969-749F-48BF-B566-0838BE798C4A,Operator
+{false}
+
+88FDB969-749F-48BF-B566-0838BE798C4A,String
+{<%UpgradeInstall%>}
+
+894CA5BA-FC70-4970-A7E8-66217AB0074D,Description,subst
+{1}
+
+894CA5BA-FC70-4970-A7E8-66217AB0074D,DisplayName,subst
+{1}
+
+894CA5BA-FC70-4970-A7E8-66217AB0074D,FileGroups
+{ECDAFB97-DEC6-46DC-AE64-64313417A663}
+
+894CA5BA-FC70-4970-A7E8-66217AB0074D,Name
+{ANM}
+
+8CFE0227-77D8-441C-A766-82A17F0D6479,String1
+{<%InstallType%>}
+
+8CFE0227-77D8-441C-A766-82A17F0D6479,String2
+{Custom}
+
+8E008C2E-E754-4CB1-B7D5-E6686DF0D5FD,Filename
+{<%InstallDir%>\Assets\CvGameCoreDLL.bak}
+
+8E008C2E-E754-4CB1-B7D5-E6686DF0D5FD,Operator
+{does not exist}
+
+8E51A08F-243D-435D-9E97-5A8E939AA481,Conditions
+{0 conditions}
+
+8E51A08F-243D-435D-9E97-5A8E939AA481,Files
+{<%InstallDir%>\Backup Files}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,Active
+{Yes}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,BackButton,subst
+{1}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,Buttons
+{NONE}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,CancelButton,subst
+{1}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,Caption,subst
+{1}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,Conditions
+{0 conditions}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,Message,subst
+{1}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,NextButton,subst
+{1}
+
+904744F4-A665-44FA-9720-37D4F6B7CB8E,Description,subst
+{1}
+
+904744F4-A665-44FA-9720-37D4F6B7CB8E,DisplayName,subst
+{1}
+
+904744F4-A665-44FA-9720-37D4F6B7CB8E,FileGroups
+{7934A0C2-886F-46F6-BC7B-4967CC08A996 5AEA3CCB-63E4-4794-98E7-6303AD110DE8 09FD6D20-1129-4A94-9F0C-6B951EB13A5B C532566C-E8CC-45C4-A778-CDF7ABDBC254 FDEC7D6E-1694-470B-BE6F-F281BEF1EC50 B2FBAD7A-AD47-4093-9540-51540CFDEBF7 7E0B60D9-FC5C-4872-9219-DA5DFE43B7A7 5CD5AEC0-888C-45AE-81E6-96036BF7C98B 1E3E6C11-5E4D-4E97-B478-FC0D73A57A35 77ED7946-4045-47A3-AD7F-E0FA5FC7637E F5719CD3-A304-41CE-A79F-83CA9CF6BDFD 05804387-EABE-4DE2-92F8-2661B81EF2F9 0B442730-51D7-4176-AA45-985BD4CC6ECB 81B07D5F-C419-4C98-9F21-B9B2493FE6FB E1EF0B07-8447-4953-824E-9E7FFFD76B7A C5BAEE72-3B36-461C-B286-9D8913B6D239 83116B3B-3A89-4F58-AFCD-EFF315F1306E AAE1C6DE-7403-4BCE-A72C-3EA243C96CDB 253E9512-AB04-4027-97E5-F1E4BB800A62}
+
+904744F4-A665-44FA-9720-37D4F6B7CB8E,Name
+{Required Files}
+
+904744F4-A665-44FA-9720-37D4F6B7CB8E,RequiredComponent
+{Yes}
+
+904744F4-A665-44FA-9720-37D4F6B7CB8E,ShowComponent
+{No}
+
+91BEB422-D3B6-4C4A-BA32-60A916C710ED,Conditions
+{0 conditions}
+
+9324F277-C02A-4EA3-A856-8710A607AFB5,ComponentName
+{<%DESKTOP%>}
+
+9324F277-C02A-4EA3-A856-8710A607AFB5,ComponentType
+{Directory}
+
+9324F277-C02A-4EA3-A856-8710A607AFB5,Conditions
+{0 conditions}
+
+941EABB3-253F-411C-B86B-BF2947A02149,Action
+{Uninstall Actions}
+
+941EABB3-253F-411C-B86B-BF2947A02149,Conditions
+{0 conditions}
+
+941EABB3-253F-411C-B86B-BF2947A02149,IgnoreErrors
+{Yes}
+
+9A0C7246-0405-4D2F-B504-0D4A4C424438,Destination
+{<%InstallDir%>}
+
+9A0C7246-0405-4D2F-B504-0D4A4C424438,FileSize
+{1818973}
+
+9A0C7246-0405-4D2F-B504-0D4A4C424438,FileUpdateMethod
+{Always overwrite files}
+
+9A0C7246-0405-4D2F-B504-0D4A4C424438,Name
+{Better RoM}
+
+9A21910B-9B86-4AB0-B4EB-AA023BFAB59A,Alias
+{Choose Interface Setup}
+
+9A21910B-9B86-4AB0-B4EB-AA023BFAB59A,BackButton,subst
+{1}
+
+9A21910B-9B86-4AB0-B4EB-AA023BFAB59A,CancelButton,subst
+{1}
+
+9A21910B-9B86-4AB0-B4EB-AA023BFAB59A,Caption,subst
+{1}
+
+9A21910B-9B86-4AB0-B4EB-AA023BFAB59A,Conditions
+{0 conditions}
+
+9A21910B-9B86-4AB0-B4EB-AA023BFAB59A,Message,subst
+{1}
+
+9A21910B-9B86-4AB0-B4EB-AA023BFAB59A,NextButton,subst
+{1}
+
+9BEC5E16-5747-4283-AF2F-87199C39314E,Checked
+{No}
+
+9BEC5E16-5747-4283-AF2F-87199C39314E,ComponentGroup
+{Interface}
+
+9BEC5E16-5747-4283-AF2F-87199C39314E,Description,subst
+{1}
+
+9BEC5E16-5747-4283-AF2F-87199C39314E,DisplayName,subst
+{1}
+
+9BEC5E16-5747-4283-AF2F-87199C39314E,FileGroups
+{7C6818E3-4FE2-462F-8780-7E401A2EE1C2}
+
+9BEC5E16-5747-4283-AF2F-87199C39314E,Name
+{Red UI}
+
+9DBB71AA-B8BC-4F72-84C6-21C56440C8FA,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+9DBB71AA-B8BC-4F72-84C6-21C56440C8FA,FileSize
+{19017399}
+
+9DBB71AA-B8BC-4F72-84C6-21C56440C8FA,FileUpdateMethod
+{Always overwrite files}
+
+9DBB71AA-B8BC-4F72-84C6-21C56440C8FA,Name
+{Coal UI}
+
+9F94C037-9812-422F-A68E-661A7B54A955,Conditions
+{0 conditions}
+
+9F94C037-9812-422F-A68E-661A7B54A955,Destination
+{<%InstallDir%>\Backup Files\Assets\XML}
+
+9F94C037-9812-422F-A68E-661A7B54A955,Source
+{<%InstallDir%>\Assets\XML}
+
+9FDA6ECE-A4B4-4E6F-B81B-BDCA1CEE736B,Components
+{904744F4-A665-44FA-9720-37D4F6B7CB8E}
+
+9FDA6ECE-A4B4-4E6F-B81B-BDCA1CEE736B,Description,subst
+{1}
+
+9FDA6ECE-A4B4-4E6F-B81B-BDCA1CEE736B,DisplayName,subst
+{1}
+
+9FDA6ECE-A4B4-4E6F-B81B-BDCA1CEE736B,Name
+{Lite}
+
+A067255E-5599-4767-9CAD-16CBD915598C,Conditions
+{0 conditions}
+
+A067255E-5599-4767-9CAD-16CBD915598C,WaitTime
+{400}
+
+A0ECF84E-E007-481F-A0C3-8EC1CE1670A2,Alias
+{Cancel Actions}
+
+A0ECF84E-E007-481F-A0C3-8EC1CE1670A2,Conditions
+{0 conditions}
+
+A213181D-E152-43A4-BCC8-D67991CDB442,Checked
+{Yes}
+
+A213181D-E152-43A4-BCC8-D67991CDB442,Conditions
+{0 conditions}
+
+A213181D-E152-43A4-BCC8-D67991CDB442,Text,subst
+{1}
+
+A213181D-E152-43A4-BCC8-D67991CDB442,Type
+{checkbutton}
+
+A213181D-E152-43A4-BCC8-D67991CDB442,ValidateEntryOn
+{Select}
+
+A213181D-E152-43A4-BCC8-D67991CDB442,Values
+{<%ForestUI%>}
+
+A213181D-E152-43A4-BCC8-D67991CDB442,X
+{225}
+
+A213181D-E152-43A4-BCC8-D67991CDB442,Y
+{175}
+
+A4096F8D-B85F-4A65-B041-379F2823BEE5,Checked
+{No}
+
+A4096F8D-B85F-4A65-B041-379F2823BEE5,ComponentGroup
+{Interface}
+
+A4096F8D-B85F-4A65-B041-379F2823BEE5,Description,subst
+{1}
+
+A4096F8D-B85F-4A65-B041-379F2823BEE5,DisplayName,subst
+{1}
+
+A4096F8D-B85F-4A65-B041-379F2823BEE5,FileGroups
+{ED4A8CF8-3EDA-49C2-AE4B-D55AD8BDD31D}
+
+A4096F8D-B85F-4A65-B041-379F2823BEE5,Name
+{Purple UI}
+
+A55F5DB3-1F11-491A-96D1-0471BC9102CE,Action
+{Install Actions}
+
+A55F5DB3-1F11-491A-96D1-0471BC9102CE,Conditions
+{0 conditions}
+
+A563A0CB-8004-4A0A-9430-FCAB300C36AE,Conditions
+{0 conditions}
+
+A59252B4-8C89-4F88-8A5F-C39A7D2BA07C,Components
+{904744F4-A665-44FA-9720-37D4F6B7CB8E B8C95E86-D1C7-483E-B457-E659DE706671 CD85F858-6D1B-416D-8E43-EAC670DD1DC4 894CA5BA-FC70-4970-A7E8-66217AB0074D F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48 5027E95D-EDC9-4631-B9F4-05279B3FB4B7 6C2D35C3-9536-4F3A-BAF4-50D6C1FE229A D31CF98E-14FA-4768-A4E7-D0085EA8A903 BEA17AC7-6D81-4EB6-AC71-ABE1059245A6}
+
+A59252B4-8C89-4F88-8A5F-C39A7D2BA07C,Description,subst
+{1}
+
+A59252B4-8C89-4F88-8A5F-C39A7D2BA07C,DisplayName,subst
+{1}
+
+A59252B4-8C89-4F88-8A5F-C39A7D2BA07C,Name
+{Full}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Checked
+{Yes}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Conditions
+{0 conditions}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text,subst
+{1}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Type
+{radiobutton}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,ValidateEntryOn
+{Select}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Values
+{<%ForestUI%>}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,VirtualText
+{<%InstallBlueMarble%>}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,X
+{225}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Y
+{115}
+
+A6B3DF8B-C865-4013-AE29-931B0565D0CE,Checked
+{No}
+
+A6B3DF8B-C865-4013-AE29-931B0565D0CE,ComponentGroup
+{Interface}
+
+A6B3DF8B-C865-4013-AE29-931B0565D0CE,Description,subst
+{1}
+
+A6B3DF8B-C865-4013-AE29-931B0565D0CE,DisplayName,subst
+{1}
+
+A6B3DF8B-C865-4013-AE29-931B0565D0CE,FileGroups
+{EA52C625-5465-43AA-BE31-815384D6FEB4}
+
+A6B3DF8B-C865-4013-AE29-931B0565D0CE,Name
+{Mint Green UI}
+
+AAE1C6DE-7403-4BCE-A72C-3EA243C96CDB,Destination
+{<%InstallDir%>/Assets/Modules}
+
+AAE1C6DE-7403-4BCE-A72C-3EA243C96CDB,FileSize
+{15447138}
+
+AAE1C6DE-7403-4BCE-A72C-3EA243C96CDB,FileUpdateMethod
+{Always overwrite files}
+
+AAE1C6DE-7403-4BCE-A72C-3EA243C96CDB,Name
+{Modern Corporations}
+
+AB6AE12B-BA68-4D11-BF97-EB01479ACE44,Checked
+{No}
+
+AB6AE12B-BA68-4D11-BF97-EB01479ACE44,ComponentGroup
+{Interface}
+
+AB6AE12B-BA68-4D11-BF97-EB01479ACE44,Description,subst
+{1}
+
+AB6AE12B-BA68-4D11-BF97-EB01479ACE44,DisplayName,subst
+{1}
+
+AB6AE12B-BA68-4D11-BF97-EB01479ACE44,FileGroups
+{7A727718-A07D-4C69-95A4-8A20A9E1EC6F}
+
+AB6AE12B-BA68-4D11-BF97-EB01479ACE44,Name
+{Silver UI}
+
+AEAC7941-FC30-4F58-86D3-87394F5CCCB9,Active
+{No}
+
+AEAC7941-FC30-4F58-86D3-87394F5CCCB9,AutoUpdate
+{Yes}
+
+AEAC7941-FC30-4F58-86D3-87394F5CCCB9,Conditions
+{1 condition}
+
+AEAC7941-FC30-4F58-86D3-87394F5CCCB9,SubstituteValue
+{Yes}
+
+AEAC7941-FC30-4F58-86D3-87394F5CCCB9,Value
+{<%ANewDawnInstallDir%>}
+
+AEAC7941-FC30-4F58-86D3-87394F5CCCB9,VirtualText
+{InstallDir}
+
+AEE43EA5-553C-41DE-969B-78739AD1D92D,CheckCondition
+{Before Action is Executed}
+
+AEE43EA5-553C-41DE-969B-78739AD1D92D,Operator
+{false}
+
+AEE43EA5-553C-41DE-969B-78739AD1D92D,String
+{<%Answer%>}
+
+AF2D4D60-7A9B-458D-9B7C-9D65CA660A88,Alias
+{Finish Actions}
+
+AIX-ppc,Active
+{No}
+
+AIX-ppc,BuildSeparateArchives
+{No}
+
+AIX-ppc,DefaultDirectoryPermission
+{0755}
+
+AIX-ppc,DefaultFilePermission
+{0755}
+
+AIX-ppc,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+AIX-ppc,FallBackToConsole
+{Yes}
+
+AIX-ppc,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+AIX-ppc,InstallMode
+{Standard}
+
+AIX-ppc,InstallType
+{Typical}
+
+AIX-ppc,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+AIX-ppc,ProgramFolderAllUsers
+{No}
+
+AIX-ppc,ProgramFolderName
+{<%AppName%>}
+
+AIX-ppc,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+AIX-ppc,ProgramName
+{}
+
+AIX-ppc,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+AIX-ppc,PromptForRoot
+{Yes}
+
+AIX-ppc,RequireRoot
+{No}
+
+AIX-ppc,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+B0B8D57E-4555-4632-AB68-016BF880838E,CheckCondition
+{Before Next Pane is Displayed}
+
+B0B8D57E-4555-4632-AB68-016BF880838E,FailureMessage
+{<%DirectoryPermissionText%>}
+
+B0B8D57E-4555-4632-AB68-016BF880838E,Filename
+{<%InstallDir%>}
+
+B0B8D57E-4555-4632-AB68-016BF880838E,Permission
+{can create}
+
+B1AC2151-E8E0-4C30-A332-6935D32BAEA1,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+B1AC2151-E8E0-4C30-A332-6935D32BAEA1,FileSize
+{121715}
+
+B1AC2151-E8E0-4C30-A332-6935D32BAEA1,FileUpdateMethod
+{Always overwrite files}
+
+B1AC2151-E8E0-4C30-A332-6935D32BAEA1,Name
+{Civic Diplomacy}
+
+B2D057EA-694F-408D-8093-6454D97F0982,Active
+{Yes}
+
+B2D057EA-694F-408D-8093-6454D97F0982,BackButton,subst
+{1}
+
+B2D057EA-694F-408D-8093-6454D97F0982,CancelButton,subst
+{1}
+
+B2D057EA-694F-408D-8093-6454D97F0982,Caption,subst
+{1}
+
+B2D057EA-694F-408D-8093-6454D97F0982,Conditions
+{1 condition}
+
+B2D057EA-694F-408D-8093-6454D97F0982,DescriptionLabel,subst
+{0}
+
+B2D057EA-694F-408D-8093-6454D97F0982,Message,subst
+{1}
+
+B2D057EA-694F-408D-8093-6454D97F0982,NextButton,subst
+{1}
+
+B2D057EA-694F-408D-8093-6454D97F0982,Subtitle,subst
+{1}
+
+B2D057EA-694F-408D-8093-6454D97F0982,Title,subst
+{1}
+
+B2FBAD7A-AD47-4093-9540-51540CFDEBF7,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+B2FBAD7A-AD47-4093-9540-51540CFDEBF7,FileSize
+{235406}
+
+B2FBAD7A-AD47-4093-9540-51540CFDEBF7,FileUpdateMethod
+{Always overwrite files}
+
+B2FBAD7A-AD47-4093-9540-51540CFDEBF7,Name
+{Arctic}
+
+B44F3B41-3A99-4BCD-ACC9-494690163BAA,Conditions
+{0 conditions}
+
+B44F3B41-3A99-4BCD-ACC9-494690163BAA,Destination
+{<%InstallDir%>\Assets\Config}
+
+B44F3B41-3A99-4BCD-ACC9-494690163BAA,Source
+{<%InstallDir%>\Backup Files\Assets}
+
+B4E04200-58AB-4FBE-9A06-06D5BF339E99,CheckCondition
+{Before Action is Executed}
+
+B4E04200-58AB-4FBE-9A06-06D5BF339E99,String
+{<%GuiMode%>}
+
+B6B6AADB-7512-4AE3-AAB1-F4B45D171D71,Alias
+{Setup Actions}
+
+B6B6AADB-7512-4AE3-AAB1-F4B45D171D71,Conditions
+{0 conditions}
+
+B6E6EF4D-CA05-4E07-ADE4-C838F35499C9,CheckCondition
+{Before Action is Executed}
+
+B6E6EF4D-CA05-4E07-ADE4-C838F35499C9,Message,subst
+{1}
+
+B6E6EF4D-CA05-4E07-ADE4-C838F35499C9,Title,subst
+{1}
+
+B6E6EF4D-CA05-4E07-ADE4-C838F35499C9,TrueValue
+{No}
+
+B7060D60-7EE2-4D16-BA93-6B4F0B78AF4C,ExitType
+{Finish}
+
+B731EB7F-34B7-482D-A709-C308D7C4D779,CheckCondition
+{Before Action is Executed}
+
+B731EB7F-34B7-482D-A709-C308D7C4D779,FailureMessage
+{String is Empty!}
+
+B731EB7F-34B7-482D-A709-C308D7C4D779,Operator
+{not empty}
+
+B731EB7F-34B7-482D-A709-C308D7C4D779,String
+{<%ANewDawnInstallDir%>}
+
+B761CAA1-491D-4BD2-8381-8BB022D0926B,Destination
+{<%InstallDir%>/Assets}
+
+B761CAA1-491D-4BD2-8381-8BB022D0926B,FileSize
+{25688392}
+
+B761CAA1-491D-4BD2-8381-8BB022D0926B,FileUpdateMethod
+{Always overwrite files}
+
+B761CAA1-491D-4BD2-8381-8BB022D0926B,Name
+{Blue Marble Terrain}
+
+B79DDD2E-579F-430A-AD94-D65D24D38E98,Checked
+{No}
+
+B79DDD2E-579F-430A-AD94-D65D24D38E98,ComponentGroup
+{Interface}
+
+B79DDD2E-579F-430A-AD94-D65D24D38E98,Description,subst
+{1}
+
+B79DDD2E-579F-430A-AD94-D65D24D38E98,DisplayName,subst
+{1}
+
+B79DDD2E-579F-430A-AD94-D65D24D38E98,FileGroups
+{9DBB71AA-B8BC-4F72-84C6-21C56440C8FA}
+
+B79DDD2E-579F-430A-AD94-D65D24D38E98,Name
+{Coal UI}
+
+B7D2C016-52AF-4E0C-8753-4E6B0CAC93AD,Conditions
+{0 conditions}
+
+B7D2C016-52AF-4E0C-8753-4E6B0CAC93AD,Destination
+{<%InstallDir%>\Backup Files\Assets\Python}
+
+B7D2C016-52AF-4E0C-8753-4E6B0CAC93AD,Source
+{<%InstallDir%>\Assets\Python}
+
+B8C95E86-D1C7-483E-B457-E659DE706671,Description,subst
+{1}
+
+B8C95E86-D1C7-483E-B457-E659DE706671,DisplayName,subst
+{1}
+
+B8C95E86-D1C7-483E-B457-E659DE706671,FileGroups
+{C466C274-CA74-45B4-B5E2-6EC48DBC8073}
+
+B8C95E86-D1C7-483E-B457-E659DE706671,Name
+{Military Civics}
+
+B92A3B1F-9795-4B73-99F9-04EFAAE5C143,BackButton,subst
+{1}
+
+B92A3B1F-9795-4B73-99F9-04EFAAE5C143,CancelButton,subst
+{1}
+
+B92A3B1F-9795-4B73-99F9-04EFAAE5C143,Caption,subst
+{1}
+
+B92A3B1F-9795-4B73-99F9-04EFAAE5C143,Conditions
+{0 conditions}
+
+B92A3B1F-9795-4B73-99F9-04EFAAE5C143,Message,subst
+{1}
+
+B92A3B1F-9795-4B73-99F9-04EFAAE5C143,NextButton,subst
+{1}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message,subst
+{1}
+
+BC600C3F-A93B-4C06-80DA-126229BB0302,Conditions
+{0 conditions}
+
+BC600C3F-A93B-4C06-80DA-126229BB0302,FolderName
+{<%InstallDir%>\Backup Files\Assets\Config}
+
+BC670820-C2B0-455A-9134-FC809D0CD47C,Action
+{Install Actions}
+
+BDE24058-8209-42C6-8ACC-553D53EF171A,Conditions
+{1 condition}
+
+BEA17AC7-6D81-4EB6-AC71-ABE1059245A6,Description,subst
+{1}
+
+BEA17AC7-6D81-4EB6-AC71-ABE1059245A6,DisplayName,subst
+{1}
+
+BEA17AC7-6D81-4EB6-AC71-ABE1059245A6,FileGroups
+{31AC81D2-1EB4-4081-A0D0-7A07C8DC5E5F}
+
+BEA17AC7-6D81-4EB6-AC71-ABE1059245A6,Name
+{Building Upgrades}
+
+BFC90F21-D17D-4ACE-A4BF-F2868D57DA1D,Conditions
+{0 conditions}
+
+BFC90F21-D17D-4ACE-A4BF-F2868D57DA1D,Files
+{A New Dawn.log}
+
+BFC90F21-D17D-4ACE-A4BF-F2868D57DA1D,IgnoreErrors
+{Yes}
+
+BFC90F21-D17D-4ACE-A4BF-F2868D57DA1D,LineFeed
+{Windows}
+
+BFC90F21-D17D-4ACE-A4BF-F2868D57DA1D,TextToWrite,subst
+{1}
+
+C2F9E461-BD59-4A09-B4AC-613714B57787,Conditions
+{0 conditions}
+
+C2F9E461-BD59-4A09-B4AC-613714B57787,ExecuteAction
+{Before Pane is Displayed}
+
+C2F9E461-BD59-4A09-B4AC-613714B57787,State
+{disabled}
+
+C2F9E461-BD59-4A09-B4AC-613714B57787,Widget
+{Back Button;Next Button}
+
+C377180C-73BD-4428-8557-3B4303D07823,CheckCondition
+{Before Next Action is Executed}
+
+C377180C-73BD-4428-8557-3B4303D07823,FailureMessage
+{<%DirectoryPermissionText%>}
+
+C377180C-73BD-4428-8557-3B4303D07823,Filename
+{<%InstallDir%>}
+
+C377180C-73BD-4428-8557-3B4303D07823,Permission
+{can create}
+
+C43DC309-549D-42F9-A89E-96721F909A79,AddToUninstall
+{No}
+
+C43DC309-549D-42F9-A89E-96721F909A79,Conditions
+{0 conditions}
+
+C43DC309-549D-42F9-A89E-96721F909A79,Key
+{}
+
+C43DC309-549D-42F9-A89E-96721F909A79,Name
+{A New Dawn InstallDir}
+
+C43DC309-549D-42F9-A89E-96721F909A79,RootKey
+{HKEY_LOCAL_MACHINE}
+
+C43DC309-549D-42F9-A89E-96721F909A79,Value
+{<%InstallDir%>}
+
+C466C274-CA74-45B4-B5E2-6EC48DBC8073,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+C466C274-CA74-45B4-B5E2-6EC48DBC8073,FileSize
+{1267194}
+
+C466C274-CA74-45B4-B5E2-6EC48DBC8073,FileUpdateMethod
+{Always overwrite files}
+
+C466C274-CA74-45B4-B5E2-6EC48DBC8073,Name
+{Military Civics}
+
+C532566C-E8CC-45C4-A778-CDF7ABDBC254,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+C532566C-E8CC-45C4-A778-CDF7ABDBC254,FileSize
+{257466}
+
+C532566C-E8CC-45C4-A778-CDF7ABDBC254,FileUpdateMethod
+{Always overwrite files}
+
+C532566C-E8CC-45C4-A778-CDF7ABDBC254,Name
+{Meteorology}
+
+C5ADFF57-151C-4089-B393-59E528443492,Alias
+{Startup Actions}
+
+C5ADFF57-151C-4089-B393-59E528443492,Conditions
+{0 conditions}
+
+C5BAEE72-3B36-461C-B286-9D8913B6D239,Destination
+{<%InstallDir%>}
+
+C5BAEE72-3B36-461C-B286-9D8913B6D239,FileSize
+{11801}
+
+C5BAEE72-3B36-461C-B286-9D8913B6D239,FileUpdateMethod
+{Always overwrite files}
+
+C5BAEE72-3B36-461C-B286-9D8913B6D239,Name
+{Mega Civ Patch}
+
+C62F766D-802F-413A-8ADB-3F31D3C3B7F9,Conditions
+{0 conditions}
+
+C62F766D-802F-413A-8ADB-3F31D3C3B7F9,FileName
+{woc_installer.jar}
+
+C62F766D-802F-413A-8ADB-3F31D3C3B7F9,IgnoreErrors
+{Yes}
+
+C62F766D-802F-413A-8ADB-3F31D3C3B7F9,WorkingDirectory
+{<%InstallDir%>/Assets/Modules}
+
+CBC426D9-8EC6-4AC5-B182-BDBF38A6D3DC,Action
+{Install Actions}
+
+CBC426D9-8EC6-4AC5-B182-BDBF38A6D3DC,Conditions
+{0 conditions}
+
+CD85F858-6D1B-416D-8E43-EAC670DD1DC4,Description,subst
+{1}
+
+CD85F858-6D1B-416D-8E43-EAC670DD1DC4,DisplayName,subst
+{1}
+
+CD85F858-6D1B-416D-8E43-EAC670DD1DC4,FileGroups
+{23CBFF69-1596-4777-A4AD-DB73CD527B9D}
+
+CD85F858-6D1B-416D-8E43-EAC670DD1DC4,Name
+{Sports}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Conditions
+{0 conditions}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message,subst
+{1}
+
+D2A4C64C-4154-45D1-8D87-439730541523,Conditions
+{0 conditions}
+
+D2A4C64C-4154-45D1-8D87-439730541523,ExecuteAction
+{Before Pane is Displayed}
+
+D31CF98E-14FA-4768-A4E7-D0085EA8A903,Description,subst
+{1}
+
+D31CF98E-14FA-4768-A4E7-D0085EA8A903,DisplayName,subst
+{1}
+
+D31CF98E-14FA-4768-A4E7-D0085EA8A903,FileGroups
+{B1AC2151-E8E0-4C30-A332-6935D32BAEA1}
+
+D31CF98E-14FA-4768-A4E7-D0085EA8A903,Name
+{Civic Diplomacy}
+
+D6C32609-EB89-4B20-BA7E-D7AC9E243A5E,Action
+{Uninstall Actions}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,BackButton,subst
+{1}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,CancelButton,subst
+{1}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,Caption,subst
+{1}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,Conditions
+{0 conditions}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,FileLabel,subst
+{1}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,Message,subst
+{1}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,NextButton,subst
+{1}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,ProgressValue,subst
+{1}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,Subtitle,subst
+{1}
+
+DA4ED708-8462-45E1-9A1A-A567690141E4,Title,subst
+{1}
+
+DF2829FF-1DF5-4477-B956-B03100B418EA,BackButton,subst
+{1}
+
+DF2829FF-1DF5-4477-B956-B03100B418EA,CancelButton,subst
+{1}
+
+DF2829FF-1DF5-4477-B956-B03100B418EA,Caption,subst
+{1}
+
+DF2829FF-1DF5-4477-B956-B03100B418EA,Conditions
+{1 condition}
+
+DF2829FF-1DF5-4477-B956-B03100B418EA,Message,subst
+{1}
+
+DF2829FF-1DF5-4477-B956-B03100B418EA,NextButton,subst
+{1}
+
+DF2829FF-1DF5-4477-B956-B03100B418EA,Subtitle,subst
+{1}
+
+DF2829FF-1DF5-4477-B956-B03100B418EA,Text,subst
+{1}
+
+DF2829FF-1DF5-4477-B956-B03100B418EA,Title,subst
+{1}
+
+E14BAC11-B11A-43B7-B362-C061F6848A98,Comment
+{Only display this pane if we have more than one Setup Type}
+
+E14BAC11-B11A-43B7-B362-C061F6848A98,Script
+{[llength [SetupTypes children]] > 1}
+
+E1EF0B07-8447-4953-824E-9E7FFFD76B7A,Destination
+{<%InstallDir%>/Assets/Modules/Custom_Buildings}
+
+E1EF0B07-8447-4953-824E-9E7FFFD76B7A,FileSize
+{37155810}
+
+E1EF0B07-8447-4953-824E-9E7FFFD76B7A,FileUpdateMethod
+{Always overwrite files}
+
+E1EF0B07-8447-4953-824E-9E7FFFD76B7A,Name
+{Historical Wonders}
+
+E308AE97-D0DE-47BE-AA0C-1B68E46C4181,Conditions
+{0 conditions}
+
+E308AE97-D0DE-47BE-AA0C-1B68E46C4181,ExitType
+{Finish}
+
+E5CA598D-21D9-45C5-A7E6-884DF6A9F406,Active
+{No}
+
+E5CA598D-21D9-45C5-A7E6-884DF6A9F406,Conditions
+{0 conditions}
+
+E5CA598D-21D9-45C5-A7E6-884DF6A9F406,Message,subst
+{1}
+
+E5CA598D-21D9-45C5-A7E6-884DF6A9F406,Title,subst
+{1}
+
+E681F537-EB56-458C-8C63-3032B38715D2,AutoUpdate
+{Yes}
+
+E681F537-EB56-458C-8C63-3032B38715D2,Conditions
+{1 condition}
+
+E681F537-EB56-458C-8C63-3032B38715D2,SubstituteValue
+{Yes}
+
+E681F537-EB56-458C-8C63-3032B38715D2,Value
+{<%PreviousInstallDir%>}
+
+E681F537-EB56-458C-8C63-3032B38715D2,VirtualText
+{InstallDir}
+
+E8F2C162-F580-4BFB-AA4A-6A43E96403E7,Alias
+{Save the MLF controls file}
+
+E8F2C162-F580-4BFB-AA4A-6A43E96403E7,Conditions
+{0 conditions}
+
+E8F2C162-F580-4BFB-AA4A-6A43E96403E7,Destination
+{<%InstallDir%>\Assets\Modules\MLF_CIV4ModularLoadingControls.xml}
+
+E8F2C162-F580-4BFB-AA4A-6A43E96403E7,Source
+{<%InstallDir%>\Assets\Modules\MLF_CIV4ModularLoadingControls.bak}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,BackButton,subst
+{1}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,CancelButton,subst
+{1}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,Caption,subst
+{1}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,Conditions
+{0 conditions}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,FileValue,subst
+{1}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,Message,subst
+{1}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,NextButton,subst
+{1}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,ProgressValue,subst
+{1}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,Subtitle,subst
+{1}
+
+E98B216B-7FD5-4BB7-9AF6-E5662F4972B7,Title,subst
+{1}
+
+EA52C625-5465-43AA-BE31-815384D6FEB4,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+EA52C625-5465-43AA-BE31-815384D6FEB4,FileSize
+{19017412}
+
+EA52C625-5465-43AA-BE31-815384D6FEB4,FileUpdateMethod
+{Always overwrite files}
+
+EA52C625-5465-43AA-BE31-815384D6FEB4,Name
+{Forest UI}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Active
+{Yes}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Alias
+{Wrong Location?}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton,subst
+{1}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton,subst
+{1}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption,subst
+{1}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Conditions
+{1 condition}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message,subst
+{1}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton,subst
+{1}
+
+ECDAFB97-DEC6-46DC-AE64-64313417A663,Destination
+{<%InstallDir%>}
+
+ECDAFB97-DEC6-46DC-AE64-64313417A663,FileSize
+{9332321}
+
+ECDAFB97-DEC6-46DC-AE64-64313417A663,FileUpdateMethod
+{Always overwrite files}
+
+ECDAFB97-DEC6-46DC-AE64-64313417A663,Name
+{ANM}
+
+ED4A8CF8-3EDA-49C2-AE4B-D55AD8BDD31D,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+ED4A8CF8-3EDA-49C2-AE4B-D55AD8BDD31D,FileSize
+{19128002}
+
+ED4A8CF8-3EDA-49C2-AE4B-D55AD8BDD31D,FileUpdateMethod
+{Always overwrite files}
+
+ED4A8CF8-3EDA-49C2-AE4B-D55AD8BDD31D,Name
+{Purple UI}
+
+EE5A99BD-F91E-41FA-B091-CE230BF8211E,Conditions
+{0 conditions}
+
+EE5A99BD-F91E-41FA-B091-CE230BF8211E,ExecuteAction
+{Before Pane is Displayed}
+
+EE5A99BD-F91E-41FA-B091-CE230BF8211E,State
+{disabled}
+
+EE5A99BD-F91E-41FA-B091-CE230BF8211E,Widget
+{Back Button;Next Button}
+
+F1E7E6A1-3551-425B-BD67-FD6533B6203C,CheckCondition
+{Before Action is Executed}
+
+F1E7E6A1-3551-425B-BD67-FD6533B6203C,Message,subst
+{1}
+
+F1E7E6A1-3551-425B-BD67-FD6533B6203C,Title,subst
+{1}
+
+F1E7E6A1-3551-425B-BD67-FD6533B6203C,TrueValue
+{No}
+
+F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48,Checked
+{No}
+
+F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48,Description,subst
+{1}
+
+F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48,DisplayName,subst
+{1}
+
+F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48,FileGroups
+{0580B954-9EC6-4713-8305-484ADEAADBEF}
+
+F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48,Name
+{Formations}
+
+F4819E99-F334-4AC1-A987-6E2CA242B70F,Active
+{No}
+
+F4819E99-F334-4AC1-A987-6E2CA242B70F,Operator
+{not empty}
+
+F4819E99-F334-4AC1-A987-6E2CA242B70F,String
+{<%PreviousInstallDir%>}
+
+F5585FA0-AA9D-4851-AE3F-0EC3F9B8676A,Action
+{Install Actions}
+
+F5585FA0-AA9D-4851-AE3F-0EC3F9B8676A,Conditions
+{0 conditions}
+
+F5719CD3-A304-41CE-A79F-83CA9CF6BDFD,Destination
+{<%InstallDir%>/Assets/Modules/Afforess}
+
+F5719CD3-A304-41CE-A79F-83CA9CF6BDFD,FileSize
+{6419}
+
+F5719CD3-A304-41CE-A79F-83CA9CF6BDFD,FileUpdateMethod
+{Always overwrite files}
+
+F5719CD3-A304-41CE-A79F-83CA9CF6BDFD,Name
+{Lead From Behind}
+
+F72DFAD1-EBE8-49CF-8FBE-F0F0439560E9,Conditions
+{0 conditions}
+
+F72DFAD1-EBE8-49CF-8FBE-F0F0439560E9,Files
+{<%InstallDir%>\Usersettings\BUG City Screen.ini}
+
+F72DFAD1-EBE8-49CF-8FBE-F0F0439560E9,IgnoreErrors
+{Yes}
+
+F7DC7C1D-C514-49D1-95B3-84C4CDC4D743,Default
+{Yes}
+
+F7DC7C1D-C514-49D1-95B3-84C4CDC4D743,Prompt
+{<%UninstallStartupText%>}
+
+F892C40F-2665-4AAC-AA1C-70EDAB59339A,CheckCondition
+{Before Action is Executed}
+
+F892C40F-2665-4AAC-AA1C-70EDAB59339A,Operator
+{not empty}
+
+F892C40F-2665-4AAC-AA1C-70EDAB59339A,String
+{<%PreviousInstallDir%>}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,BackButton,subst
+{1}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,CancelButton,subst
+{1}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,Caption,subst
+{1}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,Conditions
+{0 conditions}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,FileLabel,subst
+{1}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,Message,subst
+{1}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,NextButton,subst
+{1}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,ProgressValue,subst
+{1}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,Subtitle,subst
+{1}
+
+FA561405-E718-49FE-8CA1-541ABC1BA6FA,Title,subst
+{1}
+
+FB60B8C9-CF8C-48F4-AA96-52BB93733E43,Active
+{No}
+
+FB60B8C9-CF8C-48F4-AA96-52BB93733E43,Conditions
+{0 conditions}
+
+FB60B8C9-CF8C-48F4-AA96-52BB93733E43,IgnoreErrors
+{Yes}
+
+FB60B8C9-CF8C-48F4-AA96-52BB93733E43,UninstallDirectory
+{<%DESKTOP%>}
+
+FB60B8C9-CF8C-48F4-AA96-52BB93733E43,UninstallFilename
+{A New Dawn Uninstaller<%Ext%>}
+
+FDEC7D6E-1694-470B-BE6F-F281BEF1EC50,Destination
+{<%InstallDir%>}
+
+FDEC7D6E-1694-470B-BE6F-F281BEF1EC50,FileSize
+{101124763}
+
+FDEC7D6E-1694-470B-BE6F-F281BEF1EC50,FileUpdateMethod
+{Always overwrite files}
+
+FDEC7D6E-1694-470B-BE6F-F281BEF1EC50,Name
+{Required Files}
+
+FEDE3AB2-D769-468F-A392-4251550715E7,Conditions
+{0 conditions}
+
+FEDE3AB2-D769-468F-A392-4251550715E7,FolderName
+{<%InstallDir%>\Backup Files\Assets\XML}
+
+FreeBSD-4-x86,Active
+{No}
+
+FreeBSD-4-x86,BuildSeparateArchives
+{No}
+
+FreeBSD-4-x86,DefaultDirectoryPermission
+{0755}
+
+FreeBSD-4-x86,DefaultFilePermission
+{0755}
+
+FreeBSD-4-x86,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+FreeBSD-4-x86,FallBackToConsole
+{Yes}
+
+FreeBSD-4-x86,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+FreeBSD-4-x86,InstallMode
+{Standard}
+
+FreeBSD-4-x86,InstallType
+{Typical}
+
+FreeBSD-4-x86,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+FreeBSD-4-x86,ProgramFolderAllUsers
+{No}
+
+FreeBSD-4-x86,ProgramFolderName
+{<%AppName%>}
+
+FreeBSD-4-x86,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+FreeBSD-4-x86,ProgramName
+{}
+
+FreeBSD-4-x86,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+FreeBSD-4-x86,PromptForRoot
+{Yes}
+
+FreeBSD-4-x86,RequireRoot
+{No}
+
+FreeBSD-4-x86,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+FreeBSD-5-x86,Active
+{No}
+
+FreeBSD-5-x86,BuildSeparateArchives
+{No}
+
+FreeBSD-5-x86,DefaultDirectoryPermission
+{0755}
+
+FreeBSD-5-x86,DefaultFilePermission
+{0755}
+
+FreeBSD-5-x86,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+FreeBSD-5-x86,FallBackToConsole
+{Yes}
+
+FreeBSD-5-x86,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+FreeBSD-5-x86,InstallMode
+{Standard}
+
+FreeBSD-5-x86,InstallType
+{Typical}
+
+FreeBSD-5-x86,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+FreeBSD-5-x86,ProgramFolderAllUsers
+{No}
+
+FreeBSD-5-x86,ProgramFolderName
+{<%AppName%>}
+
+FreeBSD-5-x86,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+FreeBSD-5-x86,ProgramName
+{}
+
+FreeBSD-5-x86,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+FreeBSD-5-x86,PromptForRoot
+{Yes}
+
+FreeBSD-5-x86,RequireRoot
+{No}
+
+FreeBSD-5-x86,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+FreeBSD-6-x86,Active
+{No}
+
+FreeBSD-6-x86,BuildSeparateArchives
+{No}
+
+FreeBSD-6-x86,DefaultDirectoryPermission
+{0755}
+
+FreeBSD-6-x86,DefaultFilePermission
+{0755}
+
+FreeBSD-6-x86,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+FreeBSD-6-x86,FallBackToConsole
+{Yes}
+
+FreeBSD-6-x86,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+FreeBSD-6-x86,InstallMode
+{Standard}
+
+FreeBSD-6-x86,InstallType
+{Typical}
+
+FreeBSD-6-x86,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+FreeBSD-6-x86,ProgramFolderAllUsers
+{No}
+
+FreeBSD-6-x86,ProgramFolderName
+{<%AppName%>}
+
+FreeBSD-6-x86,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+FreeBSD-6-x86,ProgramName
+{}
+
+FreeBSD-6-x86,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+FreeBSD-6-x86,PromptForRoot
+{Yes}
+
+FreeBSD-6-x86,RequireRoot
+{No}
+
+FreeBSD-6-x86,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+FreeBSD-7-x86,Active
+{No}
+
+FreeBSD-7-x86,BuildSeparateArchives
+{No}
+
+FreeBSD-7-x86,DefaultDirectoryPermission
+{0755}
+
+FreeBSD-7-x86,DefaultFilePermission
+{0755}
+
+FreeBSD-7-x86,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+FreeBSD-7-x86,FallBackToConsole
+{Yes}
+
+FreeBSD-7-x86,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+FreeBSD-7-x86,InstallMode
+{Standard}
+
+FreeBSD-7-x86,InstallType
+{Typical}
+
+FreeBSD-7-x86,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+FreeBSD-7-x86,ProgramFolderAllUsers
+{No}
+
+FreeBSD-7-x86,ProgramFolderName
+{<%AppName%>}
+
+FreeBSD-7-x86,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+FreeBSD-7-x86,ProgramName
+{}
+
+FreeBSD-7-x86,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+FreeBSD-7-x86,PromptForRoot
+{Yes}
+
+FreeBSD-7-x86,RequireRoot
+{No}
+
+FreeBSD-7-x86,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+FreeBSD-x86,Active
+{No}
+
+FreeBSD-x86,BuildSeparateArchives
+{No}
+
+FreeBSD-x86,DefaultDirectoryPermission
+{0755}
+
+FreeBSD-x86,DefaultFilePermission
+{0755}
+
+FreeBSD-x86,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+FreeBSD-x86,FallBackToConsole
+{Yes}
+
+FreeBSD-x86,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+FreeBSD-x86,InstallMode
+{Standard}
+
+FreeBSD-x86,InstallType
+{Typical}
+
+FreeBSD-x86,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+FreeBSD-x86,ProgramFolderAllUsers
+{No}
+
+FreeBSD-x86,ProgramFolderName
+{<%AppName%>}
+
+FreeBSD-x86,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+FreeBSD-x86,ProgramName
+{}
+
+FreeBSD-x86,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+FreeBSD-x86,PromptForRoot
+{Yes}
+
+FreeBSD-x86,RequireRoot
+{No}
+
+FreeBSD-x86,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+HPUX-hppa,Active
+{No}
+
+HPUX-hppa,BuildSeparateArchives
+{No}
+
+HPUX-hppa,DefaultDirectoryPermission
+{0755}
+
+HPUX-hppa,DefaultFilePermission
+{0755}
+
+HPUX-hppa,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+HPUX-hppa,FallBackToConsole
+{Yes}
+
+HPUX-hppa,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+HPUX-hppa,InstallMode
+{Standard}
+
+HPUX-hppa,InstallType
+{Typical}
+
+HPUX-hppa,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+HPUX-hppa,ProgramFolderAllUsers
+{No}
+
+HPUX-hppa,ProgramFolderName
+{<%AppName%>}
+
+HPUX-hppa,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+HPUX-hppa,ProgramName
+{}
+
+HPUX-hppa,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+HPUX-hppa,PromptForRoot
+{Yes}
+
+HPUX-hppa,RequireRoot
+{No}
+
+HPUX-hppa,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+Linux-x86,Active
+{No}
+
+Linux-x86,BuildSeparateArchives
+{No}
+
+Linux-x86,DefaultDirectoryPermission
+{0755}
+
+Linux-x86,DefaultFilePermission
+{0755}
+
+Linux-x86,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+Linux-x86,FallBackToConsole
+{Yes}
+
+Linux-x86,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+Linux-x86,InstallMode
+{Standard}
+
+Linux-x86,InstallType
+{Typical}
+
+Linux-x86,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+Linux-x86,ProgramFolderAllUsers
+{No}
+
+Linux-x86,ProgramFolderName
+{<%AppName%>}
+
+Linux-x86,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+Linux-x86,ProgramName
+{}
+
+Linux-x86,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+Linux-x86,PromptForRoot
+{Yes}
+
+Linux-x86,RequireRoot
+{No}
+
+Linux-x86,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+Linux-x86_64,Active
+{No}
+
+Linux-x86_64,BuildSeparateArchives
+{No}
+
+Linux-x86_64,DefaultDirectoryPermission
+{0755}
+
+Linux-x86_64,DefaultFilePermission
+{0755}
+
+Linux-x86_64,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+Linux-x86_64,FallBackToConsole
+{Yes}
+
+Linux-x86_64,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+Linux-x86_64,InstallMode
+{Standard}
+
+Linux-x86_64,InstallType
+{Typical}
+
+Linux-x86_64,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+Linux-x86_64,ProgramFolderAllUsers
+{No}
+
+Linux-x86_64,ProgramFolderName
+{<%AppName%>}
+
+Linux-x86_64,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+Linux-x86_64,ProgramName
+{}
+
+Linux-x86_64,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+Linux-x86_64,PromptForRoot
+{Yes}
+
+Linux-x86_64,RequireRoot
+{No}
+
+Linux-x86_64,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+Solaris-sparc,Active
+{No}
+
+Solaris-sparc,BuildSeparateArchives
+{No}
+
+Solaris-sparc,DefaultDirectoryPermission
+{0755}
+
+Solaris-sparc,DefaultFilePermission
+{0755}
+
+Solaris-sparc,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+Solaris-sparc,FallBackToConsole
+{Yes}
+
+Solaris-sparc,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+Solaris-sparc,InstallMode
+{Standard}
+
+Solaris-sparc,InstallType
+{Typical}
+
+Solaris-sparc,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+Solaris-sparc,ProgramFolderAllUsers
+{No}
+
+Solaris-sparc,ProgramFolderName
+{<%AppName%>}
+
+Solaris-sparc,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+Solaris-sparc,ProgramName
+{}
+
+Solaris-sparc,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+Solaris-sparc,PromptForRoot
+{Yes}
+
+Solaris-sparc,RequireRoot
+{No}
+
+Solaris-sparc,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+Solaris-x86,Active
+{No}
+
+Solaris-x86,BuildSeparateArchives
+{No}
+
+Solaris-x86,DefaultDirectoryPermission
+{0755}
+
+Solaris-x86,DefaultFilePermission
+{0755}
+
+Solaris-x86,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+Solaris-x86,FallBackToConsole
+{Yes}
+
+Solaris-x86,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+Solaris-x86,InstallMode
+{Standard}
+
+Solaris-x86,InstallType
+{Typical}
+
+Solaris-x86,ProgramExecutable
+{<%InstallDir%>/yourapp}
+
+Solaris-x86,ProgramFolderAllUsers
+{No}
+
+Solaris-x86,ProgramFolderName
+{<%AppName%>}
+
+Solaris-x86,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+Solaris-x86,ProgramName
+{}
+
+Solaris-x86,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+Solaris-x86,PromptForRoot
+{Yes}
+
+Solaris-x86,RequireRoot
+{No}
+
+Solaris-x86,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+TarArchive,Active
+{No}
+
+TarArchive,BuildSeparateArchives
+{No}
+
+TarArchive,CompressionLevel
+{0}
+
+TarArchive,DefaultDirectoryPermission
+{0755}
+
+TarArchive,DefaultFilePermission
+{0755}
+
+TarArchive,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+TarArchive,FallBackToConsole
+{Yes}
+
+TarArchive,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+TarArchive,InstallMode
+{Standard}
+
+TarArchive,InstallType
+{Typical}
+
+TarArchive,OutputFileName
+{<%ShortAppName%>-<%Version%>.tar.gz}
+
+TarArchive,ProgramExecutable
+{}
+
+TarArchive,ProgramFolderAllUsers
+{No}
+
+TarArchive,ProgramFolderName
+{<%AppName%>}
+
+TarArchive,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+TarArchive,ProgramName
+{}
+
+TarArchive,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+TarArchive,PromptForRoot
+{Yes}
+
+TarArchive,RequireRoot
+{No}
+
+TarArchive,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+TarArchive,VirtualTextMap
+{<%InstallDir%> <%ShortAppName%>}
+
+Windows,Active
+{Yes}
+
+Windows,BuildSeparateArchives
+{No}
+
+Windows,Executable
+{<%AppName%><%Ext%>}
+
+Windows,FileDescription
+{<%AppName%>}
+
+Windows,IncludeTWAPI
+{No}
+
+Windows,InstallDir
+{<%PROGRAM_FILES%>/Firaxis Games\Sid Meier's Civilization 4\Beyond the Sword\Mods\Rise of Mankind}
+
+Windows,InstallMode
+{Standard}
+
+Windows,InstallType
+{Standard}
+
+Windows,LastRequireAdministrator
+{Yes}
+
+Windows,ProgramExecutable
+{<%InstallDir%>/Afforess's Addons.exe}
+
+Windows,ProgramFolderAllUsers
+{No}
+
+Windows,ProgramFolderName
+{<%AppName%>}
+
+Windows,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+Windows,ProgramName
+{}
+
+Windows,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+Windows,RequireAdministrator
+{Yes}
+
+Windows,UseUncompressedBinaries
+{No}
+
+Windows,WindowsIcon
+{Modern Setup Screen.ico}
+
+ZipArchive,Active
+{No}
+
+ZipArchive,BuildSeparateArchives
+{No}
+
+ZipArchive,CompressionLevel
+{9}
+
+ZipArchive,DefaultDirectoryPermission
+{0755}
+
+ZipArchive,DefaultFilePermission
+{0755}
+
+ZipArchive,Executable
+{<%AppName%>-<%Version%>-<%Platform%>-Install<%Ext%>}
+
+ZipArchive,FallBackToConsole
+{Yes}
+
+ZipArchive,InstallDir
+{<%Home%>/<%ShortAppName%>}
+
+ZipArchive,InstallMode
+{Standard}
+
+ZipArchive,InstallType
+{Typical}
+
+ZipArchive,OutputFileName
+{<%ShortAppName%>.zip}
+
+ZipArchive,ProgramExecutable
+{}
+
+ZipArchive,ProgramFolderAllUsers
+{No}
+
+ZipArchive,ProgramFolderName
+{<%AppName%>}
+
+ZipArchive,ProgramLicense
+{<%InstallDir%>/LICENSE.txt}
+
+ZipArchive,ProgramName
+{}
+
+ZipArchive,ProgramReadme
+{<%InstallDir%>/README.txt}
+
+ZipArchive,PromptForRoot
+{Yes}
+
+ZipArchive,RequireRoot
+{No}
+
+ZipArchive,RootInstallDir
+{/usr/local/<%ShortAppName%>}
+
+ZipArchive,VirtualTextMap
+{<%InstallDir%> <%ShortAppName%>}
+
+}
+
+::msgcat::mcmset ca {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Cliqueu SegÃ¼ent per continuar. Si desitgeu seleccionar un directori diferent, cliqueu Examinar.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{S'instalÂ·larÃ  <%AppName%> en el segÃ¼ent directori.
+
+ Per instalÂ·lar en aquest directori, cliqueu SegÃ¼ent. Per instalÂ·lar en un altre directori, cliqueu Examinar i seleccioneu un altre directori.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Directori DestÃ­}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{On desitgeu instalÂ·lar <%AppName%>?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Elegiu el directori de destÃ­}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Llegenda aquÃ­.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Missatge aquÃ­.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset cs {
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{K pokračování stiskněte Vpřed. Pokud chcete vybrat odlišnou složku, stiskněte Procházet.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{Program <%AppName%> bude nainstalován do následující složky.
+
+K instalaci do této složky stiskněte Vpřed. K instalaci do jiné složky stiskněte Procházet a zvolte jinou složku.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Cílová složka}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Kam má být program <%AppName%> nainstalován?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Zvolte cílové umístění}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Titulek bude zde.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Zpráva bude zde.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset de {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Um Fortzufahren, klicken Sie auf Weiter.  Wenn Sie ein anderes Verzeichnis verwenden möchten, klicken Sie auf Durchsuchen.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{Setup wird <%AppName%> in das folgende Verzeichnis installieren.  
+
+Klicken Sie auf Weiter, wenn dieses Verzeichnis verwendet werden soll.  Um ein anderes Verzeichnis auszuwählen, klicken Sie auf Durchsuchen und wählen ein anderes aus.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Zielordner}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Wohin soll <%AppName%> installiert werden?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Auswahl Installationsziel}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Überschrift kommt hier hin.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Meldung kommt hier hin.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset en {
+0010DA36-6D02-4171-8255-5C72CC38C489,Message
+{The InstallJammer Wizard has successfully installed <%AppName%>.  Click Finish to exit the wizard.
+
+You may also close the WoC Application. }
+
+0EA0F959-4492-424E-8346-A81FEF872AAE,Description
+{Recommended Setup is made up of the most balanced, high quality features A New Dawn has to offer. 
+
+The options that are "checked" in the Custom Install window by default are all of the options that are in the recommended install.}
+
+0EA0F959-4492-424E-8346-A81FEF872AAE,DisplayName
+{Recommended Setup}
+
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+14906938-6A0F-4F8E-9909-4198C6E3333F,Description
+{Deep-Red Interface changes the interface from Blue to a deep red color/ brown color.}
+
+21A4E099-59B7-4C67-96CB-BFAA612802B9,Message
+{<%AppName%> has been removed from Rise of Mankind.}
+
+45D52018-F826-4E79-B2E3-90D299987289,Description
+{Changes the User Interface to a Light Cerulean Blue}
+
+5027E95D-EDC9-4631-B9F4-05279B3FB4B7,Description
+{Better RoM seeks to improve Rise of Mankind by balancing the civic choices, certain wonders, units, resources and technologies. A Better RoM is a better A New Dawn...}
+
+5027E95D-EDC9-4631-B9F4-05279B3FB4B7,DisplayName
+{Better RoM}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{To continue, click Next.  If you would like to select a different folder, click Browse.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{<%RiseofMankindFolder%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Rise of Mankind}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Where should <%AppName%> be installed?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Choose Destination Location}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{Blue Marble Terrain}
+
+6691AB45-4BF6-480A-A683-A578F633FE86,Description
+{The Black Interface changes the interface to a mostly black color scheme.}
+
+69DBBFD8-AF31-4147-936F-7B98ECB12866,Description
+{Custom Setup Allows you to choose the components that you want. A Component Screen will appear next. The boxes that are checked by default are all the components included in a Recommended install.}
+
+69DBBFD8-AF31-4147-936F-7B98ECB12866,DisplayName
+{Custom Setup}
+
+6C2D35C3-9536-4F3A-BAF4-50D6C1FE229A,Description
+{Installs the Blue Marble Mod's terrain, which greatly improves the quality of most of the map.}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,BackButton
+{}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,Caption
+{Are you sure you want to Uninstall A New Dawn?}
+
+81FB50AE-522E-421B-9DE6-3F5369E8E0EF,Message
+{Warning: Uninstalling A New Dawn will also revert any non-standard changes you made to RoM back to the default settings!
+
+This will also delete any custom files in the Python and XML folders! 
+
+Are you sure you want to continue?}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,BackButton
+{}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,CancelButton
+{}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,Caption
+{Please Wait...}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,Message
+{Please Wait... The Installer is backing up files...}
+
+8538D2C3-2886-4FDC-B243-B570A4934A87,NextButton
+{}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{Blue Marble Terrain}
+
+894CA5BA-FC70-4970-A7E8-66217AB0074D,Description
+{The Advanced Nukes Modmod adds complexity and variety to your favorite kinds of weapons, those of Mass Destruction. Wipe out cities and entire continents with your powerful arsenals!}
+
+894CA5BA-FC70-4970-A7E8-66217AB0074D,DisplayName
+{Advanced Nukes}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,BackButton
+{}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,CancelButton
+{}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,Caption
+{Restoring Backups...}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,Message
+{Please Wait... Restoring Rise of Mankind to it's original state... 
+
+
+
+
+
+Please Note: Any custom changes you made to the XML or Python folders will be lost.}
+
+8F926B90-2551-4DD5-A05B-8DB732097F04,NextButton
+{}
+
+904744F4-A665-44FA-9720-37D4F6B7CB8E,Description
+{The files are required for your installation to function properly.}
+
+9BEC5E16-5747-4283-AF2F-87199C39314E,Description
+{Changes the User Interface to a Red Color}
+
+9FDA6ECE-A4B4-4E6F-B81B-BDCA1CEE736B,Description
+{Lite Setup only installs the bare minimum components for A New Dawn. It does not alter core game play, and adds no new features, besides custom game options. Recommended for RoM Purists or those who only want the AND speed boost.}
+
+9FDA6ECE-A4B4-4E6F-B81B-BDCA1CEE736B,DisplayName
+{Lite Setup}
+
+A213181D-E152-43A4-BCC8-D67991CDB442,Text
+{Blue Marble Terrain}
+
+A4096F8D-B85F-4A65-B041-379F2823BEE5,Description
+{Changes the User Interface to a Royal Purple}
+
+A59252B4-8C89-4F88-8A5F-C39A7D2BA07C,Description
+{Full Setup Installs ALL of A New Dawns features, even those not recommended due to historical inaccuracies or poor AI decisions.}
+
+A59252B4-8C89-4F88-8A5F-C39A7D2BA07C,DisplayName
+{Full Setup}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{Blue Marble Terrain}
+
+A6B3DF8B-C865-4013-AE29-931B0565D0CE,Description
+{The Mint-Green Interface changes the interface to a dark forest green color scheme.}
+
+A6B3DF8B-C865-4013-AE29-931B0565D0CE,DisplayName
+{Mint Green UI}
+
+AB6AE12B-BA68-4D11-BF97-EB01479ACE44,Description
+{Changes the User Interface to a Silver Color}
+
+B6E6EF4D-CA05-4E07-ADE4-C838F35499C9,Message
+{<%InstallStartupText%>}
+
+B6E6EF4D-CA05-4E07-ADE4-C838F35499C9,Title
+{<%InstallApplicationText%>}
+
+B79DDD2E-579F-430A-AD94-D65D24D38E98,Description
+{The Coal Interface changes Civilization to a much darker, silver/coal color.}
+
+B79DDD2E-579F-430A-AD94-D65D24D38E98,DisplayName
+{Coal Interface}
+
+B8C95E86-D1C7-483E-B457-E659DE706671,Description
+{Military Civics adds a new civic class to Rise of Mankind: Military. The organization of an empires Military establishment has always been a crucial part of an empires success (or failure). Military civics add new options to suit that.}
+
+B92A3B1F-9795-4B73-99F9-04EFAAE5C143,Caption
+{Welcome to the Install Wizard for <%AppName%>}
+
+B92A3B1F-9795-4B73-99F9-04EFAAE5C143,Message
+{This will install <%AppName%> for Rise of Mankind. 
+
+Click Next to continue or Cancel to exit Setup.}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+BEA17AC7-6D81-4EB6-AC71-ABE1059245A6,Description
+{Building Upgrades attempts to balance the buildings in Rise of Mankind by adding new chains and upgrade paths for buildings that delay building obsolecence in favor of having buildings upgrade to newer, more powerful versions. Recommended. Made by Killtech.}
+
+BFC90F21-D17D-4ACE-A4BF-F2868D57DA1D,TextToWrite
+{Installed Components:
+<%SelectedComponents%>
+
+Install Type:
+<%InstallType%>
+
+Version:
+<%Version%>
+
+Install Directory:
+<%InstallDir%>
+
+Windows Version:
+<%WindowsPlatform%>}
+
+CD85F858-6D1B-416D-8E43-EAC670DD1DC4,Description
+{The Sports modmod serves to fill in the gaps in the RoM timeline, with many new techs and buildings featuring the advances in, latest sports.}
+
+CD85F858-6D1B-416D-8E43-EAC670DD1DC4,DisplayName
+{}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+D31CF98E-14FA-4768-A4E7-D0085EA8A903,Description
+{Civic Diplomacy forces players to evaluate civic choices much more. Certain civics can shift diplomacy with other AI greatly, and expect the AI to take these changes into account themselves. Watch out, or a Soviet Bloc could form without your knowledge!}
+
+E5CA598D-21D9-45C5-A7E6-884DF6A9F406,Message
+{<%ANewDawnInstallDir%>}
+
+E5CA598D-21D9-45C5-A7E6-884DF6A9F406,Title
+{<%ANewDawnInstallDir%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Wrong Location?}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{You Must Have Rise of Mankind installed before you can continue! Continuing Will Cause Errors!}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+F1E7E6A1-3551-425B-BD67-FD6533B6203C,Message
+{<%UninstallStartupText%>}
+
+F1E7E6A1-3551-425B-BD67-FD6533B6203C,Title
+{<%UninstallApplicationText%>}
+
+F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48,Description
+{Formations completely reworks the way units appear on the map. Units will not appear in clumps of 3, but in widely ranging groups; from lines of Riflemen to maurading bands of Axemen. Formations does not alter any core gameplay.}
+
+F3C4EC9F-C8F0-4B4E-8C83-6C909D209E48,DisplayName
+{Formations!}
+
+RiseofMankindFolder
+{Please Select your Rise of Mankind folder}
+
+}
+::msgcat::mcmset es {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Pulse Siguiente para continuar. Si desea seleccionar una carpeta diferente, pulse Examinar.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{Se instalará <%AppName%> en la siguiente carpeta. Para instalar en esta carpeta, pulse Siguiente. Para instalar en una carpeta diferente, pulse Examinar y seleccione otra.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Carpeta Destino}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{¿Dónde desea instalar <%AppName%>?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Escoja Carpeta Destino}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Leyenda aquí.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Mensaje aquí.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset fr {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Pour continuer, cliquez sur SUIVANT.  Pour sélectionner un répertoire différent, cliquez sur PARCOURIR.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{L'installation de <%AppName%> s'effectuera dans le répertoire suivant.
+
+Pour installer dans ce répertoire, cliquez sur le bouton SUIVANT.
+
+Pour installer dans un autre répertoire, cliquez sur le bouton PARCOURIR et sélectionnez un autre répertoire.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Répertoire d'installation}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Où installer <%AppName%> ?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Sélectionnez le répertoire d'installation}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Saisir la légende ici.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Saisir le message ici.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset hu {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{A folytatáshoz nyomja meg a <%Next%> gombot.  Ha másik könyvtárat szeretne kiválasztani nyomja meg a <%Browse%> gombot.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{A telepítő a <%AppName%> programot a következő könyvtárba telepíti.
+
+
+     Ahhoz, hogy ebbe könyvtárba kerüljön kattintson a <%Next%> gombra Ahhoz, hogy más könyvtárba kerüljön kattintson a <%Browse%> gombra.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Cél könyvtár}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Hova kellene a <%AppName%> alkalmazást telepíteni?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Válassza ki a cél könyvtárat}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{A fejléc jön ide.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Az üzenet jön ide.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset it {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Per proseguire, premere su Avanti. Se si desidera selezionare una cartella diversa, premere su Sfoglia.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{Il programma di installazione installerà <%AppName%> nella seguente cartella.
+
+Per installare in questa cartella, premere su Avanti.  Per installare in una cartella diversa, premere su Sfoglia e selezionare un'altra cartella.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Cartella di destinazione}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Dove si desidera installare <%AppName%>?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Scegliere la directory  di destinazione}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{La didascalia va qui.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Il messaggio va qui.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset lt {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Tam kad instaliuoti á ðá katalogà, paspauskite <%Next%>. Ádiegimui á
+     kita katalogà, paspauskite <%Browse%> ir pasirinkite kità katalogà.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{Diegimo programa ádiegs <%AppName%> á ðá katalogà.
+
+Tam kad instaliuoti á ðá katalogà, paspauskite <%Next%>.
+
+Ádiegimui á kita katalogà, paspauskite <%Browse%> ir pasirinkite kità katalogà.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Paskirties katalogas}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Kur turëtø bûti <%AppName%> ádiegta?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Pasirinkite paskirties vietà}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Áveskite pavadinimà.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Áveskite praneðimà.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset nl {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Als u de installatie locatie wilt wijzigen klikt u op 'Selecteer map' en selecteert u een nieuwe locatie.
+     Om verder te gaan met het installatieproces klikt u op Volgende.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{Dit installatie programma zal <%AppName%> in de onderstaande map installeren.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Installatie map}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Waar moet <%AppName%> worden geïnstalleerd?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Kies de installatie map}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Bijschrift hier.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Bericht hier.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset pl {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Aby kontynuować, kliknij Dalej.  Jeśli chcesz wybrać inny folder, kliknij Przeglądaj.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{Instalator zainstaluje <%AppName%> w wybranym folderze.
+
+Aby instalować w tym folderze, kliknij Dalej.  Aby zainstalować w innym folderze, kliknij Przeglądaj i wybierz inny folder.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Folder docelowy}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Gdzie zainstalować <%AppName%>?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Wybierz folder docelowy}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Caption goes here.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Message goes here.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset pt_br {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Para continuar, clique em Próximo.  Se você deseja selecionar uma pasta diferente, clique em Procurar.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{A Instalação irá instalar <%AppName%> na seguinte pasta.
+
+Para instalar nesta pasta, clique em Próximo.  Para instalar em uma pasta diferente, clique em Procurar e selecione outra pasta.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Pasta de Destino}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Onde o <%AppName%> deverá ser instalado?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Escolha a localização de destino}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Caption irá aqui.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Mensagem irá aqui.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+::msgcat::mcmset ru {
+10513218-9CD6-406B-8BB0-0D06BC29951B,Message
+{<%UninstallCompleteText%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BackButton
+{< <%Back%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseButton
+{<%Browse%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,BrowseText
+{Äëÿ ïðîäîëæåíèÿ ù¸ëêíèòå ïî <%Next%>. Äëÿ óêàçàíèÿ äðóãîãî êàòàëîãà ù¸ëêíèòå ïî <%Browse%>.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,CancelButton
+{<%Cancel%>}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Caption
+{<%AppName%> áóäåò óñòàíîâëåíà â óêàçàííûé íèæå êàòàëîã.
+
+×òîáû ïðîèçâåñòè óñòàíîâêó â ýòîò êàòàëîã, ù¸ëêíèòå ïî <%Next%>.  ×òîáû ïðîèçâåñòè óñòàíîâêó â äðóãîé êàòàëîã, ù¸ëêíèòå ïî <%Browse%>.}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Destination
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,DestinationLabel
+{Êàòàëîã íàçíà÷åíèÿ}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Message
+{}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,NextButton
+{<%Next%> >}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Subtitle
+{Ãäå íóæíî óñòàíîâèòü <%AppName%> ?}
+
+5E1A02C8-1ED0-42F0-AF50-80BEA191D1F6,Title
+{Óêàæèòå êàòàëîã íàçíà÷åíèÿ}
+
+5F447E15-72E2-45FA-B9CC-144949C0323A,Text
+{}
+
+8339BC15-92FD-4F8C-A33D-CDCE63A7D899,Message
+{<%UninstallingApplicationText%>}
+
+88EAC47E-7602-4974-8F63-93FC3CA5E1B4,Text
+{}
+
+A6952BE0-C11E-4A34-81E4-E650F4C3D9A3,Text
+{}
+
+BAA4CB2C-946E-482C-9B05-B3CDFEE0D24B,Message
+{<%InstallationCompleteText%>}
+
+D1896701-2BC9-400A-8D45-39C12D8FA7AF,Message
+{<%InstallingApplicationText%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,BackButton
+{< <%Back%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,CancelButton
+{<%Cancel%>}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Caption
+{Çäåñü äîëæíà áûòü ïîäïèñü.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,Message
+{Çäåñü äîëæíî áûòü ñîîáùåíèå.}
+
+EB15C3F2-57C7-447D-9241-4E65EBEBD523,NextButton
+{<%Next%> >}
+
+}
+

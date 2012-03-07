@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+<Civ4CivicInfos xmlns="x-schema:Fixed_CIV4GameInfoSchema.xml">
+	<CivicInfos>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+			<Type>CIVIC_CHIEFDOM</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_DESPOT</WeLoveTheKing>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+			<Type>CIVIC_DESPOTISM</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_DESPOT</WeLoveTheKing>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+			<Type>CIVIC_HEREDITARY_RULE</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_MONARCH</WeLoveTheKing>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+			<Type>CIVIC_REPUBLIC</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_PRIME_MINISTER</WeLoveTheKing>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+			<Type>CIVIC_FEDERAL</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_PRESIDENT</WeLoveTheKing>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+			<Type>CIVIC_DEMOCRACY</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_PRESIDENT</WeLoveTheKing>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+			<Type>CIVIC_COMMUNIST</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_DICTATOR</WeLoveTheKing>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+			<Type>CIVIC_FASCIST</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_DICTATOR</WeLoveTheKing>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_POWER</CivicOptionType>
+			<Type>CIVIC_OLIGARCHY</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_POWER</CivicOptionType>
+			<Type>CIVIC_ARISTOCRACY</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_POWER</CivicOptionType>
+			<Type>CIVIC_PATRICIAN</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_POWER</CivicOptionType>
+			<Type>CIVIC_BUREAUCRACY</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_POWER</CivicOptionType>
+			<Type>CIVIC_SENATE</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_POWER</CivicOptionType>
+			<Type>CIVIC_VASSALAGE</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_POWER</CivicOptionType>
+			<Type>CIVIC_PARLIAMENT</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_POWER</CivicOptionType>
+			<Type>CIVIC_PRESIDENT</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_TRIBAL</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_CASTE_SYSTEM</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_PROLETARIAT</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_BOURGEOIS</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_FEUDAL</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_LIBERAL</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_NATIONALIST</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_MARXIST</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
+			<Type>CIVIC_BARTER</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
+			<Type>CIVIC_SLAVERY</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
+			<Type>CIVIC_MERCANTILISM</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
+			<Type>CIVIC_LAISSEZ_FAIRE</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
+			<Type>CIVIC_PLANNED</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
+			<Type>CIVIC_CORPORATIST</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
+			<Type>CIVIC_KEYNESIAN</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
+			<Type>CIVIC_ENVIRONMENTALISM</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
+			<Type>CIVIC_FOLKLORE</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
+			<Type>CIVIC_PROPHETS</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
+			<Type>CIVIC_DIVINE_RULE</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
+			<Type>CIVIC_STATE_CHURCH</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>1</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
+			<Type>CIVIC_FREE_CHURCH</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
+			<Type>CIVIC_INTOLERANT</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
+			<Type>CIVIC_SECULAR</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
+			<Type>CIVIC_ATHEIST</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_WELFARE</CivicOptionType>
+			<Type>CIVIC_SURVIVAL</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_WELFARE</CivicOptionType>
+			<Type>CIVIC_CHARITY</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_WELFARE</CivicOptionType>
+			<Type>CIVIC_CHURCH</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_WELFARE</CivicOptionType>
+			<Type>CIVIC_PUBLIC_WORKS</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_WELFARE</CivicOptionType>
+			<Type>CIVIC_PRIVATE</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_WELFARE</CivicOptionType>
+			<Type>CIVIC_CORPORATE</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_WELFARE</CivicOptionType>
+			<Type>CIVIC_SUBSIDIZED</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_WELFARE</CivicOptionType>
+			<Type>CIVIC_SOCIALIZED</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_FUTURE</CivicOptionType>
+			<Type>CIVIC_NOTHING</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_FUTURE</CivicOptionType>
+			<Type>CIVIC_SUPREMACY</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_FUTURE</CivicOptionType>
+			<Type>CIVIC_TECHNOCRACY</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_FUTURE</CivicOptionType>
+			<Type>CIVIC_SUPERHUMAN</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_FUTURE</CivicOptionType>
+			<Type>CIVIC_PARADISE</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<!-- Dexy - Fixed Borders START -->
+			<bFixedBorders>0</bFixedBorders>			
+			<!-- Dexy - Fixed Borders  END  -->
+			<WeLoveTheKing/>
+		</CivicInfo>
+	</CivicInfos>
+</Civ4CivicInfos>

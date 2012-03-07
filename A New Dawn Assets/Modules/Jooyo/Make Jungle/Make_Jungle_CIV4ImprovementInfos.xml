@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by Soren Johnson (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Improvement -->
+<Civ4ImprovementInfos xmlns="x-schema:Make_Jungle_CIV4TerrainSchema.xml">
+	<ImprovementInfos>
+		<ImprovementInfo>
+			<Type>IMPROVEMENT_MAKE_JUNGLE</Type>
+			<Description>TXT_KEY_BUILD_MAKE_JUNGLE</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_LAND_WORKED_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MAKE_JUNGLE</ArtDefineTag>
+			<YieldChanges>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>0</iYieldChange>
+			</YieldChanges>
+			<bActsAsCity>0</bActsAsCity>
+			<bHillsMakesValid>0</bHillsMakesValid>
+			<bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+			<bRiverSideMakesValid>0</bRiverSideMakesValid>
+			<bNoFreshWater>0</bNoFreshWater>
+			<bRequiresFlatlands>0</bRequiresFlatlands>
+			<bRequiresRiverSide>0</bRequiresRiverSide>
+			<bRequiresIrrigation>0</bRequiresIrrigation>
+			<bCarriesIrrigation>0</bCarriesIrrigation>
+			<bRequiresFeature>0</bRequiresFeature>
+			<bWater>0</bWater>
+			<bGoody>0</bGoody>
+			<bPermanent>0</bPermanent>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<iTilesPerGoody>0</iTilesPerGoody>
+			<iGoodyRange>0</iGoodyRange>
+			<iFeatureGrowth>0</iFeatureGrowth>
+			<iUpgradeTime>0</iUpgradeTime>
+			<iAirBombDefense>-1</iAirBombDefense>
+			<iDefenseModifier>0</iDefenseModifier>
+			<iHappiness>0</iHappiness>
+			<iPillageGold>0</iPillageGold>
+			<bOutsideBorders>1</bOutsideBorders>
+			<TerrainMakesValids>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+			</TerrainMakesValids>
+			<FeatureMakesValids/>
+			<ImprovementPillage/>
+			<ImprovementUpgrade/>
+			<TechYieldChanges/>
+			<RouteYieldChanges/>
+			<WorldSoundscapeAudioScript/>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</ImprovementInfo>
+	</ImprovementInfos>
+</Civ4ImprovementInfos>

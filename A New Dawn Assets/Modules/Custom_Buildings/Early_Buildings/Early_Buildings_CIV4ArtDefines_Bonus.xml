@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) --><!-- Sid Meier's Civilization 4 --><!-- Copyright Firaxis Games 2005 --><!-- --><!-- Bonus/Resource art path information --><Civ4ArtDefines xmlns="x-schema:CIV4ArtDefinesSchema.xml">
+	<BonusArtInfos>
+		<BonusArtInfo>
+			<Type>ART_DEF_BONUS_POTTERY</Type>
+			<fScale>1.0</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Terrain/Resources/Wine/Wine.nif</NIF>
+			<KFM>Art/Terrain/Resources/Wine/Wine.kfm</KFM>
+			<Button>Modules/Custom_Buildings/Early_Buildings/Art/Pottery/Chinaware.dds</Button>
+			<FontButtonIndex>52</FontButtonIndex>
+		</BonusArtInfo>
+		<BonusArtInfo>
+			<Type>ART_DEF_BONUS_HONEY</Type>
+			<fScale>1.0</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Terrain/Resources/Spices/Spices.nif</NIF>
+			<KFM>Art/Terrain/Resources/Spices/Spices.kfm</KFM>
+			<Button>Modules/Custom_Buildings/Early_Buildings/Art/Honey/Amber.dds</Button>
+			<FontButtonIndex>48</FontButtonIndex>
+		</BonusArtInfo>
+	</BonusArtInfos>
+</Civ4ArtDefines>

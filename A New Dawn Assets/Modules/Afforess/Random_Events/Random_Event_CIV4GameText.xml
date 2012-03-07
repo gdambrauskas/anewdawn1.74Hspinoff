@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+	Various Interface Label Translations
+
+  -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT> 
+        <Tag>TXT_KEY_POPUP_SELECT_EVENT</Tag> 
+        <English>Choose an event which should be triggered.</English> 
+        <French>Choisir un événement qui sera activé.</French> 
+        <German>Event aussuchen, das gestartet werden soll.</German> 
+        <Italian>Choose an event which should be triggered.</Italian> 
+        <Spanish>Choose an event which should be triggered.</Spanish> 
+    </TEXT> 
+    <TEXT> 
+        <Tag>TXT_KEY_POPUP_SELECT_NEVER_MIND</Tag> 
+        <English>Do not trigger an event.</English> 
+        <French>N'activer aucun événement.</French> 
+        <German>Kein Event starten!</German> 
+        <Italian>Do not trigger an event.</Italian> 
+        <Spanish>Do not trigger an event.</Spanish> 
+    </TEXT>  
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COMPULSORY_DEM_1</Tag>
+		<English>"Compulsory voting makes about as much as sense as having the death penalty for attempted suicide," says civil rights activists. "You can't force people to be free! You can only give them the choice. Besides, if all those derelicts who can't be bothered to get off their butts once every few years voted, who would they elect? I shudder to think."</English>
+		<French>"Le vote obligatoire est tout aussi sensé que de recourir à la peine de mort pour ceux qui réalisent une tentative de suicide," prétendent les militants des droits civils. "Vous ne pouvez pas forcer les gens à être libre! Vous pouvez seulement leur donner le choix. D'ailleurs, si tous ces oubliés qui ne peuvent être dérangés de leur pied d'estale votaient, qui éliraient-ils  ? Je frémis rien qu'en y pensant."</French>
+		<German>"Compulsory voting makes about as much as sense as having the death penalty for attempted suicide," says civil rights activists. "You can't force people to be free! You can only give them the choice. Besides, if all those derelicts who can't be bothered to get off their butts once every few years voted, who would they elect? I shudder to think."</German>
+		<Italian>"Compulsory voting makes about as much as sense as having the death penalty for attempted suicide," says civil rights activists. "You can't force people to be free! You can only give them the choice. Besides, if all those derelicts who can't be bothered to get off their butts once every few years voted, who would they elect? I shudder to think."</Italian>
+		<Spanish>"Compulsory voting makes about as much as sense as having the death penalty for attempted suicide," says civil rights activists. "You can't force people to be free! You can only give them the choice. Besides, if all those derelicts who can't be bothered to get off their butts once every few years voted, who would they elect? I shudder to think."</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COMPULSORY_DEM_2</Tag>
+		<English>"It's not contradictory at all," argues a notorious political commentator. "The fact is, if not everyone votes, the outcome isn't truly representative. Some groups--like elderly gun nuts--vote more often than others. That's why we always end up with such terrible politicians."</English>
+		<French>"Ce n'est pas du tout contradictoire," affirme un célèbre commentateur politique. "Le fait est que, si tout le monde ne vote pas, le résultat n'est pas vraiment représentatif. Certains groupes --commme ces vieux fous de la gachette-- votent plus souvent que d'autres. C'est pour cela que l'on se retrouve avec de si piètres politiciens."</French>
+		<German>"It's not contradictory at all," argues a notorious political commentator. "The fact is, if not everyone votes, the outcome isn't truly representative. Some groups--like elderly gun nuts--vote more often than others. That's why we always end up with such terrible politicians."</German>
+		<Italian>"It's not contradictory at all," argues a notorious political commentator. "The fact is, if not everyone votes, the outcome isn't truly representative. Some groups--like elderly gun nuts--vote more often than others. That's why we always end up with such terrible politicians."</Italian>
+		<Spanish>"It's not contradictory at all," argues a notorious political commentator. "The fact is, if not everyone votes, the outcome isn't truly representative. Some groups--like elderly gun nuts--vote more often than others. That's why we always end up with such terrible politicians."</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COMPULSORY_DEM_3</Tag>
+		<English>"This raises an interesting issue," says your chief political advisor. "Why do we need elections, anyway? Seems to me it would be much simpler if you just decided what was right, and did it. Wouldn't that save everyone a lot of time?"</English>
+		<French>"Cela soulève une question intéressante," dit votre conseiller politique. "Pourquoi avons-nous besoin d'élections, de toute façon? Il me semble qu'il serait beaucoup plus simple si vous avez juste à décider ce qui doit être, et le réalisez. Ce serait un gain de temps pour tout le monde, non ?"</French>
+		<German>"This raises an interesting issue," says your chief political advisor. "Why do we need elections, anyway? Seems to me it would be much simpler if you just decided what was right, and did it. Wouldn't that save everyone a lot of time?"</German>
+		<Italian>"This raises an interesting issue," says your chief political advisor. "Why do we need elections, anyway? Seems to me it would be much simpler if you just decided what was right, and did it. Wouldn't that save everyone a lot of time?"</Italian>
+		<Spanish>"This raises an interesting issue," says your chief political advisor. "Why do we need elections, anyway? Seems to me it would be much simpler if you just decided what was right, and did it. Wouldn't that save everyone a lot of time?"</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_COMPULSORY_DEM</Tag>
+		<English>In response to a slow news week, certain highbrow newspapers have stirred up the debate over voluntary vs compulsory voting.</English>
+		<French>En réponse à une semaine sans grandes nouvelles, certains journaux intellectuels ont soulevé le débat sur le vote obligatoire face au vote volontaire.</French>
+		<German>In response to a slow news week, certain highbrow newspapers have stirred up the debate over voluntary vs compulsory voting.</German>
+		<Italian>In response to a slow news week, certain highbrow newspapers have stirred up the debate over voluntary vs compulsory voting.</Italian>
+		<Spanish>In response to a slow news week, certain highbrow newspapers have stirred up the debate over voluntary vs compulsory voting.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_COMPULSORY_DEM</Tag>
+		<English>Several highly read newspapers in the [CT_EMPIRE] have stirred up a debate about compulsory voting.</English>
+		<French>Certains journaux intellectuels dans le [CT_EMPIRE] ont lancé un débat concernant le vote obligatoire.</French>
+		<German>Several highly read newspapers in the [CT_EMPIRE] have stirred up a debate about compulsory voting.</German>
+		<Italian>Several highly read newspapers in the [CT_EMPIRE] have stirred up a debate about compulsory voting.</Italian>
+		<Spanish>Several highly read newspapers in the [CT_EMPIRE] have stirred up a debate about compulsory voting.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_COMPULSORY_DEM_HELP_1</Tag>
+		<English>[ICON_BULLET]No Change.</English>
+		<French>[ICON_BULLET]Pas de changements.</French>
+		<German>[ICON_BULLET]No Change.</German>
+		<Italian>[ICON_BULLET]No Change.</Italian>
+		<Spanish>[ICON_BULLET]No Change.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CHANGE_CIVICS</Tag>
+		<English>[ICON_BULLET]Will change current Government Civic to %s1</English>
+		<French>[ICON_BULLET]Changera la Doctrine de Gouvernement en %s1</French>
+		<German>[ICON_BULLET]Will change current Government Civic to %s1</German>
+		<Italian>[ICON_BULLET]Will change current Government Civic to %s1</Italian>
+		<Spanish>[ICON_BULLET]Will change current Government Civic to %s1</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_HARRY_POTTER</Tag>
+		<English>Religious leaders have lobbied your government to ban the latest novel in the 'Harry Potter' fantasy series.</English>
+		<French>Les chefs religieux font pression sur votre gouvernement pour interdire le dernier Roman de la série 'Harry Potter'.</French>
+		<German>Religious leaders have lobbied your government to ban the latest novel in the 'Harry Potter' fantasy series.</German>
+		<Italian>Religious leaders have lobbied your government to ban the latest novel in the 'Harry Potter' fantasy series.</Italian>
+		<Spanish>Religious leaders have lobbied your government to ban the latest novel in the 'Harry Potter' fantasy series.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HARRY_POTTER</Tag>
+		<English>Religious leaders in the [CT_EMPIRE] have lobbied against the newest bestselling 'Harry Potter' novel.</English>
+		<French>Les chefs religieux de [CT_EMPIRE] font pression contre le dernier BestSeller 'Harry Potter'.</French>
+		<German>Religious leaders in the [CT_EMPIRE] have lobbied against the newest bestselling 'Harry Potter' novel.</German>
+		<Italian>Religious leaders in the [CT_EMPIRE] have lobbied against the newest bestselling 'Harry Potter' novel.</Italian>
+		<Spanish>Religious leaders in the [CT_EMPIRE] have lobbied against the newest bestselling 'Harry Potter' novel.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARRY_POTTER_1</Tag>
+		<English>"I quite enjoyed the book, until I got to the part where Harry summons evil demons to do his bidding," says your chief Religious Advisor. "Now that's just wrong. We need to restore some sense to this debate, by which I mean we should remove this book from the shelves, salt it thoroughly, and burn it."</English>
+		<French>"J'ai Presque aimé le Livre, jusqu'au chapitre où Harry invoque des démons," indique votre Conseiller Religieux. "Maintenant c'est juste un Erreur. Nous devons apporter une peu de Sens à ce débat, et pour ce faire je suggère d'ôter ce livre des étals, et de le brûler, tout simplement."</French>
+		<German>"I quite enjoyed the book, until I got to the part where Harry summons evil demons to do his bidding," says your chief Religious Advisor. "Now that's just wrong. We need to restore some sense to this debate, by which I mean we should remove this book from the shelves, salt it thoroughly, and burn it."</German>
+		<Italian>"I quite enjoyed the book, until I got to the part where Harry summons evil demons to do his bidding," says your chief Religious Advisor. "Now that's just wrong. We need to restore some sense to this debate, by which I mean we should remove this book from the shelves, salt it thoroughly, and burn it."</Italian>
+		<Spanish>"I quite enjoyed the book, until I got to the part where Harry summons evil demons to do his bidding," says your chief Religious Advisor. "Now that's just wrong. We need to restore some sense to this debate, by which I mean we should remove this book from the shelves, salt it thoroughly, and burn it."</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARRY_POTTER_2</Tag>
+		<English>Your Domestic Advisor disagrees, "Come on, the book is fantasy! And it's a damn good read. I'd like the government to issue a statement of support for our teachers and librarians, so kids can enjoy good books without interference from religious wackos, like the followers of [CT_STATE_RELIGION]."</English>
+		<French>Votre conseiller des affaires internes n'est pas du même avis, "Allez, ce livre est une fantaisie ! Et très bien écrit ! Je souhaiterai que le Gouvernement pûblie un décret pour nos enseignants et libraires, pour que les enfants puissent se régaler de bons livres sans que ces fanatiques religieux tels que les fidèls de [CT_STATE_RELIGION] s'en mêlent."</French>
+		<German>Your Domestic Advisor disagrees, "Come on, the book is fantasy! And it's a damn good read. I'd like the government to issue a statement of support for our teachers and librarians, so kids can enjoy good books without interference from religious wackos, like the followers of [CT_STATE_RELIGION]."</German>
+		<Italian>Your Domestic Advisor disagrees, "Come on, the book is fantasy! And it's a damn good read. I'd like the government to issue a statement of support for our teachers and librarians, so kids can enjoy good books without interference from religious wackos, like the followers of [CT_STATE_RELIGION]."</Italian>
+		<Spanish>Your Domestic Advisor disagrees, "Come on, the book is fantasy! And it's a damn good read. I'd like the government to issue a statement of support for our teachers and librarians, so kids can enjoy good books without interference from religious wackos, like the followers of [CT_STATE_RELIGION]."</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FREE_BUILDING_GLOBAL</Tag>
+		<English>[ICON_BULLET]Free %s1 in All Cities</English>
+		<French>[ICON_BULLET]%s1 gratuit dans toutes les Villes</French>
+		<German>[ICON_BULLET]Free %s1 in All Cities</German>
+		<Italian>[ICON_BULLET]Free %s1 in All Cities</Italian>
+		<Spanish>[ICON_BULLET]Free %s1 in All Cities</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CAUSES_HOLY_ANGER</Tag>
+		<English>[ICON_BULLET]Causes Temporary Unhappiness in all cities with [CT_STATE_RELIGION]</English>
+		<French>[ICON_BULLET]Engendre un mécontentement temporaire dans toutes les villes avec [CT_STATE_RELIGION]</French>
+		<German>[ICON_BULLET]Causes Temporary Unhappiness in all cities with [CT_STATE_RELIGION]</German>
+		<Italian>[ICON_BULLET]Causes Temporary Unhappiness in all cities with [CT_STATE_RELIGION]</Italian>
+		<Spanish>[ICON_BULLET]Causes Temporary Unhappiness in all cities with [CT_STATE_RELIGION]</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CAUSES_FOREIGN_HOLY_ANGER</Tag>
+		<English>[ICON_BULLET]Damages relationships with all nations who have [CT_STATE_RELIGION] as a State Religion</English>
+		<French>[ICON_BULLET]déteriore les relations avec toutes les nations qui ont le [CT_STATE_RELIGION] comme Religion d'Etat</French>
+		<German>[ICON_BULLET]Damages relationships with all nations who have [CT_STATE_RELIGION] as a State Religion</German>
+		<Italian>[ICON_BULLET]Damages relationships with all nations who have [CT_STATE_RELIGION] as a State Religion</Italian>
+		<Spanish>[ICON_BULLET]Damages relationships with all nations who have [CT_STATE_RELIGION] as a State Religion</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_LESS_DICTATOR</Tag>
+		<English>While effusively praising your leadership and bowing repeatedly, a delegation of concerned citizens has humbly requested that the government take a more "modernistic" view in the future.</English>
+		<French>Tout en louant votre leadership et en s'inclinant à plusieurs reprises, une délégation de citoyens concernés a humblement demandé que le gouvernement adopte une approche plus «moderniste» pour l'avenir.</French>
+		<German>While effusively praising your leadership and bowing repeatedly, a delegation of concerned citizens has humbly requested that the government take a more "modernistic" view in the future.</German>
+		<Italian>While effusively praising your leadership and bowing repeatedly, a delegation of concerned citizens has humbly requested that the government take a more "modernistic" view in the future.</Italian>
+		<Spanish>While effusively praising your leadership and bowing repeatedly, a delegation of concerned citizens has humbly requested that the government take a more "modernistic" view in the future.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_LESS_DICTATOR</Tag>
+		<English>Concerned citizens in the [CT_EMPIRE] are requesting for a more representation in their government.</English>
+		<French>Des citoyens concernés de [CT_EMPIRE] demandent plus de représentativité dans leur gouvernement.</French>
+		<German>Concerned citizens in the [CT_EMPIRE] are requesting for a more representation in their government.</German>
+		<Italian>Concerned citizens in the [CT_EMPIRE] are requesting for a more representation in their government.</Italian>
+		<Spanish>Concerned citizens in the [CT_EMPIRE] are requesting for a more representation in their government.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LESS_DICTATOR_1</Tag>
+		<English>The High Minister for Finance, who also happens to be your brother, dismisses the claim. "What these people fail to realize is that you know what's best for them. The alternative is anarchy! I say stick to your course. And execute these wackos for treason."</English>
+		<French>Le Ministre des Finances, votre frère, rejette ces demandes. "Ce que le peuple ne réalise pas, c'est que Vous savez ce qui est bon pour eux. La seule alternative, c'est l'Anarchie ! Je dis : continuez votre parcours. Et exécutez ces tarés pour trahison."</French>
+		<German>The High Minister for Finance, who also happens to be your brother, dismisses the claim. "What these people fail to realize is that you know what's best for them. The alternative is anarchy! I say stick to your course. And execute these wackos for treason."</German>
+		<Italian>The High Minister for Finance, who also happens to be your brother, dismisses the claim. "What these people fail to realize is that you know what's best for them. The alternative is anarchy! I say stick to your course. And execute these wackos for treason."</Italian>
+		<Spanish>The High Minister for Finance, who also happens to be your brother, dismisses the claim. "What these people fail to realize is that you know what's best for them. The alternative is anarchy! I say stick to your course. And execute these wackos for treason."</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LESS_DICTATOR_2</Tag>
+		<English>"Perhaps the people could be given some more political freedoms," muses your Chief of Staff, who is your sister. "Is there really such harm in allowing public discussion of ideas? We could even have a real Opposition Party. One that isn't just full of your puppets, I mean."</English>
+		<French>"Vous pourriez peut-être donner un peu plus de liberté politique à votre peuple," suggère votre chef de cabinet, votre soeur en l'occurrence. "est-ce vraiment dangereux de permettre à tous de discuter des idées? Nous devrions même avoir un vrai parti d'opposition. Un qui ne soit pas composé de vos marionnettes, je veux dire."</French>
+		<German>"Perhaps the people could be given some more political freedoms," muses your Chief of Staff, who is your sister. "Is there really such harm in allowing public discussion of ideas? We could even have a real Opposition Party. One that isn't just full of your puppets, I mean."</German>
+		<Italian>"Perhaps the people could be given some more political freedoms," muses your Chief of Staff, who is your sister. "Is there really such harm in allowing public discussion of ideas? We could even have a real Opposition Party. One that isn't just full of your puppets, I mean."</Italian>
+		<Spanish>"Perhaps the people could be given some more political freedoms," muses your Chief of Staff, who is your sister. "Is there really such harm in allowing public discussion of ideas? We could even have a real Opposition Party. One that isn't just full of your puppets, I mean."</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NATIONAL_HOLIDAY</Tag>
+		<English>[ICON_BULLET]Causes a National Celebration in your honor.</English>
+		<French>[ICON_BULLET]Engendre une Fête Nationale en votre Honneur.</French>
+		<German>[ICON_BULLET]Causes a National Celebration in your honor.</German>
+		<Italian>[ICON_BULLET]Causes a National Celebration in your honor.</Italian>
+		<Spanish>[ICON_BULLET]Causes a National Celebration in your honor.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_UNLIMITED_POWER</Tag>
+		<English>Scientists have discovered an excellant source of geothermal beneath %s2_city. They want to know what course of action to take.</English>
+		<French>Les Scientifiques ont découvert une excellente source de géotermie près de %s2_city. Ils veulent connaître votre position.</French>
+		<German>Scientists have discovered an excellant source of geothermal beneath %s2_city. They want to know what course of action to take.</German>
+		<Italian>Scientists have discovered an excellant source of geothermal beneath %s2_city. They want to know what course of action to take.</Italian>
+		<Spanish>Scientists have discovered an excellant source of geothermal beneath %s2_city. They want to know what course of action to take.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_UNLIMITED_POWER</Tag>
+		<English>Geothermal energy has been found underneath the [CT_EMPIRE].</English>
+		<French>De l'Energie Géothermique a été trouvé au sein de [CT_EMPIRE].</French>
+		<German>Geothermal energy has been found underneath the [CT_EMPIRE].</German>
+		<Italian>Geothermal energy has been found underneath the [CT_EMPIRE].</Italian>
+		<Spanish>Geothermal energy has been found underneath the [CT_EMPIRE].</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNLIMITED_POWER_1</Tag>
+		<English>The mayor of your city approaches you and begins, "We should use this power to keep the citizens of my lovely city warm. Why let it go to waste?"</English>
+		<French>Le maire de la ville s'approche et vous conseille : "Nous devrions utiliser cette énergie pour permettre aux citoyens de ma Ville de se chauffer. Pourquoi la gaspiller ?"</French>
+		<German>The mayor of your city approaches you and begins, "We should use this power to keep the citizens of my lovely city warm. Why let it go to waste?"</German>
+		<Italian>The mayor of your city approaches you and begins, "We should use this power to keep the citizens of my lovely city warm. Why let it go to waste?"</Italian>
+		<Spanish>The mayor of your city approaches you and begins, "We should use this power to keep the citizens of my lovely city warm. Why let it go to waste?"</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PROVIDES_POWER</Tag>
+		<English>[ICON_BULLET]%s1 receives free power</English>
+		<French>[ICON_BULLET]%s1 obtient de l'électricité gratuitement</French>
+		<German>[ICON_BULLET]%s1 receives free power</German>
+		<Italian>[ICON_BULLET]%s1 receives free power</Italian>
+		<Spanish>[ICON_BULLET]%s1 receives free power</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNLIMITED_POWER_2</Tag>
+		<English>Pushing the Mayor gently aside, an undistinguished, but sooty engineer announces that he can provide power for all the cities on this continent with newfangled geothermal generators, for a price, of course.</English>
+		<French>Ecartant gentillement le Maire, un ingénieur vous annonce qu'il peut concevoir des générateurs géothermiques qui permettraient d'alimenter l'ensemble des Villes du continent, si vous acceptez de le financer.</French>
+		<German>Pushing the Mayor gently aside, an undistinguished, but sooty engineer announces that he can provide power for all the cities on this continent with newfangled geothermal generators, for a price, of course.</German>
+		<Italian>Pushing the Mayor gently aside, an undistinguished, but sooty engineer announces that he can provide power for all the cities on this continent with newfangled geothermal generators, for a price, of course.</Italian>
+		<Spanish>Pushing the Mayor gently aside, an undistinguished, but sooty engineer announces that he can provide power for all the cities on this continent with newfangled geothermal generators, for a price, of course.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PROVIDES_AREA_POWER</Tag>
+		<English>[ICON_BULLET]All cities on the continent recieve free power</English>
+		<French>[ICON_BULLET]Toutes les Villes du Continent obtiennent de l'électricité gratuitement</French>
+		<German>[ICON_BULLET]All cities on the continent recieve free power</German>
+		<Italian>[ICON_BULLET]All cities on the continent recieve free power</Italian>
+		<Spanish>[ICON_BULLET]All cities on the continent recieve free power</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COSTS_GOLD</Tag>
+		<English>Costs %d1 Gold</English>
+		<French>Coût : %d1 Or</French>
+		<German>Costs %d1 Gold</German>
+		<Italian>Costs %d1 Gold</Italian>
+		<Spanish>Costs %d1 Gold</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_SUPER_VIRUS</Tag>
+		<English>Dire News! Years of super-stringent health standards at our hospitals and clinics has led to the creation of a super-virus in %s2_city!!! What is the best course of action?</English>
+		<French>Mauvaises Nouvelles! Des années de normes sanitaires extrêmement strictes dans nos hôpitaux et cliniques ont conduit à la création d'un super-virus à %s2_city!!! Quelle est la meilleure action à mener ?</French>
+		<German>Dire News! Years of super-stringent health standards at our hospitals and clinics has led to the creation of a super-virus in %s2_city!!! What is the best course of action?</German>
+		<Italian>Dire News! Years of super-stringent health standards at our hospitals and clinics has led to the creation of a super-virus in %s2_city!!! What is the best course of action?</Italian>
+		<Spanish>Dire News! Years of super-stringent health standards at our hospitals and clinics has led to the creation of a super-virus in %s2_city!!! What is the best course of action?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_SUPER_VIRUS</Tag>
+		<English>Overzealous hygenic standards in the [CT_EMPIRE] have lead to the creation of a deadly super-virus, which is laying waste to their citizens!!!</English>
+		<French>Des normes hygiéniques extrêmes de [CT_EMPIRE] ont abouti à la création d'un 'Super-Virus' mortel, have lead to the creation of a deadly super-virus, qui ravage leurs citoyens à présent!!!</French>
+		<German>Overzealous hygenic standards in the [CT_EMPIRE] have lead to the creation of a deadly super-virus, which is laying waste to their citizens!!!</German>
+		<Italian>Overzealous hygenic standards in the [CT_EMPIRE] have lead to the creation of a deadly super-virus, which is laying waste to their citizens!!!</Italian>
+		<Spanish>Overzealous hygenic standards in the [CT_EMPIRE] have lead to the creation of a deadly super-virus, which is laying waste to their citizens!!!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SUPER_VIRUS_1</Tag>
+		<English>I'm sure the doctors will work something out...eventually. I hope.</English>
+		<French>Je suis sûr que les docteurs pourront mettre au point quelque chose...éventuellement. J'espère.</French>
+		<German>I'm sure the doctors will work something out...eventually. I hope.</German>
+		<Italian>I'm sure the doctors will work something out...eventually. I hope.</Italian>
+		<Spanish>I'm sure the doctors will work something out...eventually. I hope.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SUPER_VIRUS_HIT_CITY</Tag>
+		<English>The Super Virus has killed %d1 people in %s2</English>
+		<French>Le Super Virus a tué %d1 milliers de personnes à %s2</French>
+		<German>The Super Virus has killed %d1 people in %s2</German>
+		<Italian>The Super Virus has killed %d1 people in %s2</Italian>
+		<Spanish>The Super Virus has killed %d1 people in %s2</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DOOMED_OPTION</Tag>
+		<English>[ICON_BULLET]Virus will spread and cause devastation</English>
+		<French>[ICON_BULLET]Le Virus se propage et dévaste la population</French>
+		<German>[ICON_BULLET]Virus will spread and cause devastation</German>
+		<Italian>[ICON_BULLET]Virus will spread and cause devastation</Italian>
+		<Spanish>[ICON_BULLET]Virus will spread and cause devastation</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SUPER_VIRUS_2</Tag>
+		<English>Clearly the situation requires swift action. Close the hospital and quarantine the patients, eventually we'll find a cure.</English>
+		<French>Il est clair que la situation exige une action rapide. Fermez l'hôpital et mettez en quarantaine les patients. Pour la suite, nous allons trouver un remède.</French>
+		<German>Clearly the situation requires swift action. Close the hospital and quarantine the patients, eventually we'll find a cure.</German>
+		<Italian>Clearly the situation requires swift action. Close the hospital and quarantine the patients, eventually we'll find a cure.</Italian>
+		<Spanish>Clearly the situation requires swift action. Close the hospital and quarantine the patients, eventually we'll find a cure.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SMALL_VIRUS_SPREAD</Tag>
+		<English>[ICON_BULLET]Small chance of virus spread</English>
+		<French>[ICON_BULLET]Faible probabilité de propagation du virus</French>
+		<German>[ICON_BULLET]Small chance of virus spread</German>
+		<Italian>[ICON_BULLET]Small chance of virus spread</Italian>
+		<Spanish>[ICON_BULLET]Small chance of virus spread</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SUPER_VIRUS_3</Tag>
+		<English>Set up a military quarantine around the hospital and divert the best minds to studying the virus to find a cure.</English>
+		<French>Mettez en place une quarantaine autour de l'hôpital et demandez à nos meilleurs cerveaux d'étudier le virus afin d'en trouver un remède.</French>
+		<German>Set up a military quarantine around the hospital and divert the best minds to studying the virus to find a cure.</German>
+		<Italian>Set up a military quarantine around the hospital and divert the best minds to studying the virus to find a cure.</Italian>
+		<Spanish>Set up a military quarantine around the hospital and divert the best minds to studying the virus to find a cure.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FREE_SPECIALISTS</Tag>
+		<English>[ICON_BULLET]%d1 Free %s2 in %s3</English>
+		<French>[ICON_BULLET]%d1 %s2 gratuit à %s3</French>
+		<German>[ICON_BULLET]%d1 Free %s2 in %s3</German>
+		<Italian>[ICON_BULLET]%d1 Free %s2 in %s3</Italian>
+		<Spanish>[ICON_BULLET]%d1 Free %s2 in %s3</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LOSE_POPULATION</Tag>
+		<English>[ICON_BULLET]%d1 population lost in %s2_city</English>
+		<French>[ICON_BULLET]%d1 population perdue à %s2_city</French>
+		<German>[ICON_BULLET]%d1 population lost in %s2_city</German>
+		<Italian>[ICON_BULLET]%d1 population lost in %s2_city</Italian>
+		<Spanish>[ICON_BULLET]%d1 population lost in %s2_city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CITY_ANARCHY</Tag>
+		<English>[ICON_BULLET]%d1 turns of anarchy in %s2_city</English>
+		<French>[ICON_BULLET]%d1 tours d'anarchie à %s2_city</French>
+		<German>[ICON_BULLET]%d1 turns of anarchy in %s2_city</German>
+		<Italian>[ICON_BULLET]%d1 turns of anarchy in %s2_city</Italian>
+		<Spanish>[ICON_BULLET]%d1 turns of anarchy in %s2_city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CITY_UNREST</Tag>
+		<English>[ICON_BULLET]%d1 [ICON_UNHAPPY] in %s2</English>
+		<French>[ICON_BULLET]%d1 [ICON_UNHAPPY] à %s2</French>
+		<German>[ICON_BULLET]%d1 [ICON_UNHAPPY] in %s2</German>
+		<Italian>[ICON_BULLET]%d1 [ICON_UNHAPPY] in %s2</Italian>
+		<Spanish>[ICON_BULLET]%d1 [ICON_UNHAPPY] in %s2</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SUPER_VIRUS_4</Tag>
+		<English>This is terrible. Unfortunately there is no choice for us than to permanently exterminate this virus. Burn down the hospital and exterminate everyone who has been exposed.</English>
+		<French>C'est terrible. Malheureusement, il n'existe pas d'autre choix pour nous que d'exterminer ce virus de manière définitive. Brûlez l'hôpital et tuez toutes les personnes ayant été exposées.</French>
+		<German>This is terrible. Unfortunately there is no choice for us than to permanently exterminate this virus. Burn down the hospital and exterminate everyone who has been exposed.</German>
+		<Italian>This is terrible. Unfortunately there is no choice for us than to permanently exterminate this virus. Burn down the hospital and exterminate everyone who has been exposed.</Italian>
+		<Spanish>This is terrible. Unfortunately there is no choice for us than to permanently exterminate this virus. Burn down the hospital and exterminate everyone who has been exposed.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_NEW_WORLD</Tag>
+		<English>Crowds of angry Denizens are gathering near government centers in your cities, demanding improvements in living conditions, or else!</English>
+		<French>Des foules en colère d'habitants se rassemblent à proximité des centres de collecte du gouvernement dans vos villes, exigeant des améliorations de leurs conditions de vie !</French>
+		<German>Crowds of angry Denizens are gathering near government centers in your cities, demanding improvements in living conditions, or else!</German>
+		<Italian>Crowds of angry Denizens are gathering near government centers in your cities, demanding improvements in living conditions, or else!</Italian>
+		<Spanish>Crowds of angry Denizens are gathering near government centers in your cities, demanding improvements in living conditions, or else!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_NEW_WORLD</Tag>
+		<English>Denizens in the [CT_EMPIRE] are demanding better living conditions from their government.</English>
+		<French>Les Habitants de [CT_EMPIRE] demandent de meilleures conditions de vie de la part de leur gouvernement.</French>
+		<German>Denizens in the [CT_EMPIRE] are demanding better living conditions from their government.</German>
+		<Italian>Denizens in the [CT_EMPIRE] are demanding better living conditions from their government.</Italian>
+		<Spanish>Denizens in the [CT_EMPIRE] are demanding better living conditions from their government.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_WORLD_1</Tag>
+		<English>Bah! Let them eat cake!</English>
+		<French>Bah! Laissez leur une part de Gâteau!</French>
+		<German>Bah! Let them eat cake!</German>
+		<Italian>Bah! Let them eat cake!</Italian>
+		<Spanish>Bah! Let them eat cake!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_WORLD_2</Tag>
+		<English>Let them do what they like, I don't need them!</English>
+		<French>Laissez-les à leurs convictions, je n'ai pas besoin d'eux!</French>
+		<German>Let them do what they like, I don't need them!</German>
+		<Italian>Let them do what they like, I don't need them!</Italian>
+		<Spanish>Let them do what they like, I don't need them!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NEW_WORLD_3</Tag>
+		<English>Fund a fleet of ships to send adventurous citizens to the new world!</English>
+		<French>Fondez une flotte de Navires pour amener ces citoyens aventureus vers le Nouveau Monde!</French>
+		<German>Fund a fleet of ships to send adventurous citizens to the new world!</German>
+		<Italian>Fund a fleet of ships to send adventurous citizens to the new world!</Italian>
+		<Spanish>Fund a fleet of ships to send adventurous citizens to the new world!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FREE_OUTPOST_CITY</Tag>
+		<English>[ICON_BULLET]One Free Outpost Settlement on a New Continent</English>
+		<French>[ICON_BULLET]Un Emplacement de colonie gratuit sur un nouveau Continent</French>
+		<German>[ICON_BULLET]One Free Outpost Settlement on a New Continent</German>
+		<Italian>[ICON_BULLET]One Free Outpost Settlement on a New Continent</Italian>
+		<Spanish>[ICON_BULLET]One Free Outpost Settlement on a New Continent</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FREE_OUTPOST_CITIES</Tag>
+		<English>[ICON_BULLET]Three Free Outpost Settlements on a New Continent</English>
+		<French>[ICON_BULLET]Trois Emplacements de colonies gratuits sur un nouveau Continent</French>
+		<German>[ICON_BULLET]Three Free Outpost Settlements on a New Continent</German>
+		<Italian>[ICON_BULLET]Three Free Outpost Settlements on a New Continent</Italian>
+		<Spanish>[ICON_BULLET]Three Free Outpost Settlements on a New Continent</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_EMPIRE_POPULATION_LOSS</Tag>
+		<English>[ICON_BULLET]Every City Above Population %d1 loses %d2 Population</English>
+		<French>[ICON_BULLET]Chaque Ville avec une Population supérieur à %d1 perd %d2 Population</French>
+		<German>[ICON_BULLET]Every City Above Population %d1 loses %d2 Population</German>
+		<Italian>[ICON_BULLET]Every City Above Population %d1 loses %d2 Population</Italian>
+		<Spanish>[ICON_BULLET]Every City Above Population %d1 loses %d2 Population</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_DOCK_WORKERS_STRIKE</Tag>
+		<English>Dock workers in %s2_city have begun a city-wide strike, calling for better working conditions!</English>
+		<French>Les Dockers de %s2_city ont cessé le travail et font grève pour de meilleures conditions de travail !</French>
+		<German>Dock workers in %s2_city have begun a city-wide strike, calling for better working conditions!</German>
+		<Italian>Dock workers in %s2_city have begun a city-wide strike, calling for better working conditions!</Italian>
+		<Spanish>Dock workers in %s2_city have begun a city-wide strike, calling for better working conditions!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_DOCK_WORKERS_STRIKE</Tag>
+		<English>Dock workers in the [CT_EMPIRE] have gone on a massive strike, calling for better working conditions.</English>
+		<French>Les Dockers de tout [CT_EMPIRE] organisent des grèves massives, réclamant des meilleurs conditions de travail.</French>
+		<German>Dock workers in the [CT_EMPIRE] have gone on a massive strike, calling for better working conditions.</German>
+		<Italian>Dock workers in the [CT_EMPIRE] have gone on a massive strike, calling for better working conditions.</Italian>
+		<Spanish>Dock workers in the [CT_EMPIRE] have gone on a massive strike, calling for better working conditions.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_DOCK_WORKERS_STRIKE_BADLY</Tag>
+		<English>The Dock workers in the [CT_EMPIRE] has caused widespread rioting and looting!</English>
+		<French>Les grèves des Dockers de tout [CT_EMPIRE] ont engendré des soulèvements et des pillages!</French>
+		<German>The Dock workers in the [CT_EMPIRE] has caused widespread rioting and looting!</German>
+		<Italian>The Dock workers in the [CT_EMPIRE] has caused widespread rioting and looting!</Italian>
+		<Spanish>The Dock workers in the [CT_EMPIRE] has caused widespread rioting and looting!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DOCK_WORKERS_STRIKE_1</Tag>
+		<English>Give into their demands, it's time for change!</English>
+		<French>Accéder à leurs demandes, il est temps de faire changer les choses !</French>
+		<German>Give into their demands, it's time for change!</German>
+		<Italian>Give into their demands, it's time for change!</Italian>
+		<Spanish>Give into their demands, it's time for change!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DOCK_WORKERS_STRIKE_2</Tag>
+		<English>A little bribary should get them back to work.</English>
+		<French>Une petite enveloppe devrait les remettre au travail.</French>
+		<German>A little bribary should get them back to work.</German>
+		<Italian>A little bribary should get them back to work.</Italian>
+		<Spanish>A little bribary should get them back to work.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DOCK_WORKERS_STRIKE_3</Tag>
+		<English>Bah, who needs so many workers anyway? Let's replace them with cranes and forklifts!</English>
+		<French>Bah, qui a besoin de tant de travailleurs actuellement ? Qu'on les remplace par des grues et des palans!</French>
+		<German>Bah, who needs so many workers anyway? Let's replace them with cranes and forklifts!</German>
+		<Italian>Bah, who needs so many workers anyway? Let's replace them with cranes and forklifts!</Italian>
+		<Spanish>Bah, who needs so many workers anyway? Let's replace them with cranes and forklifts!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DOCK_WORKERS_STRIKE_4</Tag>
+		<English>Demands? Only I can make demands!</English>
+		<French>Des demandes? Je suis le Seul à formuler des demandes !</French>
+		<German>Demands? Only I can make demands!</German>
+		<Italian>Demands? Only I can make demands!</Italian>
+		<Spanish>Demands? Only I can make demands!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

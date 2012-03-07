@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_IGNORE_DANGER</Tag>
+		<English>Automated Pillaging Ignores Danger</English>
+		<French>Pilleurs Automatisés ignorent les dangers</French>
+		<German>Automated Pillaging Ignores Danger</German>
+		<Italian>Automated Pillaging Ignores Danger</Italian>
+		<Spanish>Automated Pillaging Ignores Danger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_IGNORE_DANGER_HELP</Tag>
+		<English>Troops automated to pillage will ignore enemy units and may enter dangerous situations.</English>
+		<French>Les Unités réalisant des pillages automatiquement vont ignorer la présence d'unités ennemies et peuvent donc se mettre dans des situations dangereuses.</French>
+		<German>Troops automated to pillage will ignore enemy units and may enter dangerous situations.</German>
+		<Italian>Troops automated to pillage will ignore enemy units and may enter dangerous situations.</Italian>
+		<Spanish>Troops automated to pillage will ignore enemy units and may enter dangerous situations.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_AVOID_BARBARIANS</Tag>
+		<English>Automated Pillaging Avoids Barbarians</English>
+		<French>Pilleurs Automatisés évitent les Barbares</French>
+		<German>Automated Pillaging Avoids Barbarians</German>
+		<Italian>Automated Pillaging Avoids Barbarians</Italian>
+		<Spanish>Automated Pillaging Avoids Barbarians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_AVOID_BARBARIANS_HELP</Tag>
+		<English>Troops automated to pillage will avoid entering barbarian territory and will not pillage barbarian settlements.</English>
+		<French>Les Unités réalisant des pillages automatiquement vont éviter d'entrer dans les territoires des barbares et ne vont pas piller leurs installations.</French>
+		<German>Troops automated to pillage will avoid entering barbarian territory and will not pillage barbarian settlements.</German>
+		<Italian>Troops automated to pillage will avoid entering barbarian territory and will not pillage barbarian settlements.</Italian>
+		<Spanish>Troops automated to pillage will avoid entering barbarian territory and will not pillage barbarian settlements.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_AUTOMATED_AIR_CAN_REBASE</Tag>
+		<English>Automated Air Units Can Rebase</English>
+		<French>Unités aériennes Automatisées changent de base</French>
+		<German>Automated Air Units Can Rebase</German>
+		<Italian>Automated Air Units Can Rebase</Italian>
+		<Spanish>Automated Air Units Can Rebase</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_AUTOMATED_AIR_CAN_REBASE_HELP</Tag>
+		<English>Automated Strike Craft will be allowed to rebase into more offensive positions</English>
+		<French>Les Unités aériennes Automatisées peuvent changer de base pour atteindre des positions plus offensives.</French>
+		<German>Automated Strike Craft will be allowed to rebase into more offensive positions</German>
+		<Italian>Automated Strike Craft will be allowed to rebase into more offensive positions</Italian>
+		<Spanish>Automated Strike Craft will be allowed to rebase into more offensive positions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_AUTOMATED_AIR_CAN_DEFEND</Tag>
+		<English>Automated Air Units Can Defend</English>
+		<French>Unités aériennes Automatisées peuvent défendre</French>
+		<German>Automated Air Units Can Defend</German>
+		<Italian>Automated Air Units Can Defend</Italian>
+		<Spanish>Automated Air Units Can Defend</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_AUTOMATED_AIR_CAN_DEFEND_HELP</Tag>
+		<English>Automated Strike Craft will be allowed to intercept potiental enemy aircraft</English>
+		<French>Les Unités aériennes Automatisées peuvent être autorisée à intercepter les unités aériennes ennemies.</French>
+		<German>Automated Strike Craft will be allowed to intercept potiental enemy aircraft</German>
+		<Italian>Automated Strike Craft will be allowed to intercept potiental enemy aircraft</Italian>
+		<Spanish>Automated Strike Craft will be allowed to intercept potiental enemy aircraft</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_NO_EXPLORER_HEALING</Tag>
+		<English>Automated Explorers Cannot Heal</English>
+		<French>Explorateurs Automatisés ne se soignent pas</French>
+		<German>Automated Explorers Cannot Heal</German>
+		<Italian>Automated Explorers Cannot Heal</Italian>
+		<Spanish>Automated Explorers Cannot Heal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_NO_EXPLORER_HEALING_HELP</Tag>
+		<English>Automated Explorers will not be allowed to heal</English>
+		<French>Les Explorateurs Automatisés ne sont pas autorisés à se soigner</French>
+		<German>Automated Explorers will not be allowed to heal</German>
+		<Italian>Automated Explorers will not be allowed to heal</Italian>
+		<Spanish>Automated Explorers will not be allowed to heal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_PILLAGE</Tag>
+		<English>Automate Pillage</English>
+		<French>Pillage Automatisé</French>
+		<German>Automate Pillage</German>
+		<Italian>Automate Pillage</Italian>
+		<Spanish>Automate Pillage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_PILLAGE_HELP</Tag>
+		<English>Send the unit to search and destroy enemy's improvements</English>
+		<French>Envoie l'unité pour rechercher et détruire les aménagements de terrain ennemis.</French>
+		<German>Send the unit to search and destroy enemy's improvements</German>
+		<Italian>Send the unit to search and destroy enemy's improvements</Italian>
+		<Spanish>Send the unit to search and destroy enemy's improvements</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_HUNT</Tag>
+		<English>Automate Hunt</English>
+		<French>Traque Automatisée</French>
+		<German>Automate Hunt</German>
+		<Italian>Automate Hunt</Italian>
+		<Spanish>Automate Hunt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_BORDER_PATROL_HELP</Tag>
+		<English>Send the unit to patrol your civilization's borders and kill invading enemy units</English>
+		<French>Envoi l'unité patrouiller les frontières et tuer les envahisseurs ennemis.</French>
+		<German>Send the unit to patrol your civilization's borders and kill invading enemy units</German>
+		<Italian>Send the unit to patrol your civilization's borders and kill invading enemy units</Italian>
+		<Spanish>Send the unit to patrol your civilization's borders and kill invading enemy units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_CITY_DEFENSE</Tag>
+		<English>Automate City Defense</English>
+		<French>Défense de Ville Automatisée</French>
+		<German>Automate City Defense</German>
+		<Italian>Automate City Defense</Italian>
+		<Spanish>Automate City Defense</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_CITY_DEFENSE_HELP</Tag>
+		<English>Will protect the city from nearby attackers.</English>
+		<French>L'unité protège la Ville des attaquants à proximité.</French>
+		<German>Will protect the city from nearby attackers.</German>
+		<Italian>Will protect the city from nearby attackers.</Italian>
+		<Spanish>Will protect the city from nearby attackers.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_BORDER_PATROL</Tag>
+		<English>Automate Border Patrol</English>
+		<French>Patrouille Automatisée</French>
+		<German>Automate Border Patrol</German>
+		<Italian>Automate Border Patrol</Italian>
+		<Spanish>Automate Border Patrol</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_HUNT_HELP</Tag>
+		<English>Send the unit to hunt down and kill any enemy units it can find.</English>
+		<French>Envoi l'unité pour traquer et tuer toutes les unités ennemies.</French>
+		<German>Send the unit to hunt down and kill any enemy units it can find.</German>
+		<Italian>Send the unit to hunt down and kill any enemy units it can find.</Italian>
+		<Spanish>Send the unit to hunt down and kill any enemy units it can find.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_HURRY</Tag>
+		<English>Automate Hurry</English>
+		<French>Accélération Automatisée</French>
+		<German>Automate Hurry</German>
+		<Italian>Automate Hurry</Italian>
+		<Spanish>Automate Hurry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_HURRY_HELP</Tag>
+		<English>Send the unit to hurry the construction of a building in a nearby city.</English>
+		<French>Envoi l'unité pour accélérer la construction d'un bâtiment dans la ville la plus proche.</French>
+		<German>Send the unit to hurry the construction of a building in a nearby city.</German>
+		<Italian>Send the unit to hurry the construction of a building in a nearby city.</Italian>
+		<Spanish>Send the unit to hurry the construction of a building in a nearby city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_PIRATE</Tag>
+		<English>Automate Piracy</English>
+		<French>Piratage Automatisé</French>
+		<German>Automate Piracy</German>
+		<Italian>Automate Piracy</Italian>
+		<Spanish>Automate Piracy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_PIRATE_HELP</Tag>
+		<English>Send the unit to plunder and raid nearby settlements, and sink weak or unprotected transports.</English>
+		<French>Envoi l'unité pour piller et couller les transports sans protections et les installations maritimes.</French>
+		<German>Send the unit to plunder and raid nearby settlements, and sink weak or unprotected transports.</German>
+		<Italian>Send the unit to plunder and raid nearby settlements, and sink weak or unprotected transports.</Italian>
+		<Spanish>Send the unit to plunder and raid nearby settlements, and sink weak or unprotected transports.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_AIRSTRIKE</Tag>
+		<English>Automate Airstrike</English>
+		<French>Interception Automatisé</French>
+		<German>Automate Airstrike</German>
+		<Italian>Automate Airstrike</Italian>
+		<Spanish>Automate Airstrike</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_AIRSTRIKE_HELP</Tag>
+		<English>Send the unit to attack enemy units whereever possible.</English>
+		<French>Envoi l'unité attaquer les unités ennemies dès que possible.</French>
+		<German>Send the unit to attack enemy units whereever possible.</German>
+		<Italian>Send the unit to attack enemy units whereever possible.</Italian>
+		<Spanish>Send the unit to attack enemy units whereever possible.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_AIRBOMB</Tag>
+		<English>Automate Airbomb</English>
+		<French>Bombardement Automatisé</French>
+		<German>Automate Airbomb</German>
+		<Italian>Automate Airbomb</Italian>
+		<Spanish>Automate Airbomb</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_AIRBOMB_HELP</Tag>
+		<English>Send the unit to attack enemy fortifications, improvements, and cities wherevever possible.</English>
+		<French>Envoi l'unité attaquer les fortifications ennemies, les aménagement et les Villes dès que possible.</French>
+		<German>Send the unit to attack enemy fortifications, improvements, and cities wherevever possible.</German>
+		<Italian>Send the unit to attack enemy fortifications, improvements, and cities wherevever possible.</Italian>
+		<Spanish>Send the unit to attack enemy fortifications, improvements, and cities wherevever possible.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_BORDER_STAY_IN_BORDERS</Tag>
+		<English>Patrolling Units will not leave friendly borders</English>
+		<French>Unités patrouillent à l'intérieur de leurs frontières</French>
+		<German>Patrolling Units will not leave friendly borders</German>
+		<Italian>Patrolling Units will not leave friendly borders</Italian>
+		<Spanish>Patrolling Units will not leave friendly borders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_BORDER_STAY_IN_BORDERS_HELP</Tag>
+		<English>Units Automated to Border Patrol will not leave friendly territory for any reason.</English>
+		<French>Les Unités Automatisées pour la Patrouille des frontières resteront toujours à l'intérieur de leur territoire.</French>
+		<German>Units Automated to Border Patrol will not leave friendly territory for any reason.</German>
+		<Italian>Units Automated to Border Patrol will not leave friendly territory for any reason.</Italian>
+		<Spanish>Units Automated to Border Patrol will not leave friendly territory for any reason.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_AIR_RECON</Tag>
+		<English>Automate Air Recon</English>
+		<French>Automate Air Recon</French>
+		<German>Automate Air Recon</German>
+		<Italian>Automate Air Recon</Italian>
+		<Spanish>Automate Air Recon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATEAIR_RECON_HELP</Tag>
+		<English>Will recon nearby enemy emplacements.</English>
+		<French>Will recon nearby enemy emplacements.</French>
+		<German>Will recon nearby enemy emplacements.</German>
+		<Italian>Will recon nearby enemy emplacements.</Italian>
+		<Spanish>Will recon nearby enemy emplacements.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_UPGRADING</Tag>
+		<English>Automate Upgrade</English>
+		<French>Automate Upgrade</French>
+		<German>Automate Upgrade</German>
+		<Italian>Automate Upgrade</Italian>
+		<Spanish>Automate Upgrade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_UPGRADING_HELP</Tag>
+		<English>Will Upgrade to New Units whenever possible.</English>
+		<French>Will Upgrade to New Units whenever possible.</French>
+		<German>Will Upgrade to New Units whenever possible.</German>
+		<Italian>Will Upgrade to New Units whenever possible.</Italian>
+		<Spanish>Will Upgrade to New Units whenever possible.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_CANCEL_UPGRADING</Tag>
+		<English>Cancel Automate Upgrade</English>
+		<French>Cancel Automate Upgrade</French>
+		<German>Cancel Automate Upgrade</German>
+		<Italian>Cancel Automate Upgrade</Italian>
+		<Spanish>Cancel Automate Upgrade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_CANCEL_UPGRADING_HELP</Tag>
+		<English>Cancels the Automate Upgrade Order</English>
+		<French>Cancels the Automate Upgrade Order</French>
+		<German>Cancels the Automate Upgrade Order</German>
+		<Italian>Cancels the Automate Upgrade Order</Italian>
+		<Spanish>Cancels the Automate Upgrade Order</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_PROMOTIONS</Tag>
+		<English>Automate Promote</English>
+		<French>Automate Promote</French>
+		<German>Automate Promote</German>
+		<Italian>Automate Promote</Italian>
+		<Spanish>Automate Promote</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_PROMOTIONS_HELP</Tag>
+		<English>Will auto-promote whenever the unit can gain a promotion</English>
+		<French>Will auto-promote whenever the unit can gain a promotion</French>
+		<German>Will auto-promote whenever the unit can gain a promotion</German>
+		<Italian>Will auto-promote whenever the unit can gain a promotion</Italian>
+		<Spanish>Will auto-promote whenever the unit can gain a promotion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_CANCEL_PROMOTIONS</Tag>
+		<English>Cancel Automate Promote</English>
+		<French>Cancel Automate Promote</French>
+		<German>Cancel Automate Promote</German>
+		<Italian>Cancel Automate Promote</Italian>
+		<Spanish>Cancel Automate Promote</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_CANCEL_PROMOTIONS_HELP</Tag>
+		<English>Cancels the Automate Promote Order</English>
+		<French>Cancels the Automate Promote Order</French>
+		<German>Cancels the Automate Promote Order</German>
+		<Italian>Cancels the Automate Promote Order</Italian>
+		<Spanish>Cancels the Automate Promote Order</Spanish>
+	</TEXT>
+</Civ4GameText>

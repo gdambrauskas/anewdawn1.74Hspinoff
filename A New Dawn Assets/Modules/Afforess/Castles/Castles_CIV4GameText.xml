@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MOAT</Tag>
+		<English>Moat</English>
+		<French>Douves</French>
+		<German>Graben</German>
+		<Italian>Moat</Italian>
+		<Spanish>Moat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MURDER_HOLES</Tag>
+		<English>Murder Holes</English>
+		<French>Machicoulis</French>
+		<German>M&#246;rderh&#246;hle</German>
+		<Italian>Murder Holes</Italian>
+		<Spanish>Murder Holes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARROW_SLITS</Tag>
+		<English>Balistraria</English>
+		<French>Meurtrières</French>
+		<German>Schie&#223;scharten</German>
+		<Italian>Balistraria</Italian>
+		<Spanish>Balistraria</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIEGE_TOWERS</Tag>
+		<English>Ballista Turret</English>
+		<French>Tour de Balliste</French>
+		<German>Gesch&#252;tzturm</German>
+		<Italian>Ballista Turret</Italian>
+		<Spanish>Ballista Turret</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNDERGROUND_TUNNELS</Tag>
+		<English>Catacombs</English>
+		<French>Catacombes</French>
+		<German>Catacombs</German>
+		<Italian>Catacombs</Italian>
+		<Spanish>Catacombs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KEEP</Tag>
+		<English>Castle Keep</English>
+		<French>Enceinte du Château</French>
+		<German>Bergfried</German>
+		<Italian>Castle Keep</Italian>
+		<Spanish>Castle Keep</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HEAVY_GATES</Tag>
+		<English>Castle Gatehouse</English>
+		<French>Porte du Château</French>
+		<German>Burgtor</German>
+		<Italian>Castle Gatehouse</Italian>
+		<Spanish>Castle Gatehouse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HERBALIST</Tag>
+		<English>Herbalist</English>
+		<French>Herboriste</French>
+		<German>Kr&#228;uterkenner</German>
+		<Italian>Herbalist</Italian>
+		<Spanish>Herbalist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DUNGEON</Tag>
+		<English>Dungeon</English>
+		<French>Dongeon</French>
+		<German>Verlies</German>
+		<Italian>Dungeon</Italian>
+		<Spanish>Dungeon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MOAT_STRATEGY</Tag>
+		<English>A Moat will force enemies to confront your city head on, or retreat!</English>
+		<French>A Moat will force enemies to confront your city head on, or retreat!</French>
+		<German>A Moat will force enemies to confront your city head on, or retreat!</German>
+		<Italian>A Moat will force enemies to confront your city head on, or retreat!</Italian>
+		<Spanish>A Moat will force enemies to confront your city head on, or retreat!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MURDER_HOLES_STRATEGY</Tag>
+		<English>Rain down Stones and Liquid Fire on your enemies!</English>
+		<French>Faites pleuvoir des pierres et du liquide emflammé sur vos ennemis!</French>
+		<German>Rain down Stones and Liquid Fire on your enemies!</German>
+		<Italian>Rain down Stones and Liquid Fire on your enemies!</Italian>
+		<Spanish>Rain down Stones and Liquid Fire on your enemies!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARROW_SLITS_STRATEGY</Tag>
+		<English>Balistraria offer greater cover for your archers, and therefore, greater defense in your cities.</English>
+		<French>Balistraria offer greater cover for your archers, and therefore, greater defense in your cities.</French>
+		<German>Balistraria offer greater cover for your archers, and therefore, greater defense in your cities.</German>
+		<Italian>Balistraria offer greater cover for your archers, and therefore, greater defense in your cities.</Italian>
+		<Spanish>Balistraria offer greater cover for your archers, and therefore, greater defense in your cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIEGE_TOWERS_STRATEGY</Tag>
+		<English>Turrets offer significant counterfire to attacking enemy units that dare attack.</English>
+		<French>Turrets offer significant counterfire to attacking enemy units that dare attack.</French>
+		<German>Turrets offer significant counterfire to attacking enemy units that dare attack.</German>
+		<Italian>Turrets offer significant counterfire to attacking enemy units that dare attack.</Italian>
+		<Spanish>Turrets offer significant counterfire to attacking enemy units that dare attack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNDERGROUND_TUNNELS_STRATEGY</Tag>
+		<English>Catacombs allow discrete forms of trade, but possibly at the cost of your cities defense.</English>
+		<French>Catacombs allow discrete forms of trade, but possibly at the cost of your cities defense.</French>
+		<German>Catacombs allow discrete forms of trade, but possibly at the cost of your cities defense.</German>
+		<Italian>Catacombs allow discrete forms of trade, but possibly at the cost of your cities defense.</Italian>
+		<Spanish>Catacombs allow discrete forms of trade, but possibly at the cost of your cities defense.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KEEP_STRATEGY</Tag>
+		<English>Use the Keep to protect vital Cities and ensure that the enemy pays dearly for every victory</English>
+		<French>Use the Keep to protect vital Cities and ensure that the enemy pays dearly for every victory</French>
+		<German>Use the Keep to protect vital Cities and ensure that the enemy pays dearly for every victory</German>
+		<Italian>Use the Keep to protect vital Cities and ensure that the enemy pays dearly for every victory</Italian>
+		<Spanish>Use the Keep to protect vital Cities and ensure that the enemy pays dearly for every victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HEAVY_GATES_STRATEGY</Tag>
+		<English>Use the Gatehouse to stop enemy assualts where they should stop. The gates.</English>
+		<French>Use the Gatehouse to stop enemy assualts where they should stop. The gates.</French>
+		<German>Use the Gatehouse to stop enemy assualts where they should stop. The gates.</German>
+		<Italian>Use the Gatehouse to stop enemy assualts where they should stop. The gates.</Italian>
+		<Spanish>Use the Gatehouse to stop enemy assualts where they should stop. The gates.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HERBALIST_STRATEGY</Tag>
+		<English>Herbalists advanced healing skills can quickly heal injured troops back to fighting strength in no time.</English>
+		<French>Herbalists advanced healing skills can quickly heal injured troops back to fighting strength in no time.</French>
+		<German>Herbalists advanced healing skills can quickly heal injured troops back to fighting strength in no time.</German>
+		<Italian>Herbalists advanced healing skills can quickly heal injured troops back to fighting strength in no time.</Italian>
+		<Spanish>Herbalists advanced healing skills can quickly heal injured troops back to fighting strength in no time.</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_BUILDING_DUNGEON_STRATEGY</Tag>
+		<English>Dungeons allow players to "interrogate" prisoners for information.</English>
+		<French>Dungeons allow players to "interrogate" prisoners for information.</French>
+		<German>Dungeons allow players to "interrogate" prisoners for information.</German>
+		<Italian>Dungeons allow players to "interrogate" prisoners for information.</Italian>
+		<Spanish>Dungeons allow players to "interrogate" prisoners for information.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MOAT_PEDIA</Tag>
+		<English>A moat is a deep, broad ditch, either dry or filled with water, that surrounds a castle, building or town, historically to provide it with a preliminary line of defense. Unfortuantly, a moat's stagnant water breeds bacteria that increases a cities unhealthiness.</English>
+		<French>A moat is a deep, broad ditch, either dry or filled with water, that surrounds a castle, building or town, historically to provide it with a preliminary line of defense. Unfortuantly, a moat's stagnant water breeds bacteria that increases a cities unhealthiness.</French>
+		<German>A moat is a deep, broad ditch, either dry or filled with water, that surrounds a castle, building or town, historically to provide it with a preliminary line of defense. Unfortuantly, a moat's stagnant water breeds bacteria that increases a cities unhealthiness.</German>
+		<Italian>A moat is a deep, broad ditch, either dry or filled with water, that surrounds a castle, building or town, historically to provide it with a preliminary line of defense. Unfortuantly, a moat's stagnant water breeds bacteria that increases a cities unhealthiness.</Italian>
+		<Spanish>A moat is a deep, broad ditch, either dry or filled with water, that surrounds a castle, building or town, historically to provide it with a preliminary line of defense. Unfortuantly, a moat's stagnant water breeds bacteria that increases a cities unhealthiness.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARROW_SLITS_PEDIA</Tag>
+		<English>A balistraria (more often referred to as an arrow loop or arrow slit) is a thin vertical aperture in a fortification through which an archer can launch arrows largely free from personal danger. [NEWLINE] The interior walls behind an arrow loop are often cut away at an oblique angle so that the archer has a wide field of view and field of fire. Arrow slits come in a remarkable variety. A common and recognizable form is the cross. The thin vertical aperture permits the archer large degrees of freedom to vary the elevation and direction of his bowshot but makes it difficult for attackers to harm the archer since there is only a small target to aim at.</English>
+		<French>A balistraria (more often referred to as an arrow loop or arrow slit) is a thin vertical aperture in a fortification through which an archer can launch arrows largely free from personal danger. [NEWLINE] The interior walls behind an arrow loop are often cut away at an oblique angle so that the archer has a wide field of view and field of fire. Arrow slits come in a remarkable variety. A common and recognizable form is the cross. The thin vertical aperture permits the archer large degrees of freedom to vary the elevation and direction of his bowshot but makes it difficult for attackers to harm the archer since there is only a small target to aim at.</French>
+		<German>A balistraria (more often referred to as an arrow loop or arrow slit) is a thin vertical aperture in a fortification through which an archer can launch arrows largely free from personal danger. [NEWLINE] The interior walls behind an arrow loop are often cut away at an oblique angle so that the archer has a wide field of view and field of fire. Arrow slits come in a remarkable variety. A common and recognizable form is the cross. The thin vertical aperture permits the archer large degrees of freedom to vary the elevation and direction of his bowshot but makes it difficult for attackers to harm the archer since there is only a small target to aim at.</German>
+		<Italian>A balistraria (more often referred to as an arrow loop or arrow slit) is a thin vertical aperture in a fortification through which an archer can launch arrows largely free from personal danger. [NEWLINE] The interior walls behind an arrow loop are often cut away at an oblique angle so that the archer has a wide field of view and field of fire. Arrow slits come in a remarkable variety. A common and recognizable form is the cross. The thin vertical aperture permits the archer large degrees of freedom to vary the elevation and direction of his bowshot but makes it difficult for attackers to harm the archer since there is only a small target to aim at.</Italian>
+		<Spanish>A balistraria (more often referred to as an arrow loop or arrow slit) is a thin vertical aperture in a fortification through which an archer can launch arrows largely free from personal danger. [NEWLINE] The interior walls behind an arrow loop are often cut away at an oblique angle so that the archer has a wide field of view and field of fire. Arrow slits come in a remarkable variety. A common and recognizable form is the cross. The thin vertical aperture permits the archer large degrees of freedom to vary the elevation and direction of his bowshot but makes it difficult for attackers to harm the archer since there is only a small target to aim at.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SIEGE_TOWERS_PEDIA</Tag>
+		<English>In architecture, a turret is a small tower that projects vertically from the wall of a building such as a medieval castle. Turrets were used to provide a projecting defensive position allowing covering fire to the adjacent wall in the days of military fortification.</English>
+		<French>In architecture, a turret is a small tower that projects vertically from the wall of a building such as a medieval castle. Turrets were used to provide a projecting defensive position allowing covering fire to the adjacent wall in the days of military fortification.</French>
+		<German>In architecture, a turret is a small tower that projects vertically from the wall of a building such as a medieval castle. Turrets were used to provide a projecting defensive position allowing covering fire to the adjacent wall in the days of military fortification.</German>
+		<Italian>In architecture, a turret is a small tower that projects vertically from the wall of a building such as a medieval castle. Turrets were used to provide a projecting defensive position allowing covering fire to the adjacent wall in the days of military fortification.</Italian>
+		<Spanish>In architecture, a turret is a small tower that projects vertically from the wall of a building such as a medieval castle. Turrets were used to provide a projecting defensive position allowing covering fire to the adjacent wall in the days of military fortification.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNDERGROUND_TUNNELS_PEDIA</Tag>
+		<English>A secret passage (or hidden passage or a secret tunnel) is a hidden route that is used to travel stealthily. Such passageways may be inside a building leading to a secret room, or be a way of entering (or exiting) somewhere without being seen. Hidden passages are a common feature of fiction, but have also served a variety of purposes throughout history. Hidden rooms have helped people evade capture or carry out illegal, religious, political, or smuggling activities.</English>
+		<French>A secret passage (or hidden passage or a secret tunnel) is a hidden route that is used to travel stealthily. Such passageways may be inside a building leading to a secret room, or be a way of entering (or exiting) somewhere without being seen. Hidden passages are a common feature of fiction, but have also served a variety of purposes throughout history. Hidden rooms have helped people evade capture or carry out illegal, religious, political, or smuggling activities.</French>
+		<German>A secret passage (or hidden passage or a secret tunnel) is a hidden route that is used to travel stealthily. Such passageways may be inside a building leading to a secret room, or be a way of entering (or exiting) somewhere without being seen. Hidden passages are a common feature of fiction, but have also served a variety of purposes throughout history. Hidden rooms have helped people evade capture or carry out illegal, religious, political, or smuggling activities.</German>
+		<Italian>A secret passage (or hidden passage or a secret tunnel) is a hidden route that is used to travel stealthily. Such passageways may be inside a building leading to a secret room, or be a way of entering (or exiting) somewhere without being seen. Hidden passages are a common feature of fiction, but have also served a variety of purposes throughout history. Hidden rooms have helped people evade capture or carry out illegal, religious, political, or smuggling activities.</Italian>
+		<Spanish>A secret passage (or hidden passage or a secret tunnel) is a hidden route that is used to travel stealthily. Such passageways may be inside a building leading to a secret room, or be a way of entering (or exiting) somewhere without being seen. Hidden passages are a common feature of fiction, but have also served a variety of purposes throughout history. Hidden rooms have helped people evade capture or carry out illegal, religious, political, or smuggling activities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KEEP_PEDIA</Tag>
+		<English>A keep is a strong central tower which is used as a dungeon or a fortress. Often, the keep is the most defended area of a castle, and as such may form the main habitation area, or contain important stores such as the armoury, food, and the main water well, which would ensure survival during a siege.</English>
+		<French>A keep is a strong central tower which is used as a dungeon or a fortress. Often, the keep is the most defended area of a castle, and as such may form the main habitation area, or contain important stores such as the armoury, food, and the main water well, which would ensure survival during a siege.</French>
+		<German>A keep is a strong central tower which is used as a dungeon or a fortress. Often, the keep is the most defended area of a castle, and as such may form the main habitation area, or contain important stores such as the armoury, food, and the main water well, which would ensure survival during a siege.</German>
+		<Italian>A keep is a strong central tower which is used as a dungeon or a fortress. Often, the keep is the most defended area of a castle, and as such may form the main habitation area, or contain important stores such as the armoury, food, and the main water well, which would ensure survival during a siege.</Italian>
+		<Spanish>A keep is a strong central tower which is used as a dungeon or a fortress. Often, the keep is the most defended area of a castle, and as such may form the main habitation area, or contain important stores such as the armoury, food, and the main water well, which would ensure survival during a siege.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HEAVY_GATES_PEDIA</Tag>
+		<English>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.</English>
+		<French>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.</French>
+		<German>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.</German>
+		<Italian>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.</Italian>
+		<Spanish>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HERBALIST_PEDIA</Tag>
+		<English>An herbalist is a professional trained in herbalism, the use of herbs (also called botanical or crude medicine) to treat others. [NEWLINE] Lay herbalists and traditional indigenous medicine people generally rely upon apprenticeship and recognition from their communities in lieu of formal schooling. In some countries formalised training and minimum education standards exist, although these are not necessarily uniform within or between countries.</English>
+		<French>An herbalist is a professional trained in herbalism, the use of herbs (also called botanical or crude medicine) to treat others. [NEWLINE] Lay herbalists and traditional indigenous medicine people generally rely upon apprenticeship and recognition from their communities in lieu of formal schooling. In some countries formalised training and minimum education standards exist, although these are not necessarily uniform within or between countries.</French>
+		<German>An herbalist is a professional trained in herbalism, the use of herbs (also called botanical or crude medicine) to treat others. [NEWLINE] Lay herbalists and traditional indigenous medicine people generally rely upon apprenticeship and recognition from their communities in lieu of formal schooling. In some countries formalised training and minimum education standards exist, although these are not necessarily uniform within or between countries.</German>
+		<Italian>An herbalist is a professional trained in herbalism, the use of herbs (also called botanical or crude medicine) to treat others. [NEWLINE] Lay herbalists and traditional indigenous medicine people generally rely upon apprenticeship and recognition from their communities in lieu of formal schooling. In some countries formalised training and minimum education standards exist, although these are not necessarily uniform within or between countries.</Italian>
+		<Spanish>An herbalist is a professional trained in herbalism, the use of herbs (also called botanical or crude medicine) to treat others. [NEWLINE] Lay herbalists and traditional indigenous medicine people generally rely upon apprenticeship and recognition from their communities in lieu of formal schooling. In some countries formalised training and minimum education standards exist, although these are not necessarily uniform within or between countries.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DUNGEON_PEDIA</Tag>
+		<English>A dungeon is a room or cell in which prisoners are kept, especially underground. [NEWLINE] In its original medieval usage, the donjon meant the keep, the main tower of a castle which formed the final defensive position the garrison could retreat to when outer fortifications were overcome. It was also a safe, if not comfortable, place to keep prisoners. Once more luxurious housing for the lord of the castle was constructed, the dungeon was used mainly for this purpose.</English>
+		<French>A dungeon is a room or cell in which prisoners are kept, especially underground. [NEWLINE] In its original medieval usage, the donjon meant the keep, the main tower of a castle which formed the final defensive position the garrison could retreat to when outer fortifications were overcome. It was also a safe, if not comfortable, place to keep prisoners. Once more luxurious housing for the lord of the castle was constructed, the dungeon was used mainly for this purpose.</French>
+		<German>A dungeon is a room or cell in which prisoners are kept, especially underground. [NEWLINE] In its original medieval usage, the donjon meant the keep, the main tower of a castle which formed the final defensive position the garrison could retreat to when outer fortifications were overcome. It was also a safe, if not comfortable, place to keep prisoners. Once more luxurious housing for the lord of the castle was constructed, the dungeon was used mainly for this purpose.</German>
+		<Italian>A dungeon is a room or cell in which prisoners are kept, especially underground. [NEWLINE] In its original medieval usage, the donjon meant the keep, the main tower of a castle which formed the final defensive position the garrison could retreat to when outer fortifications were overcome. It was also a safe, if not comfortable, place to keep prisoners. Once more luxurious housing for the lord of the castle was constructed, the dungeon was used mainly for this purpose.</Italian>
+		<Spanish>A dungeon is a room or cell in which prisoners are kept, especially underground. [NEWLINE] In its original medieval usage, the donjon meant the keep, the main tower of a castle which formed the final defensive position the garrison could retreat to when outer fortifications were overcome. It was also a safe, if not comfortable, place to keep prisoners. Once more luxurious housing for the lord of the castle was constructed, the dungeon was used mainly for this purpose.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MURDER_HOLES_PEDIA</Tag>
+		<English>A murder-hole or meurtrière is a hole in the ceiling gate through which the defenders can fire, throw or pour dangerous or noxious substances at attackers. As a result, the defenders would be able to rain rocks and arrows down on the attackers' heads. They also allowed water to be poured onto fire started within the gate passage. Similar holes, called machicolations, were often located in the curtain walls of castles, fortified manor houses and city walls. The parapet would project over corbels so that holes would be located over the exterior face of the wall, and arrows could be shot at, rocks dropped on, or boiling water poured over, any attackers near the wall.</English>
+		<French>A murder-hole or meurtrière is a hole in the ceiling gate through which the defenders can fire, throw or pour dangerous or noxious substances at attackers. As a result, the defenders would be able to rain rocks and arrows down on the attackers' heads. They also allowed water to be poured onto fire started within the gate passage. Similar holes, called machicolations, were often located in the curtain walls of castles, fortified manor houses and city walls. The parapet would project over corbels so that holes would be located over the exterior face of the wall, and arrows could be shot at, rocks dropped on, or boiling water poured over, any attackers near the wall.</French>
+		<German>A murder-hole or meurtrière is a hole in the ceiling gate through which the defenders can fire, throw or pour dangerous or noxious substances at attackers. As a result, the defenders would be able to rain rocks and arrows down on the attackers' heads. They also allowed water to be poured onto fire started within the gate passage. Similar holes, called machicolations, were often located in the curtain walls of castles, fortified manor houses and city walls. The parapet would project over corbels so that holes would be located over the exterior face of the wall, and arrows could be shot at, rocks dropped on, or boiling water poured over, any attackers near the wall.</German>
+		<Italian>A murder-hole or meurtrière is a hole in the ceiling gate through which the defenders can fire, throw or pour dangerous or noxious substances at attackers. As a result, the defenders would be able to rain rocks and arrows down on the attackers' heads. They also allowed water to be poured onto fire started within the gate passage. Similar holes, called machicolations, were often located in the curtain walls of castles, fortified manor houses and city walls. The parapet would project over corbels so that holes would be located over the exterior face of the wall, and arrows could be shot at, rocks dropped on, or boiling water poured over, any attackers near the wall.</Italian>
+		<Spanish>A murder-hole or meurtrière is a hole in the ceiling gate through which the defenders can fire, throw or pour dangerous or noxious substances at attackers. As a result, the defenders would be able to rain rocks and arrows down on the attackers' heads. They also allowed water to be poured onto fire started within the gate passage. Similar holes, called machicolations, were often located in the curtain walls of castles, fortified manor houses and city walls. The parapet would project over corbels so that holes would be located over the exterior face of the wall, and arrows could be shot at, rocks dropped on, or boiling water poured over, any attackers near the wall.</Spanish>
+	</TEXT>
+</Civ4GameText>

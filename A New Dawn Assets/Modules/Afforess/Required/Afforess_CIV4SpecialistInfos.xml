@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Specialist -->
+<Civ4SpecialistInfos xmlns="x-schema:Afforess_CIV4GameInfoSchema.xml">
+	<SpecialistInfos>
+		<SpecialistInfo>
+			<Type>SPECIALIST_SLAVES</Type>
+			<Description>TXT_KEY_SPECIALIST_SLAVES</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_SPECIALISTS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SPECIALIST_SLAVES_STRATEGY</Strategy>
+			<Help/>
+			<Texture>Art/Interface/MainScreen/CityScreen/Citizen.dds</Texture>
+			<bVisible>1</bVisible>
+			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
+			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
+			<Yields>
+				<iYield>-1</iYield>
+				<iYield>3</iYield>
+				<iYield>0</iYield>
+			</Yields>
+			<Commerces/>
+			<iExperience>0</iExperience>
+			<Flavors/>
+			<HotKey/>
+			<bAltDown>0</bAltDown>
+			<bSlave>1</bSlave>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>Art/Interface/MainScreen/CityScreen/Citizen.dds</Button>
+		</SpecialistInfo>
+	</SpecialistInfos>
+</Civ4SpecialistInfos>

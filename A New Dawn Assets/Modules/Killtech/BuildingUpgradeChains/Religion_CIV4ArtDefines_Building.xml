@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- ###################################################################################### -->
+<Civ4ArtDefines xmlns="x-schema:CIV4ArtDefinesSchema.xml">
+	<BuildingArtInfos>		
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_HOLY_SITE</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.33</fScale>
+			<fInterfaceScale>0.83</fInterfaceScale>
+			<NIF>Art/empty.nif</NIF>
+			<KFM/>
+			<Button>Modules/Killtech/BuildingUpgradeChains/Art/btnSanctuary.dds</Button>
+		</BuildingArtInfo>				
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_DOSAN_SEOWON</Type>
+			<LSystem>LSYSTEM_3x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.0</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Shrine/confuscian_shrine.nif</NIF>
+			<KFM/>
+			<Button>Modules/Killtech/BuildingUpgradeChains/Art/DosanSeowon/Dosan_Seowon.dds</Button>
+		</BuildingArtInfo>
+		
+	</BuildingArtInfos>
+</Civ4ArtDefines>

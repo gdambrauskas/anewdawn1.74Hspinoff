@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEUSCHWANSTEIN</Tag>
+		<English>Neuschwanstein</English>
+		<French>Château du Neuschwanstein</French>
+		<German>Neuschwanstein</German>
+		<Italian>Neuschwanstein</Italian>
+		<Spanish>Neuschwanstein</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEUSCHWANSTEIN_PEDIA</Tag>
+		<English>Neuschwanstein is a 19th-century Bavarian palace on a rugged hill near Hohenschwangau and F&#252;ssen in southwest Bavaria, Germany. The palace was commissioned by Ludwig II of Bavaria as a retreat and as an homage to Richard Wagner, the King's inspiring muse.  Ludwig did not allow visitors to his castles, but after his death in 1886 the castle was opened to the public.</English>
+		<French>Le château de Neuschwanstein est un château bavarois situé près de Füssen dans l'Allgäu. Louis II de Bavière l'a fait construire au XIXe siècle, comme lieu de retraite, et en hommage à Richard Wagner, le musicien très proche du monarque. Louis II n'a jamais autorisés de visiteurs dans ses châteaux, mais après sa mort en 1886, le château a été ouvert au public.</French>
+		<German>Neuschwanstein is a 19th-century Bavarian palace on a rugged hill near Hohenschwangau and F&#252;ssen in southwest Bavaria, Germany. The palace was commissioned by Ludwig II of Bavaria as a retreat and as an homage to Richard Wagner, the King's inspiring muse.  Ludwig did not allow visitors to his castles, but after his death in 1886 the castle was opened to the public.</German>
+		<Italian>Neuschwanstein is a 19th-century Bavarian palace on a rugged hill near Hohenschwangau and F&#252;ssen in southwest Bavaria, Germany. The palace was commissioned by Ludwig II of Bavaria as a retreat and as an homage to Richard Wagner, the King's inspiring muse.  Ludwig did not allow visitors to his castles, but after his death in 1886 the castle was opened to the public.</Italian>
+		<Spanish>Neuschwanstein is a 19th-century Bavarian palace on a rugged hill near Hohenschwangau and F&#252;ssen in southwest Bavaria, Germany. The palace was commissioned by Ludwig II of Bavaria as a retreat and as an homage to Richard Wagner, the King's inspiring muse.  Ludwig did not allow visitors to his castles, but after his death in 1886 the castle was opened to the public.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEUSCHWANSTEIN_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]Neuschwanstein[COLOR_REVERT] Initiates a Golden Age and gives all cities on the continent +1 Happiness.</English>
+		<French>Le [COLOR_BUILDING_TEXT]Château du Neuschwanstein[COLOR_REVERT] démarre un Age d'Or et accorde +1 de Bonheur à toutes les Villes du continent.</French>
+		<German>[COLOR_BUILDING_TEXT]Neuschwanstein[COLOR_REVERT] Beginnt ein Goldenes Zeitalter und gibt allen St&#228;dten auf dem Kontinent +1 Zufriedenheit.</German>
+		<Italian>[COLOR_BUILDING_TEXT]Neuschwanstein[COLOR_REVERT] Initiates a Golden Age and gives all cities on the continent +1 Happiness..</Italian>
+		<Spanish>[COLOR_BUILDING_TEXT]Neuschwanstein[COLOR_REVERT] Initiates a Golden Age and gives all cities on the continent +1 Happiness.</Spanish>
+	</TEXT>
+</Civ4GameText>

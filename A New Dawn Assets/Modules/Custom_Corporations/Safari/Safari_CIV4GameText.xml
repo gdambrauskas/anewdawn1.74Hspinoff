@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Safari Hunters -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI</Tag>
+		<English>Safari Hunters</English>
+		<French>Chasseurs Safari</French>
+		<German>Safari Hunters</German>
+		<Italian>Safari Hunters</Italian>
+		<Spanish>Safari Hunters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI_HQ</Tag>
+		<English>Safari Hunters Headquarters</English>
+		<French>Siège des Chasseurs Safari</French>
+		<German>Safari-Hunters-Zentrale</German>
+		<Italian>Safari Hunters Headquarters</Italian>
+		<Spanish>Safari Hunters Headquarters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI_GUIDE</Tag>
+		<English>Safari Hunters Guide</English>
+		<French>Guide des Chasseurs Safari</French>
+		<German>Safari-Hunters-Führer</German>
+		<Italian>Safari Hunters Guide</Italian>
+		<Spanish>Safari Hunters Guide</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SAFARI_EXECUTIVE</Tag>
+		<English>Safari Hunters Executive</English>
+		<French>Gérant des Chasseurs Safari</French>
+		<German>Safari-Hunters-Geschäftsführer</German>
+		<Italian>Safari Hunters Executive</Italian>
+		<Spanish>Safari Hunters Executive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI_PEDIA</Tag>
+		<English>Bored of your monotonous life? Ready for adventures? Safari hunters bring to you the excitement of rediscovering the real man inside you. Are you good enough to hunt elephants, deers, bears or even whales in their natural habitats? Come with us and try... you can keep your trophies!</English>
+		<French>Bored of your monotonous life? Ready for adventures? Safari hunters bring to you the excitement of rediscovering the real man inside you. Are you good enough to hunt elephants, deers, bears or even whales in their natural habitats? Come with us and try... you can keep your trophies!</French>
+		<German>Bored of your monotonous life? Ready for adventures? Safari hunters bring to you the excitement of rediscovering the real man inside you. Are you good enough to hunt elephants, deers, bears or even whales in their natural habitats? Come with us and try... you can keep your trophies!</German>
+		<Italian>Bored of your monotonous life? Ready for adventures? Safari hunters bring to you the excitement of rediscovering the real man inside you. Are you good enough to hunt elephants, deers, bears or even whales in their natural habitats? Come with us and try... you can keep your trophies!</Italian>
+		<Spanish>Bored of your monotonous life? Ready for adventures? Safari hunters bring to you the excitement of rediscovering the real man inside you. Are you good enough to hunt elephants, deers, bears or even whales in their natural habitats? Come with us and try... you can keep your trophies!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI_GUIDE_PEDIA</Tag>
+		<English>Your local guide will take you hunting, whatever you desire... except the most dangerous game of all... Man.</English>
+		<French>Your local guide will take you hunting, whatever you desire... except the most dangerous game of all... Man.</French>
+		<German>Your local guide will take you hunting, whatever you desire... except the most dangerous game of all... Man.</German>
+		<Italian>Your local guide will take you hunting, whatever you desire... except the most dangerous game of all... Man.</Italian>
+		<Spanish>Your local guide will take you hunting, whatever you desire... except the most dangerous game of all... Man.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SAFARI_STRATEGY</Tag>
+		<English>Build this corporation in order to get hunting bonuses.</English>
+		<French>Build this corporation in order to get hunting bonuses.</French>
+		<German>Build this corporation in order to get hunting bonuses.</German>
+		<Italian>Build this corporation in order to get hunting bonuses.</Italian>
+		<Spanish>Build this corporation in order to get hunting bonuses.</Spanish>
+	</TEXT>	
+</Civ4GameText>

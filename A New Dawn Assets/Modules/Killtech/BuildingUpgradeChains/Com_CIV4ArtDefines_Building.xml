@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<!-- ###################################################################################### -->
+<Civ4ArtDefines xmlns="x-schema:CIV4ArtDefinesSchema.xml">
+	<BuildingArtInfos>		
+		
+		<!-- ComEducation -->
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_APPRENTICE_SCHOOL</Type>
+			<LSystem>LSYSTEM_3x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0.6</fScale>
+			<fInterfaceScale>0.6</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/guild_house/guild_house.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/guildhall.dds,Art/Interface/Buttons/RoM_Building_Atlas.dds,3,12</Button>
+		</BuildingArtInfo>		
+		
+		<!-- ComScience -->
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_ALCHEMY_LAB</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.00</fScale>
+			<fInterfaceScale>0.75</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/alchemists_shop/alchemist_shop.nif</NIF>
+			<KFM/>
+			<Button>Modules/Killtech/BuildingUpgradeChains/Art/btnAlchemyLab.dds</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_MODERN_TELESCOPE</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.33</fScale>
+			<fInterfaceScale>0.83</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Observatory/Observatory.nif</NIF>
+			<KFM/>
+			<Button>Modules/Killtech/BuildingUpgradeChains/Art/btnVLT.dds</Button>
+		</BuildingArtInfo>
+		
+		
+		<!-- ComTrade -->
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_FISHING_HUTS</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.33</fScale>
+			<fInterfaceScale>0.83</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Viking Trading Post/Viking_Post.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/TechTree/Fishing.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,10</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_PIERS</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.33</fScale>
+			<fInterfaceScale>0.83</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Customs_House/Customs_House.nif</NIF>
+			<KFM/>
+			<Button>Modules/Killtech/BuildingUpgradeChains/Art/btnPiers.dds</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_INLAND_PORT</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.33</fScale>
+			<fInterfaceScale>0.83</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Customs_House/Customs_House.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/Harbor.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,7,3</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_DOMESTIC_CARGO_PORT</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.33</fScale>
+			<fInterfaceScale>0.83</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Customs_House/Customs_House.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/Port.dds,Art/Interface/Buttons/RoM_Building_Atlas.dds,2,6</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_CONTAINER_HARBOR</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.33</fScale>
+			<fInterfaceScale>0.83</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Harbor/Harbor.nif</NIF>
+			<KFM/>
+			<Button>Modules/Killtech/BuildingUpgradeChains/Art/btnContainer.dds</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_FISH_MARKET</Type>
+			<LSystem>LSYSTEM_MARKET</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.05</fScale>
+			<fInterfaceScale>0.6</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Market/Market.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Builds/BuildFishingBoats.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,7</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_TRAIN_YARD</Type>
+			<LSystem>LSYSTEM_MARKET</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.05</fScale>
+			<fInterfaceScale>0.6</fInterfaceScale>
+			<NIF>Art/empty.nif</NIF>
+			<KFM/>
+			<Button>Modules/Killtech/BuildingUpgradeChains/Art/btnTrainYard.dds</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_MAGLEV_YARD</Type>
+			<LSystem>LSYSTEM_MARKET</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.05</fScale>
+			<fInterfaceScale>0.6</fInterfaceScale>
+			<NIF>Art/empty.nif</NIF>
+			<KFM/>
+			<Button>Modules/Killtech/BuildingUpgradeChains/Art/btnMaglevYard.dds</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_JUMPLANE_PORTAL</Type>
+			<LSystem>LSYSTEM_2x3</LSystem>
+			<bAnimated>1</bAnimated>
+			<fScale>5.0</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/psigate/psigate.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/TechTree/teleportation.dds</Button>
+		</BuildingArtInfo>
+		
+		
+		<!-- ComGold -->
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_INVESTMENT_BANK</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>2.5</fScale>
+			<fInterfaceScale>0.28</fInterfaceScale>
+			<NIF>Modules/Killtech/BuildingUpgradeChains/Art/WTC/wtc.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/Building.dds,Art/Interface/Buttons/RoM_Building_Atlas.dds,4,2</Button>
+		</BuildingArtInfo>
+		
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_FINANCIAL_NEXUS</Type>
+			<LSystem>LSYSTEM_2x2</LSystem>
+			<bAnimated>1</bAnimated>
+			<fScale>0.5</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/e-Bank/Barrier_I.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/TechTree/CyberWarfare.dds,Art/Interface/Buttons/RoM_Techtree_Atlas.dds,2,5</Button>
+		</BuildingArtInfo>		
+		
+	</BuildingArtInfos>
+</Civ4ArtDefines>

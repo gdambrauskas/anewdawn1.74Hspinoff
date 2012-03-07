@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Build Infos -->
+<!-- -->
+<Civ4BuildInfos xmlns="x-schema:Ice_Breaker_CIV4UnitSchema.xml">
+	<BuildInfos>
+		<BuildInfo>
+			<Type>BUILD_BREAK_ICE</Type>
+			<Description>TXT_KEY_BUILD_BREAK_ICE</Description>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs>
+				<FeatureStruct>
+					<FeatureType>FEATURE_ICE</FeatureType>
+					<PrereqTech>TECH_COMBUSTION</PrereqTech>
+					<iTime>300</iTime>
+					<iProduction>0</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+			</FeatureStructs>
+			<HotKey>KB_S</HotKey>
+			<iHotKeyPriority>1</iHotKeyPriority>
+			<Button>Art/Interface/Buttons/TerrainFeatures/Ice.dds</Button>
+		</BuildInfo>
+	</BuildInfos>
+</Civ4BuildInfos>

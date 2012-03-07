@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<Civ4CivicInfos xmlns="x-schema:Balanced_CIV4GameInfoSchema.xml">
+	<!-- Sid Meier's Civilization 4 -->
+	<!-- Copyright Firaxis Games 2005 -->
+	<!-- -->
+	<!-- Civic Infos -->
+	<CivicInfos>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
+			<Type>CIVIC_GUILDS</Type>
+			<AndDependencyTypes>
+				<DependencyType>BUILDINGCLASS_ESTATE</DependencyType>
+				<DependencyType>BUILDINGCLASS_VILLA</DependencyType>
+			</AndDependencyTypes>
+			<Flavors/>
+			<BuildingClassProductionModifiers>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_ESTATE</BuildingClassType>
+					<iProductionModifier>50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_VILLA</BuildingClassType>
+					<iProductionModifier>50</iProductionModifier>
+				</BuildingClassProductionModifier>
+			</BuildingClassProductionModifiers>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_BOURGEOIS</Type>
+			<Flavors/>
+			<BuildingClassProductionModifiers>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_BUTCHERY</BuildingClassType>
+					<iProductionModifier>50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_FISHERMAN_HUT</BuildingClassType>
+					<iProductionModifier>50</iProductionModifier>
+				</BuildingClassProductionModifier>
+			</BuildingClassProductionModifiers>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_SOCIETY</CivicOptionType>
+			<Type>CIVIC_LIBERAL</Type>
+			<Flavors/>
+			<BuildingHappinessChanges>
+				<BuildingHappinessChange>
+					<BuildingType>BUILDINGCLASS_KREMLIN</BuildingType>
+					<iHappinessChange>-1</iHappinessChange>
+				</BuildingHappinessChange>
+			</BuildingHappinessChanges>
+		</CivicInfo>
+	</CivicInfos>
+</Civ4CivicInfos>

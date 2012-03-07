@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- TECH INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLOUD_PATTERNS</Tag>
+		<English>Cloud Patterns</English>
+		<French>Structures des nuages</French>
+		<German>Wolkenmuster</German>
+		<Italian>Cloud Patterns</Italian>
+		<Spanish>Cloud Patterns</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLOUD_PATTERNS_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLOUD_PATTERNS_QUOTE</Tag>
+		<English>[SPACE]"So the whirlwind originates in the failure of an incipient hurricane to escape from its cloud: it is due to the resistance which generates the eddy, and it consists in the spiral which descends to the earth and drags with it the cloud which it cannot shake off. It moves things by its wind in the direction in which it is blowing in a straight line, and whirls round by its circular motion and forcibly snatches up whatever it meets." Source: Meteorologica - Aristotle</English>
+		<French>[SPACE]"Ainsi, le tourbillon a pour origine l'incapacité d'un ouragan naissant d'échapper à son nuage: C'est cette résistance qui génère le tourbillon, qui consiste en une spirale qui descend jusqu'à la terre et entraîne avec elle le nuage dont elle ne peut s'extraire complètement. Le tourbillon déplace les choses par son souffle en ligne droite dans la direction où il souffle, et arrache à la terre tout ce qu'il rencontre." Source: Meteorologica - Aristote</French>
+		<German>[SPACE]"So the whirlwind originates in the failure of an incipient hurricane to escape from its cloud: it is due to the resistance which generates the eddy, and it consists in the spiral which descends to the earth and drags with it the cloud which it cannot shake off. It moves things by its wind in the direction in which it is blowing in a straight line, and whirls round by its circular motion and forcibly snatches up whatever it meets." Source: Meteorologica - Aristotle</German>
+		<Italian>[SPACE]"So the whirlwind originates in the failure of an incipient hurricane to escape from its cloud: it is due to the resistance which generates the eddy, and it consists in the spiral which descends to the earth and drags with it the cloud which it cannot shake off. It moves things by its wind in the direction in which it is blowing in a straight line, and whirls round by its circular motion and forcibly snatches up whatever it meets." Source: Meteorologica - Aristotle</Italian>
+		<Spanish>[SPACE]"So the whirlwind originates in the failure of an incipient hurricane to escape from its cloud: it is due to the resistance which generates the eddy, and it consists in the spiral which descends to the earth and drags with it the cloud which it cannot shake off. It moves things by its wind in the direction in which it is blowing in a straight line, and whirls round by its circular motion and forcibly snatches up whatever it meets." Source: Meteorologica - Aristotle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLOUD_PATTERNS_PEDIA</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WEATHER_LORE</Tag>
+		<English>Weather Lore</English>
+		<French>Traditions Météorologiques</French>
+		<German>Wetterkunde</German>
+		<Italian>Weather Lore</Italian>
+		<Spanish>Weather Lore</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WEATHER_LORE_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WEATHER_LORE_QUOTE</Tag>
+		<English>[SPACE]"Dirty days hath September, [NEWLINE] April, June and November. [NEWLINE] From January up to May [NEWLINE] The rain it raineth every day. [NEWLINE] February hath twenty eight alone, [NEWLINE] And all the rest have thirty-one. [NEWLINE] If any of them had two and thirty [NEWLINE] They'd be just as wet and dirty." - Thomas Hood</English>
+		<French>[SPACE]"Mauvais temps en Septembre, [NEWLINE] Avril, Juin et Novembre. [NEWLINE] de Janvier à Mai [NEWLINE] La pluie tombe tous les Jours. [NEWLINE] Février a 28 jours, [NEWLINE] et tous les autres 31. [NEWLINE] Si certains en avaient 32 [NEWLINE] Ils seraient soit sec ou humide." - Thomas Hood</French>
+		<German>[SPACE]"Dirty days hath September, [NEWLINE] April, June and November. [NEWLINE] From January up to May [NEWLINE] The rain it raineth every day. [NEWLINE] February hath twenty eight alone, [NEWLINE] And all the rest have thirty-one. [NEWLINE] If any of them had two and thirty [NEWLINE] They'd be just as wet and dirty." - Thomas Hood</German>
+		<Italian>[SPACE]"Dirty days hath September, [NEWLINE] April, June and November. [NEWLINE] From January up to May [NEWLINE] The rain it raineth every day. [NEWLINE] February hath twenty eight alone, [NEWLINE] And all the rest have thirty-one. [NEWLINE] If any of them had two and thirty [NEWLINE] They'd be just as wet and dirty." - Thomas Hood</Italian>
+		<Spanish>[SPACE]"Dirty days hath September, [NEWLINE] April, June and November. [NEWLINE] From January up to May [NEWLINE] The rain it raineth every day. [NEWLINE] February hath twenty eight alone, [NEWLINE] And all the rest have thirty-one. [NEWLINE] If any of them had two and thirty [NEWLINE] They'd be just as wet and dirty." - Thomas Hood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WEATHER_LORE_PEDIA</Tag>
+		<English>Weather lore is the body of informal folklore related to the prediction of the weather. It has been a human desire for millennia to make accurate weather predictions. Oral and written history is full of rhymes, anecdotes, and adages meant to guide the uncertain in determining whether the next day will bring fair or foul weather. For the farmer wanting to plant crops, for the merchant about to send ships on trade, foreknowledge of tomorrow's circumstances might mean the difference between success and failure. Prior to the invention of the mercury barometer, it was very difficult to gather numerical data of any predictive value. Even though there were devices such as the weather stick which gave some indication of moisture changes, the only instrument of any reliability was human experience.</English>
+		<French>Weather lore is the body of informal folklore related to the prediction of the weather. It has been a human desire for millennia to make accurate weather predictions. Oral and written history is full of rhymes, anecdotes, and adages meant to guide the uncertain in determining whether the next day will bring fair or foul weather. For the farmer wanting to plant crops, for the merchant about to send ships on trade, foreknowledge of tomorrow's circumstances might mean the difference between success and failure. Prior to the invention of the mercury barometer, it was very difficult to gather numerical data of any predictive value. Even though there were devices such as the weather stick which gave some indication of moisture changes, the only instrument of any reliability was human experience.</French>
+		<German>Weather lore is the body of informal folklore related to the prediction of the weather. It has been a human desire for millennia to make accurate weather predictions. Oral and written history is full of rhymes, anecdotes, and adages meant to guide the uncertain in determining whether the next day will bring fair or foul weather. For the farmer wanting to plant crops, for the merchant about to send ships on trade, foreknowledge of tomorrow's circumstances might mean the difference between success and failure. Prior to the invention of the mercury barometer, it was very difficult to gather numerical data of any predictive value. Even though there were devices such as the weather stick which gave some indication of moisture changes, the only instrument of any reliability was human experience.</German>
+		<Italian>Weather lore is the body of informal folklore related to the prediction of the weather. It has been a human desire for millennia to make accurate weather predictions. Oral and written history is full of rhymes, anecdotes, and adages meant to guide the uncertain in determining whether the next day will bring fair or foul weather. For the farmer wanting to plant crops, for the merchant about to send ships on trade, foreknowledge of tomorrow's circumstances might mean the difference between success and failure. Prior to the invention of the mercury barometer, it was very difficult to gather numerical data of any predictive value. Even though there were devices such as the weather stick which gave some indication of moisture changes, the only instrument of any reliability was human experience.</Italian>
+		<Spanish>Weather lore is the body of informal folklore related to the prediction of the weather. It has been a human desire for millennia to make accurate weather predictions. Oral and written history is full of rhymes, anecdotes, and adages meant to guide the uncertain in determining whether the next day will bring fair or foul weather. For the farmer wanting to plant crops, for the merchant about to send ships on trade, foreknowledge of tomorrow's circumstances might mean the difference between success and failure. Prior to the invention of the mercury barometer, it was very difficult to gather numerical data of any predictive value. Even though there were devices such as the weather stick which gave some indication of moisture changes, the only instrument of any reliability was human experience.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WEATHER_FORECASTING</Tag>
+		<English>Weather Forecasting</English>
+		<French>Prévisions météorologiques</French>
+		<German>Wettervorhersage</German>
+		<Italian>Weather Forecasting</Italian>
+		<Spanish>Weather Forecasting</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WEATHER_FORECASTING_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WEATHER_FORECASTING_QUOTE</Tag>
+		<English>“The trouble with weather forecasting is that it's right too often for us to ignore it and wrong too often for us to rely on it.” - Patrick Young</English>
+		<French>“Le problème avec les prévisions météorologiques, c'est qu'elles sont suffisament justes pour que nous les ignorions et trop souvent fausses pour nous puissions compter dessus.” - Patrick Young</French>
+		<German>“The trouble with weather forecasting is that it's right too often for us to ignore it and wrong too often for us to rely on it.” - Patrick Young</German>
+		<Italian>“The trouble with weather forecasting is that it's right too often for us to ignore it and wrong too often for us to rely on it.” - Patrick Young</Italian>
+		<Spanish>“The trouble with weather forecasting is that it's right too often for us to ignore it and wrong too often for us to rely on it.” - Patrick Young</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WEATHER_FORECASTING_PEDIA</Tag>
+		<English>Weather forecasting is the application of science and technology to predict the state of the atmosphere for a future time and a given location.</English>
+		<French>La météorologie est l'application de la science et la technologie pour prédire l'état de l'atmosphère pendant un certain temps à venir et un endroit donné.</French>
+		<German>Weather forecasting is the application of science and technology to predict the state of the atmosphere for a future time and a given location.</German>
+		<Italian>Weather forecasting is the application of science and technology to predict the state of the atmosphere for a future time and a given location.</Italian>
+		<Spanish>Weather forecasting is the application of science and technology to predict the state of the atmosphere for a future time and a given location.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_METEOROLOGY</Tag>
+		<English>Meteorology</English>
+		<French>Météorologie</French>
+		<German>Meteorologie</German>
+		<Italian>Meteorology</Italian>
+		<Spanish>Meteorology</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_METEOROLOGY_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_METEOROLOGY_QUOTE</Tag>
+		<English>“The icy layers of the upper atmosphere contain conundrums enough to be worthy of humanity's greatest efforts.” - Hugo Emil Hergesell</English>
+		<French>“Les couches de glace de la haute atmosphère contient assez d'énigmes dignes des plus grands efforts de l'humanité.” - Hugo Emil Hergesell</French>
+		<German>“The icy layers of the upper atmosphere contain conundrums enough to be worthy of humanity's greatest efforts.” - Hugo Emil Hergesell</German>
+		<Italian>“The icy layers of the upper atmosphere contain conundrums enough to be worthy of humanity's greatest efforts.” - Hugo Emil Hergesell</Italian>
+		<Spanish>“The icy layers of the upper atmosphere contain conundrums enough to be worthy of humanity's greatest efforts.” - Hugo Emil Hergesell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_METEOROLOGY_PEDIA</Tag>
+		<English>Meteorology is the interdisciplinary scientific study of the atmosphere that focuses on weather processes and forecasting (in contrast with climatology). Studies in the field stretch back millennia, though significant progress in meteorology did not occur until the eighteenth century. The nineteenth century saw breakthroughs occur after observing networks developed across several countries. Breakthroughs in weather forecasting were achieved in the latter half of the twentieth century, after the development of the computer. [NEWLINE] [TAB] Meteorological phenomena are observable weather events which illuminate and are explained by the science of meteorology. Those events are bound by the variables that exist in Earth's atmosphere. They are temperature, air pressure, water vapor, and the gradients and interactions of each variable, and how they change in time. The majority of Earth's observed weather is located in the troposphere. Different spatial scales are studied to determine how systems on local, region, and global levels impact weather and climatology. Meteorology, climatology, atmospheric physics, and atmospheric chemistry are sub-disciplines of the atmospheric sciences. Meteorology and hydrology compose the interdisciplinary field of hydrometeorology. Interactions between Earth's atmosphere and the oceans are part of coupled ocean-atmosphere studies. Meteorology has application in many diverse fields such as the military, energy production, transport, agriculture and construction.</English>
+		<French>Meteorology is the interdisciplinary scientific study of the atmosphere that focuses on weather processes and forecasting (in contrast with climatology). Studies in the field stretch back millennia, though significant progress in meteorology did not occur until the eighteenth century. The nineteenth century saw breakthroughs occur after observing networks developed across several countries. Breakthroughs in weather forecasting were achieved in the latter half of the twentieth century, after the development of the computer. [NEWLINE] [TAB] Meteorological phenomena are observable weather events which illuminate and are explained by the science of meteorology. Those events are bound by the variables that exist in Earth's atmosphere. They are temperature, air pressure, water vapor, and the gradients and interactions of each variable, and how they change in time. The majority of Earth's observed weather is located in the troposphere. Different spatial scales are studied to determine how systems on local, region, and global levels impact weather and climatology. Meteorology, climatology, atmospheric physics, and atmospheric chemistry are sub-disciplines of the atmospheric sciences. Meteorology and hydrology compose the interdisciplinary field of hydrometeorology. Interactions between Earth's atmosphere and the oceans are part of coupled ocean-atmosphere studies. Meteorology has application in many diverse fields such as the military, energy production, transport, agriculture and construction</French>
+		<German>Meteorology is the interdisciplinary scientific study of the atmosphere that focuses on weather processes and forecasting (in contrast with climatology). Studies in the field stretch back millennia, though significant progress in meteorology did not occur until the eighteenth century. The nineteenth century saw breakthroughs occur after observing networks developed across several countries. Breakthroughs in weather forecasting were achieved in the latter half of the twentieth century, after the development of the computer. [NEWLINE] [TAB] Meteorological phenomena are observable weather events which illuminate and are explained by the science of meteorology. Those events are bound by the variables that exist in Earth's atmosphere. They are temperature, air pressure, water vapor, and the gradients and interactions of each variable, and how they change in time. The majority of Earth's observed weather is located in the troposphere. Different spatial scales are studied to determine how systems on local, region, and global levels impact weather and climatology. Meteorology, climatology, atmospheric physics, and atmospheric chemistry are sub-disciplines of the atmospheric sciences. Meteorology and hydrology compose the interdisciplinary field of hydrometeorology. Interactions between Earth's atmosphere and the oceans are part of coupled ocean-atmosphere studies. Meteorology has application in many diverse fields such as the military, energy production, transport, agriculture and construction.</German>
+		<Italian>Meteorology is the interdisciplinary scientific study of the atmosphere that focuses on weather processes and forecasting (in contrast with climatology). Studies in the field stretch back millennia, though significant progress in meteorology did not occur until the eighteenth century. The nineteenth century saw breakthroughs occur after observing networks developed across several countries. Breakthroughs in weather forecasting were achieved in the latter half of the twentieth century, after the development of the computer. [NEWLINE] [TAB] Meteorological phenomena are observable weather events which illuminate and are explained by the science of meteorology. Those events are bound by the variables that exist in Earth's atmosphere. They are temperature, air pressure, water vapor, and the gradients and interactions of each variable, and how they change in time. The majority of Earth's observed weather is located in the troposphere. Different spatial scales are studied to determine how systems on local, region, and global levels impact weather and climatology. Meteorology, climatology, atmospheric physics, and atmospheric chemistry are sub-disciplines of the atmospheric sciences. Meteorology and hydrology compose the interdisciplinary field of hydrometeorology. Interactions between Earth's atmosphere and the oceans are part of coupled ocean-atmosphere studies. Meteorology has application in many diverse fields such as the military, energy production, transport, agriculture and construction.</Italian>
+		<Spanish>Meteorology is the interdisciplinary scientific study of the atmosphere that focuses on weather processes and forecasting (in contrast with climatology). Studies in the field stretch back millennia, though significant progress in meteorology did not occur until the eighteenth century. The nineteenth century saw breakthroughs occur after observing networks developed across several countries. Breakthroughs in weather forecasting were achieved in the latter half of the twentieth century, after the development of the computer. [NEWLINE] [TAB] Meteorological phenomena are observable weather events which illuminate and are explained by the science of meteorology. Those events are bound by the variables that exist in Earth's atmosphere. They are temperature, air pressure, water vapor, and the gradients and interactions of each variable, and how they change in time. The majority of Earth's observed weather is located in the troposphere. Different spatial scales are studied to determine how systems on local, region, and global levels impact weather and climatology. Meteorology, climatology, atmospheric physics, and atmospheric chemistry are sub-disciplines of the atmospheric sciences. Meteorology and hydrology compose the interdisciplinary field of hydrometeorology. Interactions between Earth's atmosphere and the oceans are part of coupled ocean-atmosphere studies. Meteorology has application in many diverse fields such as the military, energy production, transport, agriculture and construction.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LONG_RANGE_FORECASTING</Tag>
+		<English>Long-Range Forecasting</English>
+    <French>Prévisions à long terme</French>
+		<German>Langzeit-Wettervorhersage</German>
+		<Italian>Long-Range Forecasting</Italian>
+		<Spanish>Long-Range Forecasting</Spanish>	
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LONG_RANGE_FORECASTING_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LONG_RANGE_FORECASTING_QUOTE</Tag>
+		<English>“The only function of [weather] forecasting is to make astrology look respectable.” - John Kenneth Galbraith</English>
+		<French>“La seule fonction de [la prévision météo] est de de faire passer l'astrologie comme une science respectable.” - John Kenneth Galbraith</French>
+		<German>“The only function of [weather] forecasting is to make astrology look respectable.” - John Kenneth Galbraith</German>
+		<Italian>“The only function of [weather] forecasting is to make astrology look respectable.” - John Kenneth Galbraith</Italian>
+		<Spanish>“The only function of [weather] forecasting is to make astrology look respectable.” - John Kenneth Galbraith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LONG_RANGE_FORECASTING_PEDIA</Tag>
+		<English>Weather prediction uses current weather conditions as input into mathematical models of the atmosphere to predict the weather. While the first efforts to accomplish this were done in the 1920's, it wasn't until the advent of the computer that it was feasible to do in real-time. Manipulating the huge datasets and performing the complex calculations necessary to do this on a resolution fine enough to make the results useful requires the use of some of the most powerful supercomputers in the world. A number of forecast models, both global and regional in scale, are run to help create forecasts for nations worldwide. Use of model ensemble forecasts helps to define the forecast uncertainty and extend weather forecasting farther into the future than would otherwise be possible.</English>
+		<French>Weather prediction uses current weather conditions as input into mathematical models of the atmosphere to predict the weather. While the first efforts to accomplish this were done in the 1920's, it wasn't until the advent of the computer that it was feasible to do in real-time. Manipulating the huge datasets and performing the complex calculations necessary to do this on a resolution fine enough to make the results useful requires the use of some of the most powerful supercomputers in the world. A number of forecast models, both global and regional in scale, are run to help create forecasts for nations worldwide. Use of model ensemble forecasts helps to define the forecast uncertainty and extend weather forecasting farther into the future than would otherwise be possible.</French>
+		<German>Weather prediction uses current weather conditions as input into mathematical models of the atmosphere to predict the weather. While the first efforts to accomplish this were done in the 1920's, it wasn't until the advent of the computer that it was feasible to do in real-time. Manipulating the huge datasets and performing the complex calculations necessary to do this on a resolution fine enough to make the results useful requires the use of some of the most powerful supercomputers in the world. A number of forecast models, both global and regional in scale, are run to help create forecasts for nations worldwide. Use of model ensemble forecasts helps to define the forecast uncertainty and extend weather forecasting farther into the future than would otherwise be possible.</German>
+		<Italian>Weather prediction uses current weather conditions as input into mathematical models of the atmosphere to predict the weather. While the first efforts to accomplish this were done in the 1920's, it wasn't until the advent of the computer that it was feasible to do in real-time. Manipulating the huge datasets and performing the complex calculations necessary to do this on a resolution fine enough to make the results useful requires the use of some of the most powerful supercomputers in the world. A number of forecast models, both global and regional in scale, are run to help create forecasts for nations worldwide. Use of model ensemble forecasts helps to define the forecast uncertainty and extend weather forecasting farther into the future than would otherwise be possible.</Italian>
+		<Spanish>Weather prediction uses current weather conditions as input into mathematical models of the atmosphere to predict the weather. While the first efforts to accomplish this were done in the 1920's, it wasn't until the advent of the computer that it was feasible to do in real-time. Manipulating the huge datasets and performing the complex calculations necessary to do this on a resolution fine enough to make the results useful requires the use of some of the most powerful supercomputers in the world. A number of forecast models, both global and regional in scale, are run to help create forecasts for nations worldwide. Use of model ensemble forecasts helps to define the forecast uncertainty and extend weather forecasting farther into the future than would otherwise be possible.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLIMATE_MODELLING</Tag>
+		<English>Climate Models</English>
+		<French>Modèles Climatiques</French>
+		<German>Klimamodelle</German>
+		<Italian>Climate Models</Italian>
+		<Spanish>Climate Models</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLIMATE_MODELLING_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLIMATE_MODELLING_QUOTE</Tag>
+		<English>“Climate is what we expect, weather is what we get.” -  Mark Twain</English>
+		<French>“Le Climat est ce que nous attendons, le Temps est ce que nous obtenons.” -  Mark Twain</French>
+		<German>“Climate is what we expect, weather is what we get.” -  Mark Twain</German>
+		<Italian>“Climate is what we expect, weather is what we get.” -  Mark Twain</Italian>
+		<Spanish>“Climate is what we expect, weather is what we get.” -  Mark Twain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLIMATE_MODELLING_PEDIA</Tag>
+		<English>Climate models use quantitative methods to simulate the interactions of the atmosphere, oceans, land surface, and ice. They are used for a variety of purposes from study of the dynamics of the climate system to projections of future climate.</English>
+		<French>Climate models use quantitative methods to simulate the interactions of the atmosphere, oceans, land surface, and ice. They are used for a variety of purposes from study of the dynamics of the climate system to projections of future climate.</French>
+		<German>Climate models use quantitative methods to simulate the interactions of the atmosphere, oceans, land surface, and ice. They are used for a variety of purposes from study of the dynamics of the climate system to projections of future climate.</German>
+		<Italian>Climate models use quantitative methods to simulate the interactions of the atmosphere, oceans, land surface, and ice. They are used for a variety of purposes from study of the dynamics of the climate system to projections of future climate.</Italian>
+		<Spanish>Climate models use quantitative methods to simulate the interactions of the atmosphere, oceans, land surface, and ice. They are used for a variety of purposes from study of the dynamics of the climate system to projections of future climate.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NWS</Tag>
+		<English>National Weather Service</English>
+		<French>Service météorologique national</French>
+		<German>Nationaler Wetterdienst</German>
+		<Italian>National Weather Service</Italian>
+		<Spanish>National Weather Service</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NWS_PEDIA</Tag>
+		<English>The National Weather Service (NWS), is one of the six scientific agencies that make up the National Oceanic and Atmospheric Administration (NOAA) of the United States government. It is tasked with providing "weather, hydrologic, and climate forecasts and warnings for the United States, its territories, adjacent waters and ocean areas, for the protection of life and property and the enhancement of the national economy." This is done through a collection of national and regional centers, and 122 local weather forecast offices (WFOs).</English>
+		<French>The National Weather Service (NWS), is one of the six scientific agencies that make up the National Oceanic and Atmospheric Administration (NOAA) of the United States government. It is tasked with providing "weather, hydrologic, and climate forecasts and warnings for the United States, its territories, adjacent waters and ocean areas, for the protection of life and property and the enhancement of the national economy." This is done through a collection of national and regional centers, and 122 local weather forecast offices (WFOs).</French>
+		<German>The National Weather Service (NWS), is one of the six scientific agencies that make up the National Oceanic and Atmospheric Administration (NOAA) of the United States government. It is tasked with providing "weather, hydrologic, and climate forecasts and warnings for the United States, its territories, adjacent waters and ocean areas, for the protection of life and property and the enhancement of the national economy." This is done through a collection of national and regional centers, and 122 local weather forecast offices (WFOs).</German>
+		<Italian>The National Weather Service (NWS), is one of the six scientific agencies that make up the National Oceanic and Atmospheric Administration (NOAA) of the United States government. It is tasked with providing "weather, hydrologic, and climate forecasts and warnings for the United States, its territories, adjacent waters and ocean areas, for the protection of life and property and the enhancement of the national economy." This is done through a collection of national and regional centers, and 122 local weather forecast offices (WFOs).</Italian>
+		<Spanish>The National Weather Service (NWS), is one of the six scientific agencies that make up the National Oceanic and Atmospheric Administration (NOAA) of the United States government. It is tasked with providing "weather, hydrologic, and climate forecasts and warnings for the United States, its territories, adjacent waters and ocean areas, for the protection of life and property and the enhancement of the national economy." This is done through a collection of national and regional centers, and 122 local weather forecast offices (WFOs).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NWS_STRATEGY</Tag>
+		<English>The National Weather Service organizes all weather forecasts and models for all other cities. It will grant all existing and new units the ability to use weather forecasting to aid their combat abilites, a sizeable advantage in any war.</English>
+		<French>Le Service météorologique national coordonne toutes les prévisions météorologiques pour toutes les autres villes. Il accordera à toutes les unités la capacité d'utiliser les prévisions météorologiques pour améliorer de leurs habiletés au combat, un avantage non négligeable en cas de guerre.</French>
+		<German>The National Weather Service organizes all weather forecasts and models for all other cities. It will grant all existing and new units the ability to use weather forecasting to aid their combat abilites, a sizeable advantage in any war.</German>
+		<Italian>The National Weather Service organizes all weather forecasts and models for all other cities. It will grant all existing and new units the ability to use weather forecasting to aid their combat abilites, a sizeable advantage in any war.</Italian>
+		<Spanish>The National Weather Service organizes all weather forecasts and models for all other cities. It will grant all existing and new units the ability to use weather forecasting to aid their combat abilites, a sizeable advantage in any war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEATHER_STATION</Tag>
+		<English>Weather Station</English>
+		<French>Station météorologique</French>
+		<German>Wetterstation</German>
+		<Italian>Weather Station</Italian>
+		<Spanish>Weather Station</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEATHER_STATION_PEDIA</Tag>
+		<English>A weather station is a facility with instruments and equipment to make observations of atmospheric conditions in order to provide information to make weather forecasts and to study the weather and climate. The measurements taken include temperature, barometric pressure, humidity, wind speed, wind direction, and precipitation amounts. Wind measurements are taken as free of other obstructions as possible, while temperature and humidity measurements are kept free from direct solar radiation, or insolation. Manual observations are taken at least once daily, while automated observations are taken at least once an hour.</English>
+		<French>A weather station is a facility with instruments and equipment to make observations of atmospheric conditions in order to provide information to make weather forecasts and to study the weather and climate. The measurements taken include temperature, barometric pressure, humidity, wind speed, wind direction, and precipitation amounts. Wind measurements are taken as free of other obstructions as possible, while temperature and humidity measurements are kept free from direct solar radiation, or insolation. Manual observations are taken at least once daily, while automated observations are taken at least once an hour.</French>
+		<German>A weather station is a facility with instruments and equipment to make observations of atmospheric conditions in order to provide information to make weather forecasts and to study the weather and climate. The measurements taken include temperature, barometric pressure, humidity, wind speed, wind direction, and precipitation amounts. Wind measurements are taken as free of other obstructions as possible, while temperature and humidity measurements are kept free from direct solar radiation, or insolation. Manual observations are taken at least once daily, while automated observations are taken at least once an hour.</German>
+		<Italian>A weather station is a facility with instruments and equipment to make observations of atmospheric conditions in order to provide information to make weather forecasts and to study the weather and climate. The measurements taken include temperature, barometric pressure, humidity, wind speed, wind direction, and precipitation amounts. Wind measurements are taken as free of other obstructions as possible, while temperature and humidity measurements are kept free from direct solar radiation, or insolation. Manual observations are taken at least once daily, while automated observations are taken at least once an hour.</Italian>
+		<Spanish>A weather station is a facility with instruments and equipment to make observations of atmospheric conditions in order to provide information to make weather forecasts and to study the weather and climate. The measurements taken include temperature, barometric pressure, humidity, wind speed, wind direction, and precipitation amounts. Wind measurements are taken as free of other obstructions as possible, while temperature and humidity measurements are kept free from direct solar radiation, or insolation. Manual observations are taken at least once daily, while automated observations are taken at least once an hour.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEATHER_STATION_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WEATHER_FORECAST_LAND</Tag>
+		<English>Ground Weather Reports</English>
+		<French>Bulletins météo au sol</French>
+		<German>Festlands-Wettervorhersage</German>
+		<Italian>Ground Weather Reports</Italian>
+		<Spanish>Ground Weather Reports</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WEATHER_FORECAST_NAVAL</Tag>
+		<English>Naval Weather Forecasts</English>
+		<French>Prévisions météo marine</French>
+		<German>Meeres-Wettervorhersage</German>
+		<Italian>Naval Weather Forecasts</Italian>
+		<Spanish>Naval Weather Forecasts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WEATHER_FORECAST_AIR</Tag>
+		<English>Weather Forecasts</English>
+		<French>Prévisions météo</French>
+		<German>Luftfahrts-Wettervorhersage</German>
+		<Italian>Weather Forecasts</Italian>
+		<Spanish>Weather Forecasts</Spanish>
+	</TEXT>
+</Civ4GameText>

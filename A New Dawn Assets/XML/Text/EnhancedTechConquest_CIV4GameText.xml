@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_ENHANCED_TECH_CONQUEST_FAIL</Tag>
+		<English>You find nothing worth learning from the inhabitants of</English>
+		<French>Vous n'avez rien pu obtenir d'utile de la part des habitants de</French>
+		<German>You find nothing worth learning from the inhabitants of</German>
+		<Italian>You find nothing worth learning from the inhabitants of</Italian>
+		<Spanish>You find nothing worth learning from the inhabitants of</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ENHANCED_TECH_CONQUEST_SUCESS</Tag>
+		<English>From the inhabitants of %s, you learn some of the secrets of: %s</English>
+		<French>En interrogeant les habitants de %s, vous avez découvert des secrets concernant %s</French>
+		<German>From the inhabitants of</German>
+		<Italian>From the inhabitants of</Italian>
+		<Spanish>From the inhabitants of</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

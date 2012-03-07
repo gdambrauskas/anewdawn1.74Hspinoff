@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Improvement art path information -->
+<Civ4ArtDefines xmlns="x-schema:Balanced_CIV4ArtDefinesSchema.xml">
+	<ImprovementArtInfos>
+		<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_GUILD</Type>
+			<bExtraAnimations>1</bExtraAnimations>
+			<fScale>13.0</fScale>
+			<fInterfaceScale>2.50</fInterfaceScale>
+			<NIF>Guild/HumanBlacksmith.NIF</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/TechTree/Guilds.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,4</Button>
+		</ImprovementArtInfo>
+		<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_3FACTORY</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>0.9</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/German_Assembly_Plant/German_Assembly_Plant.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/Factory.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,6,2</Button>
+		</ImprovementArtInfo>
+		<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_5FACTORY</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>1.2</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/IronWorks/IronWorks.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/Factory.dds,Art/Interface/Buttons/Buildings_Atlas.dds,7,2</Button>
+		</ImprovementArtInfo>
+	</ImprovementArtInfos>
+</Civ4ArtDefines>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit Infos -->
+<Civ4UnitInfos xmlns="x-schema:Example_CIV4UnitSchema.xml">
+	<UnitInfos>
+		<UnitInfo>
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_WORKER</Type>
+			<bWorkerTrade>1</bWorkerTrade>
+		</UnitInfo>
+		<UnitInfo>
+			<Class>UNITCLASS_FLAK88</Class>
+			<Type>UNIT_FLAK88</Type>
+			<bMilitaryTrade>1</bMilitaryTrade>
+		</UnitInfo>
+	</UnitInfos>
+</Civ4UnitInfos>

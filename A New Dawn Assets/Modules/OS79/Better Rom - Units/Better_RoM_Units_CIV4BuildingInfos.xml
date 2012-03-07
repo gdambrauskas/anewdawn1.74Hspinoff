@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Infos -->
+<Civ4BuildingInfos xmlns="x-schema:Better_RoM_Units_CIV4BuildingsSchema.xml">
+	<BuildingInfos>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_SIEGE_WORKSHOP</BuildingClass>
+			<Type>BUILDING_SIEGE_WORKSHOP</Type>
+			<UnitClassProductionModifiers>
+				<UnitClassProductionModifier>
+					<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
+					<iProductionModifier>100</iProductionModifier>
+				</UnitClassProductionModifier>
+				<UnitClassProductionModifier>
+					<UnitClassType>UNITCLASS_TREBUCHET</UnitClassType>
+					<iProductionModifier>100</iProductionModifier>
+				</UnitClassProductionModifier>
+			</UnitClassProductionModifiers>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_CANNON_FORGE</BuildingClass>
+			<Type>BUILDING_CANNON_FORGE</Type>
+			<UnitClassProductionModifiers>
+				<UnitClassProductionModifier>
+					<UnitClassType>UNITCLASS_BOMBARD</UnitClassType>
+					<iProductionModifier>100</iProductionModifier>
+				</UnitClassProductionModifier>
+				<UnitClassProductionModifier>
+					<UnitClassType>UNITCLASS_CANNON</UnitClassType>
+					<iProductionModifier>100</iProductionModifier>
+				</UnitClassProductionModifier>
+			</UnitClassProductionModifiers>
+		</BuildingInfo>
+	</BuildingInfos>
+</Civ4BuildingInfos>

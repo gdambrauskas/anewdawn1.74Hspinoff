@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building art path information -->
+<Civ4ArtDefines xmlns="x-schema:ANM_CIV4ArtDefinesSchema.xml">
+	<BuildingArtInfos>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_MANHATTAN</Type>
+			<LSystem>LSYSTEM_2x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.2</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Manhattan/DEEPGROUND.nif</NIF>
+			<KFM/>
+			<Button>,Art/Structures/Buildings/ChainReactor/silos_button_03.dds,Art/Interface/Buttons/RoM_Building_Atlas.dds,8,12</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_NUCLEAR_SILO</Type>
+			<LSystem>LSYSTEM_4x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>.6</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Nuclear_Silo/Nuclear_silo.nif</NIF>
+			<KFM/>
+			<Button>Art/Structures/Buildings/Nuclear_Silo/silos_button_01.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_NUCLEAR_LAB</Type>
+			<LSystem>LSYSTEM_4x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>.8</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/field_lab/BuildingE.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Buildings/NuclearLab.dds</Button>
+		</BuildingArtInfo>
+	</BuildingArtInfos>
+</Civ4ArtDefines>

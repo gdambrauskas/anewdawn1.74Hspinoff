@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!--Sid Meier's Civilization 4 -->
+<!--Copyright Firaxis Games 2005 -->
+<!---->
+<!--Unit Infos -->
+<Civ4UnitInfos xmlns = "x-schema:CIV4UnitSchema.xml">
+    <UnitInfos>
+        <UnitInfo>
+            <Class>UNITCLASS_TRADE_CARAVAN</Class>
+            <Type>UNIT_TRADE_CARAVAN</Type>
+           <Civilopedia>TXT_KEY_UNIT_CARAVAN_PEDIA</Civilopedia>
+ 			<UnitClassUpgrades>
+				<UnitClassUpgrade>
+					<UnitClassUpgradeType>UNITCLASS_FREIGHT</UnitClassUpgradeType>
+					<bUnitClassUpgrade>1</bUnitClassUpgrade>
+				</UnitClassUpgrade>
+			</UnitClassUpgrades>
+           <UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<fMaxSpeed>1.75</fMaxSpeed>
+				<fPadTime>1</fPadTime>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+                <UnitMeshGroup>
+                    <iRequired>1</iRequired>
+                    <EarlyArtDefineTag>ART_DEF_UNIT_ART_CARAVAN</EarlyArtDefineTag>
+                </UnitMeshGroup>
+            </UnitMeshGroups>
+        </UnitInfo>
+    </UnitInfos>
+</Civ4UnitInfos>

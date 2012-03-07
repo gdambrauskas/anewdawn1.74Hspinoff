@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Corporation Infos -->
+<!-- -->
+<Civ4CorporationInfo xmlns="x-schema:Example_CIV4GameInfoSchema.xml">
+	<CorporationInfos>
+		<CorporationInfo>
+			<Type>CORPORATION_EWTRADE</Type>
+			<Description>TXT_KEY_CORPORATION_EWTRADE</Description>
+			<Civilopedia>TXT_KEY_CORPORATION_EWTRADE_PEDIA</Civilopedia>
+			<TechPrereq>NONE</TechPrereq>
+			<FreeUnitClass>NONE</FreeUnitClass>
+			<iSpreadFactor>200</iSpreadFactor>
+			<iSpreadCost>50</iSpreadCost>
+			<iMaintenance>100</iMaintenance>
+			<iTGAIndex>13</iTGAIndex>
+			<PrereqBonuses>
+				<BonusType>BONUS_SILK</BonusType>
+				<BonusType>BONUS_SPICES</BonusType>
+				<BonusType>BONUS_SUGAR</BonusType>
+				<BonusType>BONUS_COFFEE</BonusType>
+				<BonusType>BONUS_COTTON</BonusType>
+			</PrereqBonuses>
+			<HeadquarterCommerces>
+				<iHeadquarterCommerce>2</iHeadquarterCommerce>
+				<iHeadquarterCommerce>0</iHeadquarterCommerce>
+				<iHeadquarterCommerce>2</iHeadquarterCommerce>
+			</HeadquarterCommerces>
+			<BonusProduced>NONE</BonusProduced>
+			<CommercesProduced>
+				<iCommerceProduced>0</iCommerceProduced>
+				<iCommerceProduced>0</iCommerceProduced>
+				<iCommerceProduced>200</iCommerceProduced>
+			</CommercesProduced>
+			<YieldsProduced>
+				<iYieldProduced>0</iYieldProduced>
+			</YieldsProduced>
+			<Button>Modules/Custom_Corporations/EWTrade/Button/EW.dds</Button>
+			<MovieFile>NONE</MovieFile>
+			<MovieSound>NONE</MovieSound>
+			<Sound>AS2D_BUILD_BANK</Sound>
+			<PrereqGameOption>GAMEOPTION_MODERN_CORPORATIONS</PrereqGameOption>
+			<iHappiness>2</iHappiness>
+			<iHealth>2</iHealth>
+			<iSpread>50</iSpread>
+		</CorporationInfo>
+	</CorporationInfos>
+</Civ4CorporationInfo>

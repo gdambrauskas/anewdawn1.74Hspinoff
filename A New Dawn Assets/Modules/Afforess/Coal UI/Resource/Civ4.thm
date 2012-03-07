@@ -1,0 +1,3 @@
+resource_path	"Mods\Rise of Mankind\Assets\modules\Jooyo\Coal UI\Resource";
+
+include	"Mods\Rise of Mankind\Assets\modules\Jooyo\Coal UI\Resource\Themes\Civ4\Civ4Theme.thm";

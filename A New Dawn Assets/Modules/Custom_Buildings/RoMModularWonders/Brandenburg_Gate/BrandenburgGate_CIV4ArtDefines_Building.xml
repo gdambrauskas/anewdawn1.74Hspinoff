@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- ###################################################################################### -->
+<Civ4ArtDefines xmlns="x-schema:BrandenburgGate_CIV4ArtDefinesSchema.xml">
+	<BuildingArtInfos>
+    <BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_BRANDENBURG_GATE</Type>
+			<LSystem>LSYSTEM_4x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.35</fScale>
+			<fInterfaceScale>0.47</fInterfaceScale>
+			<NIF>Modules/Custom_Buildings/RoMModularWonders/Brandenburg_Gate/brandenburg_gate.nif</NIF>
+			<KFM/>
+			<Button>Modules/Custom_Buildings/RoMModularWonders/Brandenburg_Gate/brandenburg_gate_button.dds</Button>
+		</BuildingArtInfo>
+	</BuildingArtInfos>
+</Civ4ArtDefines>

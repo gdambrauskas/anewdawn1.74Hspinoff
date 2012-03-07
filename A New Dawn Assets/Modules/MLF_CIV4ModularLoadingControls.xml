@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Master Load File -->
+<!-- -->
+<Civ4ModularLoadControls xmlns="x-schema:CIV4ModularLoadingControlsSchema.xml">
+	<DefaultConfiguration>Modules_Main_1</DefaultConfiguration>
+	<ConfigurationInfos>
+		<ConfigurationInfo>
+			<Type>Modules_Main_1</Type>
+			<Description>Initialize ALL Modules by using the MLF file structure</Description>
+			<Modules>
+				<Module>
+					<Directory>Builds</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Custom Units</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Custom_Units</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Static</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>StrategyOnly</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Custom_Corporations</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Guilds</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Custom Civilizations</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Custom Leaderheads</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Civ_Fuehrer</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Afforess</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Projects</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Jooyo</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>DancingHoskuld</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Os79</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Hydro</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>WonderMovies</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Custom ArtStyles</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>ROME</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Custom_Buildings</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Killtech</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>AND Extra Media Pack</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+			</Modules>
+		</ConfigurationInfo>
+	</ConfigurationInfos>
+</Civ4ModularLoadControls>

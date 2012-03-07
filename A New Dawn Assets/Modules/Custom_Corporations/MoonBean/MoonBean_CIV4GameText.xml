@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- MoonBean Coffee -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_MOONBEAN_HQ</Tag>
+		<English>MoonBean Coffee Headquarters</English>
+		<French>Siège des Cafés MoonBean</French>
+		<German>MoonBean-Coffee-Zentrale</German>
+		<Italian>MoonBean Coffee Headquarters</Italian>
+		<Spanish>MoonBean Coffee Headquarters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_MOONBEAN_SHOP</Tag>
+		<English>MoonBean Coffeeshop</English>
+		<French>Café-Restau MoonBean</French>
+		<German>MoonBean Coffeeshop</German>
+		<Italian>MoonBean Coffeeshop</Italian>
+		<Spanish>MoonBean Coffeeshop</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_MOONBEAN</Tag>
+		<English>MoonBean Coffee</English>
+		<French>Cafés MoonBean</French>
+		<German>MoonBean Coffee</German>
+		<Italian>MoonBean Coffee</Italian>
+		<Spanish>MoonBean Coffee</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOONBEAN_EXECUTIVE</Tag>
+		<English>MoonBean Coffee Executive</English>
+		<French>Gérant de Café MoonBean</French>
+		<German>MoonBean-Coffee-Geschäftsführer</German>
+		<Italian>MoonBean Coffee Executive</Italian>
+		<Spanish>MoonBean Coffee Executive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_MOONBEAN_HQ_PEDIA</Tag>
+		<English>MoonBean Coffee Corporation is probably the first coffee shop that became a chain then a corporation that went global.</English>
+		<French>MoonBean Coffee Corporation is probably the first coffee shop that became a chain then a corporation that went global.</French>
+		<German>MoonBean Coffee Corporation is probably the first coffee shop that became a chain then a corporation that went global.</German>
+		<Italian>MoonBean Coffee Corporation is probably the first coffee shop that became a chain then a corporation that went global.</Italian>
+		<Spanish>MoonBean Coffee Corporation is probably the first coffee shop that became a chain then a corporation that went global.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_MOONBEAN_SHOP_PEDIA</Tag>
+		<English>Your local coffeeshop for coffee and other social activities.</English>
+		<French>Your local coffeeshop for coffee and other social activities.</French>
+		<German>Your local coffeeshop for coffee and other social activities.</German>
+		<Italian>Your local coffeeshop for coffee and other social activities.</Italian>
+		<Spanish>Your local coffeeshop for coffee and other social activities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MOONBEAN_STRATEGY</Tag>
+		<English>Build this corporation in order to get economic bonuses.</English>
+		<French>Build this corporation in order to get economic bonuses.</French>
+		<German>Build this corporation in order to get economic bonuses.</German>
+		<Italian>Build this corporation in order to get economic bonuses.</Italian>
+		<Spanish>Build this corporation in order to get economic bonuses.</Spanish>
+	</TEXT>	
+</Civ4GameText>

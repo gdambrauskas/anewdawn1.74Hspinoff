@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Build Infos -->
+<Civ4BuildInfos xmlns="x-schema:Depletion_CIV4UnitSchema.xml">
+	<BuildInfos>
+		<BuildInfo>
+			<Type>BUILD_MINE</Type>
+			<bMine>1</bMine>
+		</BuildInfo>
+		<BuildInfo>
+			<Type>BUILD_SHAFT_MINE</Type>
+			<bMine>1</bMine>
+		</BuildInfo>
+		<BuildInfo>
+			<Type>BUILD_MODERN_MINE</Type>
+			<bMine>1</bMine>
+		</BuildInfo>
+	</BuildInfos>
+</Civ4BuildInfos>

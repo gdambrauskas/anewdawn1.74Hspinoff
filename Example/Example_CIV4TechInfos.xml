@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by Soren Johnson (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Tech Infos -->
+<Civ4TechInfos xmlns="x-schema:Example_CIV4TechnologiesSchema.xml">
+	<TechInfos>
+		<TechInfo>
+			<Type>TECH_WRITING</Type>
+			<bCanPassPeaks>1</bCanPassPeaks>
+			<bMoveFastPeaks>1</bMoveFastPeaks>
+			<bCanFoundOnPeaks>1</bCanFoundOnPeaks>
+			<bEmbassyTrading>1</bEmbassyTrading>
+			<PrereqBuildingClasses>
+				<PrereqBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_VGUILDHALL</BuildingClassType>
+					<iNumBuildingNeeded>2</iNumBuildingNeeded>
+				</PrereqBuildingClass>
+			</PrereqBuildingClasses>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_CGUILDHALL</BuildingClassType>
+					<iNumBuildingNeeded>7</iNumBuildingNeeded>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
+		</TechInfo>
+	</TechInfos>
+</Civ4TechInfos>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VILLAGE_HALL</Tag>
+		<English>Village Hall</English>
+		<French>
+			<Text>Salle des Fêtes</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Gemaindehaus</German>
+		<Italian>Village Hall</Italian>
+		<Spanish>Village Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VILLAGE_HALL_PEDIA</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWN_HALL</Tag>
+		<English>Town Hall</English>
+		<French>Hôtel de Ville</French>
+		<German>Stadthaus</German>
+		<Italian>Town Hall</Italian>
+		<Spanish>Town Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWN_HALL_PEDIA</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CITY_COUNCIL</Tag>
+		<English>City Council</English>
+		<French>Conseil Municipal</French>
+		<German>Stadtrat</German>
+		<Italian>City Council</Italian>
+		<Spanish>City Council</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CITY_COUNCIL_PEDIA</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>	
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_METROPOLITAN_ADMINISTRATION</Tag>
+		<English>Metropolitan Administration</English>
+		<French>
+			<Text>Cité Administrative</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Metropolis Verwaltung</German>
+		<Italian>Metropolitan Administration</Italian>
+		<Spanish>Metropolitan Administration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_METROPOLITAN_ADMINISTRATION_PEDIA</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CAPITAL_ADMINISTRATION</Tag>
+		<English>Capital Administration</English>
+		<French>
+			<Text>Administration de la Capitale</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Capital Verwaltung</German>
+		<Italian>Capital Administration</Italian>
+		<Spanish>Capital Administration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CAPITAL_ADMINISTRATION_PEDIA</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CITYBUILDINGS_STRATEGY</Tag>
+		<English>Build Village Halls, Town Halls and City Councils to add free specialist in your cities.</English>
+		<French>Construisez Salle des fêtes, Hôtel de Ville, Conseil Municipal,... pour ajouter des spécialistes gratuitement dans vos Villes.</French>
+		<German>Build Village Halls, Town Halls and City Councils to add free specialist in your cities.</German>
+		<Italian>Build Village Halls, Town Halls and City Councils to add free specialist in your cities.</Italian>
+		<Spanish>Build Village Halls, Town Halls and City Councils to add free specialist in your cities.</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,77 @@
+List of Buildings in AND 1.72 + early Buildings modifing Prodution:
+AI Survaillance			+20%
+Candlemakers Shop			+1
+Construction Firm			+20%
+Factory						+50% (+35% with power)
+Forge							+15%
+Foundry						+15%
+Guild Hall					+15%
+Manufacturing Plant		+40% (from power)
+Nanofactory					+25%
+Oil Raffinery				+10%
+Orbital Factory			+5
+Recycling Factory			+6 (from resources)
+Reeductation Center		+10%
+Steel Mill					...
+Tannery						+10% (units, with salt)
+StoneWorkers Hut			+2
+Timekeepers Workshop		+1
+Townclock					+15%
+TradeMill Crane			+15%
+Utility Fog					+50%
+Wheelwright					+3
+Workhouse					+20%
+
+-----------------------------------------
+-----------   Modifications    ----------
+-----------------------------------------
+
+---------------------
+1) Upgrade Chains
+  (with 15% faster production with building previous in the upgrade chain)
+ 
+static Hammers from Metall Processing (additional hammers form metals):
+Toolmaker -> Forge -> Foundry -> Steel Mill -> Modern Steelworks
+
+percentual Production Line for Building Construction (additional hammers form stone,marble and steel):
+Stoneworkers Hut -> Stonemason Workshops -> Mason Guild Hall, Construction Cranes (former Trademill Crane) -> Construction Firm
+ 
+percentual Production Line for general Production (additional hammers from stone,marble and steel):
+Guild Hall -> Manufactory -> Factory -> Manufacturing Plant -> Nanofactory
+
+---------------------
+2) Building Changes/Additions:
+
+Toolmaker:              +1 hammer          +2 from res.						
+Forge:                  +3 hammer          +3 from res.             +1 yuck          +1 sel. Eng.
+Foundry:                +5 hammer          +3 from res.             +2 yuck          +2 sel. Eng.
+Steel Mill:             +5 hammer          +10 from res.            +4 yuck          +4 sel. Eng.
+Modern Steelworks:      +6 hammer          +12 from res.            +2 yuck          +4 sel. Eng.
+
+Stoneworkers Hut:                          +2 from res. (loc)				
+Stonemason Workshops:   +10% build.prod.   +2 from res.						
+Mason Guild Hall:       +15% build.prod.   +3 from res.						
+Construction Cranes:    +5% build.prod.    +10% w.power                              +1 sel. Eng.
+Construction Firm:      +40% build.prod.   +5 f.r. +20% w.power                      +2 sel. Eng.
+
+Guild Hall:             +10% h. 5% maint.             
+Manufactory:            +20% h. 10% m.                              +2 yuck          +1 sel. Eng.
+Factory:                +25% h. 25% m.     +15% h.w.power +15% f.r. +3 yuck +3 f.r.  +3 sel. Eng.
+Manufacturing Plant:    +0% h 35% m.       +65% h.w.power +15% f.r. +2 yuck +2 f.r.  +5 sel. Eng.
+Nanofactory:            +0% h 45% m.       +100% h.w.power          +1 yuck          +7 sel. Eng.
+
+Townlock:               +10% commerce                                                +1 sel. Eng.
+Tannery (req. salt):    +2 comm, +1 :)     +4 hamm & comm f.r.      +1 yuck
+
+Trademill Crane renamed into Construction Cranes
+
+---------------------
+3) unchanged production Buildings:
+
+AI Survaillance,
+Candlemakers Shop,
+Oil Raffinery,
+Orbital Factory,
+Recycling Factory,
+Reeductation Center,
+Utility Fog

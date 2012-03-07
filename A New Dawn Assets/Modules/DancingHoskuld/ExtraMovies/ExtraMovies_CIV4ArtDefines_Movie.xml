@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Movie art path information -->
+<Civ4ArtDefines xmlns="x-schema:CIV4ArtDefinesSchema.xml">
+	<MovieArtInfos>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_APOLLO_PROGRAM</Type>
+			<Path>Art/Movies/Wonders/ApolloProject.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_DISTRICT_COURTHOUSE</Type>
+			<Path>Art/Movies/Wonders/District Courthouse.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_GLOBE_THEATRE</Type>
+			<Path>Art/Movies/Wonders/GlobeTheatre.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_HERMITAGE</Type>
+			<Path>Art/Movies/Wonders/Hermitage.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_HEROIC_EPIC</Type>
+			<Path>Art/Movies/Wonders/Heroic Epic.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_IRONWORKS</Type>
+			<Path>Art/Movies/Wonders/Ironworks.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_MOAI_STATUES</Type>
+			<Path>Art/Movies/Wonders/Moai.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_MT_RUSHMORE</Type>
+			<Path>Art/Movies/Wonders/RUSHMORE.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_TEMPLE_OF_ISIS</Type>
+			<Path>Art/Movies/Wonders/Temple of Isis.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_TEMPLE_OF_OSIRIS</Type>
+			<Path>Art/Movies/Wonders/Temple of Osiris.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_TOURNAMENT</Type>
+			<Path>Art/Movies/Wonders/TOURNAMENT.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_WALL_STREET</Type>
+			<Path>Art/Movies/Wonders/Wall Street.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_WORLD_NEWS_NETWORK</Type>
+			<Path>Art/Movies/Wonders/World News Network.bik</Path>
+		</MovieArtInfo>
+	</MovieArtInfos>
+</Civ4ArtDefines>
