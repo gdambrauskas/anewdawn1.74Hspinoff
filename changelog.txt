@@ -50,4 +50,3 @@ reduced: research bonus 15% to 5%
 14. Shwedagon Pagoda
 To combat atheism exploit in the early ages
 added: 50% glocal war weariness (budhists are pacifists)
-
