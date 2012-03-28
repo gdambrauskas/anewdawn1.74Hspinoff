@@ -1,0 +1,53 @@
+TODO: seti research institute
+
+1. Palace of Potala
+changed: 25% global war weariness to 25% local to the city it's built. 
+added: 100% slower military unit production in that city.
+
+2. Statue of Zeus
+reduced: 100 to 25% global enemy war weariness.
+added: 25% great general emergence.
+
+3. Olympic games
+removed: war weariness penalty
+         unit production penalty.
+
+3. HINDU BRIHADEESWARAR
+changed: 10% for gold,research, culture and espionage to be local rather than global.
+
+4. Pyramid of the Magician
+removed: golden age trigger.
+reduced: gold from 15 to 5%. 
+
+5. Sun tzu art of war
+removed: 50% cheaper upgrade of the units.
+added: 2 experience for units built in the city 
+
+6. King's Richard crusaded
+added: 50% military unit production (it obsoletes early and is weak compared to other religion's buildings)
+
+7. Mausoleum of Maussolos
+reduced: golden age length from 50% to 10% (the wonder never obsoletes)
+
+8. Silk Road
+reduced: 100% commerce down to 25%
+
+9. Porcelain Tower
+reduced: commerce and science from 10% down to 5%
+
+10. Terracotta
+reduced: war weariness from 50% to 25%
+
+11. Silicon valley
+reduced: research bonus from 10% to 5%
+
+12. World trade center
+reduced: commerce bonus from 10% to 5%
+
+13. Encyclopedia
+reduced: research bonus 15% to 5%
+
+14. Shwedagon Pagoda
+To combat atheism exploit in the early ages
+added: 50% glocal war weariness (budhists are pacifists)
+

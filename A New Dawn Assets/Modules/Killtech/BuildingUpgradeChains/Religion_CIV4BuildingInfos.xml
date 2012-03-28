@@ -586,6 +586,7 @@
 			<iHappiness>1</iHappiness>
 			<iAsset>10</iAsset>
 			<iPower>10</iPower>
+			<iMilitaryProductionModifier>50</iMilitaryProductionModifier>
 			<fVisibilityPriority>100.0</fVisibilityPriority>
 			<YieldModifiers>
 				<iYield>0</iYield>
@@ -1001,10 +1002,11 @@
 			<iAsset>6</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceModifiers>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
-			</CommerceModifiers>
+                <iCommerce>10</iCommerce>
+                <iCommerce>10</iCommerce>
+                <iCommerce>10</iCommerce>
+                <iCommerce>10</iCommerce>
+            </CommerceModifiers>
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -1016,10 +1018,10 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<GlobalCommerceModifiers>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
 			</GlobalCommerceModifiers>
 			<ReligionChanges>
 				<ReligionChange>
@@ -1205,7 +1207,9 @@
 			<iConquestProb>100</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iFoodKept>20</iFoodKept>
-			<iGlobalWarWearinessModifier>25</iGlobalWarWearinessModifier>
+			<iWarWearinessModifier>25</iWarWearinessModifier>
+            <iMilitaryProductionModifier>-100</iMilitaryProductionModifier>
+			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
 			<iStateReligionHappiness>5</iStateReligionHappiness>
@@ -2515,7 +2519,7 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
-			<bGoldenAge>1</bGoldenAge>
+			<bGoldenAge>0</bGoldenAge>
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>560</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -2545,7 +2549,7 @@
 				<bCommerceChangeOriginalOwner>1</bCommerceChangeOriginalOwner>
 			</CommerceChangeOriginalOwners>
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>35</iCommerce>
 			</CommerceModifiers>

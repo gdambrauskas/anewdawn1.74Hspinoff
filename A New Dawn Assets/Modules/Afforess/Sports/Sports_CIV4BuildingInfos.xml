@@ -1516,8 +1516,8 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iMaintenanceModifier>0</iMaintenanceModifier>
-			<iWarWearinessModifier>50</iWarWearinessModifier>
-			<iMilitaryProductionModifier>-90</iMilitaryProductionModifier>
+			<iWarWearinessModifier>0</iWarWearinessModifier>
+			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iHappiness>3</iHappiness>
 			<iGlobalHappiness>1</iGlobalHappiness>
 			<iTradeRouteModifier>50</iTradeRouteModifier>
