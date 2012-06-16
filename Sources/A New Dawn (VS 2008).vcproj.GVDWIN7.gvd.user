@@ -9,9 +9,9 @@
 			Name="Debug|Win32"
 			>
 			<DebugSettings
-				Command="$(TargetPath)"
+				Command="W:\games\civ4\Beyond the Sword\Civ4BeyondSword.exe"
 				WorkingDirectory=""
-				CommandArguments=""
+				CommandArguments=" mod=\Rise of Mankind"
 				Attach="false"
 				DebuggerType="3"
 				Remote="1"
@@ -22,7 +22,7 @@
 				SQLDebugging=""
 				Environment=""
 				EnvironmentMerge="true"
-				DebuggerFlavor=""
+				DebuggerFlavor="0"
 				MPIRunCommand=""
 				MPIRunArguments=""
 				MPIRunWorkingDirectory=""
