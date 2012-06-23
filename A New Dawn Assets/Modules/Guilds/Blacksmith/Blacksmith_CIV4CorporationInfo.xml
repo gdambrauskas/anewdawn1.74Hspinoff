@@ -33,7 +33,7 @@
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>200</iYieldProduced>
+				<iYieldProduced>50</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldsProduced>
 			<CompetingCorporations>
@@ -64,7 +64,7 @@
 			</CommerceChanges>
 			<YieldChanges>
 				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>4</iYieldProduced>
+				<iYieldProduced>0</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldChanges>
 			<PrereqBuildingClasses>

@@ -50,10 +50,10 @@
 				</CompetingCorporation>
 			</CompetingCorporations>
 			<CommerceChanges>
-				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>4</iCommerceProduced>
-				<iCommerceProduced>0</iCommerceProduced>
+				<iCommerceProduced>2</iCommerceProduced><!-- gold -->
+				<iCommerceProduced>0</iCommerceProduced><!-- science -->
+				<iCommerceProduced>4</iCommerceProduced><!-- culture -->
+				<iCommerceProduced>0</iCommerceProduced><!-- espionage -->
 			</CommerceChanges>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -61,7 +61,7 @@
 					<iNumBuildingNeeded>1</iNumBuildingNeeded>
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
-			<iHappiness>2</iHappiness>
+			<iHappiness>4</iHappiness>
 			<iSpread>30</iSpread>
 			<Button>Modules/Guilds/Art/Buttons/bartist.dds</Button>
 			<MovieFile>NONE</MovieFile>

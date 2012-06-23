@@ -22,7 +22,7 @@
 			</PrereqBonuses>
 			<HeadquarterCommerces>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
-				<iHeadquarterCommerce>1</iHeadquarterCommerce>
+				<iHeadquarterCommerce>2</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 			</HeadquarterCommerces>
 			<BonusProduced>BONUS_GLASS</BonusProduced>
@@ -33,7 +33,7 @@
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>100</iYieldProduced>
+				<iYieldProduced>50</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldsProduced>
 			<CompetingCorporations>
@@ -64,7 +64,7 @@
 			</CommerceChanges>
 			<YieldChanges>
 				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>3</iYieldProduced>
+				<iYieldProduced>0</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldChanges>
 			<PrereqBuildingClasses>

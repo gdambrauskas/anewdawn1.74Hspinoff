@@ -34,7 +34,7 @@
 				<iCommerceProduced>0</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
-				<iYieldProduced>100</iYieldProduced>
+				<iYieldProduced>25</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldsProduced>
@@ -65,9 +65,9 @@
 				<iCommerceProduced>0</iCommerceProduced>
 			</CommerceChanges>
 			<YieldChanges>
-				<iYieldProduced>1</iYieldProduced>
-				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>0</iYieldProduced>
+				<iYieldProduced>0</iYieldProduced> <!-- food -->
+				<iYieldProduced>0</iYieldProduced> <!-- hammers -->
+				<iYieldProduced>0</iYieldProduced> <!-- commerce -->
 			</YieldChanges>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>

@@ -29,7 +29,7 @@
 			</HeadquarterCommerces>
 			<BonusProduced>NONE</BonusProduced>
 			<CommercesProduced>
-				<iCommerceProduced>150</iCommerceProduced>
+				<iCommerceProduced>25</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 			</CommercesProduced>
@@ -59,7 +59,7 @@
 			<iHealth>-1</iHealth>
 			<iHappiness>-1</iHappiness>
 			<CommerceChanges>
-				<iCommerceProduced>2</iCommerceProduced>
+				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>

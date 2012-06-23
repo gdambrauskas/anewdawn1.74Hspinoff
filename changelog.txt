@@ -1,5 +1,17 @@
 TODO: seti research institute
 
+2012/06/17
+city:
+1)removed national wonder build limit
+2)world wonder limit increased to 10
+
+corporations nerf/rebalance:
+reduce hammers and food yields
+for culture only corps, added gold global/per resource to make them viable alternative to hammer/food guilds.
+
+2012/03/27
+World wonder nerf:
+
 1. Palace of Potala
 changed: 25% global war weariness to 25% local to the city it's built. 
 added: 100% slower military unit production in that city.
@@ -49,4 +61,4 @@ reduced: research bonus 15% to 5%
 
 14. Shwedagon Pagoda
 To combat atheism exploit in the early ages
-added: 50% glocal war weariness (budhists are pacifists)
+added: 25% glocal war weariness (budhists are pacifists)

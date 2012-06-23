@@ -18,7 +18,7 @@
 			<iTGAIndex>38</iTGAIndex>
 			<HeadquarterCommerces>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
-				<iHeadquarterCommerce>1</iHeadquarterCommerce>
+				<iHeadquarterCommerce>2</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 			</HeadquarterCommerces>
 			<CommercesProduced>
@@ -52,7 +52,7 @@
 			<iHealth>2</iHealth>
 			<CommerceChanges>
 				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>4</iCommerceProduced>
+				<iCommerceProduced>6</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 			</CommerceChanges>
