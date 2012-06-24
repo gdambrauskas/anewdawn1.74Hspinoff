@@ -1,30 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
-<!-- Sid Meier's Civilization 4 -->
-<!-- Copyright Firaxis Games 2005 -->
-<!-- -->
-<!-- Unit Infos -->
-<Civ4UnitInfos xmlns="x-schema:Sea_CIV4UnitSchema.xml">
-	<UnitInfos>
-		<UnitInfo>
-			<Class>UNITCLASS_GALLEY</Class>
-			<Type>UNIT_GALLEY</Type>			<TerrainImpassables>				<TerrainImpassable>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<bTerrainImpassable>1</bTerrainImpassable>				</TerrainImpassable>			</TerrainImpassables>			<TerrainPassableTechs>				<TerrainPassableTech>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<PassableTech>TECH_ASTRONOMY</PassableTech>				</TerrainPassableTech>			</TerrainPassableTechs>
-		</UnitInfo>
-		<UnitInfo>
-			<Class>UNITCLASS_WARGALLEY</Class>
-			<Type>UNIT_WARGALLEY</Type>			<TerrainImpassables>				<TerrainImpassable>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<bTerrainImpassable>1</bTerrainImpassable>				</TerrainImpassable>			</TerrainImpassables>			<TerrainPassableTechs>				<TerrainPassableTech>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<PassableTech>TECH_ASTRONOMY</PassableTech>				</TerrainPassableTech>			</TerrainPassableTechs>
-		</UnitInfo>
-		<UnitInfo>
-			<Class>UNITCLASS_TRIREME</Class>
-			<Type>UNIT_TRIREME</Type>			<TerrainImpassables>				<TerrainImpassable>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<bTerrainImpassable>1</bTerrainImpassable>				</TerrainImpassable>			</TerrainImpassables>			<TerrainPassableTechs>				<TerrainPassableTech>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<PassableTech>TECH_ASTRONOMY</PassableTech>				</TerrainPassableTech>			</TerrainPassableTechs>
-		</UnitInfo>
-		<UnitInfo>
-			<Class>UNITCLASS_TRIREME</Class>
-			<Type>UNIT_VIKING_LONGBOAT</Type>			<TerrainImpassables>				<TerrainImpassable>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<bTerrainImpassable>1</bTerrainImpassable>				</TerrainImpassable>			</TerrainImpassables>			<TerrainPassableTechs>				<TerrainPassableTech>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<PassableTech>TECH_ASTRONOMY</PassableTech>				</TerrainPassableTech>			</TerrainPassableTechs>
-		</UnitInfo>
-		<UnitInfo>
-			<Class>UNITCLASS_QUINQUEREME</Class>
-			<Type>UNIT_QUINQUEREME</Type>			<TerrainImpassables>				<TerrainImpassable>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<bTerrainImpassable>1</bTerrainImpassable>				</TerrainImpassable>			</TerrainImpassables>			<TerrainPassableTechs>				<TerrainPassableTech>					<TerrainType>TERRAIN_OCEAN</TerrainType>					<PassableTech>TECH_ASTRONOMY</PassableTech>				</TerrainPassableTech>			</TerrainPassableTechs>
-		</UnitInfo>
-	</UnitInfos>
-</Civ4UnitInfos>
