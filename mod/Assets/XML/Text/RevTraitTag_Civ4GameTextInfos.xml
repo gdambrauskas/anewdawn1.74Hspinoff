@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- RevolutionDCM/LoR -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Objects -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+		<TEXT>
+		<Tag>TXT_KEY_TRAIT_NONSTATE_RELIGIOUS_COMMERCE</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Non State [ICON_RELIGION] Still produces [ICON_CULTURE]</English>
+		<French>
+			<Text>[NEWLINE][SPACE][SPACE][ICON_BULLET]Le [ICON_RELIGION] (non officielle) produit encore [ICON_CULTURE]</Text>
+			<Gender>Male:Female:Male:Female</Gender>
+			<Plural>0:0:1:1</Plural>
+		</French>
+		<German>
+			<Text>[NEWLINE][SPACE][SPACE][ICON_BULLET]Nicht-staatliche [ICON_RELIGION] produziert immer noch [ICON_CULTURE]</Text>
+			<Gender>Male:Neuter</Gender>
+			<Plural>0:0</Plural>
+		</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]La [ICON_RELIGION] non di Stato produrr&#224; [ICON_CULTURE]</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]La [ICON_RELIGION] no de estado a&#250;n produce [ICON_CULTURE]</Spanish>
+		<Finnish>[NEWLINE][SPACE][SPACE][ICON_BULLET]Muu kuin valtion [ICON_RELIGION] tuottaa kuitenkin [ICON_CULTURE]</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CAN_UPGRADE_ANYWHERE</Tag>
+		<English>[ICON_BULLET]Can upgrade units outside of national borders</English>
+		<French>
+			<Text>[ICON_BULLET]Peut améliorer les unités en dehors des frontières nationales</Text>
+			<Gender>Male:Female:Male:Female</Gender>
+			<Plural>0:0:1:1</Plural>
+		</French>
+		<German>
+			<Text>[ICON_BULLET]Kann Einheiten au&#223;erhalb von Staatsgrenzen modernisieren</Text>
+			<Gender>Male:Neuter</Gender>
+			<Plural>0:0</Plural>
+		</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]E' possibile aggiornare le unit&#224; al di fuori dei confini nazionali.</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]Puede actualizar unidades fuera de las fronteras nacionales.</Spanish>
+		<Finnish>[ICON_BULLET]Can upgrade units outside of national borders</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REVIDX_LOCAL</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to local RevIdx Penalty</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 de pénalité 'RevIdx'</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 zum &#246;rtlichen RevIdx Malus</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Penalit&#224; al RevIdx locale: %D1</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 de penalizaci&#243;n al RevIdx local</Spanish>
+		<Finnish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to local RevIdx Penalty</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REVIDX_NATIONAL</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to National Revolution Stability Bonus</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 de Bonus Stabilité Nationale (Révolutions)</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 zum nationalen Revolutions-Stabilit&#228;tsbonus</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Bonus Stabilit&#224; Nazionale: %D1</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 de bonificaci&#243;n a la Estabilidad Revolucionaria Nacional</Spanish>
+		<Finnish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to National Revolution Stability Bonus</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DISTANCE_MOD</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1% change to RevIdx City Distance penalty</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1% change to RevIdx City Distance penalty</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1% change to RevIdx City Distance penalty</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1% change to RevIdx City Distance penalty</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1% change to RevIdx City Distance penalty</Spanish>
+		<Finnish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1% change to RevIdx City Distance penalty</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REV_GOOD_HOLY_CITY</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to RevIdx bonus from State [ICON_RELIGION] Holy City</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 de Bonus 'RevIdx' des Villes Saintes de la religion d'état [ICON_RELIGION]</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 zum RevIdx-Bonus von der Heiligen Stadt der Staats-[ICON_RELIGION]</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Bonus al RevIdx: %D1 da Citt&#224; Santa per [ICON_RELIGION] di Stato</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 de bonificaci&#243;n al RevIdx por Ciudad Sanate de la [ICON_RELIGION] de estado</Spanish>
+		<Finnish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 to RevIdx bonus from State [ICON_RELIGION] Holy City</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REV_BAD_HOLY_CITY</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 reduction to RevIdx penalty from Non State [ICON_RELIGION] Holy City</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 de réduction de la pénalité 'RevIdx' des Villes Saintes de la religion [ICON_RELIGION] (non d'état)</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 Reduktion des RevIdx-Malus durch die Heilige Stadt der nicht-Staats-[ICON_RELIGION]</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Penalit&#224; al RevIdx: %D1 da Citt&#224; Santa per [ICON_RELIGION] non di Stato</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 de reducci&#243;n a la penalizaci&#243;n del RevIdx por Ciudad Santa [ICON_RELIGION] no de estado</Spanish>
+		<Finnish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1 reduction to RevIdx penalty from Non State [ICON_RELIGION] Holy City</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REV_NATIONALITY_MOD</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%s1% Change to Nationality Based Revolution Effects</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%S1% Effets des Révolutions liées à un changement de Nationalité</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%S1% Wechsel zu landesweiten Revolutionseinfl&#252;ssen</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Variazione fattori di Rivoluzione su base Nazionale: %S1%</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]Variaci&#243;n de los efectos basados en la Revoluci&#243;n Nacional: %S1%</Spanish>
+		<Finnish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%S1% Change to Nationality Based Revolution Effects</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BAD_RELIGION_MOD</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%s1% Change to Revolution Penalty from Non State [ICON_RELIGION]</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%S1% Pénalité de la religion [ICON_RELIGION] (non d'état)</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%S1% Wechsel zum Revolutionsmalus durch nichtstaatliche [ICON_RELIGION]</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Penalit&#224; instabilit&#224;: %S1% per [ICON_RELIGION] NON di Stato</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]Variaci&#243;n en la penalizaci&#243;n a la revoluci&#243;n por [ICON_RELIGION] NO de Estado%S1%</Spanish>
+		<Finnish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%S1% Change to Revolution Penalty from Non State [ICON_RELIGION]</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GOOD_RELIGION_MOD</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]+%s1% to Revolution Bonus from State [ICON_RELIGION]</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]+%S1% de Bonus de Révolution de la religion d'état [ICON_RELIGION]</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]+%S1% zu Revolutionsbonus durch Staats-[ICON_RELIGION]</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]Bonus stabilit&#224;: +%S1% per [ICON_RELIGION] di Stato</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]+%S1% al Bonus a la Revoluci&#243;n por [ICON_RELIGION] de Estado</Spanish>
+		<Finnish>[NEWLINE][SPACE][SPACE][ICON_BULLET]+%S1% to Revolution Bonus from State [ICON_RELIGION]</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAX_START_ERA</Tag>
+		<English>[NEWLINE][ICON_BULLET]Can only be Built on %s1_Name and Earlier Starts</English>
+		<French>[NEWLINE][ICON_BULLET]Peut uniquement être constuit par %s1_Name et aux débuts précédents</French>
+		<German>[NEWLINE][ICON_BULLET]Kann nur gebaut werden bei %s1_Name und fr&#252;heren Spielestarts</German>
+		<Italian>[NEWLINE][ICON_BULLET]Pu&#242; essere construito/a solo nella %s1_Name o precedenti</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Solo puede ser construido en %s1_Name y &#201;pocas anteriores</Spanish>
+		<Finnish>[NEWLINE][ICON_BULLET]Can only be Built on %s1_Name and Earlier Starts</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNIT_UPGRADE_COST_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% [ICON_GOLD] to Upgrade Units</English>
+		<French>[ICON_BULLET]%D1_Mod%% [ICON_GOLD] pour Améliorer les Unités</French>
+		<German>[ICON_BULLET]%D1_Mod%% [ICON_GOLD] um Einheiten zu modernisieren</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% [ICON_GOLD] per Aggiornare la/le Unit&#224;</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% [ICON_GOLD] para Actualizar Unidades</Spanish>
+		<Finnish>[ICON_BULLET]%D1_Mod%% [ICON_GOLD] to Upgrade Units</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

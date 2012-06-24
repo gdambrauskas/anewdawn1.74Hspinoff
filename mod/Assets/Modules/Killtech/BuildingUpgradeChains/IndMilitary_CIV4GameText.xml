@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARSENAL</Tag>
+		<English>Arsenal</English>
+		<French>Arsenal</French>
+		<German>Arsenal</German>
+		<Italian>Arsenal</Italian>
+		<Spanish>Arsenal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARSENAL_STRATEGY</Tag>
+		<English>Increases production of military units at the expense of a high maintenace cost.</English>
+		<French>Increases production of military units at the expense of a high maintenace cost.</French>
+		<German>Increases production of military units at the expense of a high maintenace cost.</German>
+		<Italian>Increases production of military units at the expense of a high maintenace cost.</Italian>
+		<Spanish>Increases production of military units at the expense of a high maintenace cost.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARSENAL_PEDIA</Tag>
+		<English>An arsenal is an establishment for the construction, repair, storage and issue of weapons and ammunition. The word is of Arabic origin, being a corruption of dar as-sina'ah, "house of manufacturing" or "manufacture".A first-class arsenal, which can furnish the material and equipment of a large army, embraces a gun factory, carriage factory, laboratory and small-arms ammunition factory, small-arms factory, harness, saddlery and tent factories, and a powder factory; in addition it must possess great store-houses. In a second-class arsenal the factories would be replaced by workshops. The situation of an arsenal should be governed by strategic considerations. If of the first class, it should be situated at the base of operations and supply, secure from attack, not too near a frontier, and placed so as to draw in readily the resources of the country.</English>
+		<French>An arsenal is an establishment for the construction, repair, storage and issue of weapons and ammunition. The word is of Arabic origin, being a corruption of dar as-sina'ah, "house of manufacturing" or "manufacture".A first-class arsenal, which can furnish the material and equipment of a large army, embraces a gun factory, carriage factory, laboratory and small-arms ammunition factory, small-arms factory, harness, saddlery and tent factories, and a powder factory; in addition it must possess great store-houses. In a second-class arsenal the factories would be replaced by workshops. The situation of an arsenal should be governed by strategic considerations. If of the first class, it should be situated at the base of operations and supply, secure from attack, not too near a frontier, and placed so as to draw in readily the resources of the country.</French>
+		<German>An arsenal is an establishment for the construction, repair, storage and issue of weapons and ammunition. The word is of Arabic origin, being a corruption of dar as-sina'ah, "house of manufacturing" or "manufacture".A first-class arsenal, which can furnish the material and equipment of a large army, embraces a gun factory, carriage factory, laboratory and small-arms ammunition factory, small-arms factory, harness, saddlery and tent factories, and a powder factory; in addition it must possess great store-houses. In a second-class arsenal the factories would be replaced by workshops. The situation of an arsenal should be governed by strategic considerations. If of the first class, it should be situated at the base of operations and supply, secure from attack, not too near a frontier, and placed so as to draw in readily the resources of the country.</German>
+		<Italian>An arsenal is an establishment for the construction, repair, storage and issue of weapons and ammunition. The word is of Arabic origin, being a corruption of dar as-sina'ah, "house of manufacturing" or "manufacture".A first-class arsenal, which can furnish the material and equipment of a large army, embraces a gun factory, carriage factory, laboratory and small-arms ammunition factory, small-arms factory, harness, saddlery and tent factories, and a powder factory; in addition it must possess great store-houses. In a second-class arsenal the factories would be replaced by workshops. The situation of an arsenal should be governed by strategic considerations. If of the first class, it should be situated at the base of operations and supply, secure from attack, not too near a frontier, and placed so as to draw in readily the resources of the country.</Italian>
+		<Spanish>An arsenal is an establishment for the construction, repair, storage and issue of weapons and ammunition. The word is of Arabic origin, being a corruption of dar as-sina'ah, "house of manufacturing" or "manufacture".A first-class arsenal, which can furnish the material and equipment of a large army, embraces a gun factory, carriage factory, laboratory and small-arms ammunition factory, small-arms factory, harness, saddlery and tent factories, and a powder factory; in addition it must possess great store-houses. In a second-class arsenal the factories would be replaced by workshops. The situation of an arsenal should be governed by strategic considerations. If of the first class, it should be situated at the base of operations and supply, secure from attack, not too near a frontier, and placed so as to draw in readily the resources of the country.</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARMAMENTS_INDUSTRY</Tag>
+		<English>Armaments Industry</English>
+		<French>Usine d'Armement</French>
+		<German>Rüstungsindustrie</German>
+		<Italian>Armaments Industry</Italian>
+		<Spanish>Armaments Industry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARMAMENTS_INDUSTRY_STRATEGY</Tag>
+		<English>Increases production of military units at the expense of a high maintenace cost.</English>
+		<French>Increases production of military units at the expense of a high maintenace cost.</French>
+		<German>Increases production of military units at the expense of a high maintenace cost.</German>
+		<Italian>Increases production of military units at the expense of a high maintenace cost.</Italian>
+		<Spanish>Increases production of military units at the expense of a high maintenace cost.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARMAMENTS_INDUSTRY_PEDIA</Tag>
+		<English>The arms industry is a global industry  and business  which manufactures and sells weapons and military technology and equipment. Arms producing companies, also referred to as defence companies or military industry, produce arms mainly for the armed forces of states. Products include guns, ammunition, missiles, military aircraft, military vehicles, ships, electronic systems, and more. The arms industry also conducts significant research and development.</English>
+		<French>The arms industry is a global industry  and business  which manufactures and sells weapons and military technology and equipment. Arms producing companies, also referred to as defence companies or military industry, produce arms mainly for the armed forces of states. Products include guns, ammunition, missiles, military aircraft, military vehicles, ships, electronic systems, and more. The arms industry also conducts significant research and development.</French>
+		<German>The arms industry is a global industry  and business  which manufactures and sells weapons and military technology and equipment. Arms producing companies, also referred to as defence companies or military industry, produce arms mainly for the armed forces of states. Products include guns, ammunition, missiles, military aircraft, military vehicles, ships, electronic systems, and more. The arms industry also conducts significant research and development.</German>
+		<Italian>The arms industry is a global industry  and business  which manufactures and sells weapons and military technology and equipment. Arms producing companies, also referred to as defence companies or military industry, produce arms mainly for the armed forces of states. Products include guns, ammunition, missiles, military aircraft, military vehicles, ships, electronic systems, and more. The arms industry also conducts significant research and development.</Italian>
+		<Spanish>The arms industry is a global industry  and business  which manufactures and sells weapons and military technology and equipment. Arms producing companies, also referred to as defence companies or military industry, produce arms mainly for the armed forces of states. Products include guns, ammunition, missiles, military aircraft, military vehicles, ships, electronic systems, and more. The arms industry also conducts significant research and development.</Spanish>
+	</TEXT>
+</Civ4GameText>

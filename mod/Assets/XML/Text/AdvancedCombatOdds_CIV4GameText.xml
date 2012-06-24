@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Infos -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_ACO_VS</Tag>
+		<English>[COLOR_POSITIVE_TEXT]%s1[COLOR_REVERT] vs. [COLOR_NEGATIVE_TEXT]%s2[COLOR_REVERT]</English>
+		<French>[COLOR_POSITIVE_TEXT]%s1[COLOR_REVERT] contre [COLOR_NEGATIVE_TEXT]%s2[COLOR_REVERT]</French>
+		<German>[COLOR_POSITIVE_TEXT]%s1[COLOR_REVERT] gegen [COLOR_NEGATIVE_TEXT]%s2[COLOR_REVERT]</German>
+		<Italian>[COLOR_POSITIVE_TEXT]%s1[COLOR_REVERT] vs. [COLOR_NEGATIVE_TEXT]%s2[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_POSITIVE_TEXT]%s1[COLOR_REVERT] vs. [COLOR_NEGATIVE_TEXT]%s2[COLOR_REVERT]</Spanish>
+		<Finnish>[COLOR_POSITIVE_TEXT]%s1[COLOR_REVERT] vs. [COLOR_NEGATIVE_TEXT]%s2[COLOR_REVERT]</Finnish>
+		<Hungarian>[COLOR_POSITIVE_TEXT]%s1[COLOR_REVERT] vs. [COLOR_NEGATIVE_TEXT]%s2[COLOR_REVERT]</Hungarian>
+		<Polish>[COLOR_POSITIVE_TEXT]%s1[COLOR_REVERT] przeciw [COLOR_NEGATIVE_TEXT]%s2[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_BarbFreeWinsLeft</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Barbarian free wins left:[SPACE][COLOR_REVERT]</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Nombre de Victoires automatiques contre les barbares restantes :[SPACE][COLOR_REVERT]</French>
+		<German>[COLOR_HIGHLIGHT_TEXT]&#220;brige sichere Siege gegen Barbaren:[SPACE][COLOR_REVERT]</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]Vittorie barbariche garantite rimaste:[SPACE][COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT]N&#250;mero de victorias garantizadas contra los b&#225;rbaros:[SPACE][COLOR_REVERT]</Spanish>
+		<Finnish>[COLOR_HIGHLIGHT_TEXT]Barbarian free wins left:[SPACE][COLOR_REVERT]</Finnish>
+		<Hungarian>[COLOR_HIGHLIGHT_TEXT]Barbarian free wins left:[SPACE][COLOR_REVERT]</Hungarian>
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Dormowe zwyci&#234;stwa przeciw barbarzy&#241;c&#225;:[SPACE][COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_PressSHIFT</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Press SHIFT for more detail[COLOR_REVERT]</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Appuyez sur MAJ pour plus de détails[COLOR_REVERT]</French>
+		<German>[COLOR_HIGHLIGHT_TEXT]&lt;Umschalt&gt; dr&#252;cken f&#252;r mehr Einzelheiten[COLOR_REVERT]</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]Tieni premuto SHIFT per maggiori dettagli[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT]Pulse SHIFT para m&#225;s detalles[COLOR_REVERT]</Spanish>
+		<Finnish>[COLOR_HIGHLIGHT_TEXT]Press SHIFT for more detail[COLOR_REVERT]</Finnish>
+		<Hungarian>[COLOR_HIGHLIGHT_TEXT]Press SHIFT for more detail[COLOR_REVERT]</Hungarian>
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Naci&#228;nij SHIFT po wi&#234;cej informacji[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_SurvivalOdds</Tag>
+		<English>Survival odds:[SPACE]</English>
+		<French>Chances de survie:[SPACE]</French>
+		<German>&#220;berlebenschance:[SPACE]</German>
+		<Italian>Probabilità di sopravvivenza:[SPACE]</Italian>
+		<Spanish>Probabilidad de supervivencia:[SPACE]</Spanish>
+		<Finnish>Survival odds:[SPACE]</Finnish>
+		<Hungarian>Survival odds:[SPACE]</Hungarian>
+		<Polish>Szanse przetrwania:[SPACE]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_SurvivalGuaranteed</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Survival Guaranteed![COLOR_REVERT]</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Survie Garantie![COLOR_REVERT]</French>
+		<German>[COLOR_HIGHLIGHT_TEXT]Sicheres &#220;berleben![COLOR_REVERT]</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]Sopravvivenza certa![COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT]&#161;Supervivencia garantizada![COLOR_REVERT]</Spanish>
+		<Finnish>[COLOR_HIGHLIGHT_TEXT]Survival Guaranteed![COLOR_REVERT]</Finnish>
+		<Hungarian>[COLOR_HIGHLIGHT_TEXT]Survival Guaranteed![COLOR_REVERT]</Hungarian>
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Gwarantowane przetrwanie![COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Victory</Tag>
+		<English>[COLOR_POSITIVE_TEXT]Victory[COLOR_REVERT]</English>
+		<French>[COLOR_POSITIVE_TEXT]Victoire[COLOR_REVERT]</French>
+		<German>[COLOR_POSITIVE_TEXT]Sieg[COLOR_REVERT]</German>
+		<Italian>[COLOR_POSITIVE_TEXT]Vittoria[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_POSITIVE_TEXT]Victoria[COLOR_REVERT]</Spanish>
+		<Finnish>[COLOR_POSITIVE_TEXT]Victory[COLOR_REVERT]</Finnish>
+		<Hungarian>[COLOR_POSITIVE_TEXT]Victory[COLOR_REVERT]</Hungarian>
+		<Polish>[COLOR_POSITIVE_TEXT]Zwyci&#234;stwo[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Defeat</Tag>
+		<English>[COLOR_NEGATIVE_TEXT]Defeat[COLOR_REVERT]</English>
+		<French>[COLOR_NEGATIVE_TEXT]Défaite[COLOR_REVERT]</French>
+		<German>[COLOR_NEGATIVE_TEXT]Niederlage[COLOR_REVERT]</German>
+		<Italian>[COLOR_NEGATIVE_TEXT]Sconfitta[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_NEGATIVE_TEXT]Derrota[COLOR_REVERT]</Spanish>
+		<Finnish>[COLOR_NEGATIVE_TEXT]Defeat[COLOR_REVERT]</Finnish>
+		<Hungarian>[COLOR_NEGATIVE_TEXT]Defeat[COLOR_REVERT]</Hungarian>
+		<Polish>[COLOR_NEGATIVE_TEXT]Przegrana[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Withdraw</Tag>
+		<English>[COLOR_POSITIVE_TEXT]Withdraw[COLOR_REVERT]</English>
+		<French>[COLOR_POSITIVE_TEXT]Se retirer[COLOR_REVERT]</French>
+		<German>[COLOR_POSITIVE_TEXT]Flucht[COLOR_REVERT]</German>
+		<Italian>[COLOR_POSITIVE_TEXT]Fuga[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_POSITIVE_TEXT]Repliegue[COLOR_REVERT]</Spanish>
+		<Finnish>[COLOR_POSITIVE_TEXT]Withdraw[COLOR_REVERT]</Finnish>
+		<Hungarian>[COLOR_POSITIVE_TEXT]Withdraw[COLOR_REVERT]</Hungarian>
+		<Polish>[COLOR_POSITIVE_TEXT]Wycofanie[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Retreat</Tag>
+		<English>[COLOR_UNIT_TEXT]Retreat[COLOR_REVERT]</English>
+		<French>[COLOR_UNIT_TEXT]Retraite[COLOR_REVERT]</French>
+		<German>[COLOR_UNIT_TEXT]R&#252;ckzug[COLOR_REVERT]</German>
+		<Italian>[COLOR_UNIT_TEXT]Ritirata[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_UNIT_TEXT]Retirada[COLOR_REVERT]</Spanish>
+		<Finnish>[COLOR_UNIT_TEXT]Retreat[COLOR_REVERT]</Finnish>
+		<Hungarian>[COLOR_UNIT_TEXT]Retreat[COLOR_REVERT]</Hungarian>
+		<Polish>[COLOR_UNIT_TEXT]Ucieczka[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_AverageHP</Tag>
+		<English>[NEWLINE]Average HP:[SPACE]</English>
+		<French>[NEWLINE]PV Moyen:[SPACE]</French>
+		<German>[NEWLINE]Mittlere TP:[SPACE]</German>
+		<Italian>[NEWLINE]PV medi:[SPACE]</Italian>
+		<Spanish>[NEWLINE]PG promedio:[SPACE]</Spanish>
+		<Finnish>[NEWLINE]Average HP:[SPACE]</Finnish>
+		<Hungarian>[NEWLINE]Average HP:[SPACE]</Hungarian>
+		<Polish>[NEWLINE]&#196;rednie HP:[SPACE]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_Unharmed</Tag>
+		<English>[NEWLINE]Unharmed:[SPACE]</English>
+		<French>[NEWLINE]Indemne:[SPACE]</French>
+		<German>[NEWLINE]Unversehrt:[SPACE]</German>
+		<Italian>[NEWLINE]Disarmato:[SPACE]</Italian>
+		<Spanish>[NEWLINE]Ileso:[SPACE]</Spanish>
+		<Finnish>[NEWLINE]Unharmed:[SPACE]</Finnish>
+		<Hungarian>[NEWLINE]Unharmed:[SPACE]</Hungarian>
+		<Polish>[NEWLINE]Brak obra&#235;e&#241;:[SPACE]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_UnroundedXP</Tag>
+		<English>[NEWLINE]Unrounded XP:[SPACE]</English>
+		<French>[NEWLINE]EXP Non-arrondi:[SPACE]</French>
+		<German>[NEWLINE]Ungerundete EP:[SPACE]</German>
+		<Italian>[NEWLINE]XP non arrotondati:[SPACE]</Italian>
+		<Spanish>[NEWLINE]XP no redondeados:[SPACE]</Spanish>
+		<Finnish>[NEWLINE]Unrounded XP:[SPACE]</Finnish>
+		<Hungarian>[NEWLINE]Unrounded XP:[SPACE]</Hungarian>
+		<Polish>[NEWLINE]Nie zaokr&#225;glone XP:[SPACE]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_TotalDefenseModifier</Tag>
+		<English>[NEWLINE]Total defense modifier:[SPACE]</English>
+		<French>[NEWLINE]Modificateur Total de défense:[SPACE]</French>
+		<German>[NEWLINE]Verteidigungsmodifikator absolut:[SPACE]</German>
+		<Italian>[NEWLINE]Modificatore difensivo totale:[SPACE]</Italian>
+		<Spanish>[NEWLINE]Modificador defensivo total:[SPACE]</Spanish>
+		<Finnish>[NEWLINE]Total defense modifier:[SPACE]</Finnish>
+		<Hungarian>[NEWLINE]Total defense modifier:[SPACE]</Hungarian>
+		<Polish>[NEWLINE]Ca&#244;kowity modyfikator obrony:[SPACE]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_AttackModifiers</Tag>
+		<English>[NEWLINE][COLOR_POSITIVE_TEXT]Attack modifiers:[COLOR_REVERT]</English>
+		<French>[NEWLINE][COLOR_POSITIVE_TEXT]Modificateurs d'Attaque:[COLOR_REVERT]</French>
+		<German>[NEWLINE][COLOR_POSITIVE_TEXT]Angriffsmodifikatoren:[COLOR_REVERT]</German>
+		<Italian>[NEWLINE][COLOR_POSITIVE_TEXT]Modificatori offensivi:[COLOR_REVERT]</Italian>
+		<Spanish>[NEWLINE][COLOR_POSITIVE_TEXT]Modificadores de ataque:[COLOR_REVERT]</Spanish>
+		<Finnish>[NEWLINE][COLOR_POSITIVE_TEXT]Attack modifiers:[COLOR_REVERT]</Finnish>
+		<Hungarian>[NEWLINE][COLOR_POSITIVE_TEXT]Attack modifiers:[COLOR_REVERT]</Hungarian>
+		<Polish>[NEWLINE][COLOR_POSITIVE_TEXT]Modyfikator Ataku:[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_DefenseModifiers</Tag>
+		<English>[NEWLINE][COLOR_NEGATIVE_TEXT]Defense modifiers:[COLOR_REVERT]</English>
+		<French>[NEWLINE][COLOR_NEGATIVE_TEXT]Modificateurs de Défense:[COLOR_REVERT]</French>
+		<German>[NEWLINE][COLOR_NEGATIVE_TEXT]Verteidigungsmodifikatoren:[COLOR_REVERT]</German>
+		<Italian>[NEWLINE][COLOR_NEGATIVE_TEXT]Modificatori difensivi:[COLOR_REVERT]</Italian>
+		<Spanish>[NEWLINE][COLOR_NEGATIVE_TEXT]Modificadores defensivos:[COLOR_REVERT]</Spanish>
+		<Finnish>[NEWLINE][COLOR_NEGATIVE_TEXT]Defense modifiers:[COLOR_REVERT]</Finnish>
+		<Hungarian>[NEWLINE][COLOR_NEGATIVE_TEXT]Defense modifiers:[COLOR_REVERT]</Hungarian>
+		<Polish>[NEWLINE][COLOR_NEGATIVE_TEXT]Modyfikator Obrony:[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_GuaranteedNoDefenderHit</Tag>
+		<English>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Guaranteed! Defender cannot score a hit.[COLOR_REVERT]</English>
+		<French>[NEWLINE][COLOR_HIGHLIGHT_TEXT]C'est garanti! L'unité défensive ne peut porter de coup.[COLOR_REVERT]</French>
+		<German>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Sicher! Der Verteidiger kann keinen Treffer landen.[COLOR_REVERT]</German>
+		<Italian>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Certa! I difensori non possono colpire neppure una volta.[COLOR_REVERT]</Italian>
+		<Spanish>[NEWLINE][COLOR_HIGHLIGHT_TEXT]&#161;Garantizado! El defensor no puede dar en el blanco.[COLOR_REVERT]</Spanish>
+		<Finnish>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Guaranteed! Defender cannot score a hit.[COLOR_REVERT]</Finnish>
+		<Hungarian>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Guaranteed! Defender cannot score a hit.[COLOR_REVERT]</Hungarian>
+		<Polish>[NEWLINE][COLOR_HIGHLIGHT_TEXT]Gwarantowane! Obro&#241;ca nie mo&#235;e wykon&#225;c uderzenia.[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_HitsAt</Tag>
+		<English>hits at</English>
+		<French>frappe à</French>
+		<German>trifft</German>
+		<Italian>colpisce a</Italian>
+		<Spanish>golpea a</Spanish>
+		<Finnish>hits at</Finnish>
+		<Hungarian>hits at</Hungarian>
+		<Polish>uderzenie w</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_HP</Tag>
+		<English>HP</English>
+		<French>PV</French>
+		<German>TP</German>
+		<Italian>PV</Italian>
+		<Spanish>PG</Spanish>
+		<Finnish>HP</Finnish>
+		<Hungarian>HP</Hungarian>
+		<Polish>HP</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_INJURED_HP</Tag>
+		<English>%d1/%d2HP</English>
+		<French>%d1/%d2PV</French>
+		<German>%d1/%d2TP</German>
+		<Italian>%d1/%d2PV</Italian>
+		<Spanish>%d1/%d2PG</Spanish>
+		<Finnish>%d1/%d2HP</Finnish>
+		<Hungarian>%d1/%d2HP</Hungarian>
+		<Polish>%d1/%d2HP</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_HP_NEUTRAL</Tag>
+		<English>[COLOR_UNIT_TEXT]HP[COLOR_REVERT]</English>
+		<French>[COLOR_UNIT_TEXT]PV[COLOR_REVERT]</French>
+		<German>[COLOR_UNIT_TEXT]TP[COLOR_REVERT]</German>
+		<Italian>[COLOR_UNIT_TEXT]PV[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_UNIT_TEXT]PG[COLOR_REVERT]</Spanish>
+		<Finnish>[COLOR_UNIT_TEXT]HP[COLOR_REVERT]</Finnish>
+		<Hungarian>[COLOR_UNIT_TEXT]HP[COLOR_REVERT]</Hungarian>
+		<Polish>[COLOR_UNIT_TEXT]HP[COLOR_REVERT]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_ACO_XP</Tag>
+		<English>XP</English>
+		<French>EXP</French>
+		<German>EP</German>
+		<Italian>XP</Italian>
+		<Spanish>XP</Spanish>
+		<Finnish>XP</Finnish>
+		<Hungarian>XP</Hungarian>
+		<Polish>XP</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_ACO_MULTIPLY</Tag>
+		<English>&#x0D7;</English>
+		<French>&#x0D7;</French>
+		<German>&#x0D7;</German>
+		<Italian>&#x0D7;</Italian>
+		<Spanish>&#x0D7;</Spanish>
+		<Finnish>&#x0D7;</Finnish>
+		<Hungarian>&#x0D7;</Hungarian>
+		<Polish>&#x0D7;</Polish>
+		<Russian>&#x0D7;</Russian>
+		<Chinese>&#x0D7;</Chinese>
+		<Japanese>&#x0D7;</Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_BULLET</Tag>
+		<English>[ICON_BULLET]</English>
+		<French>[ICON_BULLET]</French>
+		<German>[ICON_BULLET]</German>
+		<Italian>[ICON_BULLET]</Italian>
+		<Spanish>[ICON_BULLET]</Spanish>
+		<Finnish>[ICON_BULLET]</Finnish>
+		<Hungarian>[ICON_BULLET]</Hungarian>
+		<Polish>[ICON_BULLET]</Polish>
+		<Russian>[ICON_BULLET]</Russian>
+		<Chinese>[ICON_BULLET]</Chinese>
+		<Japanese>[ICON_BULLET]</Japanese>
+	</TEXT>
+</Civ4GameText>

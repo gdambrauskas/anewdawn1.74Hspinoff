@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text Infos -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_BONUS_CONSUMES</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</English>
+		<French>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</French>
+		<German>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</Spanish>
+		<Finnish>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</Finnish>
+		<Hungarian>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</Hungarian>
+		<Polish>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</Polish>
+		<Russian>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</Russian>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</Chinese>
+		<Japanese>[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon)</Japanese>
+	</TEXT>
+</Civ4GameText>

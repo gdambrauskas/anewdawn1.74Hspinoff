@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Memory Infos -->
+<!-- -->
+<!-- MODDERS WARNING!	Memories are hard coded enumerated in the SDK -->
+<!-- MODDERS WARNING!	Memories are hard coded enumerated in the SDK -->
+<!-- MODDERS WARNING!	Memories are hard coded enumerated in the SDK -->
+<!-- MODDERS WARNING!	Memories are hard coded enumerated in the SDK -->
+<!-- MODDERS WARNING!	Memories are hard coded enumerated in the SDK -->
+<Civ4MemoryInfos xmlns="x-schema:Afforess_CIV4BasicInfoSchema.xml">
+	<MemoryInfos>
+		<MemoryInfo>
+			<Type>MEMORY_RECALLED_AMBASSADOR</Type>
+			<Description>TXT_KEY_MEMORY_RECALLED_AMBASSADOR</Description>
+		</MemoryInfo>
+		<MemoryInfo>
+			<Type>MEMORY_WARMONGER</Type>
+			<Description>TXT_KEY_MEMORY_WARMONGER</Description>
+		</MemoryInfo>
+		<MemoryInfo>
+			<Type>MEMORY_MADE_PEACE</Type>
+			<Description>TXT_KEY_MEMORY_MADE_PEACE</Description>
+		</MemoryInfo>
+		<MemoryInfo>
+			<Type>MEMORY_SACKED_CITY</Type>
+			<Description>TXT_KEY_MEMORY_SACKED_CITY</Description>
+		</MemoryInfo>
+		<MemoryInfo>
+			<Type>MEMORY_SACKED_HOLY_CITY</Type>
+			<Description>TXT_KEY_MEMORY_SACKED_HOLY_CITY</Description>
+		</MemoryInfo>
+		<MemoryInfo>
+			<Type>MEMORY_ENSLAVED_CITIZENS</Type>
+			<Description>TXT_KEY_MEMORY_ENSLAVED_CITIZENS</Description>
+		</MemoryInfo>
+		<MemoryInfo>
+			<Type>MEMORY_BACKSTAB</Type>
+			<Description>TXT_KEY_MEMORY_BACKSTAB</Description>
+		</MemoryInfo>
+		<MemoryInfo>
+			<Type>MEMORY_BACKSTAB_FRIEND</Type>
+			<Description>TXT_KEY_MEMORY_BACKSTAB_FRIEND</Description>
+		</MemoryInfo>
+	</MemoryInfos>
+</Civ4MemoryInfos>

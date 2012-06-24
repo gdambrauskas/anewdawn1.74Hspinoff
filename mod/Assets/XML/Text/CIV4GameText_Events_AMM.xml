@@ -1,0 +1,2467 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New Events for the AMM -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- New Custom Event Information Here -->
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_FAMOUS_DOCTOR</Tag>
+		<English>A world-reknown doctor is retiring in the %s1_civ_adjective city of %s2_city, and he has donated his fortunes towards his fellow citizens' health.</English>
+		<French>Un docteur de renommée mondiale a décidé de prendre sa retraite dans la ville %s1:2_civ_adjective de %s2_city, et il a décidé de dédier sa fortune à l'amélioration des conditions sanitaires de ses compatriotes.</French>
+		<German>Ein weltbekannter Arzt in der %s1_civ_adjective Stadt %s2_city setzt sich zur Ruhe und spendet sein Vermögen für die Gesundheit seiner Mitbürger.</German>
+		<Italian>A world-reknown doctor is retiring in the %s1_civ_adjective city of %s2_city, and he has donated his fortunes towards his fellow citizens' health.</Italian>
+		<Spanish>A world-reknown doctor is retiring in the %s1_civ_adjective city of %s2_city, and he has donated his fortunes towards his fellow citizens' health.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FAMOUS_DOCTOR</Tag>
+		<English>A world-reknown doctor has decided to retire in %s2_city and is giving his fortune to local charities.  How should this money be used?</English>
+		<French>Un docteur de renommée mondiale a décidé de prendre sa retraite dans la ville de %s2_city, et veux donner sa fortune aux oeuvres de charité locales. Comment voulez-vous que cet or soit réparti ?</French>
+		<German>Ein weltbekannter Arzt in der %s1_civ_adjective Stadt %s2_city setzt sich zur Ruhe und spendet sein Vermögen der örtlichen Wohlfahrt. Wie sollte das Geld verwendet werden?</German>
+		<Italian>A world-reknown doctor has decided to retire in %s2_city and is giving his fortune to local charities.  How should this money be used?</Italian>
+		<Spanish>A world-reknown doctor has decided to retire in %s2_city and is giving his fortune to local charities.  How should this money be used?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FAMOUS_DOCTOR_1</Tag>
+		<English>Put this money towards a research hospital annex onto our university.</English>
+		<French>Investir cet argent pour établir un centre de recherche médicale en annexe de notre université.</French>
+		<German>Verwendet das Geld für ein Forschungskrankenhaus als Erweiterung unserer Universität.</German>
+		<Italian>Put this money towards a research hospital annex onto our university.</Italian>
+		<Spanish>Put this money towards a research hospital annex onto our university.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FAMOUS_DOCTOR_2</Tag>
+		<English>Use this money to establish free clinics in the city, to care for the sick and injured.</English>
+		<French>Utiliser cet argent pour implanter des cliniques gratuites dans la ville, pour s'occuper des malades et des blessés.</French>
+		<German>Verwende das Geld für kostenlose Kliniken in der Stadt, die sich um die Kranken und Verwundeten kümmern.</German>
+		<Italian>Use this money to establish free clinics in the city, to care for the sick and injured.</Italian>
+		<Spanish>Use this money to establish free clinics in the city, to care for the sick and injured.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HARDY_CROPS</Tag>
+		<English>Biologists in the %s1_civ_adjective Empire have developed a hardy crop that has increased food production.</English>
+		<French>Des Biologistes de l'Empire %s1_civ_adjective ont développé une nouvelle variété de céréales qui a permis d'augmenter la production de nourriture.</French>
+		<German>Biologen im %s1_civ_adjective Reich haben ein resistentes Getreide entwickelt welches unsere Nahrungsmittelproduktion erhöht.</German>
+		<Italian>Biologists in the %s1_civ_adjective Empire have developed a hardy crop that has increased food production.</Italian>
+		<Spanish>Biologists in the %s1_civ_adjective Empire have developed a hardy crop that has increased food production.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARDY_CROPS</Tag>
+		<English>After years of careful breeding, our biologists have developed a very resilient crop ideally suited for this region.  Although it cannot grow as well elsewhere, local food production is booming.</English>
+		<French>Après des années de croisements minutieux, nos biologistes ont développé une nouvelle variété de céréales très adaptée à cette région. Bien qu'elle ne puisse pas pousser dans de bonnes conditions ailleurs, la production locale de nourriture est boostée.</French>
+		<German>Nach Jahren von mühsamer Zucht und Auslese haben unsere Biologen ein anspruchsloses Getreide entwickelt, welches an doese region optimal angepasst ist. Es kann zwar andernorts nicht so gut gedeihen, doch die örtliche Nahrungsproduktion wird deutlich gesteigert.</German>
+		<Italian>After years of careful breeding, our biologists have developed a very resilient crop ideally suited for this region.  Although it cannot grow as well elsewhere, local food production is booming.</Italian>
+		<Spanish>After years of careful breeding, our biologists have developed a very resilient crop ideally suited for this region.  Although it cannot grow as well elsewhere, local food production is booming.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARDY_CROPS_1</Tag>
+		<English>The extra food can feed the denizens in nearby cities.</English>
+		<French>La nourriture supplémentaire peut nourrir les nécessiteux des cités à proximité.</French>
+		<German>Die zusätzlichen Lebensmittel können die Bewohner von Nachbarstädten ernähren.</German>
+		<Italian>The extra food can feed the denizens in nearby cities.</Italian>
+		<Spanish>The extra food can feed the denizens in nearby cities.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_PRIME_TIMBER</Tag>
+		<English>Trees in a local region of the %s1_civ_adjective Empire are particularly good building material.</English>
+		<French>Les arbres d'une région de l'Empire %s1_civ_adjective sont particulièrement adapté en tant que matériau de construction.</French>
+		<German>Bäume in einer bestimmten region des %s1_civ_adjective Reiches erweisen sich als besonders gutes Baumaterial.</German>
+		<Italian>Trees in a local region of the %s1_civ_adjective Empire are particularly good building material.</Italian>
+		<Spanish>Trees in a local region of the %s1_civ_adjective Empire are particularly good building material.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PRIME_TIMBER</Tag>
+		<English>Trees in this region have grown particularly tall and strong, and are excellent building material.</English>
+		<French>Les arbres de cette région ont particulièrement bien poussé et leur bois est très dur. Ils constituent un excellent matériau pour nos construction</French>
+		<German>Bäume in dieser Region sind besonders kräftig und hoch gewachsen und erweisen sich als ausgezeichnetes Baumaterial.</German>
+		<Italian>Trees in this region have grown particularly tall and strong, and are excellent building material.</Italian>
+		<Spanish>Trees in this region have grown particularly tall and strong, and are excellent building material.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PRIME_TIMBER_1</Tag>
+		<English>Don't chop them all at once.</English>
+		<French>Ne les abattez pas tous en même temps.</French>
+		<German>Fällt sie nicht alle auf einmal.</German>
+		<Italian>Don't chop them all at once.</Italian>
+		<Spanish>Don't chop them all at once.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_MAGNA_CARTA_1</Tag>
+		<English>Aristocrats in the %s1_civ_adjective Empire have forced their monarch to sign a bill guaranteeing basic human rights.</English>
+		<French>Des Aristocrates de l'Empire %s1_civ_adjective ont incité leur monarque à signer une déclaration garantissant les droits fondamentaux des hommes.</French>
+		<German>Aristokraten im %s1_civ_adjective Reich haben ihren Herrscher gezwungen, eine Urkunde zu unterzeichnen, die einige grundlegende Menschenrechte garantiert.</German>
+		<Italian>Aristocrats in the %s1_civ_adjective Empire have forced their monarch to sign a bill guaranteeing basic human rights.</Italian>
+		<Spanish>Aristocrats in the %s1_civ_adjective Empire have forced their monarch to sign a bill guaranteeing basic human rights.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_MAGNA_CARTA_2</Tag>
+		<English>Unruly aristocrats in the %s1_civ_adjective Empire were punished after attempting to force their monarch into surrendering power.</English>
+		<French>Des Aristocrates indisciplinés de l'Empire %s1_civ_adjective ont été punis à la suite de leur tentative de renverser leur monarque de ses fonctions.</French>
+		<German>Widerspenstige Aristokraten im %s1_civ_adjective Reich wurden bestraft, nachdem sie versucht haben, ihren Monarchen zur Übergabe eines Teiles der Macht zu zwingen.</German>
+		<Italian>Unruly aristocrats in the %s1_civ_adjective Empire were punished after attempting to force their monarch into surrendering power.</Italian>
+		<Spanish>Unruly aristocrats in the %s1_civ_adjective Empire were punished after attempting to force their monarch into surrendering power.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MAGNA_CARTA</Tag>
+		<English>Local aristocrats, frustrated with your absolutist rule, have drafted a bill of rights that guarantees basic rights, such as fair trials by jury.  Shall you sign this petition, or denounce it?</English>
+		<French>Des Aristocrates locaux, frustrés de votre pouvoir absolu, ont rédigé une déclaration de droits fondamentaux à garantir selon eux à tous nos sujets. Voulez-vous signer ce document, ou le dénoncer ?</French>
+		<German>Hiesige Aristokraten sind frustriert von Deiner absoluten Herrschaft und haben ein Gesetz entworfen, dass grundlegende Rechte wie faire Gerichtsverhandlungen garantieren soll. Wirst Du die Petition unterschreiben oder ablehnen?</German>
+		<Italian>Local aristocrats, frustrated with your absolutist rule, have drafted a bill of rights that guarantees basic rights, such as fair trials by jury.  Shall you sign this petition, or denounce it?</Italian>
+		<Spanish>Local aristocrats, frustrated with your absolutist rule, have drafted a bill of rights that guarantees basic rights, such as fair trials by jury.  Shall you sign this petition, or denounce it?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MAGNA_CARTA_1</Tag>
+		<English>Sign the bill of rights and give the aristocrats some liberty in ruling their lands.</English>
+		<French>Signer la déclaration et donner à ces aristocrates quelques libertés pour gérer leurs terres.</French>
+		<German>Unterzeichne das Gesetz und gebe den Aristokraten einige Freiheiten.</German>
+		<Italian>Sign the bill of rights and give the aristocrats some liberty in ruling their lands.</Italian>
+		<Spanish>Sign the bill of rights and give the aristocrats some liberty in ruling their lands.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MAGNA_CARTA_2</Tag>
+		<English>Treachery!  Stop these pompous aristocrats and raise their taxes for their insolence!</English>
+		<French>Les Traitres! Arrêtez ces aristocrates popeux et augmentez-leur les impôts pour leur faire passer leur insolence!</French>
+		<German>Verrat!  Stoppt diese aufgeblasenen Aristokraten und erhöht ihre Steuern als Strafe für diese Anmaßung!</German>
+		<Italian>Treachery!  Stop these pompous aristocrats and raise their taxes for their insolence!</Italian>
+		<Spanish>Treachery!  Stop these pompous aristocrats and raise their taxes for their insolence!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_LEVITTOWN</Tag>
+		<English>Workers are buying up cheap suburban housing recently built near the %s1_civ_adjective city of %s2_city.</English>
+		<French>De nombreux citoyens ont été séduits par un projet de lotissement urbain en banlieue près de la ville %s1_civ_adjective de %s2_city.</French>
+		<German>Arbeiter kaufen günstige Vorstadthäuser, die kürzlich in der Nähe der %s1_civ_adjective city Stadt %s2_city errichtet wurden.</German>
+		<Italian>Workers are buying up cheap suburban housing recently built near the %s1_civ_adjective city of %s2_city.</Italian>
+		<Spanish>Workers are buying up cheap suburban housing recently built near the %s1_civ_adjective city of %s2_city.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LEVITTOWN</Tag>
+		<English>An innovative homebuilder has constructed a series of identical, mass-produced houses, giving cheap housing to commuting workers.</English>
+		<French>Un promoteur immobilier a mené un projet innovant de lotissement urbain en banlieue, permettant à de nombreux citoyens de posséder une maison à un coût très intéressant</French>
+		<German>Eine innovative Hausbaufirma hat eine Reihe von gleichartigen, massengefertigten Häusern konstruiert, die den örtlichen Pendlern günstige Unterkünfte bieten.</German>
+		<Italian>An innovative homebuilder has constructed a series of identical, mass-produced houses, giving cheap housing to commuting workers.</Italian>
+		<Spanish>An innovative homebuilder has constructed a series of identical, mass-produced houses, giving cheap housing to commuting workers.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LEVITTOWN_1</Tag>
+		<English>The influx of new commuters will boost the local economy.</English>
+		<French>L'afflut de nouveaux travailleurs va booster notre économie locale.</French>
+		<German>Der Einfluss von zusätzlichen Pendlern wird die regionale Wirtschaft fördern.</German>
+		<Italian>The influx of new commuters will boost the local economy.</Italian>
+		<Spanish>The influx of new commuters will boost the local economy.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_BHOPAL</Tag>
+		<English>Improper failsafes on storage tanks at a chemical plant in %s2_city have released toxins into a nearby residential area.  Thousands of %s1_civ_adjective citizens have died, and the living are demanding action.</English>
+		<French>En raison de dispositifs de sécurité défectueux au sein d'une usine chimique, une quantité importante de produits toxiques ont contaminé un quartier résidentiel de %s2_city. Des Milliers de citoyens %s1:3_civ_adjective sont morts, et les survivants demandent des actions.</French>
+		<German>Fehlerhafte Speichertanks in einer Chemikalienfabrik in %s2_city haben Toxine in einer nahegelegenen Wohnsiedlung freigesetzt.  Tausende von %s1_civ_adjective Bürgern sind gestorben, die Überlebenden verlangen nach Maßnahmen.</German>
+		<Italian>Improper failsafes on storage tanks at a chemical plant in %s2_city have released toxins into a nearby residential area.  Thousands of %s1_civ_adjective citizens have died, and the living are demanding action.</Italian>
+		<Spanish>Improper failsafes on storage tanks at a chemical plant in %s2_city have released toxins into a nearby residential area.  Thousands of %s1_civ_adjective citizens have died, and the living are demanding action.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BHOPAL</Tag>
+		<English>Improper failsafes on storage tanks at a chemical plant in %s2_city have released toxins into a nearby residential area.  Thousands have died, and the living are demanding action.</English>
+		<French>En raison de dispositifs de sécurité défectueux au sein d'une usine chimique, une quantité importante de produits toxiques ont contaminé un quartier résidentiel de %s2_city. Des Milliers de nos citoyens sont morts, et les survivants demandent des actions.</French>
+		<German>Fehlerhafte Speichertanks in einer Chemikalienfabrik in %s2_city haben Toxine in einer nahegelegenen Wohnsiedlung freigesetzt.  Tausende von %s1_civ_adjective Bürgern sind gestorben, die Überlebenden verlangen nach Maßnahmen.</German>
+		<Italian>Improper failsafes on storage tanks at a chemical plant in %s2_city have released toxins into a nearby residential area.  Thousands have died, and the living are demanding action.</Italian>
+		<Spanish>Improper failsafes on storage tanks at a chemical plant in %s2_city have released toxins into a nearby residential area.  Thousands have died, and the living are demanding action.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BHOPAL_1</Tag>
+		<English>Launch a full investigation, and create a government safety agency to try to prevent these kinds of incidents from happening again.</English>
+		<French>Lancer une enquête détaillée pour déterminer l'origine de cette catastrophe, et créer une agence gouvernementale de sécurité pour prévenir que de tels incidents ne se reproduisent.</French>
+		<German>Starte eine eingehende Untersuchung und gründe eine staatliche Aufsichtsbehörde, die sicherstellt, dass solche Unfälle nie wieder geschehen.</German>
+		<Italian>Launch a full investigation, and create a government safety agency to try to prevent these kinds of incidents from happening again.</Italian>
+		<Spanish>Launch a full investigation, and create a government safety agency to try to prevent these kinds of incidents from happening again.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BHOPAL_2</Tag>
+		<English>Create a committee to investigate the incident and draw up new regulatory measures.</English>
+		<French>Créer une commission d'enquête pour déterminer l'origine de cette catastrophe, et préconiser de nouvelles mesures règlementaires.</French>
+		<German>Gründe ein Kommittee, dass den Vorfall untersucht und neue Regularien entwirft.</German>
+		<Italian>Create a committee to investigate the incident and draw up new regulatory measures.</Italian>
+		<Spanish>Create a committee to investigate the incident and draw up new regulatory measures.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BHOPAL_3</Tag>
+		<English>We cannot afford this expense; let's allow the market to regulate itself without intervention.</English>
+		<French>Nous ne pouvons nous permettre d'investir d'argent dans ce domaine : Laisser les responsables régler le problème sans intervenir.</French>
+		<German>Wir können und die Ausgaben nicht leisten; lass den Markt sich selbst regulieren ohne unsere Intervention.</German>
+		<Italian>We cannot afford this expense; let's allow the market to regulate itself without intervention.</Italian>
+		<Spanish>We cannot afford this expense; let's allow the market to regulate itself without intervention.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_RESORT_TOWN</Tag>
+		<English>The latest tourist hot spot is a town outside the %s1_civ_adjective city of %s2_city, and the local economy is booming.</English>
+		<French>La dernière destination touristique à la mode est une petite ville à proximité de la Ville %s1:2_civ_adjective de %s2_city, et l'économie locale explose là-bas.</French>
+		<German>Die neueste Touristenhochburg ist ein Ort außerhalb der %s1_civ_adjective Stadt %s2_city, die lokale Wirtschaft boomt.</German>
+		<Italian>The latest tourist hot spot is a town outside the %s1_civ_adjective city of %s2_city, and the local economy is booming.</Italian>
+		<Spanish>The latest tourist hot spot is a town outside the %s1_civ_adjective city of %s2_city, and the local economy is booming.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RESORT_TOWN</Tag>
+		<English>Reknown for its shopping and friendly atmosphere, a town outside the city of %s2_city attracts tourists from far and wide.</English>
+		<French>Reconnue pour son atmosphère chaleureuse et amicale, une petite ville près de %s2_city attire les touristes venus du monde entier.</French>
+		<German>Ein Ort vor den Toren von %s2_city ist bekannt für seine Einkaufsmöglichkeiten und seine freundliche Atmosphäre und zieht Touristen aus nah und fern an.</German>
+		<Italian>Reknown for its shopping and friendly atmosphere, a town outside the city of %s2_city attracts tourists from far and wide.</Italian>
+		<Spanish>Reknown for its shopping and friendly atmosphere, a town outside the city of %s2_city attracts tourists from far and wide.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RESORT_TOWN_1</Tag>
+		<English>Who doesn't love window shopping?  Cash in on these tourists!</English>
+		<French>Qui n'aime pas le Shopping?  Développez cet eldorado et laissez les touristes passer à la caisse !</French>
+		<German>Lieben wir nicht alle den Schaufensterbummel?  Lasst uns an diesen Touristen gut verdienen!</German>
+		<Italian>Who doesn't love window shopping?  Cash in on these tourists!</Italian>
+		<Spanish>Who doesn't love window shopping?  Cash in on these tourists!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_LOCAL_MILLS</Tag>
+		<English>A town outside the %s1_civ_adjective city of %s2_city has built several small mills, increasing local production.</English>
+		<French>Une petite ville à proximité de la Ville %s1:2_civ_adjective de %s2_city a construit plusieurs petites manufactures, augmentant la production locale.</French>
+		<German>Eine Gemeinde vor den Toren der %s1_civ_adjective Stadt %s2_city hat einige kleine Mühlen gebaut die die örtliche Produktion verbessern.</German>
+		<Italian>A town outside the %s1_civ_adjective city of %s2_city has built several small mills, increasing local production.</Italian>
+		<Spanish>A town outside the %s1_civ_adjective city of %s2_city has built several small mills, increasing local production.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LOCAL_MILLS</Tag>
+		<English>Citizens living near the city of %s2_city have built many mills, allowing them to produce a wide variety of consumer goods.</English>
+		<French>Les Citoyens habitant près de la Ville de %s2_city ont construit de petites manufactures, leur permettant de produire une grande variété de biens de consommation.</French>
+		<German>Bürger in der Nähe von %s2_city haben viele Mühlen gebaut, die es ihnen ermöglichen eine Vielzahl von Produkten herzustellen.</German>
+		<Italian>Citizens living near the city of %s2_city have built many mills, allowing them to produce a wide variety of consumer goods.</Italian>
+		<Spanish>Citizens living near the city of %s2_city have built many mills, allowing them to produce a wide variety of consumer goods.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LOCAL_MILLS_1</Tag>
+		<English>Excellent.  We could harness this production for other means as well.</English>
+		<French>Excellent. Nous pourrons adapter cette production pour d'autres projets si nécessaire.</French>
+		<German>Ausgezeichnet.  Wir könnten diese Produktion auch für andere Dinge ausnutzen.</German>
+		<Italian>Excellent.  We could harness this production for other means as well.</Italian>
+		<Spanish>Excellent.  We could harness this production for other means as well.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_CITIZENS_LABORS</Tag>
+		<English>Industrious citizens are building infrastructure in the %s1_civ_adjective city of %s2_city.</English>
+		<French>Des Entrepreneurs sont en train de construire de nouvelles infrastructures dans la ville %s1:2_civ_adjective de %s2_city.</French>
+		<German>Fleißige Bürger errichten Infrastruktur in der %s1_civ_adjective Stadt %s2_city.</German>
+		<Italian>Industrious citizens are building infrastructure in the %s1_civ_adjective city of %s2_city.</Italian>
+		<Spanish>Industrious citizens are building infrastructure in the %s1_civ_adjective city of %s2_city.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CITIZENS_LABORS</Tag>
+		<English>Our citizens in %s2_city have volunteered to erect new infrastructure.</English>
+		<French>Nos Citoyens de %s2_city sont volontaires pour construire de nouvelles infrastrustures.</French>
+		<German>Unsere Bürger in %s2_city errichten neue Infrastruktur in freiwilliger Arbeit.</German>
+		<Italian>Our citizens in %s2_city have volunteered to erect new infrastructure.</Italian>
+		<Spanish>Our citizens in %s2_city have volunteered to erect new infrastructure.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CITIZENS_LABORS_1</Tag>
+		<English>Defense is a priority, let them construct a city wall.</English>
+		<French>La Défense est notre priorité, Laissez-les construire des Remparts.</French>
+		<German>Verteidigung hat Priorität, lasst sie eine Stadtmauer errichten.</German>
+		<Italian>Defense is a priority, let them construct a city wall.</Italian>
+		<Spanish>Defense is a priority, let them construct a city wall.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CITIZENS_LABORS_2</Tag>
+		<English>We should build granaries to store food.</English>
+		<French>Nous devrions construire un Grenier pour stocker la Nourriture.</French>
+		<German>Wir sollten Kornspeicher errichten um Nahrung zu lagern.</German>
+		<Italian>We should build granaries to store food.</Italian>
+		<Spanish>We should build granaries to store food.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CITIZENS_LABORS_3</Tag>
+		<English>Have them focus on smelters and smithies.</English>
+		<French>Orientons-les vers la construction de moyens de production.</French>
+		<German>Lasst uns auf den Bau von Metallschmelzen und Schmieden konzentrieren.</German>
+		<Italian>Have them focus on smelters and smithies.</Italian>
+		<Spanish>Have them focus on smelters and smithies.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CITIZENS_LABORS_4</Tag>
+		<English>Have them expand our power grid.</English>
+		<French>Qu'ils nous permettent d'augmenter nos sources d'énergie.</French>
+		<German>Sie sollen unser Stromnetz ausbauen.</German>
+		<Italian>Have them expand our power grid.</Italian>
+		<Spanish>Have them expand our power grid.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CITIZENS_LABORS_5</Tag>
+		<English>We don't need any new infrastructure, so have them build private homes.</English>
+		<French>Nous n'avons pas besoin d'infrastructures, laissez-les construire des résidences d'habitation.</French>
+		<German>Wir brauchen keine neue Infrastruktur, sie sollen sich Wohnhäuser bauen.</German>
+		<Italian>We don't need any new infrastructure, so have them build private homes.</Italian>
+		<Spanish>We don't need any new infrastructure, so have them build private homes.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_GREENSPACE</Tag>
+		<English>Locals near the %s1_civ_adjective city of %s2_city have planted trees within their settlement, and maintain their greenspace.</English>
+		<French>Des habitants près de la Ville %s1:2_civ_adjective de %s2_city ont planté des arbres à l'intérieur de leurs quartiers, et ont aménagé des espaces verts.</French>
+		<German>Anwohner bei der %s1_civ_adjective Stadt %s2_city haben Bäume in ihrer Siedlung gepflanzt und sich so eine grüne Lunge geschaffen.</German>
+		<Italian>Locals near the %s1_civ_adjective city of %s2_city have planted trees within their settlement, and maintain their greenspace.</Italian>
+		<Spanish>Locals near the %s1_civ_adjective city of %s2_city have planted trees within their settlement, and maintain their greenspace.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GREENSPACE</Tag>
+		<English>The locals have decided that instead of driving to the countryside to see the trees, they would rather bring them home.</English>
+		<French>Les Habitants ont décidé de "faire venir" les arbres à eux, plutôt que de faire des kilomètres pour aller dans la nature. Ils ont aménagé de nombreux espaces verts..</French>
+		<German>Anstatt aufs Land zu fahren, um Bäume zu sehen, haben die Anwohner beschlossen, sie sich lieber nach Hause zu bringen.</German>
+		<Italian>The locals have decided that instead of driving to the countryside to see the trees, they would rather bring them home.</Italian>
+		<Spanish>The locals have decided that instead of driving to the countryside to see the trees, they would rather bring them home.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GREENSPACE_1</Tag>
+		<English>Well, having the parks is nice.</English>
+		<French>Bien, les parcs embellisent toujours une Ville.</French>
+		<German>Nun, es ist schön den Park zu haben.</German>
+		<Italian>Well, having the parks is nice.</Italian>
+		<Spanish>Well, having the parks is nice.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_TOLERANCE</Tag>
+		<English>The tolerant %s1_civ_adjective Empire has drawn many spiritually-minded people together from across the globe.</English>
+		<French>L'Empire tolérant %s1_civ_adjective a réuni beaucoup de personnes issues de différentes influences spirituelles.</French>
+		<German>Das tolerante %s1_civ_adjective Imperium zieht zahlreiche spirituell veranlagte Menschen vom ganzen Erdball an.</German>
+		<Italian>The tolerant %s1_civ_adjective Empire has drawn many spiritually-minded people together from across the globe.</Italian>
+		<Spanish>The tolerant %s1_civ_adjective Empire has drawn many spiritually-minded people together from across the globe.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TOLERANCE</Tag>
+		<English>Your tolerance of other faiths has given many a chance for spiritual awakening!</English>
+		<French>Votre tolérance en matièrs de croyance a permis à beaucoup de s'épanouir et de s'éveiller spirituellement!</French>
+		<German>Deine Toleranz in Glaubensfragen hat viele zur spirituellen Erwachung gebracht!</German>
+		<Italian>Your tolerance of other faiths has given many a chance for spiritual awakening!</Italian>
+		<Spanish>Your tolerance of other faiths has given many a chance for spiritual awakening!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TOLERANCE_1</Tag>
+		<English>Well, we allow all to follow their own paths.</English>
+		<French>Bien, nous leur permettons à tous de suivre leur propre voie.</French>
+		<German>Nun, wir gestatten es jedem seinen eigenen Weg zu gehen.</German>
+		<Italian>Well, we allow all to follow their own paths.</Italian>
+		<Spanish>Well, we allow all to follow their own paths.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>	
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_RECRUITMENT_DRIVE</Tag>
+		<English>The %s1_civ_adjective Empire has started a revolutionary recruitment program, encouraging thousands to join their ranks.</English>
+		<French>L'Empire %s1_civ_adjective a commencé une politique révolutionnaire de recrutement à travers le monde, encourageant des milliers d'étrangers à rejoindre leur armée.</French>
+		<German>Das %s1_civ_adjective Imperium hat ein revolutionäres Rekrutierungsprogramm gestartet, welches Tausende ermutigt, sich einberufen zu lassen.</German>
+		<Italian>The %s1_civ_adjective Empire has started a revolutionary recruitment program, encouraging thousands to join their ranks.</Italian>
+		<Spanish>The %s1_civ_adjective Empire has started a revolutionary recruitment program, encouraging thousands to join their ranks.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RECRUITMENT_DRIVE</Tag>
+		<English>Your army has started a revolutionary new recruitment program, encouraging thousands to join the ranks.</English>
+		<French>Votre armée a démarré un programme révolutionnaire de recrutement, encourageant des milliers d'étrangers à rejoindre nos rangs.</French>
+		<German>Deine Armme hat ein revolutionäres Rekrutierungsprogramm gestartet, welches Tausende ermutigt, sich einberufen zu lassen.</German>
+		<Italian>Your army has started a revolutionary new recruitment program, encouraging thousands to join the ranks.</Italian>
+		<Spanish>Your army has started a revolutionary new recruitment program, encouraging thousands to join the ranks.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RECRUITMENT_DRIVE_1</Tag>
+		<English>Great, we could use the extra hands.</English>
+		<French>Très bien, nous saurons quoi faire de ces bras supplémentaires</French>
+		<German>Großartig, wir können jede zusätzliche Hand gebrauchen.</German>
+		<Italian>Great, we could use the extra hands.</Italian>
+		<Spanish>Great, we could use the extra hands.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RECRUITMENT_DRIVE_2</Tag>
+		<English>Let's invest more money into this successful program, and recruit even more!</English>
+		<French>Investissons plus d'or dans ce programme, afin d'en recruter encore plus!</French>
+		<German>Lasst uns zusätzliches Geld in dieses Programm investieren und noch mehr Bürger rekrutieren!</German>
+		<Italian>Let's invest more money into this successful program, and recruit even more!</Italian>
+		<Spanish>Let's invest more money into this successful program, and recruit even more!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RECRUITMENT_DRIVE_3</Tag>
+		<English>Our nation's army requires every man we can get! Persuade the undecided with some extra gold!</English>
+		<French>Notre armée a besoin de chaque homme qu'elle peut recruter! Persuadez les indécis en leur offrant une petite prime!</French>
+		<German>Unsere Armee braucht jeden Mann, den wir bekommen können! Überzeugt die Unentschlossenen mit weiterem Gold!</German>
+		<Italian>Our nation's army requires every man we can get! Persuade the undecided with some extra gold!</Italian>
+		<Spanish>Our nation's army requires every man we can get! Persuade the undecided with some extra gold!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_EXPLOITED_PEASANTS</Tag>
+		<English>Brutal landlords have taxed poor serfs heavily in the %s1_civ_adjective Empire.</English>
+		<French>Des Seigneurs rustres ont lourdement taxé les serfs de l'Empire %s1_civ_adjective.</French>
+		<German>Brutale Landesherren belasten die armen Leibeigenen im %s1_civ_adjective Imperium durch schwere Steuern.</German>
+		<Italian>Brutal landlords have taxed poor serfs heavily in the %s1_civ_adjective Empire.</Italian>
+		<Spanish>Brutal landlords have taxed poor serfs heavily in the %s1_civ_adjective Empire.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_EXPLOITED_PEASANTS</Tag>
+		<English>Landlords around the city of %s2_city have brutally taxed the local serfs.</English>
+		<French>Des Seigneurs rustres ont lourdement taxé les serfs près de la Ville de %s2_city.</French>
+		<German>Landesherren in der Umgebung von %s2_city belasten die Leibeigenen durch brutale Steuern.</German>
+		<Italian>Landlords around the city of %s2_city have brutally taxed the local serfs.</Italian>
+		<Spanish>Landlords around the city of %s2_city have brutally taxed the local serfs.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_EXPLOITED_PEASANTS_1</Tag>
+		<English>Their suffering will fuel our treasury.</English>
+		<French>Leurs Souffrances vont alimenter notre Trésor.</French>
+		<German>Ihr Leiden wird unsere Schatzkammer auffüllen.</German>
+		<Italian>Their suffering will fuel our treasury.</Italian>
+		<Spanish>Their suffering will fuel our treasury.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_SALT_MINE</Tag>
+		<English>The %s1_civ_adjective Empire has discovered significant deposits of salt within their borders.</English>
+		<French>L'Empire %s1_civ_adjective has découvert des dépôts importants de Sel dans son territoire.</French>
+		<German>Das %s1_civ_adjective Imperium hat bedeutende Vorkommen an Speisesalz in ihren Grenzen entdeckt.</German>
+		<Italian>The %s1_civ_adjective Empire has discovered significant deposits of salt within their borders.</Italian>
+		<Spanish>The %s1_civ_adjective Empire has discovered significant deposits of salt within their borders.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_SALT_MINE_1</Tag>
+		<English>Large deposits of salt have been discovered within the tundra near the city of %s2_city.</English>
+		<French>De Larges dépôts de Sel ont été découvert dans la Toundra près de la Ville de %s2_city.</French>
+		<German>Große Vorkommen an Salz wurden im Tundragebiet in der Nähe von %s2_city entdeckt.</German>
+		<Italian>Large deposits of salt have been discovered within the tundra near the city of %s2_city.</Italian>
+		<Spanish>Large deposits of salt have been discovered within the tundra near the city of %s2_city.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SALT_MINE_1</Tag>
+		<English>Good news. The locals can export this product for profit.</English>
+		<French>Bonne nouvelle, Les habitants pourront exporter ce produit pour leur profit.</French>
+		<German>Das sind gute Nachrichten. Die Einheimischen können dieses Produkt gewinnbringend exportieren.</German>
+		<Italian>Good news. The locals can export this product for profit.</Italian>
+		<Spanish>Good news. The locals can export this product for profit.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_WAR_MEMORIAL</Tag>
+		<English>The citizens of the %s1_civ_adjective city of %s2_city have built a war memorial to commemorate the lives of soldiers lost in recent wars.</English>
+		<French>Les Habitants de la Ville %s1:2_civ_adjective de %s2_city ont bâti un mémorial pour commémorer les soldats qui ont donné leurs vies durant les dernières Guerres.</French>
+		<German>Die Bürger der %s1_civ_adjective Stadt %s2_city haben ein Kriegerdenkmal errichtet, um an Soldaten, die in den vergangenen Kriegen ihr Leben verloren haben zu erinnern.</German>
+		<Italian>The citizens of the %s1_civ_adjective city of %s2_city have built a war memorial to commemerate the lives of soldiers lost in recent wars.</Italian>
+		<Spanish>The citizens of the %s1_civ_adjective city of %s2_city have built a war memorial to commemerate the lives of soldiers lost in recent wars.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_WAR_MEMORIAL</Tag>
+		<English>Our citizens living in %s2_city have built a war memorial to commemerate the lives of our brave soldiers.</English>
+		<French>Nos Habitants de %s2_city ont bâti un mémorial pour commémorer nos braves soldats qui ont donné leurs vies durant les dernières Guerres.</French>
+		<German>Unsere Bürger in in %s2_city haben ein Kriegerdenkmal errichtet, um unseren tapferen gefallenen Soldaten zu gedenken.</German>
+		<Italian>Our citizens living in %s2_city have built a war memorial to commemerate the lives of our brave soldiers.</Italian>
+		<Spanish>Our citizens living in %s2_city have built a war memorial to commemerate the lives of our brave soldiers.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WAR_MEMORIAL_1</Tag>
+		<English>They will be remembered so long as our new monuments stand.</English>
+		<French>On se souviendra d'eux tant que ces monuments tiendront debout.</French>
+		<German>Man wird sich so lange an sie erinnern, wie unser neues Monument steht.</German>
+		<Italian>They will be remembered so long as our new monuments stand.</Italian>
+		<Spanish>They will be remembered so long as our new monuments stand.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_WAR_MEMORIAL_2</Tag>
+		<English>The new additions to our monuments will continue to awe the locals.</English>
+		<French>Ces ajouts à nos Monuments vont continuer de remplir d'effroi les habitants.</French>
+		<German>Die neue Ergänzung unserer Monumente wird die Einheimischen weiter beeindrucken.</German>
+		<Italian>The new additions to our monuments will continue to awe the locals.</Italian>
+		<Spanish>The new additions to our monuments will continue to awe the locals.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_GREAT_MONUMENTS_1</Tag>
+		<English>Monuments in the %s1_civ_adjective city of %s2_city are revered by travelers far and wide for their beauty.</English>
+		<French>Les Monuments de la Ville %s1:2_civ_adjective de %s2_city sont vénérés par les voyageurs du monde entier pour leur beauté.</French>
+		<German>Monumente in der %s1_civ_adjective Stadt %s2_city werden von Reisenden aus nah und fern für ihre Schönheit bewundert.</German>
+		<Italian>Monuments in the %s1_civ_adjective city of %s2_city are revered by travelers far and wide for their beauty.</Italian>
+		<Spanish>Monuments in the %s1_civ_adjective city of %s2_city are revered by travelers far and wide for their beauty.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_GREAT_MONUMENTS_1</Tag>
+		<English>Travelers love the monuments in the city of %s2_city, and the locals are benefiting greatly.</English>
+		<French>Les Voyageurs adorent les Monuments de notre Ville de %s2_city, et les riverains en bénéficient grandement.</French>
+		<German>Reisende lieben das Monument in %s2_city, die Einheimischen profitieren davon in großem Maße.</German>
+		<Italian>Travelers love the monuments in the city of %s2_city, and the locals are benefiting greatly.</Italian>
+		<Spanish>Travelers love the monuments in the city of %s2_city, and the locals are benefiting greatly.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GREAT_MONUMENTS_1</Tag>
+		<English>This will bring prestige to the city!</English>
+		<French>Cela va apporter du prestige à la Ville!</French>
+		<German>Das wird unserer Stadt viel Prestige bringen!</German>
+		<Italian>This will bring prestige to the city!</Italian>
+		<Spanish>This will bring prestige to the city!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HERETICAL_RESEARCH_1</Tag>
+		<English>Priests in the %s1_civ_adjective Empire have denounced current research projects as heresy.</English>
+		<French>Des Prêtres de l'Empire %s1_civ_adjective ont dénoncé comme hérésie des récents projets de recherche.</French>
+		<German>Priester im %s1_civ_adjective Imperium haben ein aktuelles Forschungsprojekt als Häresie verurteilt.</German>
+		<Italian>Priests in the %s1_civ_adjective Empire have denounced current research projects as heresy.</Italian>
+		<Spanish>Priests in the %s1_civ_adjective Empire have denounced current research projects as heresy.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_HERETICAL_RESEARCH_1</Tag>
+		<English>Our priests have declared our current research heretical and have denounced it in public sermons.</English>
+		<French>Nos Prêtres ont déclaré nos récents projets de recherche comme une hérésie, et les dénoncent en public lors de leurs Sermons.</French>
+		<German>Unsere Priester haben das aktuelle Forschungsprojekt als häretisch bezeichnet und es in öffentlichen Gesängen verurteilt.</German>
+		<Italian>Our priests have declared our current research heretical and have denounced it in public sermons.</Italian>
+		<Spanish>Our priests have declared our current research heretical and have denounced it in public sermons.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HERETICAL_RESEARCH_1</Tag>
+		<English>We need to take a step back and convince our followers that our research will not conflict with our faith.</English>
+		<French>Il nous faut revoir notre position et convaincre nos confrères que ces recherches ne sont pas en conflit avec notre Foi.</French>
+		<German>Wir müssen einen Schritt zurückgehen und unsere Anhänger davon überzeugen, dass unsere Forschung keinen Konflikt zu unserem Glauben darstellt.</German>
+		<Italian>We need to take a step back and convince our followers that our research will not conflict with our faith.</Italian>
+		<Spanish>We need to take a step back and convince our followers that our research will not conflict with our faith.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HERETICAL_RESEARCH_2</Tag>
+		<English>Times change, and so do we.  They will get over it eventually.</English>
+		<French>Les Temps Changent, et nous avec. Cela va leur passer.</French>
+		<German>Die Zeiten ändern sich, so wie wir selbst.  Sie werden eines Tages darüber hinwegkommen.</German>
+		<Italian>Times change, and so do we.  They will get over it eventually.</Italian>
+		<Spanish>Times change, and so do we.  They will get over it eventually.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HERETICAL_RESEARCH2_1</Tag>
+		<English>Priests in the %s1_civ_adjective Empire have denounced current research projects as heresy.</English>
+		<French>Des Prêtres de l'Empire %s1_civ_adjective ont dénoncé comme hérésie des récents projets de recherche.</French>
+		<German>Priester im %s1_civ_adjective Imperium haben ein aktuelles Forschungsprojekt als Häresie verurteilt.</German>
+		<Italian>Priests in the %s1_civ_adjective Empire have denounced current research projects as heresy.</Italian>
+		<Spanish>Priests in the %s1_civ_adjective Empire have denounced current research projects as heresy.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_HERETICAL_RESEARCH2_1</Tag>
+		<English>Our priests have declared our current research heretical and have denounced it in public sermons.</English>
+		<French>Nos Prêtres ont déclaré nos récents projets de recherche comme une hérésie, et les dénoncent en public lors de leurs Sermons.</French>
+		<German>Unsere Priester haben das aktuelle Forschungsprojekt als häretisch bezeichnet und es in öffentlichen Gesängen verurteilt.</German>
+		<Italian>Our priests have declared our current research heretical and have denounced it in public sermons.</Italian>
+		<Spanish>Our priests have declared our current research heretical and have denounced it in public sermons.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HERETICAL_RESEARCH2_1</Tag>
+		<English>We need to take a step back and convince our followers that our research will not conflict with our faith.</English>
+		<French>Il nous faut revoir notre position et convaincre nos confrères que ces recherches ne sont pas en conflit avec notre Foi.</French>
+		<German>Wir müssen einen Schritt zurückgehen und unsere Anhänger davon überzeugen, dass unsere Forschung keinen Konflikt zu unserem Glauben darstellt.</German>
+		<Italian>We need to take a step back and convince our followers that our research will not conflict with our faith.</Italian>
+		<Spanish>We need to take a step back and convince our followers that our research will not conflict with our faith.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HERETICAL_RESEARCH2_2</Tag>
+		<English>Times change, and so do we.  They will get over it eventually.</English>
+		<French>Les Temps Changent, et nous avec. Cela va leur passer.</French>
+		<German>Die Zeiten ändern sich, so wie wir selbst.  Sie werden eines Tages darüber hinwegkommen.</German>
+		<Italian>Times change, and so do we.  They will get over it eventually.</Italian>
+		<Spanish>Times change, and so do we.  They will get over it eventually.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_STREAMLINED_GOVERNMENT_1</Tag>
+		<English>Efforts in the %s1_civ_adjective Empire to reduce paperwork and personnel in government have been an outrageous success.</English>
+		<French>Les Efforts de l'Empire %s1_civ_adjective pour réduire les formalités administratives et le personnel de leur gouvernement ont remporté succès scandaleux.</French>
+		<German>Bemühungen im %s1_civ_adjective Imperium, den Papierkrieg und das Personal in der Regierung zu reduzieren wurden zu einem unglaublichen Erfolg.</German>
+		<Italian>Efforts in the %s1_civ_adjective Empire to reduce paperwork and personnel in government have been an outrageous success.</Italian>
+		<Spanish>Efforts in the %s1_civ_adjective Empire to reduce paperwork and personnel in government have been an outrageous success.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_STREAMLINED_GOVERNMENT_1</Tag>
+		<English>Efforts to reduce paperwork and the number of personnel in the government has been successful.</English>
+		<French>Nos Efforts pour réduire les formalités administratives et le personnel du gouvernement ont été couronnés de succès.</French>
+		<German>Bemühungen den Papierkrieg und das Personal in der Regierung zu reduzieren waren erfolgreich.</German>
+		<Italian>Efforts to reduce paperwork and the number of personnel in the government has been successful.</Italian>
+		<Spanish>Efforts to reduce paperwork and the number of personnel in the government has been successful.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_STREAMLINED_GOVERNMENT_1</Tag>
+		<English>Excellent, this will improve our administration's efficiency.</English>
+		<French>Excellent, cela va augmenter l'efficacité de notre administration.</French>
+		<German>Ausgezeichnet, das wird die Effektivität unserer Verwaltung verbessern.</German>
+		<Italian>Excellent, this will improve our administration's efficiency.</Italian>
+		<Spanish>Excellent, this will improve our administration's efficiency.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_TAX_COLLECTION_RECORDS_1</Tag>
+		<English>Court magistrates in the %s1_civ_adjective Empire have falsified treasury records.</English>
+		<French>Des magistrats ont découverts que l'Empire %s1_civ_adjective Empire a falsifié une partie de leurs bilans comptables.</French>
+		<German>Verwaltungsbeamte im %s1_civ_adjective Imperium haben Aufzeichnungen für die Schatzkammer gefälscht.</German>
+		<Italian>Court magistrates in the %s1_civ_adjective Empire have falsified treasury records.</Italian>
+		<Spanish>Court magistrates in the %s1_civ_adjective Empire have falsified treasury records.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_TAX_COLLECTION_RECORDS_1</Tag>
+		<English>Court magistrates have revealed our tax collection records were more than optimistic for the last few years.</English>
+		<French>Des magistrats ont révélés que nos impôts étaient plus qu'optimistes ces dernières années.</French>
+		<German>Verwaltungsbeamte haben aufgedeckt, dass die Aufzeichnungen unserer Steuereinnahmen der letzten Jahre deutlich zu optimistisch waren.</German>
+		<Italian>Court magistrates have revealed our tax collection records were more than optimistic for the last few years.</Italian>
+		<Spanish>Court magistrates have revealed our tax collection records were more than optimistic for the last few years.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TAX_COLLECTION_RECORDS_1</Tag>
+		<English>It looks like our treasury is not as large as we thought.</English>
+		<French>On dirait que notre trésor n'est pas aussi important que prévu.</French>
+		<German>Es sieht so aus, als wäre der Staatsschatz nicht so groß wie gedacht.</German>
+		<Italian>It looks like our treasury is not as large as we thought.</Italian>
+		<Spanish>It looks like our treasury is not as large as we thought.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_PROMISING_COMMANDER_1</Tag>
+		<English>A local noble in %s1_civ_adjective Empire who showed promise in the last war has been promoted to Master-of-Arms.</English>
+		<French>Un noble local de l'Empire %s1_civ_adjective qui s'est distingué au combat durant la dernière Guerre a été promu Maître d'Armes.</French>
+		<German>Ein Feudalherr des %s1_civ_adjective Imperiums, der einen guten Eindruck im letzten Krieg hinterließ, wurde zum Waffenmeister befördert.</German>
+		<Italian>A local noble in %s1_civ_adjective Empire who showed promise in the last war has been promoted to Master-of-Arms.</Italian>
+		<Spanish>A local noble in %s1_civ_adjective Empire who showed promise in the last war has been promoted to Master-of-Arms.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_PROMISING_COMMANDER_1</Tag>
+		<English>A local noble who showed talent as a commander in the last war is also an incredibly efficient administrator in his home province.</English>
+		<French>Un noble local qui a montré ses talents de commandant durant la dernière Guerre est également un administrateur efficace de sa province natale.</French>
+		<German>Ein örtlicher Feudalherr, der im letzten Krieg sein Talent als Kommandeur zeugte, ist ebenso ein unglaublich effektiver Administrator in seiner Heimatprovinz.</German>
+		<Italian>A local noble who showed talent as a commander in the last war is also an incredibly efficient administrator in his home province.</Italian>
+		<Spanish>A local noble who showed talent as a commander in the last war is also an incredibly efficient administrator in his home province.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PROMISING_COMMANDER_1</Tag>
+		<English>Appoint him as our new Master-of-Arms.</English>
+		<French>Nommez-le comme notre nouveau Maître d'Armes.</French>
+		<German>Ernennt ihn zum neuen Waffenmeister.</German>
+		<Italian>Appoint him as our new Master-of-Arms.</Italian>
+		<Spanish>Appoint him as our new Master-of-Arms.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_LOYALTY_TESTS_1</Tag>
+		<English>The %s1_civ_adjective Empire has begun purging their government of suspected traitors.  Other world leaders are concerned.</English>
+		<French>L'Empire %s1_civ_adjective a commencé a épurer son gouvernement de traîtres supposés. Des Chefs d'Etats étrangers pourraient être impliqués.</French>
+		<German>Das %s1_civ_adjective Imperium hat damit begonnen, seine Regierung von möglichen Verrätern zu reinigen.  Andere Herrscher sind besorgt.</German>
+		<Italian>The %s1_civ_adjective Empire has begun purging their government of suspected traitors.  Other world leaders are concerned.</Italian>
+		<Spanish>The %s1_civ_adjective Empire has begun purging their government of suspected traitors.  Other world leaders are concerned.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_LOYALTY_TESTS_1</Tag>
+		<English>We have begun purging those in our government with questionable loyalties.</English>
+		<French>Nous avons commencé à épurer les membres de notre gouvernement dont la loyauté présentait quelques doutes.</French>
+		<German>Wir haben damit begonnen, jene in unserer Regierung mit fraglicher Loyalität auszusieben.</German>
+		<Italian>We have begun purging those in our government with questionable loyalties.</Italian>
+		<Spanish>We have begun purging those in our government with questionable loyalties.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LOYALTY_TESTS_1</Tag>
+		<English>Let the fall of these traitors be a sign that better times are coming.</English>
+		<French>Puisse la chute de ces traîtres être un signe de prospérité à venir.</French>
+		<German>Lass den Untergang von diesen Verrätern ein Zeichen für bessere Zeiten sein.</German>
+		<Italian>Let the fall of these traitors be a sign that better times are coming.</Italian>
+		<Spanish>Let the fall of these traitors be a sign that better times are coming.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_EXPENSIVE_HABITS_1</Tag>
+		<English>The %s1_civ_adjective monarch seems more interested in his gardens than in the welfare of his state.</English>
+		<French>Le Monarque %s1_civ_adjective paraît plus intéressé par ses jardins que par le bien-être de son Etat.</French>
+		<German>Der %s1_civ_adjective Monarch scheint mehr Wert auf seinen Garten als auf das Wohlergehen seines Staates zu legen.</German>
+		<Italian>The %s1_civ_adjective monarch seems more interested in his gardens than in the welfare of his state.</Italian>
+		<Spanish>The %s1_civ_adjective monarch seems more interested in his gardens than in the welfare of his state.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_EXPENSIVE_HABITS_1</Tag>
+		<English>Our monarch seems more concerned with beautifying his gardens than preserving the royal treasury.</English>
+		<French>Notre Monarque semble plus enclin à soigner ses beaux jardins qu'à préserver le trésor royal.</French>
+		<German>Unser Monarch scheint sich mehr um die Verschönerung seines Gartens als um den Erhalt des Staatsschatzes zu sorgen.</German>
+		<Italian>Our monarch seems more concerned with beautifying his gardens than preserving the royal treasury.</Italian>
+		<Spanish>Our monarch seems more concerned with beautifying his gardens than preserving the royal treasury.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_EXPENSIVE_HABITS_1</Tag>
+		<English>At least these new additions to the Palace will brighten up the capital.</English>
+		<French>Au moins, ces mesures vont égayer le Palais et la Capitale.</French>
+		<German>Diese Ergänzung des Palastes wird wenigstens unsere Hauptstadt verschönern.</German>
+		<Italian>At least these new additions to the Palace will brighten up the capital.</Italian>
+		<Spanish>At least these new additions to the Palace will brighten up the capital.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_ACADEMIC_FUNDING</Tag>
+		<English>The academy in the %s1_civ_adjective city of %s2_city has received generous funding from wealthy businessmen.</English>
+		<French>L'Académie de la Ville %s1:2_civ_adjective de %s2_city a reçu une généreuse donation de quelques riches hommes d'affaires .</French>
+		<German>Die Akademie in der %s1_civ_adjective Stadt %s2_city hat von reichen Geschäftsleuten eine großzügige Unterstützung erhalten.</German>
+		<Italian>The academy in the %s1_civ_adjective city of %s2_city has received generous funding from wealthy businessmen.</Italian>
+		<Spanish>The academy in the %s1_civ_adjective city of %s2_city has received generous funding from wealthy businessmen.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_ACADEMIC_FUNDING</Tag>
+		<English>Wealthy businessmen have formed a coalition to fund research projects at the local academy, making large amounts of money available for research projects.</English>
+		<French>Des riches hommes d'affaires ont créé une fondation pour financer des projets dans notre académie, octroyant d'importantes sommes d'argent pour des projets de recherche.</French>
+		<German>Reiche Geschäftsleute haben sich zusammengetan, um Forschungsprojekte an der örtlichen Akademie zu finanzieren und dabei große Mengen an Geld zur Verfügung gestellt.</German>
+		<Italian>Wealthy businessmen have formed a coalition to fund research projects at the local academy, making large amounts of money available for research projects.</Italian>
+		<Spanish>Wealthy businessmen have formed a coalition to fund research projects at the local academy, making large amounts of money available for research projects.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ACADEMIC_FUNDING_1</Tag>
+		<English>This is welcome news.</English>
+		<French>C'est une bonne nouvelle.</French>
+		<German>Das sind sehr willkommene Neuigkeiten.</German>
+		<Italian>This is welcome news.</Italian>
+		<Spanish>This is welcome news.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_MAJOR_IN_HUMANITIES</Tag>
+		<English>The university in the %s1_civ_adjective city of %s2_city draws students from across the globe to study ancient poetry, literature, and rhetoric.</English>
+		<French>L'Université de la Ville %s1:2_civ_adjective de %s2_city attire des étudiants de partout pour étudier la poésie, la littérature et la rhétorique.</French>
+		<German>Die Universität in der %s1_civ_adjective Stadt %s2_city lockt Studenten aus der ganzen Welt an, um hier alte Dichtung, Literatur und Rhetorik zu studieren.</German>
+		<Italian>The university in the %s1_civ_adjective city of %s2_city draws students from across the globe to study ancient poetry, literature, and rhetoric.</Italian>
+		<Spanish>The university in the %s1_civ_adjective city of %s2_city draws students from across the globe to study ancient poetry, literature, and rhetoric.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_MAJOR_IN_HUMANITIES</Tag>
+		<English>Our university in %s2_city has specialized in the study of ancient poetry, literature, and rhetoric.  Students from around the world yearn to study with our experts.</English>
+		<French>Notre Université de %s2_city s'est spécialisée dans la poésie, la littérature et la rhétorique. Des Etudiants du Monde Entier accourent pour écouter l'enseignement de nos experts.</French>
+		<German>Unsere Universität in in %s2_city hat sich auf das Studium von alter Dichtung, Literatur und Rhetorik spezialisiert.  Studenten aus der ganzen Welt sehnen sich danach, mit unseren Experten zu studieren.</German>
+		<Italian>Our university in %s2_city has specialized in the study of ancient poetry, literature, and rhetoric.  Students from around the world yearn to study with our experts.</Italian>
+		<Spanish>Our university in %s2_city has specialized in the study of ancient poetry, literature, and rhetoric.  Students from around the world yearn to study with our experts.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MAJOR_IN_HUMANITIES_1</Tag>
+		<English>Although this will not further scientific progress, it will make the people happy.</English>
+		<French>Bien que cela ne va engendre aucun réel progrès scientifique, cela a le mérite de rendre le peuple heureux.</French>
+		<German>Auch wenn das den wissenschaftlichen Fortschritt nicht voranbringt, so macht es dich die Leute glücklicher.</German>
+		<Italian>Although this will not further scientific progress, it will make the people happy.</Italian>
+		<Spanish>Although this will not further scientific progress, it will make the people happy.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_SOCIAL_STAGNATION</Tag>
+		<English>The lack of social advancement in the %s1_civ_adjective city of %s2_city has resulted in emigration to foreign lands.</English>
+		<French>le manque d'avancées sociales dans la Ville %s1:2_civ_adjective de %s2_city a entraîné une exode de sa population.</French>
+		<German>Der Mangel an sozialem Fortschritt in der %s1_civ_adjective Stadt %s2_city führt zu einer Emigrationswelle ins Ausland.</German>
+		<Italian>The lack of social advancement in the %s1_civ_adjective city of %s2_city has resulted in emigration to foreign lands.</Italian>
+		<Spanish>The lack of social advancement in the %s1_civ_adjective city of %s2_city has resulted in emigration to foreign lands.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_SOCIAL_STAGNATION</Tag>
+		<English>Subjects in the city of %s2_city are fed up with the lack of social advancement.  They are migrating elsewhere for opportunities to better their lives.</English>
+		<French>Nos Sujets de %s2_city en ont assez du manque d'avancées sociales dans leur Ville. Ils quittent la Ville à la recherche d'une Vie meilleure ailleurs.</French>
+		<German>Bewohner der Stadt %s2_city haben genug vom Mangel an sozialem Fortschritt.  Sie ziehen fort um anderswo nach einem besseren Leben zu suchen.</German>
+		<Italian>Subjects in the city of %s2_city are fed up with the lack of social advancement.  They are migrating elsewhere for opportunities to better their lives.</Italian>
+		<Spanish>Subjects in the city of %s2_city are fed up with the lack of social advancement.  They are migrating elsewhere for opportunities to better their lives.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SOCIAL_STAGNATION_1</Tag>
+		<English>Good riddance.  People should know their place.</English>
+		<French>Bon débarras.  Le Peuple doit connaître sa place.</French>
+		<German>Schön sie los zu werden.  Die Leute sollten wissen, wo sie hingehören.</German>
+		<Italian>Good riddance.  People should know their place.</Italian>
+		<Spanish>Good riddance.  People should know their place.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_LARGE_RECESSION</Tag>
+		<English>The %s1_civ_adjective economy is suffering from a severe recession.  Economists are arguing over whether government spending should be increased to compensate.</English>
+		<French>L'économie %s1:2_civ_adjective connaît une crise sans précédent. Les économistes se disputent pour savoir si les dépenses gouvernementales doivent être augmentées pour la relancer.</French>
+		<German>Die %s1_civ_adjective Wirtschaft leidet unter einer schweren Rezession.  Die Wirtschaftsexperten streiten sich darüber, ob die Staatsausgaben zum Ausgleich erhöht werden sollen.</German>
+		<Italian>The %s1_civ_adjective economy is suffering from a severe recession.  Economists are arguing over whether government spending should be increased to compensate.</Italian>
+		<Spanish>The %s1_civ_adjective economy is suffering from a severe recession.  Economists are arguing over whether government spending should be increased to compensate.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LARGE_RECESSION</Tag>
+		<English>Our economy has taken a sudden and serious downturn and no relief is in sight.  Economists are arguing over whether government spending should be increased.</English>
+		<French>Notre économie a subi un sacré revers et il n'y a pas de signes encourageants pour les prochains temps. Les économistes se disputent pour savoir si les dépenses gouvernementales doivent être augmentées pour la relancer.</French>
+		<German>Unsere Wirtschaft ist unerwartet stark zurückgegangen und es ist keine Besserung in Sicht.  Die Wirtschaftsexperten streiten sich darüber, ob die Staatsausgaben erhöht werden sollen.</German>
+		<Italian>Our economy has taken a sudden and serious downturn and no relief is in sight.  Economists are arguing over whether government spending should be increased.</Italian>
+		<Spanish>Our economy has taken a sudden and serious downturn and no relief is in sight.  Economists are arguing over whether government spending should be increased.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LARGE_RECESSION_1</Tag>
+		<English>Stick to our guns...the government should not interfere in the markets.</English>
+		<French>"Rangez vos armes..." Le gouvernement ne doit pas interférer dans les marchés.</French>
+		<German>Schuster bleib bei deinen Leisten...die Regierung sollte sich nicht in die Marktangelegenheiten einmischen.</German>
+		<Italian>Stick to our guns...the government should not interfere in the markets.</Italian>
+		<Spanish>Stick to our guns...the government should not interfere in the markets.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LARGE_RECESSION_2</Tag>
+		<English>Listen to these whiny "economists" and try to offset the decline in consumer spending with our treasury.</English>
+		<French>Ecoutons-les et essayons de contre-balancer cette baisse de consommation avec notre trésor.</French>
+		<German>Hört auf die weinerlichen "Wirtschaftsexperten" und versucht den Rückgang an privater Nachfrage durch Ausgaben aus unser Schatzkammer auszugleichen.</German>
+		<Italian>Listen to these whiny "economists" and try to offset the decline in consumer spending with our treasury.</Italian>
+		<Spanish>Listen to these whiny "economists" and try to offset the decline in consumer spending with our treasury.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_QUALITY_WOOL</Tag>
+		<English>Sheep in the %s1_civ_adjective Empire have produced unusually high quality wool.  Profits from coat sales are up.</English>
+		<French>Les Moutons de l'Empire %s1_civ_adjective ont produit une laine d'une qualité particulièrement bonne. Les profits provenant des ventes de vêtements sont en hausse.</French>
+		<German>Schafe im %s1_civ_adjective Imperium haben eine Wolle von außergewöhnlich hoher Qualität produziert.  Die Profite vom Verkauf von Wintermänteln steigen.</German>
+		<Italian>Sheep in the %s1_civ_adjective Empire have produced unusually high quality wool.  Profits from coat sales are up.</Italian>
+		<Spanish>Sheep in the %s1_civ_adjective Empire have produced unusually high quality wool.  Profits from coat sales are up.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_QUALITY_WOOL</Tag>
+		<English>The wool produced from this pasture is of very high quality this year.</English>
+		<French>La Laine produite par les moutons de nos pâtures est de très bonne qualité cette année.</French>
+		<German>Die Wolle von diesem Weideland zeigt dieses Jahr eine sehr hohe Qualität.</German>
+		<Italian>The wool produced from this pasture is of very high quality this year.</Italian>
+		<Spanish>The wool produced from this pasture is of very high quality this year.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_QUALITY_WOOL_1</Tag>
+		<English>The coats will fetch a fine price on the markets.</English>
+		<French>Nous pourrons obtenir un très bon prix pour les vêtements sur les marchés.</French>
+		<German>Die Wintermäntel werden auf den Märkten einen ordentlichen Preis erzielen.</German>
+		<Italian>The coats will fetch a fine price on the markets.</Italian>
+		<Spanish>The coats will fetch a fine price on the markets.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HARDY_SCOUTS</Tag>
+		<English>%s1_civ_adjective scouts are tough as nails, and can handle any situation that comes their way.</English>
+		<French>Les éclaireurs %s1:3_civ_adjective sont rusés et habiles comme personne et peuvent apréhender toutes les situations sans difficulté.</French>
+		<German>%s1_civ_adjective Entdecker sind besonders zäh und können jegliche Situation meistern.</German>
+		<Italian>%s1_civ_adjective scouts are tough as nails, and can handle any situation that comes their way.</Italian>
+		<Spanish>%s1_civ_adjective scouts are tough as nails, and can handle any situation that comes their way.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARDY_SCOUTS</Tag>
+		<English>Our scouting bands are as tough as nails and can handle any situation that comes their way.</English>
+		<French>Nos éclaireurs sont rusés et habiles comme personne et peuvent apréhender toutes les situations sans difficulté.</French>
+		<German>Unsere Entdecker sind besonders zäh und kommen mit jeder Situation zurecht.</German>
+		<Italian>Our scouting bands are as tough as nails and can handle any situation that comes their way.</Italian>
+		<Spanish>Our scouting bands are as tough as nails and can handle any situation that comes their way.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HARDY_SCOUTS_1</Tag>
+		<English>Excellent.  They might survive the Age of the Bear!</English>
+		<French>Excellent.  Ils survivront à l'Age des Ours!</French>
+		<German>Ausgezeichnet.  Womöglich überleben sie das Zeitalter des Bären!</German>
+		<Italian>Excellent.  They might survive the Age of the Bear!</Italian>
+		<Spanish>Excellent.  They might survive the Age of the Bear!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_CATTLE_RANCHERS</Tag>
+		<English>Ranchers in the %s1_civ_adjective Empire have expanded their cattle pastures to meet growing demands.</English>
+		<French>Les Fermiers de l'Empire %s1_civ_adjective ont étendu leurs pâturages pour s'adapter à la demande croissante.</French>
+		<German>Viehhüter im %s1_civ_adjective Imperium haben ihre Viehweiden ausgedehnt, um der erhöhten Nachfrage gerecht zu werden.</German>
+		<Italian>Ranchers in the %s1_civ_adjective Empire have expanded their cattle pastures to meet growing demands.</Italian>
+		<Spanish>Ranchers in the %s1_civ_adjective Empire have expanded their cattle pastures to meet growing demands.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CATTLE_RANCHERS</Tag>
+		<English>Our ranchers are expanding their cattle pastures to meet demands from our growing and hungry cities.</English>
+		<French>Nos Fermiers ont étendu leurs pâturages pour s'adapter à la demande croissante de nos Villes.</French>
+		<German>Unsere Viehhüter erweitern ihre Viehweiden um der erhöhten Nachfrage durch wachsende und hungrige Städte nachzukommen.</German>
+		<Italian>Our ranchers are expanding their cattle pastures to meet demands from our growing and hungry cities.</Italian>
+		<Spanish>Our ranchers are expanding their cattle pastures to meet demands from our growing and hungry cities.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CATTLE_RANCHERS_1</Tag>
+		<English>More beef!</English>
+		<French>Plus de Viande!</French>
+		<German>Mehr Rindfleisch!</German>
+		<Italian>More beef!</Italian>
+		<Spanish>More beef!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_FORT_IN_DISREPAIR</Tag>
+		<English>Poor funding and neglect has caused a fort to fall apart in the %s1_civ_adjective Empire.</English>
+		<French>Des restrictions dans le budget de la Défense ont entraîné l'abandon d'un Fort de l'Empire %s1_civ_adjective qui menaçait de s'écrouler.</French>
+		<German>Durch Vernachlässigung ist im %s1_civ_adjective Imperium ein Fort zerfallen.</German>
+		<Italian>Poor funding and neglect has caused a fort to fall apart in the %s1_civ_adjective Empire.</Italian>
+		<Spanish>Poor funding and neglect has caused a fort to fall apart in the %s1_civ_adjective Empire.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FORT_IN_DISREPAIR</Tag>
+		<English>Our lack of military funding and neglect has left this fort in shambles.</English>
+		<French>Des restrictions dans le budget de la Défense ont entraîné l'abandon d'un de nos Forts qui n'est plus que ruines.</French>
+		<German>Durch Mangel an Militärausgaben und allgemeiner Vernachlässigung ist dieses Fort zu Trümmern zerfallen.</German>
+		<Italian>Our lack of military funding and neglect has left this fort in shambles.</Italian>
+		<Spanish>Our lack of military funding and neglect has left this fort in shambles.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FORT_IN_DISREPAIR_1</Tag>
+		<English>We can rebuild it if we need it.</English>
+		<French>Nous pourrons le reconstruire si nécessaireWe can rebuild it if we need it.</French>
+		<German>Wir können es wieder aufbauen, wenn wir es brauchen.</German>
+		<Italian>We can rebuild it if we need it.</Italian>
+		<Spanish>We can rebuild it if we need it.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FORT_IN_DISREPAIR_2</Tag>
+		<English>Pay to have it fixed.</English>
+		<French>Réparez-le, quoi qu'il en coûte.</French>
+		<German>Zahlt um es zu reparieren.</German>
+		<Italian>Pay to have it fixed.</Italian>
+		<Spanish>Pay to have it fixed.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_COTTON_IRRIGATION</Tag>
+		<English>Engineers in the %s1_civ_adjective Empire have drawn up plans to increase the yield of their cotton crop.</English>
+		<French>Des agronomes de l'Empire %s1_civ_adjective ont mis au point une méthode permettant d'accroître la production de coton dans leurs champs.</French>
+		<German>Ingenieure im %s1_civ_adjective Imperium haben Pläne erstellt um der Ertrag an Baumwolle zu erhöhen.</German>
+		<Italian>Engineers in the %s1_civ_adjective Empire have drawn up plans to increase the yield of their cotton crop.</Italian>
+		<Spanish>Engineers in the %s1_civ_adjective Empire have drawn up plans to increase the yield of their cotton crop.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COTTON_IRRIGATION</Tag>
+		<English>Engineers have drawn up plans to increase the yield of the local cotton crop by diverting irrigation from local farms.</English>
+		<French>Nos Ingénieurs ont mis au point une méthode permettant d'accroître la production de coton en améliorant l'irrigation de nos champs.</French>
+		<German>Ingenieure haben Pläne erstellt, um durch die Umleitung von Bewässerung von den örtlichen Bauernhöfen die Baumwollerträge zu erhöhen.</German>
+		<Italian>Engineers have drawn up plans to increase the yield of the local cotton crop by diverting irrigation from local farms.</Italian>
+		<Spanish>Engineers have drawn up plans to increase the yield of the local cotton crop by diverting irrigation from local farms.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COTTON_IRRIGATION_1</Tag>
+		<English>This is a good plan!</English>
+		<French>Ca c'est un bon plan!</French>
+		<German>Das ist ein guter Plan!</German>
+		<Italian>This is a good plan!</Italian>
+		<Spanish>This is a good plan!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_COTTON_IRRIGATION_2</Tag>
+		<English>No, this doesn't sound too bright.</English>
+		<French>Non, cela ne me semble pas assez innovant.</French>
+		<German>Nein, das klingt nicht sehr schlau.</German>
+		<Italian>No, this doesn't sound too bright.</Italian>
+		<Spanish>No, this doesn't sound too bright.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_LABOR_UNIONS</Tag>
+		<English>Workers in the %s1_civ_adjective Empire have formed unions and are openly striking for better working conditions.</English>
+		<French>Des Ouvriers de l'Empire %s1_civ_adjective se sont fédérés en syndicats et font grève ouvertement pour de meilleures conditions de travail.</French>
+		<German>Arbeiter im %s1_civ_adjective Imperium haben Gewerkschaften gegründet und führen einen offenen Streik für bessere Arbeitsbedingungen.</German>
+		<Italian>Workers in the %s1_civ_adjective Empire have formed unions and are openly striking for better working conditions.</Italian>
+		<Spanish>Workers in the %s1_civ_adjective Empire have formed unions and are openly striking for better working conditions.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LABOR_UNIONS</Tag>
+		<English>Our workers have begun unionizing and demanding a safer working environment.</English>
+		<French>Nos Ouvriers ont commencé à se rassembler en syndicats et demandent un environnement de travail plus sûr.</French>
+		<German>Unsere Arbeiter haben begonnen, sich in Gewerkschaften zu organisieren und fordern ein sichereres Arbeitsumfeld.</German>
+		<Italian>Our workers have begun unionizing and demanding a safer working environment.</Italian>
+		<Spanish>Our workers have begun unionizing and demanding a safer working environment.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LABOR_UNIONS_1</Tag>
+		<English>Legalize the unions and cede to their demands for workplace safety.</English>
+		<French>Officialisez ces Syndicats et cédez à leur demandes légitimes de sécurité.</French>
+		<German>Legalisiert die Gewerkschaften und gebt ihren Forderungen nach Arbeitssicherheit nach.</German>
+		<Italian>Legalize the unions and cede to their demands for workplace safety.</Italian>
+		<Spanish>Legalize the unions and cede to their demands for workplace safety.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LABOR_UNIONS_2</Tag>
+		<English>They are inhibiting productivity!  Outlaw them!</English>
+		<French>Ils annéantissent toute notre producivité ! Bannissez-les et déclarez tout syndicat comme hors-la-loi!</French>
+		<German>Sie verringern die Produktivität!  Verbietet sie!</German>
+		<Italian>They are inhibiting producitvity!  Outlaw them!</Italian>
+		<Spanish>They are inhibiting producitvity!  Outlaw them!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_LABOR_UNIONS_1</Tag>
+		<English>Workers in the %s1_civ_adjective Empire have been successful in obtaining better working conditions!</English>
+		<French>Les Ouvriers de l'Empire %s1_civ_adjective ont obtenu de meilleures conditions de travail!</French>
+		<German>Arbeiter im %s1_civ_adjective Imperium haben erfolgreich für bessere Arbeitsbedingungen gekämpft!</German>
+		<Italian>Workers in the %s1_civ_adjective Empire have been successful in obtaining better working conditions!</Italian>
+		<Spanish>Workers in the %s1_civ_adjective Empire have been successful in obtaining better working conditions!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWS_EVENT_LABOR_UNIONS_2</Tag>
+		<English>The unions in the %s1_civ_adjective Empire have been outlawed!</English>
+		<French>Les Syndicats qui se sont formés dans l'Empire %s1_civ_adjective ont été déclarés hors-la-loi!</French>
+		<German>Die Gewerkschaften im %s1_civ_adjective Imperium wurden verboten!</German>
+		<Italian>The unions in the %s1_civ_adjective Empire have been outlawed!</Italian>
+		<Spanish>The unions in the %s1_civ_adjective Empire have been outlawed!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_NO_JUSTICE</Tag>
+		<English>Local strong men are extorting subjects of the %s1_civ_adjective Empire.</English>
+		<French>Quelques hommes influents de l'Empire %s1_civ_adjective extorquent leurs sujets.</French>
+		<German>Starke Männer erpressen die Einwohner im %s1_civ_adjective Imperium.</German>
+		<Italian>Local strong men are extorting subjects of the %s1_civ_adjective Empire.</Italian>
+		<Spanish>Local strong men are extorting subjects of the %s1_civ_adjective Empire.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NO_JUSTICE</Tag>
+		<English>Local strong men are extorting our subjects and working over the local governors.  Unfortunately, thre is no real legal recourse.</English>
+		<French>Quelques hommes influents locaux extorquent nos sujets et passent outre les gouverneurs locaux.  Malheureusement, il n'y a pas de recours légal.</French>
+		<German>Starke Männer erpressen unsere Einwohner und verprügeln die örtlichen Gouverneure.  Unglücklicherweise gibt es keine rechtliche Handhabe.</German>
+		<Italian>Local strong men are extorting our subjects and working over the local governors.  Unfortunately, thre is no real legal recourse.</Italian>
+		<Spanish>Local strong men are extorting our subjects and working over the local governors.  Unfortunately, thre is no real legal recourse.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NO_JUSTICE_1</Tag>
+		<English>There's not much we can do.</English>
+		<French>Il n'y a rien que l'on puisse faire.</French>
+		<German>Wir können da nicht viel tun.</German>
+		<Italian>There's not much we can do.</Italian>
+		<Spanish>There's not much we can do.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_GOOD_HARBOR</Tag>
+		<English>Merchants from far and wide declare the %s1_civ_adjective city of %s2_city to be the best-run harbor.</English>
+		<French>Des Marchands d'un peu partout sont unanimes pour déclarer que la Ville %s1:2_civ_adjective de %s2_city possède le meilleur Port.</French>
+		<German>Händler von nah und fern wählen die %s1_civ_adjective Stadt %s2_city zur bestgeführten Hafenstadt weit und breit.</German>
+		<Italian>Merchants from far and wide declare the %s1_civ_adjective city of %s2_city to be the best-run harbor.</Italian>
+		<Spanish>Merchants from far and wide declare the %s1_civ_adjective city of %s2_city to be the best-run harbor.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GOOD_HARBOR</Tag>
+		<English>Merchants from far and wide declare the harbor of %s2_city to be the best on the continent.  Trade is booming.</English>
+		<French>Des Marchands d'un peu partout sont unanimes pour déclarer que le Port de %s2_city est le meilleur du continent. Le commerce explose.</French>
+		<German>Händler von nah und fern erklären den Hafen von %s2_city zum besten auf dem ganzen Kontinent.  Der Handel boomt.</German>
+		<Italian>Merchants from far and wide declare the harbor of %s2_city to be the best on the continent.  Trade is booming.</Italian>
+		<Spanish>Merchants from far and wide declare the harbor of %s2_city to be the best on the continent.  Trade is booming.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GOOD_HARBOR_1</Tag>
+		<English>The tariff money will help the local economy.</English>
+		<French>L'argent des taxes portuaires va aider l'économie locale.</French>
+		<German>Die Zölle werden der regionalen Wirtschaft helfen.</German>
+		<Italian>The tariff money will help the local economy.</Italian>
+		<Spanish>The tariff money will help the local economy.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_LOOSE_MORALS</Tag>
+		<English>Elders in %s1_civ_adjective society are disappointed in the music and culture of today's youth.</English>
+		<French>Les Aînés de la société %s1:2_civ_adjective sont déçus de la culture et la musique de la jeunesse d'aujourd'hui.</French>
+		<German>Die Ältesten der %s1_civ_adjective Gesellschaft sind enttäuscht von der Musik und Kultur der heutigen Jugend.</German>
+		<Italian>Elders in %s1_civ_adjective society are disappointed in the music and culture of today's youth.</Italian>
+		<Spanish>Elders in %s1_civ_adjective society are disappointed in the music and culture of today's youth.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LOOSE_MORALS</Tag>
+		<English>Elders in our society are disappointed in the music and culture of today's youth.</English>
+		<French>Les Aînés de notre sont déçus de la culture et la musique de la jeunesse d'aujourd'hui.</French>
+		<German>Die Ältesten unserer Gesellschaft sind enttäuscht von der Musik und Kultur der heutigen Jugend.</German>
+		<Italian>Elders in our society are disappointed in the music and culture of today's youth.</Italian>
+		<Spanish>Elders in our society are disappointed in the music and culture of today's youth.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LOOSE_MORALS_1</Tag>
+		<English>It's the sound of the future.</English>
+		<French>C'est le son du Futur.</French>
+		<German>Das ist der Klang der Zukunft.</German>
+		<Italian>It's the sound of the future.</Italian>
+		<Spanish>It's the sound of the future.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_HEIR_ASSASSINATED</Tag>
+		<English>The beloved %s1_civ_adjective prince has been shot!  The public and royal family mourns the loss.</English>
+		<French>Le prince bien-aimé %s1_civ_adjective a été assassiné !  Le peuple et la famille royale pleurent cette grande perte.</French>
+		<German>Der geliebte %s1_civ_adjective Prinz wurde erschossen!  Die Öffentlichkeit und die Herrscherfamilie betrauern den Verlust.</German>
+		<Italian>The beloved %s1_civ_adjective prince has been shot!  The public and royal family mourns the loss.</Italian>
+		<Spanish>The beloved %s1_civ_adjective prince has been shot!  The public and royal family mourns the loss.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HEIR_ASSASSINATED</Tag>
+		<English>Our beloved prince has fallen victim to an assassin's bullet!  Unfortunately, the murder committed suicide before he could be brought to trial.</English>
+		<French>Notre Prince bien-aimé est tombé, victime d'un odieux assassinat!  Malheureusement, le meurtire s'est suicidé avant d'avoir pu être jugé et puni.</French>
+		<German>Unser geliebter Prinz wurde Opfer der Kugel eines Attentäters!  Leider hat der Mörder Selbstmord begangen bevor er vor Gericht gebracht werden konnte.</German>
+		<Italian>Our beloved prince has fallen victim to an assassin's bullet!  Unfortunately, the murder committed suicide before he could be brought to trial.</Italian>
+		<Spanish>Our beloved prince has fallen victim to an assassin's bullet!  Unfortunately, the murder committed suicide before he could be brought to trial.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_HEIR_ASSASSINATED_1</Tag>
+		<English>There is nothing we can do except mourn the loss.</English>
+		<French>Nous ne pouvons rien faire d'autre que pleurer sa mort.</French>
+		<German>Wir können nichts tun außer den Verlust beklagen.</German>
+		<Italian>There is nothing we can do except mourn the loss.</Italian>
+		<Spanish>There is nothing we can do except mourn the loss.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_PRESIDENT_ASSASSINATED</Tag>
+		<English>The %s1_civ_adjective president has been assassinated by a radical.  New security precautions are being taken.</English>
+		<French>Le Président %s1_civ_adjective a été assassiné par un radical. De nouvelles règles de sécurités ont été mises en oeuvre.</French>
+		<German>Der %s1_civ_adjective Präsident wurde von einem radikalen Attentäter ermordet.  Die Sicherheitsmaßnahmen wurden verstärkt.</German>
+		<Italian>The %s1_civ_adjective president has been assassinated by a radical.  New security precautions are being taken.</Italian>
+		<Spanish>The %s1_civ_adjective president has been assassinated by a radical.  New security precautions are being taken.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PRESIDENT_ASSASSINATED</Tag>
+		<English>A radical member of the opposition party has fired upon our president; it is unlikely he will make it through the night.</English>
+		<French>Un membre radical du parti de l'opposition a tiré sur notre Préseident! il ne passera vraissemblablement pas la nuit.</French>
+		<German>Ein radikales Mitglied der Oppositionspartei hat auf unseren Präsidenten geschossen; es ist unwahrscheinlich, dass er die Nacht überleben wird.</German>
+		<Italian>A radical member of the opposition party has fired upon our president; it is unlikely he will make it through the night.</Italian>
+		<Spanish>A radical member of the opposition party has fired upon our president; it is unlikely he will make it through the night.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PRESIDENT_ASSASSINATED_1</Tag>
+		<English>We need to form a Secret Service to protect our political leaders.</English>
+		<French>Nous avons besoin d'un Service Secret spécial pour protéger nos leaders politiques.</French>
+		<German>Wir müssen einen Geheimdienst einführen, um unsere polititschen Anführer zu beschützen.</German>
+		<Italian>We need to form a Secret Service to protect our political leaders.</Italian>
+		<Spanish>We need to form a Secret Service to protect our political leaders.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_NOBLES_DEMAND_COMPENSATION</Tag>
+		<English>Nobles in the %s1_civ_adjective Empire are demanding compensation from the imperial treasury.</English>
+		<French>Des Nobles de l'Empire %s1_civ_adjective demandent une compensation provenant du trésor impérial.</French>
+		<German>Adlige im %s1_civ_adjective Imperium fordern einen Ausgleich aus der Schatzkammer.</German>
+		<Italian>Nobles in the %s1_civ_adjective Empire are demanding compensation from the imperial treasury.</Italian>
+		<Spanish>Nobles in the %s1_civ_adjective Empire are demanding compensation from the imperial treasury.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NOBLES_DEMAND_COMPENSATION</Tag>
+		<English>Local nobles are dismayed at our rigid control over the treasury and believe they deserve a share of the wealth.  They are demanding compensation!</English>
+		<French>Des nobles locaux sont consternés de notre contrôle rigide du trésor de l'Etat et pensent qu'ils en méritent une part. Ils demandent compensation!</French>
+		<German>Adlige aus der Region sind verärgert über unsere strenge Kontrolle über die Schatzkammer und glauben, dass ihnen ein Anteil unseres Reichtums gebührt.  Sie fordern einen Ausgleich!</German>
+		<Italian>Local nobles are dismayed at our rigid control over the treasury and believe they deserve a share of the wealth.  They are demanding compensation!</Italian>
+		<Spanish>Local nobles are dismayed at our rigid control over the treasury and believe they deserve a share of the wealth.  They are demanding compensation!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NOBLES_DEMAND_COMPENSATION_1</Tag>
+		<English>Accept their rightful claims.</English>
+		<French>Accepter leur requête justifiée.</French>
+		<German>Akzeptiert ihre berechtigten Ansprüche.</German>
+		<Italian>Accept their rightful claims.</Italian>
+		<Spanish>Accept their rightful claims.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NOBLES_DEMAND_COMPENSATION_2</Tag>
+		<English>Ignore their demands.</English>
+		<French>Ignorer leur demande.</French>
+		<German>Ignoriert ihre Forderungen.</German>
+		<Italian>Ignore their demands.</Italian>
+		<Spanish>Ignore their demands.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_INDEPENDENT_FISHERS</Tag>
+		<English>%s1_civ_adjective fishermen have organized their own workboat fleets.</English>
+		<French>Des pêcheurs %s1:3_civ_adjective ont organisé leur propre flotte de bâteau-ateliers.</French>
+		<German>%s1_civ_adjective Fischer haben die Flotte ihrer Arbeitsboote neu organisiert.</German>
+		<Italian>%s1_civ_adjective fishermen have organized their own workboat fleets.</Italian>
+		<Spanish>%s1_civ_adjective fishermen have organized their own workboat fleets.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_INDEPENDENT_FISHERS</Tag>
+		<English>Fishermen operating off our coasts have organized their own workboat fleets, drastically increasing yields.</English>
+		<French>Des pêcheurs opérant près de nos côtes se sont organisés et ont fondé leur propre flotte de bâteaux, augmentant considérablement les prises.</French>
+		<German>Fischer haben die Flotte ihrer Arbeitsboote vor unserer Küste neu organisiert. Die Erträge sind dramatisch gestiegen.</German>
+		<Italian>Fishermen operating off our coasts have organized their own workboat fleets, drastically increasing yields.</Italian>
+		<Spanish>Fishermen operating off our coasts have organized their own workboat fleets, drastically increasing yields.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_INDEPENDENT_FISHERS_1</Tag>
+		<English>Well, that's great!  We don't have to do it ourselves.</English>
+		<French>Très bien!  Nous n'aurons pas besoin de le faire nous-même.</French>
+		<German>Nun, das ist hervorragend!  Da müssen wir das nicht selbst erledigen.</German>
+		<Italian>Well, that's great!  We don't have to do it ourselves.</Italian>
+		<Spanish>Well, that's great!  We don't have to do it ourselves.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_FISHING_BOATS_SUNK</Tag>
+		<English>Strong storms have disrupted fishing operations in the %s1_civ_adjective Empire.</English>
+		<French>De fortes tempêtes ont interrompu les campagnes de pêche de l'Empire %s1_civ_adjective.</French>
+		<German>Schwere Stürme haben die Fischerei im %s1_civ_adjective Imperium unterbrochen.</German>
+		<Italian>Strong storms have disrupted fishing operations in the %s1_civ_adjective Empire.</Italian>
+		<Spanish>Strong storms have disrupted fishing operations in the %s1_civ_adjective Empire.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FISHING_BOATS_SUNK</Tag>
+		<English>Strong storms have sunk many fishing boats off our coast, disrupting the entire operation.</English>
+		<French>De fortes tempêtes ont fait sombrer beaucoup de nos bâteaux de pêche, déstabilisant toute la campagne de pêche.</French>
+		<German>In schweren Stürmen vor unserer Küste sind viele Fischerboote gesunken, die Fischerei wurde eingestellt.</German>
+		<Italian>Strong storms have sunk many fishing boats off our coast, disrupting the entire operation.</Italian>
+		<Spanish>Strong storms have sunk many fishing boats off our coast, disrupting the entire operation.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FISHING_BOATS_SUNK_1</Tag>
+		<English>We can subsidize the fishermen and replace the lost boats.</English>
+		<French>Nous pouvons indemniser les pêcheurs et remplacer les bâteaux perdus.</French>
+		<German>Wir können die Fischer unterstützen und die verlorenen Boote ersetzen.</German>
+		<Italian>We can subsidize the fishermen and replace the lost boats.</Italian>
+		<Spanish>We can subsidize the fishermen and replace the lost boats.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FISHING_BOATS_SUNK_2</Tag>
+		<English>We don't have the money to spare.</English>
+		<French>Nous n'avons pas d'argent disponible pour eux.</French>
+		<German>Wir haben dafür kein geld übrig.</German>
+		<Italian>We don't have the money to spare.</Italian>
+		<Spanish>We don't have the money to spare.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_BANANA_BLIGHT</Tag>
+		<English>The banana blight has struck in the %s1_civ_adjective Empire.</English>
+		<French>Une maladie de la Banane a fait des ravages dans l'Empire %s1_civ_adjective.</French>
+		<German>Die Bananenpest hat das %s1_civ_adjective Imperium getroffen.</German>
+		<Italian>The banana blight has struck in the %s1_civ_adjective Empire.</Italian>
+		<Spanish>The banana blight has struck in the %s1_civ_adjective Empire.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BANANA_BLIGHT</Tag>
+		<English>The tastiest banana sub-species has been wiped out by the dreaded banana blight.</English>
+		<French>Les meilleurs variétés de nos bananes ont été décimées par une maladie.</French>
+		<German>Die geschmackvollsten Bananensorten sind durch die gefürchtete Bananenpest vernichtet worden.</German>
+		<Italian>The tastiest banana sub-species has been wiped out by the dreaded banana blight.</Italian>
+		<Spanish>The tastiest banana sub-species has been wiped out by the dreaded banana blight.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BANANA_BLIGHT_1</Tag>
+		<English>This is just too bad.  We'll have to be content with the remaining varieties.</English>
+		<French>Vraiment trop dommage. Nous allons nous contenter des variétés survivantes.</French>
+		<German>Das ist schrecklich.  Wir müssen uns mit den verbleibenden Sorten zufrieden geben.</German>
+		<Italian>This is just too bad.  We'll have to be content with the remaining varieties.</Italian>
+		<Spanish>This is just too bad.  We'll have to be content with the remaining varieties.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_GAME_MIGRATION</Tag>
+		<English>Herds of wild animals have migrated in the %s1_civ_adjective Empire.</English>
+		<French>Des hordes d'animaux sauvages ont migré vers l'Empire %s1_civ_adjective.</French>
+		<German>Herden von wilden Tieren sind ins %s1_civ_adjective Imperium eingewandert.</German>
+		<Italian>Herds of wild animals have migrated in the %s1_civ_adjective Empire.</Italian>
+		<Spanish>Herds of wild animals have migrated in the %s1_civ_adjective Empire.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GAME_MIGRATION</Tag>
+		<English>Herds of wild animals have migrated into this region.</English>
+		<French>Des hordes d'animaux sauvages ont migré vers cette région.</French>
+		<German>Herden von wilden Tieren sind in diese Region eingewandert.</German>
+		<Italian>Herds of wild animals have migrated into this region.</Italian>
+		<Spanish>Herds of wild animals have migrated into this region.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GAME_MIGRATION_1</Tag>
+		<English>Excellent, our hunters will be overjoyed!</English>
+		<French>Excellent, nos chasseur von s'en donner à coeur joie!</French>
+		<German>Ausgezeichnet, unsere Jäger werden überglücklich sein!</German>
+		<Italian>Excellent, our hunters will be overjoyed!</Italian>
+		<Spanish>Excellent, our hunters will be overjoyed!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_OVERFISHING</Tag>
+		<English>Years of overfishing in the %s1_civ_adjective Empire have crippled local fish populations.</English>
+		<French>Des années de pêche intensive ont drastiquement réduit la population de poissons des mers de l'Empire %s1_civ_adjective.</French>
+		<German>Jahrelange Überfischung im %s1_civ_adjective Imperium hat die dortigen Fischbestände stark reduziert.</German>
+		<Italian>Years of overfishing in the %s1_civ_adjective Empire have crippled local fish populations.</Italian>
+		<Spanish>Years of overfishing in the %s1_civ_adjective Empire have crippled local fish populations.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_OVERFISHING</Tag>
+		<English>Years of meeting the demands of our people have resulted in overfishing in this area.  We just aren't getting the same yields.</English>
+		<French>Afin de répondre à la demande et fournir à notre peuple du poisson, nos bassins sont presques épuisés. Nous n'arriverons plus jamais aux mêmes rendements à présent.</French>
+		<German>Durch die jahrelange Erfüllung unserer Wünsche nach Meeresfischen sind die hiesigen Gewässer völlig überfischt.  Wir erreichen einfach nicht mehr die früheren Erträge.</German>
+		<Italian>Years of meeting the demands of our people have resulted in overfishing in this area.  We just aren't getting the same yields.</Italian>
+		<Spanish>Years of meeting the demands of our people have resulted in overfishing in this area.  We just aren't getting the same yields.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_OVERFISHING_1</Tag>
+		<English>That's too bad.</English>
+		<French>Mauvaise nouvelle.</French>
+		<German>Das ist schlimm.</German>
+		<Italian>That's too bad.</Italian>
+		<Spanish>That's too bad.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_CAKE_FLOUR</Tag>
+		<English>Cookbooks published in the %s1_civ_adjective Empire feature tasty cake recipes.</English>
+		<French>Les livres de recettes de cuisine %s1:3_civ_adjective sont réputés et donnent des plats fabuleux.</French>
+		<German>Neu veröffentlichte Kochbücher im %s1_civ_adjective Imperium beinhalten leckere Kuchenrezepte.</German>
+		<Italian>Cookbooks published in the %s1_civ_adjective Empire feature tasty cake recipes.</Italian>
+		<Spanish>Cookbooks published in the %s1_civ_adjective Empire feature tasty cake recipes.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_CAKE_FLOUR</Tag>
+		<English>Flour produced by these mills has been featured in many cake recipes in a now-famous cookbook.  Sales are booming.</English>
+		<French>La Farine de ces moulins est l'ingrédient de base de recettes fabuleuses compilées dans un livre 'bestSeller'. Leur vente explose.</French>
+		<German>Mehl von diesen Mühlen wird in vielen Kuchenrezepten eines sehr berühmten Kochbuches verwendet.  Die Verkäufe laufen hervorragend.</German>
+		<Italian>Flour produced by these mills has been featured in many cake recipes in a now-famous cookbook.  Sales are booming.</Italian>
+		<Spanish>Flour produced by these mills has been featured in many cake recipes in a now-famous cookbook.  Sales are booming.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CAKE_FLOUR_1</Tag>
+		<English>My favorite is on page 42.</English>
+		<French>Ma préférée est page 42.</French>
+		<German>Mein Favorit steht auf Seite 42.</German>
+		<Italian>My favorite is on page 42.</Italian>
+		<Spanish>My favorite is on page 42.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_SILKWORM_GOING_EXTINCT</Tag>
+		<English>A local species of silkworm in the %s1_civ_adjective Empire is almost extinct.</English>
+		<French>Une espèce locale de vers à soie de l'Empire %s1_civ_adjective Empire est presque éteinte.</French>
+		<German>Eine regionale Spezies von Seidenwürmern im %s1_civ_adjective Imperium ist nahezu ausgestorben.</German>
+		<Italian>A local species of silkworm in the %s1_civ_adjective Empire is almost extinct.</Italian>
+		<Spanish>A local species of silkworm in the %s1_civ_adjective Empire is almost extinct.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_SILKWORM_GOING_EXTINCT</Tag>
+		<English>A local species of silkworm has nearly gone extinct.  There is still time to save them.</English>
+		<French>Une espèce local de vers à soie a presque disparu de notre région.  Il est encore temps de les sauver.</French>
+		<German>Eine regionale Spezies von Seidenwürmern ist nahezu ausgestorben.  Noch ist Zeit, sie zu retten.</German>
+		<Italian>A local species of silkworm has nearly gone extinct.  There is still time to save them.</Italian>
+		<Spanish>A local species of silkworm has nearly gone extinct.  There is still time to save them.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SILKWORM_GOING_EXTINCT_1</Tag>
+		<English>If we start a new breeding program, we will be able to save them.</English>
+		<French>Si nous démarrons un programme de réintroduction, nous pourrons les sauver.</French>
+		<German>Wenn wir ein neues Zuchtprogramm starten können wir sie noch retten.</German>
+		<Italian>If we start a new breeding program, we will be able to save them.</Italian>
+		<Spanish>If we start a new breeding program, we will be able to save them.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SILKWORM_GOING_EXTINCT_2</Tag>
+		<English>The treasury is for serious purposes, not for "conservation"!</English>
+		<French>Le trésor doit être utilisé pour des projets sérieux, par pour de la "conservation"!</French>
+		<German>Unsere Finanzen werden für ernsthafte Dinge benützt, nicht für "Umweltschitz"!</German>
+		<Italian>The treasury is for serious purposes, not for "conservation"!</Italian>
+		<Spanish>The treasury is for serious purposes, not for "conservation"!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_NATIONAL_ANTHEM</Tag>
+		<English>%s1_civ_adjective citizens have adopted a marching song as their new national anthem.</English>
+		<French>Des Citoyens %s1:3_civ_adjective ont adopté un chant à la mode comme hymne national.</French>
+		<German>%s1_civ_adjective Bürger haben ein Marschlied zur neuen Nationalhymne erklärt.</German>
+		<Italian>%s1_civ_adjective citizens have adopted a marching song as their new national anthem.</Italian>
+		<Spanish>%s1_civ_adjective citizens have adopted a marching song as their new national anthem.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_NATIONAL_ANTHEM</Tag>
+		<English>Our citizens have adopted one of our army's marching songs as the official national anthem!</English>
+		<French>Nos citoyens ont adopté une de nos chant de guerre comme hymne national!</French>
+		<German>Unsere Bürger haben ein Marschlied unserer Armee zur offiziellen Nationalhymne erklärt!</German>
+		<Italian>Our citizens have adopted one of our army's marching songs as the official national anthem!</Italian>
+		<Spanish>Our citizens have adopted one of our army's marching songs as the official national anthem!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NATIONAL_ANTHEM_1</Tag>
+		<English>It'll make the people happy.</English>
+		<French>Cela va réjouir le peuple.</French>
+		<German>Es wird die Leute glücklich machen.</German>
+		<Italian>It'll make the people happy.</Italian>
+		<Spanish>It'll make the people happy.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_CORRUPT_SENATE</Tag>
+		<English>%s1_civ_adjective senators stand accused of excessive patronage.</English>
+		<French>Des Sénateurs %s1:3_civ_adjective ont été accusé de prise illégale d'intérêts.</French>
+		<German>Den %s1_civ_adjective Senatoren wird überzogene Klientelwirtschaft vorgeworfen.</German>
+		<Italian>A local species of silkworm in the %s1_civ_adjective Empire is almost extinct.</Italian>
+		<Spanish>A local species of silkworm in the %s1_civ_adjective Empire is almost extinct.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_CORRUPT_SENATE</Tag>
+		<English>Several high-ranking senators have been accused of corruption and excessive patronage.</English>
+		<French>Plusieurs sénateurs de haut rang ont été accusé de corruption et de prise d'intérêts.</French>
+		<German>Einigen hochrangigen Senatoren wird Korruption und überzogene Klientelwirtschaft vorgeworfen.</German>
+		<Italian>Several high-ranking senators have been accused of corruption and excessive patronage.</Italian>
+		<Spanish>Several high-ranking senators have been accused of corruption and excessive patronage.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CORRUPT_SENATE_1</Tag>
+		<English>We'll just have to deal with the public's outrage.</English>
+		<French>Il va falloir faire face à la colère du public.</French>
+		<German>Wir werden mit der öffentlichen Verärgerung zurechtkommen müssen.</German>
+		<Italian>We'll just have to deal with the public's outrage.</Italian>
+		<Spanish>We'll just have to deal with the public's outrage.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CORRUPT_SENATE_2</Tag>
+		<English>We should be able to bribe a few of the opposition leaders to take care of this.</English>
+		<French>Nous devrions pouvoir corrompre quelques leaders de l'opposition pour étouffer l'affaire.</French>
+		<German>Wir sollten in der Lage sein, ein paar oppositionelle Anführer zu bestechen und sich darum zu kümmern.</German>
+		<Italian>We should be able to bribe a few of the opposition leaders to take care of this.</Italian>
+		<Spanish>We should be able to bribe a few of the opposition leaders to take care of this.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_NAVAL_PROXIMITY_AAA_FUSES</Tag>
+		<English>%s1_civ_adjective naval units have been equipped with new anti-aircraft guns.</English>
+		<French>Des Unités navales %s1:4_civ_adjective ont été équipées de nouveaux canons anti-aériens.</French>
+		<German>%s1_civ_adjective Marineeinheiten wurden mit neuartigen Flugabwehrwaffen ausgerüstet.</German>
+		<Italian>%s1_civ_adjective naval units have been equipped with new anti-aircraft guns.</Italian>
+		<Spanish>%s1_civ_adjective naval units have been equipped with new anti-aircraft guns.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NAVAL_PROXIMITY_AAA_FUSES</Tag>
+		<English>Our naval units have been equipped with new anti-aircraft guns.</English>
+		<French>Nos unités navales ont été équipées de nouveaux canons anti-aériens.</French>
+		<German>Unsere Marineeinheiten wurden mit neuartigen Flugabwehrwaffen ausgerüstet.</German>
+		<Italian>Our naval units have been equipped with new anti-aircraft guns.</Italian>
+		<Spanish>Our naval units have been equipped with new anti-aircraft guns.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_NAVAL_PROXIMITY_AAA_FUSES_1</Tag>
+		<English>Great! Shoot 'm all out of the sky!</English>
+		<French>Super! Descendez-les tous en vol!</French>
+		<German>Großartig! Schießt sie alle vom Himmel!</German>
+		<Italian>Great! Shoot 'm all out of the sky!</Italian>
+		<Spanish>Great! Shoot 'm all out of the sky!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<!-- General Format for new TEXT tags
+	<TEXT>
+		<Tag></Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	-->
+	
+
+</Civ4GameText>

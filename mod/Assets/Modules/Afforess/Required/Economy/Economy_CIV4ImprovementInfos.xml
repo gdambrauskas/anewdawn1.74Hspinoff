@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by Soren Johnson (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Improvement -->
+<Civ4ImprovementInfos xmlns="x-schema:Economy_CIV4TerrainSchema.xml">
+	<ImprovementInfos>
+		<ImprovementInfo>
+			<Type>IMPROVEMENT_FARM</Type>
+			<TechYieldChanges>
+				<TechYieldChange>
+					<PrereqTech>TECH_DERIVATIVES</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</TechYields>
+				</TechYieldChange>
+			</TechYieldChanges>
+		</ImprovementInfo>
+		<ImprovementInfo>
+			<Type>IMPROVEMENT_PLANTATION</Type>
+			<TechYieldChanges>
+				<TechYieldChange>
+					<PrereqTech>TECH_DERIVATIVES</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</TechYields>
+				</TechYieldChange>
+			</TechYieldChanges>
+		</ImprovementInfo>
+		<ImprovementInfo>
+			<Type>IMPROVEMENT_WELL</Type>
+			<TechYieldChanges>
+				<TechYieldChange>
+					<PrereqTech>TECH_DERIVATIVES</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</TechYields>
+				</TechYieldChange>
+			</TechYieldChanges>
+		</ImprovementInfo>
+	</ImprovementInfos>
+</Civ4ImprovementInfos>

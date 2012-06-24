@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Civ4GameText>
+	<TEXT>
+		<Tag>TXT_KEY_CCV_MAININTERFACE__POSITIONOFSCORES_TEXT</Tag>
+		<English>Position of Scores</English>
+		<French>Position des Scores</French>
+		<German>Position of Scores (POS)</German>
+		<Italian>Position of Scores</Italian>
+		<Spanish>Ubicaci&#243;n de la Puntuaci&#243;n</Spanish>
+		<Finnish>Tulosten sijainti</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

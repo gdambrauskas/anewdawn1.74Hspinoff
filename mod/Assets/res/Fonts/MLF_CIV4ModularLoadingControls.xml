@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<Civ4ModularLoadControls>
+		<DefaultConfiguration>Module_Fonts_1</DefaultConfiguration>
+		<ConfigurationInfos>			
+			<ConfigurationInfo>
+				<Modules>
+				<Type>Module_Fonts_1</Type>
+				<Description>Module_Fonts_1</Description>
+				<Modules/>
+			</ConfigurationInfo>
+		</ConfigurationInfos>
+	</Civ4ModularLoadControls>

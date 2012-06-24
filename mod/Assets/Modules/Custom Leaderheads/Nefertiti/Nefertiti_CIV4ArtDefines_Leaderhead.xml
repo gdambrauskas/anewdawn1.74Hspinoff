@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:Nefertiti_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_NEFERTITI</Type>
+			<Button>Modules/Custom Leaderheads/Nefertiti/Nefertiti.dds</Button>
+			<NIF>Modules/Custom Leaderheads/Nefertiti/Nefertiti.nif</NIF>
+			<KFM>Modules/Custom Leaderheads/Nefertiti/isabella.kfm</KFM>
+			<NoShaderNIF>Modules/Custom Leaderheads/Nefertiti/Nefertiti.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom Leaderheads/Nefertiti/Nefertiti_BG.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

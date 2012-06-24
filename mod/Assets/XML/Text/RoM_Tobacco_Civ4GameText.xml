@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text Path -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TOBACCO</Tag>
+		<English>Tobacco</English>
+		<French>Tabac</French>
+		<German>Tabak</German>
+		<Italian>Tobacco</Italian>
+		<Spanish>Tabaco</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TOBACCO_PEDIA</Tag>
+		<English>[TAB]It is believed that tobacco began growing in the Americas about 6,000 BCE, and by 1 BCE Native Americans were using tobacco in spiritual rituals and social gatherings. On October 15, 1492 Columbus was presented with a gift of dried tobacco leaves by the Native Americans. Soon after, it was brought to Europe where its popularity soared as people thought it cured everything from bad breath to cancer. The opposite, of course, was true. In 1847 Phillip Morris established selling hand rolled Turkish cigarettes. Cigarettes have served in every war since WW I, and have become entwined with images of war in the modern era. The active ingredient, Nicotine, is a highly toxic liquid alkaloid which has since been recognized as severely detrimental to health. The neuro-depressant is highly addictive, and also suppresses appetite while increasing blood pressure. New users experience a "high," while experienced users feel simple satisfaction.</English>
+		<French>[TAB]On croit que le tabac a commenc&#233; &#224; pousser en Am&#233;riques environ 6.000 avant J.C., et au premier siècle, les Am&#233;ricains indig&#232;nes employaient le tabac dans des rituels spirituels et des rassemblements sociaux. Le 15 octobre 1492, Christophe Colomb a &#233;t&#233; pr&#233;sent&#233; avec un cadeau des feuilles s&#232;ches de tabac par les Am&#233;ricains indig&#232;nes. Peu apr&#232;s, il a &#233;t&#233; apport&#233; &#224; l'Europe o&#249; sa popularit&#233; a mont&#233; comme les gens ont pens&#233; qu'elle a trait&#233; tout du mauvais souffle au cancer. L'oppos&#233;, naturellement, &#233;tait vrai. En Phillip 1847 Morris a &#233;tabli vendre la main les cigarettes turques roul&#233;es. Les cigarettes ont servi dans chaque guerre depuis WW I, et sont devenues enlacer&#233;es avec des images de guerre dans l'&#232;re moderne. La substance active, nicotine, est un alcalo&#239;de liquide fortement toxique qui a &#233;t&#233; depuis identifi&#233; comme s&#233;v&#232;rement nuisible &#224; la sant&#233;. Le neuro--d&#233;presseur est fortement provoquant une d&#233;pendance, et supprime &#233;galement l'app&#233;tit tout en augmentant la tension art&#233;rielle. Les nouveaux utilisateurs &#233;prouvent une "haute," tandis que les utilisateurs exp&#233;riment&#233;s sentent la satisfaction simple.</French>
+		<German>[TAB]Es wird geglaubt, da&#223; Tabak anfing, im Amerika &#252;ber 6.000 BCE zu wachsen, und durch 1 BCE benutzten geb&#252;rtige Amerikaner Tabak in den geistigen Ritualen und in den Sozialversammlungen. An Oktober 15, 1492 wurde Columbus mit einem Geschenk der getrockneten Tabakbl&#228;tter von den geb&#252;rtigen Amerikanern dargestellt. Bald nach, wurde es zu Europa geholt, in dem seine Popularit&#228;t anstieg, wie Leute dachten, da&#223; sie alles vom schlechten Atem zum Krebs kurierte. Das Entgegengesetzte war selbstverst&#228;ndlich zutreffend.  Phillip 1847 stellte Morris das Verkaufen der Hand gerollte t&#252;rkische Zigaretten her. Zigaretten haben in jedem Krieg seit WW I gedient, und sind mit Bildern des Krieges in der modernen &#196;ra entwined geworden. Die Aktivsubstanz, Nikotin, ist ein in hohem Grade giftiges fl&#252;ssiges Alkaloid, das seit dem erkannt worden ist, wie streng sch&#228;dlich zur Gesundheit. Das Neuroberuhigungsmittel ist in hohem Grade s&#252;chtig machend und unterdr&#252;ckt auch Appetit bei der Erh&#246;hung des Blutdruckes. Neue Benutzer erfahren eine "H&#246;he,", w&#228;hrend erfahrene Benutzer einfacher Zufriedenheit glauben.</German>
+		<Italian>[TAB]Si crede che il tabacco abbia cominciato a crescere nei Americas circa 6.000 BCE e da 1 BCE gli Americani natali stavano usando il tabacco nei rituali spiritosi ed in riunioni sociali. Il 15 ottobre 1492 Columbus &#232; stato presentato con un regalo dei fogli secchi del tabacco dagli Americani natali. Presto dopo, &#232; stato portato ad Europa in cui la relativa popolarit&#224; &#232; salito la gente ha pensato che curasse tutto da alito difettoso a cancro. L'opposto, naturalmente, era allineare. In Phillip 1847 Morris stabilito vendere la mano ha rotolato le sigarette turche. Le sigarette hanno servito in ogni guerra da WW I e sono stato entwined con le immagini della guerra nell'era moderna. L'ingrediente attivo, nicotina, &#232; un alcaloide liquido altamente tossico che da allora &#232; stato riconosciuto come severamente nocivo a salute. Il neuro-deprimente &#232; altamente addictive ed inoltre sopprime l'appetito mentre aumenta la pressione sanguigna. I nuovi utenti avvertono "un high," mentre gli utenti con esperienza ritengono la soddisfazione semplice.</Italian>
+		<Spanish>[TAB]Se cree que el tabaco comenz&#243; a crecer en las Am&#233;ricas cerca de 6.000 BCE, y por 1 BCE los americanos nativos utilizaban el tabaco en rituales espirituales y reuniones sociales. De octubre el 15 de 1492 Columbus fue presentada con un regalo de las hojas secadas del tabaco por los americanos nativos. Pronto despu&#233;s de, fue tra&#237;da a Europa en donde se elev&#243; su renombre como la gente pens&#243; que cur&#243; todo de la mala respiraci&#243;n al c&#225;ncer. El contrario, por supuesto, era verdad. En Phillip 1847 Morris estableci&#243; la venta de la mano los cigarrillos turcos rodados. Los cigarrillos han servido en cada guerra desde WW I, y entwined con im&#225;genes de la guerra en la era moderna. El ingrediente activo, nicotina, es un alcaloide l&#237;quido altamente t&#243;xico que se ha reconocido desde entonces como seriamente perjudicial a la salud. El neuro-deprimente es altamente adictivo, y tambi&#233;n suprime apetito mientras que aumenta la presi&#243;n arterial. Los nuevos usuarios experimentan un "colmo," mientras que los usuarios experimentados sienten la satisfacci&#243;n simple.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>	
+</Civ4GameText>

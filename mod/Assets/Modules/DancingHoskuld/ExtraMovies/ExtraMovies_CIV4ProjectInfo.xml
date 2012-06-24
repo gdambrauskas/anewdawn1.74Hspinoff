@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Project Infos -->
+<!-- You must have atleast one project in order for the game to load properly. -->
+<Civ4ProjectInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
+	<ProjectInfos>
+		<ProjectInfo>
+			<Type>PROJECT_APOLLO_PROGRAM</Type>
+			<MovieDefineTag>ART_DEF_MOVIE_APOLLO_PROGRAM</MovieDefineTag>
+		</ProjectInfo>
+		<!-- ProjectInfo>
+			<Type>PROJECT_FIRST_CLONED_MAMMAL</Type>
+			<MovieDefineTag/>
+		</ProjectInfo>
+		<ProjectInfo>
+			<Type>PROJECT_ITER</Type>
+			<MovieDefineTag/>
+		</ProjectInfo>
+		<ProjectInfo>
+			<Type>PROJECT_IMF</Type>
+			<MovieDefineTag/>
+		</ProjectInfo -->
+	</ProjectInfos>
+</Civ4ProjectInfo>

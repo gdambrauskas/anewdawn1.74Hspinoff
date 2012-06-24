@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!-- edited by Zappara (Rise of Mankind) -->
+<!-- Rise of Mankind 2.0 mod -->
+<!-- -->
+<!-- Bonus Infos -->
+<Civ4BonusInfos xmlns="x-schema:Guilds_CIV4TerrainSchema.xml">
+	<BonusInfos>
+		<BonusInfo>
+			<Type>BONUS_CGUILDPAPER</Type>
+			<Description>TXT_KEY_BONUS_CGUILDPAPER</Description>
+			<Civilopedia>TXT_KEY_BONUS_CGUILDPAPER_PEDIA</Civilopedia>
+			<BonusClassType>BONUSCLASS_MANUFACTURED</BonusClassType>
+			<ArtDefineTag>ART_DEF_BONUS_CGUILDPAPER</ArtDefineTag>
+			<TechReveal>TECH_GUILDS</TechReveal>
+			<TechCityTrade>TECH_GUILDS</TechCityTrade>
+			<TechObsolete>TECH_LABOR_UNION</TechObsolete>
+			<YieldChanges>
+				<iYieldChange>1</iYieldChange>
+				<iYieldChange>1</iYieldChange>
+				<iYieldChange>1</iYieldChange>
+			</YieldChanges>
+			<iAITradeModifier>1000</iAITradeModifier>
+			<iAIObjective>0</iAIObjective>
+			<iHealth>0</iHealth>
+			<iHappiness>0</iHappiness>
+			<iPlacementOrder>-1</iPlacementOrder>
+			<iConstAppearance>0</iConstAppearance>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iMinLatitude>0</iMinLatitude>
+			<iMaxLatitude>90</iMaxLatitude>
+			<Rands>
+				<iRandApp1>0</iRandApp1>
+				<iRandApp2>0</iRandApp2>
+				<iRandApp3>0</iRandApp3>
+				<iRandApp4>0</iRandApp4>
+			</Rands>
+			<iPlayer>0</iPlayer>
+			<iTilesPer>0</iTilesPer>
+			<iMinLandPercent>0</iMinLandPercent>
+			<iUnique>0</iUnique>
+			<iGroupRange>0</iGroupRange>
+			<iGroupRand>0</iGroupRand>
+			<bArea>0</bArea>
+			<bHills>0</bHills>
+			<bFlatlands>0</bFlatlands>
+			<bNoRiverSide>0</bNoRiverSide>
+			<bNormalize>0</bNormalize>
+			<TerrainBooleans/>
+			<FeatureBooleans/>
+			<FeatureTerrainBooleans/>
+		</BonusInfo>
+
+	</BonusInfos>
+</Civ4BonusInfos>

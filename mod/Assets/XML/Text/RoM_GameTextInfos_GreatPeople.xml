@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Great People -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_STEPHEN_HAWKING</Tag>
+		<English>Stephen Hawking</English>
+		<French>Stephen Hawking</French>
+		<German>Stephen Hawking</German>
+		<Italian>Stephen Hawking</Italian>
+		<Spanish>Stephen Hawking</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ARISTARKHOS</Tag>
+		<English>Aristarkhos</English>
+		<French>Aristarkhos</French>
+		<German>Aristarkhos</German>
+		<Italian>Aristarkhos</Italian>
+		<Spanish>Aristarkhos</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BILL_GATES</Tag>
+		<English>Bill Gates</English>
+		<French>Bill Gates</French>
+		<German>Bill Gates</German>
+		<Italian>Bill Gates</Italian>
+		<Spanish>Bill Gates</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAMES_PRESCOTT_JOULE</Tag>
+		<English>James Prescott Joule</English>
+		<French>James Prescott Joule</French>
+		<German>James Prescott Joule</German>
+		<Italian>James Prescott Joule</Italian>
+		<Spanish>James Prescott Joule</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHRISTIAAN_HUYGENS</Tag>
+		<English>Christiaan Huygens</English>
+		<French>Christiaan Huygens</French>
+		<German>Christiaan Huygens</German>
+		<Italian>Christiaan Huygens</Italian>
+		<Spanish>Christiaan Huygens</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_LOUIS_COMTE_LAGRANGE</Tag>
+		<English>Joseph Louis, Comte Lagrange</English>
+		<French>Joseph Louis, Comte Lagrange</French>
+		<German>Joseph Louis, Comte Lagrange</German>
+		<Italian>Joseph Louis, Comte Lagrange</Italian>
+		<Spanish>Joseph Louis, Comte Lagrange</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HENRY_CAVENDISH</Tag>
+		<English>Henry Cavendish</English>
+		<French>Henry Cavendish</French>
+		<German>Henry Cavendish</German>
+		<Italian>Henry Cavendish</Italian>
+		<Spanish>Henry Cavendish</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHRISTIAN_DOPPLER</Tag>
+		<English>Christian Doppler</English>
+		<French>Christian Doppler</French>
+		<German>Christian Doppler</German>
+		<Italian>Christian Doppler</Italian>
+		<Spanish>Christian Doppler</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DANIEL_BERNOULLI</Tag>
+		<English>Daniel Bernoulli</English>
+		<French>Daniel Bernoulli</French>
+		<German>Daniel Bernoulli</German>
+		<Italian>Daniel Bernoulli</Italian>
+		<Spanish>Daniel Bernoulli</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_THOMSON_LORD_KELVIN</Tag>
+		<English>William Thomson, Lord Kelvin</English>
+		<French>William Thomson, Lord Kelvin</French>
+		<German>William Thomson, Lord Kelvin</German>
+		<Italian>William Thomson, Lord Kelvin</Italian>
+		<Spanish>William Thomson, Lord Kelvin</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_BOYLE</Tag>
+		<English>Robert Boyle</English>
+		<French>Robert Boyle</French>
+		<German>Robert Boyle</German>
+		<Italian>Robert Boyle</Italian>
+		<Spanish>Robert Boyle</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SADI_CARNOT</Tag>
+		<English>Sadi Carnot</English>
+		<French>Sadi Carnot</French>
+		<German>Sadi Carnot</German>
+		<Italian>Sadi Carnot</Italian>
+		<Spanish>Sadi Carnot</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RUDOLPH_CLAUSIUS</Tag>
+		<English>Rudolph Clausius</English>
+		<French>Rudolph Clausius</French>
+		<German>Rudolph Clausius</German>
+		<Italian>Rudolph Clausius</Italian>
+		<Spanish>Rudolph Clausius</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WALTHER_HERMANN_NERNST</Tag>
+		<English>Walther Hermann Nernst</English>
+		<French>Walther Hermann Nernst</French>
+		<German>Walther Hermann Nernst</German>
+		<Italian>Walther Hermann Nernst</Italian>
+		<Spanish>Walther Hermann Nernst</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALESSANDRO_CONTE_VOLTA</Tag>
+		<English>Alessandro, Conte Volta</English>
+		<French>Alessandro, Conte Volta</French>
+		<German>Alessandro, Conte Volta</German>
+		<Italian>Alessandro, Conte Volta</Italian>
+		<Spanish>Alessandro, Conte Volta</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORG_SIMON_OHM</Tag>
+		<English>Georg Simon Ohm</English>
+		<French>Georg Simon Ohm</French>
+		<German>Georg Simon Ohm</German>
+		<Italian>Georg Simon Ohm</Italian>
+		<Spanish>Georg Simon Ohm</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GUSTAV_ROBERT_KIRCHHOFF</Tag>
+		<English>Gustav Robert Kirchhoff</English>
+		<French>Gustav Robert Kirchhoff</French>
+		<German>Gustav Robert Kirchhoff</German>
+		<Italian>Gustav Robert Kirchhoff</Italian>
+		<Spanish>Gustav Robert Kirchhoff</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANDRE_MARIE_AMPERE</Tag>
+		<English>Andr&#233; Marie Amp&#232;re</English>
+		<French>Andr&#233; Marie Amp&#232;re</French>
+		<German>Andr&#233; Marie Amp&#232;re</German>
+		<Italian>Andr&#233; Marie Amp&#232;re</Italian>
+		<Spanish>Andr&#233; Marie Amp&#232;re</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_JOHN_THOMSON</Tag>
+		<English>Sir Joseph John Thomson</English>
+		<French>Sir Joseph John Thomson</French>
+		<German>Sir Joseph John Thomson</German>
+		<Italian>Sir Joseph John Thomson</Italian>
+		<Spanish>Sir Joseph John Thomson</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_HENRY</Tag>
+		<English>Joseph Henry</English>
+		<French>Joseph Henry</French>
+		<German>Joseph Henry</German>
+		<Italian>Joseph Henry</Italian>
+		<Spanish>Joseph Henry</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HEINRICH_RUDOLF_HERTZ</Tag>
+		<English>Heinrich Rudolf Hertz</English>
+		<French>Heinrich Rudolf Hertz</French>
+		<German>Heinrich Rudolf Hertz</German>
+		<Italian>Heinrich Rudolf Hertz</Italian>
+		<Spanish>Heinrich Rudolf Hertz</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MAX_PLANCK</Tag>
+		<English>Max Planck</English>
+		<French>Max Planck</French>
+		<German>Max Planck</German>
+		<Italian>Max Planck</Italian>
+		<Spanish>Max Planck</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DONALD_TRUMP</Tag>
+		<English>Donald Trump</English>
+		<French>Donald Trump</French>
+		<German>Donald Trump</German>
+		<Italian>Donald Trump</Italian>
+		<Spanish>Donald Trump</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

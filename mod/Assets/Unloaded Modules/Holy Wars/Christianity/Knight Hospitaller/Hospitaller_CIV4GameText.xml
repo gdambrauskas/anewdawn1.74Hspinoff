@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">	
+	
+<!-- UNIT KEY SECTION -->
+
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT_HOSPITALLER</Tag>
+		<English>Knight Hospitaller</English>
+		<French>
+			<Text>Knight Hospitaller</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Knight Hospitaller</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Knight Hospitaller</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Knight Hospitaller</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SERGEANT_HOSPITALLER</Tag>
+		<English>Hospitaller Sergeant</English>
+		<French>
+			<Text>Hospitaller Sergeant</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Hospitaller Sergeant</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Hospitaller Sergeant</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Hospitaller Sergeant</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARSHALL_HOSPITALLER</Tag>
+		<English>Marshall of the Hospitallers</English>
+		<French>
+			<Text>Marshall of the Hospitallers</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Marshall of the Hospitallers</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Marshall of the Hospitallers</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Marshall of the Hospitallers</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	
+<!-- STRATEGY SECTION -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT_HOSPITALLER_STRATEGY</Tag>
+		<English>Stronger than a the typical Knight, use this Knight Hospitaller to aid Pilgrims and fellow Crusaders.</English>
+		<French>Stronger than a the typical Knight, use this Knight Hospitaller to aid Pilgrims and fellow Crusaders.</French>
+		<German>Stronger than a the typical Knight, use this Knight Hospitaller to aid Pilgrims and fellow Crusaders.</German>
+		<Italian>Stronger than a the typical Knight, use this Knight Hospitaller to aid Pilgrims and fellow Crusaders.</Italian>
+		<Spanish>Stronger than a the typical Knight, use this Knight Hospitaller to aid Pilgrims and fellow Crusaders.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SERGEANT_HOSPITALLER_STRATEGY</Tag>
+		<English>Born of lower social status, Hospitaller Sergeants aid their brothers against other mounted units.</English>
+		<French>Born of lower social status, Hospitaller Sergeants aid their brothers against other mounted units.</French>
+		<German>Born of lower social status, Hospitaller Sergeants aid their brothers against other mounted units.</German>
+		<Italian>Born of lower social status, Hospitaller Sergeants aid their brothers against other mounted units.</Italian>
+		<Spanish>Born of lower social status, Hospitaller Sergeants aid their brothers against other mounted units.</Spanish>
+	</TEXT>
+	
+<!-- PEDIA SECTION -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT_HOSPITALLER_PEDIA</Tag>
+		<English>[TAB]The Knights Hospitaller (also known as the Sovereign Military Hospitaller Order of St. John of Jerusalem of Rhodes and of Malta, Order of St. John, Sovereign Order of Saint John of Jerusalem of Rhodes and of Malta, Knights of Malta, Knights of Rhodes, and Chevaliers of Malta; French: Ordre des Hospitaliers) is a Christian organization that began as an Amalfitan hospital founded in Jerusalem in 1080 to provide care for poor and sick pilgrims to the Holy Land. After the Christian conquest of Jerusalem in 1099 during the First Crusade it became a religious/military order under its own charter, and was charged with the care and defense of the Holy Land. Following the loss of the Holy Land by Christian forces, the Order operated from Rhodes, over which it was sovereign, and later from Malta where it administered a vassal state under the Spanish viceroy of Sicily.
+</English>
+		<French>[TAB]The Knights Hospitaller (also known as the Sovereign Military Hospitaller Order of St. John of Jerusalem of Rhodes and of Malta, Order of St. John, Sovereign Order of Saint John of Jerusalem of Rhodes and of Malta, Knights of Malta, Knights of Rhodes, and Chevaliers of Malta; French: Ordre des Hospitaliers) is a Christian organization that began as an Amalfitan hospital founded in Jerusalem in 1080 to provide care for poor and sick pilgrims to the Holy Land. After the Christian conquest of Jerusalem in 1099 during the First Crusade it became a religious/military order under its own charter, and was charged with the care and defense of the Holy Land. Following the loss of the Holy Land by Christian forces, the Order operated from Rhodes, over which it was sovereign, and later from Malta where it administered a vassal state under the Spanish viceroy of Sicily.
+</French>
+		<German>[TAB]The Knights Hospitaller (also known as the Sovereign Military Hospitaller Order of St. John of Jerusalem of Rhodes and of Malta, Order of St. John, Sovereign Order of Saint John of Jerusalem of Rhodes and of Malta, Knights of Malta, Knights of Rhodes, and Chevaliers of Malta; French: Ordre des Hospitaliers) is a Christian organization that began as an Amalfitan hospital founded in Jerusalem in 1080 to provide care for poor and sick pilgrims to the Holy Land. After the Christian conquest of Jerusalem in 1099 during the First Crusade it became a religious/military order under its own charter, and was charged with the care and defense of the Holy Land. Following the loss of the Holy Land by Christian forces, the Order operated from Rhodes, over which it was sovereign, and later from Malta where it administered a vassal state under the Spanish viceroy of Sicily.
+</German>
+		<Italian>[TAB]The Knights Hospitaller (also known as the Sovereign Military Hospitaller Order of St. John of Jerusalem of Rhodes and of Malta, Order of St. John, Sovereign Order of Saint John of Jerusalem of Rhodes and of Malta, Knights of Malta, Knights of Rhodes, and Chevaliers of Malta; French: Ordre des Hospitaliers) is a Christian organization that began as an Amalfitan hospital founded in Jerusalem in 1080 to provide care for poor and sick pilgrims to the Holy Land. After the Christian conquest of Jerusalem in 1099 during the First Crusade it became a religious/military order under its own charter, and was charged with the care and defense of the Holy Land. Following the loss of the Holy Land by Christian forces, the Order operated from Rhodes, over which it was sovereign, and later from Malta where it administered a vassal state under the Spanish viceroy of Sicily.
+</Italian>
+		<Spanish>[TAB]The Knights Hospitaller (also known as the Sovereign Military Hospitaller Order of St. John of Jerusalem of Rhodes and of Malta, Order of St. John, Sovereign Order of Saint John of Jerusalem of Rhodes and of Malta, Knights of Malta, Knights of Rhodes, and Chevaliers of Malta; French: Ordre des Hospitaliers) is a Christian organization that began as an Amalfitan hospital founded in Jerusalem in 1080 to provide care for poor and sick pilgrims to the Holy Land. After the Christian conquest of Jerusalem in 1099 during the First Crusade it became a religious/military order under its own charter, and was charged with the care and defense of the Holy Land. Following the loss of the Holy Land by Christian forces, the Order operated from Rhodes, over which it was sovereign, and later from Malta where it administered a vassal state under the Spanish viceroy of Sicily.
+</Spanish>
+	</TEXT>
+	
+</Civ4GameText>

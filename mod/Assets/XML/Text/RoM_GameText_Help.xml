@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Help -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_GIANT_HELP</Tag>
+		<English>If you are looking for a truly epic experience, this map size is for you.  It has room for you and 23 opponents.</English>
+		<French>Si vous voulez vivre une v&#233;ritable &#233;pop&#233;e, cette carte est faite pour vous. Elle est immense et oppose 23 adversaires.</French>
+		<German>Wenn Sie eine unvergessliche Erfahrung suchen, ist diese Karte Ihre erste Wahl. Immerhin treffen Sie hier auf bis zu 23 Gegner!</German>
+		<Italian>Se sei alla ricerca di un'esperienza davvero epica, la dimensione di questa mappa &#232; quello che fa per te, poich&#233; oltre a te c'&#232; posto per altri dieci rivali.</Italian>
+		<Spanish>Si quer&#233;is una experiencia &#233;pica de verdad, el tama&#241;o de este mapa es lo que and&#225;is buscando.  Tiene espacio suficiente para vos y para otros diez rivales.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_GIGANTIC_HELP</Tag>
+		<English>If you are looking for a truly epic experience, this map size is for you.  It has room for you and 23 opponents.</English>
+		<French>Si vous voulez vivre une v&#233;ritable &#233;pop&#233;e, cette carte est faite pour vous. Elle est immense et oppose 23 adversaires.</French>
+		<German>Wenn Sie eine unvergessliche Erfahrung suchen, ist diese Karte Ihre erste Wahl. Immerhin treffen Sie hier auf bis zu 23 Gegner!</German>
+		<Italian>Se sei alla ricerca di un'esperienza davvero epica, la dimensione di questa mappa &#232; quello che fa per te, poich&#233; oltre a te c'&#232; posto per altri dieci rivali.</Italian>
+		<Spanish>Si quer&#233;is una experiencia &#233;pica de verdad, el tama&#241;o de este mapa es lo que and&#225;is buscando.  Tiene espacio suficiente para vos y para otros diez rivales.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONUMENT_HELP</Tag>
+		<English>[ICON_BULLET]-50%% Cost with [LINK=CIVIC_FOLKLORE]Folklore[\LINK]</English>
+		<French>[ICON_BULLET]-50%% de Coût avec [LINK=CIVIC_FOLKLORE]Folklore[\LINK]</French>
+		<German>[ICON_BULLET]-50%% Kosten mit [LINK=CIVIC_FOLKLORE]Folklore[\LINK]</German>
+		<Italian>[ICON_BULLET]-50%% Cost with [LINK=CIVIC_FOLKLORE]Folklore[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]-50%% Cost with [LINK=CIVIC_FOLKLORE]Folklore[\LINK]</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STATUE_OF_LIBERTY_HELP</Tag>
+		<English>[ICON_BULLET]Requires [LINK=CIVIC_LIBERAL]Liberal[\LINK] civic to be active[NEWLINE][ICON_BULLET]Requires coastal city</English>
+		<French>[ICON_BULLET]Requiert la doctrine [LINK=CIVIC_LIBERAL]Libéralisme[\LINK][NEWLINE][ICON_BULLET]Requiert une Ville côtière</French>
+		<German>[ICON_BULLET]Ben&#246;tigt die [LINK=CIVIC_LIBERAL]Liberale[\LINK] Staatsform um aktiviert zu werden[NEWLINE][ICON_BULLET]Nur f&#252;r K&#252;stenst&#228;dte</German>
+		<Italian>[ICON_BULLET]Requires [LINK=CIVIC_LIBERAL]Liberal[\LINK] civic to be active[NEWLINE][ICON_BULLET]Requires coastal city</Italian>
+		<Spanish>[ICON_BULLET]Requires [LINK=CIVIC_LIBERAL]Liberal[\LINK] civic to be active[NEWLINE][ICON_BULLET]Requires coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WORLD_BANK_HELP</Tag>
+		<English>[ICON_BULLET]Increases Total [ICON_GOLD] Reserves by 50%[NEWLINE][ICON_BULLET]2% Interest on [ICON_GOLD] Reserves</English>
+		<French>[ICON_BULLET]Augmente [ICON_GOLD] le trésor de 50%[NEWLINE][ICON_BULLET]2% d'intérêts sur [ICON_GOLD] le trésor</French>
+		<German>[ICON_BULLET]Erh&#246;ht die gesamten [ICON_GOLD]-Reserven um 50%[NEWLINE][ICON_BULLET]2% Zinsen auf [ICON_GOLD]-Reserven</German>
+		<Italian>[ICON_BULLET]Increases Total [ICON_GOLD] Reserves by 50%[NEWLINE][ICON_BULLET]2% Interest on [ICON_GOLD] Reserves</Italian>
+		<Spanish>[ICON_BULLET]Increases Total [ICON_GOLD] Reserves by 50%[NEWLINE][ICON_BULLET]2% Interest on [ICON_GOLD] Reserves</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OIL_REFINERY_HELP</Tag>
+		<English>[ICON_BULLET]Requires River</English>
+		<French>[ICON_BULLET]Requiert une rivière</French>
+		<German>[ICON_BULLET]Ben&#246;tigt Fluss</German>
+		<Italian>[ICON_BULLET]Requires River</Italian>
+		<Spanish>[ICON_BULLET]Requires River</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RIVER_PORT_HELP</Tag>
+		<English>[ICON_BULLET]Requires River</English>
+		<French>[ICON_BULLET]Requiert une Rivière</French>
+		<German>[ICON_BULLET]Ben&#246;tigt Fluss</German>
+		<Italian>[ICON_BULLET]Requires River</Italian>
+		<Spanish>[ICON_BULLET]Requires River</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HYDRO_PLANT_HELP</Tag>
+		<English>[ICON_BULLET]Requires River</English>
+		<French>[ICON_BULLET]Requiert une Rivière</French>
+		<German>[ICON_BULLET]Ben&#246;tigt Fluss</German>
+		<Italian>[ICON_BULLET]Requires River</Italian>
+		<Spanish>[ICON_BULLET]Requires River</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LEVEE_HELP</Tag>
+		<English>[ICON_BULLET]Requires River</English>
+		<French>[ICON_BULLET]Requiert une Rivière</French>
+		<German>[ICON_BULLET]Ben&#246;tigt Fluss</German>
+		<Italian>[ICON_BULLET]Requires River</Italian>
+		<Spanish>[ICON_BULLET]Requires River</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IRRIGATION_CANALS_HELP</Tag>
+		<English>[ICON_BULLET]Requires River</English>
+		<French>[ICON_BULLET]Requiert une Rivière</French>
+		<German>[ICON_BULLET]Ben&#246;tigt Fluss</German>
+		<Italian>[ICON_BULLET]Requires River</Italian>
+		<Spanish>[ICON_BULLET]Requires River</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DJENNE_HELP</Tag>
+		<English>[ICON_BULLET]Desert Tiles: +2[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% Cost of Cathedrals in All Cities[NEWLINE][COLOR_NEGATIVE_TEXT]Requires Desert in City Radius[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Déserts : +2[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% de coût des Cathédrales dans toutes les Villes [NEWLINE][COLOR_NEGATIVE_TEXT]Requiert du Désert dans le périmètre de la Ville[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]W&#252;stenfelder: +2[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% Kosten f&#252;r Kathedralen in allen St&#228;dten[NEWLINE][COLOR_NEGATIVE_TEXT]Ben&#246;tigt W&#252;ste im Stadtradius[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]Desert Tiles: +2[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% Cost of Cathedrals in All Cities[NEWLINE][COLOR_NEGATIVE_TEXT]Requires Desert in City Radius[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]Desert Tiles: +2[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% Cost of Cathedrals in All Cities[NEWLINE][COLOR_NEGATIVE_TEXT]Requires Desert in City Radius[COLOR_REVERT]</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SEA_AIR_DEFENSE_HELP</Tag>
+		<English>[ICON_BULLET]+50%% Air Defense</English>
+		<French>[ICON_BULLET]+50%% Défense Aérienne</French>
+		<German>[ICON_BULLET]+50%% Luftverteidigung</German>
+		<Italian>[ICON_BULLET]+50%% Air Defense</Italian>
+		<Spanish>[ICON_BULLET]+50%% Air Defense</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_SEA_AIR_DEFENSE_HELP</Tag>
+		<English>[ICON_BULLET]+50%% Air Defense</English>
+		<French>[ICON_BULLET]+50%% Défense Aérienne</French>
+		<German>[ICON_BULLET]+50%% Luftverteidigunge</German>
+		<Italian>[ICON_BULLET]+50%% Air Defense</Italian>
+		<Spanish>[ICON_BULLET]+50%% Air Defense</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ASCENSION_GATE_HELP</Tag>
+		<English>[ICON_BULLET]Grants Scientific Victory when built</English>
+		<French>[ICON_BULLET]Permet une Victoire Scientifique lorsque construit</French>
+		<German>[ICON_BULLET]Gew&#228;hrt den Wissenschaftssieg</German>
+		<Italian>[ICON_BULLET]Grants Scientific Victory when built</Italian>
+		<Spanish>[ICON_BULLET]Grants Scientific Victory when built</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NANITE_DEFUSER_HELP</Tag>
+		<English>[ICON_BULLET]Defuses all nuclear weapons from all civilizations (one time effect)</English>
+		<French>[ICON_BULLET]Détruit l'ensemble des armes nucléaires de toutes les civilisations (effet unique)</French>
+		<German>[ICON_BULLET]Entsch&#228;rft alle Nuklearwaffen aller Zivilisationen (einmaliger Effekt)</German>
+		<Italian>[ICON_BULLET]Defuses all nuclear weapons from all civilizations (one time effect)</Italian>
+		<Spanish>[ICON_BULLET]Defuses all nuclear weapons from all civilizations (one time effect)</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PERSONAL_REPLICATORS_HELP</Tag>
+		<English>Reduces the cost of unit upgrades by 50%</English>
+		<French>Réduit le coût des améliorations d'unités de 50%</French>
+		<German>Reduziert die Kosten von Einheitenmodernisierungen um 50%</German>
+		<Italian>Reduces the cost of unit upgrades by 50%</Italian>
+		<Spanish>Reduces the cost of unit upgrades by 50%</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VACATION_RESORT_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_LIGHTHOUSE_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MOAI_STATUES_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAGELLAN_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FISHERMAN_HUT_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LIGHTHOUSE_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HARBOR_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOLL_HOUSE_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CUSTOM_HOUSE_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHIPYARD_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NAVAL_ACADEMY_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DRYDOCK_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NAVAL_YARD_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COLOSSUS_HELP</Tag>
+		<English>[ICON_BULLET]Can be built only in coastal city</English>
+		<French>[ICON_BULLET]Peut être construit uniquement dans une Ville côtière</French>
+		<German>[ICON_BULLET]Kann nur in K&#252;stenst&#228;dten gebaut werden</German>
+		<Italian>[ICON_BULLET]Can be built only in coastal city</Italian>
+		<Spanish>[ICON_BULLET]Can be built only in coastal city</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INQUISITOR_HELP</Tag>
+		<English>[ICON_BULLET]Requires active State Religion[NEWLINE][ICON_BULLET]Intolerant civic must be active</English>
+		<French>[ICON_BULLET]Requiert une Religion d'Etat[NEWLINE][ICON_BULLET]La doctrine 'Intolérance' doit être active</French>
+		<German>[ICON_BULLET]Ben&#246;tigt eine aktive Staatsreligion[NEWLINE][ICON_BULLET]Die Staatsform "Intolerant" muss aktiv sein</German>
+		<Italian>[ICON_BULLET]Requires active State Religion[NEWLINE][ICON_BULLET]Intolerant civic must be active</Italian>
+		<Spanish>[ICON_BULLET]Requires active State Religion[NEWLINE][ICON_BULLET]Intolerant civic must be active</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FIGHTING_PIT</Tag>
+		<English>Fighting Pit</English>
+		<French>
+			<Text>Fosse de Combat</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Kampfgrube</German>
+		<Italian>Fighting Pit</Italian>
+		<Spanish>Fighting Pit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TRAINING_DOJO</Tag>
+		<English>Training Dojo</English>
+		<French>Dojo d'entraînement</French>
+		<German>Dojo-Trainingshalle</German>
+		<Italian>Training Dojo</Italian>
+		<Spanish>Training Dojo</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MASTERS_DOJO</Tag>
+		<English>Masters Dojo</English>
+		<French>Dojo de Combat</French>
+		<German>Dojo-Kampfhalle</German>
+		<Italian>Masters Dojo</Italian>
+		<Spanish>Masters Dojo</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JOUSTING_ARENA</Tag>
+		<English>Jousting Tournament</English>
+		<French>
+			<Text>Tournoi de Joutes</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Tjosttourniergelände</German>
+		<Italian>Jousting Tournament</Italian>
+		<Spanish>Jousting Tournament</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FENCING_ACADEMY</Tag>
+		<English>Fencing Academy</English>
+		<French>
+			<Text>Académie d'escrime</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Fechtakademie</German>
+		<Italian>Fencing Academy</Italian>
+		<Spanish>Fencing Academy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RECREATION_CENTER</Tag>
+		<English>Recreation Center</English>
+		<French>Centre Omnisports</French>
+		<German>Freizeitzentrum</German>
+		<Italian>Recreation Center</Italian>
+		<Spanish>Recreation Center</Spanish>
+	</TEXT>
+	<!--<TEXT>
+		<Tag>TXT_KEY_BUILDING_OUTDOOR_RECREATION_CENTER</Tag>
+		<English>Outdoor Recreation Center</English>
+		<French>Centre de Loisirs d'extérieur</French>
+		<German>Outdoor-Freizeitzentrum</German>
+		<Italian>Outdoor Recreation Center</Italian>
+		<Spanish>Outdoor Recreation Center</Spanish>
+	</TEXT>-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ICE_RINK</Tag>
+		<English>Ice Rink</English>
+		<French>
+			<Text>Patinoire</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Eislaufhalle</German>
+		<Italian>Ice Rink</Italian>
+		<Spanish>Ice Rink</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MINOR_LEAGUE_STADIUM</Tag>
+		<English>Minor League Stadium</English>
+		<French>Stade de Championnat</French>
+		<German>Regionalligastadion</German>
+		<Italian>Minor League Stadium</Italian>
+		<Spanish>Minor League Stadium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAJOR_LEAGUE_STADIUM</Tag>
+		<English>Major League Stadium</English>
+		<French>Stade de Ligue des Champions</French>
+		<German>Bundesligastadion</German>
+		<Italian>Major League Stadium</Italian>
+		<Spanish>Major League Stadium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OLYMPICS</Tag>
+		<English>Olympics</English>
+		<French>
+			<Text>Olympiades</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Olympiade</German>
+		<Italian>Olympics</Italian>
+		<Spanish>Olympics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_X_GAMES</Tag>
+		<English>X-Games</English>
+		<French>
+			<Text>Jeux X-trêmes</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>X-Games</German>
+		<Italian>X-Games</Italian>
+		<Spanish>X-Games</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPEEDWAY</Tag>
+		<English>Speedway</English>
+		<French>Circuit automobile</French>
+		<German>Rennbahn</German>
+		<Italian>Speedway</Italian>
+		<Spanish>Speedway</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BATTLEBOT_ARENA</Tag>
+		<English>Battlebot Arena</English>
+		<French>
+			<Text>Arène de Robots</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Kampfroboterarena</German>
+		<Italian>Battlebot Arena</Italian>
+		<Spanish>Battlebot Arena</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WINTER_LODGE</Tag>
+		<English>Winter Chalet</English>
+		<French>
+			<Text>Chalet d'hiver</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Winterchalet</German>
+		<Italian>Winter Chalet</Italian>
+		<Spanish>Winter Chalet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SKI_RESORT</Tag>
+		<English>Ski Resort</English>
+		<French>
+			<Text>Station de Sports d'hiver</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Skiresort</German>
+		<Italian>Ski Resort</Italian>
+		<Spanish>Ski Resort</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AIRFIELD</Tag>
+		<English>Airfield</English>
+		<French>Aérodrome</French>
+		<German>Flugplatz</German>
+		<Italian>Airfield</Italian>
+		<Spanish>Airfield</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WAVE_RACING</Tag>
+		<English>Water Raceway</English>
+		<French>
+			<Text>Base de loisirs nautiques</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Wasserennbahn</German>
+		<Italian>Water Raceway</Italian>
+		<Spanish>Water Raceway</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPACEWAY</Tag>
+		<English>Interstellar Speedway</English>
+		<French>Base de loisirs Interstellaire</French>
+		<German>Interstellare Rennbahn</German>
+		<Italian>Interstellar Speedway</Italian>
+		<Spanish>Interstellar Speedway</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FIGHTING_PIT_PEDIA</Tag>
+		<English>Pit Fighting is a martial art developed in the United States from indigenous fighting methods. It is primarily a striking art using punching, kicking, knee and elbow strikes. It came about in America where fighters who were not in organized combat sports such as boxing or MMA and fought in pits for money, pride, and respect.</English>
+		<French>Pit Fighting is a martial art developed in the United States from indigenous fighting methods. It is primarily a striking art using punching, kicking, knee and elbow strikes. It came about in America where fighters who were not in organized combat sports such as boxing or MMA and fought in pits for money, pride, and respect.</French>
+		<German>Pit Fighting is a martial art developed in the United States from indigenous fighting methods. It is primarily a striking art using punching, kicking, knee and elbow strikes. It came about in America where fighters who were not in organized combat sports such as boxing or MMA and fought in pits for money, pride, and respect.</German>
+		<Italian>Pit Fighting is a martial art developed in the United States from indigenous fighting methods. It is primarily a striking art using punching, kicking, knee and elbow strikes. It came about in America where fighters who were not in organized combat sports such as boxing or MMA and fought in pits for money, pride, and respect.</Italian>
+		<Spanish>Pit Fighting is a martial art developed in the United States from indigenous fighting methods. It is primarily a striking art using punching, kicking, knee and elbow strikes. It came about in America where fighters who were not in organized combat sports such as boxing or MMA and fought in pits for money, pride, and respect.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TRAINING_DOJO_PEDIA</Tag>
+		<English>A dojo is a Japanese term which literally means "place of the way". Initially, dojo were adjunct to temples. The term can refer to a formal training place for any of the Japanese do arts but typically it is considered the formal gathering place for students of any Japanese martial arts style to conduct training, examinations and other related encounters.</English>
+		<French>A dojo is a Japanese term which literally means "place of the way". Initially, dojo were adjunct to temples. The term can refer to a formal training place for any of the Japanese do arts but typically it is considered the formal gathering place for students of any Japanese martial arts style to conduct training, examinations and other related encounters.</French>
+		<German>A dojo is a Japanese term which literally means "place of the way". Initially, dojo were adjunct to temples. The term can refer to a formal training place for any of the Japanese do arts but typically it is considered the formal gathering place for students of any Japanese martial arts style to conduct training, examinations and other related encounters.</German>
+		<Italian>A dojo is a Japanese term which literally means "place of the way". Initially, dojo were adjunct to temples. The term can refer to a formal training place for any of the Japanese do arts but typically it is considered the formal gathering place for students of any Japanese martial arts style to conduct training, examinations and other related encounters.</Italian>
+		<Spanish>A dojo is a Japanese term which literally means "place of the way". Initially, dojo were adjunct to temples. The term can refer to a formal training place for any of the Japanese do arts but typically it is considered the formal gathering place for students of any Japanese martial arts style to conduct training, examinations and other related encounters.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JOUSTING_ARENA_PEDIA</Tag>
+		<English>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do.</English>
+		<French>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do</French>
+		<German>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do</German>
+		<Italian>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do</Italian>
+		<Spanish>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FENCING_ACADEMY_PEDIA</Tag>
+		<English>Fencing is a family of sports and activities that feature armed combat involving cutting, stabbing, or bludgeoning weapons that are directly manipulated by hand, rather than shot, thrown or positioned. Examples include swords, knives, pikes, bayonets, batons, clubs, and similar weapons. In contemporary common usage, fencing tends to refer specifically to European schools of swordsmanship and to the modern Olympic sport that has evolved out of them.</English>
+		<French>Fencing is a family of sports and activities that feature armed combat involving cutting, stabbing, or bludgeoning weapons that are directly manipulated by hand, rather than shot, thrown or positioned. Examples include swords, knives, pikes, bayonets, batons, clubs, and similar weapons. In contemporary common usage, fencing tends to refer specifically to European schools of swordsmanship and to the modern Olympic sport that has evolved out of them.</French>
+		<German>Fencing is a family of sports and activities that feature armed combat involving cutting, stabbing, or bludgeoning weapons that are directly manipulated by hand, rather than shot, thrown or positioned. Examples include swords, knives, pikes, bayonets, batons, clubs, and similar weapons. In contemporary common usage, fencing tends to refer specifically to European schools of swordsmanship and to the modern Olympic sport that has evolved out of them.</German>
+		<Italian>Fencing is a family of sports and activities that feature armed combat involving cutting, stabbing, or bludgeoning weapons that are directly manipulated by hand, rather than shot, thrown or positioned. Examples include swords, knives, pikes, bayonets, batons, clubs, and similar weapons. In contemporary common usage, fencing tends to refer specifically to European schools of swordsmanship and to the modern Olympic sport that has evolved out of them.</Italian>
+		<Spanish>Fencing is a family of sports and activities that feature armed combat involving cutting, stabbing, or bludgeoning weapons that are directly manipulated by hand, rather than shot, thrown or positioned. Examples include swords, knives, pikes, bayonets, batons, clubs, and similar weapons. In contemporary common usage, fencing tends to refer specifically to European schools of swordsmanship and to the modern Olympic sport that has evolved out of them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RECREATION_CENTER_PEDIA</Tag>
+		<English>In the United States, the Turner movement thrived in the nineteenth and early twentieth centuries. The first Turners group was formed in Cincinnati in 1848. The Turners built gymnasia in several cities like Cincinnati and St. Louis which had large German American populations. These Gyms were utilized by adults and youth. For example, a young Lou Gehrig would frequent the Turner gym in New York City with his father.[NEWLINE]Gymnasia in the United States however predate the Turner movement. A public gymnasium movement sprung up in the 1820s and 1830s but was eclipsed by the growth of school, college, and the Young Men's Christian Association (YMCA) gymnasia. The first college gymnasium probably was the one built at Harvard University in 1820. Although privately owned, it was maintained for the use of the students. Like most of the gymnasia of the period, it was equipped with gymnastic apparatus. The United States Military Academy at West Point built a gym during the same era. A few other American colleges built gyms by the 1850s. Harvard opened a new brick gymnasium in 1860 with two bowling alleys and dressing rooms in addition to the gymnastic facility.[NEWLINE]YMCA first organized in Boston 1851 with a smaller branch opened in Rangasville in 1852. Ten years later there were some two hundred YMCAs across the country, most of which provided gymnasia for exercise and games and social interaction.[NEWLINE]The 1920s was a decade of prosperity that witnessed the building of large numbers of public high schools with gymnasiums, an idea founded by Nicolas Isaranga. Over the course of the twentieth century, gymnasia have been reconceptualized to accommodate the popular team and individual games and sports that have supplanted gymnastics in the school curriculum.[NEWLINE]Today, having a gymnasium is typical for virtually all American colleges and high schools, as well almost all middle and many elementary schools. These facilities are utilized for physical education, intramural sports and for interscholastic athletics. In recent years, newer high schools use the terms sportatorium (taken from the name of a few sporting venues in the country) or "multi-purpose room," indicating the gymnasium is used both for sports and non-sporting events</English>
+		<French>In the United States, the Turner movement thrived in the nineteenth and early twentieth centuries. The first Turners group was formed in Cincinnati in 1848. The Turners built gymnasia in several cities like Cincinnati and St. Louis which had large German American populations. These Gyms were utilized by adults and youth. For example, a young Lou Gehrig would frequent the Turner gym in New York City with his father.[NEWLINE]Gymnasia in the United States however predate the Turner movement. A public gymnasium movement sprung up in the 1820s and 1830s but was eclipsed by the growth of school, college, and the Young Men's Christian Association (YMCA) gymnasia. The first college gymnasium probably was the one built at Harvard University in 1820. Although privately owned, it was maintained for the use of the students. Like most of the gymnasia of the period, it was equipped with gymnastic apparatus. The United States Military Academy at West Point built a gym during the same era. A few other American colleges built gyms by the 1850s. Harvard opened a new brick gymnasium in 1860 with two bowling alleys and dressing rooms in addition to the gymnastic facility.[NEWLINE]YMCA first organized in Boston 1851 with a smaller branch opened in Rangasville in 1852. Ten years later there were some two hundred YMCAs across the country, most of which provided gymnasia for exercise and games and social interaction.[NEWLINE]The 1920s was a decade of prosperity that witnessed the building of large numbers of public high schools with gymnasiums, an idea founded by Nicolas Isaranga. Over the course of the twentieth century, gymnasia have been reconceptualized to accommodate the popular team and individual games and sports that have supplanted gymnastics in the school curriculum.[NEWLINE]Today, having a gymnasium is typical for virtually all American colleges and high schools, as well almost all middle and many elementary schools. These facilities are utilized for physical education, intramural sports and for interscholastic athletics. In recent years, newer high schools use the terms sportatorium (taken from the name of a few sporting venues in the country) or "multi-purpose room," indicating the gymnasium is used both for sports and non-sporting events</French>
+		<German>In the United States, the Turner movement thrived in the nineteenth and early twentieth centuries. The first Turners group was formed in Cincinnati in 1848. The Turners built gymnasia in several cities like Cincinnati and St. Louis which had large German American populations. These Gyms were utilized by adults and youth. For example, a young Lou Gehrig would frequent the Turner gym in New York City with his father.[NEWLINE]Gymnasia in the United States however predate the Turner movement. A public gymnasium movement sprung up in the 1820s and 1830s but was eclipsed by the growth of school, college, and the Young Men's Christian Association (YMCA) gymnasia. The first college gymnasium probably was the one built at Harvard University in 1820. Although privately owned, it was maintained for the use of the students. Like most of the gymnasia of the period, it was equipped with gymnastic apparatus. The United States Military Academy at West Point built a gym during the same era. A few other American colleges built gyms by the 1850s. Harvard opened a new brick gymnasium in 1860 with two bowling alleys and dressing rooms in addition to the gymnastic facility.[NEWLINE]YMCA first organized in Boston 1851 with a smaller branch opened in Rangasville in 1852. Ten years later there were some two hundred YMCAs across the country, most of which provided gymnasia for exercise and games and social interaction.[NEWLINE]The 1920s was a decade of prosperity that witnessed the building of large numbers of public high schools with gymnasiums, an idea founded by Nicolas Isaranga. Over the course of the twentieth century, gymnasia have been reconceptualized to accommodate the popular team and individual games and sports that have supplanted gymnastics in the school curriculum.[NEWLINE]Today, having a gymnasium is typical for virtually all American colleges and high schools, as well almost all middle and many elementary schools. These facilities are utilized for physical education, intramural sports and for interscholastic athletics. In recent years, newer high schools use the terms sportatorium (taken from the name of a few sporting venues in the country) or "multi-purpose room," indicating the gymnasium is used both for sports and non-sporting events</German>
+		<Italian>In the United States, the Turner movement thrived in the nineteenth and early twentieth centuries. The first Turners group was formed in Cincinnati in 1848. The Turners built gymnasia in several cities like Cincinnati and St. Louis which had large German American populations. These Gyms were utilized by adults and youth. For example, a young Lou Gehrig would frequent the Turner gym in New York City with his father.[NEWLINE]Gymnasia in the United States however predate the Turner movement. A public gymnasium movement sprung up in the 1820s and 1830s but was eclipsed by the growth of school, college, and the Young Men's Christian Association (YMCA) gymnasia. The first college gymnasium probably was the one built at Harvard University in 1820. Although privately owned, it was maintained for the use of the students. Like most of the gymnasia of the period, it was equipped with gymnastic apparatus. The United States Military Academy at West Point built a gym during the same era. A few other American colleges built gyms by the 1850s. Harvard opened a new brick gymnasium in 1860 with two bowling alleys and dressing rooms in addition to the gymnastic facility.[NEWLINE]YMCA first organized in Boston 1851 with a smaller branch opened in Rangasville in 1852. Ten years later there were some two hundred YMCAs across the country, most of which provided gymnasia for exercise and games and social interaction.[NEWLINE]The 1920s was a decade of prosperity that witnessed the building of large numbers of public high schools with gymnasiums, an idea founded by Nicolas Isaranga. Over the course of the twentieth century, gymnasia have been reconceptualized to accommodate the popular team and individual games and sports that have supplanted gymnastics in the school curriculum.[NEWLINE]Today, having a gymnasium is typical for virtually all American colleges and high schools, as well almost all middle and many elementary schools. These facilities are utilized for physical education, intramural sports and for interscholastic athletics. In recent years, newer high schools use the terms sportatorium (taken from the name of a few sporting venues in the country) or "multi-purpose room," indicating the gymnasium is used both for sports and non-sporting events</Italian>
+		<Spanish>In the United States, the Turner movement thrived in the nineteenth and early twentieth centuries. The first Turners group was formed in Cincinnati in 1848. The Turners built gymnasia in several cities like Cincinnati and St. Louis which had large German American populations. These Gyms were utilized by adults and youth. For example, a young Lou Gehrig would frequent the Turner gym in New York City with his father.[NEWLINE]Gymnasia in the United States however predate the Turner movement. A public gymnasium movement sprung up in the 1820s and 1830s but was eclipsed by the growth of school, college, and the Young Men's Christian Association (YMCA) gymnasia. The first college gymnasium probably was the one built at Harvard University in 1820. Although privately owned, it was maintained for the use of the students. Like most of the gymnasia of the period, it was equipped with gymnastic apparatus. The United States Military Academy at West Point built a gym during the same era. A few other American colleges built gyms by the 1850s. Harvard opened a new brick gymnasium in 1860 with two bowling alleys and dressing rooms in addition to the gymnastic facility.[NEWLINE]YMCA first organized in Boston 1851 with a smaller branch opened in Rangasville in 1852. Ten years later there were some two hundred YMCAs across the country, most of which provided gymnasia for exercise and games and social interaction.[NEWLINE]The 1920s was a decade of prosperity that witnessed the building of large numbers of public high schools with gymnasiums, an idea founded by Nicolas Isaranga. Over the course of the twentieth century, gymnasia have been reconceptualized to accommodate the popular team and individual games and sports that have supplanted gymnastics in the school curriculum.[NEWLINE]Today, having a gymnasium is typical for virtually all American colleges and high schools, as well almost all middle and many elementary schools. These facilities are utilized for physical education, intramural sports and for interscholastic athletics. In recent years, newer high schools use the terms sportatorium (taken from the name of a few sporting venues in the country) or "multi-purpose room," indicating the gymnasium is used both for sports and non-sporting events</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ICE_RINK_PEDIA</Tag>
+		<English>An ice rink is a frozen body of water where people can ice skate or play winter sports. Some of its uses include playing ice hockey, figure skating exhibitions and contests, and ice shows. [NEWLINE]In any climate, an arena ice surface can be installed in a properly built space. This consists of a bed of sand, or occasionally a slab of concrete, through (or on top of) which pipes run. The pipes carry a chilled fluid (usually either a salt brine or water with antifreeze) which can lower the temperature of the slab so that water placed atop it will freeze. Such rinks were developed in the late nineteenth century, the first being the Glaciarium in London. This methodology is known as 'artificial ice' to differentiate from ice rinks made by simply freezing water in a cold climate, indoors or outdoors, although both types are of frozen water. A more proper technical term is 'mechanically frozen' ice.</English>
+		<French>An ice rink is a frozen body of water where people can ice skate or play winter sports. Some of its uses include playing ice hockey, figure skating exhibitions and contests, and ice shows. [NEWLINE]In any climate, an arena ice surface can be installed in a properly built space. This consists of a bed of sand, or occasionally a slab of concrete, through (or on top of) which pipes run. The pipes carry a chilled fluid (usually either a salt brine or water with antifreeze) which can lower the temperature of the slab so that water placed atop it will freeze. Such rinks were developed in the late nineteenth century, the first being the Glaciarium in London. This methodology is known as 'artificial ice' to differentiate from ice rinks made by simply freezing water in a cold climate, indoors or outdoors, although both types are of frozen water. A more proper technical term is 'mechanically frozen' ice.</French>
+		<German>An ice rink is a frozen body of water where people can ice skate or play winter sports. Some of its uses include playing ice hockey, figure skating exhibitions and contests, and ice shows. [NEWLINE]In any climate, an arena ice surface can be installed in a properly built space. This consists of a bed of sand, or occasionally a slab of concrete, through (or on top of) which pipes run. The pipes carry a chilled fluid (usually either a salt brine or water with antifreeze) which can lower the temperature of the slab so that water placed atop it will freeze. Such rinks were developed in the late nineteenth century, the first being the Glaciarium in London. This methodology is known as 'artificial ice' to differentiate from ice rinks made by simply freezing water in a cold climate, indoors or outdoors, although both types are of frozen water. A more proper technical term is 'mechanically frozen' ice.</German>
+		<Italian>An ice rink is a frozen body of water where people can ice skate or play winter sports. Some of its uses include playing ice hockey, figure skating exhibitions and contests, and ice shows. [NEWLINE]In any climate, an arena ice surface can be installed in a properly built space. This consists of a bed of sand, or occasionally a slab of concrete, through (or on top of) which pipes run. The pipes carry a chilled fluid (usually either a salt brine or water with antifreeze) which can lower the temperature of the slab so that water placed atop it will freeze. Such rinks were developed in the late nineteenth century, the first being the Glaciarium in London. This methodology is known as 'artificial ice' to differentiate from ice rinks made by simply freezing water in a cold climate, indoors or outdoors, although both types are of frozen water. A more proper technical term is 'mechanically frozen' ice.</Italian>
+		<Spanish>An ice rink is a frozen body of water where people can ice skate or play winter sports. Some of its uses include playing ice hockey, figure skating exhibitions and contests, and ice shows. [NEWLINE]In any climate, an arena ice surface can be installed in a properly built space. This consists of a bed of sand, or occasionally a slab of concrete, through (or on top of) which pipes run. The pipes carry a chilled fluid (usually either a salt brine or water with antifreeze) which can lower the temperature of the slab so that water placed atop it will freeze. Such rinks were developed in the late nineteenth century, the first being the Glaciarium in London. This methodology is known as 'artificial ice' to differentiate from ice rinks made by simply freezing water in a cold climate, indoors or outdoors, although both types are of frozen water. A more proper technical term is 'mechanically frozen' ice.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MINOR_LEAGUE_STADIUM_PEDIA</Tag>
+		<English>Minor league baseball is a hierarchy of professional baseball leagues in North America that compete at levels below that of Major League Baseball. All of the minor leagues are operated as independent businesses, and many are members of Minor League Baseball, an umbrella organization for leagues that have agreements to operate as affiliates of Major League Baseball. Several leagues, known as independent leagues, do not have any links to Major League Baseball, and thus are not members of organized baseball. Many alumni of independent baseball, however, have worked their way to the major leagues and many former MLBers play in independent baseball.</English>
+		<French>Minor league baseball is a hierarchy of professional baseball leagues in North America that compete at levels below that of Major League Baseball. All of the minor leagues are operated as independent businesses, and many are members of Minor League Baseball, an umbrella organization for leagues that have agreements to operate as affiliates of Major League Baseball. Several leagues, known as independent leagues, do not have any links to Major League Baseball, and thus are not members of organized baseball. Many alumni of independent baseball, however, have worked their way to the major leagues and many former MLBers play in independent baseball.</French>
+		<German>Minor league baseball is a hierarchy of professional baseball leagues in North America that compete at levels below that of Major League Baseball. All of the minor leagues are operated as independent businesses, and many are members of Minor League Baseball, an umbrella organization for leagues that have agreements to operate as affiliates of Major League Baseball. Several leagues, known as independent leagues, do not have any links to Major League Baseball, and thus are not members of organized baseball. Many alumni of independent baseball, however, have worked their way to the major leagues and many former MLBers play in independent baseball.</German>
+		<Italian>Minor league baseball is a hierarchy of professional baseball leagues in North America that compete at levels below that of Major League Baseball. All of the minor leagues are operated as independent businesses, and many are members of Minor League Baseball, an umbrella organization for leagues that have agreements to operate as affiliates of Major League Baseball. Several leagues, known as independent leagues, do not have any links to Major League Baseball, and thus are not members of organized baseball. Many alumni of independent baseball, however, have worked their way to the major leagues and many former MLBers play in independent baseball.</Italian>
+		<Spanish>Minor league baseball is a hierarchy of professional baseball leagues in North America that compete at levels below that of Major League Baseball. All of the minor leagues are operated as independent businesses, and many are members of Minor League Baseball, an umbrella organization for leagues that have agreements to operate as affiliates of Major League Baseball. Several leagues, known as independent leagues, do not have any links to Major League Baseball, and thus are not members of organized baseball. Many alumni of independent baseball, however, have worked their way to the major leagues and many former MLBers play in independent baseball.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAJOR_LEAGUE_STADIUM_PEDIA</Tag>
+		<English>Major League Baseball (MLB) is the highest level of play in North American professional baseball. [NEWLINE]Specifically, Major League Baseball refers to the organization that operates the National League and the American League, by means of a joint organizational structure that has developed gradually between them since 1903 (the National League having been in existence since 1876). In 2000, the two leagues were officially disbanded as separate legal entities with all their rights and functions consolidated in the commissioner's office. MLB effectively operates as a single league and as such it constitutes one of the major professional sports leagues of the United States. It is currently composed of 30 teams—29 in the United States and 1 in Canada. In conjunction with the International Baseball Federation, the MLB also manages the World Baseball Classic.[NEWLINE]Each season consists of 162 games (with an additional game, or games, in case of a tie breaker needed to determine postseason participation), which generally begins on the first Sunday in April and ends on the first Sunday in October, with the postseason played in October and sometimes into early November. The same rules and regulations are played between the two leagues with one exception: the American League operates under the Designated Hitter Rule, while the National League does not. Utilization of the DH Rule in interleague play, the All-Star and World Series games is determined by the home team's league rules.[NEWLINE]MLB is controlled by the Major League Baseball Constitution that has undergone several incarnations since 1876 with the most recent revisions being made in 2005. Under the direction of Commissioner of Baseball (currently Bud Selig), Major League Baseball hires and maintains the sport's umpiring crews, and negotiates marketing, labor, and television contracts. As is the case for most of the sports leagues in the United States and Canada, the "closed shop" aspect of MLB effectively prevents the yearly promotion and relegation of teams into and out of Major League Baseball by virtue of their performance. Major League Baseball maintains a unique, controlling relationship over the sport, including most aspects of minor league baseball. This is due in large part to a 1922 U.S. Supreme Court ruling in Federal Baseball Club v. National League, which held that baseball is not interstate commerce and therefore not subject to federal antitrust law. This ruling has been weakened only slightly in subsequent years.</English>
+		<French>Major League Baseball (MLB) is the highest level of play in North American professional baseball. [NEWLINE]Specifically, Major League Baseball refers to the organization that operates the National League and the American League, by means of a joint organizational structure that has developed gradually between them since 1903 (the National League having been in existence since 1876). In 2000, the two leagues were officially disbanded as separate legal entities with all their rights and functions consolidated in the commissioner's office. MLB effectively operates as a single league and as such it constitutes one of the major professional sports leagues of the United States. It is currently composed of 30 teams—29 in the United States and 1 in Canada. In conjunction with the International Baseball Federation, the MLB also manages the World Baseball Classic.[NEWLINE]Each season consists of 162 games (with an additional game, or games, in case of a tie breaker needed to determine postseason participation), which generally begins on the first Sunday in April and ends on the first Sunday in October, with the postseason played in October and sometimes into early November. The same rules and regulations are played between the two leagues with one exception: the American League operates under the Designated Hitter Rule, while the National League does not. Utilization of the DH Rule in interleague play, the All-Star and World Series games is determined by the home team's league rules.[NEWLINE]MLB is controlled by the Major League Baseball Constitution that has undergone several incarnations since 1876 with the most recent revisions being made in 2005. Under the direction of Commissioner of Baseball (currently Bud Selig), Major League Baseball hires and maintains the sport's umpiring crews, and negotiates marketing, labor, and television contracts. As is the case for most of the sports leagues in the United States and Canada, the "closed shop" aspect of MLB effectively prevents the yearly promotion and relegation of teams into and out of Major League Baseball by virtue of their performance. Major League Baseball maintains a unique, controlling relationship over the sport, including most aspects of minor league baseball. This is due in large part to a 1922 U.S. Supreme Court ruling in Federal Baseball Club v. National League, which held that baseball is not interstate commerce and therefore not subject to federal antitrust law. This ruling has been weakened only slightly in subsequent years.</French>
+		<German>Major League Baseball (MLB) is the highest level of play in North American professional baseball. [NEWLINE]Specifically, Major League Baseball refers to the organization that operates the National League and the American League, by means of a joint organizational structure that has developed gradually between them since 1903 (the National League having been in existence since 1876). In 2000, the two leagues were officially disbanded as separate legal entities with all their rights and functions consolidated in the commissioner's office. MLB effectively operates as a single league and as such it constitutes one of the major professional sports leagues of the United States. It is currently composed of 30 teams—29 in the United States and 1 in Canada. In conjunction with the International Baseball Federation, the MLB also manages the World Baseball Classic.[NEWLINE]Each season consists of 162 games (with an additional game, or games, in case of a tie breaker needed to determine postseason participation), which generally begins on the first Sunday in April and ends on the first Sunday in October, with the postseason played in October and sometimes into early November. The same rules and regulations are played between the two leagues with one exception: the American League operates under the Designated Hitter Rule, while the National League does not. Utilization of the DH Rule in interleague play, the All-Star and World Series games is determined by the home team's league rules.[NEWLINE]MLB is controlled by the Major League Baseball Constitution that has undergone several incarnations since 1876 with the most recent revisions being made in 2005. Under the direction of Commissioner of Baseball (currently Bud Selig), Major League Baseball hires and maintains the sport's umpiring crews, and negotiates marketing, labor, and television contracts. As is the case for most of the sports leagues in the United States and Canada, the "closed shop" aspect of MLB effectively prevents the yearly promotion and relegation of teams into and out of Major League Baseball by virtue of their performance. Major League Baseball maintains a unique, controlling relationship over the sport, including most aspects of minor league baseball. This is due in large part to a 1922 U.S. Supreme Court ruling in Federal Baseball Club v. National League, which held that baseball is not interstate commerce and therefore not subject to federal antitrust law. This ruling has been weakened only slightly in subsequent years.</German>
+		<Italian>Major League Baseball (MLB) is the highest level of play in North American professional baseball. [NEWLINE]Specifically, Major League Baseball refers to the organization that operates the National League and the American League, by means of a joint organizational structure that has developed gradually between them since 1903 (the National League having been in existence since 1876). In 2000, the two leagues were officially disbanded as separate legal entities with all their rights and functions consolidated in the commissioner's office. MLB effectively operates as a single league and as such it constitutes one of the major professional sports leagues of the United States. It is currently composed of 30 teams—29 in the United States and 1 in Canada. In conjunction with the International Baseball Federation, the MLB also manages the World Baseball Classic.[NEWLINE]Each season consists of 162 games (with an additional game, or games, in case of a tie breaker needed to determine postseason participation), which generally begins on the first Sunday in April and ends on the first Sunday in October, with the postseason played in October and sometimes into early November. The same rules and regulations are played between the two leagues with one exception: the American League operates under the Designated Hitter Rule, while the National League does not. Utilization of the DH Rule in interleague play, the All-Star and World Series games is determined by the home team's league rules.[NEWLINE]MLB is controlled by the Major League Baseball Constitution that has undergone several incarnations since 1876 with the most recent revisions being made in 2005. Under the direction of Commissioner of Baseball (currently Bud Selig), Major League Baseball hires and maintains the sport's umpiring crews, and negotiates marketing, labor, and television contracts. As is the case for most of the sports leagues in the United States and Canada, the "closed shop" aspect of MLB effectively prevents the yearly promotion and relegation of teams into and out of Major League Baseball by virtue of their performance. Major League Baseball maintains a unique, controlling relationship over the sport, including most aspects of minor league baseball. This is due in large part to a 1922 U.S. Supreme Court ruling in Federal Baseball Club v. National League, which held that baseball is not interstate commerce and therefore not subject to federal antitrust law. This ruling has been weakened only slightly in subsequent years.</Italian>
+		<Spanish>Major League Baseball (MLB) is the highest level of play in North American professional baseball. [NEWLINE]Specifically, Major League Baseball refers to the organization that operates the National League and the American League, by means of a joint organizational structure that has developed gradually between them since 1903 (the National League having been in existence since 1876). In 2000, the two leagues were officially disbanded as separate legal entities with all their rights and functions consolidated in the commissioner's office. MLB effectively operates as a single league and as such it constitutes one of the major professional sports leagues of the United States. It is currently composed of 30 teams—29 in the United States and 1 in Canada. In conjunction with the International Baseball Federation, the MLB also manages the World Baseball Classic.[NEWLINE]Each season consists of 162 games (with an additional game, or games, in case of a tie breaker needed to determine postseason participation), which generally begins on the first Sunday in April and ends on the first Sunday in October, with the postseason played in October and sometimes into early November. The same rules and regulations are played between the two leagues with one exception: the American League operates under the Designated Hitter Rule, while the National League does not. Utilization of the DH Rule in interleague play, the All-Star and World Series games is determined by the home team's league rules.[NEWLINE]MLB is controlled by the Major League Baseball Constitution that has undergone several incarnations since 1876 with the most recent revisions being made in 2005. Under the direction of Commissioner of Baseball (currently Bud Selig), Major League Baseball hires and maintains the sport's umpiring crews, and negotiates marketing, labor, and television contracts. As is the case for most of the sports leagues in the United States and Canada, the "closed shop" aspect of MLB effectively prevents the yearly promotion and relegation of teams into and out of Major League Baseball by virtue of their performance. Major League Baseball maintains a unique, controlling relationship over the sport, including most aspects of minor league baseball. This is due in large part to a 1922 U.S. Supreme Court ruling in Federal Baseball Club v. National League, which held that baseball is not interstate commerce and therefore not subject to federal antitrust law. This ruling has been weakened only slightly in subsequent years.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OLYMPICS_PEDIA</Tag>
+		<English>The Olympic Games are a major international event of summer and winter sports, in which thousands of athletes compete in a wide variety of events. The Games are currently held every two years, with Summer and Winter Olympic Games alternating. Originally, the ancient Olympic Games were held in Olympia, Greece, from the 8th century BC to the 5th century AD. In the late 19th century, Baron Pierre de Coubertin was inspired by Olympic festivals to revive the Games. For this purpose, he founded the International Olympic Committee (IOC) in 1894, and two years later, the modern Olympic Games were established in Athens. The IOC has since become the governing body of the Olympic Movement, whose structure and actions are defined by the Olympic Charter. [NEWLINE]The evolution of the Olympic Movement during the 20th century forced the IOC to adapt the Games to the world's changing social circumstances. Some of these adjustments included the creation of the Winter Games for ice and snow sports, the Paralympic Games for athletes with physical disabilities, and the Youth Olympic Games for teenage athletes. The IOC also had to accommodate the Games to the varying economical, political, and technological realities of the 20th century. As a result, the Olympics shifted away from pure amateurism, as envisioned by Coubertin, to allow participation of professional athletes. The growing importance of the mass media created the issue of corporate sponsorship and commercialization of the Games.[NEWLINE]The Olympic Movement currently comprises international sports federations (IFs), National Olympic Committees (NOCs), and organizing committees for each specific Olympic Games. As the decision-making body, the IOC is responsible for choosing the host city for each Olympic Games. The host city is responsible for organizing and funding a celebration of the Games consistent with the Olympic Charter. The Olympic program, consisting of the sports to be contested at each Olympic Games, is also determined by the IOC. The celebration of the Games encompasses many rituals and symbols, such as the Olympic flag and torch, as well as the opening and closing ceremonies. There are over 13,000 athletes that compete at the Summer and Winter Olympics in 33 different sports and nearly 400 events. The first, second, and third place finishers in each event receive gold, silver or bronze Olympic medals, respectively.</English>
+		<French>The Olympic Games are a major international event of summer and winter sports, in which thousands of athletes compete in a wide variety of events. The Games are currently held every two years, with Summer and Winter Olympic Games alternating. Originally, the ancient Olympic Games were held in Olympia, Greece, from the 8th century BC to the 5th century AD. In the late 19th century, Baron Pierre de Coubertin was inspired by Olympic festivals to revive the Games. For this purpose, he founded the International Olympic Committee (IOC) in 1894, and two years later, the modern Olympic Games were established in Athens. The IOC has since become the governing body of the Olympic Movement, whose structure and actions are defined by the Olympic Charter. [NEWLINE]The evolution of the Olympic Movement during the 20th century forced the IOC to adapt the Games to the world's changing social circumstances. Some of these adjustments included the creation of the Winter Games for ice and snow sports, the Paralympic Games for athletes with physical disabilities, and the Youth Olympic Games for teenage athletes. The IOC also had to accommodate the Games to the varying economical, political, and technological realities of the 20th century. As a result, the Olympics shifted away from pure amateurism, as envisioned by Coubertin, to allow participation of professional athletes. The growing importance of the mass media created the issue of corporate sponsorship and commercialization of the Games.[NEWLINE]The Olympic Movement currently comprises international sports federations (IFs), National Olympic Committees (NOCs), and organizing committees for each specific Olympic Games. As the decision-making body, the IOC is responsible for choosing the host city for each Olympic Games. The host city is responsible for organizing and funding a celebration of the Games consistent with the Olympic Charter. The Olympic program, consisting of the sports to be contested at each Olympic Games, is also determined by the IOC. The celebration of the Games encompasses many rituals and symbols, such as the Olympic flag and torch, as well as the opening and closing ceremonies. There are over 13,000 athletes that compete at the Summer and Winter Olympics in 33 different sports and nearly 400 events. The first, second, and third place finishers in each event receive gold, silver or bronze Olympic medals, respectively.</French>
+		<German>The Olympic Games are a major international event of summer and winter sports, in which thousands of athletes compete in a wide variety of events. The Games are currently held every two years, with Summer and Winter Olympic Games alternating. Originally, the ancient Olympic Games were held in Olympia, Greece, from the 8th century BC to the 5th century AD. In the late 19th century, Baron Pierre de Coubertin was inspired by Olympic festivals to revive the Games. For this purpose, he founded the International Olympic Committee (IOC) in 1894, and two years later, the modern Olympic Games were established in Athens. The IOC has since become the governing body of the Olympic Movement, whose structure and actions are defined by the Olympic Charter. [NEWLINE]The evolution of the Olympic Movement during the 20th century forced the IOC to adapt the Games to the world's changing social circumstances. Some of these adjustments included the creation of the Winter Games for ice and snow sports, the Paralympic Games for athletes with physical disabilities, and the Youth Olympic Games for teenage athletes. The IOC also had to accommodate the Games to the varying economical, political, and technological realities of the 20th century. As a result, the Olympics shifted away from pure amateurism, as envisioned by Coubertin, to allow participation of professional athletes. The growing importance of the mass media created the issue of corporate sponsorship and commercialization of the Games.[NEWLINE]The Olympic Movement currently comprises international sports federations (IFs), National Olympic Committees (NOCs), and organizing committees for each specific Olympic Games. As the decision-making body, the IOC is responsible for choosing the host city for each Olympic Games. The host city is responsible for organizing and funding a celebration of the Games consistent with the Olympic Charter. The Olympic program, consisting of the sports to be contested at each Olympic Games, is also determined by the IOC. The celebration of the Games encompasses many rituals and symbols, such as the Olympic flag and torch, as well as the opening and closing ceremonies. There are over 13,000 athletes that compete at the Summer and Winter Olympics in 33 different sports and nearly 400 events. The first, second, and third place finishers in each event receive gold, silver or bronze Olympic medals, respectively.</German>
+		<Italian>The Olympic Games are a major international event of summer and winter sports, in which thousands of athletes compete in a wide variety of events. The Games are currently held every two years, with Summer and Winter Olympic Games alternating. Originally, the ancient Olympic Games were held in Olympia, Greece, from the 8th century BC to the 5th century AD. In the late 19th century, Baron Pierre de Coubertin was inspired by Olympic festivals to revive the Games. For this purpose, he founded the International Olympic Committee (IOC) in 1894, and two years later, the modern Olympic Games were established in Athens. The IOC has since become the governing body of the Olympic Movement, whose structure and actions are defined by the Olympic Charter. [NEWLINE]The evolution of the Olympic Movement during the 20th century forced the IOC to adapt the Games to the world's changing social circumstances. Some of these adjustments included the creation of the Winter Games for ice and snow sports, the Paralympic Games for athletes with physical disabilities, and the Youth Olympic Games for teenage athletes. The IOC also had to accommodate the Games to the varying economical, political, and technological realities of the 20th century. As a result, the Olympics shifted away from pure amateurism, as envisioned by Coubertin, to allow participation of professional athletes. The growing importance of the mass media created the issue of corporate sponsorship and commercialization of the Games.[NEWLINE]The Olympic Movement currently comprises international sports federations (IFs), National Olympic Committees (NOCs), and organizing committees for each specific Olympic Games. As the decision-making body, the IOC is responsible for choosing the host city for each Olympic Games. The host city is responsible for organizing and funding a celebration of the Games consistent with the Olympic Charter. The Olympic program, consisting of the sports to be contested at each Olympic Games, is also determined by the IOC. The celebration of the Games encompasses many rituals and symbols, such as the Olympic flag and torch, as well as the opening and closing ceremonies. There are over 13,000 athletes that compete at the Summer and Winter Olympics in 33 different sports and nearly 400 events. The first, second, and third place finishers in each event receive gold, silver or bronze Olympic medals, respectively.</Italian>
+		<Spanish>The Olympic Games are a major international event of summer and winter sports, in which thousands of athletes compete in a wide variety of events. The Games are currently held every two years, with Summer and Winter Olympic Games alternating. Originally, the ancient Olympic Games were held in Olympia, Greece, from the 8th century BC to the 5th century AD. In the late 19th century, Baron Pierre de Coubertin was inspired by Olympic festivals to revive the Games. For this purpose, he founded the International Olympic Committee (IOC) in 1894, and two years later, the modern Olympic Games were established in Athens. The IOC has since become the governing body of the Olympic Movement, whose structure and actions are defined by the Olympic Charter. [NEWLINE]The evolution of the Olympic Movement during the 20th century forced the IOC to adapt the Games to the world's changing social circumstances. Some of these adjustments included the creation of the Winter Games for ice and snow sports, the Paralympic Games for athletes with physical disabilities, and the Youth Olympic Games for teenage athletes. The IOC also had to accommodate the Games to the varying economical, political, and technological realities of the 20th century. As a result, the Olympics shifted away from pure amateurism, as envisioned by Coubertin, to allow participation of professional athletes. The growing importance of the mass media created the issue of corporate sponsorship and commercialization of the Games.[NEWLINE]The Olympic Movement currently comprises international sports federations (IFs), National Olympic Committees (NOCs), and organizing committees for each specific Olympic Games. As the decision-making body, the IOC is responsible for choosing the host city for each Olympic Games. The host city is responsible for organizing and funding a celebration of the Games consistent with the Olympic Charter. The Olympic program, consisting of the sports to be contested at each Olympic Games, is also determined by the IOC. The celebration of the Games encompasses many rituals and symbols, such as the Olympic flag and torch, as well as the opening and closing ceremonies. There are over 13,000 athletes that compete at the Summer and Winter Olympics in 33 different sports and nearly 400 events. The first, second, and third place finishers in each event receive gold, silver or bronze Olympic medals, respectively.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_X_GAMES_PEDIA</Tag>
+		<English>The X Games is a commercial annual sports event, controlled and arranged by Disney-owned US sports broadcaster ESPN, which focuses on extreme action sports intended for Generation X and Generation Y viewers. The games started in 1995.[NEWLINE]The Winter X Games are held in January or February (usually in January) and the Summer X Games are usually held in August, both in the United States. Participants compete to win bronze, silver, and gold medals, and prize dollars. The competition often features new tricks such as Tony Hawk's 900 in skateboarding, Anthony Napolitan with the first ever double front flip on a bicycle and Travis Pastrana's double backflip in Freestyle Motocross. Concurrent with competition is the "X Fest" sports and music festival, which offers live music, athlete autograph sessions and interactive elements. The location of the Winter X Games is in Aspen, Colorado through 2012, while the location for the Summer X Games is in Los Angeles through 2009. The X Games also has international competitions and demos around the world that are held at varying times throughout the year.</English>
+		<French>The X Games is a commercial annual sports event, controlled and arranged by Disney-owned US sports broadcaster ESPN, which focuses on extreme action sports intended for Generation X and Generation Y viewers. The games started in 1995.[NEWLINE]The Winter X Games are held in January or February (usually in January) and the Summer X Games are usually held in August, both in the United States. Participants compete to win bronze, silver, and gold medals, and prize dollars. The competition often features new tricks such as Tony Hawk's 900 in skateboarding, Anthony Napolitan with the first ever double front flip on a bicycle and Travis Pastrana's double backflip in Freestyle Motocross. Concurrent with competition is the "X Fest" sports and music festival, which offers live music, athlete autograph sessions and interactive elements. The location of the Winter X Games is in Aspen, Colorado through 2012, while the location for the Summer X Games is in Los Angeles through 2009. The X Games also has international competitions and demos around the world that are held at varying times throughout the year.</French>
+		<German>The X Games is a commercial annual sports event, controlled and arranged by Disney-owned US sports broadcaster ESPN, which focuses on extreme action sports intended for Generation X and Generation Y viewers. The games started in 1995.[NEWLINE]The Winter X Games are held in January or February (usually in January) and the Summer X Games are usually held in August, both in the United States. Participants compete to win bronze, silver, and gold medals, and prize dollars. The competition often features new tricks such as Tony Hawk's 900 in skateboarding, Anthony Napolitan with the first ever double front flip on a bicycle and Travis Pastrana's double backflip in Freestyle Motocross. Concurrent with competition is the "X Fest" sports and music festival, which offers live music, athlete autograph sessions and interactive elements. The location of the Winter X Games is in Aspen, Colorado through 2012, while the location for the Summer X Games is in Los Angeles through 2009. The X Games also has international competitions and demos around the world that are held at varying times throughout the year.</German>
+		<Italian>The X Games is a commercial annual sports event, controlled and arranged by Disney-owned US sports broadcaster ESPN, which focuses on extreme action sports intended for Generation X and Generation Y viewers. The games started in 1995.[NEWLINE]The Winter X Games are held in January or February (usually in January) and the Summer X Games are usually held in August, both in the United States. Participants compete to win bronze, silver, and gold medals, and prize dollars. The competition often features new tricks such as Tony Hawk's 900 in skateboarding, Anthony Napolitan with the first ever double front flip on a bicycle and Travis Pastrana's double backflip in Freestyle Motocross. Concurrent with competition is the "X Fest" sports and music festival, which offers live music, athlete autograph sessions and interactive elements. The location of the Winter X Games is in Aspen, Colorado through 2012, while the location for the Summer X Games is in Los Angeles through 2009. The X Games also has international competitions and demos around the world that are held at varying times throughout the year.</Italian>
+		<Spanish>The X Games is a commercial annual sports event, controlled and arranged by Disney-owned US sports broadcaster ESPN, which focuses on extreme action sports intended for Generation X and Generation Y viewers. The games started in 1995.[NEWLINE]The Winter X Games are held in January or February (usually in January) and the Summer X Games are usually held in August, both in the United States. Participants compete to win bronze, silver, and gold medals, and prize dollars. The competition often features new tricks such as Tony Hawk's 900 in skateboarding, Anthony Napolitan with the first ever double front flip on a bicycle and Travis Pastrana's double backflip in Freestyle Motocross. Concurrent with competition is the "X Fest" sports and music festival, which offers live music, athlete autograph sessions and interactive elements. The location of the Winter X Games is in Aspen, Colorado through 2012, while the location for the Summer X Games is in Los Angeles through 2009. The X Games also has international competitions and demos around the world that are held at varying times throughout the year.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPEEDWAY_PEDIA</Tag>
+		<English>An oval track is a dedicated motorsport circuit, primarily in the USA, which differs from a road course in that it only has turns in one direction, which is almost universally left. Oval tracks often have banked turns as well. Despite the name, tracks do not have to be precisely oval, such as the Indianapolis Motor Speedway, to be classed as oval tracks.</English>
+		<French>An oval track is a dedicated motorsport circuit, primarily in the USA, which differs from a road course in that it only has turns in one direction, which is almost universally left. Oval tracks often have banked turns as well. Despite the name, tracks do not have to be precisely oval, such as the Indianapolis Motor Speedway, to be classed as oval tracks.</French>
+		<German>An oval track is a dedicated motorsport circuit, primarily in the USA, which differs from a road course in that it only has turns in one direction, which is almost universally left. Oval tracks often have banked turns as well. Despite the name, tracks do not have to be precisely oval, such as the Indianapolis Motor Speedway, to be classed as oval tracks.</German>
+		<Italian>An oval track is a dedicated motorsport circuit, primarily in the USA, which differs from a road course in that it only has turns in one direction, which is almost universally left. Oval tracks often have banked turns as well. Despite the name, tracks do not have to be precisely oval, such as the Indianapolis Motor Speedway, to be classed as oval tracks.</Italian>
+		<Spanish>An oval track is a dedicated motorsport circuit, primarily in the USA, which differs from a road course in that it only has turns in one direction, which is almost universally left. Oval tracks often have banked turns as well. Despite the name, tracks do not have to be precisely oval, such as the Indianapolis Motor Speedway, to be classed as oval tracks.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BATTLEBOT_ARENA_PEDIA</Tag>
+		<English>BattleBots is an American company that hosts robot competitions. BattleBots is also the name of the television show created from the competition footage. BattleBots Inc. is headquartered in Vallejo, California and holds most of its competitions in San Francisco.[NEWLINE]In a BattleBots event, as in other combat robot competitions, competitors bring remote-controlled, armored and weaponed machines which they have designed and built, and put them in an arena to fight in an elimination tournament. The purpose of the fight is for one robot, or "bot", to dominate or disable the other.</English>
+		<French>BattleBots is an American company that hosts robot competitions. BattleBots is also the name of the television show created from the competition footage. BattleBots Inc. is headquartered in Vallejo, California and holds most of its competitions in San Francisco.[NEWLINE]In a BattleBots event, as in other combat robot competitions, competitors bring remote-controlled, armored and weaponed machines which they have designed and built, and put them in an arena to fight in an elimination tournament. The purpose of the fight is for one robot, or "bot", to dominate or disable the other.</French>
+		<German>BattleBots is an American company that hosts robot competitions. BattleBots is also the name of the television show created from the competition footage. BattleBots Inc. is headquartered in Vallejo, California and holds most of its competitions in San Francisco.[NEWLINE]In a BattleBots event, as in other combat robot competitions, competitors bring remote-controlled, armored and weaponed machines which they have designed and built, and put them in an arena to fight in an elimination tournament. The purpose of the fight is for one robot, or "bot", to dominate or disable the other.</German>
+		<Italian>BattleBots is an American company that hosts robot competitions. BattleBots is also the name of the television show created from the competition footage. BattleBots Inc. is headquartered in Vallejo, California and holds most of its competitions in San Francisco.[NEWLINE]In a BattleBots event, as in other combat robot competitions, competitors bring remote-controlled, armored and weaponed machines which they have designed and built, and put them in an arena to fight in an elimination tournament. The purpose of the fight is for one robot, or "bot", to dominate or disable the other.</Italian>
+		<Spanish>BattleBots is an American company that hosts robot competitions. BattleBots is also the name of the television show created from the competition footage. BattleBots Inc. is headquartered in Vallejo, California and holds most of its competitions in San Francisco.[NEWLINE]In a BattleBots event, as in other combat robot competitions, competitors bring remote-controlled, armored and weaponed machines which they have designed and built, and put them in an arena to fight in an elimination tournament. The purpose of the fight is for one robot, or "bot", to dominate or disable the other.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SKI_RESORT_PEDIA</Tag>
+		<English>A ski area is a developed recreational facility, usually on a mountain or large hill, containing ski trails and vital supporting services. It is common for a ski area to have food, rental equipment, parking facilities and a ski lift system catering to the sports of skiing and snowboarding. Normally located in high mountain areas (or at least on well-built-up hills) for adequate snow coverage, they have become ubiquitous in areas where skiing is a popular pastime. The paths are usually marked and known as runs, trails or pistes. Ski areas typically have one or more chair lifts for moving skiers rapidly to the top of hills, and to interconnect the various pistes. Rope tows can also be used on short slopes (usually beginner hills or bunny slopes). Larger ski areas may use gondolas or aerial trams for transportation across longer distances within the ski area.[NEWLINE]A ski resort is a ski area plus amenities to make it a destination resort. This includes accommodations and other amenities adjacent to the ski area. Some ski resorts offer lodging options on the slopes themselves, with ski-in and ski-out access allowing guests to ski right up to the door. Ski resorts often have other activities, such as snowmobiling, sledding, horse-drawn sleds, dog-sledding, ice-skating, indoor or outdoor swimming, and hottubbing, game rooms, and local forms of entertainment, such as clubs, cinema, theatre and cabarets.</English>
+		<French>A ski area is a developed recreational facility, usually on a mountain or large hill, containing ski trails and vital supporting services. It is common for a ski area to have food, rental equipment, parking facilities and a ski lift system catering to the sports of skiing and snowboarding. Normally located in high mountain areas (or at least on well-built-up hills) for adequate snow coverage, they have become ubiquitous in areas where skiing is a popular pastime. The paths are usually marked and known as runs, trails or pistes. Ski areas typically have one or more chair lifts for moving skiers rapidly to the top of hills, and to interconnect the various pistes. Rope tows can also be used on short slopes (usually beginner hills or bunny slopes). Larger ski areas may use gondolas or aerial trams for transportation across longer distances within the ski area.[NEWLINE]A ski resort is a ski area plus amenities to make it a destination resort. This includes accommodations and other amenities adjacent to the ski area. Some ski resorts offer lodging options on the slopes themselves, with ski-in and ski-out access allowing guests to ski right up to the door. Ski resorts often have other activities, such as snowmobiling, sledding, horse-drawn sleds, dog-sledding, ice-skating, indoor or outdoor swimming, and hottubbing, game rooms, and local forms of entertainment, such as clubs, cinema, theatre and cabarets.</French>
+		<German>A ski area is a developed recreational facility, usually on a mountain or large hill, containing ski trails and vital supporting services. It is common for a ski area to have food, rental equipment, parking facilities and a ski lift system catering to the sports of skiing and snowboarding. Normally located in high mountain areas (or at least on well-built-up hills) for adequate snow coverage, they have become ubiquitous in areas where skiing is a popular pastime. The paths are usually marked and known as runs, trails or pistes. Ski areas typically have one or more chair lifts for moving skiers rapidly to the top of hills, and to interconnect the various pistes. Rope tows can also be used on short slopes (usually beginner hills or bunny slopes). Larger ski areas may use gondolas or aerial trams for transportation across longer distances within the ski area.[NEWLINE]A ski resort is a ski area plus amenities to make it a destination resort. This includes accommodations and other amenities adjacent to the ski area. Some ski resorts offer lodging options on the slopes themselves, with ski-in and ski-out access allowing guests to ski right up to the door. Ski resorts often have other activities, such as snowmobiling, sledding, horse-drawn sleds, dog-sledding, ice-skating, indoor or outdoor swimming, and hottubbing, game rooms, and local forms of entertainment, such as clubs, cinema, theatre and cabarets.</German>
+		<Italian>A ski area is a developed recreational facility, usually on a mountain or large hill, containing ski trails and vital supporting services. It is common for a ski area to have food, rental equipment, parking facilities and a ski lift system catering to the sports of skiing and snowboarding. Normally located in high mountain areas (or at least on well-built-up hills) for adequate snow coverage, they have become ubiquitous in areas where skiing is a popular pastime. The paths are usually marked and known as runs, trails or pistes. Ski areas typically have one or more chair lifts for moving skiers rapidly to the top of hills, and to interconnect the various pistes. Rope tows can also be used on short slopes (usually beginner hills or bunny slopes). Larger ski areas may use gondolas or aerial trams for transportation across longer distances within the ski area.[NEWLINE]A ski resort is a ski area plus amenities to make it a destination resort. This includes accommodations and other amenities adjacent to the ski area. Some ski resorts offer lodging options on the slopes themselves, with ski-in and ski-out access allowing guests to ski right up to the door. Ski resorts often have other activities, such as snowmobiling, sledding, horse-drawn sleds, dog-sledding, ice-skating, indoor or outdoor swimming, and hottubbing, game rooms, and local forms of entertainment, such as clubs, cinema, theatre and cabarets.</Italian>
+		<Spanish>A ski area is a developed recreational facility, usually on a mountain or large hill, containing ski trails and vital supporting services. It is common for a ski area to have food, rental equipment, parking facilities and a ski lift system catering to the sports of skiing and snowboarding. Normally located in high mountain areas (or at least on well-built-up hills) for adequate snow coverage, they have become ubiquitous in areas where skiing is a popular pastime. The paths are usually marked and known as runs, trails or pistes. Ski areas typically have one or more chair lifts for moving skiers rapidly to the top of hills, and to interconnect the various pistes. Rope tows can also be used on short slopes (usually beginner hills or bunny slopes). Larger ski areas may use gondolas or aerial trams for transportation across longer distances within the ski area.[NEWLINE]A ski resort is a ski area plus amenities to make it a destination resort. This includes accommodations and other amenities adjacent to the ski area. Some ski resorts offer lodging options on the slopes themselves, with ski-in and ski-out access allowing guests to ski right up to the door. Ski resorts often have other activities, such as snowmobiling, sledding, horse-drawn sleds, dog-sledding, ice-skating, indoor or outdoor swimming, and hottubbing, game rooms, and local forms of entertainment, such as clubs, cinema, theatre and cabarets.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WINTER_LODGE_PEDIA</Tag>
+		<English>[TAB]A chalet, also called Swiss chalet, is a type of building or house in the Alpine region made of wood. The term chalet stems from Arpitan speaking part of Switzerland and Savoy and originally referred to the hut of a herder. As part of the romanticization of rural life and the mountains in the 19 Century the European aristocracy and the bourgeoisie developed a growing interest for the traditional wooden house in the Swiss Alps. With the burgeoning tourism in that time period the chalet quickly became a holiday home.[PARAGRAPH:1]Nowadays, in North America, Europe and Asia, the use of the world Chalet goes beyond a mountain location. The term Chalet is frequently used to describe resort like homes or residential properties located by the beach.</English>
+		<French>[TAB]A chalet, also called Swiss chalet, is a type of building or house in the Alpine region made of wood. The term chalet stems from Arpitan speaking part of Switzerland and Savoy and originally referred to the hut of a herder. As part of the romanticization of rural life and the mountains in the 19 Century the European aristocracy and the bourgeoisie developed a growing interest for the traditional wooden house in the Swiss Alps. With the burgeoning tourism in that time period the chalet quickly became a holiday home.[PARAGRAPH:1]Nowadays, in North America, Europe and Asia, the use of the world Chalet goes beyond a mountain location. The term Chalet is frequently used to describe resort like homes or residential properties located by the beach.</French>
+		<German>[TAB]A chalet, also called Swiss chalet, is a type of building or house in the Alpine region made of wood. The term chalet stems from Arpitan speaking part of Switzerland and Savoy and originally referred to the hut of a herder. As part of the romanticization of rural life and the mountains in the 19 Century the European aristocracy and the bourgeoisie developed a growing interest for the traditional wooden house in the Swiss Alps. With the burgeoning tourism in that time period the chalet quickly became a holiday home.[PARAGRAPH:1]Nowadays, in North America, Europe and Asia, the use of the world Chalet goes beyond a mountain location. The term Chalet is frequently used to describe resort like homes or residential properties located by the beach.</German>
+		<Italian>[TAB]A chalet, also called Swiss chalet, is a type of building or house in the Alpine region made of wood. The term chalet stems from Arpitan speaking part of Switzerland and Savoy and originally referred to the hut of a herder. As part of the romanticization of rural life and the mountains in the 19 Century the European aristocracy and the bourgeoisie developed a growing interest for the traditional wooden house in the Swiss Alps. With the burgeoning tourism in that time period the chalet quickly became a holiday home.[PARAGRAPH:1]Nowadays, in North America, Europe and Asia, the use of the world Chalet goes beyond a mountain location. The term Chalet is frequently used to describe resort like homes or residential properties located by the beach.</Italian>
+		<Spanish>[TAB]A chalet, also called Swiss chalet, is a type of building or house in the Alpine region made of wood. The term chalet stems from Arpitan speaking part of Switzerland and Savoy and originally referred to the hut of a herder. As part of the romanticization of rural life and the mountains in the 19 Century the European aristocracy and the bourgeoisie developed a growing interest for the traditional wooden house in the Swiss Alps. With the burgeoning tourism in that time period the chalet quickly became a holiday home.[PARAGRAPH:1]Nowadays, in North America, Europe and Asia, the use of the world Chalet goes beyond a mountain location. The term Chalet is frequently used to describe resort like homes or residential properties located by the beach.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AIRFIELD_PEDIA</Tag>
+		<English>An airstrip or airfield is a kind of airport that consists only of a runway with perhaps fueling equipment. They are generally in remote locations. Many airstrips (now mostly abandoned) were built on the hundreds of islands in the Pacific Ocean during World War II. Sometimes a few airstrips become full fledged airbases as strategic or economic importance of a region increases over time.</English>
+		<French>An airstrip or airfield is a kind of airport that consists only of a runway with perhaps fueling equipment. They are generally in remote locations. Many airstrips (now mostly abandoned) were built on the hundreds of islands in the Pacific Ocean during World War II. Sometimes a few airstrips become full fledged airbases as strategic or economic importance of a region increases over time.</French>
+		<German>An airstrip or airfield is a kind of airport that consists only of a runway with perhaps fueling equipment. They are generally in remote locations. Many airstrips (now mostly abandoned) were built on the hundreds of islands in the Pacific Ocean during World War II. Sometimes a few airstrips become full fledged airbases as strategic or economic importance of a region increases over time.</German>
+		<Italian>An airstrip or airfield is a kind of airport that consists only of a runway with perhaps fueling equipment. They are generally in remote locations. Many airstrips (now mostly abandoned) were built on the hundreds of islands in the Pacific Ocean during World War II. Sometimes a few airstrips become full fledged airbases as strategic or economic importance of a region increases over time.</Italian>
+		<Spanish>An airstrip or airfield is a kind of airport that consists only of a runway with perhaps fueling equipment. They are generally in remote locations. Many airstrips (now mostly abandoned) were built on the hundreds of islands in the Pacific Ocean during World War II. Sometimes a few airstrips become full fledged airbases as strategic or economic importance of a region increases over time.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WAVE_RACING_PEDIA</Tag>
+		<English>Jetsprint, or Sprint Boat Racing is a form of racing sport in which jetboats with a crew of two race individually against the clock through twisting series of channels in less than a metre of water.[NEWLINE]Tracks are typically designed for spectators, and racing is fast and loud, with boat motors usually V8s developing well over 500hp. Jetsprinting as an organised sport originated in New Zealand in 1981, and events were originally held in the same natural braided rivers that had inspired Sir William Hamilton to develop the jetboat, but when the sport was introduced to Australia in the mid-1980s permanent artificial courses were used—and this is now the norm even in New Zealand.[NEWLINE]A fiercely contested Tasman championship has now led to a three way world championship (with the introduction of the sport into the USA}, under the auspices of the Union Internationale Motonautique. The host nation rotates between New Zealand, Australia and the U.S.A</English>
+		<French>Jetsprint, or Sprint Boat Racing is a form of racing sport in which jetboats with a crew of two race individually against the clock through twisting series of channels in less than a metre of water.[NEWLINE]Tracks are typically designed for spectators, and racing is fast and loud, with boat motors usually V8s developing well over 500hp. Jetsprinting as an organised sport originated in New Zealand in 1981, and events were originally held in the same natural braided rivers that had inspired Sir William Hamilton to develop the jetboat, but when the sport was introduced to Australia in the mid-1980s permanent artificial courses were used—and this is now the norm even in New Zealand.[NEWLINE]A fiercely contested Tasman championship has now led to a three way world championship (with the introduction of the sport into the USA}, under the auspices of the Union Internationale Motonautique. The host nation rotates between New Zealand, Australia and the U.S.A</French>
+		<German>Jetsprint, or Sprint Boat Racing is a form of racing sport in which jetboats with a crew of two race individually against the clock through twisting series of channels in less than a metre of water.[NEWLINE]Tracks are typically designed for spectators, and racing is fast and loud, with boat motors usually V8s developing well over 500hp. Jetsprinting as an organised sport originated in New Zealand in 1981, and events were originally held in the same natural braided rivers that had inspired Sir William Hamilton to develop the jetboat, but when the sport was introduced to Australia in the mid-1980s permanent artificial courses were used—and this is now the norm even in New Zealand.[NEWLINE]A fiercely contested Tasman championship has now led to a three way world championship (with the introduction of the sport into the USA}, under the auspices of the Union Internationale Motonautique. The host nation rotates between New Zealand, Australia and the U.S.A</German>
+		<Italian>Jetsprint, or Sprint Boat Racing is a form of racing sport in which jetboats with a crew of two race individually against the clock through twisting series of channels in less than a metre of water.[NEWLINE]Tracks are typically designed for spectators, and racing is fast and loud, with boat motors usually V8s developing well over 500hp. Jetsprinting as an organised sport originated in New Zealand in 1981, and events were originally held in the same natural braided rivers that had inspired Sir William Hamilton to develop the jetboat, but when the sport was introduced to Australia in the mid-1980s permanent artificial courses were used—and this is now the norm even in New Zealand.[NEWLINE]A fiercely contested Tasman championship has now led to a three way world championship (with the introduction of the sport into the USA}, under the auspices of the Union Internationale Motonautique. The host nation rotates between New Zealand, Australia and the U.S.A</Italian>
+		<Spanish>Jetsprint, or Sprint Boat Racing is a form of racing sport in which jetboats with a crew of two race individually against the clock through twisting series of channels in less than a metre of water.[NEWLINE]Tracks are typically designed for spectators, and racing is fast and loud, with boat motors usually V8s developing well over 500hp. Jetsprinting as an organised sport originated in New Zealand in 1981, and events were originally held in the same natural braided rivers that had inspired Sir William Hamilton to develop the jetboat, but when the sport was introduced to Australia in the mid-1980s permanent artificial courses were used—and this is now the norm even in New Zealand.[NEWLINE]A fiercely contested Tasman championship has now led to a three way world championship (with the introduction of the sport into the USA}, under the auspices of the Union Internationale Motonautique. The host nation rotates between New Zealand, Australia and the U.S.A</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPACEWAY_PEDIA</Tag>
+		<English>An Interstellar Speedway is where space-fareing vessels can race one another in duels of speed, agility, and craftiness. They are often highly dangerous, and accidents often occur while racing. Despite this, it has become a popular sport for those still stranded on the ground, and major crime syndicates often rig betting on it.</English>
+		<French>An Interstellar Speedway is where space-fareing vessels can race one another in duels of speed, agility, and craftiness. They are often highly dangerous, and accidents often occur while racing. Despite this, it has become a popular sport for those still stranded on the ground, and major crime syndicates often rig betting on it</French>
+		<German>An Interstellar Speedway is where space-fareing vessels can race one another in duels of speed, agility, and craftiness. They are often highly dangerous, and accidents often occur while racing. Despite this, it has become a popular sport for those still stranded on the ground, and major crime syndicates often rig betting on it</German>
+		<Italian>An Interstellar Speedway is where space-fareing vessels can race one another in duels of speed, agility, and craftiness. They are often highly dangerous, and accidents often occur while racing. Despite this, it has become a popular sport for those still stranded on the ground, and major crime syndicates often rig betting on it</Italian>
+		<Spanish>An Interstellar Speedway is where space-fareing vessels can race one another in duels of speed, agility, and craftiness. They are often highly dangerous, and accidents often occur while racing. Despite this, it has become a popular sport for those still stranded on the ground, and major crime syndicates often rig betting on it</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FIGHTING_PIT_STRATEGY</Tag>
+		<English>Build a fighting pit in cities that need a quick diversion from normal life.</English>
+		<French>Build a fighting pit in cities that need a quick diversion from normal life.</French>
+		<German>Build a fighting pit in cities that need a quick diversion from normal life.</German>
+		<Italian>Build a fighting pit in cities that need a quick diversion from normal life.</Italian>
+		<Spanish>Build a fighting pit in cities that need a quick diversion from normal life.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TRAINING_DOJO_STRATEGY</Tag>
+		<English>Training Dojo's are useful for teaching melee troops martial arts.</English>
+		<French>Training Dojo's are useful for teaching melee troops martial arts.</French>
+		<German>Training Dojo's are useful for teaching melee troops martial arts.</German>
+		<Italian>Training Dojo's are useful for teaching melee troops martial arts.</Italian>
+		<Spanish>Training Dojo's are useful for teaching melee troops martial arts.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MASTERS_DOJO_STRATEGY</Tag>
+		<English>Build a Masters Dojo when you need to train troops advanced martial arts.</English>
+		<French>Build a Masters Dojo when you need to train troops advanced martial arts.</French>
+		<German>Build a Masters Dojo when you need to train troops advanced martial arts.</German>
+		<Italian>Build a Masters Dojo when you need to train troops advanced martial arts.</Italian>
+		<Spanish>Build a Masters Dojo when you need to train troops advanced martial arts.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JOUSTING_ARENA_STRATEGY</Tag>
+		<English>Jousting Arena's are a useful diversion for your populace and can help train your to-be knights.</English>
+		<French>Jousting Arena's are a useful diversion for your populace and can help train your to-be knights.</French>
+		<German>Jousting Arena's are a useful diversion for your populace and can help train your to-be knights.</German>
+		<Italian>Jousting Arena's are a useful diversion for your populace and can help train your to-be knights.</Italian>
+		<Spanish>Jousting Arena's are a useful diversion for your populace and can help train your to-be knights.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FENCING_ACADEMY_STRATEGY</Tag>
+		<English>Fencing Academy's can train troops the art of swordsmanship, improving their performance in combat.</English>
+		<French>Fencing Academy's can train troops the art of swordsmanship, improving their performance in combat.</French>
+		<German>Fencing Academy's can train troops the art of swordsmanship, improving their performance in combat.</German>
+		<Italian>Fencing Academy's can train troops the art of swordsmanship, improving their performance in combat.</Italian>
+		<Spanish>Fencing Academy's can train troops the art of swordsmanship, improving their performance in combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RECREATION_CENTER_STRATEGY</Tag>
+		<English>Recreation Center's are useful for getting your population to improve their health.</English>
+		<French>Recreation Center's are useful for getting your population to improve their health.</French>
+		<German>Recreation Center's are useful for getting your population to improve their health.</German>
+		<Italian>Recreation Center's are useful for getting your population to improve their health.</Italian>
+		<Spanish>Recreation Center's are useful for getting your population to improve their health.</Spanish>
+	</TEXT>
+	<!--<TEXT>
+		<Tag>TXT_KEY_BUILDING_OUTDOOR_RECREATION_CENTER_STRATEGY</Tag>
+		<English>Outdoor Recreation Center's give your people open grassy area's to have picnics, parties, and hold games.</English>
+		<French>Outdoor Recreation Center's give your people open grassy area's to have picnics, parties, and hold games.</French>
+		<German>Outdoor Recreation Center's give your people open grassy area's to have picnics, parties, and hold games.</German>
+		<Italian>Outdoor Recreation Center's give your people open grassy area's to have picnics, parties, and hold games.</Italian>
+		<Spanish>Outdoor Recreation Center's give your people open grassy area's to have picnics, parties, and hold games.</Spanish>
+	</TEXT>-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ICE_RINK_STRATEGY</Tag>
+		<English>Build Ice Rinks to appease your population.</English>
+		<French>Build Ice Rinks to appease your population.</French>
+		<German>Build Ice Rinks to appease your population.</German>
+		<Italian>Build Ice Rinks to appease your population.</Italian>
+		<Spanish>Build Ice Rinks to appease your population.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MINOR_LEAGUE_STADIUM_STRATEGY</Tag>
+		<English>Minor League Stadium's bring an income and happiness to any city that has them.</English>
+		<French>Minor League Stadium's bring an income and happiness to any city that has them.</French>
+		<German>Minor League Stadium's bring an income and happiness to any city that has them.</German>
+		<Italian>Minor League Stadium's bring an income and happiness to any city that has them.</Italian>
+		<Spanish>Minor League Stadium's bring an income and happiness to any city that has them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAJOR_LEAGUE_STADIUM_STRATEGY</Tag>
+		<English>Major League Stadium's draw crowds from afar. Build one and you will reap the rewards.</English>
+		<French>Major League Stadium's draw crowds from afar. Build one and you will reap the rewards.</French>
+		<German>Major League Stadium's draw crowds from afar. Build one and you will reap the rewards.</German>
+		<Italian>Major League Stadium's draw crowds from afar. Build one and you will reap the rewards.</Italian>
+		<Spanish>Major League Stadium's draw crowds from afar. Build one and you will reap the rewards.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OLYMPICS_STRATEGY</Tag>
+		<English>.</English> <!--No one can actually build the Olympics, so no one will ever see this text.-->
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_X_GAMES_STRATEGY</Tag>
+		<English>The X-Games will draw thrillseekers and crowds to watch them.</English>
+		<French>The X-Games will draw thrillseekers and crowds to watch them.</French>
+		<German>The X-Games will draw thrillseekers and crowds to watch them.</German>
+		<Italian>The X-Games will draw thrillseekers and crowds to watch them.</Italian>
+		<Spanish>The X-Games will draw thrillseekers and crowds to watch them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPEEDWAY_STRATEGY</Tag>
+		<English>Speedway's give Racers a place to drive, and crowds a place to watch.</English>
+		<French>Speedway's give Racers a place to drive, and crowds a place to watch.</French>
+		<German>Speedway's give Racers a place to drive, and crowds a place to watch.</German>
+		<Italian>Speedway's give Racers a place to drive, and crowds a place to watch.</Italian>
+		<Spanish>Speedway's give Racers a place to drive, and crowds a place to watch.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BATTLEBOT_ARENA_STRATEGY</Tag>
+		<English>Battlebot Arena's are hi-tech battle rooms, for catering to a more advanced crowds.</English>
+		<French>Battlebot Arena's are hi-tech battle rooms, for catering to a more advanced crowds.</French>
+		<German>Battlebot Arena's are hi-tech battle rooms, for catering to a more advanced crowds.</German>
+		<Italian>Battlebot Arena's are hi-tech battle rooms, for catering to a more advanced crowds.</Italian>
+		<Spanish>Battlebot Arena's are hi-tech battle rooms, for catering to a more advanced crowds.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WINTER_LODGE_STRATEGY</Tag>
+		<English>Winter Lodge's are a relaxing place for citizens to spend their time in a winter environment.</English>
+		<French>Winter Lodge's are a relaxing place for citizens to spend their time in a winter environment.</French>
+		<German>Winter Lodge's are a relaxing place for citizens to spend their time in a winter environment.</German>
+		<Italian>Winter Lodge's are a relaxing place for citizens to spend their time in a winter environment.</Italian>
+		<Spanish>Winter Lodge's are a relaxing place for citizens to spend their time in a winter environment.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SKI_RESORT_STRATEGY</Tag>
+		<English>Ski Resort's can only built on peaks, but provide extra happiness and income for cities that can build them.</English>
+		<French>Ski Resort's can only built on peaks, but provide extra happiness and income for cities that can build them.</French>
+		<German>Ski Resort's can only built on peaks, but provide extra happiness and income for cities that can build them.</German>
+		<Italian>Ski Resort's can only built on peaks, but provide extra happiness and income for cities that can build them.</Italian>
+		<Spanish>Ski Resort's can only built on peaks, but provide extra happiness and income for cities that can build them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AIRFIELD_STRATEGY</Tag>
+		<English>Airfield's attract small time fliers and racing enthusiasts.</English>
+		<French>Airfield's attract small time fliers and racing enthusiasts.</French>
+		<German>Airfield's attract small time fliers and racing enthusiasts.</German>
+		<Italian>Airfield's attract small time fliers and racing enthusiasts.</Italian>
+		<Spanish>Airfield's attract small time fliers and racing enthusiasts.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WAVE_RACING_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPACEWAY_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PUBLIC_POOL</Tag>
+		<English>Public Pool</English>
+		<French>
+			<Text>Piscine publique</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Öffentliches Schwimmbad</German>
+		<Italian>Public Pool</Italian>
+		<Spanish>Public Pool</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PUBLIC_POOL_STRATEGY</Tag>
+		<English>Build a Public Pool to increase your cities happiness and health.</English>
+		<French>Build a Public Pool to increase your cities happiness and health.</French>
+		<German>Errichte ein öffentliches Schwimmbad und erhöhe die Zufriedenheit und die Gesundheit in der Stadt.</German>
+		<Italian>Build a Public Pool to increase your cities happiness and health.</Italian>
+		<Spanish>Build a Public Pool to increase your cities happiness and health.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PUBLIC_POOL_PEDIA</Tag>
+		<English>Ancient Greeks and Romans built artificial pools for athletic training in the palaestras, for nautical games and for military exercises.</English>
+		<French>Ancient Greeks and Romans built artificial pools for athletic training in the palaestras, for nautical games and for military exercises.</French>
+		<German>Ancient Greeks and Romans built artificial pools for athletic training in the palaestras, for nautical games and for military exercises.</German>
+		<Italian>Ancient Greeks and Romans built artificial pools for athletic training in the palaestras, for nautical games and for military exercises.</Italian>
+		<Spanish>Ancient Greeks and Romans built artificial pools for athletic training in the palaestras, for nautical games and for military exercises.</Spanish>
+	</TEXT>
+	
+	
+	<!-- tech -->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ROMANTICISM</Tag>
+		<English>Romanticism</English>
+		<French>Romantisme</French>
+		<German>Romantik</German>
+		<Italian>Romanticism</Italian>
+		<Spanish>Romanticism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ROMANTICISM_PEDIA</Tag>
+		<English>[TAB]Romanticism or Romantic Era is a complex artistic, literary, and intellectual movement that originated in the second half of the 18th century in Western Europe, and gained strength in reaction to the Industrial Revolution. In part, it was a revolt against aristocratic social and political norms of the Age of Enlightenment and a reaction against the scientific rationalization of nature,and was embodied most strongly in the visual arts, music, and literature, but had a major impact on historiography, education and natural history.[PARAGRAPH:1]The movement validated strong emotion as an authentic source of aesthetic experience, placing new emphasis on such emotions as trepidation, horror and terror and awe-especially that which is experienced in confronting the sublimity of untamed nature and its picturesque  qualities, both new aesthetic categories. It elevated folk art  and ancient custom to something noble, made of spontaneity a desirable character (as in the musical impromptu), and argued for a "natural" epistemology  of human activities as conditioned by nature in the form of language and customary usage.</English>
+		<French>[TAB]Le Romantisme ou l'ère Romantique Era est un mouvement artistique, literaire, intellectuel qui a émergé vers la seconde moitié du 18è-me siècle en Europe de l'Ouest, et qui a été renforcé en réaction à la Révolution industrielle. On peut y voir une révolte contre les normes sociale et politique aristocratiques des Lumières, ainsi qu'une réaction à la rationnalisation scientifique de la Nature. Ce courant concerne majoritairement les arts visuels, la musique et la littérature, mais a également eu une fort impact sur l'hisoire et l'éducation.</French>
+		<German>[TAB]Romanticism or Romantic Era is a complex artistic, literary, and intellectual movement that originated in the second half of the 18th century in Western Europe, and gained strength in reaction to the Industrial Revolution. In part, it was a revolt against aristocratic social and political norms of the Age of Enlightenment and a reaction against the scientific rationalization of nature,and was embodied most strongly in the visual arts, music, and literature, but had a major impact on historiography, education and natural history.[PARAGRAPH:1]The movement validated strong emotion as an authentic source of aesthetic experience, placing new emphasis on such emotions as trepidation, horror and terror and awe-especially that which is experienced in confronting the sublimity of untamed nature and its picturesque  qualities, both new aesthetic categories. It elevated folk art  and ancient custom to something noble, made of spontaneity a desirable character (as in the musical impromptu), and argued for a "natural" epistemology  of human activities as conditioned by nature in the form of language and customary usage.</German>
+		<Italian>[TAB]Romanticism or Romantic Era is a complex artistic, literary, and intellectual movement that originated in the second half of the 18th century in Western Europe, and gained strength in reaction to the Industrial Revolution. In part, it was a revolt against aristocratic social and political norms of the Age of Enlightenment and a reaction against the scientific rationalization of nature,and was embodied most strongly in the visual arts, music, and literature, but had a major impact on historiography, education and natural history.[PARAGRAPH:1]The movement validated strong emotion as an authentic source of aesthetic experience, placing new emphasis on such emotions as trepidation, horror and terror and awe-especially that which is experienced in confronting the sublimity of untamed nature and its picturesque  qualities, both new aesthetic categories. It elevated folk art  and ancient custom to something noble, made of spontaneity a desirable character (as in the musical impromptu), and argued for a "natural" epistemology  of human activities as conditioned by nature in the form of language and customary usage.</Italian>
+		<Spanish>[TAB]Romanticism or Romantic Era is a complex artistic, literary, and intellectual movement that originated in the second half of the 18th century in Western Europe, and gained strength in reaction to the Industrial Revolution. In part, it was a revolt against aristocratic social and political norms of the Age of Enlightenment and a reaction against the scientific rationalization of nature,and was embodied most strongly in the visual arts, music, and literature, but had a major impact on historiography, education and natural history.[PARAGRAPH:1]The movement validated strong emotion as an authentic source of aesthetic experience, placing new emphasis on such emotions as trepidation, horror and terror and awe-especially that which is experienced in confronting the sublimity of untamed nature and its picturesque  qualities, both new aesthetic categories. It elevated folk art  and ancient custom to something noble, made of spontaneity a desirable character (as in the musical impromptu), and argued for a "natural" epistemology  of human activities as conditioned by nature in the form of language and customary usage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ROMANTICISM_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>	
+	
+</Civ4GameText>

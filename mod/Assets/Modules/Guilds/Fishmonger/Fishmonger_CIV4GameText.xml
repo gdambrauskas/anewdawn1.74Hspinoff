@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Fishmongers Guild -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_FISHMONGUILD</Tag>
+		<English>Fishmongers Guild</English>
+		<French>Guilde des Poissoniers</French>
+		<German>Fischhändlergilde</German>
+		<Italian>Fishmongers Guild</Italian>
+		<Spanish>Fishmongers Guild</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CORPORATION_HQ_FISHMONGUILD</Tag>
+		<English>Fishmongers Master Guild</English>
+		<French>Siège de la Guilde des Poissoniers</French>
+		<German>Gilde der Meisterfischhändler</German>
+		<Italian>Fishmongers Master Guild</Italian>
+		<Spanish>Fishmongers Master Guild</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_FISHMONGUILD</Tag>
+		<English>Master Fishmonger</English>
+		<French>Maître Poissonnier</French>
+		<German>Meisterfischhändler</German>
+		<Italian>Master Fishmonger</Italian>
+		<Spanish>Master Fishmonger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GGMASTER</Tag>
+		<English>Victuallers Master</English>
+		<French>Maître Ravitailleur</French>
+		<German>Meister-Lebensmittelhändler</German>
+		<Italian>Victuallers Master</Italian>
+		<Spanish>Victuallers Master</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VGUILDHALL</Tag>
+		<English>Victuallers Guild Hall</English>
+		<French>Siège de la Guilde des Ravitailleurs</French>
+		<German>Gildehalle der Lebensmittelhändler</German>
+		<Italian>Victuallers Guild Hall</Italian>
+		<Spanish>Victuallers Guild Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_VGUILDPAPER</Tag>
+		<English>Victuallers Guild Charter</English>
+		<French>Charte de la Guilde des Ravitailleurs</French>
+		<German>Satzung der Lebensmittelhändler-Gilde</German>
+		<Italian>Victuallers Guild Charter</Italian>
+		<Spanish>Victuallers Guild Charter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_VGUILDPAPER_PEDIA</Tag>
+		<English>Victuallers Guild Charter</English>
+		<French>Charte de la Guilde des Ravitailleurs</French>
+		<German>Victuallers Guild Charter</German>
+		<Italian>Victuallers Guild Charter</Italian>
+		<Spanish>Victuallers Guild Charter</Spanish>
+	</TEXT>
+</Civ4GameText>

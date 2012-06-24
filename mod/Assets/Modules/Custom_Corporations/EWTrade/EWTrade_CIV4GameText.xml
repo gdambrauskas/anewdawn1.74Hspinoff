@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- East West Traders -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EWTRADE</Tag>
+		<English>East West Traders</English>
+		<French>East West Traders</French>
+		<German>East West Traders</German>
+		<Italian>East West Traders</Italian>
+		<Spanish>East West Traders</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EWTRADE_HQ</Tag>
+		<English>East West Traders Headquarters</English>
+		<French>Siège de 'East West Traders'</French>
+		<German>East-West-Traders-Zentrale</German>
+		<Italian>East West Traders Headquarters</Italian>
+		<Spanish>East West Traders Headquarters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EWTRADE_STORE</Tag>
+		<English>East West Traders Store</English>
+		<French>Magasin  'East West Traders'</French>
+		<German>East-West-Traders-Laden</German>
+		<Italian>East West Traders Store</Italian>
+		<Spanish>East West Traders Store</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EWTRADE_EXECUTIVE</Tag>
+		<English>East West Traders Executive</English>
+		<French>Gérant de 'East West Traders'</French>
+		<German>East-West-Traders-Geschäftsführer</German>
+		<Italian>East West Traders Executive</Italian>
+		<Spanish>East West Traders Executive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EWTRADE_PEDIA</Tag>
+		<English>The East West Traders evolved from corporations such as Transatlantic Triangular Trade, that operated during the 17th, 18th, and early 19th centuries, carrying slaves, cash crops, and manufactured goods between West Africa, the Caribbean  or American  colonies and the European colonial powers, with the northern colonies of British North America, especially New England, sometimes taking over the role of Europe. They are now more benign.</English>
+		<French>The East West Traders evolved from corporations such as Transatlantic Triangular Trade, that operated during the 17th, 18th, and early 19th centuries, carrying slaves, cash crops, and manufactured goods between West Africa, the Caribbean  or American  colonies and the European colonial powers, with the northern colonies of British North America, especially New England, sometimes taking over the role of Europe. They are now more benign.</French>
+		<German>The East West Traders evolved from corporations such as Transatlantic Triangular Trade, that operated during the 17th, 18th, and early 19th centuries, carrying slaves, cash crops, and manufactured goods between West Africa, the Caribbean  or American  colonies and the European colonial powers, with the northern colonies of British North America, especially New England, sometimes taking over the role of Europe. They are now more benign.</German>
+		<Italian>The East West Traders evolved from corporations such as Transatlantic Triangular Trade, that operated during the 17th, 18th, and early 19th centuries, carrying slaves, cash crops, and manufactured goods between West Africa, the Caribbean  or American  colonies and the European colonial powers, with the northern colonies of British North America, especially New England, sometimes taking over the role of Europe. They are now more benign.</Italian>
+		<Spanish>The East West Traders evolved from corporations such as Transatlantic Triangular Trade, that operated during the 17th, 18th, and early 19th centuries, carrying slaves, cash crops, and manufactured goods between West Africa, the Caribbean  or American  colonies and the European colonial powers, with the northern colonies of British North America, especially New England, sometimes taking over the role of Europe. They are now more benign.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_EWTRADE_STORE_PEDIA</Tag>
+		<English>Various commodities delivered from all over the world directly to your local store.</English>
+		<French>Various commodities delivered from all over the world directly to your local store.</French>
+		<German>Various commodities delivered from all over the world directly to your local store.</German>
+		<Italian>Various commodities delivered from all over the world directly to your local store.</Italian>
+		<Spanish>Various commodities delivered from all over the world directly to your local store.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EWTRADE_STRATEGY</Tag>
+		<English>Build this corporation in order to get bonuses.</English>
+		<French>Build this corporation in order to get bonuses.</French>
+		<German>Build this corporation in order to get bonuses.</German>
+		<Italian>Build this corporation in order to get bonuses.</Italian>
+		<Spanish>Build this corporation in order to get bonuses.</Spanish>
+	</TEXT>	
+</Civ4GameText>

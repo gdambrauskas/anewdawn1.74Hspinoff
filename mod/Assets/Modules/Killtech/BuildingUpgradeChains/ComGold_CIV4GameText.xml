@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FURRIER</Tag>
+		<English>Furrier</English>
+		<French>Fourreur</French>
+		<German>K&#252;rschner</German>
+		<Italian>Furrier</Italian>
+		<Spanish>Furrier</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FURRIER_PEDIA</Tag>
+		<English>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</English>
+		<French>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</French>
+		<German>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</German>
+		<Italian>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</Italian>
+		<Spanish>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FURRIER_STRATEGY</Tag>
+		<English>Adds gold and commerce with Fur; Resource requirement.</English>
+		<French>Ajoute de l'Or et du commerce avec la ressource Fourrure (nécessaire)</French>
+		<German>Adds gold and commerce with Fur; Resource requirement.</German>
+		<Italian>Adds gold and commerce with Fur; Resource requirement.</Italian>
+		<Spanish>Adds gold and commerce with Fur; Resource requirement.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAMBLING_HALL</Tag>
+		<English>Gambling Hall</English>
+		<French>Hall de Jeux</French>
+		<German>Gl&#252;cksspielsaal</German>
+		<Italian>Gambling Hall</Italian>
+		<Spanish>Gambling Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAMBLING_HALL_PEDIA</Tag>
+		<English>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</English>
+		<French>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</French>
+		<German>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</German>
+		<Italian>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</Italian>
+		<Spanish>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAMBLING_HALL_STRATEGY</Tag>
+		<English>Cheap gold building, but angers citizens</English>
+		<French>Bâtiment générant de l'Or, mais rend certains citoyens mécontents</French>
+		<German>Cheap gold building, but angers citizens</German>
+		<Italian>Cheap gold building, but angers citizens</Italian>
+		<Spanish>Cheap gold building, but angers citizens</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONEYLENDER_HOUSE</Tag>
+		<English>Moneylender</English>
+		<French>Prêteur</French>
+		<German>Geldverleiher</German>
+		<Italian>Moneylender</Italian>
+		<Spanish>Moneylender</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONEYLENDER_HOUSE_PEDIA</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INVESTMENT_BANK</Tag>
+		<English>Investment Bank</English>
+		<French>Banque d'Investissements</French>
+		<German>Investment Bank</German>
+		<Italian>Investment Bank</Italian>
+		<Spanish>Investment Bank</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INVESTMENT_BANK_PEDIA</Tag>
+		<English>[TAB]An investment bank is a financial institution that assists corporations and governments in raising capital by underwriting and acting as the agent in the issuance of securities. An investment bank also assists companies involved in mergers and acquisitions, derivatives, etc. Further it provides ancillary services such as market making and the trading of derivatives, fixed income instruments, foreign exchange, commodity, and equity securities.[PARAGRAPH:1]To provide investment banking services in the United States an advisor must be a licensed broker-dealer. Until 1999, the United States maintained a separation between investment banking and commercial banks. Other industrialized countries, including G7 countries, have not maintained this separation historically. Trading securities for cash or securities (i.e., facilitating transactions, market-making), or the promotion of securities (i.e., underwriting, research, etc.) was referred to as the "sell side".[PARAGRAPH:1]Dealing with the pension funds, mutual funds, hedge funds, and the investing public who consumed the products and services of the sell-side in order to maximize their return on investment constitutes the "buy side". Many firms have buy and sell side components.</English>
+		<French>[TAB]An investment bank is a financial institution that assists corporations and governments in raising capital by underwriting and acting as the agent in the issuance of securities. An investment bank also assists companies involved in mergers and acquisitions, derivatives, etc. Further it provides ancillary services such as market making and the trading of derivatives, fixed income instruments, foreign exchange, commodity, and equity securities.[PARAGRAPH:1]To provide investment banking services in the United States an advisor must be a licensed broker-dealer. Until 1999, the United States maintained a separation between investment banking and commercial banks. Other industrialized countries, including G7 countries, have not maintained this separation historically. Trading securities for cash or securities (i.e., facilitating transactions, market-making), or the promotion of securities (i.e., underwriting, research, etc.) was referred to as the "sell side".[PARAGRAPH:1]Dealing with the pension funds, mutual funds, hedge funds, and the investing public who consumed the products and services of the sell-side in order to maximize their return on investment constitutes the "buy side". Many firms have buy and sell side components.</French>
+		<German>[TAB]An investment bank is a financial institution that assists corporations and governments in raising capital by underwriting and acting as the agent in the issuance of securities. An investment bank also assists companies involved in mergers and acquisitions, derivatives, etc. Further it provides ancillary services such as market making and the trading of derivatives, fixed income instruments, foreign exchange, commodity, and equity securities.[PARAGRAPH:1]To provide investment banking services in the United States an advisor must be a licensed broker-dealer. Until 1999, the United States maintained a separation between investment banking and commercial banks. Other industrialized countries, including G7 countries, have not maintained this separation historically. Trading securities for cash or securities (i.e., facilitating transactions, market-making), or the promotion of securities (i.e., underwriting, research, etc.) was referred to as the "sell side".[PARAGRAPH:1]Dealing with the pension funds, mutual funds, hedge funds, and the investing public who consumed the products and services of the sell-side in order to maximize their return on investment constitutes the "buy side". Many firms have buy and sell side components.</German>
+		<Italian>[TAB]An investment bank is a financial institution that assists corporations and governments in raising capital by underwriting and acting as the agent in the issuance of securities. An investment bank also assists companies involved in mergers and acquisitions, derivatives, etc. Further it provides ancillary services such as market making and the trading of derivatives, fixed income instruments, foreign exchange, commodity, and equity securities.[PARAGRAPH:1]To provide investment banking services in the United States an advisor must be a licensed broker-dealer. Until 1999, the United States maintained a separation between investment banking and commercial banks. Other industrialized countries, including G7 countries, have not maintained this separation historically. Trading securities for cash or securities (i.e., facilitating transactions, market-making), or the promotion of securities (i.e., underwriting, research, etc.) was referred to as the "sell side".[PARAGRAPH:1]Dealing with the pension funds, mutual funds, hedge funds, and the investing public who consumed the products and services of the sell-side in order to maximize their return on investment constitutes the "buy side". Many firms have buy and sell side components.</Italian>
+		<Spanish>[TAB]An investment bank is a financial institution that assists corporations and governments in raising capital by underwriting and acting as the agent in the issuance of securities. An investment bank also assists companies involved in mergers and acquisitions, derivatives, etc. Further it provides ancillary services such as market making and the trading of derivatives, fixed income instruments, foreign exchange, commodity, and equity securities.[PARAGRAPH:1]To provide investment banking services in the United States an advisor must be a licensed broker-dealer. Until 1999, the United States maintained a separation between investment banking and commercial banks. Other industrialized countries, including G7 countries, have not maintained this separation historically. Trading securities for cash or securities (i.e., facilitating transactions, market-making), or the promotion of securities (i.e., underwriting, research, etc.) was referred to as the "sell side".[PARAGRAPH:1]Dealing with the pension funds, mutual funds, hedge funds, and the investing public who consumed the products and services of the sell-side in order to maximize their return on investment constitutes the "buy side". Many firms have buy and sell side components.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FINANCIAL_NEXUS</Tag>
+		<English>Financial Nexus</English>
+		<French>Nexus Financier</French>
+		<German>Finanznexus</German>
+		<Italian>Financial Nexus</Italian>
+		<Spanish>Financial Nexus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FINANCIAL_NEXUS_PEDIA</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	
+</Civ4GameText>

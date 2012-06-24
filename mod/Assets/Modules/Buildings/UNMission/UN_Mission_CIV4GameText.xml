@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">	
+	
+<!-- UNIT KEY SECTION -->
+
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UN_MISSION</Tag>
+		<English>UN Mission</English>
+		<French>
+			<Text>Mission de l'ONU</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>UN-Mission</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>UN Mission</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>UN Mission</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+
+	
+<!-- STRATEGY SECTION -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UN_MISSION_STRATEGY</Tag>
+		<English>UN Missions allow for the construction of UN Peacekeeping Forces.</English>
+		<French>Les Missions de l'ONU permettent la formation de soldats de la Paix de l'ONU.</French>
+		<German>UN Missions allow for the construction of UN Peacekeeping Forces.</German>
+		<Italian>UN Missions allow for the construction of UN Peacekeeping Forces.</Italian>
+		<Spanish>UN Missions allow for the construction of UN Peacekeeping Forces..</Spanish>
+	</TEXT>
+	
+<!-- PEDIA SECTION -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UN_MISSION_PEDIA</Tag>
+		<English>[TAB]The United Nations (UN) is an international organization whose stated aims are to facilitate cooperation in international law, international security, economic development, social progress and human rights issues. The UN was founded in 1945 to replace the League of Nations, to stop wars between nations and provide a platform for dialogue.</English>
+		<French>[TAB]L'Organisation des Nations unies (ONU) est une organisation internationale, regroupant, à quelques exceptions près, tous les États de la planète. Distincte des États qui la composent, l'organisation a pour finalité la paix internationale. Ses objectifs sont de faciliter la coopération dans les domaines du droit international, de la sécurité internationale, du développement économique, du progrès social et des Droits de l'homme. L'ONU est fondée en 1945 en remplacement de la Société des Nations (SDN), qui n'avait pas tenu son rôle en n'évitant pas la Seconde Guerre mondiale, pour mettre fin aux guerres entre les pays et pour fournir une plateforme de dialogue.</French>
+		<German>[TAB]The United Nations (UN) is an international organization whose stated aims are to facilitate cooperation in international law, international security, economic development, social progress and human rights issues. The UN was founded in 1945 to replace the League of Nations, to stop wars between nations and provide a platform for dialogue.</German>
+		<Italian>[TAB]The United Nations (UN) is an international organization whose stated aims are to facilitate cooperation in international law, international security, economic development, social progress and human rights issues. The UN was founded in 1945 to replace the League of Nations, to stop wars between nations and provide a platform for dialogue.</Italian>
+		<Spanish>[TAB]The United Nations (UN) is an international organization whose stated aims are to facilitate cooperation in international law, international security, economic development, social progress and human rights issues. The UN was founded in 1945 to replace the League of Nations, to stop wars between nations and provide a platform for dialogue.</Spanish>
+	</TEXT>
+	
+</Civ4GameText>

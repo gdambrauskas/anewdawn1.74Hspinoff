@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- edited by Zappara (Rise of Mankind) -->
+<!-- Rise of Mankind 2.0 mod -->
+<!-- -->
+<!-- Bonus Infos -->
+<Civ4BonusInfos xmlns="x-schema:Mountains_CIV4TerrainSchema.xml">
+	<BonusInfos>
+		<BonusInfo>
+			<Type>BONUS_BAUXITE</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_COAL</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_COPPER</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_IRON</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_MARBLE</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_STONE</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_URANIUM</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_GEMS</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_GOLD</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_SILVER</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_SULPHUR</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo> 
+		<BonusInfo>
+			<Type>BONUS_OBSIDIAN</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_LEAD</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+		<BonusInfo>
+			<Type>BONUS_THERMAL_VENT</Type>			<bPeaks>1</bPeaks>
+		</BonusInfo>
+	</BonusInfos>
+</Civ4BonusInfos>

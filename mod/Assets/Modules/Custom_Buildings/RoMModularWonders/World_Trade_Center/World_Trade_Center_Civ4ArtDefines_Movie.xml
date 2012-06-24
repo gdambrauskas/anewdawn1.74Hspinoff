@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Art Defines Movie -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:CIV4ArtDefinesSchema.xml">
+	<MovieArtInfos>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_WORLD_TRADE_CENTER</Type>
+			<Path>Modules/Custom_Buildings/RoMModularWonders/World_Trade_Center/wtc.bik</Path>
+		</MovieArtInfo>
+	</MovieArtInfos>
+</Civ4ArtDefines>

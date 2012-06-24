@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+	Various Interface Label Translations
+
+  -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<!-- Abandon City Raise Building Mod -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_ABANDON_CITY_HEADER1</Tag>
+		<English>Choose a building to be demolished.</English>
+		<French>Choisir un bâtiment à démolir.</French>
+		<German>W&#228;hle das zu zerst&#246;rende Geb&#228;ude aus.</German>
+		<Italian>Choose a building to be demolished.</Italian>
+		<Spanish>Elejir edificio a demoler.</Spanish>
+		<Finnish>Valitse purettava rakennus.</Finnish>
+		<Hungarian>Válaszd ki a lebontandó ép&#252;letet!</Hungarian>
+		<Polish>Wybierz budynek do wyburzenia.</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ABANDON_CITY_HEADER2</Tag>
+		<English>% of building's production cost will be converted to gold.</English>
+		<French>% du cout de production du bâtiment va être converti en or.</French>
+		<German>% der Baukosten des Geb&#228;udes werden in Gold umgewandelt.</German>
+		<Italian>% of building's production cost will be converted to gold.</Italian>
+		<Spanish>% coste de produccion del edificio que se convierte en oro.</Spanish>
+		<Finnish>% rakennuskustannuksista muutetaan kullaksi.</Finnish>
+		<Hungarian>% of building's production cost will be converted to gold.</Hungarian>
+		<Polish>% jego produkcji zostanie dodane do skarbca.</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ABANDON_CITY</Tag>
+		<English>Abandon City</English>
+		<French>Abandonner la Ville</French>
+		<German>Stadt aufgeben</German>
+		<Italian>Abandon City</Italian>
+		<Spanish>Abandonar ciudad</Spanish>
+		<Finnish>Hylkää Kaupunki</Finnish>
+		<Hungarian>Város lerombolása</Hungarian>
+		<Polish>Porzuc miasto</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ABANDON_FREE</Tag>
+		<English>Free</English>
+		<French>Libre</French>
+		<German>Freilassen</German>
+		<Italian>Free</Italian>
+		<Spanish>Libre</Spanish>
+		<Finnish>Ilmainen</Finnish>
+		<Hungarian>Free</Hungarian>
+		<Polish>Darmowy</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ABANDON_UNHAPPINESS</Tag>
+		<English>+1 unhappy</English>
+		<French>+1 mécontent</French>
+		<German>+1 Unzufriedenheit</German>
+		<Italian>+1 unhappy</Italian>
+		<Spanish>+1 infeliz</Spanish>
+		<Finnish>+1 unhappy</Finnish>
+		<Hungarian>+1 boldogtalanság</Hungarian>
+		<Polish>+1 do niezadowolenia</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

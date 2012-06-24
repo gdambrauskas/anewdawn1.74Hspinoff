@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_EXAMINE_CITY2</Tag>
+		<English>Wait! Let's examine the City first...</English>
+		<French>Examiner la Ville</French>
+		<German>Stadt untersuchen</German>
+		<Italian>Esamina citt&#224;</Italian>
+		<Spanish>Examinar la ciudad</Spanish>
+		<Finnish>Odota! Tutkitaan kaupunkia ensin...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>
+

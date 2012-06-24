@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Bart Muzzin (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Leaderhead art path information -->
+<Civ4ArtDefines xmlns="x-schema:Nebuchadrezzar_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_NEBUCHADREZZAR</Type>
+			<Button>Modules/Custom LeaderHeads/Nebuchadrezzar/Nebuchadrezzar_btn.dds</Button>
+			<NIF>Modules/Custom LeaderHeads/Nebuchadrezzar/montezuma.nif</NIF>
+			<KFM>Modules/Custom LeaderHeads/Nebuchadrezzar/montezuma.kfm</KFM>
+			<NoShaderNIF>Modules/Custom LeaderHeads/Nebuchadrezzar/montezuma_noshader.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom LeaderHeads/Nebuchadrezzar/montezuma_bg.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

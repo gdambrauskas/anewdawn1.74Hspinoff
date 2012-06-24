@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GROVE</Tag>
+		<English>Grove</English>
+		<French>Bosquet</French>
+		<German>Hain</German>
+		<Italian>Grove</Italian>
+		<Spanish>Grove</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CASTLE_GARDEN</Tag>
+		<English>Castle Garden</English>
+		<French>Jardins du Château</French>
+		<German>Burggarten</German>
+		<Italian>Castle Garden</Italian>
+		<Spanish>Castle Garden</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CITY_PARK</Tag>
+		<English>City Park</English>
+		<French>Parc citadin</French>
+		<German>Stadtpark</German>
+		<Italian>City Park</Italian>
+		<Spanish>City Park</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REFLECTING_POOL</Tag>
+		<English>Reflecting Pool</English>
+		<French>Mirroir d'eau</French>
+		<German>Spiegelbecken</German>
+		<Italian>Reflecting Pool</Italian>
+		<Spanish>Reflecting Pool</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GROVE_STRATEGY</Tag>
+		<English>Groves provide early cities a place for citizens to relax in forests with safety.</English>
+		<French>Groves provide early cities a place for citizens to relax in forests with safety.</French>
+		<German>Groves provide early cities a place for citizens to relax in forests with safety.</German>
+		<Italian>Groves provide early cities a place for citizens to relax in forests with safety.</Italian>
+		<Spanish>Groves provide early cities a place for citizens to relax in forests with safety.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CASTLE_GARDEN_STRATEGY</Tag>
+		<English>Use elaborate Castle Garden's to awe citizen's and create a peaceful and calming aura around your city.</English>
+		<French>Use elaborate Castle Garden's to awe citizen's and create a peaceful and calming aura around your city.</French>
+		<German>Use elaborate Castle Garden's to awe citizen's and create a peaceful and calming aura around your city.</German>
+		<Italian>Use elaborate Castle Garden's to awe citizen's and create a peaceful and calming aura around your city.</Italian>
+		<Spanish>Use elaborate Castle Garden's to awe citizen's and create a peaceful and calming aura around your city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CITY_PARK_STRATEGY</Tag>
+		<English>City Parks allow denizens of your cities to relax in the most modern outdoor facilities. They also make excelland protest grounds.</English>
+		<French>City Parks allow denizens of your cities to relax in the most modern outdoor facilities. They also make excelland protest grounds.</French>
+		<German>City Parks allow denizens of your cities to relax in the most modern outdoor facilities. They also make excelland protest grounds.</German>
+		<Italian>City Parks allow denizens of your cities to relax in the most modern outdoor facilities. They also make excelland protest grounds.</Italian>
+		<Spanish>City Parks allow denizens of your cities to relax in the most modern outdoor facilities. They also make excelland protest grounds.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REFLECTING_POOL_STRATEGY</Tag>
+		<English>A Reflecting Pool is monument to the success of your civilizations culture.</English>
+		<French>A Reflecting Pool is monument to the success of your civilizations culture.</French>
+		<German>A Reflecting Pool is monument to the success of your civilizations culture.</German>
+		<Italian>A Reflecting Pool is monument to the success of your civilizations culture.</Italian>
+		<Spanish>A Reflecting Pool is monument to the success of your civilizations culture.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GROVE_PEDIA</Tag>
+		<English>A grove is typically a small wood or forest with little or no underbrush.</English>
+		<French>A grove is typically a small wood or forest with little or no underbrush.</French>
+		<German>A grove is typically a small wood or forest with little or no underbrush.</German>
+		<Italian>A grove is typically a small wood or forest with little or no underbrush.</Italian>
+		<Spanish>A grove is typically a small wood or forest with little or no underbrush.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CASTLE_GARDEN_PEDIA</Tag>
+		<English>A garden is a planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature. The garden can incorporate both natural and man-made materials. </English>
+		<French>A garden is a planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature. The garden can incorporate both natural and man-made materials. </French>
+		<German>A garden is a planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature. The garden can incorporate both natural and man-made materials. </German>
+		<Italian>A garden is a planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature. The garden can incorporate both natural and man-made materials. </Italian>
+		<Spanish>A garden is a planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature. The garden can incorporate both natural and man-made materials. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CITY_PARK_PEDIA</Tag>
+		<English>A City Park is a park in cities and other incorporated places to offer recreation and green space to residents of and visitors to the municipality. The design, operation and maintenance is usually done by government, typically on the local level, but may occasionally be contracted out to a private sector company. [NEWLINE] [TAB] Common features of municipal parks include playgrounds, hiking, running and mixed use trails or paths, bridle paths, sports field and courts, public restrooms, boat ramps and/or picnic facilities, depending on the budget and natural features available.</English>
+		<French>A City Park is a park in cities and other incorporated places to offer recreation and green space to residents of and visitors to the municipality. The design, operation and maintenance is usually done by government, typically on the local level, but may occasionally be contracted out to a private sector company. [NEWLINE] [TAB] Common features of municipal parks include playgrounds, hiking, running and mixed use trails or paths, bridle paths, sports field and courts, public restrooms, boat ramps and/or picnic facilities, depending on the budget and natural features available.</French>
+		<German>A City Park is a park in cities and other incorporated places to offer recreation and green space to residents of and visitors to the municipality. The design, operation and maintenance is usually done by government, typically on the local level, but may occasionally be contracted out to a private sector company. [NEWLINE] [TAB] Common features of municipal parks include playgrounds, hiking, running and mixed use trails or paths, bridle paths, sports field and courts, public restrooms, boat ramps and/or picnic facilities, depending on the budget and natural features available.</German>
+		<Italian>A City Park is a park in cities and other incorporated places to offer recreation and green space to residents of and visitors to the municipality. The design, operation and maintenance is usually done by government, typically on the local level, but may occasionally be contracted out to a private sector company. [NEWLINE] [TAB] Common features of municipal parks include playgrounds, hiking, running and mixed use trails or paths, bridle paths, sports field and courts, public restrooms, boat ramps and/or picnic facilities, depending on the budget and natural features available.</Italian>
+		<Spanish>A City Park is a park in cities and other incorporated places to offer recreation and green space to residents of and visitors to the municipality. The design, operation and maintenance is usually done by government, typically on the local level, but may occasionally be contracted out to a private sector company. [NEWLINE] [TAB] Common features of municipal parks include playgrounds, hiking, running and mixed use trails or paths, bridle paths, sports field and courts, public restrooms, boat ramps and/or picnic facilities, depending on the budget and natural features available.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REFLECTING_POOL_PEDIA</Tag>
+		<English>A reflecting pool or reflection pool is a structure often used in memorials. It generally consists of a shallow pool of water, usually quite calm. A design with edges being slightly deeper than the center of the pool is often used to suppress wave formation. It is sometimes designed to inspire solemnity and reflection, though, as any piece of art, the final interpretation is in the mind of the viewer.</English>
+		<French>A reflecting pool or reflection pool is a structure often used in memorials. It generally consists of a shallow pool of water, usually quite calm. A design with edges being slightly deeper than the center of the pool is often used to suppress wave formation. It is sometimes designed to inspire solemnity and reflection, though, as any piece of art, the final interpretation is in the mind of the viewer.</French>
+		<German>A reflecting pool or reflection pool is a structure often used in memorials. It generally consists of a shallow pool of water, usually quite calm. A design with edges being slightly deeper than the center of the pool is often used to suppress wave formation. It is sometimes designed to inspire solemnity and reflection, though, as any piece of art, the final interpretation is in the mind of the viewer.</German>
+		<Italian>A reflecting pool or reflection pool is a structure often used in memorials. It generally consists of a shallow pool of water, usually quite calm. A design with edges being slightly deeper than the center of the pool is often used to suppress wave formation. It is sometimes designed to inspire solemnity and reflection, though, as any piece of art, the final interpretation is in the mind of the viewer.</Italian>
+		<Spanish>A reflecting pool or reflection pool is a structure often used in memorials. It generally consists of a shallow pool of water, usually quite calm. A design with edges being slightly deeper than the center of the pool is often used to suppress wave formation. It is sometimes designed to inspire solemnity and reflection, though, as any piece of art, the final interpretation is in the mind of the viewer.</Spanish>
+	</TEXT>
+</Civ4GameText>

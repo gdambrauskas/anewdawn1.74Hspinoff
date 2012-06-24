@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:Cleopatra_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_CLEOPATRA</Type>
+			<Button>Modules/Custom Leaderheads/Cleopatra/Cleopatra.dds</Button>
+			<NIF>Modules/Custom Leaderheads/Cleopatra/hatshepsut.nif</NIF>
+			<KFM>Modules/Custom Leaderheads/Cleopatra/hatshepsut.kfm</KFM>
+			<NoShaderNIF>Modules/Custom Leaderheads/Cleopatra/hatshepsut.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom Leaderheads/Cleopatra/hatshepsut_bg.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

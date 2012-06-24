@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MRBM</Tag>
+		<English>MRBM</English>
+		<French>MRBM</French>
+		<German>MRBM</German>
+		<Italian>MRBM</Italian>
+		<Spanish>MRBM</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IRBM</Tag>
+		<English>IRBM</English>
+		<French>IRBM</French>
+		<German>IRBM</German>
+		<Italian>IRBM</Italian>
+		<Spanish>IRBM</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HYDROGEN</Tag>
+		<English>Hydrogen Bomb</English>
+		<French>Bombe à hydrogène</French>
+		<German>Wasserstoffbombe</German>
+		<Italian>Bomba All'Idrogeno</Italian>
+		<Spanish>Bomba De Hidrógeno</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXPERIMENTAL</Tag>
+		<English>Peace Maker</English>
+		<French>Pacificateur</French>
+		<German>Peace Maker</German>
+		<Italian>Peace Maker</Italian>
+		<Spanish>Peace Maker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POISON_NUKE</Tag>
+		<English>BBM</English>
+		<French>Missile Biologique</French>
+		<German>BBM</German>
+		<Italian>BBM</Italian>
+		<Spanish>BBM</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POISON_NUKE_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POISON_NUKE_PEDIA</Tag>
+		<English>The BBM, or Biological Ballistic Missile, is the next step up from the Biological Missile. This missile can be considered a nuke by it's devastating effects that it unleashes upon impact. Using genetic manipulation, the artificial viruses contained within make beings sick beyond anything they have ever experienced before all while the synthetic smog protects the viruses from the sun and also contains Hydrochloric Acid vapors to eat away at metal simultaneously. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind and may spread to other plots and may cause entire continents to be consumed if not taken care of.</English>
+		<French>The BBM, or Biological Ballistic Missile, is the next step up from the Biological Missile. This missile can be considered a nuke by it's devastating effects that it unleashes upon impact. Using genetic manipulation, the artificial viruses contained within make beings sick beyond anything they have ever experienced before all while the synthetic smog protects the viruses from the sun and eats away at metal simultaneously. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind and may spread to other plots.</French>
+		<German>The BBM, or Biological Ballistic Missile, is the next step up from the Biological Missile. This missile can be considered a nuke by it's devastating effects that it unleashes upon impact. Using genetic manipulation, the artificial viruses contained within make beings sick beyond anything they have ever experienced before all while the synthetic smog protects the viruses from the sun and eats away at metal simultaneously. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind and may spread to other plots.</German>
+		<Italian>The BBM, or Biological Ballistic Missile, is the next step up from the Biological Missile. This missile can be considered a nuke by it's devastating effects that it unleashes upon impact. Using genetic manipulation, the artificial viruses contained within make beings sick beyond anything they have ever experienced before all while the synthetic smog protects the viruses from the sun and eats away at metal simultaneously. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind and may spread to other plots.</Italian>
+		<Spanish>The BBM, or Biological Ballistic Missile, is the next step up from the Biological Missile. This missile can be considered a nuke by it's devastating effects that it unleashes upon impact. Using genetic manipulation, the artificial viruses contained within make beings sick beyond anything they have ever experienced before all while the synthetic smog protects the viruses from the sun and eats away at metal simultaneously. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind and may spread to other plots.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POISON_NOVA</Tag>
+		<English>Plague Bringer</English>
+		<French>Missile Faucheur</French>
+		<German>Plague Bringer</German>
+		<Italian>Plague Bringer</Italian>
+		<Spanish>Plague Bringer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POISON_NOVA_PEDIA</Tag>
+		<English>Codenamed The Plague Bringer, this missile is beyond the BBM, perfect for weakening a few enemies within one nuke. Using the latest in Genetic manipulation, these new viruses not only make people sick, killing them at an extremely accelerated rate, but can spread like a wild fire. The new and improved smog also contains concentrated Sulfuric Acid vapors to easily take down anything from a tank to a battleship. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind will spread to other plots and could cause the entire planet to be consumed by this virus if not taken care of immediately.</English>
+		<French>Codenamed The Plague Bringer, this missile is beyond the BBM, perfect for weakening a few enemies within one nuke. Using the latest in Genetic manipulation, these new viruses not only make people sick, killing them at an extremely accelerated rate, but can spread like a wild fire. The new and improved smog also contains concentrated Sulfuric Acid vapors to easily take down anything from a tank to a battleship. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind will spread to other plots and could cause the entire planet to be consumed by this virus if not taken care of immediately.</French>
+		<German>Codenamed The Plague Bringer, this missile is beyond the BBM, perfect for weakening a few enemies within one nuke. Using the latest in Genetic manipulation, these new viruses not only make people sick, killing them at an extremely accelerated rate, but can spread like a wild fire. The new and improved smog also contains concentrated Sulfuric Acid vapors to easily take down anything from a tank to a battleship. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind will spread to other plots and could cause the entire planet to be consumed by this virus if not taken care of immediately.</German>
+		<Italian>Codenamed The Plague Bringer, this missile is beyond the BBM, perfect for weakening a few enemies within one nuke. Using the latest in Genetic manipulation, these new viruses not only make people sick, killing them at an extremely accelerated rate, but can spread like a wild fire. The new and improved smog also contains concentrated Sulfuric Acid vapors to easily take down anything from a tank to a battleship. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind will spread to other plots and could cause the entire planet to be consumed by this virus if not taken care of immediately.</Italian>
+		<Spanish>Codenamed The Plague Bringer, this missile is beyond the BBM, perfect for weakening a few enemies within one nuke. Using the latest in Genetic manipulation, these new viruses not only make people sick, killing them at an extremely accelerated rate, but can spread like a wild fire. The new and improved smog also contains concentrated Sulfuric Acid vapors to easily take down anything from a tank to a battleship. If the viral entities enter water, it will become polluted, killing all sea life and plugging up all natural vents such as oil deposites. WARNING: Viral clouds are subject to wind will spread to other plots and could cause the entire planet to be consumed by this virus if not taken care of immediately.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FUSION_NUKE</Tag>
+		<English>Tactical Fusi</English>
+		<French>Bombe à Fusion Tactique</French>
+		<German>Taktische Fusionsbombe</German>
+		<Italian>Tactical Fusi</Italian>
+		<Spanish>Tactical Fusi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FUSION_NUKE_STRATEGY</Tag>
+		<English>This weapon has two uses. To make waterways or to wage war. If used even on your own land, it may have diplomatic consequences. The Tactical Fusi is a small yet devastating bomb. It's implosion radius is just the square it was landed on, however, due to the effects that fusion provides, everything (even the plot) will be converted to water. Say there was a stack of any fifty units on a city of seventy population points sitting on top of an Oil resource. After this weapon is used, all fifty units are destroyed, the city has been wiped off the face of the planet, the Oil has been vaporized, the land has been fused into a ball the size of a baseball, and all thats left is the underlying water table that all the continents sit on. WARNING: AI use this bomb for nuking purposes only, and it is possible to eradicate your own units or cities.</English>
+		<French>This weapon has two uses. To make waterways or to wage war. If used even on your own land, it may have diplomatic consequences. The Tactical Fusi is a small yet devastating bomb. It's implosion radius is just the square it was landed on, however, due to the effects that fusion provides, everything (even the plot) will be converted to water. Say there was a stack of any fifty units on a city of seventy population points sitting on top of an Oil resource. After this weapon is used, all fifty units are destroyed, the city has been wiped off the face of the planet, the Oil has been vaporized, the land has been fused into a ball the size of a baseball, and all thats left is the underlying water table that all the continents sit on.</French>
+		<German>This weapon has two uses. To make waterways or to wage war. If used even on your own land, it may have diplomatic consequences. The Tactical Fusi is a small yet devastating bomb. It's implosion radius is just the square it was landed on, however, due to the effects that fusion provides, everything (even the plot) will be converted to water. Say there was a stack of any fifty units on a city of seventy population points sitting on top of an Oil resource. After this weapon is used, all fifty units are destroyed, the city has been wiped off the face of the planet, the Oil has been vaporized, the land has been fused into a ball the size of a baseball, and all thats left is the underlying water table that all the continents sit on.</German>
+		<Italian>This weapon has two uses. To make waterways or to wage war. If used even on your own land, it may have diplomatic consequences. The Tactical Fusi is a small yet devastating bomb. It's implosion radius is just the square it was landed on, however, due to the effects that fusion provides, everything (even the plot) will be converted to water. Say there was a stack of any fifty units on a city of seventy population points sitting on top of an Oil resource. After this weapon is used, all fifty units are destroyed, the city has been wiped off the face of the planet, the Oil has been vaporized, the land has been fused into a ball the size of a baseball, and all thats left is the underlying water table that all the continents sit on.</Italian>
+		<Spanish>This weapon has two uses. To make waterways or to wage war. If used even on your own land, it may have diplomatic consequences. The Tactical Fusi is a small yet devastating bomb. It's implosion radius is just the square it was landed on, however, due to the effects that fusion provides, everything (even the plot) will be converted to water. Say there was a stack of any fifty units on a city of seventy population points sitting on top of an Oil resource. After this weapon is used, all fifty units are destroyed, the city has been wiped off the face of the planet, the Oil has been vaporized, the land has been fused into a ball the size of a baseball, and all thats left is the underlying water table that all the continents sit on.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FUSION_NUKE_PEDIA</Tag>
+		<English>The Tactical Fusi (short for Fusion) is the first in the latest and greatest way to give that special civilization a good surprise. This new type of bomb obsoletes the need for messy explosions including the all-elusive radiation fallout from nuclear bombs. Instead, this bomb expands upon the power of implosions, forcing everything within it's radius into a ball of mush the size of a baseball. Due to the pure intensity of this weapon, only so many may be made to try and keep the pothole count down. This is also a great weapon to make a canal or give that useless, landlocked city some water access. WARNING: try to keep as many civs allied at a time so your country won't end up as a big lake.</English>
+		<French>The Tactical Fusi (short for Fusion) is the first in the latest and greatest way to give that special civilization a good surprise. This new type of bomb obsoletes the need for messy explosions including the all-elusive radiation fallout from nuclear bombs. Instead, this bomb expands upon the power of implosions, forcing everything within it's radius into a ball of mush the size of a baseball. Due to the pure intensity of this weapon, only so many may be made to try and keep the pothole count down. This is also a great weapon to make a canal or give that useless, landlocked city some water access. WARNING: try to keep as many civs allied at a time so your country won't end up as a big lake.</French>
+		<German>The Tactical Fusi (short for Fusion) is the first in the latest and greatest way to give that special civilization a good surprise. This new type of bomb obsoletes the need for messy explosions including the all-elusive radiation fallout from nuclear bombs. Instead, this bomb expands upon the power of implosions, forcing everything within it's radius into a ball of mush the size of a baseball. Due to the pure intensity of this weapon, only so many may be made to try and keep the pothole count down. This is also a great weapon to make a canal or give that useless, landlocked city some water access. WARNING: try to keep as many civs allied at a time so your country won't end up as a big lake.</German>
+		<Italian>The Tactical Fusi (short for Fusion) is the first in the latest and greatest way to give that special civilization a good surprise. This new type of bomb obsoletes the need for messy explosions including the all-elusive radiation fallout from nuclear bombs. Instead, this bomb expands upon the power of implosions, forcing everything within it's radius into a ball of mush the size of a baseball. Due to the pure intensity of this weapon, only so many may be made to try and keep the pothole count down. This is also a great weapon to make a canal or give that useless, landlocked city some water access. WARNING: try to keep as many civs allied at a time so your country won't end up as a big lake.</Italian>
+		<Spanish>The Tactical Fusi (short for Fusion) is the first in the latest and greatest way to give that special civilization a good surprise. This new type of bomb obsoletes the need for messy explosions including the all-elusive radiation fallout from nuclear bombs. Instead, this bomb expands upon the power of implosions, forcing everything within it's radius into a ball of mush the size of a baseball. Due to the pure intensity of this weapon, only so many may be made to try and keep the pothole count down. This is also a great weapon to make a canal or give that useless, landlocked city some water access. WARNING: try to keep as many civs allied at a time so your country won't end up as a big lake.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FUSION_NOVA</Tag>
+		<English>Fusion Nova</English>
+		<French>Bombe Nova</French>
+		<German>Nova Fusionsbombe</German>
+		<Italian>Fusion Nova</Italian>
+		<Spanish>Fusion Nova</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FUSION_NOVA_STRATEGY</Tag>
+		<English>See Tactical Fusi</English>
+		<French>See Tactical Fusi</French>
+		<German>Siehe taktische Fusionsbombe</German>
+		<Italian>See Tactical Fusi</Italian>
+		<Spanish>See Tactical Fusi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FUSION_NOVA_PEDIA</Tag>
+		<English>Directly related to it's cousin the Tactical Fusi, the Fusion Nova (a.k.a. The Island Sinker) uses fusion implosions to destroy areas of target rich environments. Unlike the Tactical Fusi, this weapon has a larger implosion radius, sinking any city and its improvements or surrounding guardian units. Due to the intensity of this weapon, the number able to be made is much smaller than that of the Tactical Fusi.</English>
+		<French>Directly related to it's cousin the Tactical Fusi, the Fusion Nova (a.k.a. The Island Sinker) uses fusion implosions to destroy areas of target rich environments. Unlike the Tactical Fusi, this weapon has a larger implosion radius, sinking any city and its improvements or surrounding guardian units. Due to the intensity of this weapon, the number able to be made is much smaller than that of the Tactical Fusi.</French>
+		<German>Directly related to it's cousin the Tactical Fusi, the Fusion Nova (a.k.a. The Island Sinker) uses fusion implosions to destroy areas of target rich environments. Unlike the Tactical Fusi, this weapon has a larger implosion radius, sinking any city and its improvements or surrounding guardian units. Due to the intensity of this weapon, the number able to be made is much smaller than that of the Tactical Fusi.</German>
+		<Italian>Directly related to it's cousin the Tactical Fusi, the Fusion Nova (a.k.a. The Island Sinker) uses fusion implosions to destroy areas of target rich environments. Unlike the Tactical Fusi, this weapon has a larger implosion radius, sinking any city and its improvements or surrounding guardian units. Due to the intensity of this weapon, the number able to be made is much smaller than that of the Tactical Fusi.</Italian>
+		<Spanish>Directly related to it's cousin the Tactical Fusi, the Fusion Nova (a.k.a. The Island Sinker) uses fusion implosions to destroy areas of target rich environments. Unlike the Tactical Fusi, this weapon has a larger implosion radius, sinking any city and its improvements or surrounding guardian units. Due to the intensity of this weapon, the number able to be made is much smaller than that of the Tactical Fusi.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TURN</Tag>
+		<English>Y.A.M.</English>
+		<French>Missile de Contrôle Mental</French>
+		<German>Y.A.M.</German>
+		<Italian>Y.A.M.</Italian>
+		<Spanish>Y.A.M.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TURN_STRATEGY</Tag>
+		<English>This weapon is used to make the enemy give his lands to you.</English>
+		<French>This weapon is used to make the enemy give his lands to you.</French>
+		<German>Mit Hilfe dieser Waffe &#252;bergibt Dir der Feind sein Territorium..</German>
+		<Italian>This weapon is used to make the enemy give his lands to you.</Italian>
+		<Spanish>This weapon is used to make the enemy give his lands to you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TURN_PEDIA</Tag>
+		<English>The Y.A.M. or You Are Mine is the latest and greatest in thought scanning and uploading technology. On impact, the missile sends out a computer virus that is uploaded to nearby personell's minds, making them resistless to your control. Those who are under direct control of the enemy's leader will be forced to self-terminate in your favor, declaring the cities it lands on an open city. WARNING: Even though the city may turn, only the units with the strongest mind set may resist self-termination.</English>
+		<French>The Y.A.M. or You Are Mine is the latest and greatest in thought scanning and uploading technology. On impact, the missile sends out a computer virus that is uploaded to nearby personell's minds, making them resistless to your control. Those who are under direct control of the enemy's leader will be forced to self-terminate in your favor, declaring the cities it lands on an open city. WARNING: Even though the city may turn, only the units with the strongest mind set may resist self-termination.</French>
+		<German>The Y.A.M. or You Are Mine is the latest and greatest in thought scanning and uploading technology. On impact, the missile sends out a computer virus that is uploaded to nearby personell's minds, making them resistless to your control. Those who are under direct control of the enemy's leader will be forced to self-terminate in your favor, declaring the cities it lands on an open city. WARNING: Even though the city may turn, only the units with the strongest mind set may resist self-termination.</German>
+		<Italian>The Y.A.M. or You Are Mine is the latest and greatest in thought scanning and uploading technology. On impact, the missile sends out a computer virus that is uploaded to nearby personell's minds, making them resistless to your control. Those who are under direct control of the enemy's leader will be forced to self-terminate in your favor, declaring the cities it lands on an open city. WARNING: Even though the city may turn, only the units with the strongest mind set may resist self-termination.</Italian>
+		<Spanish>The Y.A.M. or You Are Mine is the latest and greatest in thought scanning and uploading technology. On impact, the missile sends out a computer virus that is uploaded to nearby personell's minds, making them resistless to your control. Those who are under direct control of the enemy's leader will be forced to self-terminate in your favor, declaring the cities it lands on an open city. WARNING: Even though the city may turn, only the units with the strongest mind set may resist self-termination.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_CONTROL</Tag>
+		<English>Control Units</English>
+		<French>Unités de Contrôle</French>
+		<German>Kontrolleinheiten</German>
+		<Italian>Control Units</Italian>
+		<Spanish>Control Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PERSHING</Tag>
+		<English>Pershing</English>
+		<French>Missile 'Pershing'</French>
+		<German>Pershing</German>
+		<Italian>Pershing</Italian>
+		<Spanish>Pershing</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MINUTEMANIII</Tag>
+		<English>Minuteman III</English>
+		<French>Homme-minute III</French>
+		<German>Minuteman III</German>
+		<Italian>Minuteman III</Italian>
+		<Spanish>Minuteman III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CSS-3</Tag>
+		<English>CSS-3</English>
+		<French>CSS-3</French>
+		<German>CSS-3</German>
+		<Italian>CSS-3</Italian>
+		<Spanish>CSS-3</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SS-18</Tag>
+		<English>SS-18</English>
+		<French>SS-18</French>
+		<German>SS-18</German>
+		<Italian>SS-18</Italian>
+		<Spanish>SS-18</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SS-20</Tag>
+		<English>SS-20</English>
+		<French>SS-20</French>
+		<German>SS-20</German>
+		<Italian>SS-20</Italian>
+		<Spanish>SS-20</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXPERIMENTAL_PEDIA</Tag>
+		<English>Instructions:
+1. Select the hemisphere you want to get rid of.
+2. Declare war to everyone on that hemisphere
+3. Target at the Equator in selected hemisphere and watch as you turn whole continents to nuclear waste land.
+Caution: Use in extreme emergency only. Don´t use on smaller planets.</English>
+		<French>Instructions:
+1. Select the hemisphere you want to get rid of.
+2. Declare war to everyone on that hemisphere
+3. Target at the Equator in selected hemisphere and watch as you turn whole continents to nuclear waste land.
+Caution: Use in extreme emergency only. Don´t use on smaller planets.</French>
+		<German>Instructions:
+1. Select the hemisphere you want to get rid of.
+2. Declare war to everyone on that hemisphere
+3. Target at the Equator in selected hemisphere and watch as you turn whole continents to nuclear waste land.
+Caution: Use in extreme emergency only. Don´t use on smaller planets.</German>
+		<Italian>Instructions:
+1. Select the hemisphere you want to get rid of.
+2. Declare war to everyone on that hemisphere
+3. Target at the Equator in selected hemisphere and watch as you turn whole continents to nuclear waste land.
+Caution: Use in extreme emergency only. Don´t use on smaller planets.</Italian>
+		<Spanish>Instructions:
+1. Select the hemisphere you want to get rid of.
+2. Declare war to everyone on that hemisphere
+3. Target at the Equator in selected hemisphere and watch as you turn whole continents to nuclear waste land.
+Caution: Use in extreme emergency only. Don´t use on smaller planets.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXPERIMENTAL_STRATEGY</Tag>
+		<English>Game Winner -weapon. Using this weapon you may completely nuke many rivals' lands, so you can make a major invasion on a whole continent and capture it.</English>
+		<French>Game Winner -weapon. Using this weapon you may completely nuke many rivals' lands, so you can make a major invasion on a whole continent and capture it.</French>
+		<German>Game Winner -weapon. Using this weapon you may completely nuke many rivals' lands, so you can make a major invasion on a whole continent and capture it.</German>
+		<Italian>Game Winner -weapon. Using this weapon you may completely nuke many rivals' lands, so you can make a major invasion on a whole continent and capture it.</Italian>
+		<Spanish>Game Winner -weapon. Using this weapon you may completely nuke many rivals' lands, so you can make a major invasion on a whole continent and capture it.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NUCLEAR_LAB</Tag>
+		<English>Nuclear Laboratory</English>
+		<French>Laboratoire Nucléaire</French>
+		<German>Nuklearlabor</German>
+		<Italian>Laboratorio Nucleare</Italian>
+		<Spanish>Laboratorio Nuclear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NUCLEAR_LAB_PEDIA</Tag>
+		<English>Nuclear laboratories are facilities in which nuclear physics are studied.</English>
+		<French>Nuclear laboratories are facilities in which nuclear physics are studied.</French>
+		<German>Nuclear laboratories are facilities in which nuclear physics are studied.</German>
+		<Italian>Nuclear laboratories are facilities in which nuclear physics are studied.</Italian>
+		<Spanish>Nuclear laboratories are facilities in which nuclear physics are studied.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NUCLEAR_LAB_STRATEGY</Tag>
+		<English>Build a nuclear lab in your city to build a nuclear powerplant or a nuclear silo. It also allows the construction of most nuclear weapons.</English>
+		<French>Build a nuclear lab in your city to build a nuclear powerplant or a nuclear silo. It also allows the construction of most nuclear weapons.</French>
+		<German>Build a nuclear lab in your city to build a nuclear powerplant or a nuclear silo. It also allows the construction of most nuclear weapons.</German>
+		<Italian>Build a nuclear lab in your city to build a nuclear powerplant or a nuclear silo. It also allows the construction of most nuclear weapons.</Italian>
+		<Spanish>Build a nuclear lab in your city to build a nuclear powerplant or a nuclear silo. It also allows the construction of most nuclear weapons.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NUCLEAR_SILO</Tag>
+		<English>Nuclear Silo</English>
+		<French>Silo Nucléaire</French>
+		<German>Atomares Raketensilo</German>
+		<Italian>Silo Nucleare</Italian>
+		<Spanish>Silo Nuclear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NUCLEAR_SILO_PEDIA</Tag>
+		<English>A missile silo is an underground, vertical cylindrical container for the storage and launching of intercontinental ballistic missiles. They typically have the missile some distance under the surface, protected by a large &quot;blast door&quot; on top. -Wikipedia</English>
+		<French>A missile silo is an underground, vertical cylindrical container for the storage and launching of intercontinental ballistic missiles. They typically have the missile some distance under the surface, protected by a large &quot;blast door&quot; on top. -Wikipedia</French>
+		<German>A missile silo is an underground, vertical cylindrical container for the storage and launching of intercontinental ballistic missiles. They typically have the missile some distance under the surface, protected by a large &quot;blast door&quot; on top. -Wikipedia</German>
+		<Italian>A missile silo is an underground, vertical cylindrical container for the storage and launching of intercontinental ballistic missiles. They typically have the missile some distance under the surface, protected by a large &quot;blast door&quot; on top. -Wikipedia</Italian>
+		<Spanish>A missile silo is an underground, vertical cylindrical container for the storage and launching of intercontinental ballistic missiles. They typically have the missile some distance under the surface, protected by a large &quot;blast door&quot; on top. -Wikipedia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NUCLEAR_SILO_STRATEGY</Tag>
+		<English>Nuclear Silo allows the construction of intercontinental nuclear missiles.</English>
+		<French>Nuclear Silo allows the construction of intercontinental nuclear missiles.</French>
+		<German>Nuclear Silo allows the construction of intercontinental nuclear missiles.</German>
+		<Italian>Nuclear Silo allows the construction of intercontinental nuclear missiles.</Italian>
+		<Spanish>Nuclear Silo allows the construction of intercontinental nuclear missiles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MISSILE_DEFENCE_I</Tag>
+		<English>AA Missile Defenses</English>
+		<French>Défense Contre Les Missiles I</French>
+		<German>AA Raketenabwehr</German>
+		<Italian>Di Difesa I</Italian>
+		<Spanish>Defensa Contra Misiles I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MISSILE_DEFENCE_II</Tag>
+		<English>Laser Auto-Defenses</English>
+		<French>Défense Contre Les Missiles II</French>
+		<German>Laser-Raketenabwehr</German>
+		<Italian>Di Difesa II</Italian>
+		<Spanish>Defensa Contra Misiles II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MISSILE_RAILGUN</Tag>
+		<English>Anti-Missile Railgun</English>
+		<French>Défense Contre Les Missiles II</French>
+		<German>Antiraketen-Schienenkanone</German>
+		<Italian>Di Difesa II</Italian>
+		<Spanish>Defensa Contra Misiles II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MISSILE_DEFENCE_PEDIA</Tag>
+		<English>Missile defense is an air defense system, weapon, or technology involved in the detection, tracking, interception and destruction of attacking missiles. Originally conceived as a defense against nuclear-armed ICBMs, its application has broadened to include shorter-ranged non-nuclear tactical and theater missiles. -Wikipedia</English>
+		<French>Missile defence is an air defence system, weapon, or technology involved in the detection, tracking, interception and destruction of attacking missiles. Originally conceived as a defence against nuclear-armed ICBMs, its application has broadened to include shorter-ranged non-nuclear tactical and theater missiles. -Wikipedia</French>
+		<German>Missile defence is an air defence system, weapon, or technology involved in the detection, tracking, interception and destruction of attacking missiles. Originally conceived as a defence against nuclear-armed ICBMs, its application has broadened to include shorter-ranged non-nuclear tactical and theater missiles. -Wikipedia</German>
+		<Italian>Missile defence is an air defence system, weapon, or technology involved in the detection, tracking, interception and destruction of attacking missiles. Originally conceived as a defence against nuclear-armed ICBMs, its application has broadened to include shorter-ranged non-nuclear tactical and theater missiles. -Wikipedia</Italian>
+		<Spanish>Missile defence is an air defence system, weapon, or technology involved in the detection, tracking, interception and destruction of attacking missiles. Originally conceived as a defence against nuclear-armed ICBMs, its application has broadened to include shorter-ranged non-nuclear tactical and theater missiles. -Wikipedia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MISSILE_DEFENCE_STRATEGY</Tag>
+		<English>Build the two Anti-Missile defenses in addition to SDI to further increase your national security and help keep you safe from enemy nukes. Although all three projects may give you 100% nuke-safe, be aware of smart-evading nukes.</English>
+		<French>Build this system to drop enemy nukes from the sky.</French>
+		<German>Build this system to drop enemy nukes from the sky.</German>
+		<Italian>Build this system to drop enemy nukes from the sky.</Italian>
+		<Spanish>Build this system to drop enemy nukes from the sky.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PEACEMAKER</Tag>
+		<English>Planetbreaker</English>
+		<French>Planetbreaker</French>
+		<German>Planetenbrecher</German>
+		<Italian>Planetbreaker</Italian>
+		<Spanish>Planetbreaker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PEACEMAKER_PEDIA</Tag>
+		<English>The Planetbuster-Rocket is the ultimate weapon to crush your enemies, to wipe out their cities, and to create a nice lakeside.</English>
+		<French>The Planetbuster-Rocket is the ultimate weapon to crush your enemies, to wipe out their cities, and to create a nice lakeside. </French>
+		<German>Die Planetenbrecher-Rakete ist die ultimative Waffe, um deine Feinde zu vernichten, ihre St&#228;dte auszul&#246;schen, und um eine sch&#246;ne Seen-Landschaft zu zaubern.</German>
+		<Italian>The Planetbuster-Rocket is the ultimate weapon to crush your enemies, to wipe out their cities, and to create a nice lakeside.</Italian>
+		<Spanish>The Planetbuster-Rocket is the ultimate weapon to crush your enemies, to wipe out their cities, and to create a nice lakeside.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PEACEMAKER_STRATEGY</Tag>
+		<English>The Planetbuster-Rocket terraforms the plot it hits and the surrounding plots into water, and destroys all, what is on the plots. Units, improvements and cities.</English>
+		<French>The Planetbuster-Rocket terraforms the plot it hits and the surrounding plots into water, and destroys all, what is on the plots. Units, improvements and cities.</French>
+		<German>Die Planetenbrecher-Rakete terraformt das getroffene Feld und die darum liegenden in Wasser, und vernichtet dabei alles auf ihnen, egal ob Einheiten, Gel&#228;ndeverbesserungen oder St&#228;dte.</German>
+		<Italian>The Planetbuster-Rocket terraforms the plot it hits and the surrounding plots into water, and destroys all, what is on the plots. Units, improvements and cities.</Italian>
+		<Spanish>The Planetbuster-Rocket terraforms the plot it hits and the surrounding plots into water, and destroys all, what is on the plots. Units, improvements and cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SLIMY_COAST</Tag>
+		<English>Infected Water</English>
+		<French>Eau Infectée</French>
+		<German>Infiziertes Wasser</German>
+		<Italian>Infected Water</Italian>
+		<Spanish>Infected Water</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SLIMY_COAST_PEDIA</Tag>
+		<English>This water plot has been infected by a biological 'nuke'.</English>
+		<French>Cette eau a été infectée par une bombe biologique.</French>
+		<German>This water plot has been infected by a biological 'nuke'.</German>
+		<Italian>This water plot has been infected by a biological 'nuke'.</Italian>
+		<Spanish>This water plot has been infected by a biological 'nuke'.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SLIMY_OCEAN</Tag>
+		<English>Plagued Water</English>
+		<French>Eau contaminée</French>
+		<German>Verpestetes Wasser</German>
+		<Italian>Plagued Water</Italian>
+		<Spanish>Plagued Water</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SLIMY_OCEAN_PEDIA</Tag>
+		<English>This water plot has been infected by a top-of-the-line biological 'nuke'.</English>
+		<French>Cette eau a été contaminée par une bombe biologique de pointe.</French>
+		<German>This water plot has been infected by a top-of-the-line biological 'nuke'.</German>
+		<Italian>This water plot has been infected by a top-of-the-line biological 'nuke'.</Italian>
+		<Spanish>This water plot has been infected by a top-of-the-line biological 'nuke'.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SANITIZE_WATER</Tag>
+		<English>Sanitize Water</English>
+		<French>Assainir l'Eau</French>
+		<German>Wasser desinfizieren</German>
+		<Italian>Sanitize Water</Italian>
+		<Spanish>Sanitize Water</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SANITIZE_WATER_PEDIA</Tag>
+		<English>Sanitizes an ocean or coast plot of its infection, restoring it to perfect health.</English>
+		<French>Assainit une case d'océan ou de côtes de ces infections, lui restaurant des conditions sanitaires parfaites.</French>
+		<German>Sanitizes an ocean or coast plot of its infection, restoring it to perfect health.</German>
+		<Italian>Sanitizes an ocean or coast plot of its infection, restoring it to perfect health.</Italian>
+		<Spanish>Sanitizes an ocean or coast plot of its infection, restoring it to perfect health.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_BIOGAS</Tag>
+		<English>Infectious Smog</English>
+		<French>Smog infecté</French>
+		<German>Infekti&#246;ser Smog</German>
+		<Italian>Infectious Smog</Italian>
+		<Spanish>Infectious Smog</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_BIOGAS_PEDIA</Tag>
+		<English>A synthetic virus protected from the sun by a thick layer of smog.</English>
+		<French>Un puissant virus synthétique protégé du Soleil par une fine couche de 'Smog'.</French>
+		<German>A synthetic virus protected from the sun by a thick layer of smog.</German>
+		<Italian>A synthetic virus protected from the sun by a thick layer of smog.</Italian>
+		<Spanish>A synthetic virus protected from the sun by a thick layer of smog.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_PLAGUEGAS</Tag>
+		<English>Plagued Smog</English>
+		<French>Smog contaminé</French>
+		<German>Verpesteter Smog</German>
+		<Italian>Plagued Smog</Italian>
+		<Spanish>Plagued Smog</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_PLAGUEGAS_PEDIA</Tag>
+		<English>A powerful synthetic virus protected from the sun by a thick layer of smog.</English>
+		<French>Un puissant virus synthétique protégé du Soleil par une fine couche de 'Smog'.</French>
+		<German>A powerful synthetic virus protected from the sun by a thick layer of smog.</German>
+		<Italian>A powerful synthetic virus protected from the sun by a thick layer of smog.</Italian>
+		<Spanish>A powerful synthetic virus protected from the sun by a thick layer of smog.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_SANITIZE</Tag>
+		<English>Sanitize</English>
+		<French>Assainir</French>
+		<German>Desinfizieren</German>
+		<Italian>Sanitize</Italian>
+		<Spanish>Sanitize</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_SANITIZE_WATER</Tag>
+		<English>Sanitize Water</English>
+		<French>Assainir l'Eau</French>
+		<German>Wasser desinfizieren</German>
+		<Italian>Sanitize Water</Italian>
+		<Spanish>Sanitize Water</Spanish>
+	</TEXT>
+</Civ4GameText>

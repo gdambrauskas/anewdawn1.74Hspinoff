@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BOLSHOI</Tag>
+		<English>Bolshoi</English>
+		<French>Théâtre Bolshoi</French>
+		<German>Bolschoi-Theater</German>
+		<Italian>Bolshoi</Italian>
+		<Spanish>Bolshoi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BOLSHOI_PEDIA</Tag>
+		<English>The Bolshoi Theatre is a historic theatre in Moscow, Russia, designed by the architect Joseph Bove, which holds performances of ballet and opera. The Bolshoi Ballet and Bolshoi Opera are amongst the oldest and greatest ballet and opera companies of the world, respectively. The theatre is the parent company of The Bolshoi Ballet Academy, a world-leading school of ballet.  The company was founded in 1776 by Prince Peter Urusov and Michael Maddox. Initially, it held performances in a private home, but in 1780, it acquired the Petrovka Theatre and began producing plays and operas.</English>
+		<French>Le Théâtre Bolchoï (en russe : ??????? ?????, 'Grand Théâtre') est la scène la plus prestigieuse de Moscou, en Russie. Situé non loin du Kremlin, des pièces de théâtre, des opéras et des ballets y sont représentés. La troupe du Bolchoï a été fondée en 1776 par Pierre Ouroussov et Mikhaïl Medoks. Au commencement, la compagnie donnait des spectacles dans des lieux privés, mais en 1780 elle acquit le théâtre Petrovsky et commença à produire des pièces et des opéras. Le bâtiment actuel a été construit en 1825 sur l'emplacement du théâtre Petrovsky, ravagé par un incendie en 1805. Il a été conçu par l'architecte Joseph Beauvais, qui avait également bâti le théâtre Maly un an avant. Il a été surnommé « Bolchoï » (grand théâtre) pour le distinguer du Maly (petit théâtre). Le théâtre a été inauguré le 18 janvier 1825. Il présentait d'abord uniquement des spectacles russes, mais à partir de 1840 de nombreux compositeurs étrangers ont contribué à étendre son répertoire. </French>
+		<German>The Bolshoi Theatre is a historic theatre in Moscow, Russia, designed by the architect Joseph Bove, which holds performances of ballet and opera. The Bolshoi Ballet and Bolshoi Opera are amongst the oldest and greatest ballet and opera companies of the world, respectively. The theatre is the parent company of The Bolshoi Ballet Academy, a world-leading school of ballet.  The company was founded in 1776 by Prince Peter Urusov and Michael Maddox. Initially, it held performances in a private home, but in 1780, it acquired the Petrovka Theatre and began producing plays and operas.</German>
+		<Italian>The Bolshoi Theatre is a historic theatre in Moscow, Russia, designed by the architect Joseph Bove, which holds performances of ballet and opera. The Bolshoi Ballet and Bolshoi Opera are amongst the oldest and greatest ballet and opera companies of the world, respectively. The theatre is the parent company of The Bolshoi Ballet Academy, a world-leading school of ballet.  The company was founded in 1776 by Prince Peter Urusov and Michael Maddox. Initially, it held performances in a private home, but in 1780, it acquired the Petrovka Theatre and began producing plays and operas.</Italian>
+		<Spanish>The Bolshoi Theatre is a historic theatre in Moscow, Russia, designed by the architect Joseph Bove, which holds performances of ballet and opera. The Bolshoi Ballet and Bolshoi Opera are amongst the oldest and greatest ballet and opera companies of the world, respectively. The theatre is the parent company of The Bolshoi Ballet Academy, a world-leading school of ballet.  The company was founded in 1776 by Prince Peter Urusov and Michael Maddox. Initially, it held performances in a private home, but in 1780, it acquired the Petrovka Theatre and began producing plays and operas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BOLSHOI_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]Bolshoi[COLOR_REVERT] Free Artist in city and Free Theatre in all cities.</English>
+		<French>[COLOR_BUILDING_TEXT]Bolshoi[COLOR_REVERT] Artiste gratuit dans la Ville qui le possède, et un Théatre dans chaque Ville.</French>
+		<German>[COLOR_BUILDING_TEXT]Bolschoi-Theater[COLOR_REVERT] Ein freier Spezialist K&#252;nstler in der Stadt und freies Geb&#228;ude Theater in allen St&#228;dten.</German>
+		<Italian>[COLOR_BUILDING_TEXT]Bolshoi[COLOR_REVERT] Free Artist in city and Free Theatre in all cities.</Italian>
+		<Spanish>[COLOR_BUILDING_TEXT]Bolshoi[COLOR_REVERT] Free Artist in city and Free Theatre in all cities.</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) --><!-- Sid Meier's Civilization 4 --><!-- Copyright Firaxis Games 2005 --><!-- --><!-- Feature --><Civ4FeatureInfos xmlns="x-schema:CIV4TerrainSchema.xml">
+	<FeatureInfos>
+		<FeatureInfo>
+			<Type>FEATURE_ICE</Type>
+			<iCultureDistance>2</iCultureDistance>
+		</FeatureInfo>
+		<FeatureInfo>
+			<Type>FEATURE_JUNGLE</Type>
+			<iCultureDistance>2</iCultureDistance>
+		</FeatureInfo>
+		<FeatureInfo>
+			<Type>FEATURE_OASIS</Type>
+			<iCultureDistance>0</iCultureDistance>
+		</FeatureInfo>
+		<FeatureInfo>
+			<Type>FEATURE_FLOOD_PLAINS</Type>
+			<iCultureDistance>0</iCultureDistance>
+			<bIgnoreTerrainCulture>1</bIgnoreTerrainCulture>
+		</FeatureInfo>
+		<FeatureInfo>
+			<Type>FEATURE_FOREST</Type>
+			<iCultureDistance>1</iCultureDistance>
+		</FeatureInfo>
+		<FeatureInfo>
+			<Type>FEATURE_SWAMP</Type>
+			<iCultureDistance>1</iCultureDistance>
+		</FeatureInfo>
+		<FeatureInfo>
+			<Type>FEATURE_STORM</Type>
+			<iCultureDistance>0</iCultureDistance>
+		</FeatureInfo>
+		<FeatureInfo>
+			<Type>FEATURE_FALLOUT</Type>
+			<iCultureDistance>0</iCultureDistance>
+		</FeatureInfo>
+	</FeatureInfos>
+</Civ4FeatureInfos>

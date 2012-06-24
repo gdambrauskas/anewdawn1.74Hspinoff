@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:Ivan_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_IVAN</Type>
+			<Button>Modules/Custom LeaderHeads/Ivan IV/Ivan.dds</Button>
+			<NIF>Modules/Custom LeaderHeads/Ivan IV/Grozniy.nif</NIF>
+			<KFM>Modules/Custom LeaderHeads/Ivan IV/alexander.kfm</KFM>
+			<NoShaderNIF>Modules/Custom LeaderHeads/Ivan IV/Grozniy.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom LeaderHeads/Ivan IV/alexander_bg.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Corporation Infos -->
+<!-- -->
+<Civ4CorporationInfo xmlns="x-schema:Example_CIV4GameInfoSchema.xml">
+	<CorporationInfos>
+		<CorporationInfo>
+			<Type>CORPORATION_BAKERGUILD</Type>
+			<Description>TXT_KEY_CORPORATION_BAKERGUILD</Description>
+			<Civilopedia>TXT_KEY_TECH_GUILDS_PEDIA</Civilopedia>
+			<TechPrereq>NONE</TechPrereq>
+			<ObsoleteTech>TECH_ASSEMBLY_LINE</ObsoleteTech>
+			<FreeUnitClass>NONE</FreeUnitClass>
+			<iSpreadFactor>200</iSpreadFactor>
+			<iSpreadCost>0</iSpreadCost>
+			<iMaintenance>35</iMaintenance>
+			<iTGAIndex>36</iTGAIndex>
+			<PrereqBonuses>
+				<BonusType>BONUS_WHEAT</BonusType>
+				<BonusType>BONUS_CORN</BonusType>
+				<BonusType>BONUS_RICE</BonusType>
+				<BonusType>BONUS_SUGAR</BonusType>
+			</PrereqBonuses>
+			<HeadquarterCommerces>
+				<iHeadquarterCommerce>1</iHeadquarterCommerce>
+				<iHeadquarterCommerce>0</iHeadquarterCommerce>
+				<iHeadquarterCommerce>0</iHeadquarterCommerce>
+			</HeadquarterCommerces>
+			<BonusProduced>NONE</BonusProduced>
+			<CommercesProduced>
+				<iCommerceProduced>0</iCommerceProduced>
+				<iCommerceProduced>0</iCommerceProduced>
+				<iCommerceProduced>0</iCommerceProduced>
+			</CommercesProduced>
+			<YieldsProduced>
+				<iYieldProduced>25</iYieldProduced>
+				<iYieldProduced>0</iYieldProduced>
+				<iYieldProduced>0</iYieldProduced>
+			</YieldsProduced>
+			<CompetingCorporations>
+				<CompetingCorporation>
+					<CorporationType>CORPORATION_BUTCHERGUILD</CorporationType>
+					<bCompeting>1</bCompeting>
+				</CompetingCorporation>
+				<CompetingCorporation>
+					<CorporationType>CORPORATION_FISHMONGUILD</CorporationType>
+					<bCompeting>1</bCompeting>
+				</CompetingCorporation>
+				<CompetingCorporation>
+					<CorporationType>CORPORATION_GROCERGUILD</CorporationType>
+					<bCompeting>1</bCompeting>
+				</CompetingCorporation>
+				<CompetingCorporation>
+					<CorporationType>CORPORATION_MERCERGUILD</CorporationType>
+					<bCompeting>1</bCompeting>
+				</CompetingCorporation>
+			</CompetingCorporations>
+			<iHealth>0</iHealth>
+			<iHappiness>0</iHappiness>
+			<CommerceChanges>
+				<iCommerceProduced>0</iCommerceProduced>
+				<iCommerceProduced>0</iCommerceProduced>
+				<iCommerceProduced>0</iCommerceProduced>
+				<iCommerceProduced>0</iCommerceProduced>
+			</CommerceChanges>
+			<YieldChanges>
+				<iYieldProduced>0</iYieldProduced> <!-- food -->
+				<iYieldProduced>0</iYieldProduced> <!-- hammers -->
+				<iYieldProduced>0</iYieldProduced> <!-- commerce -->
+			</YieldChanges>
+			<PrereqBuildingClasses>
+				<PrereqBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_VGUILDHALL</BuildingClassType>
+					<iNumBuildingNeeded>1</iNumBuildingNeeded>
+				</PrereqBuildingClass>
+			</PrereqBuildingClasses>
+			<iSpread>30</iSpread>
+			<Button>Modules/Guilds/Art/Buttons/bbaker.dds</Button>
+			<MovieFile>NONE</MovieFile>
+			<MovieSound>NONE</MovieSound>
+			<Sound>AS2D_BUILD_BANK</Sound>
+			<PrereqGameOption>GAMEOPTION_GUILDS</PrereqGameOption>
+		</CorporationInfo>
+	</CorporationInfos>
+</Civ4CorporationInfo>

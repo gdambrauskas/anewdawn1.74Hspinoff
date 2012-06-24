@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by EXTREME (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit Infos -->
+<Civ4UnitInfos xmlns="x-schema:GG_CIV4UnitSchema.xml">
+	<UnitInfos>
+		<UnitInfo>
+			<Class>UNITCLASS_GREAT_GENERAL</Class>
+			<Type>UNIT_GREAT_GENERAL</Type>
+			<Combat>UNITCOMBAT_COMMANDER</Combat>
+			<iAsset>25</iAsset>
+			<iPower>75</iPower>
+			<iCommandRange>1</iCommandRange>
+			<iControlPoints>5</iControlPoints>
+			<bGreatGeneral>1</bGreatGeneral>
+		</UnitInfo>
+	</UnitInfos>
+</Civ4UnitInfos>

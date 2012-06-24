@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Class Infos -->
+<Civ4BuildingClassInfos xmlns="x-schema:IndProcessing_CIV4BuildingsSchema.xml">
+	<BuildingClassInfos>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_GAMBLING_HALL</Type>
+			<Description>TXT_KEY_BUILDING_GAMBLING_HALL</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_GAMBLING_HALL</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_FURRIER</Type>
+			<Description>TXT_KEY_BUILDING_FURRIER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_FURRIER</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+	
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_MONEYLENDER_HOUSE</Type>
+			<Description>TXT_KEY_BUILDING_MONEYLENDER_HOUSE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_MONEYLENDER_HOUSE</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_E_BANK</Type>
+			<Description>TXT_KEY_BUILDING_FINANCIAL_NEXUS</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_E_BANK</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_VILLAGE_HALL</Type>
+			<Description>TXT_KEY_BUILDING_VILLAGE_HALL</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_VILLAGE_HALL</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+	
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_TOWN_HALL</Type>
+			<Description>TXT_KEY_BUILDING_TOWN_HALL</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_TOWN_HALL</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+	
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_CITY_COUNCIL</Type>
+			<Description>TXT_KEY_BUILDING_CITY_COUNCIL</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_CITY_COUNCIL</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+	
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_METROPOLITAN_ADMINISTRATION</Type>
+			<Description>TXT_KEY_BUILDING_METROPOLITAN_ADMINISTRATION</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_METROPOLITAN_ADMINISTRATION</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+	</BuildingClassInfos>
+</Civ4BuildingClassInfos>

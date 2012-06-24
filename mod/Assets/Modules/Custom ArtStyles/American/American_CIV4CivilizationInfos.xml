@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Civilization Infos -->
+<!-- -->
+<Civ4CivilizationInfos xmlns="x-schema:American_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo>
+			<Type>CIVILIZATION_AMERICA</Type>
+			<UnitArtStyleType>UNIT_ARTSTYLE_AMERICAN</UnitArtStyleType>
+		</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

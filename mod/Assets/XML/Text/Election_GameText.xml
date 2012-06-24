@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_LANDSLIDE_VICTORY</Tag>
+		<English>In a stunning vote last night, you recieved the most votes and you won a landslide victory! Congratulations, you've been re-elected!</English>
+		<French>Par un vote étonnant la nuit dernière, vous avez obtenu le plus grand nombre de voix et c'est une victoire écrasante! Félicitations, vous avez été réélu!</French>
+		<German>Nach einer fantastischen Wahlnacht hast Du die meisten Stimmen erhalten und einen Erdrutschsieg erzielt! Gl&#252;ckwunsch, Du wurdest wiedergew&#228;hlt!</German>
+		<Italian>In a stunning vote last night, you recieved the most votes and you won a landslide victory! Congratulations, you've been re-elected!</Italian>
+		<Spanish>In a stunning vote last night, you recieved the most votes and you won a landslide victory! Congratulations, you've been re-elected!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_BACK_TO_BUSINESS</Tag>
+		<English>Excellent, Back to Business Now...</English>
+		<French>Excellent, On retourne au travail à présent...</French>
+		<German>Ausgezeichnet, dann wieder ran an die Regierungsgesch&#228;fte...</German>
+		<Italian>Excellent, Back to Business Now...</Italian>
+		<Spanish>Excellent, Back to Business Now...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ELECTION_VICTORY</Tag>
+		<English>In what most critics called a "run of the mill" election last night, you won with %d1 percent of the vote! Congratulations!</English>
+		<French>Dans une élection des plus serrées la nuit dernière, vous avez remporté la Victoire avec %d1 pourcent des voix! Félicitations!</French>
+		<German>Die meisten Kritker nennen sie eine mittelm&#228;&#223;ige Wahlnacht; Du hast mit %d1 der W&#228;hlerstimmen gewonnen! Gl&#252;ckwunsch!</German>
+		<Italian>In what most critics called a "run of the mill" election last night, you won with %d1 percent of the vote! Congratulations!</Italian>
+		<Spanish>In what most critics called a "run of the mill" election last night, you won with %d1 percent of the vote! Congratulations!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ELECTION_DEFEAT</Tag>
+		<English>In the heated election, your opponent, %s1 managed to snatch victory from you with %d1 of the vote!</English>
+		<French>Lors de cette élection brûlante, votre adversaire, %s1 a réussi à vous arracher la victoire avec %d1 des voix!</French>
+		<German>Nach einem hitzigen Wahlkampf hat Dein Gegner, %s1, es geschafft, Dir den Sieg mit %d1 der Stimmen zu entrei&#223;en!</German>
+		<Italian>In the heated election, your opponent, %s1 managed to snatch victory with from you with %d1 of the vote!</Italian>
+		<Spanish>In the heated election, your opponent, %s1 managed to snatch victory with from you with %d1 of the vote!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_THATS_TERRIBLE</Tag>
+		<English>That's Terrible!</English>
+		<French>C'est Terrible!</French>
+		<German>Das ist ja schrecklich!</German>
+		<Italian>That's Terrible!</Italian>
+		<Spanish>That's Terrible!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ELECTION_VICTORY_FAKE</Tag>
+		<English>During last evening nation election, you recieved %d1 percent the of the vote. Fortuantly, your "poll anaylists" were able to interpret an additional %d2 percent of the vote in your favor.</English>
+		<French>Durant les élections nationales d'hier soir, vous avez obtenu %d1 pourcent de voix. Heureusement, vos "Analystes" des sondages ont été capable d'interpréter un ajout de  %d2 pourcent de votes en votre faveur.</French>
+		<German>Bei den Wahlen letzte Nacht hast Du %d1 Prozent der Stimmen erzielt. Zum Gl&#252;ck ist es Deinen "Wahlanalysten" gelungen, %d2 Prozent der Stimmen zu Deinen Gunsten zu interpretieren.</German>
+		<Italian>During last evening nation election, you recieved %d1 percent the of the vote. Fortuantly, your "poll anaylists" were able to interpret an additional %d2 percent of the vote in your favor.</Italian>
+		<Spanish>During last evening nation election, you recieved %d1 percent the of the vote. Fortuantly, your "poll anaylists" were able to interpret an additional %d2 percent of the vote in your favor.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ELECTION_ANGER</Tag>
+		<English>+%d1_Change[ICON_UNHAPPY]: "You Refused to Hold an Election!"</English>
+		<French>+%d1_Change[ICON_UNHAPPY]: "Vous refusez de réaliser des Elections!"</French>
+		<German>+%d1_Change[ICON_UNHAPPY]: "Du hast Dich geweigert, eine Wahl abzuhalten!"</German>
+		<Italian>+%d1_Change[ICON_UNHAPPY]: "You Refused to Hold an Election!"</Italian>
+		<Spanish>+%d1_Change[ICON_UNHAPPY]: "You Refused to Hold an Election!"</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:Marcus_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MARCUS</Type>
+			<Button>Modules/Custom Leaderheads/Marcus/Btn_LH_Marcus.dds</Button>
+			<NIF>Modules/Custom Leaderheads/Marcus/augustus_caesar.nif</NIF>
+			<KFM>Modules/Custom Leaderheads/Marcus/augustus_caesar.kfm</KFM>
+			<NoShaderNIF>Modules/Custom Leaderheads/Marcus/augustus_caesar.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom Leaderheads/Marcus/augustus_caesar_bg.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

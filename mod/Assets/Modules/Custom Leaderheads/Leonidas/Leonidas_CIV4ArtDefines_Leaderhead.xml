@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:Leonidas_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_LEONIDAS</Type>
+			<Button>Modules/Custom LeaderHeads/Leonidas/Leonidas.dds</Button>
+			<NIF>Modules/Custom LeaderHeads/Leonidas/Leonidas.nif</NIF>
+			<KFM>Modules/Custom LeaderHeads/Leonidas/shaka.kfm</KFM>
+			<NoShaderNIF>Modules/Custom LeaderHeads/Leonidas/Leonidas_noshader.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom LeaderHeads/Leonidas/shaka_bg.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

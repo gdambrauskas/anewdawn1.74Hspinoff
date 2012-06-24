@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Build Infos -->
+<Civ4BuildInfos xmlns="x-schema:Plant_Forest_CIV4UnitSchema.xml">
+	<BuildInfos>
+		<BuildInfo>
+			<Type>BUILD_PLANT_FOREST</Type>
+			<Description>TXT_KEY_BUILD_PLANT_FOREST</Description>
+			<Help/>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<iTime>2000</iTime>
+			<iCost>20</iCost>
+			<bKill>0</bKill>
+			<ImprovementType>IMPROVEMENT_PLANT_FOREST</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<FeatureChange>FEATURE_FOREST</FeatureChange>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs>
+				<FeatureStruct>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<PrereqTech/>
+					<iTime>500</iTime>
+					<iProduction>0</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+			</FeatureStructs>
+			<HotKey>KB_F</HotKey>
+			<bAltDown>1</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>1</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>Art/Interface/Buttons/TerrainFeatures/Forest.dds</Button>
+		</BuildInfo>
+	</BuildInfos>
+</Civ4BuildInfos>

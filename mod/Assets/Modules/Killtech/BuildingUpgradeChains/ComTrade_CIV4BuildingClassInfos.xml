@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Class Infos -->
+<Civ4BuildingClassInfos xmlns="x-schema:IndProcessing_CIV4BuildingsSchema.xml">
+	<BuildingClassInfos>
+	
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BOATYARD</Type>
+			<Description>TXT_KEY_BUILDING_BOATYARD</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_BOATYARD</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_MARINA</Type>
+			<Description>TXT_KEY_BUILDING_MARINA</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_MARINA</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_WHEELWRIGHT</Type>
+			<Description>TXT_KEY_BUILDING_WHEELWRIGHT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_WHEELWRIGHT</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+				
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_INLAND_PORT</Type>
+			<Description>TXT_KEY_BUILDING_INLAND_PORT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_INLAND_PORT</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_DOMESTIC_CARGO_PORT</Type>
+			<Description>TXT_KEY_BUILDING_DOMESTIC_CARGO_PORT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_DOMESTIC_CARGO_PORT</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_FISH_MARKET</Type>
+			<Description>TXT_KEY_BUILDING_FISH_MARKET</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_FISH_MARKET</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_TRAIN_YARD</Type>
+			<Description>TXT_KEY_BUILDING_TRAIN_YARD</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_TRAIN_YARD</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_MAGLEV_YARD</Type>
+			<Description>TXT_KEY_BUILDING_MAGLEV_YARD</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_MAGLEV_YARD</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_JUMPLANE_PORTAL</Type>
+			<Description>TXT_KEY_BUILDING_JUMPLANE_PORTAL</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_JUMPLANE_PORTAL</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_RIVER_AUTHORITY</Type>
+		</BuildingClassInfo>
+		
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_POST_OFFICE</Type>
+			<Description>TXT_KEY_BUILDING_POST_OFFICE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_POST_OFFICE</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		
+	</BuildingClassInfos>
+</Civ4BuildingClassInfos>

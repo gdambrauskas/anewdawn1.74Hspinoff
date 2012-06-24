@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+	BULL City Bar
+	Options Game Text
+
+	Copyright (c) 2009 The BUG Mod.
+-->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__AIRPORTICONS_TEXT</Tag>
+		<English>Airport Icons</English>
+		<French>Icones d'Aéroport</French>
+		<German>Flughafen-Symbol</German>
+		<Italian>Icone Aeroporto</Italian>
+		<Spanish>Airport Icons</Spanish>
+		<Finnish>Airport Icons</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__AIRPORTICONS_HOVER</Tag>
+		<English>When checked, places an airport icon above the city bars of cities that have an airport.</English>
+		<French>Lorsque activé, place une icône représentant un aéroport au dessus de la barre d'info des Villes possédant un aéroport.</French>
+		<German>Zeigt ein Flughafen-Symbol neben St&#228;dten an, die &#252;ber einen Flughafen verf&#252;gen</German>
+		<Italian>Quando &#232; selezionato, aggiunge una icona aeroportuale alle citt&#224; che hanno un Aeroporto.</Italian>
+		<Spanish>When checked, places an airport icon above the city bars of cities that have an airport.</Spanish>
+		<Finnish>When checked, places an airport icon above the city bars of cities that have an airport.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__STARVATIONTURNS_TEXT</Tag>
+		<English>Turns to Starvation</English>
+		<French>Prévision de la Famine</French>
+		<German>Runden bis Hungersnot</German>
+		<Italian>Turni per la Carestia</Italian>
+		<Spanish>Turns to Starvation</Spanish>
+		<Finnish>Turns to Starvation</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__STARVATIONTURNS_HOVER</Tag>
+		<English>When checked, shows how many turns until a city will lose population if it is shrinking.</English>
+		<French>Lorsque activé, affiche le nombre de tours restant avant que la population de la Ville soit réduite par la Famine.</French>
+		<German>Zeigt an, in wie vielen Runden eine Stadt einen B&#252;rger verliert, falls ihre Bev&#246;lkerung schrumpft</German>
+		<Italian>Quando &#232; selezionato, mostra quanti turni mancano perch&#233; una citt&#224; perda popolazione se sta diminuendo.</Italian>
+		<Spanish>When checked, shows how many turns until a city will lose population if it is shrinking.</Spanish>
+		<Finnish>When checked, shows how many turns until a city will lose population if it is shrinking.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HEALTH_TEXT</Tag>
+		<English>Health</English>
+		<French>Santé</French>
+		<German>Gesundheit</German>
+		<Italian>Salute</Italian>
+		<Spanish>Health</Spanish>
+		<Finnish>Health</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HEALTH_HOVER</Tag>
+		<English>When checked, shows the net health ([ICON_HEALTHY] or [ICON_UNHEALTHY]) for the city.</English>
+		<French>Lorsque activé, Affiche les conditions sanitaires ([ICON_HEALTHY] ou [ICON_UNHEALTHY]) de la Ville.</French>
+		<German>Zeigt die derzeitige Gesundheit ([ICON_HEALTHY] oder [ICON_UNHEALTHY]) einer Stadt an</German>
+		<Italian>Quando &#232; selezionato, mostra la salute risultante([ICON_HEALTHY] o [ICON_UNHEALTHY]) per la citt&#224;.</Italian>
+		<Spanish>When checked, shows the net health ([ICON_HEALTHY] or [ICON_UNHEALTHY]) for the city.</Spanish>
+		<Finnish>When checked, shows the net health ([ICON_HEALTHY] or [ICON_UNHEALTHY]) for the city.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HAPPINESS_TEXT</Tag>
+		<English>Happiness</English>
+		<French>Moral</French>
+		<German>Zufriedenheit</German>
+		<Italian>Felicit&#224;</Italian>
+		<Spanish>Happiness</Spanish>
+		<Finnish>Happiness</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HAPPINESS_HOVER</Tag>
+		<English>When checked, shows the net happiness ([ICON_HAPPY] or [ICON_UNHAPPY]) for the city.</English>
+		<French>Lorsque activé, affiche l'état du moral ([ICON_HAPPY] or [ICON_UNHAPPY]) de la population de la Ville.</French>
+		<German>Zeigt die derzeitige Zufriedenheit ([ICON_HAPPY] oder [ICON_UNHAPPY]) einer Stadt an</German>
+		<Italian>Quando &#232; selezionato, mostra la felicit&#224; risultante ([ICON_HAPPY] o [ICON_UNHAPPY]) per la citt&#224;.</Italian>
+		<Spanish>When checked, shows the net happiness ([ICON_HAPPY] or [ICON_UNHAPPY]) for the city.</Spanish>
+		<Finnish>When checked, shows the net happiness ([ICON_HAPPY] or [ICON_UNHAPPY]) for the city.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HURRYANGER_TEXT</Tag>
+		<English>Hurry Anger</English>
+		<French>Mécontentement du Travail forcé</French>
+		<German>Zwangsarbeit</German>
+		<Italian>Rabbia da sacrifici</Italian>
+		<Spanish>Hurry Anger</Spanish>
+		<Finnish>Hurry Anger</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HURRYANGER_HOVER</Tag>
+		<English>When checked, shows the number of angry population ([ICON_ANGRYPOP]) due to whipping and the number of turns left on the timer.</English>
+		<French>Lorsque activé, affiche le nombre de population mécontente ([ICON_ANGRYPOP]) à la suite de l'accélération de la production par le travail forcé. Affiche également le nombre de tours restant dans cette situation.</French>
+		<German>Zeigt die Anzahl der wegen Zwangsarbeit unzufriedenen B&#252;rger ([ICON_ANGRYPOP]) und die Anzahl der verbleibenden Runden an, bis diese sich wieder beruhigt haben</German>
+		<Italian>Quando &#232; selezionato, mostra il numero di cittadini adirati ([ICON_ANGRYPOP]) a causa dei sacrifici ed il numero di turni prima che si pacifichino.</Italian>
+		<Spanish>When checked, shows the number of angry population ([ICON_ANGRYPOP]) due to whipping and the number of turns left on the timer.</Spanish>
+		<Finnish>When checked, shows the number of angry population ([ICON_ANGRYPOP]) due to whipping and the number of turns left on the timer.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__DRAFTANGER_TEXT</Tag>
+		<English>Draft Anger</English>
+		<French>Mécontentement liés à Conscription</French>
+		<German>Zwangsrekrutierung</German>
+		<Italian>Rabbia da coscrizione</Italian>
+		<Spanish>Draft Anger</Spanish>
+		<Finnish>Draft Anger</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__DRAFTANGER_HOVER</Tag>
+		<English>When checked, shows the number of angry population ([ICON_ANGRYPOP]) due to drafting and the number of turns left on the timer.</English>
+		<French>Lorsque activé, affiche le nombre de population mécontente ([ICON_ANGRYPOP]) en raison de la conscription et le nombre de tours restants dans cette situation.</French>
+		<German>Zeigt die Anzahl der wegen Zwangsrekrutierung unzufriedenen B&#252;rger ([ICON_ANGRYPOP]) und die Anzahl der verbleibenden Runden an, bis diese sich wieder beruhigt haben</German>
+		<Italian>Quando &#232; selezionato, mostra il numero di cittadini adirati ([ICON_ANGRYPOP]) a causa della coscrizione ed il numero di turni prima che si pacifichino.</Italian>
+		<Spanish>When checked, shows the number of angry population ([ICON_ANGRYPOP]) due to drafting and the number of turns left on the timer.</Spanish>
+		<Finnish>When checked, shows the number of angry population ([ICON_ANGRYPOP]) due to drafting and the number of turns left on the timer.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__FOODASSIST_TEXT</Tag>
+		<English>Growth Detail</English>
+		<French>Détails démographiques</French>
+		<German>Wachstum</German>
+		<Italian>Crescita dettagliata</Italian>
+		<Spanish>Growth Detail</Spanish>
+		<Finnish>Growth Detail</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__FOODASSIST_HOVER</Tag>
+		<English>When checked, shows more detailed information about growth (growing, shrinking, starvation, stagnation).</English>
+		<French>Lorsque activé, affiche des informations supplémentaires concernant la démographie de la Ville (accroissement, réduction, famine, stagnation).</French>
+		<German>Zeigt detailliertere Informationen &#252;ber das Wachstum einer Stadt an (Zunahme, Abnahme, Hungersnot, Stagnation).</German>
+		<Italian>Quando &#232; selezionato, mostra pi&#249; dettagli sulla crescita (crescita, decrescita, carestia, stagnazione).</Italian>
+		<Spanish>When checked, shows more detailed information about growth (growing, shrinking, starvation, stagnation).</Spanish>
+		<Finnish>When checked, shows more detailed information about growth (growing, shrinking, starvation, stagnation).</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__BASEVALUES_TEXT</Tag>
+		<English>Base Values</English>
+		<French>Valeurs de base</French>
+		<German>Basiswerte</German>
+		<Italian>Valori base</Italian>
+		<Spanish>Base Values</Spanish>
+		<Finnish>Base Values</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__BASEVALUES_HOVER</Tag>
+		<English>When checked, holding CTRL while hovering shows the base (without modifiers) values for most items: production, trade, commerce, maintenance, great people.</English>
+		<French>Lorsque activé, la touche CTRL lorsque l'on passe sur la barre de la Ville avec le Pointeur permet d'afficher les valeurs de base (sans modificateurs) des ressources : production, echange, commerce, cout de maintenance, personnages illustres.</French>
+		<German>Zeigt, wenn der Mauszeiger bei gedr&#252;ckter [STRG]-Taste &#252;ber eine Stadt bewegt wird, die Basiswerte (ohne Modifikatoren) der folgenden G&#252;ter an: Produktion, Handel, Wirtschaft, Unterhalt, Gro&#223;e Pers&#246;nlichkeiten</German>
+		<Italian>Quando &#232; selezionato, tenendo premuto CTRL mentre si posiziona il cursore su un oggetto ne mostra i valori base (privi di modificatori) di produzione, oro, commercio, mantenimento, grandi personaggi.</Italian>
+		<Spanish>When checked, holding CTRL while hovering shows the base (without modifiers) values for most items: production, trade, commerce, maintenance, great people.</Spanish>
+		<Finnish>When checked, holding CTRL while hovering shows the base (without modifiers) values for most items: production, trade, commerce, maintenance, great people.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__BASEPRODUCTION_TEXT</Tag>
+		<English>Base Production</English>
+		<French>Production de Base</French>
+		<German>Grundproduktion</German>
+		<Italian>Produzione base</Italian>
+		<Spanish>Base Production</Spanish>
+		<Finnish>Base Production</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__BASEPRODUCTION_HOVER</Tag>
+		<English>When checked, shows base production (excludes overflow, whipping, and chopping) in addition to the current turn's production.</English>
+		<French>Lorsque activé, affiche la production de base (en excluant le surplus, et les bonus liés à la déforestation où au travail forcé) en addition à la production du tour en cours.</French>
+		<German>Zeigt die Grundproduktion (ohne &#220;berschuss, Zwangsarbeit und Waldrodung) zus&#228;tzlich zur Produktion der derzeitigen Runde an</German>
+		<Italian>Quando &#232; selezionato, mostra la produzione base (escluse le quote da surplus, sacrifici e abbattimento alberi) come aggiunta alla produzione del turno corrente.</Italian>
+		<Spanish>When checked, shows base production (excludes overflow, whipping, and chopping) in addition to the current turn's production.</Spanish>
+		<Finnish>When checked, shows base production (excludes overflow, whipping, and chopping) in addition to the current turn's production.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__BUILDINGACTUALEFFECTS_TEXT</Tag>
+		<English>Building Actual Effects</English>
+		<French>Effets des Bâtiments</French>
+		<German>Effektive Geb&#228;udeertr&#228;ge</German>
+		<Italian>Effetti Reali degli Edifici</Italian>
+		<Spanish>Building Actual Effects</Spanish>
+		<Finnish>Building Actual Effects</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MISCHOVER__BUILDINGACTUALEFFECTS_HOVER</Tag>
+		<English>When checked and a city is constructing a building, the actual yield of [ICON_COMMERCE], [ICON_HAPPY], [ICON_HEALTHY], and [ICON_GREATPEOPLE] it will produce are displayed.</English>
+		<French>Lorsque activé, et si la Ville est en train de produire un bâtiment, le taux actuel de [ICON_COMMERCE], [ICON_HAPPY], [ICON_HEALTHY], et [ICON_GREATPEOPLE] qu'il va produire va s'afficher sous le pointeur.</French>
+		<German>Zeigt die effektiven Ertr&#228;ge von [ICON_COMMERCE], [ICON_HAPPY], [ICON_HEALTHY] und [ICON_GREATPEOPLE] eines Geb&#228;udes an, das gerade errichtet wird</German>
+		<Italian>Quando &#232; selezionato ed in una citt&#224; viene costruito un edificio, sar&#224; mostrata la produzione effettiva di [ICON_COMMERCE], [ICON_HAPPY], [ICON_HEALTHY], e [ICON_GREATPEOPLE].</Italian>
+		<Spanish>When checked and a city is constructing a building, the actual yield of [ICON_COMMERCE], [ICON_HAPPY], [ICON_HEALTHY], and [ICON_GREATPEOPLE] it will produce are displayed.</Spanish>
+		<Finnish>When checked and a city is constructing a building, the actual yield of [ICON_COMMERCE], [ICON_HAPPY], [ICON_HEALTHY], and [ICON_GREATPEOPLE] it will produce are displayed.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HURRYASSIST_TEXT</Tag>
+		<English>City Bar</English>
+		<French>Barre des Villes</French>
+		<German>Stadtbalken</German>
+		<Italian>Barra Cittadina</Italian>
+		<Spanish>City Bar</Spanish>
+		<Finnish>City Bar</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HURRYASSIST_HOVER</Tag>
+		<English>When checked, shows the cost ([ICON_CITIZEN] or [ICON_GOLD]) and overflow ([ICON_PRODUCTION] and [ICON_GOLD]) for hurrying (whip and/or buy) the item being produced.</English>
+		<French>Lorsque activé, affiche le coût ([ICON_CITIZEN] ou [ICON_GOLD]) et conséquences ([ICON_PRODUCTION] et [ICON_GOLD]) de l'accélération (travail forcé et/ou achat) de la production en cours de la Ville.</French>
+		<German>Zeigt die Kosten ([ICON_CITIZEN] oder [ICON_GOLD]) und &#220;bersch&#252;sse ([ICON_PRODUCTION] und [ICON_GOLD]) einer Beschleunigung (Zwangsarbeit und/oder Kauf) der derzeitigen Produktion an</German>
+		<Italian>Quando &#232; selezionato, mostra il costo ([ICON_CITIZEN] o [ICON_GOLD]) ed il surplus ([ICON_PRODUCTION] e [ICON_GOLD]) per l'accelerazione (da sacrifici e/o pagamenti) per l'oggetto in produzione.</Italian>
+		<Spanish>When checked, shows the cost ([ICON_CITIZEN] or [ICON_GOLD]) and overflow ([ICON_PRODUCTION] and [ICON_GOLD]) for hurrying (whip and/or buy) the item being produced.</Spanish>
+		<Finnish>When checked, shows the cost ([ICON_CITIZEN] or [ICON_GOLD]) and overflow ([ICON_PRODUCTION] and [ICON_GOLD]) for hurrying (whip and/or buy) the item being produced.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HURRYASSISTINCLUDECURRENT_TEXT</Tag>
+		<English>Include Current</English>
+		<French>Tour actuel inclus</French>
+		<German>Aktuelle Runde einbeziehen</German>
+		<Italian>Includi corrente</Italian>
+		<Spanish>Include Current</Spanish>
+		<Finnish>Include Current</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HURRYASSISTINCLUDECURRENT_HOVER</Tag>
+		<English>When checked, includes the current turn's production when calculating overflow ([ICON_PRODUCTION] and/or [ICON_GOLD]) from hurrying with the whip.</English>
+		<French>Lorsque activé, inclus la production du tour actuel dans le calcul des informations affichées ([ICON_PRODUCTION] et [ICON_GOLD]) dans le cas du travail forcé.</French>
+		<German>Bezieht [ICON_PRODUCTION] einer Stadt aus der aktuellen Runde in die Berechnung des Produktions&#252;berschusses ([ICON_PRODUCTION] und/oder [ICON_GOLD]) ein, der aus der Produktionsbeschleunigung durch Zwangsarbeit entsteht</German>
+		<Italian>Quando &#232; selezionato, include il turno corrente quando calcola il surplus ([ICON_PRODUCTION] e/o [ICON_GOLD]) per l'accelerazione da sacrifici.</Italian>
+		<Spanish>When checked, includes the current turn's production when calculating overflow ([ICON_PRODUCTION] and/or [ICON_GOLD]) from hurrying with the whip.</Spanish>
+		<Finnish>When checked, includes the current turn's production when calculating overflow ([ICON_PRODUCTION] and/or [ICON_GOLD]) from hurrying with the whip.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__TRADEDETAIL_TEXT</Tag>
+		<English>Trade</English>
+		<French>Echanges</French>
+		<German>Handel</German>
+		<Italian>Commercio</Italian>
+		<Spanish>Trade</Spanish>
+		<Finnish>Trade</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__TRADEDETAIL_HOVER</Tag>
+		<English>When checked, shows breakdowns for trade: total, foreign, and foreign overseas. Each includes those after it: foreign includes foreign overseas, and total includes both foreign and foreign overseas.</English>
+		<French>Lorsque activé, affiche des informations détaillées des Echanges : Total, Etranger, Etranger maritime. Chaque élément étant inclus dans le suivant (Commerce Etranger inclus le Commerce etragner maritime.</French>
+		<German>Zeigt eine Aufschl&#252;sselung des Handels in "Gesamt", "Ausland" und "&#220;bersee" an, wobei der Wert f&#252;r "Ausland" jenen f&#252;r "&#220;bersee" einschlie&#223;t und "Gesamt" wiederum beide Werte in sich vereint</German>
+		<Italian>Quando &#232; selezionato, mostra dei subtotali per il commercio: totale, estero, ed oltremare. Quello estero include quello d'oltremare, e quello totale include entrambi.</Italian>
+		<Spanish>When checked, shows breakdowns for trade: total, foreign, and foreign overseas. Each includes those after it: foreign includes foreign overseas, and total includes both foreign and foreign overseas.</Spanish>
+		<Finnish>When checked, shows breakdowns for trade: total, foreign, and foreign overseas. Each includes those after it: foreign includes foreign overseas, and total includes both foreign and foreign overseas.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__COMMERCE_TEXT</Tag>
+		<English>Commerce</English>
+		<French>Commerce</French>
+		<German>Wirtschaft</German>
+		<Italian>Oro</Italian>
+		<Spanish>Commerce</Spanish>
+		<Finnish>Commerce</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__COMMERCE_HOVER</Tag>
+		<English>When checked, the total commerce ([ICON_COMMERCE]) is shown before the individual commerce types ([ICON_GOLD], [ICON_RESEARCH], [ICON_CULTURE], and [ICON_ESPIONAGE]).</English>
+		<French>Lorsque activé, le commerce total ([ICON_COMMERCE]) est affiché avant la répartition en ([ICON_GOLD], [ICON_RESEARCH], [ICON_CULTURE], et [ICON_ESPIONAGE]).</French>
+		<German>Zeigt das gesamte Wirtschaftseinkommen ([ICON_COMMERCE]) vor den einzelnen Einkommensarten ([ICON_GOLD], [ICON_RESEARCH], [ICON_CULTURE] und [ICON_ESPIONAGE]) an</German>
+		<Italian>Quando &#232; selezionato, mostra l'oro totale ([ICON_COMMERCE]) prima dei singoli tipi ([ICON_GOLD], [ICON_RESEARCH], [ICON_CULTURE], e [ICON_ESPIONAGE]).</Italian>
+		<Spanish>When checked, the total commerce ([ICON_COMMERCE]) is shown before the individual commerce types ([ICON_GOLD], [ICON_RESEARCH], [ICON_CULTURE], and [ICON_ESPIONAGE]).</Spanish>
+		<Finnish>When checked, the total commerce ([ICON_COMMERCE]) is shown before the individual commerce types ([ICON_GOLD], [ICON_RESEARCH], [ICON_CULTURE], and [ICON_ESPIONAGE]).</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__BUILDINGICONS_TEXT</Tag>
+		<English>Building Icons</English>
+		<French>Icones pour les bâtiments</French>
+		<German>Geb&#228;ude-Symbole</German>
+		<Italian>Icone di edifici</Italian>
+		<Spanish>Building Icons</Spanish>
+		<Finnish>Building Icons</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__BUILDINGICONS_HOVER</Tag>
+		<English>When checked, the list of buildings is shown using icons instead of their names.</English>
+		<French>Lorsque activé, la Liste des Bâtiments est affichée sous forme d'icones à la place de leur noms.</French>
+		<German>Zeigt die Liste der Geb&#228;ude mit Symbolen statt Text an</German>
+		<Italian>Quando &#232; selezionato, la lista degli edifici viene visualizzata con le rispettive icone invece dei nomi.</Italian>
+		<Spanish>When checked, the list of buildings is shown using icons instead of their names.</Spanish>
+		<Finnish>When checked, the list of buildings is shown using icons instead of their names.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__CULTURETURNS_TEXT</Tag>
+		<English>Culture Turns</English>
+		<French>Expansion Culturelle</French>
+		<German>Kultur</German>
+		<Italian>Turni culturali</Italian>
+		<Spanish>Culture Turns</Spanish>
+		<Finnish>Culture Turns</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__CULTURETURNS_HOVER</Tag>
+		<English>When checked, shows the number of turns until the city's borders expand due to culture ([ICON_CULTURE]).</English>
+		<French>Lorsque activé, affiche le nombre de tours restants avant l'expansion des limites de la Ville en raison de sa Culture ([ICON_CULTURE]).</French>
+		<German>Zeigt die Anzahl der Runden an, bis sich die Kulturgrenzen ([ICON_CULTURE]) einer Stadt erweitern</German>
+		<Italian>Quando &#232; selezionato, mostra il numero di turni mancanti per la successiva espansione culturale ([ICON_CULTURE]).</Italian>
+		<Spanish>When checked, shows the number of turns until the city's borders expand due to culture ([ICON_CULTURE]).</Spanish>
+		<Finnish>When checked, shows the number of turns until the city's borders expand due to culture ([ICON_CULTURE]).</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__GREATPERSONTURNS_TEXT</Tag>
+		<English>Great Person Turns</English>
+		<French>Prévision des Personnages Illustres</French>
+		<German>Gro&#223;e Pers&#246;nlichkeiten</German>
+		<Italian>Turni per Grandi Personaggi</Italian>
+		<Spanish>Great Person Turns</Spanish>
+		<Finnish>Great Person Turns</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__GREATPERSONTURNS_HOVER</Tag>
+		<English>When checked, shows the number of turns until the city will create the next great person ([ICON_GREATPEOPLE]).</English>
+		<French>Lorsque activé, affiche le nombre de tours restants pour qu'un Personnage Illustre ([ICON_GREATPEOPLE]) naisse dans la Ville.</French>
+		<German>Zeigt die Anzahl der Runden an, bis eine Stadt eine Gro&#223;e Pers&#246;nlichkeit ([ICON_GREATPEOPLE]) hervorbringt</German>
+		<Italian>Quando &#232; selezionato, mostra il numero di turni necessario perch&#233; la citt&#224; generi il successivo Grande Personaggio([ICON_GREATPEOPLE]).</Italian>
+		<Spanish>When checked, shows the number of turns until the city will create the next great person ([ICON_GREATPEOPLE]).</Spanish>
+		<Finnish>When checked, shows the number of turns until the city will create the next great person ([ICON_GREATPEOPLE]).</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__SPECIALISTS_TEXT</Tag>
+		<English>Specialists</English>
+		<French>Specialistes</French>
+		<German>Spezialisten</German>
+		<Italian>Specialisti</Italian>
+		<Spanish>Specialists</Spanish>
+		<Finnish>Specialists</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__SPECIALISTS_HOVER</Tag>
+		<English>When checked, shows icons for the city's specialists (both citizens and settled great people).</English>
+		<French>Lorsque activé, affiche les icônes des spécialistes de la Villes (Citoyens et Personnages Illustres).</French>
+		<German>Zeigt Symbole f&#252;r die Spezialisten einer Stadt ab (sowohl f&#252;r B&#252;rger als auch f&#252;r niedergelassene Gro&#223;e Pers&#246;nlichkeiten)</German>
+		<Italian>Quando &#232; selezionato, mostra delle icone per gli Specialisti in citt&#224; (sia i Cittadini Specialisti che i Grandi Personaggi trasformati in Super-Specialisti).</Italian>
+		<Spanish>When checked, shows icons for the city's specialists (both citizens and settled great people).</Spanish>
+		<Finnish>When checked, shows icons for the city's specialists (both citizens and settled great people).</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__REVOLTCHANCE_TEXT</Tag>
+		<English>Revolt Chance</English>
+		<French>Probabilité de Révolte</French>
+		<German>Unruhe-Wahrscheinlichkeit</German>
+		<Italian>Possibilit&#224; di Rivolta</Italian>
+		<Spanish>Revolt Chance</Spanish>
+		<Finnish>Revolt Chance</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__REVOLTCHANCE_HOVER</Tag>
+		<English>When checked, shows the probability that the city will revolt due to cultural pressure.</English>
+		<French>Lorsque activé, affiche la probabilité que les citoyens de la Ville se révoltent en raison des pressions culturelles.</French>
+		<German>Zeigt die Wahrscheinlichkeit an, dass in einer Stadt auf Grund von kulturellem Druck Unruhen ausbrechen</German>
+		<Italian>Quando &#232; selezionato, mostra la probabilit&#224; che la Citt&#224; si rivolti a causa della pressione culturale.</Italian>
+		<Spanish>When checked, shows the probability that the city will revolt due to cultural pressure.</Spanish>
+		<Finnish>When checked, shows the probability that the city will revolt due to cultural pressure.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HIDEINSTRUCTIONS_TEXT</Tag>
+		<English>Hide Instructions</English>
+		<French>Instructions masquées</French>
+		<German>Hinweise verbergen</German>
+		<Italian>Nascondi Istruzioni</Italian>
+		<Spanish>Hide Instructions</Spanish>
+		<Finnish>Hide Instructions</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__HIDEINSTRUCTIONS_HOVER</Tag>
+		<English>When checked, hides the instructions for selecting cities and showing base values to make room for the new information.</English>
+		<French>Lorsque activé, masque les instructions des Villes sélectionnées, afin de laisser de la place pour les nouvelles informations sélectionnées dans les différentes options du mod.</French>
+		<German>Verbirgt die Hinweise zur Auswahl von St&#228;dten und zur Anzeige der Basiswerte, um Platz f&#252;r die neuen Informationen zu schaffen</German>
+		<Italian>Quando &#232; selezionato, nasconde le istruzioni per la selezione delle Citt&#224; e mostra i valori base per fare posto alle nuove informazioni.</Italian>
+		<Spanish>When checked, hides the instructions for selecting cities and showing base values to make room for the new information.</Spanish>
+		<Finnish>When checked, hides the instructions for selecting cities and showing base values to make room for the new information.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+</Civ4GameText>

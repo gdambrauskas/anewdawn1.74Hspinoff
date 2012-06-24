@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Wonka Confectioneries -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_WONKA</Tag>
+		<English>Wonka Confectioneries</English>
+		<French>Confiseries Wonka</French>
+		<German>Wonka Confectioneries</German>
+		<Italian>Wonka Confectioneries</Italian>
+		<Spanish>Wonka Confectioneries</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_WONKA_HQ</Tag>
+		<English>Wonka Confectioneries Headquarters</English>
+		<French>Siège des Confiseries Wonka</French>
+		<German>Wonka-Confectioneries-Zentrale</German>
+		<Italian>Wonka Confectioneries Headquarters</Italian>
+		<Spanish>Wonka Confectioneries Headquarters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_WONKA_SHOP</Tag>
+		<English>Wonka Confectioneries Shop</English>
+		<French>Magasin des Confiseries Wonka</French>
+		<German>Wonka-Confectioneries-Laden</German>
+		<Italian>Wonka Confectioneries Shop</Italian>
+		<Spanish>Wonka Confectioneries Shop</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WONKA_EXECUTIVE</Tag>
+		<English>Wonka Confectioneries Executive</English>
+		<French>Gérant des Confiseries Wonka</French>
+		<German>Wonka-Confectioneries-Geschäftsführer</German>
+		<Italian>Wonka Confectioneries Executive</Italian>
+		<Spanish>Wonka Confectioneries Executive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_WONKA_PEDIA</Tag>
+		<English>Bringing Confectioneries from all over the world to every corner of the world.</English>
+		<French>Procure des Confiseries en provenance de tout le globe.</French>
+		<German>Bringing Confectioneries from all over the world to every corner of the world.</German>
+		<Italian>Bringing Confectioneries from all over the world to every corner of the world.</Italian>
+		<Spanish>Bringing Confectioneries from all over the world to every corner of the world.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_WONKA_SHOP_PEDIA</Tag>
+		<English>A massive distributor of world's Confectioneries directly to your home city.</English>
+		<French>Un grand disctributeur de confiseries du monde entier directement dans votre Ville.</French>
+		<German>A massive distributor of world's Confectioneries directly to your home city.</German>
+		<Italian>A massive distributor of world's Confectioneries directly to your home city.</Italian>
+		<Spanish>A massive distributor of world's Confectioneries directly to your home city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WONKA_STRATEGY</Tag>
+		<English>Build this corporation in order to get Confectioneries bonuses.</English>
+		<French>Construire cette corporations pour obtenir la ressource Confiseries.</French>
+		<German>Build this corporation in order to get Confectioneries bonuses.</German>
+		<Italian>Build this corporation in order to get Confectioneries bonuses.</Italian>
+		<Spanish>Build this corporation in order to get Confectioneries bonuses.</Spanish>
+	</TEXT>	
+</Civ4GameText>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Route Infos -->
+<Civ4RouteInfos xmlns="x-schema:Sea_Tunnel_CIV4MiscSchema.xml">
+	<RouteInfos>
+		<RouteInfo>
+			<Type>ROUTE_TUNNEL</Type>
+			<Description>TXT_KEY_ROUTE_TUNNEL</Description>
+			<iValue>1</iValue>
+			<iAdvancedStartCost>20</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<iMovement>60</iMovement>
+			<iFlatMovement>60</iFlatMovement>
+			<bSeaTunnel>1</bSeaTunnel>
+			<BonusType>BONUS_STEEL</BonusType>
+			<PrereqOrBonuses/>
+			<Yields>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>1</iYield>
+			</Yields>
+			<TechMovementChanges/>
+			<Button>Modules/Jooyo/Sea Tunnel/buildtunnel.dds</Button>
+		</RouteInfo>
+	</RouteInfos>
+</Civ4RouteInfos>

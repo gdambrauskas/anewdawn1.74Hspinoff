@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WIND_FARM</Tag>
+		<English>Wind Farm</English>
+		<French>Champ d'éoliennes</French>
+		<German>Windkraftwerk</German>
+		<Italian>Wind Farm</Italian>
+		<Spanish>Wind Farm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WIND_FARM_PEDIA</Tag>
+		<English>A wind farm is a group of wind turbines in the same location used for production of electric power. A large wind farm may consist of a few dozen to several hundred individual wind turbines, and cover an extended area of hundreds of square miles, but the land between the turbines may be used for agricultural or other purposes. A wind farm may be located off-shore to take advantage of strong winds blowing over the surface of an ocean or lake. The world's first wind farm - consisting of 20 wind turbines rated at 30 kilowatts each - was installed on the shoulder of Crotched Mountain in southern New Hampshire in December, 1980.</English>
+		<French>A wind farm is a group of wind turbines in the same location used for production of electric power. A large wind farm may consist of a few dozen to several hundred individual wind turbines, and cover an extended area of hundreds of square miles, but the land between the turbines may be used for agricultural or other purposes. A wind farm may be located off-shore to take advantage of strong winds blowing over the surface of an ocean or lake. The world's first wind farm - consisting of 20 wind turbines rated at 30 kilowatts each - was installed on the shoulder of Crotched Mountain in southern New Hampshire in December, 1980.</French>
+		<German>Ein Windpark ist eine räumliche Ansammlung von Windenergieanlagen zur Energiegewinnung. Er entsteht durch das vermehrte Aufstellen dieser Anlagen in windreichen Regionen.</German>
+		<Italian>A wind farm is a group of wind turbines in the same location used for production of electric power. A large wind farm may consist of a few dozen to several hundred individual wind turbines, and cover an extended area of hundreds of square miles, but the land between the turbines may be used for agricultural or other purposes. A wind farm may be located off-shore to take advantage of strong winds blowing over the surface of an ocean or lake. The world's first wind farm - consisting of 20 wind turbines rated at 30 kilowatts each - was installed on the shoulder of Crotched Mountain in southern New Hampshire in December, 1980.</Italian>
+		<Spanish>A wind farm is a group of wind turbines in the same location used for production of electric power. A large wind farm may consist of a few dozen to several hundred individual wind turbines, and cover an extended area of hundreds of square miles, but the land between the turbines may be used for agricultural or other purposes. A wind farm may be located off-shore to take advantage of strong winds blowing over the surface of an ocean or lake. The world's first wind farm - consisting of 20 wind turbines rated at 30 kilowatts each - was installed on the shoulder of Crotched Mountain in southern New Hampshire in December, 1980.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WIND_FARM_STRATEGY</Tag>
+		<English>Build wind farms for power generation without pollution.</English>
+		<French>Build wind farms for power generation without pollution.</French>
+		<German>Build wind farms for power generation without pollution.</German>
+		<Italian>Build wind farms for power generation without pollution.</Italian>
+		<Spanish>Build wind farms for power generation without pollution.</Spanish>
+	</TEXT>
+</Civ4GameText>

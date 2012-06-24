@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_MOUNTAINS</Tag>
+		<English>Usable Mountains</English>
+		<French>Utilisation des Montagnes</French>
+		<German>Nutzbare Berge</German>
+		<Italian>Usable Mountains</Italian>
+		<Spanish>Usable Mountains</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_MOUNTAINS_HELP</Tag>
+		<English>The Mountains Mod makes it so that mountains are no longer impassable, can have some resources, and can be worked by a city, like all other tiles.</English>
+		<French>Le Mod 'Montagnes' rend les montagnes franchissables, elle peuvent également abriter des ressources, être exploitées dans la Ville, comme les autres cases.</French>
+		<German>Die Berge-Modifikation bewirkt, dass Berge nicht mehr unpassierbar sind, einige Ressourcen besitzen können und von einer Stadt wie alle anderen Geländefelder bewirtschaftet werden können.</German>
+		<Italian>The Mountains Mod makes it so that mountains are no longer impassable, can have some resources, and can be worked by a city, like all other tiles.</Italian>
+		<Spanish>The Mountains Mod makes it so that mountains are no longer impassable, can have some resources, and can be worked by a city, like all other tiles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CAN_PASS_PEAKS</Tag>
+		<English>[ICON_BULLET]Units can move onto Peaks</English>
+		<French>[ICON_BULLET]Les Unités peuvent se déplacer jusqu'aux Sommets</French>
+		<German>[ICON_BULLET]Einheiten können Berggipfel besteigen</German>
+		<Italian>[ICON_BULLET]Units can move onto Peaks</Italian>
+		<Spanish>[ICON_BULLET]Units can move onto Peaks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MOVE_FAST_PEAKS</Tag>
+		<English>[ICON_BULLET]Units suffer no movement penalty when passing through peaks</English>
+		<French>[ICON_BULLET]Les Unités ne subissent aucune pénalité en passant par les sommets</French>
+		<German>[ICON_BULLET]Einheiten erhalten keine Bewegungseinbuße, wenn sie Gipfel überqueren.</German>
+		<Italian>[ICON_BULLET]Units suffer no movement penalty when passing through peaks</Italian>
+		<Spanish>[ICON_BULLET]Units suffer no movement penalty when passing through peaks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CAN_FOUND_ON_PEAKS</Tag>
+		<English>[ICON_BULLET]Players can found cities on Peaks</English>
+		<French>[ICON_BULLET]Les Joueurs peuvent fonder des Villes sur les sommets</French>
+		<German>[ICON_BULLET]Spieler können Städte auf Gipfeln gründen</German>
+		<Italian>[ICON_BULLET]Players can found cities on Peaks</Italian>
+		<Spanish>[ICON_BULLET]Players can found cities on Peaks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOUNTAINEERING</Tag>
+		<English>Mountaineering</English>
+		<French>Montagnard</French>
+		<German>Bergsteigen</German>
+		<Italian>Mountaineering</Italian>
+		<Spanish>Mountaineering</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOUNTIANEER</Tag>
+		<English>Mountaineer</English>
+		<French>Montagnard</French>
+		<German>Bergsteiger</German>
+		<Italian>Mountaineer</Italian>
+		<Spanish>Mountaineer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOUNTAINEERING_PEDIA</Tag>
+		<English>Mountaineering is the sport, hobby or profession of walking, hiking, backpacking and climbing mountains. In Europe it is also referred to as alpinism, while in the Americas the term refers to a particular style of mountain climbing, which involves a mixture of ice climbing, rock climbing, mixed climbing, and where the climbers carry all their loads with them at all times. In the Himalayan regions the style of mountaineering is Expedition. While mountaineering began as attempts to reach the highest point of unclimbed mountains, it has branched into specializations that address different aspects of the mountain and consists of three areas : rock-craft, snow-craft and skiing, depending on whether the route chosen is over rock, snow or ice. All require experience, athletic ability, and technical knowledge to maintain safety.</English>
+		<French>Mountaineering is the sport, hobby or profession of walking, hiking, backpacking and climbing mountains. In Europe it is also referred to as alpinism, while in the Americas the term refers to a particular style of mountain climbing, which involves a mixture of ice climbing, rock climbing, mixed climbing, and where the climbers carry all their loads with them at all times. In the Himalayan regions the style of mountaineering is Expedition. While mountaineering began as attempts to reach the highest point of unclimbed mountains, it has branched into specializations that address different aspects of the mountain and consists of three areas : rock-craft, snow-craft and skiing, depending on whether the route chosen is over rock, snow or ice. All require experience, athletic ability, and technical knowledge to maintain safety.</French>
+		<German>Mountaineering is the sport, hobby or profession of walking, hiking, backpacking and climbing mountains. In Europe it is also referred to as alpinism, while in the Americas the term refers to a particular style of mountain climbing, which involves a mixture of ice climbing, rock climbing, mixed climbing, and where the climbers carry all their loads with them at all times. In the Himalayan regions the style of mountaineering is Expedition. While mountaineering began as attempts to reach the highest point of unclimbed mountains, it has branched into specializations that address different aspects of the mountain and consists of three areas : rock-craft, snow-craft and skiing, depending on whether the route chosen is over rock, snow or ice. All require experience, athletic ability, and technical knowledge to maintain safety.</German>
+		<Italian>Mountaineering is the sport, hobby or profession of walking, hiking, backpacking and climbing mountains. In Europe it is also referred to as alpinism, while in the Americas the term refers to a particular style of mountain climbing, which involves a mixture of ice climbing, rock climbing, mixed climbing, and where the climbers carry all their loads with them at all times. In the Himalayan regions the style of mountaineering is Expedition. While mountaineering began as attempts to reach the highest point of unclimbed mountains, it has branched into specializations that address different aspects of the mountain and consists of three areas : rock-craft, snow-craft and skiing, depending on whether the route chosen is over rock, snow or ice. All require experience, athletic ability, and technical knowledge to maintain safety.</Italian>
+		<Spanish>Mountaineering is the sport, hobby or profession of walking, hiking, backpacking and climbing mountains. In Europe it is also referred to as alpinism, while in the Americas the term refers to a particular style of mountain climbing, which involves a mixture of ice climbing, rock climbing, mixed climbing, and where the climbers carry all their loads with them at all times. In the Himalayan regions the style of mountaineering is Expedition. While mountaineering began as attempts to reach the highest point of unclimbed mountains, it has branched into specializations that address different aspects of the mountain and consists of three areas : rock-craft, snow-craft and skiing, depending on whether the route chosen is over rock, snow or ice. All require experience, athletic ability, and technical knowledge to maintain safety.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOUNTAINEERING_STRATEGY</Tag>
+		<English>Mountaineering enables units to traverse over mountains, giving the players with this tech a significant military advantage over those who lack this ability.</English>
+		<French>Montagnard permet aux unité de traverser à travers les montagnes, donnant aux joueurs un avantage militaire significatif par rapport à ceux qui n'ont pas encore découvert cette technologie.</French>
+		<German>Mountaineering enables units to traverse over mountains, giving the players with this tech a significant military advantage over those who lack this ability.</German>
+		<Italian>Mountaineering enables units to traverse over mountains, giving the players with this tech a significant military advantage over those who lack this ability.</Italian>
+		<Spanish>Mountaineering enables units to traverse over mountains, giving the players with this tech a significant military advantage over those who lack this ability.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOUNTAINEERING_QUOTE</Tag>
+		<English>[SPACE]"Mountains are not fair or unfair - they are just dangerous." - Reinhold Messner</English>
+		<French>[SPACE]"La Montagne n'est pas juste ou injuste - Elle est juste dangereuse." - Reinhold Messner</French>
+		<German>[SPACE]"Berge sind nicht fair oder unfair - sie sind nur gefährlich." - Reinhold Messner</German>
+		<Italian>[SPACE]"Mountains are not fair or unfair - they are just dangerous." - Reinhold Messner</Italian>
+		<Spanish>[SPACE]"Mountains are not fair or unfair - they are just dangerous." - Reinhold Messner</Spanish>
+	</TEXT>
+</Civ4GameText>

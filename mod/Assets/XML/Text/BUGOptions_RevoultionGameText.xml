@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text -->
+<!-- -->
+
+<!-- RevConfig -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ACTIVEPOPUP_TEXT</Tag>
+		<English>RevInit Popup</English>
+		<French>RevInit Popup</French>
+		<German>RevInit-Fenster</German>
+		<Italian>RevInit Popup</Italian>
+		<Spanish>RevInit Popup</Spanish>
+		<Finnish>RevInit Popup</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ACTIVEPOPUP_HOVER</Tag>
+		<English>Display popup on initialization indicating what components are active</English>
+		<French>Display popup on initialization indicating what components are active</French>
+		<German>Bei der Initialisierung öffnet sich ein Fenster, das anzeigt, welche Komponenten aktiv sind</German>
+		<Italian>Display popup on initialization indicating what components are active</Italian>
+		<Spanish>Muestra un popup en la inicializaci&#243;n indicando que componentes hay activos.</Spanish>
+		<Finnish>Display popup on initialization indicating what components are active</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVCONFIGDEBUGMODE_TEXT</Tag>
+		<English>RevConfig Debug</English>
+		<French>RevConfig Debug</French>
+		<German>RevConfig Debug</German>
+		<Italian>RevConfig Debug</Italian>
+		<Spanish>RevConfig Debug</Spanish>
+		<Finnish>RevConfig Debug</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVCONFIGDEBUGMODE_HOVER</Tag>
+		<English>Don't change this</English>
+		<French>Don't change this</French>
+		<German>Nicht verändern!</German>
+		<Italian>Don't change this</Italian>
+		<Spanish>No cambies esto</Spanish>
+		<Finnish>Don't change this</Finnish>
+	</TEXT>
+
+<!-- BarbarianCiv -->
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVDEBUGMODE_TEXT</Tag>
+		<English>BarbCiv Debug</English>
+		<French>BarbCiv Debug</French>
+		<German>BarbCiv Debug</German>
+		<Italian>BarbCiv Debug</Italian>
+		<Spanish>BarbCiv Debug</Spanish>
+		<Finnish>BarbCiv Debug</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVDEBUGMODE_HOVER</Tag>
+		<English>Turn on Barbarian Civ Debug output</English>
+		<French>Turn on Barbarian Civ Debug output</French>
+		<German>Schaltet die Barbarian Civ Debug-Ausgabe ein</German>
+		<Italian>Turn on Barbarian Civ Debug output</Italian>
+		<Spanish>Activa la salida de depuraci&#243;n del mod Barbarian Civ.</Spanish>
+		<Finnish>Turn on Barbarian Civ Debug output</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ANNOUNCEBARBSETTLE_TEXT</Tag>
+		<English>Announce Barb Settling</English>
+		<French>Announce Barb Settling</French>
+		<German>Ankündigung Barbarenansiedlung</German>
+		<Italian>Announce Barb Settling</Italian>
+		<Spanish>Anuncia Asentamiento B&#225;rbaro</Spanish>
+		<Finnish>Announce Barb Settling</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ANNOUNCEBARBSETTLE_HOVER</Tag>
+		<English>Enables announcment when Barbarian cities settle down and spawn new civs</English>
+		<French>Enables announcment when Barbarian cities settle down and spawn new civs</French>
+		<German>Kündigt an, wenn sich Barbarenstädte ansiedeln und neue Zivilisationen gegründet werden</German>
+		<Italian>Enables announcment when Barbarian cities settle down and spawn new civs</Italian>
+		<Spanish>Activa el anuncio cuando una ciudad b&#225;rbara se asienta y forma una nueva civilizaci&#243;n.</Spanish>
+		<Finnish>Enables announcment when Barbarian cities settle down and spawn new civs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__USEPOPUP_TEXT</Tag>
+		<English>Barb Settle Popup</English>
+		<French>Barb Settle Popup</French>
+		<German>Fenster bei Barbarenansiedlung</German>
+		<Italian>Barb Settle Popup</Italian>
+		<Spanish>Popup Asentamiento B&#225;rbaro</Spanish>
+		<Finnish>Barb Settle Popup</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__USEPOPUP_HOVER</Tag>
+		<English>Use a popup when announcing barbarian city settleing</English>
+		<French>Use a popup when announcing barbarian city settleing</French>
+		<German>Bei der Ankündigung von sich ansiedelnden Barbaren öffnet sich ein Fenster</German>
+		<Italian>Use a popup when announcing barbarian city settleing</Italian>
+		<Spanish>Muestra un popup anunciando que una ciudad b&#225;rbara se asienta y forma una nueva civilizaci&#243;n.</Spanish>
+		<Finnish>Use a popup when announcing barbarian city settleing</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ONLYNOTIFYNEARBYPLAYERS_TEXT</Tag>
+		<English>Notify nearby players only</English>
+		<French>Notify nearby players only</French>
+		<German>Benachrichtige nur nahe gelegene Spieler</German>
+		<Italian>Notify nearby players only</Italian>
+		<Spanish>Notificar jugadores cercanos</Spanish>
+		<Finnish>Notify nearby players only</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ONLYNOTIFYNEARBYPLAYERS_HOVER</Tag>
+		<English>Only nearby players are notified when barbarian cities settle</English>
+		<French>Only nearby players are notified when barbarian cities settle</French>
+		<German>Nur Spieler, die sich in der Nähe befinden, werden von der Gründung von Barbarenstädten benachrichtigt</German>
+		<Italian>Only nearby players are notified when barbarian cities settle</Italian>
+		<Spanish>Solo los jugadores cercanos son notificados cuando una ciudad b&#225;rbara se asienta.</Spanish>
+		<Finnish>Only nearby players are notified when barbarian cities settle</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BLOCKPOPUPINAUTO_TEXT</Tag>
+		<English>No Auto Popup</English>
+		<French>No Auto Popup</French>
+		<German>Kein automatisches Fenster</German>
+		<Italian>No Auto Popup</Italian>
+		<Spanish>No Popup en autom&#225;tico</Spanish>
+		<Finnish>No Auto Popup</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BLOCKPOPUPINAUTO_HOVER</Tag>
+		<English>Lock barb settle popup while AIAutoPlay is on (will show up as messages)</English>
+		<French>Lock barb settle popup while AIAutoPlay is on (will show up as messages)</French>
+		<German>Blockiert das Öffnen von Fenstern zur Ansiedlung von Barbaren, wenn AIAutoPlay läuft (wird als Textmeldung angezeigt)</German>
+		<Italian>Lock barb settle popup while AIAutoPlay is on (will show up as messages)</Italian>
+		<Spanish>Bloquea el popup de asentamiento b&#225;rbaro cuando AIAutoPlay esta activado (solo se mostrara el mensaje)</Spanish>
+		<Finnish>Lock barb settle popup while AIAutoPlay is on (will show up as messages)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDPOLICY_TEXT</Tag>
+		<English>New World Policy</English>
+		<French>New World Policy</French>
+		<German>Neue-Welt-Regeln</German>
+		<Italian>New World Policy</Italian>
+		<Spanish>Pol&#237;tica de Nuevo Mundo</Spanish>
+		<Finnish>New World Policy</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDPOLICY_HOVER</Tag>
+		<English>Sets New World policy on Barbarian civ settling in new world landmasses[NEWLINE]0:  New World treated like Old World[NEWLINE]1:  New World barb civs spawn as normal, but chance to settle into a full civ from a minor is reduced[NEWLINE]2:  New World barbarian civs stay minors until contact is made with an old world civ[NEWLINE]3:  Like 2, but New World barb civs cannot settle until an Old World unit lands on the landmass[NEWLINE]4:  Barb civs will not spawn until an old world civ unit lands on landmass[NEWLINE]5:  Barb civs will not spawn until an old world civ settles a city on the landmass</English>
+		<French>Sets New World policy on Barbarian civ settling in new world landmasses[NEWLINE]0:  New World treated like Old World[NEWLINE]1:  New World barb civs spawn as normal, but chance to settle into a full civ from a minor is reduced[NEWLINE]2:  New World barbarian civs stay minors until contact is made with an old world civ[NEWLINE]3:  Like 2, but New World barb civs cannot settle until an Old World unit lands on the landmass[NEWLINE]4:  Barb civs will not spawn until an old world civ unit lands on landmass[NEWLINE]5:  Barb civs will not spawn until an old world civ settles a city on the landmass</French>
+		<German>Regelt die Ansiedlung von Barbarensiedlungen auf Kontinenten der Neuen Welt[NEWLINE]0:  Die Neue Welt wird wie die Alte Welt behandelt[NEWLINE]1:  Normale Verbreitung von Barbaren-Zivilisationen in der Neuen Welt, aber die Wahrscheinlichkeit der Entstehung einer vollen Zivilisation aus einer kleinen Zivilisation ist reduziert[NEWLINE]2:  Die Barbaren-Zivilisationen der Neuen Welt bleiben klein, bis sie Kontakt mir einer Zivilisation der Alten Welt gemacht haben[NEWLINE]3:  Wie 2, aber Barbaren-Zivilisationen der Neuen Welt können sich erst weiterentwickeln, wenn eine Einheit der Alten Welt ihren Kontinent betreten hat[NEWLINE]4:  Barbaren-Zivilisationen entstehen erst, wenn eine Einheit der Alten Welt den Kontinent betreten hat[NEWLINE]5:  Barbaren-Zivilisationen entstehen erst, wenn eine Zivilisation der Alten Welt eine Stadt auf dem Kontinent gegründet hat</German>
+		<Italian>Sets New World policy on Barbarian civ settling in new world landmasses[NEWLINE]0:  New World treated like Old World[NEWLINE]1:  New World barb civs spawn as normal, but chance to settle into a full civ from a minor is reduced[NEWLINE]2:  New World barbarian civs stay minors until contact is made with an old world civ[NEWLINE]3:  Like 2, but New World barb civs cannot settle until an Old World unit lands on the landmass[NEWLINE]4:  Barb civs will not spawn until an old world civ unit lands on landmass[NEWLINE]5:  Barb civs will not spawn until an old world civ settles a city on the landmass</Italian>
+		<Spanish>Establece la Pol&#237;tica de Nuevo Mundo sobre las civilizaciones b&#225;rbaras asent&#225;ndose en territorios 'Nuevo Mundo'[NEWLINE]0:  Nuevo Mundo tratado como Viejo Mundo[NEWLINE]1:  Las civilizaciones b&#225;rbaras del Nuevo Mundo aparecen normalmente, pero la probabilidad de crecer a una civilizaci&#243;n completa es reducida[NEWLINE]2:  Las civilizaciones b&#225;rbaras del Nuevo Mundo permanecen como civilizaciones menores hasta el contacto con las civilizaciones del Viejo Mundo[NEWLINE]3:  Como el punto 2, pero las civilizaciones b&#225;rbaras del Nuevo Mundo no pueden pasar de menores hasta que una unidad del Viejo Mundo pisa la tierra[NEWLINE]4:  Las civilizaciones b&#225;rbaras del Nuevo Mundo no crecer&#225;n a civilizaci&#243;n menor hasta que una unidad del Viejo Mundo pisa la tierra[NEWLINE]5:  Las civilizaciones b&#225;rbaras del Nuevo Mundo no crecer&#225;n a civilizaci&#243;n menor hasta que una civilizaci&#243;n del Viejo Mundo funda una ciudad en el territorio</Spanish>
+		<Finnish>Sets New World policy on Barbarian civ settling in new world landmasses[NEWLINE]0:  New World treated like Old World[NEWLINE]1:  New World barb civs spawn as normal, but chance to settle into a full civ from a minor is reduced[NEWLINE]2:  New World barbarian civs stay minors until contact is made with an old world civ[NEWLINE]3:  Like 2, but New World barb civs cannot settle until an Old World unit lands on the landmass[NEWLINE]4:  Barb civs will not spawn until an old world civ unit lands on landmass[NEWLINE]5:  Barb civs will not spawn until an old world civ settles a city on the landmass</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINORHALFLIFE_TEXT</Tag>
+		<English>Minor Half Life</English>
+		<French>Minor Half Life</French>
+		<German>Halbwertszeit der Kleinen Zivilisation</German>
+		<Italian>Minor Half Life</Italian>
+		<Spanish>Vida Media Civ. Menor</Spanish>
+		<Finnish>Minor Half Life</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINORHALFLIFE_HOVER</Tag>
+		<English>Average number of turns a new world minor civ remains a minor after the conditions under NewWorldPolicies 2 and higher are satisfied</English>
+		<French>Average number of turns a new world minor civ remains a minor after the conditions under NewWorldPolicies 2 and higher are satisfied</French>
+		<German>Durchschnittliche Rundenzahl, die eine kleine Barbaren-Zivilisation in der Neuen Welt benötigt, bis sie nach Erfüllung der Anforderungen der Neue-Welt-Regeln 2 bis 5 zu einer großen Zivilisation wächst.</German>
+		<Italian>Average number of turns a new world minor civ remains a minor after the conditions under NewWorldPolicies 2 and higher are satisfied</Italian>
+		<Spanish>Numero de turnos medio en que una civilizaci&#243;n menor permanece menor despu&#233;s de que las condiciones de Pol&#237;tica de Nuevo Mundo 2 y superiores se han cumplido</Spanish>
+		<Finnish>Average number of turns a new world minor civ remains a minor after the conditions under NewWorldPolicies 2 and higher are satisfied</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FIERCENATIVES_TEXT</Tag>
+		<English>Fierce Natives</English>
+		<French>Fierce Natives</French>
+		<German>Aggressive Ureinwohner</German>
+		<Italian>Fierce Natives</Italian>
+		<Spanish>Nativos Agresivos</Spanish>
+		<Finnish>Fierce Natives</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FIERCENATIVES_HOVER</Tag>
+		<English>New World barbcivs will attack Old World civs preferentially and in addition to wars against other new world civs</English>
+		<French>New World barbcivs will attack Old World civs preferentially and in addition to wars against other new world civs</French>
+		<German>Die Barbaren-Zivilisationen der Neuen Welt greifen Zivilisationen der Alten Welt bevorzugt und zusätzlich zu Kriegen mit anderen Zivilisationen der Neuen Welt an</German>
+		<Italian>New World barbcivs will attack Old World civs preferentially and in addition to wars against other new world civs</Italian>
+		<Spanish>Las civilizaciones b&#225;rbaras del Nuevo Mundo atacaran a las del Viejo Mundo preferiblemente y adem&#225;s de las guerras que tuvieran con otras civilizaciones del Nuevo Mundo</Spanish>
+		<Finnish>New World barbcivs will attack Old World civs preferentially and in addition to wars against other new world civs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERCONTROL_TEXT</Tag>
+		<English>Offer Control</English>
+		<French>Offer Control</French>
+		<German>Angebot der Kontrolle</German>
+		<Italian>Offer Control</Italian>
+		<Spanish>Ofrecer Control</Spanish>
+		<Finnish>Offer Control</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERCONTROL_HOVER</Tag>
+		<English>Offer player control of new barb civilizations</English>
+		<French>Offer player control of new barb civilizations</French>
+		<German>Bietet dem Spieler die Kontrolle einer neuen Barbaren-Zivilisation an</German>
+		<Italian>Offer player control of new barb civilizations</Italian>
+		<Spanish>Ofrece al jugador tomar el control de las nuevas civilizaciones b&#225;rbaras</Spanish>
+		<Finnish>Offer player control of new barb civilizations</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CANCELAUTOFOROFFER_TEXT</Tag>
+		<English>Cancel Offer Control</English>
+		<French>Cancel Offer Control</French>
+		<German>Angebot der Kontrolle aufheben</German>
+		<Italian>Cancel Offer Control</Italian>
+		<Spanish>Cancelar Ofrecer Control</Spanish>
+		<Finnish>Cancel Offer Control</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CANCELAUTOFOROFFER_HOVER</Tag>
+		<English>Cancels player control of new barb civilizations</English>
+		<French>Cancels player control of new barb civilizations</French>
+		<German>Beendet die Kontrolle neuer Barbaren-Zivilisationen durch den Spieler</German>
+		<Italian>Cancels player control of new barb civilizations</Italian>
+		<Spanish>Cancela la toma de control de las nuevas civilizaciones b&#225;rbaras por el jugador</Spanish>
+		<Finnish>Cancels player control of new barb civilizations</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVSBYSTYLE_TEXT</Tag>
+		<English>BarbCiv Style</English>
+		<French>BarbCiv Style</French>
+		<German>BarbCiv-Stil</German>
+		<Italian>BarbCiv Style</Italian>
+		<Spanish>Estilo Civ. B&#225;rbaras</Spanish>
+		<Finnish>BarbCiv Style</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVSBYSTYLE_HOVER</Tag>
+		<English>If a city has culture, spawn a new civ with same art style as highest culture player</English>
+		<French>If a city has culture, spawn a new civ with same art style as highest culture player</French>
+		<German>Wenn eine Barbarenstadt Kultur entwickelt, so ensteht eine neue Zivilisation mit dem Stil des Spielers mit der höchstem Kulturwert</German>
+		<Italian>If a city has culture, spawn a new civ with same art style as highest culture player</Italian>
+		<Spanish>Si una ciudad tiene cultura, genera una nueva civilizaci&#243;n b&#225;rbaras con el mismo estilo art&#237;stico que el jugador con la cultura m&#225;s elevada.</Spanish>
+		<Finnish>If a city has culture, spawn a new civ with same art style as highest culture player</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVMAXCIVS_TEXT</Tag>
+		<English>Max BarbCivs</English>
+		<French>Max BarbCivs</French>
+		<German>Maximale BarbCivs</German>
+		<Italian>Max BarbCivs</Italian>
+		<Spanish>Maximo de Civ. B&#225;rbaras</Spanish>
+		<Finnish>Max BarbCivs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVMAXCIVS_HOVER</Tag>
+		<English>Barbcivs will not spawn if there are already this many civs in the game (-1 for DLL limit)</English>
+		<French>Barbcivs will not spawn if there are already this many civs in the game (-1 for DLL limit)</French>
+		<German>Barbaren-Zivilisationen entstehen nicht, wenn es bereits so viele Zivilisationen im Spiel gibt (-1 wegen der DLL-Begrenzung)</German>
+		<Italian>Barbcivs will not spawn if there are already this many civs in the game (-1 for DLL limit)</Italian>
+		<Spanish>Las Civ. B&#225;rbaras no se asentaran si ya hay este n&#250;mero de civilizaciones en el juego (-1 del l&#237;mite DLL)</Spanish>
+		<Finnish>Barbcivs will not spawn if there are already this many civs in the game (-1 for DLL limit)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FORMMINORMODIFIER_TEXT</Tag>
+		<English>Form Minor Modifier</English>
+		<French>Form Minor Modifier</French>
+		<German>Modifikator zur Enstehung kleiner Civs</German>
+		<Italian>Form Minor Modifier</Italian>
+		<Spanish>Modificador Creacion Civ. Menor</Spanish>
+		<Finnish>Form Minor Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FORMMINORMODIFIER_HOVER</Tag>
+		<English>Change odds of barb city turning into a minor civ)</English>
+		<French>Change odds of barb city turning into a minor civ</French>
+		<German>Verändert die Wahrscheinlichkeit, mit der Barbarenstädte sich in kleine Zivilisationen umwandeln</German>
+		<Italian>Change odds of barb city turning into a minor civ</Italian>
+		<Spanish>Cambia las probabilidades de que una ciudad b&#225;rbara se convierta en Civ. Menor.</Spanish>
+		<Finnish>Change odds of barb city turning into a minor civ</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINPOPULATION_TEXT</Tag>
+		<English>Min City Pop</English>
+		<French>Min City Pop</French>
+		<German>Minimale Stadtbevölkerung</German>
+		<Italian>Min City Pop</Italian>
+		<Spanish>M&#237;nima Poblaci&#243;n Ciudad B&#225;rbara</Spanish>
+		<Finnish>Min City Pop</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINPOPULATION_HOVER</Tag>
+		<English>Minimum population needed for a barb city to settle</English>
+		<French>Minimum population needed for a barb city to settle</French>
+		<German>Minimale Bevölkerung, damit sich eine Barbarenstadt weiterentwickelt</German>
+		<Italian>Minimum population needed for a barb city to settle</Italian>
+		<Spanish>M&#237;nimo de poblaci&#243;n necesario para una ciudad b&#225;rbara se asiente.</Spanish>
+		<Finnish>Minimum population needed for a barb city to settle</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINCONTACTS_TEXT</Tag>
+		<English>Min Contacts</English>
+		<French>Min Contacts</French>
+		<German>Minimum Kontakte</German>
+		<Italian>Min Contacts</Italian>
+		<Spanish>M&#237;nimo Contactos</Spanish>
+		<Finnish>Min Contacts</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINCONTACTS_HOVER</Tag>
+		<English>Minimum number of contacts (with any civ) a Barbarian Civ needs to settle from a minor to full civ</English>
+		<French>Minimum number of contacts (with any civs) a Barbarian Civ needs to settle from a minor to full civ</French>
+		<German>Mindestzahl an Kontakten (mit beliebigen Zivilisationen), die eine Barbaren-Zivilisation benötigt, um eine vollwertige Zivilisation zu werden</German>
+		<Italian>Minimum number of contacts (with any civs) a Barbarian Civ needs to settle from a minor to full civ</Italian>
+		<Spanish>N&#250;mero m&#237;nimo de contactos (con cualquier Civ.) que una Civilizaci&#243;n B&#225;rbara menor necesita para convertirse en una Civilizaci&#243;n Completa.</Spanish>
+		<Finnish>Minimum number of contacts (with any civs) a Barbarian Civ needs to settle from a minor to full civ</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINFULLCONTACTS_TEXT</Tag>
+		<English>Min Full Contacts</English>
+		<French>Min Full Contacts</French>
+		<German>Minimum Kontakte mit vollwertigen Civs</German>
+		<Italian>Min Full Contacts</Italian>
+		<Spanish>M&#237;nimo Contactos Completos</Spanish>
+		<Finnish>Min Full Contacts</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINFULLCONTACTS_HOVER</Tag>
+		<English>Minimum number of contacts (with full civs) a Barbarian Civ needs to settle from a minor to full civ</English>
+		<French>Minimum number of contacts (with full civs) a Barbarian Civ needs to settle from a minor to full civ</French>
+		<German>Mindestzahl an Kontakten (mit vollwertigen Zivilisationen), die eine Barbaren-Zivilisation benötigt, um selbst eine vollwertige Zivilisation zu werden</German>
+		<Italian>Minimum number of contacts (with full civs) a Barbarian Civ needs to settle from a minor to full civ</Italian>
+		<Spanish>N&#250;mero m&#237;nimo de contactos (con Civ. Completas) que una Civilizaci&#243;n B&#225;rbara menor necesita para convertirse en una Civilizaci&#243;n Completa.</Spanish>
+		<Finnish>Minimum number of contacts (with full civs) a Barbarian Civ needs to settle from a minor to full civ</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEMILITARYODDS_TEXT</Tag>
+		<English>Military Odds</English>
+		<French>Military Odds</French>
+		<German>Militär-Wahrscheinlichkeit</German>
+		<Italian>Military Odds</Italian>
+		<Spanish>Probabilidades Militares </Spanish>
+		<Finnish>Military Odds</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEMILITARYODDS_HOVER</Tag>
+		<English>Base odds of Military style buildup</English>
+		<French>Base odds of Military style buildup</French>
+		<German>Grundlegende Wahrscheinlichkeit für militärisch ausgerichtete Barbaren-Zivilisation</German>
+		<Italian>Base odds of Military style buildup</Italian>
+		<Spanish>Probabilidades base del estilo 'Incremento en la Fuerza Militar'</Spanish>
+		<Finnish>Base odds of Military style buildup</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBTECHFRAC_TEXT</Tag>
+		<English>BarbTech Fraction</English>
+		<French>BarbTech Fraction</French>
+		<German>BarbTech-Anteil</German>
+		<Italian>BarbTech Fraction</Italian>
+		<Spanish>Fracci&#243;n Tecnolog&#237;a B&#225;rbara</Spanish>
+		<Finnish>BarbTech Fraction</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBTECHFRAC_HOVER</Tag>
+		<English>Former barbarians get all techs known by this fraction of players</English>
+		<French>Former barbarians get all techs known by this fraction of players</French>
+		<German>Ehemalige Barbaren erhalten alle Technologien, die dieser Anteil der Spieler kennt</German>
+		<Italian>Former barbarians get all techs known by this fraction of players</Italian>
+		<Spanish>Las nuevas civilizaciones b&#225;rbaras obtienen todas las tecnolog&#237;as conocidas por este n&#250;mero de jugadores</Spanish>
+		<Finnish>Former barbarians get all techs known by this fraction of players</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDREDUCTION_TEXT</Tag>
+		<English>NewWorld Reduction</English>
+		<French>NewWorld Reduction</French>
+		<German>Reduzierte Technolgien in Neuer Welt </German>
+		<Italian>NewWorld Reduction</Italian>
+		<Spanish>Reducci&#243;n Nuevo Mundo</Spanish>
+		<Finnish>NewWorld Reduction</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDREDUCTION_HOVER</Tag>
+		<English>Reduce tech given to former barbarians alone on a continent (larger means they're more behind)</English>
+		<French>Reduce tech given to former barbarians alone on a continent (larger means they're more behind)</French>
+		<German>Reduziere die Zahl der Technologien, die ehemalige Barbaren erhalten, die sich allein auf dem Kontinent befinden (größere Zahlen bedeuten, sie liegen weiter zurück)</German>
+		<Italian>Reduce tech given to former barbarians alone on a continent (larger means they're more behind)</Italian>
+		<Spanish>Reduce las tecnolog&#237;as obtenidas por las nuevas civilizaciones b&#225;rbaras que est&#233;n solas en un continente (Valor elevado significa que obtienen menos tecnolog&#237;as)</Spanish>
+		<Finnish>Reduce tech given to former barbarians alone on a continent (larger means they're more behind)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDERASBEHIND_TEXT</Tag>
+		<English>NewWorld Eras Behind</English>
+		<French>NewWorld Eras Behind</French>
+		<German>Zurückliegende Zeitalter in Neuer Welt</German>
+		<Italian>NewWorld Eras Behind</Italian>
+		<Spanish>Atraso Eras Nuevo Mundo</Spanish>
+		<Finnish>NewWorld Eras Behind</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDERASBEHIND_HOVER</Tag>
+		<English>Eras behind New World BarbCivs will be targeted for in spawning tech grant</English>
+		<French>Eras behind New World BarbCivs will be targeted for in spawning tech grant</French>
+		<German>Barbaren-Zivilisation in der Neuen Welt, die in der Forschung um Zeitalter zurückliegen, werden für die Zuteilung von Technologien ausgewählt </German>
+		<Italian>Eras behind New World BarbCivs will be targeted for in spawning tech grant</Italian>
+		<Spanish>Atraso que las nuevas civilizaciones b&#225;rbaras sufrir&#225;n cuando reciban las tecnolog&#237;as al asentarse.</Spanish>
+		<Finnish>Eras behind New World BarbCivs will be targeted for in spawning tech grant</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUILDERBONUSTECHS_TEXT</Tag>
+		<English>Builder Tech Bonus</English>
+		<French>Builder Tech Bonus</French>
+		<German>Bonustechnologien für "Builder"</German>
+		<Italian>Builder Tech Bonus</Italian>
+		<Spanish>Bonus Tecnolog&#237;as Diligente</Spanish>
+		<Finnish>Builder Tech Bonus</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUILDERBONUSTECHS_HOVER</Tag>
+		<English>Number of bonus techs that builder type BarbCivs get</English>
+		<French>Number of bonus techs that builder type BarbCivs get</French>
+		<German>Anzahl von Bonustechnologien, die aufbauorientierte Barbaren-Zivilisation ("Builder") erhalten </German>
+		<Italian>Number of bonus techs that builder type BarbCivs get</Italian>
+		<Spanish>Numero de tecnolog&#237;as de bonus que obtienen las civilizaciones b&#225;rbaras de tipo Diligente.</Spanish>
+		<Finnish>Number of bonus techs that builder type BarbCivs get</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_HOVER_TEXT</Tag>
+		<English>Declare War Turns</English>
+		<French>Declare War Turns</French>
+		<German>Runden für Kriegserklärung</German>
+		<Italian>Declare War Turns</Italian>
+		<Spanish>Declarar Guerra</Spanish>
+		<Finnish>Declare War Turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_HOVER_HOVER</Tag>
+		<English>After settling into a full civ from a minor, militaristic barb civ will declare war on the first civ it meets within this window of turns</English>
+		<French>After settling into a full civ from a minor, militaristic barb civ will declare war on the first civ it meets within this window of turns</French>
+		<German>Wenn aus einer kleinen Zivilisation eine vollwertige militaristische Barbaren-Zivilisation geworden ist, so wird sie innerhalb dieses Zeitfensters der ersten Zivilisation, auf die sie trifft, den Krieg erklären</German>
+		<Italian>After settling into a full civ from a minor, militaristic barb civ will declare war on the first civ it meets within this window of turns</Italian>
+		<Spanish>Despu&#233;s de asentarse como una civilizaci&#243;n completa, las civilizaciones Agresivas declararan la guerra a la primera civilizaci&#243;n que se encuentren dentro de esta ventana de turnos.</Spanish>
+		<Finnish>After settling into a full civ from a minor, militaristic barb civ will declare war on the first civ it meets within this window of turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARCLOSEDIST_TEXT</Tag>
+		<English>Max Declare Distance</English>
+		<French>Max Declare Distance</French>
+		<German>Maximale Distanz für Kriegserklärung</German>
+		<Italian>Max Declare Distance</Italian>
+		<Spanish>Distancia M&#225;xima Declaraci&#243;n</Spanish>
+		<Finnish>Max Declare Distance</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARCLOSEDIST_HOVER</Tag>
+		<English>Max Distance between capitals for barb civ to consider immeadiate declaration of war (must also be on same continent)</English>
+		<French>Max Distance between capitals for barb civ to consider immeadiate declaration of war (must also be on same continent)</French>
+		<German>Maximaler Abstand zwischen Hauptstädten, bei dem die Barbaren-Zivilisation eine unmittelbare Kriegserklärung in Betracht zieht (nur auf demselben Kontinent)</German>
+		<Italian>Max Distance between capitals for barb civ to consider immeadiate declaration of war (must also be on same continent)</Italian>
+		<Spanish>M&#225;xima distancia entre capitales para que una civilizaci&#243;n b&#225;rbara considere la declaraci&#243;n de guerra inmediata (Debe estar en el mismo continente).</Spanish>
+		<Finnish>Max Distance between capitals for barb civ to consider immeadiate declaration of war (must also be on same continent)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYSTRENGTH_TEXT</Tag>
+		<English>Bonus Units Multiplier</English>
+		<French>Bonus Units Multiplier</French>
+		<German>Faktor für Bonuseinheiten</German>
+		<Italian>Bonus Units Multiplier</Italian>
+		<Spanish>Multiplicador Bonus Unidades</Spanish>
+		<Finnish>Bonus Units Multiplier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYSTRENGTH_HOVER</Tag>
+		<English>Affects number of (non-defense) military units given to barbs</English>
+		<French>Affects number of (non-defense) military units given to barbs</French>
+		<German>Beeinflusst die Zahl von Einheiten (außer Verteidigungseinheiten), die die Barbaren erhalten</German>
+		<Italian>Affects number of (non-defense) military units given to barbs</Italian>
+		<Spanish>Afecta al n&#250;mero de (no defensivas) unidades militares otorgadas a los barbaros.</Spanish>
+		<Finnish>Affects number of (non-defense) military units given to barbs</Finnish>
+	</TEXT>
+</Civ4GameText>

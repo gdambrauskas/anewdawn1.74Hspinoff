@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+	Various Interface Label Translations
+
+  -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<!-- Specialists Health Mod -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_BAD_HEALTH_FROM_SPECIALISTS</Tag>
+		<English>%D1_Change[ICON_UNHEALTHY] from Specialists</English>
+		<French>%D1_Change[ICON_UNHEALTHY] des Sp&#233;cialistes</French>
+		<German>%D1_Change[ICON_UNHEALTHY] durch Spezialisten</German>
+		<Italian>%D1_Change[ICON_UNHEALTHY] per Specialisti</Italian>
+		<Spanish>%D1_Change[ICON_UNHEALTHY] por Especialistas</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_GOOD_HEALTH_FROM_SPECIALISTS</Tag>
+		<English>%D1_Change[ICON_HEALTHY] from Specialists</English>
+		<French>%D1_Change[ICON_HEALTHY] des Sp&#233;cialistes</French>
+		<German>%D1_Change[ICON_HEALTHY] durch Spezialisten</German>
+		<Italian>%D1_Change[ICON_HEALTHY] per Specialisti</Italian>
+		<Spanish>%D1_Change[ICON_HEALTHY] por Especialistas</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_HEALTHY</Tag>
+		<English>[ICON_BULLET]%D1_Change[ICON_HEALTHY]</English>
+		<French>[ICON_BULLET]%D1_Change[ICON_HEALTHY]</French>
+		<German>[ICON_BULLET]%D1_Change[ICON_HEALTHY]</German>
+		<Italian>[ICON_BULLET]%D1_Change[ICON_HEALTHY]</Italian>
+		<Spanish>[ICON_BULLET]%D1_Change[ICON_HEALTHY]</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_UNHEALTHY</Tag>
+		<English>[ICON_BULLET]%D1_Change[ICON_UNHEALTHY]</English>
+		<French>[ICON_BULLET]%D1_Change[ICON_UNHEALTHY]</French>
+		<German>[ICON_BULLET]%D1_Change[ICON_UNHEALTHY]</German>
+		<Italian>[ICON_BULLET]%D1_Change[ICON_UNHEALTHY]</Italian>
+		<Spanish>[ICON_BULLET]%D1_Change[ICON_HEALTHY]</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_UNHAPPY_SPECIALISTS</Tag>
+		<English>+%d1_Change[ICON_UNHAPPY]: "We are angered by some citizens' occupations!"</English>
+		<French>+%d1_Change[ICON_UNHAPPY] : "Nous sommes indign&#233;s par les professions de certains citoyens!"</French>
+		<German>+%d1_Change[ICON_UNHAPPY]: "Wir sind durch die Berufe einiger Bürger verärgert!"</German>
+		<Italian>+%d1_Change[ICON_UNHAPPY]: "Noi siamo in collera per occupazioni alcuni cittadini!"</Italian>
+		<Spanish>+%d1_Change [ICON_UNHAPPY]: "&#161;Estamos indignados por las ocupaciones de algunos ciudadanos!"</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_HAPPY_SPECIALISTS</Tag>
+		<English>+%d1_Change[ICON_HAPPY]: "Some citizens' jobs please us!"</English>
+		<French>+%d1_Change[ICON_HAPPY] : "Nous sommes ravis par les emplois de certains citoyens!"</French>
+		<German>+%d1_Change[ICON_HAPPY]: "Die Jobs einiger Bürger passen uns nicht!"</German>
+		<Italian>+%d1_Change[ICON_HAPPY]: "Siamo lieti di posti di lavoro da parte dei cittadini!"</Italian>
+		<Spanish>+%d1_Change [ICON_HAPPY]: "&#161;Estamos muy satisfechos por los trabajos de algunos ciudadanos!"</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_HAPPY</Tag>
+		<English>[ICON_BULLET]%D1_Change[ICON_HAPPY]</English>
+		<French>[ICON_BULLET]%D1_Change[ICON_HAPPY]</French>
+		<German>[ICON_BULLET]%D1_Change[ICON_HAPPY]</German>
+		<Italian>[ICON_BULLET]%D1_Change[ICON_HAPPY]</Italian>
+		<Spanish>[ICON_BULLET]%D1_Change[ICON_HAPPY]</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_UNHAPPY</Tag>
+		<English>[ICON_BULLET]%D1_Change[ICON_UNHAPPY]</English>
+		<French>[ICON_BULLET]%D1_Change[ICON_UNHAPPY]</French>
+		<German>[ICON_BULLET]%D1_Change[ICON_UNHAPPY]</German>
+		<Italian>[ICON_BULLET]%D1_Change[ICON_UNHAPPY]</Italian>
+		<Spanish>[ICON_BULLET]%D1_Change[ICON_UNHAPPY]</Spanish>
+	</TEXT>
+
+</Civ4GameText>
