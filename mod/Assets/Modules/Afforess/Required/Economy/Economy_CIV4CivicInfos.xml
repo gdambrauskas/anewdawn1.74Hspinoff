@@ -17,7 +17,7 @@
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
 			<Type>CIVIC_BARTER</Type>
 			<bTypeDependency>1</bTypeDependency>
-			<iInflation>-100</iInflation>
+			<iInflation>-10</iInflation>
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
@@ -30,7 +30,7 @@
 			<Type>CIVIC_COINAGE</Type>
 			<bTypeDependency>1</bTypeDependency>
 			<bChooseCurrency>1</bChooseCurrency>
-			<iInflation>15</iInflation>
+			<iInflation>10</iInflation>
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
@@ -44,7 +44,7 @@
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
 			<Type>CIVIC_MERCANTILISM</Type>
 			<bTypeDependency>1</bTypeDependency>
-			<iInflation>50</iInflation>
+			<iInflation>10</iInflation>
 			<iHurryCostModifier>-50</iHurryCostModifier>
 			<iHurryInflationModifier>200</iHurryInflationModifier>
 			<iSharedCivicTradeRouteModifier>-25</iSharedCivicTradeRouteModifier>

@@ -21,12 +21,12 @@
 			<bTrade>1</bTrade>
 			<iGridX>8</iGridX>
 			<iGridY>3</iGridY>
-			<DomainExtraMoves>
-				<DomainExtraMove>
-					<DomainType>DOMAIN_SEA</DomainType>
-					<iExtraMoves>1</iExtraMoves>
-				</DomainExtraMove>
-			</DomainExtraMoves>
+			<!-- DomainExtraMoves>
+                <DomainExtraMove>
+                    <DomainType>DOMAIN_SEA</DomainType>
+                    <iExtraMoves>1</iExtraMoves>
+                </DomainExtraMove>
+            </DomainExtraMoves -->
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -101,7 +101,7 @@
 			<DomainExtraMoves>
 				<DomainExtraMove>
 					<DomainType>DOMAIN_AIR</DomainType>
-					<iExtraMoves>1</iExtraMoves>
+					<iExtraMoves>5</iExtraMoves>
 				</DomainExtraMove>
 			</DomainExtraMoves>
 			<Flavors>

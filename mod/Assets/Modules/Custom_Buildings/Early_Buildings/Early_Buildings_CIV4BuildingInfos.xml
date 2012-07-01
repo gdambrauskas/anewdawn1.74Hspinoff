@@ -37,7 +37,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_NOMAD</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -1434,7 +1434,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CREATIVE</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>5</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -1812,7 +1812,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
-					<iProductionTrait>75</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -3779,7 +3779,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_NOMAD</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -5432,7 +5432,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_FINANCIAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>

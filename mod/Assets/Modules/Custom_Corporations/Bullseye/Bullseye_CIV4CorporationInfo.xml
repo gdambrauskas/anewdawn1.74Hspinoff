@@ -34,14 +34,14 @@
 				<iCommerceProduced>0</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
-				<iYieldProduced>100</iYieldProduced>
+				<iYieldProduced>20</iYieldProduced>
 			</YieldsProduced>
 			<Button>Modules/Custom_Corporations/Bullseye/Button/BE.dds</Button>
 			<MovieFile>NONE</MovieFile>
 			<MovieSound>NONE</MovieSound>
 			<Sound>AS2D_BUILD_BANK</Sound>
 			<PrereqGameOption>GAMEOPTION_MODERN_CORPORATIONS</PrereqGameOption>
-			<iHealth>1</iHealth>
+			<iHealth>3</iHealth>
 			<iSpread>30</iSpread>
 		</CorporationInfo>
 	</CorporationInfos>

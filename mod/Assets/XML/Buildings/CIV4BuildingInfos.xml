@@ -572,7 +572,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -749,7 +749,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -926,7 +926,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_SIEGE_WARFARE</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -1108,7 +1108,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -1302,7 +1302,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -2250,7 +2250,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_FASCISM</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -7436,7 +7436,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -7609,7 +7609,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -7945,7 +7945,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -20744,7 +20744,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -20920,7 +20920,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21101,7 +21101,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21281,7 +21281,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21462,7 +21462,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -27293,7 +27293,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -27487,7 +27487,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -27685,7 +27685,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -49469,7 +49469,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -50154,7 +50154,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -63322,7 +63322,7 @@
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<ObsoleteTech>TECH_SCREW_PROPELLER</ObsoleteTech>
-			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
 			<PrereqBonuses/>

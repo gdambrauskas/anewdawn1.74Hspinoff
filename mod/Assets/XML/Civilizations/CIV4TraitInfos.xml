@@ -11,11 +11,11 @@
 			<Description>TXT_KEY_TRAIT_PHILOSOPHICAL</Description>
 			<ShortDescription>TXT_KEY_TRAIT_PHILOSOPHICAL_SHORT</ShortDescription>
 			<iHealth>0</iHealth>
-			<iHappiness>0</iHappiness>
-			<iMaxAnarchy>-1</iMaxAnarchy>
+			<iHappiness>2</iHappiness>
+			<iMaxAnarchy>2</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
-			<iGreatPeopleRateModifier>100</iGreatPeopleRateModifier>
+			<iGreatPeopleRateModifier>200</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iMaxGlobalBuildingProductionModifier>0</iMaxGlobalBuildingProductionModifier>
@@ -50,7 +50,7 @@
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
+			<iGreatGeneralRateModifier>25</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iMaxGlobalBuildingProductionModifier>0</iMaxGlobalBuildingProductionModifier>
 			<iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
@@ -76,6 +76,10 @@
 					<PromotionType>PROMOTION_COMBAT1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
+				<FreePromotion>
+                    <PromotionType>PROMOTION_COMBAT2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -101,8 +105,8 @@
 			<Description>TXT_KEY_TRAIT_SPIRITUAL</Description>
 			<ShortDescription>TXT_KEY_TRAIT_SPIRITUAL_SHORT</ShortDescription>
 			<iHealth>0</iHealth>
-			<iHappiness>0</iHappiness>
-			<iMaxAnarchy>2</iMaxAnarchy>
+			<iHappiness>3</iHappiness>
+			<iMaxAnarchy>0</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
@@ -112,7 +116,7 @@
 			<iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
 			<iMaxPlayerBuildingProductionModifier>0</iMaxPlayerBuildingProductionModifier>
 			<!-- Revolution Trait Effects Begin -->
-			<iRevIdxLocal>0</iRevIdxLocal>
+			<iRevIdxLocal>-20</iRevIdxLocal>
 			<iRevIdxNational>0</iRevIdxNational>
 			<iRevIdxHolyCityGood>0</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>0</iRevIdxHolyCityBad>
@@ -134,7 +138,7 @@
 			<Type>TRAIT_EXPANSIVE</Type>
 			<Description>TXT_KEY_TRAIT_EXPANSIVE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_EXPANSIVE_SHORT</ShortDescription>
-			<iHealth>2</iHealth>
+			<iHealth>10</iHealth>
 			<iHappiness>0</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
@@ -153,7 +157,7 @@
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
 			<fRevIdxBadReligionMod>0</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>0</fRevIdxGoodReligionMod>
-			<iRevIdxDistanceModifier>0</iRevIdxDistanceModifier>
+			<iRevIdxDistanceModifier>-100</iRevIdxDistanceModifier>
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
@@ -176,9 +180,9 @@
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
-			<iMaxGlobalBuildingProductionModifier>50</iMaxGlobalBuildingProductionModifier>
-			<iMaxTeamBuildingProductionModifier>50</iMaxTeamBuildingProductionModifier>
-			<iMaxPlayerBuildingProductionModifier>50</iMaxPlayerBuildingProductionModifier>
+			<iMaxGlobalBuildingProductionModifier>25</iMaxGlobalBuildingProductionModifier>
+			<iMaxTeamBuildingProductionModifier>25</iMaxTeamBuildingProductionModifier>
+			<iMaxPlayerBuildingProductionModifier>100</iMaxPlayerBuildingProductionModifier>
 			<!-- Revolution Trait Effects Begin -->
 			<iRevIdxLocal>0</iRevIdxLocal>
 			<iRevIdxNational>0</iRevIdxNational>
@@ -214,8 +218,8 @@
 			<iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
 			<iMaxPlayerBuildingProductionModifier>0</iMaxPlayerBuildingProductionModifier>
 			<!-- Revolution Trait Effects Begin -->
-			<iRevIdxLocal>0</iRevIdxLocal>
-			<iRevIdxNational>0</iRevIdxNational>
+			<iRevIdxLocal>-10</iRevIdxLocal>
+			<iRevIdxNational>-10</iRevIdxNational>
 			<iRevIdxHolyCityGood>0</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>0</iRevIdxHolyCityBad>
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
@@ -230,7 +234,7 @@
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>2</iCommerce>
+				<iCommerce>10</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers/>
 			<FreePromotions/>
@@ -266,12 +270,12 @@
 			<ExtraYieldThresholds>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
-				<iExtraYieldThreshold>4</iExtraYieldThreshold>
+				<iExtraYieldThreshold>2</iExtraYieldThreshold>
 			</ExtraYieldThresholds>
 			<TradeYieldModifiers>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
-				<iYield>1</iYield>
+				<iYield>3</iYield>
 			</TradeYieldModifiers>
 			<CommerceChanges/>
 			<CommerceModifiers/>
@@ -317,10 +321,10 @@
 			<Description>TXT_KEY_TRAIT_CHARISMATIC</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CHARISMATIC_SHORT</ShortDescription>
 			<iHealth>0</iHealth>
-			<iHappiness>1</iHappiness>
+			<iHappiness>3</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
-			<iLevelExperienceModifier>-25</iLevelExperienceModifier>
+			<iLevelExperienceModifier>-75</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
@@ -383,6 +387,10 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 				<FreePromotion>
+                    <PromotionType>PROMOTION_CITY_GARRISON2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+				<FreePromotion>
 					<PromotionType>PROMOTION_DRILL1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
@@ -412,7 +420,7 @@
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-			<iGreatGeneralRateModifier>100</iGreatGeneralRateModifier>
+			<iGreatGeneralRateModifier>200</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iMaxGlobalBuildingProductionModifier>0</iMaxGlobalBuildingProductionModifier>
 			<iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
@@ -473,9 +481,17 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 				<FreePromotion>
+                    <PromotionType>PROMOTION_FLANKING2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+				<FreePromotion>
 					<PromotionType>PROMOTION_GUERILLA1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
+				<FreePromotion>
+                    <PromotionType>PROMOTION_GUERILLA2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -500,7 +516,7 @@
 			<Type>TRAIT_AGRICULTURAL</Type>
 			<Description>TXT_KEY_TRAIT_AGRICULTURAL</Description>
 			<ShortDescription>TXT_KEY_TRAIT_AGRICULTURAL_SHORT</ShortDescription>
-			<iHealth>0</iHealth>
+			<iHealth>5</iHealth>
 			<iHappiness>0</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
@@ -524,7 +540,7 @@
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
 			<ExtraYieldThresholds>
-				<iExtraYieldThreshold>5</iExtraYieldThreshold>
+				<iExtraYieldThreshold>1</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 			</ExtraYieldThresholds>
@@ -566,37 +582,57 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
-			</FreePromotions>
-			<FreePromotionUnitCombats>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_HITECH</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_CLONES</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ASSAULT_MECH</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-			</FreePromotionUnitCombats>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_NAVIGATION1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_MANUEVERING1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_COASTAL_GUARD1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_COASTAL_GUARD2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_COASTAL_ASSAULT1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_COASTAL_ASSAULT2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>                                                
+            </FreePromotions>
+            <FreePromotionUnitCombats>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_WOODEN_SHIPS</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_STEAM_SHIPS</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DIESEL_SHIPS</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_DREADNOUGHT</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_NUCLEAR_SHIPS</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>                
+            </FreePromotionUnitCombats>
 		</TraitInfo>
 		<TraitInfo>
 			<Type>TRAIT_DECEIVER</Type>
@@ -631,7 +667,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>2</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers/>
 			<FreePromotions>
@@ -643,6 +679,30 @@
 					<PromotionType>PROMOTION_IMPROVISE1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
+				<FreePromotion>
+                    <PromotionType>PROMOTION_IMPROVISE2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_DECEPTION1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_DECEPTION2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_SECURITY1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_SECURITY2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_ESCAPE1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>                                                
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -682,7 +742,7 @@
 			<TradeYieldModifiers/>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
-				<iCommerce>1</iCommerce>
+				<iCommerce>3</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceChanges>
@@ -697,10 +757,10 @@
 			<Type>TRAIT_HUMANITARIAN</Type>
 			<Description>TXT_KEY_TRAIT_HUMANITARIAN</Description>
 			<ShortDescription>TXT_KEY_TRAIT_HUMANITARIAN_SHORT</ShortDescription>
-			<iHealth>1</iHealth>
-			<iHappiness>1</iHappiness>
+			<iHealth>5</iHealth>
+			<iHappiness>3</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
-			<iUpkeepModifier>-20</iUpkeepModifier>
+			<iUpkeepModifier>-25</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
@@ -710,7 +770,7 @@
 			<iMaxPlayerBuildingProductionModifier>0</iMaxPlayerBuildingProductionModifier>
 			<!-- Revolution Trait Effects Begin -->
 			<iRevIdxLocal>0</iRevIdxLocal>
-			<iRevIdxNational>0</iRevIdxNational>
+			<iRevIdxNational>-20</iRevIdxNational>
 			<iRevIdxHolyCityGood>0</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>0</iRevIdxHolyCityBad>
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>

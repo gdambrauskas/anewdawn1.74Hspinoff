@@ -27,9 +27,9 @@
 			</HeadquarterCommerces>
 			<BonusProduced>NONE</BonusProduced>
 			<CommercesProduced>
+				<iCommerceProduced>20</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>200</iCommerceProduced>
+				<iCommerceProduced>20</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>

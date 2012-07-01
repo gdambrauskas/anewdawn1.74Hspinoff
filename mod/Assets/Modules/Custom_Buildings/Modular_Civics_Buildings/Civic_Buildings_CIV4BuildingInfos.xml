@@ -215,7 +215,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -404,7 +404,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -956,7 +956,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_DECEIVER</ProductionTraitType>
-					<iProductionTrait>50</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -2095,7 +2095,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_LEADERSHIP</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_VASSALAGE</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -2233,10 +2233,10 @@
 			<BuildingClassNeededs/>
 			<SpecialistYieldChanges/>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
-			<PrereqAndCivics>
+			<PrereqAndCivics>gvd
 				<PrereqCivic>
 					<CivicOption>CIVIC_VASSALAGE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
+					<bPrereqCivic>0</bPrereqCivic>
 				</PrereqCivic>
 			</PrereqAndCivics>
 			<BonusYieldModifiers/>
@@ -2263,7 +2263,7 @@
 			<PrereqAndCivics>
 				<PrereqCivic>
 					<CivicOption>CIVIC_VASSALAGE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
+					<bPrereqCivic>0</bPrereqCivic>
 				</PrereqCivic>
 			</PrereqAndCivics>
 		</BuildingInfo>
@@ -2643,7 +2643,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -3022,7 +3022,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_CREATIVE</ProductionTraitType>
-					<iProductionTrait>30</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -4207,7 +4207,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_HUMANITARIAN</ProductionTraitType>
-					<iProductionTrait>50</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -4563,7 +4563,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_FINANCIAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -7934,7 +7934,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_INDUSTRIOUS</ProductionTraitType>
-					<iProductionTrait>60</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>

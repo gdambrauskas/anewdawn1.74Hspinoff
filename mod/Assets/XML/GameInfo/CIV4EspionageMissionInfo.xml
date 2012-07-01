@@ -829,7 +829,7 @@
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_ANARCHY</Type>
 			<Description>TXT_KEY_ESPIONAGE_PLAYER_ANARCHY</Description>
-			<iCost>2250</iCost>
+			<iCost>1250</iCost>
 			<bIsPassive>0</bIsPassive>
 			<bIsTwoPhases>0</bIsTwoPhases>
 			<bTargetsCity>1</bTargetsCity>
@@ -857,7 +857,7 @@
 			<iBuyTechCostFactor>0</iBuyTechCostFactor>
 			<iSwitchCivicCostFactor>0</iSwitchCivicCostFactor>
 			<iSwitchReligionCostFactor>0</iSwitchReligionCostFactor>
-			<iPlayerAnarchyCounter>4</iPlayerAnarchyCounter>
+			<iPlayerAnarchyCounter>1</iPlayerAnarchyCounter>
 			<iCounterespionageNumTurns>0</iCounterespionageNumTurns>
 			<iCounterespionageMod>0</iCounterespionageMod>
 			<PrereqGameOption>GAMEOPTION_ADVANCED_ESPIONAGE</PrereqGameOption>

@@ -2479,7 +2479,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_NOMAD</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>3</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<bNukeImmune>1</bNukeImmune>

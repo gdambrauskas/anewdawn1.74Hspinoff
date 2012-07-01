@@ -29,9 +29,9 @@
 			</HeadquarterCommerces>
 			<BonusProduced>NONE</BonusProduced>
 			<CommercesProduced>
+				<iCommerceProduced>20</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>200</iCommerceProduced>
+				<iCommerceProduced>20</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
@@ -45,7 +45,7 @@
 				</CompetingCorporation>
 			</CompetingCorporations>
 			<iHealth>0</iHealth>
-			<iHappiness>1</iHappiness>
+			<iHappiness>2</iHappiness>
 			<iFreeXP>0</iFreeXP>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<CommerceChanges>

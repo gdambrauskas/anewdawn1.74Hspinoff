@@ -45,14 +45,14 @@
             <Type>GAMEOPTION_RAGING_BARBARIANS</Type>
             <Description>TXT_KEY_GAME_OPTION_RAGING_BARBARIANS</Description>
             <Help>TXT_KEY_GAME_OPTION_RAGING_BARBARIANS_HELP</Help>
-            <bDefault>0</bDefault>
+            <bDefault>1</bDefault>
             <bVisible>1</bVisible>
         </GameOptionInfo>
         <GameOptionInfo>
             <Type>GAMEOPTION_AGGRESSIVE_AI</Type>
             <Description>TXT_KEY_GAME_OPTION_AGGRESSIVE_AI</Description>
             <Help>TXT_KEY_GAME_OPTION_AGGRESSIVE_AI_HELP</Help>
-            <bDefault>0</bDefault>
+            <bDefault>1</bDefault>
             <bVisible>1</bVisible>
         </GameOptionInfo>
         <GameOptionInfo>
@@ -94,7 +94,7 @@
             <Type>GAMEOPTION_PERMANENT_ALLIANCES</Type>
             <Description>TXT_KEY_GAME_OPTION_PERMANENT_ALLIANCES</Description>
             <Help>TXT_KEY_GAME_OPTION_PERMANENT_ALLIANCES_HELP</Help>
-            <bDefault>0</bDefault>
+            <bDefault>1</bDefault>
             <bVisible>1</bVisible>
         </GameOptionInfo>
         <GameOptionInfo>
@@ -129,7 +129,7 @@
             <Type>GAMEOPTION_NEW_RANDOM_SEED</Type>
             <Description>TXT_KEY_GAME_OPTION_NEW_RANDOM_SEED</Description>
             <Help>TXT_KEY_GAME_OPTION_NEW_RANDOM_SEED_HELP</Help>
-            <bDefault>0</bDefault>
+            <bDefault>1</bDefault>
             <bVisible>1</bVisible>
         </GameOptionInfo>
         <GameOptionInfo>
@@ -143,7 +143,7 @@
             <Type>GAMEOPTION_COMPLETE_KILLS</Type>
             <Description>TXT_KEY_GAME_OPTION_COMPLETE_KILLS</Description>
             <Help>TXT_KEY_GAME_OPTION_COMPLETE_KILLS_HELP</Help>
-            <bDefault>0</bDefault>
+            <bDefault>1</bDefault>
             <bVisible>1</bVisible>
         </GameOptionInfo>
         <GameOptionInfo>
@@ -186,7 +186,7 @@
             <Type>GAMEOPTION_NO_REVOLUTION</Type>
             <Description>TXT_KEY_REV_OPTION_NO_REVOLUTION</Description>
             <Help>TXT_KEY_REV_OPTION_NO_REVOLUTION_HELP</Help>
-            <bDefault>1</bDefault>
+            <bDefault>0</bDefault>
             <bVisible>1</bVisible>
         </GameOptionInfo>
         <GameOptionInfo>

@@ -34,7 +34,7 @@
 				<iCommerceProduced>0</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
-				<iYieldProduced>200</iYieldProduced>
+				<iYieldProduced>20</iYieldProduced>
 			</YieldsProduced>
 			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Modules/Custom_Corporations/Mobby/Button/FictionalizationIV_Atlas.dds,4,6</Button>
 			<MovieFile>NONE</MovieFile>
