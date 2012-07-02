@@ -569,7 +569,7 @@
 			<bStateReligion>1</bStateReligion>
 			<PrereqReligion>RELIGION_CHRISTIANITY</PrereqReligion>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<ObsoleteTech>TECH_LIBERALISM</ObsoleteTech>
+			<ObsoleteTech>TECH_COMPULSORY_EDUCATION</ObsoleteTech>
 			<PrereqTech>TECH_FUNDAMENTALISM</PrereqTech>
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
@@ -581,12 +581,12 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iGreatGeneralRateModifier>50</iGreatGeneralRateModifier>
+			<iGreatGeneralRateModifier>100</iGreatGeneralRateModifier>
 			<iStateReligionHappiness>4</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>10</iAsset>
 			<iPower>10</iPower>
-			<iMilitaryProductionModifier>50</iMilitaryProductionModifier>
+			<iMilitaryProductionModifier>100</iMilitaryProductionModifier>
 			<fVisibilityPriority>100.0</fVisibilityPriority>
 			<YieldModifiers>
 				<iYield>0</iYield>
@@ -777,7 +777,7 @@
 			<bStateReligion>1</bStateReligion>
 			<PrereqReligion>RELIGION_ISLAM</PrereqReligion>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<ObsoleteTech>TECH_RAILROAD</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_DIVINE_RIGHT</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_ENGINEERING</PrereqTech>
@@ -1392,7 +1392,7 @@
 			<bStateReligion>1</bStateReligion>
 			<PrereqReligion>RELIGION_CONFUCIANISM</PrereqReligion>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<ObsoleteTech>TECH_COMPULSORY_EDUCATION</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
@@ -1804,7 +1804,7 @@
 			<bStateReligion>1</bStateReligion>
 			<PrereqReligion>RELIGION_HELLENISM</PrereqReligion>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<ObsoleteTech>TECH_SCIENTIFIC_METHOD</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_AESTHETICS</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_POLYTHEISM</PrereqTech>

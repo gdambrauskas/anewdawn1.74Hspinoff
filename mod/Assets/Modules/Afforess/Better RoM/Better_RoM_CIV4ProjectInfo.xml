@@ -18,7 +18,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iCost>3500</iCost>
+			<iCost>5000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -41,9 +41,9 @@
 			<MovieDefineTag>ART_DEF_MOVIE_INTERNET</MovieDefineTag>
 			<iWorldTradeRoutes>1</iWorldTradeRoutes>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 		</ProjectInfo>
@@ -145,7 +145,7 @@
 			<iWorldHappiness>0</iWorldHappiness>
 			<iWorldHealth>1</iWorldHealth>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -255,12 +255,12 @@
 			<CreateSound/>
 			<MovieDefineTag></MovieDefineTag>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iGlobalHappiness>1</iGlobalHappiness>
+			<iGlobalHappiness>3</iGlobalHappiness>
 			<iWorldHappiness>0</iWorldHappiness>
 			<iWorldHealth>0</iWorldHealth>
 			<CommerceModifiers>
+				<iCommerce>5</iCommerce>
 				<iCommerce>10</iCommerce>
-				<iCommerce>25</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
@@ -293,14 +293,14 @@
 			<CreateSound/>
 			<MovieDefineTag></MovieDefineTag>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iGlobalHappiness>1</iGlobalHappiness>
+			<iGlobalHappiness>3</iGlobalHappiness>
 			<iWorldHappiness>1</iWorldHappiness>
 			<iWorldHealth>0</iWorldHealth>
 			<CommerceModifiers>
-				<iCommerce>20</iCommerce>
-				<iCommerce>20</iCommerce>
-				<iCommerce>20</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 		</ProjectInfo>
 	</ProjectInfos>

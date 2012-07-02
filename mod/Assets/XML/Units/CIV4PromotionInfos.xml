@@ -2461,6 +2461,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>				
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
