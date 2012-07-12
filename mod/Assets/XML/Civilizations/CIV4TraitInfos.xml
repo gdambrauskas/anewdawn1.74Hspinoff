@@ -621,10 +621,6 @@
                     <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
                 </FreePromotionUnitCombat>
                 <FreePromotionUnitCombat>
-                    <UnitCombatType>UNITCOMBAT_DREADNOUGHT</UnitCombatType>
-                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-                </FreePromotionUnitCombat>
-                <FreePromotionUnitCombat>
                     <UnitCombatType>UNITCOMBAT_NUCLEAR_SHIPS</UnitCombatType>
                     <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
                 </FreePromotionUnitCombat>
