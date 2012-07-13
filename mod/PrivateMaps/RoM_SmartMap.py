@@ -1778,9 +1778,9 @@ def generateTerrainTypes():
         extraCold -= 0
         grassFactor += 5
     if climate == climateTropical:
-        extraDesert -= 16
-        extraCold -= 16
-        grassFactor += 10
+        extraDesert -= 20
+        extraCold -= 25
+        grassFactor += 20
 
     extraForest,extraJungle = getSelectedMapValue("Forest/Jungle:")
     if extraForest > 0:
