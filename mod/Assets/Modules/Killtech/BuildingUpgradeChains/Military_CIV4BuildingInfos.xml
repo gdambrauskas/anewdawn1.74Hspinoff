@@ -512,7 +512,6 @@
 					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
-			<FreePromotion>PROMOTION_NAVIGATION1</FreePromotion>
 			<bWater>1</bWater>
 			<iCost>150</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>

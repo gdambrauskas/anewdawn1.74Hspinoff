@@ -587,10 +587,6 @@
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
                 <FreePromotion>
-                    <PromotionType>PROMOTION_MANUEVERING1</PromotionType>
-                    <bFreePromotion>1</bFreePromotion>
-                </FreePromotion>
-                <FreePromotion>
                     <PromotionType>PROMOTION_COASTAL_GUARD1</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>

@@ -766,7 +766,7 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_GUERILLA1</FreePromotion>
+			<FreePromotion>PROMOTION_DRILL1</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
@@ -8828,7 +8828,7 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_LOOTER</FreePromotion>
+			<FreePromotion>PROMOTION_MANUEVERING1</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
@@ -10866,7 +10866,6 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_NAVIGATION1</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
@@ -42073,7 +42072,7 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_MORALE</FreePromotion>
+			<FreePromotion>NONE</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>

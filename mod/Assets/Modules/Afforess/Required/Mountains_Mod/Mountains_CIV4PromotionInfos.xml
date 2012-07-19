@@ -12,8 +12,8 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
-			<PromotionPrereqOr2>PROMOTION_INITIATIVE4</PromotionPrereqOr2>
+			<PromotionPrereqOr1>PROMOTION_GUERILLA3</PromotionPrereqOr1>
+			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>

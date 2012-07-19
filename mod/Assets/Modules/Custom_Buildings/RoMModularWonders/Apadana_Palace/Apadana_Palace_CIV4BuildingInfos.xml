@@ -41,7 +41,7 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_ORDER_OF_ORMAZD</FreePromotion>
+			<FreePromotion>NONE</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
@@ -154,9 +154,9 @@
 				<iCommerce>0</iCommerce>
 			</SpecialistExtraCommerces>
 			<StateReligionCommerces>
-				<iCommerce>1</iCommerce>
-				<iCommerce>1</iCommerce>
-				<iCommerce>1</iCommerce>
+				<iCommerce>2</iCommerce>
+				<iCommerce>2</iCommerce>
+				<iCommerce>2</iCommerce>
 			</StateReligionCommerces>
 			<CommerceHappinesses/>
 			<ReligionChanges/>

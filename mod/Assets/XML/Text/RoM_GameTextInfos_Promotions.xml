@@ -2526,6 +2526,66 @@
 		<Japanese></Japanese>
 	</TEXT>
 	<TEXT>
+        <Tag>TXT_KEY_PROMOTION_BERZERKER4</Tag>
+        <English>Berzerker IV</English>
+        <French>
+            <Text>Barbare IV</Text>
+            <Gender>Male</Gender>
+            <Plural>0</Plural>
+        </French>
+        <German>
+            <Text>Berserker IV</Text>
+            <Gender>Male</Gender>
+            <Plural>0</Plural>
+        </German>
+        <Italian>
+            <Text>Berzerker IV</Text>
+            <Gender>Male</Gender>
+            <Plural>0</Plural>
+        </Italian>
+        <Spanish>
+            <Text>Berzerker IV</Text>
+            <Gender>Male</Gender>
+            <Plural>0</Plural>
+        </Spanish>
+        <Finnish></Finnish>
+        <Hungarian></Hungarian>
+        <Polish></Polish>
+        <Russian></Russian>
+        <Chinese></Chinese>
+        <Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_BERZERKER5</Tag>
+        <English>Berzerker V</English>
+        <French>
+            <Text>Barbare V</Text>
+            <Gender>Male</Gender>
+            <Plural>0</Plural>
+        </French>
+        <German>
+            <Text>Berserker V</Text>
+            <Gender>Male</Gender>
+            <Plural>0</Plural>
+        </German>
+        <Italian>
+            <Text>Berzerker V</Text>
+            <Gender>Male</Gender>
+            <Plural>0</Plural>
+        </Italian>
+        <Spanish>
+            <Text>Berzerker V</Text>
+            <Gender>Male</Gender>
+            <Plural>0</Plural>
+        </Spanish>
+        <Finnish></Finnish>
+        <Hungarian></Hungarian>
+        <Polish></Polish>
+        <Russian></Russian>
+        <Chinese></Chinese>
+        <Japanese></Japanese>
+    </TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_STALWART1</Tag>
 		<English>Stalwart I</English>
 		<French>
