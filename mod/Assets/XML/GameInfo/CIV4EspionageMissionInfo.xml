@@ -829,7 +829,7 @@
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_ANARCHY</Type>
 			<Description>TXT_KEY_ESPIONAGE_PLAYER_ANARCHY</Description>
-			<iCost>1250</iCost>
+			<iCost>3000</iCost>
 			<bIsPassive>0</bIsPassive>
 			<bIsTwoPhases>0</bIsTwoPhases>
 			<bTargetsCity>1</bTargetsCity>

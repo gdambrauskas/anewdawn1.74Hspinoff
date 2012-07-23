@@ -2281,7 +2281,7 @@
 			<iEnemyHealChange>0</iEnemyHealChange>
 			<iNeutralHealChange>0</iNeutralHealChange>
 			<iFriendlyHealChange>0</iFriendlyHealChange>
-			<iSameTileHealChange>0</iSameTileHealChange>
+			<iSameTileHealChange>25</iSameTileHealChange>
 			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
 			<iCombatPercent>0</iCombatPercent>
 			<iCityAttack>0</iCityAttack>
@@ -2295,12 +2295,22 @@
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
 			<TerrainAttacks/>
-			<TerrainDefenses/>
+			<TerrainDefenses>
+                <TerrainDefense>
+                    <TerrainType>TERRAIN_DESERT</TerrainType>
+                    <iTerrainDefense>100</iTerrainDefense>
+                </TerrainDefense>
+            </TerrainDefenses>
 			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
-			<DomainMods/>
-			<TerrainDoubleMoves/>
+			<DomainMods/>			
+            <TerrainDoubleMoves>
+                <TerrainDoubleMove>
+                    <TerrainType>TERRAIN_DESERT</TerrainType>
+                    <bTerrainDoubleMove>1</bTerrainDoubleMove>
+                </TerrainDoubleMove>
+            </TerrainDoubleMoves>			
 			<FeatureDoubleMoves/>
 			<UnitCombats>
 				<UnitCombat>
