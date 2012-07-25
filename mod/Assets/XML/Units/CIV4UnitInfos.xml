@@ -5538,6 +5538,14 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 				<FreePromotion>
+                    <PromotionType>PROMOTION_MEDIC2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_MEDIC3</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+				<FreePromotion>
 					<PromotionType>PROMOTION_HEAL</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>

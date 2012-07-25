@@ -776,8 +776,34 @@
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
 			<CommerceModifiers/>
-			<FreePromotions/>
-			<FreePromotionUnitCombats/>
+			<FreePromotions>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_MEDIC1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_MEDIC2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+            </FreePromotions>
+            <FreePromotionUnitCombats>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_HITECH</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ASSAULT_MECH</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
+            </FreePromotionUnitCombats>
 		</TraitInfo>
 	</TraitInfos>
 </Civ4TraitInfos>
