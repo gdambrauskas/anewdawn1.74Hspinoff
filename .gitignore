@@ -2,4 +2,5 @@
 /build
 /output
 
-sources/debug
+/sources/Debug
+/sources/Final_Release
