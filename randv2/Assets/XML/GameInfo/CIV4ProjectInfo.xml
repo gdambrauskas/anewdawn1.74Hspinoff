@@ -992,7 +992,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iCost>5000</iCost>
+			<iCost>20000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<iGlobalMaintenanceModifier>0</iGlobalMaintenanceModifier>
@@ -1018,10 +1018,10 @@
 			<iWorldHappiness>0</iWorldHappiness>
 			<iWorldHealth>0</iWorldHealth>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
-				<iCommerce>25</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 		</ProjectInfo>
 		<ProjectInfo>
@@ -1034,7 +1034,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iCost>6000</iCost>
+			<iCost>30000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<iGlobalMaintenanceModifier>0</iGlobalMaintenanceModifier>
@@ -1060,10 +1060,10 @@
 			<iWorldHappiness>1</iWorldHappiness>
 			<iWorldHealth>0</iWorldHealth>
 			<CommerceModifiers>
-				<iCommerce>20</iCommerce>
-				<iCommerce>20</iCommerce>
-				<iCommerce>20</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>10</iCommerce>
+				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 		</ProjectInfo>
 	</ProjectInfos>
