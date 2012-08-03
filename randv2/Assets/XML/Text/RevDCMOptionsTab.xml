@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+	BUFFY
+	Options Game Text
+
+	Copyright (c) 2009 The BUG Mod.
+-->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_MULTIPLAYER_GAME_DETECTED</Tag>
+		<English>MULTIPLAYER GAME DETECTED</English>
+		<French>JEU MULTIJOUEUR DETECTE</French>
+		<German>Multiplayer-Spiel erkannt</German>
+		<Italian>RILEVATO di gioco multiplayer</Italian>
+		<Spanish>Juego Multijugador DETECTADO</Spanish>
+		<Finnish>Moninpeli HAVAITUT</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MULTIPLAYER_GAME_DETECTED_DESCRIPTION</Tag>
+		<English>To minimize syncing issues, all BULL actions, RevDCM, and Revolution options are set to defaults and locked in Multiplayer games</English>
+		<French>Pour minimiser les problemes de synchronisation, des actions BULL, RevDCM, les revolutions et les options definies par defaut et la colline, dans les jeux multijoueurs</French>
+		<German>Um Synchronisationsprobleme zu minimieren, sind alle BULL-Aktionen sowie RevCDCM- und Revolution-Optionen in Multiplayer-Spielen gesperrt und auf Standard gesetzt.</German>
+		<Italian>Per ridurre al minimo i problemi di sincronizzazione, le azioni BULL, RevDCM, rivoluzioni e impostare le opzioni di default e collina, nei giochi multiplayer</Italian>
+		<Spanish>Para minimizar los problemas de sincronizacion, las acciones BULL, RevDCM, y las opciones de Revolutions se establecen los valores predeterminados y cerro, en los juegos multijugador</Spanish>
+		<Finnish>Minimoimiseksi synkronoinnin kysymyksi&#228;, kaikki BULL toimia, RevDCM, ja Revolution vaihtoehdot on asetettu oletusarvot ja lukita Moninpelit</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_NOTES</Tag>
+		<English>RevDCM Notes:</English>
+		<French>Notes RevDCM:</French>
+		<German>RevDCM Notizen:</German>
+		<Italian>RevDCM Note:</Italian>
+		<Spanish>RevDCM Notas:</Spanish>
+		<Finnish>RevDCM Huomautuksia:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCM_TAB_HELP</Tag>
+		<English>In depth information about this mod can be found in in the Docs folder of this mod: (Your Computer's Path to Civ4)/Beyond the Sword/Mods/RevolutionDCM/Docs</English>
+		<French>Vous pouvez trouver des informations plus detaillees de ce mod dans le dossier Documents dans le mod: (Route Civ4 sur votre ordinateur)/Beyond the Sword/Mods/RevolutionDCM/Docs</French>
+		<German>Vertiefte Informationen zu diesm Mod k&#246;nnen im zugeh&#246;rigen Docs-Verzeichnis gefunden werden: (Ihr Computer-Pfad zu Civ4)/Beyond the Sword/Mods/RevolutionDCM/Docs</German>
+		<Italian>Potete trovare informazioni piu dettagliate di questo mod nella cartella Documenti nel mod: (Route Civ4 sul computer)/Beyond the Sword/Mods/RevolutionDCM/Docs</Italian>
+		<Spanish>Se puede encontrar informacion mas detallada de este Mod en la carpeta de Docs en el mod: (Ruta de Civ4 en tu computadora)/Beyond the Sword/Mods/RevolutionDCM/Docs</Spanish>
+		<Finnish>Syv&#228;llist&#228; tietoa t&#228;st&#228; mod l&#246;ytyy asiakirjamallien kansioon t&#228;m&#228; modi: (Tietokoneen Polku Civ4)/Beyond the Sword/Mods/RevolutionDCM/Docs</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_INTERFACE_OPTIONS</Tag>
+		<English>Interface Options:</English>
+		<French>Options de l'interface:</French>
+		<German>Interface-Optionen:</German>
+		<Italian>Interfaccia opzioni:</Italian>
+		<Spanish>Opciones de interfaz:</Spanish>
+		<Finnish>Kayttoliittyman asetukset:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_SIEGE_OPTIONS</Tag>
+		<English>Siege Options:</English>
+		<French>Options Siege:</French>
+		<German>Belagerungs-Optionen:</German>
+		<Italian>Assedio Opzioni:</Italian>
+		<Spanish>Sitio Opciones:</Spanish>
+		<Finnish>Siege vaihtoehdot:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_BATTLE_OPTIONS</Tag>
+		<English>Battle Options:</English>
+		<French>Options Battle:</French>
+		<German>Kampf-Optionen:</German>
+		<Italian>Battaglia Opzioni:</Italian>
+		<Spanish>Batalla Opciones:</Spanish>
+		<Finnish>Battle vaihtoehdot:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_AIRFORCE_OPTIONS</Tag>
+		<English>Airforce Options:</English>
+		<French>Force aerienne Options:</French>
+		<German>Luftwaffen-Optionen:</German>
+		<Italian>Air Force Opzioni:</Italian>
+		<Spanish>Fuerza Aerea Opciones:</Spanish>
+		<Finnish>Ilmavoimien vaihtoehdot:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_IDW_OPTIONS</Tag>
+		<English>IDW Options:</English>
+		<French>Options IDW:</French>
+		<German>IDW-Optionen:</German>
+		<Italian>IDW Opzioni:</Italian>
+		<Spanish>IDW Opciones:</Spanish>
+		<Finnish>IDW vaihtoehdot:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_INFLUENCE_OPTIONS</Tag>
+		<English>Influence Options:</English>
+		<French>Options Influence:</French>
+		<German>Einfluss-Optionen:</German>
+		<Italian>Influenza Opzioni:</Italian>
+		<Spanish>Influencia Opciones:</Spanish>
+		<Finnish>Vaikutusvalta vaihtoehtoja:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_SPY_OPTIONS</Tag>
+		<English>Spy Options:</English>
+		<French>Options Spy:</French>
+		<German>Spionage-Optionen:</German>
+		<Italian>Spy Opzioni:</Italian>
+		<Spanish>Espionaje Opciones:</Spanish>
+		<Finnish>Spy vaihtoehdot:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_RELIGION_OPTIONS</Tag>
+		<English>Religion Options:</English>
+		<French>Options Religion:</French>
+		<German>Religions-Optionen:</German>
+		<Italian>Religione Opzioni:</Italian>
+		<Spanish>Religion Opciones:</Spanish>
+		<Finnish>Uskonto vaihtoehdot:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_BARBCIV_OPTIONS</Tag>
+		<English>BarbCiv Options:</English>
+		<French>Options BarbCiv:</French>
+		<German>BarbCiv-Optionen:</German>
+		<Italian>BarbCiv Opzioni:</Italian>
+		<Spanish>BarbCiv Opciones:</Spanish>
+		<Finnish>BarbCiv vaihtoehdot:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_NEWWORLD_OPTIONS</Tag>
+		<English>New World Options:</English>
+		<French>Options Nouveau Monde:</French>
+		<German>Neue-Welt-Optionen:</German>
+		<Italian>New World Opzioni:</Italian>
+		<Spanish>Nuevo Mundo Opciones:</Spanish>
+		<Finnish>New World vaihtoehdot:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_BARBCIV_STRENGTH_OPTIONS</Tag>
+		<English>BarbCiv Strength Settings:</English>
+		<French>Reglage force BarbCiv:</French>
+		<German>BarbCiv-St&#228;rke-Einstellungen:</German>
+		<Italian>BarbCiv Forza Settings:</Italian>
+		<Spanish>BarbCiv Fuerza Configuracion:</Spanish>
+		<Finnish>BarbCiv Vahvuus asetukset:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_RESET_DEFAULTS</Tag>
+		<English>Reset Defaults:</English>
+		<French>Reinitialiser:</French>
+		<German>Standard wiederherstellen:</German>
+		<Italian>Ripristina impostazioni predefinite:</Italian>
+		<Spanish>Restablecer valores predeterminados:</Spanish>
+		<Finnish>Palauta oletusasetukset:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REVDCMTAB_BBAI_OPTIONS</Tag>
+		<English>BBAI options:</English>
+		<French>BBAI options:</French>
+		<German>BBAI options:</German>
+		<Italian>BBAI options:</Italian>
+		<Spanish>BBAI options:</Spanish>
+		<Finnish>BBAI options:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__BBAI_DEFENSEPACT_TEXT</Tag>
+		<English>Defense pact type:</English>
+		<French>Defense pact type:</French>
+		<German>Defense pact type:</German>
+		<Italian>Defense pact type:</Italian>
+		<Spanish>Defense pact type:</Spanish>
+		<Finnish>Defense pact type:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__BBAI_DEFENSEPACT_HOVER</Tag>
+		<English>0=default bi-pact; 1=multi-pact; 2=offensive pact;</English>
+		<French>0=default bi-pact; 1=multi-pact; 2=offensive pact;</French>
+		<German>0=default bi-pact; 1=multi-pact; 2=offensive pact;</German>
+		<Italian>0=default bi-pact; 1=multi-pact; 2=offensive pact;</Italian>
+		<Spanish>0=default bi-pact; 1=multi-pact; 2=offensive pact;</Spanish>
+		<Finnish>0=default bi-pact; 1=multi-pact; 2=offensive pact;</Finnish>
+	</TEXT>
+</Civ4GameText>

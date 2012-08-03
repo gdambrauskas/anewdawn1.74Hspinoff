@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Ultimate Soldiers -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ULTSOLDIER</Tag>
+		<English>Ultimate Soldiers</English>
+		<French>Soldats Ultimes</French>
+		<German>Ultimate Soldiers</German>
+		<Italian>Ultimate Soldiers</Italian>
+		<Spanish>Ultimate Soldiers</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ULTSOLDIER_HQ</Tag>
+		<English>Ultimate Soldiers Headquarters</English>
+		<French>Siège de Soldats Ultimes</French>
+		<German>Ultimate-Soldiers-Zentrale</German>
+		<Italian>Ultimate Soldiers Headquarters</Italian>
+		<Spanish>Ultimate Soldiers Headquarters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ULTSOLDIER_TRAINER</Tag>
+		<English>Ultimate Soldiers Trainer</English>
+		<French>Entraîneur Soldats Ultimes</French>
+		<German>Ultimate-Soldiers-Ausbilder</German>
+		<Italian>Ultimate Soldiers Trainer</Italian>
+		<Spanish>Ultimate Soldiers Trainer</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ULTSOLDIER_EXECUTIVE</Tag>
+		<English>Ultimate Soldiers Executive</English>
+		<French>Gérant Soldats Ultimes</French>
+		<German>Ultimate-Soldiers-Geschäftsführer</German>
+		<Italian>Ultimate Soldiers Executive</Italian>
+		<Spanish>Ultimate Soldiers Executive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ULTSOLDIER_PEDIA</Tag>
+		<English>Arms Production has always been mostly a government duty during the earlier with most of the weapons being built by the nation owned armories, but with private investors such as Smith and Wesson and Krupp Steelworks and Boeing, weapon production shifted from the duty of the government to the private sector. Billions of dollars is spent yearly to devise new and inventive ways to not only protect the nation from threats but also extend their influence worldwide against other groups that may fall afoul of the interests of the government. As well as producing weapons, this company also covers Private Military Contractors, who hires mostly professional soldiers (80% of the PMCs soldiers consists of ex-military or law enforcement) who have at least 5-10 years of experience in the military branches but has “Retired” by the government due to their age and placing them in non-military roles such as office work . An approved PMC usually offer security services to a variety of people or certain areas that normal soldiers cannot reach due to chain of command, others work as soldiers of fortune or belief. Contrary to popular belief in fiction, no PMC is willing to recruit fresh out of school soldiers since sending them back in a body bag can be very poor for their reputation of professional soldiers.</English>
+		<French>Arms Production has always been mostly a government duty during the earlier with most of the weapons being built by the nation owned armories, but with private investors such as Smith and Wesson and Krupp Steelworks and Boeing, weapon production shifted from the duty of the government to the private sector. Billions of dollars is spent yearly to devise new and inventive ways to not only protect the nation from threats but also extend their influence worldwide against other groups that may fall afoul of the interests of the government. As well as producing weapons, this company also covers Private Military Contractors, who hires mostly professional soldiers (80% of the PMCs soldiers consists of ex-military or law enforcement) who have at least 5-10 years of experience in the military branches but has “Retired” by the government due to their age and placing them in non-military roles such as office work . An approved PMC usually offer security services to a variety of people or certain areas that normal soldiers cannot reach due to chain of command, others work as soldiers of fortune or belief. Contrary to popular belief in fiction, no PMC is willing to recruit fresh out of school soldiers since sending them back in a body bag can be very poor for their reputation of professional soldiers.</French>
+		<German>Arms Production has always been mostly a government duty during the earlier with most of the weapons being built by the nation owned armories, but with private investors such as Smith and Wesson and Krupp Steelworks and Boeing, weapon production shifted from the duty of the government to the private sector. Billions of dollars is spent yearly to devise new and inventive ways to not only protect the nation from threats but also extend their influence worldwide against other groups that may fall afoul of the interests of the government. As well as producing weapons, this company also covers Private Military Contractors, who hires mostly professional soldiers (80% of the PMCs soldiers consists of ex-military or law enforcement) who have at least 5-10 years of experience in the military branches but has “Retired” by the government due to their age and placing them in non-military roles such as office work . An approved PMC usually offer security services to a variety of people or certain areas that normal soldiers cannot reach due to chain of command, others work as soldiers of fortune or belief. Contrary to popular belief in fiction, no PMC is willing to recruit fresh out of school soldiers since sending them back in a body bag can be very poor for their reputation of professional soldiers.</German>
+		<Italian>Arms Production has always been mostly a government duty during the earlier with most of the weapons being built by the nation owned armories, but with private investors such as Smith and Wesson and Krupp Steelworks and Boeing, weapon production shifted from the duty of the government to the private sector. Billions of dollars is spent yearly to devise new and inventive ways to not only protect the nation from threats but also extend their influence worldwide against other groups that may fall afoul of the interests of the government. As well as producing weapons, this company also covers Private Military Contractors, who hires mostly professional soldiers (80% of the PMCs soldiers consists of ex-military or law enforcement) who have at least 5-10 years of experience in the military branches but has “Retired” by the government due to their age and placing them in non-military roles such as office work . An approved PMC usually offer security services to a variety of people or certain areas that normal soldiers cannot reach due to chain of command, others work as soldiers of fortune or belief. Contrary to popular belief in fiction, no PMC is willing to recruit fresh out of school soldiers since sending them back in a body bag can be very poor for their reputation of professional soldiers.</Italian>
+		<Spanish>Arms Production has always been mostly a government duty during the earlier with most of the weapons being built by the nation owned armories, but with private investors such as Smith and Wesson and Krupp Steelworks and Boeing, weapon production shifted from the duty of the government to the private sector. Billions of dollars is spent yearly to devise new and inventive ways to not only protect the nation from threats but also extend their influence worldwide against other groups that may fall afoul of the interests of the government. As well as producing weapons, this company also covers Private Military Contractors, who hires mostly professional soldiers (80% of the PMCs soldiers consists of ex-military or law enforcement) who have at least 5-10 years of experience in the military branches but has “Retired” by the government due to their age and placing them in non-military roles such as office work . An approved PMC usually offer security services to a variety of people or certain areas that normal soldiers cannot reach due to chain of command, others work as soldiers of fortune or belief. Contrary to popular belief in fiction, no PMC is willing to recruit fresh out of school soldiers since sending them back in a body bag can be very poor for their reputation of professional soldiers.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ULTSOLDIER_TRAINER_PEDIA</Tag>
+		<English>PMCs do not only provide military services for armies, but they also provide a source of military training for various military institutions. Thanks to the high quality former soldiers and spec-ops, they are used to help out in training men in a variety of military related things such as explosive disarmament, improving combat efficiency as well as other military skills that may improve one’s chance in combat. With the end of the Cold War and the reduction of standing armies, PMCs also offer employment opportunities to discharged soldiers worldwide.</English>
+		<French>PMCs do not only provide military services for armies, but they also provide a source of military training for various military institutions. Thanks to the high quality former soldiers and spec-ops, they are used to help out in training men in a variety of military related things such as explosive disarmament, improving combat efficiency as well as other military skills that may improve one’s chance in combat. With the end of the Cold War and the reduction of standing armies, PMCs also offer employment opportunities to discharged soldiers worldwide.</French>
+		<German>PMCs do not only provide military services for armies, but they also provide a source of military training for various military institutions. Thanks to the high quality former soldiers and spec-ops, they are used to help out in training men in a variety of military related things such as explosive disarmament, improving combat efficiency as well as other military skills that may improve one’s chance in combat. With the end of the Cold War and the reduction of standing armies, PMCs also offer employment opportunities to discharged soldiers worldwide.</German>
+		<Italian>PMCs do not only provide military services for armies, but they also provide a source of military training for various military institutions. Thanks to the high quality former soldiers and spec-ops, they are used to help out in training men in a variety of military related things such as explosive disarmament, improving combat efficiency as well as other military skills that may improve one’s chance in combat. With the end of the Cold War and the reduction of standing armies, PMCs also offer employment opportunities to discharged soldiers worldwide.</Italian>
+		<Spanish>PMCs do not only provide military services for armies, but they also provide a source of military training for various military institutions. Thanks to the high quality former soldiers and spec-ops, they are used to help out in training men in a variety of military related things such as explosive disarmament, improving combat efficiency as well as other military skills that may improve one’s chance in combat. With the end of the Cold War and the reduction of standing armies, PMCs also offer employment opportunities to discharged soldiers worldwide.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ULTSOLDIER_STRATEGY</Tag>
+		<English>Build this corporation in order to get military bonuses.</English>
+		<French>Build this corporation in order to get military bonuses.</French>
+		<German>Build this corporation in order to get military bonuses.</German>
+		<Italian>Build this corporation in order to get military bonuses.</Italian>
+		<Spanish>Build this corporation in order to get military bonuses.</Spanish>
+	</TEXT>	
+</Civ4GameText>

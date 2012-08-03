@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jesse Smith (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Misc art path information -->
+<Civ4ArtDefines xmlns="x-schema:Coal_UI_CIV4ArtDefinesSchema.xml">
+	<MiscArtInfos>
+		<MiscArtInfo>
+			<Type>DEFAULT_THEME_NAME</Type>
+			<Path>Resource/Civ4.thm</Path>
+			<fScale>0.0</fScale>
+			<NIF>None</NIF>
+			<KFM>None</KFM>
+		</MiscArtInfo>
+	</MiscArtInfos>
+</Civ4ArtDefines>

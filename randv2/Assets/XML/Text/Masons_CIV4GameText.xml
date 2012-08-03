@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Mason Guild -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_MASONGUILD</Tag>
+		<English>Masons Guild</English>
+		<French>Guilde des Maçons</French>
+		<German>Maurergilde</German>
+		<Italian>Masons Guild</Italian>
+		<Spanish>Masons Guild</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CORPORATION_HQ_MASONGUILD</Tag>
+		<English>Masons Master Guild</English>
+		<French>Siège de la Guilde des Maçons</French>
+		<German>Gilde der Maurermeister</German>
+		<Italian>Masons Master Guild</Italian>
+		<Spanish>Masons Master Guild</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_MASONGUILD</Tag>
+		<English>Master Masoner</English>
+		<French>Maître Maçon</French>
+		<German>Maurermeister</German>
+		<Italian>Master Masoner</Italian>
+		<Spanish>Master Masoner</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BGMASTER</Tag>
+		<English>Crafts Master</English>
+		<French>Maître Artisan</French>
+		<German>Handwerksmeister</German>
+		<Italian>Crafts Master</Italian>
+		<Spanish>Crafts Master</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CGUILDHALL</Tag>
+		<English>Crafts Guild Hall</English>
+		<French>Siège de la Guilde des Artisans</French>
+		<German>Gildehalle der Handwerker</German>
+		<Italian>Crafts Guild Hall</Italian>
+		<Spanish>Crafts Guild Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GUILDPAPER</Tag>
+		<English>Crafts Guild Charter</English>
+		<French>Charte de la Guilde des Artisans</French>
+		<German>Satzung der Handwerkergilde</German>
+		<Italian>Crafts Guild Charter</Italian>
+		<Spanish>Crafts Guild Charter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GUILDPAPER_PEDIA</Tag>
+		<English>Crafts Guild Charter</English>
+		<French>Charte de la Guilde des Artisans</French>
+		<German>Crafts Guild Charter</German>
+		<Italian>Crafts Guild Charter</Italian>
+		<Spanish>Crafts Guild Charter</Spanish>
+	</TEXT>
+</Civ4GameText>

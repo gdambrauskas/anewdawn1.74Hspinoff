@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+	Civ4lerts
+	Options Game Text
+
+	Copyright (c) 2009 The BUG Mod.
+-->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__ENABLED_TEXT</Tag>
+		<English>Enable Civ4lerts</English>
+		<French>Activer Civ4lerts</French>
+		<German>Civ4lerts aktivieren</German>
+		<Italian>Abilita Avvisi</Italian>
+		<Spanish>Activa Civ4lerts</Spanish>
+		<Finnish>Enable Civ4lerts</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CIV4LERTS_HOVER</Tag>
+		<English>When checked, messages are displayed to alert you to various pending and existing conditions using Dr. Elmer Jiggle's Civ4lerts mod.</English>
+		<French>Lorsque activé, des messages apparaissent pour vous informer de l'état de plusieurs éléments du jeu, grâce au mod Civ4lerts de Dr. Elmer Jiggle.</French>
+		<German>L&#228;sst Warnungen erscheinen, die bevorstehende oder bereits eingetretene Ereignisse melden (verwendet Dr. Elmer Jiggles "Civ4lerts"-Mod)</German>
+		<Italian>Quando &#232; selezionato, vengono visualizzati dei messaggi per avvertirti di varie condizioni presenti o imminenti (utilizzando il Civ4lerts Mod di Dr. Elmer Jiggle's).</Italian>
+		<Spanish>Cuando se activa, se muestran mensajes para informarte de varias condiciones, utilizando el Mod del Dr. Elmer Jiggle's Civ4lerts.</Spanish>
+		<Finnish>When checked, messages are displayed to alert you to various pending and existing conditions using Dr. Elmer Jiggle's Civ4lerts mod.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+<!-- Cities -->
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYPENDINGGROWTH_TEXT</Tag>
+		<English>Pending</English>
+		<French>Prévision Population</French>
+		<German>Bevorstehendes</German>
+		<Italian>Imminente</Italian>
+		<Spanish>Futuro Crecimiento</Spanish>
+		<Finnish>Pending</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYPENDINGGROWTH_HOVER</Tag>
+		<English>When checked, displays an alert when a city's population will grow or shrink next turn.</English>
+		<French>Lorsqe activé, un avertissement sera affiché quand la population d'une ville augmentera ou se réduira au prochain tour.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn die Bev&#246;lkerung einer Stadt in der n&#228;chsten Runde w&#228;chst oder schrumpft</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando la popolazione di una citt&#224; crescer&#224; o si ridurr&#224; al turno successivo.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando la poblaci&#243;n de una ciudad crecer&#225; o decrecer&#225; el pr&#243;ximo turno.</Spanish>
+		<Finnish>When checked, displays an alert when a city's population will grow or shrink next turn.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYGROWTH_TEXT</Tag>
+		<English>Growth</English>
+		<French>Population</French>
+		<German>Wachstum</German>
+		<Italian>Crescita</Italian>
+		<Spanish>Crecimiento</Spanish>
+		<Finnish>Growth</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYGROWTH_HOVER</Tag>
+		<English>When checked, displays an alert when a city's population has grown or shrunk.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand la population d'une ville a augmenté ou a été réduite.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn die Bev&#246;lkerung einer Stadt gewachsen oder geschrumpft ist</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando la popolazione di una citt&#224; cresce o si riduce.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando la poblaci&#243;n de una ciudad ha crecido o decrecido.</Spanish>
+		<Finnish>When checked, displays an alert when a city's population has grown or shrunk.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYPENDINGHAPPINESS_TEXT</Tag>
+		<English>Pending</English>
+		<French>Prévision Humeur</French>
+		<German>Bevorstehende</German>
+		<Italian>Imminente</Italian>
+		<Spanish>Futura Felicidad</Spanish>
+		<Finnish>Pending</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYPENDINGHAPPINESS_HOVER</Tag>
+		<English>When checked, displays an alert when a city will become happy or unhappy next turn.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand la population d'une ville deviendra mécontente ou à nouveau satisfaite au prochain tour.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn sich die Zufriedenheit der Bev&#246;lkerung einer Stadt in der n&#228;chsten Runde verbessert oder verschlechtert</German>
+		<Italian>Quando &#232; selezionato,viene visualizzato un avviso quando la popolazione di una citt&#224; diverr&#224; felice o infelice al turno successivo.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una ciudad se convertira en feliz o infeliz el pr&#243;ximo turno.</Spanish>
+		<Finnish>When checked, displays an alert when a city will become happy or unhappy next turn.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYHAPPINESS_TEXT</Tag>
+		<English>Happiness</English>
+		<French>Humeur</French>
+		<German>Zufriedenheit</German>
+		<Italian>Felicit&#224;</Italian>
+		<Spanish>Felicidad</Spanish>
+		<Finnish>Happiness</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYHAPPINESS_HOVER</Tag>
+		<English>When checked, displays an alert when a city has become happy or unhappy.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand la population d'une ville est devenu mécontente ou à nouveau satisfaite.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn sich die Zufriedenheit der Bev&#246;lkerung einer Stadt verbessert oder verschlechtert hat</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando la popolazione di una citt&#224; diviene felice o infelice.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una ciudad se ha convertido en feliz o infeliz.</Spanish>
+		<Finnish>When checked, displays an alert when a city has become happy or unhappy.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYPENDINGHEALTHINESS_TEXT</Tag>
+		<English>Pending</English>
+		<French>Prévision Sanitaire</French>
+		<German>Bevorstehende</German>
+		<Italian>Imminente</Italian>
+		<Spanish>Futura Salubridad</Spanish>
+		<Finnish>Pending</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYPENDINGHEALTHINESS_HOVER</Tag>
+		<English>When checked, displays an alert when a city will become healthy or unhealthy next turn.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand les conditions sanitaires d'une ville deviendront insalubres ou au contraire bonnes au prochain tour.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn sich die Gesundheit der Bev&#246;lkerung einer Stadt in der n&#228;chsten Runde verbessert oder verschlechtert</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando una citt&#224; diverr&#224; salubre o insalubre al turno successivo.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una ciudad se convertir&#225; en salubre o insalubre el pr&#243;ximo turno.</Spanish>
+		<Finnish>When checked, displays an alert when a city will become healthy or unhealthy next turn.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYHEALTHINESS_TEXT</Tag>
+		<English>Healthiness</English>
+		<French>Cond. Sanitaires</French>
+		<German>Gesundheit</German>
+		<Italian>Salute</Italian>
+		<Spanish>Salubridad</Spanish>
+		<Finnish>Healthiness</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYHEALTHINESS_HOVER</Tag>
+		<English>When checked, displays an alert when a city has become healthy or unhealthy.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand les conditions sanitaires d'une ville sont devenues insalubres ou au contraire bonnes.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn sich die Gesundheit der Bev&#246;lkerung einer Stadt verbessert oder verschlechtert hat</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando una citt&#224; diviene salubre o insalubre.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una ciudad se ha convertido en salubre o insalubre.</Spanish>
+		<Finnish>When checked, displays an alert when a city has become healthy or unhealthy.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYPENDINGOCCUPATION_TEXT</Tag>
+		<English>Pending</English>
+		<French>Prévision Pacification</French>
+		<German>Bevorstehende</German>
+		<Italian>Imminente</Italian>
+		<Spanish>Futura Pacificaci&#243;n</Spanish>
+		<Finnish>Pending</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYPENDINGOCCUPATION_HOVER</Tag>
+		<English>When checked, displays an alert when a city will be pacified next turn, ending occupation.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand une ville sera pacifié au prochain tour, mettant fin aux problèmes liés à l'occupation.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn die Unruhen in einer (eroberten) Stadt in der n&#228;chsten Runde enden</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando una citt&#224; verr&#224; pacificata al turno successivo, ponendo fine al periodo di occupazione.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una ciudad ser&#225; pacificada el pr&#243;ximo turno, finalizando la ocupaci&#243;n.</Spanish>
+		<Finnish>When checked, displays an alert when a city will be pacified next turn, ending occupation.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYOCCUPATION_TEXT</Tag>
+		<English>Pacification</English>
+		<French>Pacification</French>
+		<German>Beruhigung</German>
+		<Italian>Pacificazione</Italian>
+		<Spanish>Pacificaci&#243;n</Spanish>
+		<Finnish>Pacification</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYOCCUPATION_HOVER</Tag>
+		<English>When checked, displays an alert when a city has been pacified, ending occupation.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand une ville a été pacifié et que les effets de l'occupation sont dissipés.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn die Unruhen in einer (eroberten) Stadt enden</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando una citt&#224; viene pacificata, ponendo fine al periodo di occupazione.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una ciudad ha sido pacificada, finalizando la ocupaci&#243;n.</Spanish>
+		<Finnish>When checked, displays an alert when a city has been pacified, ending occupation.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+<!-- Hurry -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYCANHURRYPOP_TEXT</Tag>
+		<English>Can Hurry with Population</English>
+		<French>Accélérer aux dépends de la Population</French>
+		<German>Zwangsarbeit m&#246;glich</German>
+		<Italian>Accelerazione con sacrifici</Italian>
+		<Spanish>Aceleraci&#243;n con Sacrificio</Spanish>
+		<Finnish>Can Hurry with Population</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYCANHURRYPOP_HOVER</Tag>
+		<English>When checked, displays an alert once a city can hurry the item it's building with the whip.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand une ville peut accélérer la production en cours 'avec le fouet'.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn die Produktion einer Stadt durch Opferung eines Teils der Bev&#246;lkerung beschleunigt werden kann</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando una citt&#224; pu&#242; accelerare la produzione attuale mediante sacrifici di Popolazione.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una ciudad puede finalizar la producci&#243;n sacrificando poblaci&#243;n.</Spanish>
+		<Finnish>When checked, displays an alert once a city can hurry the item it's building with the whip.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYCANHURRYGOLD_TEXT</Tag>
+		<English>Can Hurry with Gold</English>
+		<French>Accélérer par l'argent</French>
+		<German>Goldzahlung m&#246;glich</German>
+		<Italian>Accelerazione con pagamenti</Italian>
+		<Spanish>Aceleraci&#243;n con Oro</Spanish>
+		<Finnish>Can Hurry with Gold</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__CITYCANHURRYGOLD_HOVER</Tag>
+		<English>When checked, displays an alert once a city can hurry the item it's building with gold.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand une ville peut accélerer la production en cours en payant avec de l'or.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn die Produktion einer Stadt durch Zahlung von Gold beschleunigt werden kann</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando una citt&#224; pu&#242; accelerare la produzione attuale mediante pagamenti in Oro.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta uando una ciudad puede finalizar la producci&#243;n con Oro.</Spanish>
+		<Finnish>When checked, displays an alert once a city can hurry the item it's building with gold.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+<!-- Diplomacy -->
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__REFUSESTOTALK_TEXT</Tag>
+		<English>Refuses to Talk</English>
+		<French>Refuse de vous parler</French>
+		<German>Ist nicht gespr&#228;chsbereit</German>
+		<Italian>Rifiuta di parlare</Italian>
+		<Spanish>Se niega a hablar</Spanish>
+		<Finnish>Refuses to Talk</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__REFUSESTOTALK_HOVER</Tag>
+		<English>When checked, displays an alert when a civilization changes their willingness to negotiate.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand une civilisation change sa volonté à négocier avec vous.</French>
+		<German>L&#228;sst eine Warnung erschienen, wenn eine Zivilisation ihre Neigung zum Verhandlen &#228;ndert.</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando una Civilt&#224; cambia la disponibilit&#224; ai colloqui diplomatici.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una Civilizaci&#243;n cambia su disposici&#243;n a negociar.</Spanish>
+		<Finnish>When checked, displays an alert when a civilization changes their willingness to negotiate.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__WORSTENEMY_TEXT</Tag>
+		<English>Worst Enemy</English>
+		<French>Pire Ennemi</French>
+		<German>Erzfeind</German>
+		<Italian>Peggiori Nemici</Italian>
+		<Spanish>Peor Enemigo</Spanish>
+		<Finnish>Worst Enemy</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__WORSTENEMY_HOVER</Tag>
+		<English>When checked, displays an alert when a civilization's worst enemy changes.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand le pire ennemi d'une civilisation change.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn der Erzfeind einer Zivilisation wechselt</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando cambia il perccgio nemico di una Civilt&#224;.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta el peor enemigo de una Civilizaci&#243;n cambia.</Spanish>
+		<Finnish>When checked, displays an alert when a civilization's worst enemy changes.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+<!-- Trade -->
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__GOLDTRADE_TEXT</Tag>
+		<English>Gold</English>
+		<French>Or</French>
+		<German>Goldbetrag</German>
+		<Italian>Oro</Italian>
+		<Spanish>Oro</Spanish>
+		<Finnish>Gold</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__GOLDTRADE_HOVER</Tag>
+		<English>When checked, displays an alert when a civilization can trade a specified amount of gold.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand une civilisation peut échanger ou payer une quantité d'or définie.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn eine Zivilisation eine bestimmte Menge Gold zum Handeln zur Verf&#252;gung hat</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando una Civilt&#224; &#232; disponibile a commerciare un ammontare d'oro predefinito.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una Civilizaci&#243;n est&#225; dispuesta a comerciar cierta cantidad de oro.</Spanish>
+		<Finnish>When checked, displays an alert when a civilization can trade a specified amount of gold.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__GOLDTRADETHRESH_TEXT</Tag>
+		<English>Threshold</English>
+		<French>Seuil Trésor</French>
+		<German>Schwelle</German>
+		<Italian>Quantit&#224;</Italian>
+		<Spanish>Umbral</Spanish>
+		<Finnish>Threshold</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__GOLDTRADETHRESH_HOVER</Tag>
+		<English>Determines the threshold for the amount of gold that will display an alert.</English>
+		<French>Détermine la limite en quantité d'or dans le trésor donnant lieu à un avertissement.</French>
+		<German>Bestimmt die Schwelle f&#252;r den Goldbetrag, ab der eine Meldung ausgegeben wird</German>
+		<Italian>Determina la quantit&#224; d'oro che costituisce il limite per la visualizzazione dell'avviso.</Italian>
+		<Spanish>Determina el umbral de la cantidad de Oro necesaria para emitir la alerta.</Spanish>
+		<Finnish>Determines the threshold for the amount of gold that will display an alert.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__GOLDPERTURNTRADE_TEXT</Tag>
+		<English>Gold Per Turn</English>
+		<French>Or Par Tour</French>
+		<German>Gold pro Runde</German>
+		<Italian>Oro per turno</Italian>
+		<Spanish>Oro por turno</Spanish>
+		<Finnish>Gold Per Turn</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__GOLDPERTURNTRADE_HOVER</Tag>
+		<English>When checked, displays an alert when a civilization can trade a specified amount of gold per turn.</English>
+		<French>Lorsque activé, un avertissement sera affiché quand une civilisation peut échanger ou payer un tribut en or par tour.</French>
+		<German>L&#228;sst eine Warnung erscheinen, wenn eine Zivilisation eine bestimmte Menge Gold pro Runde zum Handeln zur Verf&#252;gung hat</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato un avviso quando una Civilt&#224; &#232; disponibile a commerciare un ammontare d'oro per turno predefinito.</Italian>
+		<Spanish>Cuando se activa, muestra una alerta cuando una Civilizaci&#243;n puede comerciar cierta cantidad de oro por turno.</Spanish>
+		<Finnish>When checked, displays an alert when a civilization can trade a specified amount of gold per turn.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__GOLDPERTURNTRADETHRESH_TEXT</Tag>
+		<English>Threshold</English>
+		<French>Seuil Tribut</French>
+		<German>Schwelle</German>
+		<Italian>Quantit&#224;</Italian>
+		<Spanish>Umbral</Spanish>
+		<Finnish>Threshold</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CIV4LERTS__GOLDPERTURNTRADETHRESH_HOVER</Tag>
+		<English>Determines the threshold for gold per turn that will display an alert.</English>
+		<French>Détermine le seuil du tribut (en or par tour) qui donne lieu à un avertissement.</French>
+		<German>Bestimmt die Schwelle f&#252;r die Menge Gold pro Runde, ab der eine Meldung ausgegeben wird</German>
+		<Italian>Determina la quantit&#224; d'oro per turno che costituisce il limite per la visualizzazione dell'avviso.</Italian>
+		<Spanish>Determina el umbral de la cantidad de Oro por turno necesaria para emitir la alerta.</Spanish>
+		<Finnish>Determines the threshold for gold per turn that will display an alert.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+
+</Civ4GameText>

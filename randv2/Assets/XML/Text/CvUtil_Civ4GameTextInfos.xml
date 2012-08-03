@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text Infos -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CVUTIL_RELIGION_RESPAWNED</Tag>
+		<English>A Holy City Religion has been Respawned.</English>
+		<French>Une nouvelle Ville Sainte a été choisie pour la religion.</French>
+		<German>A Holy City Religion has been Respawned.</German>
+		<Italian>A Holy City Religion has been Respawned.</Italian>
+		<Spanish>A Holy City Religion has been Respawned.</Spanish>
+		<Finnish>A Holy City Religion has been Respawned.</Finnish>
+		<Hungarian>A Holy City Religion has been Respawned.</Hungarian>
+		<Polish>A Holy City Religion has been Respawned.</Polish>
+		<Russian>A Holy City Religion has been Respawned.</Russian>
+		<Chinese>A Holy City Religion has been Respawned.</Chinese>
+		<Japanese>A Holy City Religion has been Respawned.</Japanese>
+	</TEXT>
+</Civ4GameText>

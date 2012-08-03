@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Safari Hunters -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI</Tag>
+		<English>Safari Hunters</English>
+		<French>Chasseurs Safari</French>
+		<German>Safari Hunters</German>
+		<Italian>Safari Hunters</Italian>
+		<Spanish>Safari Hunters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI_HQ</Tag>
+		<English>Safari Hunters Headquarters</English>
+		<French>Siège des Chasseurs Safari</French>
+		<German>Safari-Hunters-Zentrale</German>
+		<Italian>Safari Hunters Headquarters</Italian>
+		<Spanish>Safari Hunters Headquarters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI_GUIDE</Tag>
+		<English>Safari Hunters Guide</English>
+		<French>Guide des Chasseurs Safari</French>
+		<German>Safari-Hunters-Führer</German>
+		<Italian>Safari Hunters Guide</Italian>
+		<Spanish>Safari Hunters Guide</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SAFARI_EXECUTIVE</Tag>
+		<English>Safari Hunters Executive</English>
+		<French>Gérant des Chasseurs Safari</French>
+		<German>Safari-Hunters-Geschäftsführer</German>
+		<Italian>Safari Hunters Executive</Italian>
+		<Spanish>Safari Hunters Executive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI_PEDIA</Tag>
+		<English>Hunting was always a part of nobility as a source of recreation where they will go to the wilderness to hunt game for both food and sport. During the great age of colonialism in Africa, Europe discovered what lifeblood was during the days before they settled down: Hunting. Many aristocrats will head to parts of Africa to hunt and kill animals for sport which was considered to be trophy hunting as the creatures in Africa were much more fierce and deadly than what they had encountered in Europe ranging from elephants to lions despite controversy in. Hunting remains a recreation sport in many areas including Africa but compared to the old days where hunting laws were made to prohibit peasants from hunting certain animals during certain seasons.</English>
+		<French>Hunting was always a part of nobility as a source of recreation where they will go to the wilderness to hunt game for both food and sport. During the great age of colonialism in Africa, Europe discovered what lifeblood was during the days before they settled down: Hunting. Many aristocrats will head to parts of Africa to hunt and kill animals for sport which was considered to be trophy hunting as the creatures in Africa were much more fierce and deadly than what they had encountered in Europe ranging from elephants to lions despite controversy in. Hunting remains a recreation sport in many areas including Africa but compared to the old days where hunting laws were made to prohibit peasants from hunting certain animals during certain seasons.</French>
+		<German>Hunting was always a part of nobility as a source of recreation where they will go to the wilderness to hunt game for both food and sport. During the great age of colonialism in Africa, Europe discovered what lifeblood was during the days before they settled down: Hunting. Many aristocrats will head to parts of Africa to hunt and kill animals for sport which was considered to be trophy hunting as the creatures in Africa were much more fierce and deadly than what they had encountered in Europe ranging from elephants to lions despite controversy in. Hunting remains a recreation sport in many areas including Africa but compared to the old days where hunting laws were made to prohibit peasants from hunting certain animals during certain seasons.</German>
+		<Italian>Hunting was always a part of nobility as a source of recreation where they will go to the wilderness to hunt game for both food and sport. During the great age of colonialism in Africa, Europe discovered what lifeblood was during the days before they settled down: Hunting. Many aristocrats will head to parts of Africa to hunt and kill animals for sport which was considered to be trophy hunting as the creatures in Africa were much more fierce and deadly than what they had encountered in Europe ranging from elephants to lions despite controversy in. Hunting remains a recreation sport in many areas including Africa but compared to the old days where hunting laws were made to prohibit peasants from hunting certain animals during certain seasons.</Italian>
+		<Spanish>Hunting was always a part of nobility as a source of recreation where they will go to the wilderness to hunt game for both food and sport. During the great age of colonialism in Africa, Europe discovered what lifeblood was during the days before they settled down: Hunting. Many aristocrats will head to parts of Africa to hunt and kill animals for sport which was considered to be trophy hunting as the creatures in Africa were much more fierce and deadly than what they had encountered in Europe ranging from elephants to lions despite controversy in. Hunting remains a recreation sport in many areas including Africa but compared to the old days where hunting laws were made to prohibit peasants from hunting certain animals during certain seasons.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SAFARI_GUIDE_PEDIA</Tag>
+		<English>The Safari Guides are the branches of Safari Hunters, being responsible for the expeditions carried out by eager hunters and trappers. They do a variety of things related to huntng, being expert guides which make sure the hunters violate wildlife laws (Poaching, hunting during closed seasons), providing information about the hunting area as well as helping inexperienced hunters and trappers on finding good hunting grounds. They also help sell hunting equipments from weapons to bait. Some of the guides are from the nearby villages and rural settlements who may have a greater understanding than the more urbanized guides.</English>
+		<French>The Safari Guides are the branches of Safari Hunters, being responsible for the expeditions carried out by eager hunters and trappers. They do a variety of things related to huntng, being expert guides which make sure the hunters violate wildlife laws (Poaching, hunting during closed seasons), providing information about the hunting area as well as helping inexperienced hunters and trappers on finding good hunting grounds. They also help sell hunting equipments from weapons to bait. Some of the guides are from the nearby villages and rural settlements who may have a greater understanding than the more urbanized guides.</French>
+		<German>The Safari Guides are the branches of Safari Hunters, being responsible for the expeditions carried out by eager hunters and trappers. They do a variety of things related to huntng, being expert guides which make sure the hunters violate wildlife laws (Poaching, hunting during closed seasons), providing information about the hunting area as well as helping inexperienced hunters and trappers on finding good hunting grounds. They also help sell hunting equipments from weapons to bait. Some of the guides are from the nearby villages and rural settlements who may have a greater understanding than the more urbanized guides.</German>
+		<Italian>The Safari Guides are the branches of Safari Hunters, being responsible for the expeditions carried out by eager hunters and trappers. They do a variety of things related to huntng, being expert guides which make sure the hunters violate wildlife laws (Poaching, hunting during closed seasons), providing information about the hunting area as well as helping inexperienced hunters and trappers on finding good hunting grounds. They also help sell hunting equipments from weapons to bait. Some of the guides are from the nearby villages and rural settlements who may have a greater understanding than the more urbanized guides.</Italian>
+		<Spanish>The Safari Guides are the branches of Safari Hunters, being responsible for the expeditions carried out by eager hunters and trappers. They do a variety of things related to huntng, being expert guides which make sure the hunters violate wildlife laws (Poaching, hunting during closed seasons), providing information about the hunting area as well as helping inexperienced hunters and trappers on finding good hunting grounds. They also help sell hunting equipments from weapons to bait. Some of the guides are from the nearby villages and rural settlements who may have a greater understanding than the more urbanized guides.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SAFARI_STRATEGY</Tag>
+		<English>Build this corporation in order to get hunting bonuses.</English>
+		<French>Build this corporation in order to get hunting bonuses.</French>
+		<German>Build this corporation in order to get hunting bonuses.</German>
+		<Italian>Build this corporation in order to get hunting bonuses.</Italian>
+		<Spanish>Build this corporation in order to get hunting bonuses.</Spanish>
+	</TEXT>	
+</Civ4GameText>

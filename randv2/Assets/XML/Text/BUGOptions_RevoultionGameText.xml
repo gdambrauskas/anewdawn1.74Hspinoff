@@ -1,0 +1,1836 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text -->
+<!-- -->
+
+<!-- RevConfig -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ACTIVEPOPUP_TEXT</Tag>
+		<English>RevInit Popup</English>
+		<French>RevInit Popup</French>
+		<German>RevInit-Fenster</German>
+		<Italian>RevInit Popup</Italian>
+		<Spanish>RevInit Popup</Spanish>
+		<Finnish>RevInit Popup</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ACTIVEPOPUP_HOVER</Tag>
+		<English>Display popup on initialization indicating what components are active</English>
+		<French>Display popup on initialization indicating what components are active</French>
+		<German>Bei der Initialisierung öffnet sich ein Fenster, das anzeigt, welche Komponenten aktiv sind</German>
+		<Italian>Display popup on initialization indicating what components are active</Italian>
+		<Spanish>Muestra un popup en la inicializaci&#243;n indicando que componentes hay activos.</Spanish>
+		<Finnish>Display popup on initialization indicating what components are active</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVCONFIGDEBUGMODE_TEXT</Tag>
+		<English>RevConfig Debug</English>
+		<French>RevConfig Debug</French>
+		<German>RevConfig Debug</German>
+		<Italian>RevConfig Debug</Italian>
+		<Spanish>RevConfig Debug</Spanish>
+		<Finnish>RevConfig Debug</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVCONFIGDEBUGMODE_HOVER</Tag>
+		<English>Don't change this</English>
+		<French>Don't change this</French>
+		<German>Nicht verändern!</German>
+		<Italian>Don't change this</Italian>
+		<Spanish>No cambies esto</Spanish>
+		<Finnish>Don't change this</Finnish>
+	</TEXT>
+
+<!-- BarbarianCiv -->
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVDEBUGMODE_TEXT</Tag>
+		<English>BarbCiv Debug</English>
+		<French>BarbCiv Debug</French>
+		<German>BarbCiv Debug</German>
+		<Italian>BarbCiv Debug</Italian>
+		<Spanish>BarbCiv Debug</Spanish>
+		<Finnish>BarbCiv Debug</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVDEBUGMODE_HOVER</Tag>
+		<English>Turn on Barbarian Civ Debug output</English>
+		<French>Turn on Barbarian Civ Debug output</French>
+		<German>Schaltet die Barbarian Civ Debug-Ausgabe ein</German>
+		<Italian>Turn on Barbarian Civ Debug output</Italian>
+		<Spanish>Activa la salida de depuraci&#243;n del mod Barbarian Civ.</Spanish>
+		<Finnish>Turn on Barbarian Civ Debug output</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ANNOUNCEBARBSETTLE_TEXT</Tag>
+		<English>Announce Barb Settling</English>
+		<French>Announce Barb Settling</French>
+		<German>Ankündigung Barbarenansiedlung</German>
+		<Italian>Announce Barb Settling</Italian>
+		<Spanish>Anuncia Asentamiento B&#225;rbaro</Spanish>
+		<Finnish>Announce Barb Settling</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ANNOUNCEBARBSETTLE_HOVER</Tag>
+		<English>Enables announcment when Barbarian cities settle down and spawn new civs</English>
+		<French>Enables announcment when Barbarian cities settle down and spawn new civs</French>
+		<German>Kündigt an, wenn sich Barbarenstädte ansiedeln und neue Zivilisationen gegründet werden</German>
+		<Italian>Enables announcment when Barbarian cities settle down and spawn new civs</Italian>
+		<Spanish>Activa el anuncio cuando una ciudad b&#225;rbara se asienta y forma una nueva civilizaci&#243;n.</Spanish>
+		<Finnish>Enables announcment when Barbarian cities settle down and spawn new civs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__USEPOPUP_TEXT</Tag>
+		<English>Barb Settle Popup</English>
+		<French>Barb Settle Popup</French>
+		<German>Fenster bei Barbarenansiedlung</German>
+		<Italian>Barb Settle Popup</Italian>
+		<Spanish>Popup Asentamiento B&#225;rbaro</Spanish>
+		<Finnish>Barb Settle Popup</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__USEPOPUP_HOVER</Tag>
+		<English>Use a popup when announcing barbarian city settleing</English>
+		<French>Use a popup when announcing barbarian city settleing</French>
+		<German>Bei der Ankündigung von sich ansiedelnden Barbaren öffnet sich ein Fenster</German>
+		<Italian>Use a popup when announcing barbarian city settleing</Italian>
+		<Spanish>Muestra un popup anunciando que una ciudad b&#225;rbara se asienta y forma una nueva civilizaci&#243;n.</Spanish>
+		<Finnish>Use a popup when announcing barbarian city settleing</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ONLYNOTIFYNEARBYPLAYERS_TEXT</Tag>
+		<English>Notify nearby players only</English>
+		<French>Notify nearby players only</French>
+		<German>Benachrichtige nur nahe gelegene Spieler</German>
+		<Italian>Notify nearby players only</Italian>
+		<Spanish>Notificar jugadores cercanos</Spanish>
+		<Finnish>Notify nearby players only</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ONLYNOTIFYNEARBYPLAYERS_HOVER</Tag>
+		<English>Only nearby players are notified when barbarian cities settle</English>
+		<French>Only nearby players are notified when barbarian cities settle</French>
+		<German>Nur Spieler, die sich in der Nähe befinden, werden von der Gründung von Barbarenstädten benachrichtigt</German>
+		<Italian>Only nearby players are notified when barbarian cities settle</Italian>
+		<Spanish>Solo los jugadores cercanos son notificados cuando una ciudad b&#225;rbara se asienta.</Spanish>
+		<Finnish>Only nearby players are notified when barbarian cities settle</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BLOCKPOPUPINAUTO_TEXT</Tag>
+		<English>No Auto Popup</English>
+		<French>No Auto Popup</French>
+		<German>Kein automatisches Fenster</German>
+		<Italian>No Auto Popup</Italian>
+		<Spanish>No Popup en autom&#225;tico</Spanish>
+		<Finnish>No Auto Popup</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BLOCKPOPUPINAUTO_HOVER</Tag>
+		<English>Lock barb settle popup while AIAutoPlay is on (will show up as messages)</English>
+		<French>Lock barb settle popup while AIAutoPlay is on (will show up as messages)</French>
+		<German>Blockiert das Öffnen von Fenstern zur Ansiedlung von Barbaren, wenn AIAutoPlay läuft (wird als Textmeldung angezeigt)</German>
+		<Italian>Lock barb settle popup while AIAutoPlay is on (will show up as messages)</Italian>
+		<Spanish>Bloquea el popup de asentamiento b&#225;rbaro cuando AIAutoPlay esta activado (solo se mostrara el mensaje)</Spanish>
+		<Finnish>Lock barb settle popup while AIAutoPlay is on (will show up as messages)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBARIAN_CIV_TEXT</Tag>
+		<English>Barbarian Civ</English>
+		<French>Barbarian Civ</French>
+		<German>Barbarian Civ</German>
+		<Italian>Barbarian Civ</Italian>
+		<Spanish>Barbarian Civ</Spanish>
+		<Finnish>Barbarian Civ</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBARIAN_CIV_HOVER</Tag>
+		<English>Barbarian Civ</English>
+		<French>Barbarian Civ</French>
+		<German>Barbarian Civ</German>
+		<Italian>Barbarian Civ</Italian>
+		<Spanish>Barbarian Civ</Spanish>
+		<Finnish>Barbarian Civ</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDPOLICY_TEXT</Tag>
+		<English>New World Policy</English>
+		<French>New World Policy</French>
+		<German>Neue-Welt-Regeln</German>
+		<Italian>New World Policy</Italian>
+		<Spanish>Pol&#237;tica de Nuevo Mundo</Spanish>
+		<Finnish>New World Policy</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDPOLICY_HOVER</Tag>
+		<English>Sets New World policy on Barbarian civ settling in new world landmasses[NEWLINE]0:  New World treated like Old World[NEWLINE]1:  New World barb civs spawn as normal, but chance to settle into a full civ from a minor is reduced[NEWLINE]2:  New World barbarian civs stay minors until contact is made with an old world civ[NEWLINE]3:  Like 2, but New World barb civs cannot settle until an Old World unit lands on the landmass[NEWLINE]4:  Barb civs will not spawn until an old world civ unit lands on landmass[NEWLINE]5:  Barb civs will not spawn until an old world civ settles a city on the landmass</English>
+		<French>Sets New World policy on Barbarian civ settling in new world landmasses[NEWLINE]0:  New World treated like Old World[NEWLINE]1:  New World barb civs spawn as normal, but chance to settle into a full civ from a minor is reduced[NEWLINE]2:  New World barbarian civs stay minors until contact is made with an old world civ[NEWLINE]3:  Like 2, but New World barb civs cannot settle until an Old World unit lands on the landmass[NEWLINE]4:  Barb civs will not spawn until an old world civ unit lands on landmass[NEWLINE]5:  Barb civs will not spawn until an old world civ settles a city on the landmass</French>
+		<German>Regelt die Ansiedlung von Barbarensiedlungen auf Kontinenten der Neuen Welt[NEWLINE]0:  Die Neue Welt wird wie die Alte Welt behandelt[NEWLINE]1:  Normale Verbreitung von Barbaren-Zivilisationen in der Neuen Welt, aber die Wahrscheinlichkeit der Entstehung einer vollen Zivilisation aus einer kleinen Zivilisation ist reduziert[NEWLINE]2:  Die Barbaren-Zivilisationen der Neuen Welt bleiben klein, bis sie Kontakt mir einer Zivilisation der Alten Welt gemacht haben[NEWLINE]3:  Wie 2, aber Barbaren-Zivilisationen der Neuen Welt können sich erst weiterentwickeln, wenn eine Einheit der Alten Welt ihren Kontinent betreten hat[NEWLINE]4:  Barbaren-Zivilisationen entstehen erst, wenn eine Einheit der Alten Welt den Kontinent betreten hat[NEWLINE]5:  Barbaren-Zivilisationen entstehen erst, wenn eine Zivilisation der Alten Welt eine Stadt auf dem Kontinent gegründet hat</German>
+		<Italian>Sets New World policy on Barbarian civ settling in new world landmasses[NEWLINE]0:  New World treated like Old World[NEWLINE]1:  New World barb civs spawn as normal, but chance to settle into a full civ from a minor is reduced[NEWLINE]2:  New World barbarian civs stay minors until contact is made with an old world civ[NEWLINE]3:  Like 2, but New World barb civs cannot settle until an Old World unit lands on the landmass[NEWLINE]4:  Barb civs will not spawn until an old world civ unit lands on landmass[NEWLINE]5:  Barb civs will not spawn until an old world civ settles a city on the landmass</Italian>
+		<Spanish>Establece la Pol&#237;tica de Nuevo Mundo sobre las civilizaciones b&#225;rbaras asent&#225;ndose en territorios 'Nuevo Mundo'[NEWLINE]0:  Nuevo Mundo tratado como Viejo Mundo[NEWLINE]1:  Las civilizaciones b&#225;rbaras del Nuevo Mundo aparecen normalmente, pero la probabilidad de crecer a una civilizaci&#243;n completa es reducida[NEWLINE]2:  Las civilizaciones b&#225;rbaras del Nuevo Mundo permanecen como civilizaciones menores hasta el contacto con las civilizaciones del Viejo Mundo[NEWLINE]3:  Como el punto 2, pero las civilizaciones b&#225;rbaras del Nuevo Mundo no pueden pasar de menores hasta que una unidad del Viejo Mundo pisa la tierra[NEWLINE]4:  Las civilizaciones b&#225;rbaras del Nuevo Mundo no crecer&#225;n a civilizaci&#243;n menor hasta que una unidad del Viejo Mundo pisa la tierra[NEWLINE]5:  Las civilizaciones b&#225;rbaras del Nuevo Mundo no crecer&#225;n a civilizaci&#243;n menor hasta que una civilizaci&#243;n del Viejo Mundo funda una ciudad en el territorio</Spanish>
+		<Finnish>Sets New World policy on Barbarian civ settling in new world landmasses[NEWLINE]0:  New World treated like Old World[NEWLINE]1:  New World barb civs spawn as normal, but chance to settle into a full civ from a minor is reduced[NEWLINE]2:  New World barbarian civs stay minors until contact is made with an old world civ[NEWLINE]3:  Like 2, but New World barb civs cannot settle until an Old World unit lands on the landmass[NEWLINE]4:  Barb civs will not spawn until an old world civ unit lands on landmass[NEWLINE]5:  Barb civs will not spawn until an old world civ settles a city on the landmass</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINORHALFLIFE_TEXT</Tag>
+		<English>Minor Half Life</English>
+		<French>Minor Half Life</French>
+		<German>Halbwertszeit der Kleinen Zivilisation</German>
+		<Italian>Minor Half Life</Italian>
+		<Spanish>Vida Media Civ. Menor</Spanish>
+		<Finnish>Minor Half Life</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINORHALFLIFE_HOVER</Tag>
+		<English>Average number of turns a new world minor civ remains a minor after the conditions under NewWorldPolicies 2 and higher are satisfied</English>
+		<French>Average number of turns a new world minor civ remains a minor after the conditions under NewWorldPolicies 2 and higher are satisfied</French>
+		<German>Durchschnittliche Rundenzahl, die eine kleine Barbaren-Zivilisation in der Neuen Welt benötigt, bis sie nach Erfüllung der Anforderungen der Neue-Welt-Regeln 2 bis 5 zu einer großen Zivilisation wächst.</German>
+		<Italian>Average number of turns a new world minor civ remains a minor after the conditions under NewWorldPolicies 2 and higher are satisfied</Italian>
+		<Spanish>Numero de turnos medio en que una civilizaci&#243;n menor permanece menor despu&#233;s de que las condiciones de Pol&#237;tica de Nuevo Mundo 2 y superiores se han cumplido</Spanish>
+		<Finnish>Average number of turns a new world minor civ remains a minor after the conditions under NewWorldPolicies 2 and higher are satisfied</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FIERCENATIVES_TEXT</Tag>
+		<English>Fierce Natives</English>
+		<French>Fierce Natives</French>
+		<German>Aggressive Ureinwohner</German>
+		<Italian>Fierce Natives</Italian>
+		<Spanish>Nativos Agresivos</Spanish>
+		<Finnish>Fierce Natives</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FIERCENATIVES_HOVER</Tag>
+		<English>New World barbcivs will attack Old World civs preferentially and in addition to wars against other new world civs</English>
+		<French>New World barbcivs will attack Old World civs preferentially and in addition to wars against other new world civs</French>
+		<German>Die Barbaren-Zivilisationen der Neuen Welt greifen Zivilisationen der Alten Welt bevorzugt und zusätzlich zu Kriegen mit anderen Zivilisationen der Neuen Welt an</German>
+		<Italian>New World barbcivs will attack Old World civs preferentially and in addition to wars against other new world civs</Italian>
+		<Spanish>Las civilizaciones b&#225;rbaras del Nuevo Mundo atacaran a las del Viejo Mundo preferiblemente y adem&#225;s de las guerras que tuvieran con otras civilizaciones del Nuevo Mundo</Spanish>
+		<Finnish>New World barbcivs will attack Old World civs preferentially and in addition to wars against other new world civs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERCONTROL_TEXT</Tag>
+		<English>Offer Control</English>
+		<French>Offer Control</French>
+		<German>Angebot der Kontrolle</German>
+		<Italian>Offer Control</Italian>
+		<Spanish>Ofrecer Control</Spanish>
+		<Finnish>Offer Control</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERCONTROL_HOVER</Tag>
+		<English>Offer player control of new barb civilizations</English>
+		<French>Offer player control of new barb civilizations</French>
+		<German>Bietet dem Spieler die Kontrolle einer neuen Barbaren-Zivilisation an</German>
+		<Italian>Offer player control of new barb civilizations</Italian>
+		<Spanish>Ofrece al jugador tomar el control de las nuevas civilizaciones b&#225;rbaras</Spanish>
+		<Finnish>Offer player control of new barb civilizations</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CANCELAUTOFOROFFER_TEXT</Tag>
+		<English>Cancel Offer Control</English>
+		<French>Cancel Offer Control</French>
+		<German>Angebot der Kontrolle aufheben</German>
+		<Italian>Cancel Offer Control</Italian>
+		<Spanish>Cancelar Ofrecer Control</Spanish>
+		<Finnish>Cancel Offer Control</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CANCELAUTOFOROFFER_HOVER</Tag>
+		<English>Cancels player control of new barb civilizations</English>
+		<French>Cancels player control of new barb civilizations</French>
+		<German>Beendet die Kontrolle neuer Barbaren-Zivilisationen durch den Spieler</German>
+		<Italian>Cancels player control of new barb civilizations</Italian>
+		<Spanish>Cancela la toma de control de las nuevas civilizaciones b&#225;rbaras por el jugador</Spanish>
+		<Finnish>Cancels player control of new barb civilizations</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVSBYSTYLE_TEXT</Tag>
+		<English>BarbCiv Style</English>
+		<French>BarbCiv Style</French>
+		<German>BarbCiv-Stil</German>
+		<Italian>BarbCiv Style</Italian>
+		<Spanish>Estilo Civ. B&#225;rbaras</Spanish>
+		<Finnish>BarbCiv Style</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVSBYSTYLE_HOVER</Tag>
+		<English>If a city has culture, spawn a new civ with same art style as highest culture player</English>
+		<French>If a city has culture, spawn a new civ with same art style as highest culture player</French>
+		<German>Wenn eine Barbarenstadt Kultur entwickelt, so ensteht eine neue Zivilisation mit dem Stil des Spielers mit der höchstem Kulturwert</German>
+		<Italian>If a city has culture, spawn a new civ with same art style as highest culture player</Italian>
+		<Spanish>Si una ciudad tiene cultura, genera una nueva civilizaci&#243;n b&#225;rbaras con el mismo estilo art&#237;stico que el jugador con la cultura m&#225;s elevada.</Spanish>
+		<Finnish>If a city has culture, spawn a new civ with same art style as highest culture player</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVMAXCIVS_TEXT</Tag>
+		<English>Max BarbCivs</English>
+		<French>Max BarbCivs</French>
+		<German>Maximale BarbCivs</German>
+		<Italian>Max BarbCivs</Italian>
+		<Spanish>Maximo de Civ. B&#225;rbaras</Spanish>
+		<Finnish>Max BarbCivs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVMAXCIVS_HOVER</Tag>
+		<English>Barbcivs will not spawn if there are already this many civs in the game (-1 for DLL limit)</English>
+		<French>Barbcivs will not spawn if there are already this many civs in the game (-1 for DLL limit)</French>
+		<German>Barbaren-Zivilisationen entstehen nicht, wenn es bereits so viele Zivilisationen im Spiel gibt (-1 wegen der DLL-Begrenzung)</German>
+		<Italian>Barbcivs will not spawn if there are already this many civs in the game (-1 for DLL limit)</Italian>
+		<Spanish>Las Civ. B&#225;rbaras no se asentaran si ya hay este n&#250;mero de civilizaciones en el juego (-1 del l&#237;mite DLL)</Spanish>
+		<Finnish>Barbcivs will not spawn if there are already this many civs in the game (-1 for DLL limit)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FORMMINORMODIFIER_TEXT</Tag>
+		<English>Form Minor Modifier</English>
+		<French>Form Minor Modifier</French>
+		<German>Modifikator zur Enstehung kleiner Civs</German>
+		<Italian>Form Minor Modifier</Italian>
+		<Spanish>Modificador Creacion Civ. Menor</Spanish>
+		<Finnish>Form Minor Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FORMMINORMODIFIER_HOVER</Tag>
+		<English>Change odds of barb city turning into a minor civ)</English>
+		<French>Change odds of barb city turning into a minor civ</French>
+		<German>Verändert die Wahrscheinlichkeit, mit der Barbarenstädte sich in kleine Zivilisationen umwandeln</German>
+		<Italian>Change odds of barb city turning into a minor civ</Italian>
+		<Spanish>Cambia las probabilidades de que una ciudad b&#225;rbara se convierta en Civ. Menor.</Spanish>
+		<Finnish>Change odds of barb city turning into a minor civ</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINPOPULATION_TEXT</Tag>
+		<English>Min City Pop</English>
+		<French>Min City Pop</French>
+		<German>Minimale Stadtbevölkerung</German>
+		<Italian>Min City Pop</Italian>
+		<Spanish>M&#237;nima Poblaci&#243;n Ciudad B&#225;rbara</Spanish>
+		<Finnish>Min City Pop</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINPOPULATION_HOVER</Tag>
+		<English>Minimum population needed for a barb city to settle</English>
+		<French>Minimum population needed for a barb city to settle</French>
+		<German>Minimale Bevölkerung, damit sich eine Barbarenstadt weiterentwickelt</German>
+		<Italian>Minimum population needed for a barb city to settle</Italian>
+		<Spanish>M&#237;nimo de poblaci&#243;n necesario para una ciudad b&#225;rbara se asiente.</Spanish>
+		<Finnish>Minimum population needed for a barb city to settle</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINCONTACTS_TEXT</Tag>
+		<English>Min Contacts</English>
+		<French>Min Contacts</French>
+		<German>Minimum Kontakte</German>
+		<Italian>Min Contacts</Italian>
+		<Spanish>M&#237;nimo Contactos</Spanish>
+		<Finnish>Min Contacts</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINCONTACTS_HOVER</Tag>
+		<English>Minimum number of contacts (with any civ) a Barbarian Civ needs to settle from a minor to full civ</English>
+		<French>Minimum number of contacts (with any civs) a Barbarian Civ needs to settle from a minor to full civ</French>
+		<German>Mindestzahl an Kontakten (mit beliebigen Zivilisationen), die eine Barbaren-Zivilisation benötigt, um eine vollwertige Zivilisation zu werden</German>
+		<Italian>Minimum number of contacts (with any civs) a Barbarian Civ needs to settle from a minor to full civ</Italian>
+		<Spanish>N&#250;mero m&#237;nimo de contactos (con cualquier Civ.) que una Civilizaci&#243;n B&#225;rbara menor necesita para convertirse en una Civilizaci&#243;n Completa.</Spanish>
+		<Finnish>Minimum number of contacts (with any civs) a Barbarian Civ needs to settle from a minor to full civ</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINFULLCONTACTS_TEXT</Tag>
+		<English>Min Full Contacts</English>
+		<French>Min Full Contacts</French>
+		<German>Minimum Kontakte mit vollwertigen Civs</German>
+		<Italian>Min Full Contacts</Italian>
+		<Spanish>M&#237;nimo Contactos Completos</Spanish>
+		<Finnish>Min Full Contacts</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINFULLCONTACTS_HOVER</Tag>
+		<English>Minimum number of contacts (with full civs) a Barbarian Civ needs to settle from a minor to full civ</English>
+		<French>Minimum number of contacts (with full civs) a Barbarian Civ needs to settle from a minor to full civ</French>
+		<German>Mindestzahl an Kontakten (mit vollwertigen Zivilisationen), die eine Barbaren-Zivilisation benötigt, um selbst eine vollwertige Zivilisation zu werden</German>
+		<Italian>Minimum number of contacts (with full civs) a Barbarian Civ needs to settle from a minor to full civ</Italian>
+		<Spanish>N&#250;mero m&#237;nimo de contactos (con Civ. Completas) que una Civilizaci&#243;n B&#225;rbara menor necesita para convertirse en una Civilizaci&#243;n Completa.</Spanish>
+		<Finnish>Minimum number of contacts (with full civs) a Barbarian Civ needs to settle from a minor to full civ</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEMILITARYODDS_TEXT</Tag>
+		<English>Military Odds</English>
+		<French>Military Odds</French>
+		<German>Militär-Wahrscheinlichkeit</German>
+		<Italian>Military Odds</Italian>
+		<Spanish>Probabilidades Militares </Spanish>
+		<Finnish>Military Odds</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEMILITARYODDS_HOVER</Tag>
+		<English>Base odds of Military style buildup</English>
+		<French>Base odds of Military style buildup</French>
+		<German>Grundlegende Wahrscheinlichkeit für militärisch ausgerichtete Barbaren-Zivilisation</German>
+		<Italian>Base odds of Military style buildup</Italian>
+		<Spanish>Probabilidades base del estilo 'Incremento en la Fuerza Militar'</Spanish>
+		<Finnish>Base odds of Military style buildup</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBTECHFRAC_TEXT</Tag>
+		<English>BarbTech Fraction</English>
+		<French>BarbTech Fraction</French>
+		<German>BarbTech-Anteil</German>
+		<Italian>BarbTech Fraction</Italian>
+		<Spanish>Fracci&#243;n Tecnolog&#237;a B&#225;rbara</Spanish>
+		<Finnish>BarbTech Fraction</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBTECHFRAC_HOVER</Tag>
+		<English>Former barbarians get all techs known by this fraction of players</English>
+		<French>Former barbarians get all techs known by this fraction of players</French>
+		<German>Ehemalige Barbaren erhalten alle Technologien, die dieser Anteil der Spieler kennt</German>
+		<Italian>Former barbarians get all techs known by this fraction of players</Italian>
+		<Spanish>Las nuevas civilizaciones b&#225;rbaras obtienen todas las tecnolog&#237;as conocidas por este n&#250;mero de jugadores</Spanish>
+		<Finnish>Former barbarians get all techs known by this fraction of players</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDREDUCTION_TEXT</Tag>
+		<English>NewWorld Reduction</English>
+		<French>NewWorld Reduction</French>
+		<German>Reduzierte Technolgien in Neuer Welt </German>
+		<Italian>NewWorld Reduction</Italian>
+		<Spanish>Reducci&#243;n Nuevo Mundo</Spanish>
+		<Finnish>NewWorld Reduction</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDREDUCTION_HOVER</Tag>
+		<English>Reduce tech given to former barbarians alone on a continent (larger means they're more behind)</English>
+		<French>Reduce tech given to former barbarians alone on a continent (larger means they're more behind)</French>
+		<German>Reduziere die Zahl der Technologien, die ehemalige Barbaren erhalten, die sich allein auf dem Kontinent befinden (größere Zahlen bedeuten, sie liegen weiter zurück)</German>
+		<Italian>Reduce tech given to former barbarians alone on a continent (larger means they're more behind)</Italian>
+		<Spanish>Reduce las tecnolog&#237;as obtenidas por las nuevas civilizaciones b&#225;rbaras que est&#233;n solas en un continente (Valor elevado significa que obtienen menos tecnolog&#237;as)</Spanish>
+		<Finnish>Reduce tech given to former barbarians alone on a continent (larger means they're more behind)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDERASBEHIND_TEXT</Tag>
+		<English>NewWorld Eras Behind</English>
+		<French>NewWorld Eras Behind</French>
+		<German>Zurückliegende Zeitalter in Neuer Welt</German>
+		<Italian>NewWorld Eras Behind</Italian>
+		<Spanish>Atraso Eras Nuevo Mundo</Spanish>
+		<Finnish>NewWorld Eras Behind</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDERASBEHIND_HOVER</Tag>
+		<English>Eras behind New World BarbCivs will be before allowed to spawn</English>
+		<French>Eras behind New World BarbCivs will be before allowed to spawn</French>
+		<German>Eras behind New World BarbCivs will be before allowed to spawn</German>
+		<Italian>Eras behind New World BarbCivs will be before allowed to spawn</Italian>
+		<Spanish>Eras behind New World BarbCivs will be before allowed to spawn</Spanish>
+		<Finnish>Eras behind New World BarbCivs will be before allowed to spawn</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUILDERBONUSTECHS_TEXT</Tag>
+		<English>Builder Tech Bonus</English>
+		<French>Builder Tech Bonus</French>
+		<German>Bonustechnologien für "Builder"</German>
+		<Italian>Builder Tech Bonus</Italian>
+		<Spanish>Bonus Tecnolog&#237;as Diligente</Spanish>
+		<Finnish>Builder Tech Bonus</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUILDERBONUSTECHS_HOVER</Tag>
+		<English>Number of bonus techs that builder type BarbCivs get</English>
+		<French>Number of bonus techs that builder type BarbCivs get</French>
+		<German>Anzahl von Bonustechnologien, die aufbauorientierte Barbaren-Zivilisation ("Builder") erhalten </German>
+		<Italian>Number of bonus techs that builder type BarbCivs get</Italian>
+		<Spanish>Numero de tecnolog&#237;as de bonus que obtienen las civilizaciones b&#225;rbaras de tipo Diligente.</Spanish>
+		<Finnish>Number of bonus techs that builder type BarbCivs get</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_HOVER_TEXT</Tag>
+		<English>Declare War Turns</English>
+		<French>Declare War Turns</French>
+		<German>Runden für Kriegserklärung</German>
+		<Italian>Declare War Turns</Italian>
+		<Spanish>Declarar Guerra</Spanish>
+		<Finnish>Declare War Turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_HOVER_HOVER</Tag>
+		<English>After settling into a full civ from a minor, militaristic barb civ will declare war on the first civ it meets within this window of turns</English>
+		<French>After settling into a full civ from a minor, militaristic barb civ will declare war on the first civ it meets within this window of turns</French>
+		<German>Wenn aus einer kleinen Zivilisation eine vollwertige militaristische Barbaren-Zivilisation geworden ist, so wird sie innerhalb dieses Zeitfensters der ersten Zivilisation, auf die sie trifft, den Krieg erklären</German>
+		<Italian>After settling into a full civ from a minor, militaristic barb civ will declare war on the first civ it meets within this window of turns</Italian>
+		<Spanish>Despu&#233;s de asentarse como una civilizaci&#243;n completa, las civilizaciones Agresivas declararan la guerra a la primera civilizaci&#243;n que se encuentren dentro de esta ventana de turnos.</Spanish>
+		<Finnish>After settling into a full civ from a minor, militaristic barb civ will declare war on the first civ it meets within this window of turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARCLOSEDIST_TEXT</Tag>
+		<English>Max Declare Distance</English>
+		<French>Max Declare Distance</French>
+		<German>Maximale Distanz für Kriegserklärung</German>
+		<Italian>Max Declare Distance</Italian>
+		<Spanish>Distancia M&#225;xima Declaraci&#243;n</Spanish>
+		<Finnish>Max Declare Distance</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARCLOSEDIST_HOVER</Tag>
+		<English>Max Distance between capitals for barb civ to consider immeadiate declaration of war (must also be on same continent)</English>
+		<French>Max Distance between capitals for barb civ to consider immeadiate declaration of war (must also be on same continent)</French>
+		<German>Maximaler Abstand zwischen Hauptstädten, bei dem die Barbaren-Zivilisation eine unmittelbare Kriegserklärung in Betracht zieht (nur auf demselben Kontinent)</German>
+		<Italian>Max Distance between capitals for barb civ to consider immeadiate declaration of war (must also be on same continent)</Italian>
+		<Spanish>M&#225;xima distancia entre capitales para que una civilizaci&#243;n b&#225;rbara considere la declaraci&#243;n de guerra inmediata (Debe estar en el mismo continente).</Spanish>
+		<Finnish>Max Distance between capitals for barb civ to consider immeadiate declaration of war (must also be on same continent)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYSTRENGTH_TEXT</Tag>
+		<English>Bonus Units Multiplier</English>
+		<French>Bonus Units Multiplier</French>
+		<German>Faktor für Bonuseinheiten</German>
+		<Italian>Bonus Units Multiplier</Italian>
+		<Spanish>Multiplicador Bonus Unidades</Spanish>
+		<Finnish>Bonus Units Multiplier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYSTRENGTH_HOVER</Tag>
+		<English>Affects number of (non-defense) military units given to barbs</English>
+		<French>Affects number of (non-defense) military units given to barbs</French>
+		<German>Beeinflusst die Zahl von Einheiten (außer Verteidigungseinheiten), die die Barbaren erhalten</German>
+		<Italian>Affects number of (non-defense) military units given to barbs</Italian>
+		<Spanish>Afecta al n&#250;mero de (no defensivas) unidades militares otorgadas a los barbaros.</Spanish>
+		<Finnish>Affects number of (non-defense) military units given to barbs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDBONUSES_TEXT</Tag>
+		<English>New World Bonuses</English>
+		<French>New World Bonuses</French>
+		<German>New World Bonuses</German>
+		<Italian>New World Bonuses</Italian>
+		<Spanish>New World Bonuses</Spanish>
+		<Finnish>New World Bonuses</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDBONUSES_HOVER</Tag>
+		<English>Bonuses given to barbarian civs that spawn in the new world.[NEWLINE]0:  None - New world barb civs recieve no bonus techs, units or buildings when spawned or settled[NEWLINE]1:  Reduced - New World barb civs recieve all techs known by the barbarians, and recieve some culture and free units[NEWLINE]2:  Barbarian civs in the new world are treated the same as barbarian civs that spawn in the Old World</English>
+		<French>Bonuses given to barbarian civs that spawn in the new world.[NEWLINE]0:  None - New world barb civs recieve no bonus techs, units or buildings when spawned or settled[NEWLINE]1:  Reduced - New World barb civs recieve all techs known by the barbarians, and recieve some culture and free units[NEWLINE]2:  Barbarian civs in the new world are treated the same as barbarian civs that spawn in the Old World</French>
+		<German>Bonuses given to barbarian civs that spawn in the new world.[NEWLINE]0:  None - New world barb civs recieve no bonus techs, units or buildings when spawned or settled[NEWLINE]1:  Reduced - New World barb civs recieve all techs known by the barbarians, and recieve some culture and free units[NEWLINE]2:  Barbarian civs in the new world are treated the same as barbarian civs that spawn in the Old World</German>
+		<Italian>Bonuses given to barbarian civs that spawn in the new world.[NEWLINE]0:  None - New world barb civs recieve no bonus techs, units or buildings when spawned or settled[NEWLINE]1:  Reduced - New World barb civs recieve all techs known by the barbarians, and recieve some culture and free units[NEWLINE]2:  Barbarian civs in the new world are treated the same as barbarian civs that spawn in the Old World</Italian>
+		<Spanish>Bonuses given to barbarian civs that spawn in the new world.[NEWLINE]0:  None - New world barb civs recieve no bonus techs, units or buildings when spawned or settled[NEWLINE]1:  Reduced - New World barb civs recieve all techs known by the barbarians, and recieve some culture and free units[NEWLINE]2:  Barbarian civs in the new world are treated the same as barbarian civs that spawn in the Old World</Spanish>
+		<Finnish>Bonuses given to barbarian civs that spawn in the new world.[NEWLINE]0:  None - New world barb civs recieve no bonus techs, units or buildings when spawned or settled[NEWLINE]1:  Reduced - New World barb civs recieve all techs known by the barbarians, and recieve some culture and free units[NEWLINE]2:  Barbarian civs in the new world are treated the same as barbarian civs that spawn in the Old World</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_TEXT</Tag>
+		<English>Military Window</English>
+		<French>Military Window</French>
+		<German>Military Window</German>
+		<Italian>Military Window</Italian>
+		<Spanish>Military Window</Spanish>
+		<Finnish>Military Window</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_HOVER</Tag>
+		<English>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy.</English>
+		<French>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy</French>
+		<German>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy</German>
+		<Italian>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy</Italian>
+		<Spanish>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy</Spanish>
+		<Finnish>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVDEBUGMODE_TEXT</Tag>
+		<English>Revolution Debug</English>
+		<French>Revolution Debug</French>
+		<German>Revolution Debug</German>
+		<Italian>Revolution Debug</Italian>
+		<Spanish>Revolution Debug</Spanish>
+		<Finnish>Revolution Debug</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVDEBUGMODE_HOVER</Tag>
+		<English>Revolution Debug information displayed and debug information logging.</English>
+		<French>Revolution Debug information displayed and debug information logging.</French>
+		<German>Revolution Debug information displayed and debug information logging.</German>
+		<Italian>Revolution Debug information displayed and debug information logging.</Italian>
+		<Spanish>Revolution Debug information displayed and debug information logging.</Spanish>
+		<Finnish>Revolution Debug information displayed and debug information logging.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__SHOWDEBUGMESSAGES_TEXT</Tag>
+		<English>Revolution Debug Messages</English>
+		<French>Revolution Debug Messages</French>
+		<German>Revolution Debug Messages</German>
+		<Italian>Revolution Debug Messages</Italian>
+		<Spanish>Revolution Debug Messages</Spanish>
+		<Finnish>Revolution Debug Messages</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__SHOWDEBUGMESSAGES_HOVER</Tag>
+		<English>Show Revolution Debug Messages</English>
+		<French>Show Revolution Debug Messages</French>
+		<German>Show Revolution Debug Messages</German>
+		<Italian>Show Revolution Debug Messages</Italian>
+		<Spanish>Show Revolution Debug Messages</Spanish>
+		<Finnish>Show Revolution Debug Messages</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CENTERPOPUPS_TEXT</Tag>
+		<English>Center Pop Ups</English>
+		<French>Center Pop Ups</French>
+		<German>Center Pop Ups</German>
+		<Italian>Center Pop Ups</Italian>
+		<Spanish>Center Pop Ups</Spanish>
+		<Finnish>Center Pop Ups</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CENTERPOPUPS_HOVER</Tag>
+		<English>Revolution Message Pop Ups are centered.</English>
+		<French>Revolution Message Pop Ups are centered.</French>
+		<German>Revolution Message Pop Ups are centered.</German>
+		<Italian>Revolution Message Pop Ups are centered.</Italian>
+		<Spanish>Revolution Message Pop Ups are centered.</Spanish>
+		<Finnish>Revolution Message Pop Ups are centered.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__SHOWREVINDEXINPOPUP_TEXT</Tag>
+		<English>RevIndex pop up</English>
+		<French>RevIndex pop up</French>
+		<German>RevIndex pop up</German>
+		<Italian>RevIndex pop up</Italian>
+		<Spanish>RevIndex pop up</Spanish>
+		<Finnish>RevIndex pop up</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__SHOWREVINDEXINPOPUP_HOVER</Tag>
+		<English>Enables special RevIndex pop up (debugging info)</English>
+		<French>Enables special RevIndex pop up (debugging info)</French>
+		<German>Enables special RevIndex pop up (debugging info)</German>
+		<Italian>Enables special RevIndex pop up (debugging info)</Italian>
+		<Spanish>Enables special RevIndex pop up (debugging info)</Spanish>
+		<Finnish>Enables special RevIndex pop up (debugging info)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MAXSCORELINES_TEXT</Tag>
+		<English>Max Score Lines</English>
+		<French>Max Score Lines</French>
+		<German>Max Score Lines</German>
+		<Italian>Max Score Lines</Italian>
+		<Spanish>Max Score Lines</Spanish>
+		<Finnish>Max Score Lines</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MAXSCORELINES_HOVER</Tag>
+		<English>Max Score Lines displayed on Scoreboard (-1 for Maximum)</English>
+		<French>Max Score Lines displayed on Scoreboard (-1 for Maximum)</French>
+		<German>Max Score Lines displayed on Scoreboard (-1 for Maximum)</German>
+		<Italian>Max Score Lines displayed on Scoreboard (-1 for Maximum)</Italian>
+		<Spanish>Max Score Lines displayed on Scoreboard (-1 for Maximum)</Spanish>
+		<Finnish>Max Score Lines displayed on Scoreboard (-1 for Maximum)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REBELTYPES_TEXT</Tag>
+		<English>Rebel Types</English>
+		<French>Rebel Types</French>
+		<German>Rebel Types</German>
+		<Italian>Rebel Types</Italian>
+		<Spanish>Rebel Types</Spanish>
+		<Finnish>Rebel Types</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REBELTYPES_HOVER</Tag>
+		<English>Use RebelTypes file when setting up rebelions</English>
+		<French>Use RebelTypes file when setting up rebelions</French>
+		<German>Use RebelTypes file when setting up rebelions</German>
+		<Italian>Use RebelTypes file when setting up rebelions</Italian>
+		<Spanish>Use RebelTypes file when setting up rebelions</Spanish>
+		<Finnish>Use RebelTypes file when setting up rebelions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ARTSTYLETYPES_TEXT</Tag>
+		<English>ArtStyle Types</English>
+		<French>ArtStyle Types</French>
+		<German>ArtStyle Types</German>
+		<Italian>ArtStyle Types</Italian>
+		<Spanish>ArtStyle Types</Spanish>
+		<Finnish>ArtStyle Types</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ARTSTYLETYPES_HOVER</Tag>
+		<English>Spawn Rebels with a preference for the artstyle type of the parent nation</English>
+		<French>Spawn Rebels with a preference for the artstyle type of the parent nation</French>
+		<German>Spawn Rebels with a preference for the artstyle type of the parent nation</German>
+		<Italian>Spawn Rebels with a preference for the artstyle type of the parent nation</Italian>
+		<Spanish>Spawn Rebels with a preference for the artstyle type of the parent nation</Spanish>
+		<Finnish>Spawn Rebels with a preference for the artstyle type of the parent nation</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERDEFECTTOREVS_TEXT</Tag>
+		<English>Offer Defections</English>
+		<French>Offer Defections</French>
+		<German>Offer Defections</German>
+		<Italian>Offer Defections</Italian>
+		<Spanish>Offer Defections</Spanish>
+		<Finnish>Offer Defections</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERDEFECTTOREVS_HOVER</Tag>
+		<English>Offer human players with a rebelion the choice to defect and lead the rebels.</English>
+		<French>Offer human players with a rebelion the choice to defect and lead the rebels.</French>
+		<German>Offer human players with a rebelion the choice to defect and lead the rebels.</German>
+		<Italian>Offer human players with a rebelion the choice to defect and lead the rebels.</Italian>
+		<Spanish>Offer human players with a rebelion the choice to defect and lead the rebels.</Spanish>
+		<Finnish>Offer human players with a rebelion the choice to defect and lead the rebels.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALLOWASSIMILATION_TEXT</Tag>
+		<English>Allow Assimilations</English>
+		<French>Allow Assimilations</French>
+		<German>Allow Assimilations</German>
+		<Italian>Allow Assimilations</Italian>
+		<Spanish>Allow Assimilations</Spanish>
+		<Finnish>Allow Assimilations</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALLOWASSIMILATION_HOVER</Tag>
+		<English>Allow assimilations of vassal civs.</English>
+		<French>Allow assimilations of vassal civs.</French>
+		<German>Allow assimilations of vassal civs.</German>
+		<Italian>Allow assimilations of vassal civs.</Italian>
+		<Spanish>Allow assimilations of vassal civs.</Spanish>
+		<Finnish>Allow assimilations of vassal civs.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALLOWSMALLBARBREVS_TEXT</Tag>
+		<English>Unorganized Rebolutions</English>
+		<French>Unorganized Rebolutions</French>
+		<German>Unorganized Rebolutions</German>
+		<Italian>Unorganized Rebolutions</Italian>
+		<Spanish>Unorganized Rebolutions</Spanish>
+		<Finnish>Unorganized Rebolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALLOWSMALLBARBREVS_HOVER</Tag>
+		<English>Small revolutions spawn as disorganized rebels (barbarians)</English>
+		<French>Small revolutions spawn as disorganized rebels (barbarians)</French>
+		<German>Small revolutions spawn as disorganized rebels (barbarians)</German>
+		<Italian>Small revolutions spawn as disorganized rebels (barbarians)</Italian>
+		<Spanish>Small revolutions spawn as disorganized rebels (barbarians)</Spanish>
+		<Finnish>Small revolutions spawn as disorganized rebels (barbarians)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALLOWBREAKVASSAL_TEXT</Tag>
+		<English>Allow Vassal Breaking</English>
+		<French>Allow Vassal Breaking</French>
+		<German>Allow Vassal Breaking</German>
+		<Italian>Allow Vassal Breaking</Italian>
+		<Spanish>Allow Vassal Breaking</Spanish>
+		<Finnish>Allow Vassal Breaking</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALLOWBREAKVASSAL_HOVER</Tag>
+		<English>Allow Revolutions to break Vassal states</English>
+		<French>Allow Revolutions to break Vassal states</French>
+		<German>Allow Revolutions to break Vassal states</German>
+		<Italian>Allow Revolutions to break Vassal states</Italian>
+		<Spanish>Allow Revolutions to break Vassal states</Spanish>
+		<Finnish>Allow Revolutions to break Vassal states</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ENDWARSONDEATH_TEXT</Tag>
+		<English>End Wars on Death</English>
+		<French>End Wars on Death</French>
+		<German>End Wars on Death</German>
+		<Italian>End Wars on Death</Italian>
+		<Spanish>End Wars on Death</Spanish>
+		<Finnish>End Wars on Death</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ENDWARSONDEATH_HOVER</Tag>
+		<English>When a rebel civ dies, current wars are cancelled (in case of respawn)</English>
+		<French>When a rebel civ dies, current wars are cancelled (in case of respawn)</French>
+		<German>When a rebel civ dies, current wars are cancelled (in case of respawn)</German>
+		<Italian>When a rebel civ dies, current wars are cancelled (in case of respawn)</Italian>
+		<Spanish>When a rebel civ dies, current wars are cancelled (in case of respawn)</Spanish>
+		<Finnish>When a rebel civ dies, current wars are cancelled (in case of respawn)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CULTURALREVOLUTION_TEXT</Tag>
+		<English>Cultural Revolutions</English>
+		<French>Cultural Revolutions</French>
+		<German>Cultural Revolutions</German>
+		<Italian>Cultural Revolutions</Italian>
+		<Spanish>Cultural Revolutions</Spanish>
+		<Finnish>Cultural Revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CULTURALREVOLUTION_HOVER</Tag>
+		<English>Allow cultural revolutions</English>
+		<French>Allow cultural revolutions</French>
+		<German>Allow cultural revolutions</German>
+		<Italian>Allow cultural revolutions</Italian>
+		<Spanish>Allow cultural revolutions</Spanish>
+		<Finnish>Allow cultural revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__RELIGIOUSREVOLUTION_TEXT</Tag>
+		<English>Religious Revolutions</English>
+		<French>Religious Revolutions</French>
+		<German>Religious Revolutions</German>
+		<Italian>Religious Revolutions</Italian>
+		<Spanish>Religious Revolutions</Spanish>
+		<Finnish>Religious Revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__RELIGIOUSREVOLUTION_HOVER</Tag>
+		<English>Allow Religious Revolutions</English>
+		<French>Allow Religious Revolutions</French>
+		<German>Allow Religious Revolutions</German>
+		<Italian>Allow Religious Revolutions</Italian>
+		<Spanish>Allow Religious Revolutions</Spanish>
+		<Finnish>Allow Religious Revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CIVICREVOLUTION_TEXT</Tag>
+		<English>Civics Revolutions</English>
+		<French>Civics Revolutions</French>
+		<German>Civics Revolutions</German>
+		<Italian>Civics Revolutions</Italian>
+		<Spanish>Civics Revolutions</Spanish>
+		<Finnish>Civics Revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CIVICREVOLUTION_HOVER</Tag>
+		<English>Allow Civics based Revolutions</English>
+		<French>Allow Civics based Revolutions</French>
+		<German>Allow Civics based Revolutions</German>
+		<Italian>Allow Civics based Revolutions</Italian>
+		<Spanish>Allow Civics based Revolutions</Spanish>
+		<Finnish>Allow Civics based Revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEADERREVOLUTION_TEXT</Tag>
+		<English>Leader Revolutions</English>
+		<French>Leader Revolutions</French>
+		<German>Leader Revolutions</German>
+		<Italian>Leader Revolutions</Italian>
+		<Spanish>Leader Revolutions</Spanish>
+		<Finnish>Leader Revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEADERREVOLUTION_HOVER</Tag>
+		<English>Allow Leader changing Revolutions</English>
+		<French>Allow Leader changing Revolutions</French>
+		<German>Allow Leader changing Revolutions</German>
+		<Italian>Allow Leader changing Revolutions</Italian>
+		<Spanish>Allow Leader changing Revolutions</Spanish>
+		<Finnish>Allow Leader changing Revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HUMANLEADERREVOLUTION_TEXT</Tag>
+		<English>Human Leader Revolutions</English>
+		<French>Human Leader Revolutions</French>
+		<German>Human Leader Revolutions</German>
+		<Italian>Human Leader Revolutions</Italian>
+		<Spanish>Human Leader Revolutions</Spanish>
+		<Finnish>Human Leader Revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HUMANLEADERREVOLUTION_HOVER</Tag>
+		<English>Allow Human Player to have Leader changing Revolutions</English>
+		<French>Allow Human Player to have Leader changing Revolutions</French>
+		<German>Allow Human Player to have Leader changing Revolutions</German>
+		<Italian>Allow Human Player to have Leader changing Revolutions</Italian>
+		<Spanish>Allow Human Player to have Leader changing Revolutions</Spanish>
+		<Finnish>Allow Human Player to have Leader changing Revolutions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MAXNATIONALITY_TEXT</Tag>
+		<English>Max Nationality</English>
+		<French>Max Nationality</French>
+		<German>Max Nationality</German>
+		<Italian>Max Nationality</Italian>
+		<Spanish>Max Nationality</Spanish>
+		<Finnish>Max Nationality</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MAXNATIONALITY_HOVER</Tag>
+		<English>Nationality percentage cap in a city above which a city will cease to be effected by nationality based revolutions.</English>
+		<French>Nationality percentage cap in a city above which a city will cease to be effected by nationality based revolutions.</French>
+		<German>Nationality percentage cap in a city above which a city will cease to be effected by nationality based revolutions.</German>
+		<Italian>Nationality percentage cap in a city above which a city will cease to be effected by nationality based revolutions.</Italian>
+		<Spanish>Nationality percentage cap in a city above which a city will cease to be effected by nationality based revolutions.</Spanish>
+		<Finnish>Nationality percentage cap in a city above which a city will cease to be effected by nationality based revolutions.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CLOSERADIUS_TEXT</Tag>
+		<English>Close Radius</English>
+		<French>Close Radius</French>
+		<German>Close Radius</German>
+		<Italian>Close Radius</Italian>
+		<Spanish>Close Radius</Spanish>
+		<Finnish>Close Radius</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CLOSERADIUS_HOVER</Tag>
+		<English>Limiting distance for colony negative revolutionary effects, and distance rebeling cities can effect and draw in other cities.</English>
+		<French>Limiting distance for colony negative revolutionary effects, and distance rebeling cities can effect and draw in other cities.</French>
+		<German>Limiting distance for colony negative revolutionary effects, and distance rebeling cities can effect and draw in other cities.</German>
+		<Italian>Limiting distance for colony negative revolutionary effects, and distance rebeling cities can effect and draw in other cities.</Italian>
+		<Spanish>Limiting distance for colony negative revolutionary effects, and distance rebeling cities can effect and draw in other cities.</Spanish>
+		<Finnish>Limiting distance for colony negative revolutionary effects, and distance rebeling cities can effect and draw in other cities.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALLOWSTATERELIGIONTOJOIN_TEXT</Tag>
+		<English>Allow state religion to join</English>
+		<French>Allow state religion to join</French>
+		<German>Allow state religion to join</German>
+		<Italian>Allow state religion to join</Italian>
+		<Spanish>Allow state religion to join</Spanish>
+		<Finnish>Allow state religion to join</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALLOWSTATERELIGIONTOJOIN_HOVER</Tag>
+		<English>Allows cities with state religion to join Religious Rebellions.</English>
+		<French>Allows cities with state religion to join Religious Rebellions.</French>
+		<German>Allows cities with state religion to join Religious Rebellions.</German>
+		<Italian>Allows cities with state religion to join Religious Rebellions.</Italian>
+		<Spanish>Allows cities with state religion to join Religious Rebellions.</Spanish>
+		<Finnish>Allows cities with state religion to join Religious Rebellions.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__INDEXMODIFIER_TEXT</Tag>
+		<English>Index Modifier</English>
+		<French>Index Modifier</French>
+		<German>Index Modifier</German>
+		<Italian>Index Modifier</Italian>
+		<Spanish>Index Modifier</Spanish>
+		<Finnish>Index Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__INDEXMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter RevIdx changes</English>
+		<French>Multiplier used to alter RevIdx changes</French>
+		<German>Multiplier used to alter RevIdx changes</German>
+		<Italian>Multiplier used to alter RevIdx changes</Italian>
+		<Spanish>Multiplier used to alter RevIdx changes</Spanish>
+		<Finnish>Multiplier used to alter RevIdx changes</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__INDEXOFFSET_TEXT</Tag>
+		<English>Index Offset</English>
+		<French>Index Offset</French>
+		<German>Index Offset</German>
+		<Italian>Index Offset</Italian>
+		<Spanish>Index Offset</Spanish>
+		<Finnish>Index Offset</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__INDEXOFFSET_HOVER</Tag>
+		<English>Offset used to alter RevIdx changes</English>
+		<French>Offset used to alter RevIdx changes</French>
+		<German>Offset used to alter RevIdx changes</German>
+		<Italian>Offset used to alter RevIdx changes</Italian>
+		<Spanish>Offset used to alter RevIdx changes</Spanish>
+		<Finnish>Offset used to alter RevIdx changes</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HUMANINDEXMODIFIER_TEXT</Tag>
+		<English>Human Index Modifier</English>
+		<French>Human Index Modifier</French>
+		<German>Human Index Modifier</German>
+		<Italian>Human Index Modifier</Italian>
+		<Spanish>Human Index Modifier</Spanish>
+		<Finnish>Human Index Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HUMANINDEXMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter RevIdx changes for Human Players</English>
+		<French>Multiplier used to alter RevIdx changes for Human Players</French>
+		<German>Multiplier used to alter RevIdx changes for Human Players</German>
+		<Italian>Multiplier used to alter RevIdx changes for Human Players</Italian>
+		<Spanish>Multiplier used to alter RevIdx changes for Human Players</Spanish>
+		<Finnish>Multiplier used to alter RevIdx changes for Human Players</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HUMANINDEXOFFSET_TEXT</Tag>
+		<English>Human Index Offset</English>
+		<French>Human Index Offset</French>
+		<German>Human Index Offset</German>
+		<Italian>Human Index Offset</Italian>
+		<Spanish>Human Index Offset</Spanish>
+		<Finnish>Human Index Offset</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HUMANINDEXOFFSET_HOVER</Tag>
+		<English>Offset used to alter RevIdx changes for Human Players</English>
+		<French>Offset used to alter RevIdx changes for Human Players</French>
+		<German>Offset used to alter RevIdx changes for Human Players</German>
+		<Italian>Offset used to alter RevIdx changes for Human Players</Italian>
+		<Spanish>Offset used to alter RevIdx changes for Human Players</Spanish>
+		<Finnish>Offset used to alter RevIdx changes for Human Players</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CHANCEMODIFIER_TEXT</Tag>
+		<English>Chance Modifier</English>
+		<French>Chance Modifier</French>
+		<German>Chance Modifier</German>
+		<Italian>Chance Modifier</Italian>
+		<Spanish>Chance Modifier</Spanish>
+		<Finnish>Chance Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CHANCEMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter chance of spawning a revolution</English>
+		<French>Multiplier used to alter chance of spawning a revolution</French>
+		<German>Multiplier used to alter chance of spawning a revolution</German>
+		<Italian>Multiplier used to alter chance of spawning a revolution</Italian>
+		<Spanish>Multiplier used to alter chance of spawning a revolution</Spanish>
+		<Finnish>Multiplier used to alter chance of spawning a revolution</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__STRENGTHMODIFIER_TEXT</Tag>
+		<English>Strength Modifier</English>
+		<French>Strength Modifier</French>
+		<German>Strength Modifier</German>
+		<Italian>Strength Modifier</Italian>
+		<Spanish>Strength Modifier</Spanish>
+		<Finnish>Strength Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__STRENGTHMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter initial Rebellion Strength</English>
+		<French>Multiplier used to alter initial Rebellion Strength</French>
+		<German>Multiplier used to alter initial Rebellion Strength</German>
+		<Italian>Multiplier used to alter initial Rebellion Strength</Italian>
+		<Spanish>Multiplier used to alter initial Rebellion Strength</Spanish>
+		<Finnish>Multiplier used to alter initial Rebellion Strength</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REINFORCEMENTMODIFIER_TEXT</Tag>
+		<English>Reinforcement Modifier</English>
+		<French>Reinforcement Modifier</French>
+		<German>Reinforcement Modifier</German>
+		<Italian>Reinforcement Modifier</Italian>
+		<Spanish>Reinforcement Modifier</Spanish>
+		<Finnish>Reinforcement Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REINFORCEMENTMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter revolutionary reinforcement strength</English>
+		<French>Multiplier used to alter revolutionary reinforcement strength</French>
+		<German>Multiplier used to alter revolutionary reinforcement strength</German>
+		<Italian>Multiplier used to alter revolutionary reinforcement strength</Italian>
+		<Spanish>Multiplier used to alter revolutionary reinforcement strength</Spanish>
+		<Finnish>Multiplier used to alter revolutionary reinforcement strength</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HAPPINESSMODIFIER_TEXT</Tag>
+		<English>Happiness Modifier</English>
+		<French>Happiness Modifier</French>
+		<German>Happiness Modifier</German>
+		<Italian>Happiness Modifier</Italian>
+		<Spanish>Happiness Modifier</Spanish>
+		<Finnish>Happiness Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HAPPINESSMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter Happiness based RevIdx changes</English>
+		<French>Multiplier used to alter Happiness based RevIdx changes</French>
+		<German>Multiplier used to alter Happiness based RevIdx changes</German>
+		<Italian>Multiplier used to alter Happiness based RevIdx changes</Italian>
+		<Spanish>Multiplier used to alter Happiness based RevIdx changes</Spanish>
+		<Finnish>Multiplier used to alter Happiness based RevIdx changes</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__COLONYMODIFIER_TEXT</Tag>
+		<English>Colony Modifier</English>
+		<French>Colony Modifier</French>
+		<German>Colony Modifier</German>
+		<Italian>Colony Modifier</Italian>
+		<Spanish>Colony Modifier</Spanish>
+		<Finnish>Colony Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__COLONYMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter Colony based RevIdx changes</English>
+		<French>Multiplier used to alter Colony based RevIdx changes</French>
+		<German>Multiplier used to alter Colony based RevIdx changes</German>
+		<Italian>Multiplier used to alter Colony based RevIdx changes</Italian>
+		<Spanish>Multiplier used to alter Colony based RevIdx changes</Spanish>
+		<Finnish>Multiplier used to alter Colony based RevIdx changes</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DISTANCETOCAPITALMODIFIER_TEXT</Tag>
+		<English>Distance to Modifier</English>
+		<French>Distance to Modifier</French>
+		<German>Distance to Modifier</German>
+		<Italian>Distance to Modifier</Italian>
+		<Spanish>Distance to Modifier</Spanish>
+		<Finnish>Distance to Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DISTANCETOCAPITALMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter Distance to Capital RevIdx penalty</English>
+		<French>Multiplier used to alter Distance to Capital RevIdx penalty</French>
+		<German>Multiplier used to alter Distance to Capital RevIdx penalty</German>
+		<Italian>Multiplier used to alter Distance to Capital RevIdx penalty</Italian>
+		<Spanish>Multiplier used to alter Distance to Capital RevIdx penalty</Spanish>
+		<Finnish>Multiplier used to alter Distance to Capital RevIdx penalty</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CULTURERATEMODIFIER_TEXT</Tag>
+		<English>Culture rate Modifier</English>
+		<French>Culture rate Modifier</French>
+		<German>Culture rate Modifier</German>
+		<Italian>Culture rate Modifier</Italian>
+		<Spanish>Culture rate Modifier</Spanish>
+		<Finnish>Culture rate Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CULTURERATEMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter Culture Rate RevIdx bonus</English>
+		<French>Multiplier used to alter Culture Rate RevIdx bonus</French>
+		<German>Multiplier used to alter Culture Rate RevIdx bonus</German>
+		<Italian>Multiplier used to alter Culture Rate RevIdx bonus</Italian>
+		<Spanish>Multiplier used to alter Culture Rate RevIdx bonus</Spanish>
+		<Finnish>Multiplier used to alter Culture Rate RevIdx bonus</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NATIONALITYMODIFIER_TEXT</Tag>
+		<English>Nationality Modifier</English>
+		<French>Nationality Modifier</French>
+		<German>Nationality Modifier</German>
+		<Italian>Nationality Modifier</Italian>
+		<Spanish>Nationality Modifier</Spanish>
+		<Finnish>Nationality Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NATIONALITYMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter Nationality based RevIdx changes</English>
+		<French>Multiplier used to alter Nationality based RevIdx changes</French>
+		<German>Multiplier used to alter Nationality based RevIdx changes</German>
+		<Italian>Multiplier used to alter Nationality based RevIdx changes</Italian>
+		<Spanish>Multiplier used to alter Nationality based RevIdx changes</Spanish>
+		<Finnish>Multiplier used to alter Nationality based RevIdx changes</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__GARRISONMODIFIER_TEXT</Tag>
+		<English>Garrison Modifier</English>
+		<French>Garrison Modifier</French>
+		<German>Garrison Modifier</German>
+		<Italian>Garrison Modifier</Italian>
+		<Spanish>Garrison Modifier</Spanish>
+		<Finnish>Garrison Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__GARRISONMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter RevIdx bonus from city garrison</English>
+		<French>Multiplier used to alter RevIdx bonus from city garrison</French>
+		<German>Multiplier used to alter RevIdx bonus from city garrison</German>
+		<Italian>Multiplier used to alter RevIdx bonus from city garrison</Italian>
+		<Spanish>Multiplier used to alter RevIdx bonus from city garrison</Spanish>
+		<Finnish>Multiplier used to alter RevIdx bonus from city garrison</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__RELIGIONMODIFIER_TEXT</Tag>
+		<English>Religion Modifier</English>
+		<French>Religion Modifier</French>
+		<German>Religion Modifier</German>
+		<Italian>Religion Modifier</Italian>
+		<Spanish>Religion Modifier</Spanish>
+		<Finnish>Religion Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__RELIGIONMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter Religion based RevIdx changes</English>
+		<French>Multiplier used to alter Religion based RevIdx changes</French>
+		<German>Multiplier used to alter Religion based RevIdx changes</German>
+		<Italian>Multiplier used to alter Religion based RevIdx changes</Italian>
+		<Spanish>Multiplier used to alter Religion based RevIdx changes</Spanish>
+		<Finnish>Multiplier used to alter Religion based RevIdx changes</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CIVSIZEMODIFIER_TEXT</Tag>
+		<English>Civ Size Modifier</English>
+		<French>Civ Size Modifier</French>
+		<German>Civ Size Modifier</German>
+		<Italian>Civ Size Modifier</Italian>
+		<Spanish>Civ Size Modifier</Spanish>
+		<Finnish>Civ Size Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CIVSIZEMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter Civ Size based RevIdx changes</English>
+		<French>Multiplier used to alter Civ Size based RevIdx changes</French>
+		<German>Multiplier used to alter Civ Size based RevIdx changes</German>
+		<Italian>Multiplier used to alter Civ Size based RevIdx changes</Italian>
+		<Spanish>Multiplier used to alter Civ Size based RevIdx changes</Spanish>
+		<Finnish>Multiplier used to alter Civ Size based RevIdx changes</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CITYLOSTMODIFIER_TEXT</Tag>
+		<English>City Lost Modifier</English>
+		<French>City Lost Modifier</French>
+		<German>City Lost Modifier</German>
+		<Italian>City Lost Modifier</Italian>
+		<Spanish>City Lost Modifier</Spanish>
+		<Finnish>City Lost Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CITYLOSTMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter RevIdx penalty from loosing a city</English>
+		<French>Multiplier used to alter RevIdx penalty from loosing a city</French>
+		<German>Multiplier used to alter RevIdx penalty from loosing a city</German>
+		<Italian>Multiplier used to alter RevIdx penalty from loosing a city</Italian>
+		<Spanish>Multiplier used to alter RevIdx penalty from loosing a city</Spanish>
+		<Finnish>Multiplier used to alter RevIdx penalty from loosing a city</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CITYACQUIREDMODIFIER_TEXT</Tag>
+		<English>City Acquired Modifier</English>
+		<French>City Acquired Modifier</French>
+		<German>City Acquired Modifier</German>
+		<Italian>City Acquired Modifier</Italian>
+		<Spanish>City Acquired Modifier</Spanish>
+		<Finnish>City Acquired Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CITYACQUIREDMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter RevIdx bonus from conquering a city</English>
+		<French>Multiplier used to alter RevIdx bonus from conquering a city</French>
+		<German>Multiplier used to alter RevIdx bonus from conquering a city</German>
+		<Italian>Multiplier used to alter RevIdx bonus from conquering a city</Italian>
+		<Spanish>Multiplier used to alter RevIdx bonus from conquering a city</Spanish>
+		<Finnish>Multiplier used to alter RevIdx bonus from conquering a city</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVCULTUREMODIFIER_TEXT</Tag>
+		<English>Culture Modifier</English>
+		<French>Culture Modifier</French>
+		<German>Culture Modifier</German>
+		<Italian>Culture Modifier</Italian>
+		<Spanish>Culture Modifier</Spanish>
+		<Finnish>Culture Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVCULTUREMODIFIER_HOVER</Tag>
+		<English>Multiplier used to alter RevIdx bonus from Culture in a city</English>
+		<French>Multiplier used to alter RevIdx bonus from Culture in a city</French>
+		<German>Multiplier used to alter RevIdx bonus from Culture in a city</German>
+		<Italian>Multiplier used to alter RevIdx bonus from Culture in a city</Italian>
+		<Spanish>Multiplier used to alter RevIdx bonus from Culture in a city</Spanish>
+		<Finnish>Multiplier used to alter RevIdx bonus from Culture in a city</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CIVICSODDS_TEXT</Tag>
+		<English>Civics Odds</English>
+		<French>Civics Odds</French>
+		<German>Civics Odds</German>
+		<Italian>Civics Odds</Italian>
+		<Spanish>Civics Odds</Spanish>
+		<Finnish>Civics Odds</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CIVICSODDS_HOVER</Tag>
+		<English>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Civics type rebellion</English>
+		<French>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Civics type rebellion</French>
+		<German>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Civics type rebellion</German>
+		<Italian>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Civics type rebellion</Italian>
+		<Spanish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Civics type rebellion</Spanish>
+		<Finnish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Civics type rebellion</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__RELIGIONODDS_TEXT</Tag>
+		<English>Religion Odds</English>
+		<French>Religion Odds</French>
+		<German>Religion Odds</German>
+		<Italian>Religion Odds</Italian>
+		<Spanish>Religion Odds</Spanish>
+		<Finnish>Religion Odds</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__RELIGIONODDS_HOVER</Tag>
+		<English>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Religious type rebellion</English>
+		<French>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Religious type rebellion</French>
+		<German>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Religious type rebellion</German>
+		<Italian>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Religious type rebellion</Italian>
+		<Spanish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Religious type rebellion</Spanish>
+		<Finnish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Religious type rebellion</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEADERODDS_TEXT</Tag>
+		<English>Leader Odds</English>
+		<French>Leader Odds</French>
+		<German>Leader Odds</German>
+		<Italian>Leader Odds</Italian>
+		<Spanish>Leader Odds</Spanish>
+		<Finnish>Leader Odds</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEADERODDS_HOVER</Tag>
+		<English>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Leader type rebellion</English>
+		<French>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Leader type rebellion</French>
+		<German>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Leader type rebellion</German>
+		<Italian>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Leader type rebellion</Italian>
+		<Spanish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Leader type rebellion</Spanish>
+		<Finnish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Leader type rebellion</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CRUSADEODDS_TEXT</Tag>
+		<English>Crusade Odds</English>
+		<French>Crusade Odds</French>
+		<German>Crusade Odds</German>
+		<Italian>Crusade Odds</Italian>
+		<Spanish>Crusade Odds</Spanish>
+		<Finnish>Crusade Odds</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CRUSADEODDS_HOVER</Tag>
+		<English>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Crusade type rebellion</English>
+		<French>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Crusade type rebellion</French>
+		<German>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Crusade type rebellion</German>
+		<Italian>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Crusade type rebellion</Italian>
+		<Spanish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Crusade type rebellion</Spanish>
+		<Finnish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Crusade type rebellion</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__INDEPENDENCEODDS_TEXT</Tag>
+		<English>Independence Odds</English>
+		<French>Independence Odds</French>
+		<German>Independence Odds</German>
+		<Italian>Independence Odds</Italian>
+		<Spanish>Independence Odds</Spanish>
+		<Finnish>Independence Odds</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__INDEPENDENCEODDS_HOVER</Tag>
+		<English>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Independence type rebellion</English>
+		<French>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Independence type rebellion</French>
+		<German>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Independence type rebellion</German>
+		<Italian>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Independence type rebellion</Italian>
+		<Spanish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Independence type rebellion</Spanish>
+		<Finnish>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Independence type rebellion</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HUMANWARNFRAC_TEXT</Tag>
+		<English>Warn Fraction</English>
+		<French>Warn Fraction</French>
+		<German>Warn Fraction</German>
+		<Italian>Warn Fraction</Italian>
+		<Spanish>Warn Fraction</Spanish>
+		<Finnish>Warn Fraction</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__HUMANWARNFRAC_HOVER</Tag>
+		<English>Fraction of RevIdx used to warn a Human Player of an indpending Revolutionary issue in a city (1.0 equates to a RevIdx of 1000)</English>
+		<French>Fraction of RevIdx used to warn a Human Player of an indpending Revolutionary issue in a city (1.0 equates to a RevIdx of 1000)</French>
+		<German>Fraction of RevIdx used to warn a Human Player of an indpending Revolutionary issue in a city (1.0 equates to a RevIdx of 1000)</German>
+		<Italian>Fraction of RevIdx used to warn a Human Player of an indpending Revolutionary issue in a city (1.0 equates to a RevIdx of 1000)</Italian>
+		<Spanish>Fraction of RevIdx used to warn a Human Player of an indpending Revolutionary issue in a city (1.0 equates to a RevIdx of 1000)</Spanish>
+		<Finnish>Fraction of RevIdx used to warn a Human Player of an indpending Revolutionary issue in a city (1.0 equates to a RevIdx of 1000)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARNTURNS_TEXT</Tag>
+		<English>Warn turns</English>
+		<French>Warn turns</French>
+		<German>Warn turns</German>
+		<Italian>Warn turns</Italian>
+		<Spanish>Warn turns</Spanish>
+		<Finnish>Warn turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARNTURNS_HOVER</Tag>
+		<English>Mininum number of turns waited before repeating an inpending revolution warning</English>
+		<French>Mininum number of turns waited before repeating an inpending revolution warning</French>
+		<German>Mininum number of turns waited before repeating an inpending revolution warning</German>
+		<Italian>Mininum number of turns waited before repeating an inpending revolution warning</Italian>
+		<Spanish>Mininum number of turns waited before repeating an inpending revolution warning</Spanish>
+		<Finnish>Mininum number of turns waited before repeating an inpending revolution warning</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARWEARINESSMOD_TEXT</Tag>
+		<English>WW Modifier</English>
+		<French>WW Modifier</French>
+		<German>WW Modifier</German>
+		<Italian>WW Modifier</Italian>
+		<Spanish>WW Modifier</Spanish>
+		<Finnish>WW Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARWEARINESSMOD_HOVER</Tag>
+		<English>Multiplier used to alter RevIdx penalty caused by War Weariness</English>
+		<French>Multiplier used to alter RevIdx penalty caused by War Weariness</French>
+		<German>Multiplier used to alter RevIdx penalty caused by War Weariness</German>
+		<Italian>Multiplier used to alter RevIdx penalty caused by War Weariness</Italian>
+		<Spanish>Multiplier used to alter RevIdx penalty caused by War Weariness</Spanish>
+		<Finnish>Multiplier used to alter RevIdx penalty caused by War Weariness</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVMAXCIVS_TEXT</Tag>
+		<English>Rev Max Civs</English>
+		<French>Rev Max Civs</French>
+		<German>Rev Max Civs</German>
+		<Italian>Rev Max Civs</Italian>
+		<Spanish>Rev Max Civs</Spanish>
+		<Finnish>Rev Max Civs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REVMAXCIVS_HOVER</Tag>
+		<English>Maximum number for Players allowed in a game before Revolutions cease to occur (-1 for Maximum Players allowed by Engine)</English>
+		<French>Maximum number for Players allowed in a game before Revolutions cease to occur (-1 for Maximum Players allowed by Engine)</French>
+		<German>Maximum number for Players allowed in a game before Revolutions cease to occur (-1 for Maximum Players allowed by Engine)</German>
+		<Italian>Maximum number for Players allowed in a game before Revolutions cease to occur (-1 for Maximum Players allowed by Engine)</Italian>
+		<Spanish>Maximum number for Players allowed in a game before Revolutions cease to occur (-1 for Maximum Players allowed by Engine)</Spanish>
+		<Finnish>Maximum number for Players allowed in a game before Revolutions cease to occur (-1 for Maximum Players allowed by Engine)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TURNSBETWEENREVS_TEXT</Tag>
+		<English>Turns Between Revs</English>
+		<French>Turns Between Revs</French>
+		<German>Turns Between Revs</German>
+		<Italian>Turns Between Revs</Italian>
+		<Spanish>Turns Between Revs</Spanish>
+		<Finnish>Turns Between Revs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TURNSBETWEENREVS_HOVER</Tag>
+		<English>Minimum number of turns that must pass before a city that has already rebelled can spawn new revolution</English>
+		<French>Minimum number of turns that must pass before a city that has already rebelled can spawn new revolution</French>
+		<German>Minimum number of turns that must pass before a city that has already rebelled can spawn new revolution</German>
+		<Italian>Minimum number of turns that must pass before a city that has already rebelled can spawn new revolution</Italian>
+		<Spanish>Minimum number of turns that must pass before a city that has already rebelled can spawn new revolution</Spanish>
+		<Finnish>Minimum number of turns that must pass before a city that has already rebelled can spawn new revolution</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ACCEPTEDTURNS_TEXT</Tag>
+		<English>Accepted Turns</English>
+		<French>Accepted Turns</French>
+		<German>Accepted Turns</German>
+		<Italian>Accepted Turns</Italian>
+		<Spanish>Accepted Turns</Spanish>
+		<Finnish>Accepted Turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ACCEPTEDTURNS_HOVER</Tag>
+		<English>Minimum number of turns that must pass before a revolution can be spawned after accepting rebel demands</English>
+		<French>Minimum number of turns that must pass before a revolution can be spawned after accepting rebel demands</French>
+		<German>Minimum number of turns that must pass before a revolution can be spawned after accepting rebel demands</German>
+		<Italian>Minimum number of turns that must pass before a revolution can be spawned after accepting rebel demands</Italian>
+		<Spanish>Minimum number of turns that must pass before a revolution can be spawned after accepting rebel demands</Spanish>
+		<Finnish>Minimum number of turns that must pass before a revolution can be spawned after accepting rebel demands</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ACQUIREDTURNS_TEXT</Tag>
+		<English>Acquired Turns</English>
+		<French>Acquired Turns</French>
+		<German>Acquired Turns</German>
+		<Italian>Acquired Turns</Italian>
+		<Spanish>Acquired Turns</Spanish>
+		<Finnish>Acquired Turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ACQUIREDTURNS_HOVER</Tag>
+		<English>Minimum number of turns that must pass before a recently conquered city may spawn a revolution</English>
+		<French>Minimum number of turns that must pass before a recently conquered city may spawn a revolution</French>
+		<German>Minimum number of turns that must pass before a recently conquered city may spawn a revolution</German>
+		<Italian>Minimum number of turns that must pass before a recently conquered city may spawn a revolution</Italian>
+		<Spanish>Minimum number of turns that must pass before a recently conquered city may spawn a revolution</Spanish>
+		<Finnish>Minimum number of turns that must pass before a recently conquered city may spawn a revolution</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUYOFFTURNS_TEXT</Tag>
+		<English>Acquired Turns</English>
+		<French>Acquired Turns</French>
+		<German>Acquired Turns</German>
+		<Italian>Acquired Turns</Italian>
+		<Spanish>Acquired Turns</Spanish>
+		<Finnish>Acquired Turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUYOFFTURNS_HOVER</Tag>
+		<English>Minimum number of turns that must pass before a revolution can occur after rebels have been bought off</English>
+		<French>Minimum number of turns that must pass before a revolution can occur after rebels have been bought off</French>
+		<German>Minimum number of turns that must pass before a revolution can occur after rebels have been bought off</German>
+		<Italian>Minimum number of turns that must pass before a revolution can occur after rebels have been bought off</Italian>
+		<Spanish>Minimum number of turns that must pass before a revolution can occur after rebels have been bought off</Spanish>
+		<Finnish>Minimum number of turns that must pass before a revolution can occur after rebels have been bought off</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEREINFORCEMENTTURNS_TEXT</Tag>
+		<English>Base Reinforcement Turns</English>
+		<French>Base Reinforcement Turns</French>
+		<German>Base Reinforcement Turns</German>
+		<Italian>Base Reinforcement Turns</Italian>
+		<Spanish>Base Reinforcement Turns</Spanish>
+		<Finnish>Base Reinforcement Turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEREINFORCEMENTTURNS_HOVER</Tag>
+		<English>Average number of turns that pass before rebellions recieve reinforcements</English>
+		<French>Average number of turns that pass before rebellions recieve reinforcements</French>
+		<German>Average number of turns that pass before rebellions recieve reinforcements</German>
+		<Italian>Average number of turns that pass before rebellions recieve reinforcements</Italian>
+		<Spanish>Average number of turns that pass before rebellions recieve reinforcements</Spanish>
+		<Finnish>Average number of turns that pass before rebellions recieve reinforcements</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINREINFORCEMENTTURNS_TEXT</Tag>
+		<English>Min Reinforcement Turns</English>
+		<French>Min Reinforcement Turns</French>
+		<German>Min Reinforcement Turns</German>
+		<Italian>Min Reinforcement Turns</Italian>
+		<Spanish>Min Reinforcement Turns</Spanish>
+		<Finnish>Min Reinforcement Turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINREINFORCEMENTTURNS_HOVER</Tag>
+		<English>Minumum number of turns that must pass between reinforcements</English>
+		<French>Minumum number of turns that must pass between reinforcements</French>
+		<German>Minumum number of turns that must pass between reinforcements</German>
+		<Italian>Minumum number of turns that must pass between reinforcements</Italian>
+		<Spanish>Minumum number of turns that must pass between reinforcements</Spanish>
+		<Finnish>Minumum number of turns that must pass between reinforcements</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALWAYSVIOLENTTHRESHOLD_TEXT</Tag>
+		<English>Violent Threshold</English>
+		<French>Violent Threshold</French>
+		<German>Violent Threshold</German>
+		<Italian>Violent Threshold</Italian>
+		<Spanish>Violent Threshold</Spanish>
+		<Finnish>Violent Threshold</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ALWAYSVIOLENTTHRESHOLD_HOVER</Tag>
+		<English>RevIdx value at which a city that causes a rebellion will always be a violent and spawn rebel units</English>
+		<French>RevIdx value at which a city that causes a rebellion will always be a violent and spawn rebel units</French>
+		<German>RevIdx value at which a city that causes a rebellion will always be a violent and spawn rebel units</German>
+		<Italian>RevIdx value at which a city that causes a rebellion will always be a violent and spawn rebel units</Italian>
+		<Spanish>RevIdx value at which a city that causes a rebellion will always be a violent and spawn rebel units</Spanish>
+		<Finnish>RevIdx value at which a city that causes a rebellion will always be a violent and spawn rebel units</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__INSTIGATEREVOLUTIONTHRESHOLD_TEXT</Tag>
+		<English>Instigate Threshold</English>
+		<French>Instigate Threshold</French>
+		<German>Instigate Threshold</German>
+		<Italian>Instigate Threshold</Italian>
+		<Spanish>Instigate Threshold</Spanish>
+		<Finnish>Instigate Threshold</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__INSTIGATEREVOLUTIONTHRESHOLD_HOVER</Tag>
+		<English>RevIdx value at which a city can instigate rebellions</English>
+		<French>RevIdx value at which a city can instigate rebellions</French>
+		<German>RevIdx value at which a city can instigate rebellions</German>
+		<Italian>RevIdx value at which a city can instigate rebellions</Italian>
+		<Spanish>RevIdx value at which a city can instigate rebellions</Spanish>
+		<Finnish>RevIdx value at which a city can instigate rebellions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__JOINREVOLUTIONFRAC_TEXT</Tag>
+		<English>Join Fraction</English>
+		<French>Join Fraction</French>
+		<German>Join Fraction</German>
+		<Italian>Join Fraction</Italian>
+		<Spanish>Join Fraction</Spanish>
+		<Finnish>Join Fraction</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__JOINREVOLUTIONFRAC_HOVER</Tag>
+		<English>Fraction of RevIdx Instigate Threshold at which a city may join an instigating city's rebellion</English>
+		<French>Fraction of RevIdx Instigate Threshold at which a city may join an instigating city's rebellion</French>
+		<German>Fraction of RevIdx Instigate Threshold at which a city may join an instigating city's rebellion</German>
+		<Italian>Fraction of RevIdx Instigate Threshold at which a city may join an instigating city's rebellion</Italian>
+		<Spanish>Fraction of RevIdx Instigate Threshold at which a city may join an instigating city's rebellion</Spanish>
+		<Finnish>RevIdx value at which a city can instigate rebellions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BADLOCALTHRESHOLD_TEXT</Tag>
+		<English>Local Threshold</English>
+		<French>Local Threshold</French>
+		<German>Local Threshold</German>
+		<Italian>Local Threshold</Italian>
+		<Spanish>Local Threshold</Spanish>
+		<Finnish>Local Threshold</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BADLOCALTHRESHOLD_HOVER</Tag>
+		<English>Effects local RevIdx effects and bribing, as well as penalties added when a city is feeling rebelious</English>
+		<French>Effects local RevIdx effects and bribing, as well as penalties added when a city is feeling rebelious</French>
+		<German>Effects local RevIdx effects and bribing, as well as penalties added when a city is feeling rebelious</German>
+		<Italian>Effects local RevIdx effects and bribing, as well as penalties added when a city is feeling rebelious</Italian>
+		<Spanish>Effects local RevIdx effects and bribing, as well as penalties added when a city is feeling rebelious</Spanish>
+		<Finnish>Effects local RevIdx effects and bribing, as well as penalties added when a city is feeling rebelious</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DENIEDTURNS_TEXT</Tag>
+		<English>Denied Turns</English>
+		<French>Denied Turns</French>
+		<German>Denied Turns</German>
+		<Italian>Denied Turns</Italian>
+		<Spanish>Denied Turns</Spanish>
+		<Finnish>Denied Turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DENIEDTURNS_HOVER</Tag>
+		<English>Turns delay before a new rebellion can spawn, or rebels can make new demands, after rebel terms are rejected</English>
+		<French>Turns delay before a new rebellion can spawn, or rebels can make new demands, after rebel terms are rejected</French>
+		<German>Turns delay before a new rebellion can spawn, or rebels can make new demands, after rebel terms are rejected</German>
+		<Italian>Turns delay before a new rebellion can spawn, or rebels can make new demands, after rebel terms are rejected</Italian>
+		<Spanish>Turns delay before a new rebellion can spawn, or rebels can make new demands, after rebel terms are rejected</Spanish>
+		<Finnish>Turns delay before a new rebellion can spawn, or rebels can make new demands, after rebel terms are rejected</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__AIAUTOPLAYENABLE_TEXT</Tag>
+		<English>Enable</English>
+		<French>Enable</French>
+		<German>Enable</German>
+		<Italian>Enable</Italian>
+		<Spanish>Enable</Spanish>
+		<Finnish>Enable</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__AIAUTOPLAYENABLE_HOVER</Tag>
+		<English>Enables AIAutoplay</English>
+		<French>Enables AIAutoplay</French>
+		<German>Enables AIAutoplay</German>
+		<Italian>Enables AIAutoplay</Italian>
+		<Spanish>Enables AIAutoplay</Spanish>
+		<Finnish>Enables AIAutoplay</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BLOCKPOPUPS_TEXT</Tag>
+		<English>Block Pop Ups</English>
+		<French>Block Pop Ups</French>
+		<German>Block Pop Ups</German>
+		<Italian>Block Pop Ups</Italian>
+		<Spanish>Block Pop Ups</Spanish>
+		<Finnish>Block Pop Ups</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BLOCKPOPUPS_HOVER</Tag>
+		<English>Blocks pop ups while in AIAutoplay</English>
+		<French>Blocks pop ups while in AIAutoplay</French>
+		<German>Blocks pop ups while in AIAutoplay</German>
+		<Italian>Blocks pop ups while in AIAutoplay</Italian>
+		<Spanish>Blocks pop ups while in AIAutoplay</Spanish>
+		<Finnish>Blocks pop ups while in AIAutoplay</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__SAVEALLDEATHS_TEXT</Tag>
+		<English>Save Deaths</English>
+		<French>Save Deaths</French>
+		<German>Save Deaths</German>
+		<Italian>Save Deaths</Italian>
+		<Spanish>Save Deaths</Spanish>
+		<Finnish>Save Deaths</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__SAVEALLDEATHS_HOVER</Tag>
+		<English>Not sure what this does</English>
+		<French>Not sure what this does</French>
+		<German>Not sure what this does</German>
+		<Italian>Not sure what this does</Italian>
+		<Spanish>Not sure what this does</Spanish>
+		<Finnish>Not sure what this does</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REFORTIFY_TEXT</Tag>
+		<English>Refortify</English>
+		<French>Refortify</French>
+		<German>Refortify</German>
+		<Italian>Refortify</Italian>
+		<Spanish>Refortify</Spanish>
+		<Finnish>Refortify</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REFORTIFY_HOVER</Tag>
+		<English>Refortifies units when human takes control from AIAutoplay</English>
+		<French>Refortifies units when human takes control from AIAutoplay</French>
+		<German>Refortifies units when human takes control from AIAutoplay</German>
+		<Italian>Refortifies units when human takes control from AIAutoplay</Italian>
+		<Spanish>Refortifies units when human takes control from AIAutoplay</Spanish>
+		<Finnish>Refortifies units when human takes control from AIAutoplay</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CHANGEPLAYERENABLE_TEXT</Tag>
+		<English>Enable</English>
+		<French>Enable</French>
+		<German>Enable</German>
+		<Italian>Enable</Italian>
+		<Spanish>Enable</Spanish>
+		<Finnish>Enable</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CHANGEPLAYERENABLE_HOVER</Tag>
+		<English>Enables Change Player function</English>
+		<French>Enables Change Player function</French>
+		<German>Enables Change Player function</German>
+		<Italian>Enables Change Player function</Italian>
+		<Spanish>Enables Change Player function</Spanish>
+		<Finnish>Enables Change Player function</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CHANGEPLAYERDEBUGMODE_TEXT</Tag>
+		<English>Debug</English>
+		<French>Debug</French>
+		<German>Debug</German>
+		<Italian>Debug</Italian>
+		<Spanish>Debug</Spanish>
+		<Finnish>Debug</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CHANGEPLAYERDEBUGMODE_HOVER</Tag>
+		<English>Enables Debugging information and logging for Change Player functions</English>
+		<French>Enables Debugging information and logging for Change Player functions</French>
+		<German>Enables Debugging information and logging for Change Player functions</German>
+		<Italian>Enables Debugging information and logging for Change Player functions</Italian>
+		<Spanish>Enables Debugging information and logging for Change Player functions</Spanish>
+		<Finnish>Enables Debugging information and logging for Change Player functions</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TECHDIFDEBUGMODE_TEXT</Tag>
+		<English>Debug</English>
+		<French>Debug</French>
+		<German>Debug</German>
+		<Italian>Debug</Italian>
+		<Spanish>Debug</Spanish>
+		<Finnish>Debug</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TECHDIFDEBUGMODE_HOVER</Tag>
+		<English>Enables Debugging information and logging for Tech Diffusion functions</English>
+		<French>Enables Debugging information and logging for Tech Diffusion functions</French>
+		<German>Enables Debugging information and logging for Tech Diffusion functions</German>
+		<Italian>Enables Debugging information and logging for Tech Diffusion functions</Italian>
+		<Spanish>Enables Debugging information and logging for Tech Diffusion functions</Spanish>
+		<Finnish>Enables Debugging information and logging for Tech Diffusion functions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINTECHSBEHIND_TEXT</Tag>
+		<English>Min Techs Behind</English>
+		<French>Min Techs Behind</French>
+		<German>Min Techs Behind</German>
+		<Italian>Min Techs Behind</Italian>
+		<Spanish>Min Techs Behind</Spanish>
+		<Finnish>Min Techs Behind</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINTECHSBEHIND_HOVER</Tag>
+		<English>Minimum number of techs a team must be behind before recieving Tech Diffusion bonuses</English>
+		<French>Minimum number of techs a team must be behind before recieving Tech Diffusion bonuses</French>
+		<German>Minimum number of techs a team must be behind before recieving Tech Diffusion bonuses</German>
+		<Italian>Minimum number of techs a team must be behind before recieving Tech Diffusion bonuses</Italian>
+		<Spanish>Minimum number of techs a team must be behind before recieving Tech Diffusion bonuses</Spanish>
+		<Finnish>Minimum number of techs a team must be behind before recieving Tech Diffusion bonuses</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FULLEFFECTTECHSBEHIND_TEXT</Tag>
+		<English>Full Techs Behind</English>
+		<French>Full Techs Behind</French>
+		<German>Full Techs Behind</German>
+		<Italian>Full Techs Behind</Italian>
+		<Spanish>Full Techs Behind</Spanish>
+		<Finnish>Full Techs Behind</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FULLEFFECTTECHSBEHIND_HOVER</Tag>
+		<English>Number of techs a team must be behind before recieving full Tech Diffusion bonuses</English>
+		<French>Number of techs a team must be behind before recieving full Tech Diffusion bonuses</French>
+		<German>Number of techs a team must be behind before recieving full Tech Diffusion bonuses</German>
+		<Italian>Number of techs a team must be behind before recieving full Tech Diffusion bonuses</Italian>
+		<Spanish>Number of techs a team must be behind before recieving full Tech Diffusion bonuses</Spanish>
+		<Finnish>Number of techs a team must be behind before recieving full Tech Diffusion bonuses</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BONUSTECHSBEHIND_TEXT</Tag>
+		<English>Bonus Techs Behind</English>
+		<French>Bonus Techs Behind</French>
+		<German>Bonus Techs Behind</German>
+		<Italian>Bonus Techs Behind</Italian>
+		<Spanish>Bonus Techs Behind</Spanish>
+		<Finnish>Bonus Techs Behind</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BONUSTECHSBEHIND_HOVER</Tag>
+		<English>Offset number of techs behind used to give heavy Tech Diffusion bonuses to very behind civs</English>
+		<French>Offset number of techs behind used to give heavy Tech Diffusion bonuses to very behind civs</French>
+		<German>Offset number of techs behind used to give heavy Tech Diffusion bonuses to very behind civs</German>
+		<Italian>Offset number of techs behind used to give heavy Tech Diffusion bonuses to very behind civs</Italian>
+		<Spanish>Offset number of techs behind used to give heavy Tech Diffusion bonuses to very behind civs</Spanish>
+		<Finnish>Offset number of techs behind used to give heavy Tech Diffusion bonuses to very behind civs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DIFFUSIONMOD_TEXT</Tag>
+		<English>Diffusion Modifier</English>
+		<French>Diffusion Modifier</French>
+		<German>Diffusion Modifier</German>
+		<Italian>Diffusion Modifier</Italian>
+		<Spanish>Diffusion Modifier</Spanish>
+		<Finnish>Diffusion Modifier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DIFFUSIONMOD_HOVER</Tag>
+		<English>Modifier used in Tech Diffusion calculations</English>
+		<French>Modifier used in Tech Diffusion calculations</French>
+		<German>Modifier used in Tech Diffusion calculations</German>
+		<Italian>Modifier used in Tech Diffusion calculations</Italian>
+		<Spanish>Modifier used in Tech Diffusion calculations</Spanish>
+		<Finnish>Modifier used in Tech Diffusion calculations</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DYNAMICNAMESDEBUGMODE_TEXT</Tag>
+		<English>Debug</English>
+		<French>Debug</French>
+		<German>Debug</German>
+		<Italian>Debug</Italian>
+		<Spanish>Debug</Spanish>
+		<Finnish>Debug</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DYNAMICNAMESDEBUGMODE_HOVER</Tag>
+		<English>Enables Debugging information and logging for Dynamic Civ Names</English>
+		<French>Enables Debugging information and logging for Dynamic Civ Names</French>
+		<German>Enables Debugging information and logging for Dynamic Civ Names</German>
+		<Italian>Enables Debugging information and logging for Dynamic Civ Names</Italian>
+		<Spanish>Enables Debugging information and logging for Dynamic Civ Names</Spanish>
+		<Finnish>Enables Debugging information and logging for Dynamic Civ Names</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TEAMNAMING_TEXT</Tag>
+		<English>Team Naming</English>
+		<French>Team Naming</French>
+		<German>Team Naming</German>
+		<Italian>Team Naming</Italian>
+		<Spanish>Team Naming</Spanish>
+		<Finnish>Team Naming</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TEAMNAMING_HOVER</Tag>
+		<English>Dynamic Civ Names applied across teams</English>
+		<French>Dynamic Civ Names applied across teams</French>
+		<German>Dynamic Civ Names applied across teams</German>
+		<Italian>Dynamic Civ Names applied across teams</Italian>
+		<Spanish>Dynamic Civ Names applied across teams</Spanish>
+		<Finnish>Dynamic Civ Names applied across teams</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEAVEHUMANPLAYERNAME_TEXT</Tag>
+		<English>Leave Human</English>
+		<French>Leave Human</French>
+		<German>Leave Human</German>
+		<Italian>Leave Human</Italian>
+		<Spanish>Leave Human</Spanish>
+		<Finnish>Leave Human</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEAVEHUMANPLAYERNAME_HOVER</Tag>
+		<English>Dynamic Civ Names are not applied to human players</English>
+		<French>Dynamic Civ Names are not applied to human players</French>
+		<German>Dynamic Civ Names are not applied to human players</German>
+		<Italian>Dynamic Civ Names are not applied to human players</Italian>
+		<Spanish>Dynamic Civ Names are not applied to human players</Spanish>
+		<Finnish>Dynamic Civ Names are not applied to human players</Finnish>
+	</TEXT>
+</Civ4GameText>

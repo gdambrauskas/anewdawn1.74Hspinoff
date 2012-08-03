@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Master Load File -->
+<!-- -->
+<Civ4ModularLoadControls xmlns="x-schema:CIV4ModularLoadingControlsSchema.xml">
+	<DefaultConfiguration>Interface</DefaultConfiguration>
+	<ConfigurationInfos>
+		<ConfigurationInfo>
+			<Type>Interface</Type>
+			<Description>Initialize ALL Modules by using the MLF file structure</Description>
+			<Modules>
+				<Module>
+					<Directory>Black UI</Directory>
+					<bLoad>0</bLoad>
+				</Module>
+				<Module>
+					<Directory>Coal UI</Directory>
+					<bLoad>0</bLoad>
+				</Module>
+				<Module>
+					<Directory>Dark Red UI</Directory>
+					<bLoad>0</bLoad>
+				</Module>
+				<Module>
+					<Directory>Forest UI</Directory>
+					<bLoad>0</bLoad>
+				</Module>
+				<Module>
+					<Directory>Purple UI</Directory>
+					<bLoad>0</bLoad>
+				</Module>
+				<Module>
+					<Directory>Red UI</Directory>
+					<bLoad>0</bLoad>
+				</Module>
+				<Module>
+					<Directory>Silver UI</Directory>
+					<bLoad>0</bLoad>
+				</Module>
+				<Module>
+					<Directory>Cerulean UI</Directory>
+					<bLoad>0</bLoad>
+				</Module>
+			</Modules>
+		</ConfigurationInfo>
+	</ConfigurationInfos>
+</Civ4ModularLoadControls>

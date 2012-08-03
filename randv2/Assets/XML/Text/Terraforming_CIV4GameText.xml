@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_GRASS</Tag>
+		<English>Terraform into Grass</English>
+		<French>Terraform into Grass</French>
+		<German>Terraforme zu Grasland</German>
+		<Italian>Terraform into Grass</Italian>
+		<Spanish>Terraform into Grass</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_PLAINS</Tag>
+		<English>Terraform towards Plains</English>
+		<French>Terraform towards Plains</French>
+		<German>Terraforme zu Ebene</German>
+		<Italian>Terraform towards Plains</Italian>
+		<Spanish>Terraform towards Plains</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TERRAFORM_TUNDRA</Tag>
+		<English>Terraform towards Tundra</English>
+		<French>Terraform towards Tundra</French>
+		<German>Terraforme zu Tundra</German>
+		<Italian>Terraform towards Tundra</Italian>
+		<Spanish>Terraform towards Tundra</Spanish>
+	</TEXT>	
+</Civ4GameText>

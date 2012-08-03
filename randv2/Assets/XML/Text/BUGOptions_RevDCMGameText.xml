@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__REVDCMRESET_TEXT</Tag>
+		<English>Reset Options To Defaults</English>
+		<French>Rétablir les Options par Défaut</French>
+		<German>Auf Standardoptionen zurücksetzen</German>
+		<Italian>Reset Options To Defaults</Italian>
+		<Spanish>Resetear Opciones a Predefinidas</Spanish>
+		<Finnish>Reset Options To Defaults</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__REVDCMRESET_HOVER</Tag>
+		<English>Reset all options back to mod defaults (game effect is immediate but reload BUG options screen to visually confirm)</English>
+		<French>Rétablit l'ensemble des options du Mod à leurs valeurs par défaut (l'effet sur le Jeu est immédiat, mais nécessite un redémarrage pour mettre à jour les écrans).</French>
+		<German>Alle Optionen auf Standard dieses Mods zurückstellen (Änderungen sind im Spiel unmittelbar wirksam, BUG-Optionen neu starten, um sie hier zu sehen</German>
+		<Italian>Reset all options back to mod defaults (game effect is immediate but reload BUG options screen to visually confirm)</Italian>
+		<Spanish>Resetea todas las opciones a las predefinidas del mod (los cambios de los efectos en el juego son inmediatos, pero recarga la pantalla de Opciones Bug para confirmarlo)</Spanish>
+		<Finnish>Reset all options back to mod defaults (game effect is immediate but reload BUG options screen to visually confirm)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__REVDCMHIDDENATTITUDE_TEXT</Tag>
+		<English>Display detailed AI attitude info</English>
+		<French>Infos détaillées sur l'Attitude IA</French>
+		<German>Zeigt detailierte Infos zur Einstellung der KIs</German>
+		<Italian>Display detailed AI attitude info</Italian>
+		<Spanish>Muestra informaci&#243;n detallada de la actitud de la IA</Spanish>
+		<Finnish>Display detailed AI attitude info</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__REVDCMHIDDENATTITUDE_HOVER</Tag>
+		<English>When checked, enables the Hidden Attitude Mod by DaveMcW</English>
+		<French>Lorsque activé, affiche des informations supplémentaires concernant l'attitude de l'IA, en utilisant le Mod 'Hidden Attitude' de DaveMcW </French>
+		<German>Schaltet den verborgenen Einstellungsmodus (Hidden Attitude Mod) von DaveMcW ein</German>
+		<Italian>When checked, enables the Hidden Attitude Mod by DaveMcW</Italian>
+		<Spanish>Cuando se activa, habilita el Mod Actitud Oculta de DaveMcW</Spanish>
+		<Finnish>When checked, enables the Hidden Attitude Mod by DaveMcW</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DYNAMIC_CIV_NAMES_TEXT</Tag>
+		<English>DynamicCivNames Mod</English>
+		<French>Mod noms dynamiques des Civ</French>
+		<German>DynamicCivNames MOD</German>
+		<Italian>MOD "DynamicCivNames"</Italian>
+		<Spanish>Nombres din&#225;micos de la civilizaci&#243;n</Spanish>
+		<Finnish>DynamicCivNames Mod</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DYNAMIC_CIV_NAMES_HOVER</Tag>
+		<English>Enable the DynamicCivNames mod component: renames civs based on their civics and other properties.  Only works in English.</English>
+		<French>Active noms dynamiques des Civ : renomme les civs en fonction de leurs doctrines et d'autres propri&#233;t&#233;s. Fonctionne essentiellement en Anglais - compatibilité assuré en Français sans les accentuations</French>
+		<German>Aktivieren Sie den DynamicCivNames-MOD-Baustein: benennt Civs basierend auf ihre Staatsformen und sonstige Eigenschaften um.  Funktioniert nur auf englisch einwandfrei.</German>
+		<Italian>Attiva il componente "Definizioni Dinamiche" (DynamicCivNames): rinomina le civilt&#224; in base a forma di governo ed altre propriet&#224; (in inglese).</Italian>
+		<Spanish>Activado componente de Revolution Mod: Renombra las civilizaciones basandose en sus principios y otras propiedades (Mod)</Spanish>
+		<Finnish>Enable the DynamicCivNames mod component: renames civs based on their civics and other properties.  Only works in English.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_RANGE_BOMBARD_TEXT</Tag>
+		<English>Ranged Bombardment</English>
+		<French>Bombardement à Distance</French>
+		<German>Fernbombardierung</German>
+		<Italian>Ranged Bombardment</Italian>
+		<Spanish>Bombardeo a Distancia</Spanish>
+		<Finnish>Ranged Bombardment</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_RANGE_BOMBARD_HOVER</Tag>
+		<English>Enables a ranged attack for most seige units (excluding catapults)</English>
+		<French>Permet à la plupart des unités de Siège (à l'exception des Catapultes) de disposer du Bombardement à Distance</French>
+		<German>Ermöglicht die Fernbombardierung für die meisten Belagerungswaffen (ausgenommen Katapulte)</German>
+		<Italian>Enables a ranged attack for most seige units (excluding catapults)</Italian>
+		<Spanish>Habilita el ataque a distancia para la mayor&#237;a de las unidades de asedio (excluidas las catapultas)</Spanish>
+		<Finnish>Enables a ranged attack for most seige units (excluding catapults)</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_OPP_FIRE_TEXT</Tag>
+		<English>Opportunity Fire</English>
+		<French>Feu d'Opportunité</French>
+		<German>Gelegenheitstreffer</German>
+		<Italian>Opportunity Fire</Italian>
+		<Spanish>Ataque de Oportunidad</Spanish>
+		<Finnish>Opportunity Fire</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_OPP_FIRE_HOVER</Tag>
+		<English>Enables sentry siege the possibilty to inflict damage through opportunity volleying</English>
+		<French>Permet aux unités en sentinelles d'infliger des dégâts préliminaires de par l'opportunité de leur positionnement.</French>
+		<German>Ermöglicht Belagerungswaffen, Schaden durch Gelegenheitstreffer (engl. opportunity fire) zu erzeugen</German>
+		<Italian>Enables sentry siege the possibilty to inflict damage through opportunity volleying</Italian>
+		<Spanish>Habilita que las unidades de asedio en posici&#243;n de vig&#237;a puedan infringir da&#241;o a trav&#233;s de fuego a distancia de oportunidad.</Spanish>
+		<Finnish>Enables sentry siege the possibilty to inflict damage through opportunity volleying</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_AIR_BOMBING_TEXT</Tag>
+		<English>Enhanced Air Bombardment</English>
+		<French>Bombardement Aérien avancé</French>
+		<German>Verbesserte Luftbombardierung</German>
+		<Italian>Enhanced Air Bombardment</Italian>
+		<Spanish>Bombardeo Aereo Avanzado</Spanish>
+		<Finnish>Enhanced Air Bombardment</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_AIR_BOMBING_HOVER</Tag>
+		<English>Enables bombers to bomb city buildings and other missions</English>
+		<French>Permet aux unités de type Bombardier d'effectuer des missions supplémentaires de bombardement (bâtiments,..)</French>
+		<German>Ermöglicht Bombern Gebäude zu bombardieren und weitere Missionen</German>
+		<Italian>Enables bombers to bomb city buildings and other missions</Italian>
+		<Spanish>Habilita a los bombarderos atacar edificios de las ciudades y otras misiones</Spanish>
+		<Finnish>Enables bombers to bomb city buildings and other missions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_ACTIVE_DEFENSE_TEXT</Tag>
+		<English>Active Fighter Defense</English>
+		<French>Défense Active des Chasseurs</French>
+		<German>Aktive Jägerverteidigung</German>
+		<Italian>Active Fighter Defense</Italian>
+		<Spanish>Intercepcion Aerea Activa</Spanish>
+		<Finnish>Active Fighter Defense</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_ACTIVE_DEFENSE_HOVER</Tag>
+		<English>Allows patrolling fighters to actively engage enemy units</English>
+		<French>Autorise les avions de Chasse en patrouille d'engager automatiquement les unités ennemies</French>
+		<German>Erlaubt patrouillierenden Jägern aktiv feindliche Einheiten anzugreifen</German>
+		<Italian>Allows patrolling fighters to actively engage enemy units</Italian>
+		<Spanish>Permite que los cazas en misi&#243;n de intercepci&#243;n se enfrenten a las unidades enemigas activamente</Spanish>
+		<Finnish>Allows patrolling fighters to actively engage enemy units</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_FIGHTER_ENGAGE_TEXT</Tag>
+		<English>Fighter Engagement</English>
+		<French>Engagement Aérien</French>
+		<German>Jägerangriff</German>
+		<Italian>Fighter Engagement</Italian>
+		<Spanish>Lucha de Cazas</Spanish>
+		<Finnish>Fighter Engagement</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_FIGHTER_ENGAGE_HOVER</Tag>
+		<English>Enables fighters to actively target and engage enemy aircraft</English>
+		<French>Permet aux Avions de Chasse d'engager le Combat en sélectionnant une cible aérienne.</French>
+		<German>Ermöglicht Jägern aktiv auf feindliche Luftkräfte zu zielen und sie anzugreifen</German>
+		<Italian>Enables fighters to actively target and engage enemy aircraft</Italian>
+		<Spanish>Permite que los cazas puedan atacar a las unidades a&#233;reas enemigas</Spanish>
+		<Finnish>Enables fighters to actively target and engage enemy aircraft</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_ARCHER_BOMBARD_TEXT</Tag>
+		<English>Archer Bombard</English>
+		<French>Attaque à distance des Archers </French>
+		<German>Bogenschützenbombardierung</German>
+		<Italian>Archer Bombard</Italian>
+		<Spanish>Bombardeo de Arqueros</Spanish>
+		<Finnish>Archer Bombard</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_ARCHER_BOMBARD_HOVER</Tag>
+		<English>Enables a ranged attack for Archery Units</English>
+		<French>Permet aux unités de type Archers de mener des attaques à distance (similaires aux bombardements)</French>
+		<German>Ermöglicht Fernangriffe für Bogenschützeneinheiten</German>
+		<Italian>Enables a ranged attack for Archery Units</Italian>
+		<Spanish>Permite el ataque a distancia para las unidades de Arqueros</Spanish>
+		<Finnish>Enables a ranged attack for Archery Units</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_BATTLE_EFFECTS_TEXT</Tag>
+		<English>Battle Effects</English>
+		<French>Effets de Batailles</French>
+		<German>Kampfeffekte</German>
+		<Italian>Battle Effects</Italian>
+		<Spanish>Efectos de Batalla</Spanish>
+		<Finnish>Battle Effects</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_BATTLE_EFFECTS_HOVER</Tag>
+		<English>Causes "Battlefield Terrain", which significantly reduces productivity and mobility on plots where a battle is fought</English>
+		<French>Transforme les cases qui sont le théâtre d'un combat en "Champs de Bataille", réduisant de manière significative leur productivité et la mobilité des unités y accédant.</French>
+		<German>Erzeugt auf der Karte das Feld "Schlachtfeld" (engl. "Battlefield Terrain"), auf den Flächen, auf denen ein Kampf ausgetragen wird, die Produktivität senkt und Bewegung von Einheiten verringert</German>
+		<Italian>Causes "Battlefield Terrain", which significantly reduces productivity and mobility on plots where a battle is fought</Italian>
+		<Spanish>Causa "Terreno de Batalla", lo que reduce significativamente la producci&#243;n y la movilidad en las casillas donde se lucha una batalla.</Spanish>
+		<Finnish>Causes "Battlefield Terrain", which significantly reduces productivity and mobility on plots where a battle is fought</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_STACK_ATTACK_TEXT</Tag>
+		<English>Stack Attack</English>
+		<French>Attaques Groupées</French>
+		<German>Stapelangriff</German>
+		<Italian>Stack Attack</Italian>
+		<Spanish>Ataque en Masa</Spanish>
+		<Finnish>Stack Attack</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_STACK_ATTACK_HOVER</Tag>
+		<English>Enables unit stacks to attack in animated succession, automating the process of attacking by stack; This option has been known to cause stability issues and is not recommended</English>
+		<French>Permet aux groupes d'unités d'attaquer de manière automatique les unes après les autres.  Attention, cette option peut pour l'instant engendrer des problèmes de stabilité du Jeu et n'est pas recommandée.</French>
+		<German>Ermöglicht Einheitenstapel in einer animierten, automatisierten Folge anzugreifen; Diese Option erzeugt bekanntermaßen Stabilitätsprobleme und wird nicht empfohlen</German>
+		<Italian>Enables unit stacks to attack in animated succession, automating the process of attacking by stack; This option has been known to cause stability issues and is not recommended</Italian>
+		<Spanish>Permite que las unidades apiladas ataquen en sucesivamente, automatizando el proceso de ataque para unidades apiladas. Esta opci&#243;n puede causar problemas de estabilidad y no est&#225; recomendada.</Spanish>
+		<Finnish>Enables unit stacks to attack in animated succession, automating the process of attacking by stack; This option has been known to cause stability issues and is not recommended</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_ATTACK_SUPPORT_TEXT</Tag>
+		<English>Attack Support</English>
+		<French>Support d'Attaques</French>
+		<German>Angriffsunterstützung</German>
+		<Italian>Attack Support</Italian>
+		<Spanish>Apoyo al Ataque</Spanish>
+		<Finnish>Attack Support</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__DCM_ATTACK_SUPPORT_HOVER</Tag>
+		<English>Enables both offensive and defensive bombard units to bombard assist the attacking/defending unit while retaining their turn; is dependent on whether archer and ranged bombardment are enabled</English>
+		<French>Permet aux unités de bombardement (offensif et défensif) d'assister les attaquants ou défenseurs, tout les privant alors de la possibilité d'effectuer d'autres actions. Cette Option dépend des choix concernant les options de bombardement et d'attaque à distance des Archers.</French>
+		<German>Ermöglicht es, offensiven und defensiven Bombardierungseinheiten andere angreifende oder verteidigende Einheiten durch Bombardement zu unterstützen und dabei keinen Bewegungspunkt zu verlieren; hängt davon ab, ob Bogenschützen- und Fernbombardierung aktiviert sind</German>
+		<Italian>Enables both offensive and defensive bombard units to bombard assist the attacking/defending unit while retaining their turn; is dependent on whether archer and ranged bombardment are enabled</Italian>
+		<Spanish>Habilita a las unidades capaces de bombardeo a distancia, el apoyo tanto al ataque como a la defensa de otras unidades mientras permanezcan en su turno; depende de si est&#225; habilitado el bombardeo a distancia de arqueros y unidades de asedio.</Spanish>
+		<Finnish>Enables both offensive and defensive bombard units to bombard assist the attacking/defending unit while retaining their turn; is dependent on whether archer and ranged bombardment are enabled</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_ENABLED_TEXT</Tag>
+		<English>IDW Enabled</English>
+		<French>Activation IDW</French>
+		<German>EbK aktiviert</German>
+		<Italian>IDW Enabled</Italian>
+		<Spanish>IDW Activado</Spanish>
+		<Finnish>IDW Enabled</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_ENABLED_HOVER</Tag>
+		<English>Causes battle outcomes to effect cultural control of tiles; national borders tend to shift based on the results of a war</English>
+		<French>Ce mod (Influence Driven Warfare) met en place un système où les résultats des batailles engendrent des effets au niveau du contrôle des cases. Les Frontières sont donc amenées à être redessinées en fonction des actions de la guerre.</French>
+		<German>Einfluss basierter Krieg (engl. Influence Driven Warfare): Kampfergebnisse beeinflussen den Kulturanteil eines Geländefeldes; Grenzen verschieben sich abhängig vom Ausgang des Krieges</German>
+		<Italian>Causes battle outcomes to effect cultural control of tiles; national borders tend to shift based on the results of a war</Italian>
+		<Spanish>Provoca que el resultado de las batalles afecte a la influencia cultural de las casillas; las fronteras culturales tienden a variar dependiendo de los resultados de la guerra.</Spanish>
+		<Finnish>Causes battle outcomes to effect cultural control of tiles; national borders tend to shift based on the results of a war</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_EMERGENCY_DRAFT_ENABLED_TEXT</Tag>
+		<English>Emergency Draft</English>
+		<French>Appel des Réservistes</French>
+		<German>Notfallrekrutierung</German>
+		<Italian>Emergency Draft</Italian>
+		<Spanish>Reclutamiento de Emergencia</Spanish>
+		<Finnish>CEmergency Draft</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_EMERGENCY_DRAFT_ENABLED_HOVER</Tag>
+		<English>Causes weakened units to spawn in defense of cities that are under attack with no defender if the defenseless city still has significant cultural influence of the owning civilization</English>
+		<French>Lorsque activé, les Villes sans défense, mais possédant une influence culturelle suffisante vont spontanément générer des unités défensives de base.</French>
+		<German>Ermöglicht die Entstehung von geschwächten Einheiten in Städten, die ohne Verteidungseinheit angegriffen werden und dabei genügend kulturellen Einfluss der verteidigenden Zivilisation besitzen</German>
+		<Italian>Causes weakened units to spawn in defense of cities that are under attack with no defender if the defenseless city still has significant cultural influence of the owning civilization</Italian>
+		<Spanish>Provoca que unidades debilitadas aparezcan en defensa de ciudades que est&#233;n bajo ataque y no tengan defensores, si la ciudad aun posee una influencia cultural significativa de la cultura de la civilizaci&#243;n propietaria.</Spanish>
+		<Finnish>Causes weakened units to spawn in defense of cities that are under attack with no defender if the defenseless city still has significant cultural influence of the owning civilization</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_NO_BARBARIAN_INFLUENCE_TEXT</Tag>
+		<English>No Barbarian Influence</English>
+		<French>Pas d'Influence Barbare</French>
+		<German>Keine Beeinflussung bei Kampf mit Barbaren</German>
+		<Italian>No Barbarian Influence</Italian>
+		<Spanish>Sin Influencia B&#225;rbara</Spanish>
+		<Finnish>No Barbarian Influence</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_NO_BARBARIAN_INFLUENCE_HOVER</Tag>
+		<English>Battles with barbarian units have no effect on the cultural control of terrain</English>
+		<French>Lorsque activé (conjointement avec IDW), Les Batailles contre des unités Barbares ne vont pas avoir d'effet sur les frontières</French>
+		<German>Kämpfe mit Barbaren haben keinen Einfluss auf den Kulturwert des Geländefeldes</German>
+		<Italian>Battles with barbarian units have no effect on the cultural control of terrain</Italian>
+		<Spanish>Batallas con los barbaros no influir&#225;n en el control cultural del territorio.</Spanish>
+		<Finnish>Battles with barbarian units have no effect on the cultural control of terrain</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_NO_NAVAL_INFLUENCE_TEXT</Tag>
+		<English>No Naval Influence</English>
+		<French>Pas d'Influence Navale</French>
+		<German>Keine Beeinflussung auf Meeresfeldern</German>
+		<Italian>No Naval Influence</Italian>
+		<Spanish>Sin Influencia Naval</Spanish>
+		<Finnish>No Naval Influence</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_NO_NAVAL_INFLUENCE_HOVER</Tag>
+		<English>Battles between naval units have no effect on tile cultural control</English>
+		<French>Lorsque activé (conjointement aec IDW), les Batailles navales ne vont pas avoir d'effet sur les frontières</French>
+		<German>Kämpfe zwischen Seeeinheiten haben keinen Einfluss auf den Kulturwert des Geländefeldes</German>
+		<Italian>Battles between naval units have no effect on tile cultural control</Italian>
+		<Spanish>Batallas entre unidades navales no influir&#225;n en el control cultural del territorio.</Spanish>
+		<Finnish>Battles between naval units have no effect on tile cultural control</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_PILLAGE_INFLUENCE_ENABLED_TEXT</Tag>
+		<English>Pillage Influence</English>
+		<French>Influence des Pillages</French>
+		<German>Beeinflussung durch Plünderung</German>
+		<Italian>Pillage Influence</Italian>
+		<Spanish>Influencia del Saqueo</Spanish>
+		<Finnish>Pillage Influence</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_PILLAGE_INFLUENCE_ENABLED_HOVER</Tag>
+		<English>Pillaging improvements has an effect on tile cultural control</English>
+		<French>Lorsque activé, Le Pillage des améliorations de terrain a un effet sur le contrôle 'culturel' des cases.</French>
+		<German>Die Plünderung von Geländefeldverbesserungen beeinflusst den Kulturwert</German>
+		<Italian>Pillaging improvements has an effect on tile cultural control</Italian>
+		<Spanish>Los saqueos influir&#225;n en el control cultural del territorio.</Spanish>
+		<Finnish>Pillaging improvements has an effect on tile cultural control</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__SS_ENABLED_TEXT</Tag>
+		<English>Spy Promotions</English>
+		<French>Promotion des Espions</French>
+		<German>Beförderung von Spionen</German>
+		<Italian>Spy Promotions</Italian>
+		<Spanish>Ascenso de los Esp&#237;as</Spanish>
+		<Finnish>Spy Promotions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__SS_ENABLED_HOVER</Tag>
+		<English>Enables spies to gain experience and obtain promotions</English>
+		<French>Permet aux Espions d'acquérir de l'Expérience et d'obtenir des promotions comme les autres unités</French>
+		<German>Ermöglicht Spionen Erfahrungspunkte zu sammeln und befördert zu werden</German>
+		<Italian>Enables spies to gain experience and obtain promotions</Italian>
+		<Spanish>Permite a los esp&#237;as obtener experiencia y conseguir ascensos.</Spanish>
+		<Finnish>Enables spies to gain experience and obtain promotions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__SS_BRIBE_TEXT</Tag>
+		<English>Bribe Mission</English>
+		<French>Missions de Corruption</French>
+		<German>Bestechungsmission</German>
+		<Italian>Bribe Mission</Italian>
+		<Spanish>Misiones de Soborno</Spanish>
+		<Finnish>Bribe Mission</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__SS_BRIBE_HOVER</Tag>
+		<English>Spies can bribe workers to join the spy's civilization and abandon it's current owner</English>
+		<French>Les Espions peuvent soudoyer et corrompre les Ouvriers, les incitant à quitter leur civilisation pour rejoindre celle de l'Espion.</French>
+		<German>Spione können Bautrupps bestechen, sich ihrer Nation anzuschließen</German>
+		<Italian>Spies can bribe workers to join the spy's civilization and abandon it's current owner</Italian>
+		<Spanish>Los esp&#237;as pueden sobornar a trabajadores para unirse a la civilizaci&#243;n del propietario del esp&#237;a y abandonar a su naci&#243;n actual.</Spanish>
+		<Finnish>Spies can bribe workers to join the spy's civilization and abandon it's current owner</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__SS_ASSASSINATE_TEXT</Tag>
+		<English>Assassinate Mission</English>
+		<French>Missions d'Assassinat</French>
+		<German>Attentatsmission</German>
+		<Italian>Assassinate Mission</Italian>
+		<Spanish>Misiones de Asesinato</Spanish>
+		<Finnish>Assassinate Mission</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__SS_ASSASSINATE_HOVER</Tag>
+		<English>Spies can assassinate settled great people</English>
+		<French>Les Espions peuvent assassiner des Personnages Illustres établits dans une ville</French>
+		<German>Spione können Attentate auf große Persönlichkeiten durchführen, die sich einer Stadt angeschlossen haben</German>
+		<Italian>Spies can assassinate settled great people</Italian>
+		<Spanish>Los Esp&#237;as pueden asesinar a los grandes personajes.</Spanish>
+		<Finnish>Spies can assassinate settled great people</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__OC_RESPAWN_HOLY_CITIES_TEXT</Tag>
+		<English>Holy City Relocation</English>
+		<French>Déplacement Ville Sainte</French>
+		<German>Heilige Stadt versetzen</German>
+		<Italian>Holy City Relocation</Italian>
+		<Spanish>Reubicaci&#243;n Ciudad Santa</Spanish>
+		<Finnish>Holy City Relocation</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__OC_RESPAWN_HOLY_CITIES_HOVER</Tag>
+		<English>Allows inquisitions to purge Holy Cities; if there exists a civilization that has two cities with the religion of the purged holy city, the holy city will relocate</English>
+		<French>Permet aux Inquisiteurs des Purger les Villes Saintes. Dans le cas où la civilisation possède une autre ville où la religion est établie, la Ville Sainte va être déplacée.</French>
+		<German>Erlaubt es Inquisitionen Heilige Städte auszulöschen; wenn eine Zivilisation mit 2 Städten dieser Religion existiert, so wird die Heilige Stadt dorthin versetzt</German>
+		<Italian>Allows inquisitions to purge Holy Cities; if there exists a civilization that has two cities with the religion of the purged holy city, the holy city will relocate</Italian>
+		<Spanish>Permite a los Inquisidores purgar Ciudades Santas; si existe una civilizaci&#243;n qu&#233; tiene dos ciudades con la religi&#243;n de la ciudad santa purgada, la ciudad santa se reubicara</Spanish>
+		<Finnish>Allows inquisitions to purge Holy Cities; if there exists a civilization that has two cities with the religion of the purged holy city, the holy city will relocate</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__LIMITED_RELIGIONS_EXCEPTIONS_TEXT</Tag>
+		<English>Limited Religions Exceptions</English>
+		<French>Limited Religions Exceptions</French>
+		<German>Begrenzte Religionen mit Ausnahmen</German>
+		<Italian>Limited Religions Exceptions</Italian>
+		<Spanish>Limited Religions Exceptions</Spanish>
+		<Finnish>Limited Religions Exceptions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__LIMITED_RELIGIONS_EXCEPTIONS_HOVER</Tag>
+		<English>When selected, Limited Religions will still allow multiple religion founding for single city civs and rebels</English>
+		<French>When selected, Limited Religions will still allow multiple religion founding for single city civs and rebels</French>
+		<German>Auch bei Auswahl von Begrenzten Religionen k&#246;nnen von Zivilisationen mit nur einer Stadt und Rebellen mehrere Religionen gegr&#252;ndet werden.</German>
+		<Italian>When selected, Limited Religions will still allow multiple religion founding for single city civs and rebels</Italian>
+		<Spanish>When selected, Limited Religions will still allow multiple religion founding for single city civs and rebels</Spanish>
+		<Finnish>When selected, Limited Religions will still allow multiple religion founding for single city civs and rebels</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__OC_LIMITED_RELIGIONS_TEXT</Tag>
+		<English>Limited Religions</English>
+		<French>Religions Limitées</French>
+		<German>Begrenzte Religionen</German>
+		<Italian>Limited Religions</Italian>
+		<Spanish>Religiones Limitadas</Spanish>
+		<Finnish>Limited Religions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__OC_LIMITED_RELIGIONS_HOVER</Tag>
+		<English>A civ can only found one religion and thus possess only one holy city (unless more are obtained through conquest); Causes a more equal spread of religions in a game creating more diplomatic religious tensions</English>
+		<French>Une Civilisation peut fonder une seule religion, et donc posséder une seule Ville Sainte (sauf celles qui sont obtenues par Conquête. Permet une répartition plus importante des religions, et créé de ce fait plus de tension diplomatiques liées aux religions.</French>
+		<German>Eine Zivilisation kann nur eine Religion gründen und somit nur eine Heilige Stadt besitzen (außer durch Eroberung); Erzeugt eine gleichmäßigere Verteilung der Religionen im Spiel und bewirkt verstärkte religiös-diplomatische Spannungen</German>
+		<Italian>A civ can only found one religion and thus possess only one holy city (unless more are obtained through conquest); Causes a more equal spread of religions in a game creating more diplomatic religious tensions</Italian>
+		<Spanish>Una civilizaci&#243;n solo puede fundar una religi&#243;n y poseer una sola ciudad santa (A no ser que se obtenga por conquista); Provoca una mayor difusi&#243;n de las religiones en el juego, creando mayores tensiones diplom&#225;ticas por las religiones.</Spanish>
+		<Finnish>A civ can only found one religion and thus possess only one holy city (unless more are obtained through conquest); Causes a more equal spread of religions in a game creating more diplomatic religious tensions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__CHOOSE_RELIGION_TEXT</Tag>
+		<English>Choose Religions</English>
+		<French>Choix des Religions</French>
+		<German>Religion auswählen</German>
+		<Italian>Choose Religions</Italian>
+		<Spanish>Escoger Religiones</Spanish>
+		<Finnish>Choose Religions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__CHOOSE_RELIGION_HOVER</Tag>
+		<English>Works the same as the game option version, except that you not only choose your own founding faith, but also the AI's</English>
+		<French>Cette Option fonctionne de la même manière que l'option originale du Jeu, mais permet également de choisir les Religions qui sont découvertes par l'IA</French>
+		<German>Funktioniert wie die normale Spieloption, außer dass man nicht nur den selbst erforschten Glauben, sondern auch den der KIs auswählen kann</German>
+		<Italian>Works the same as the game option version, except that you not only choose your own founding faith, but also the AI's</Italian>
+		<Spanish>Funciona igual que la opci&#243;n incluida en el juego, excepto que no solo escoges la religi&#243;n, sino tambi&#233;n la  de la IA.</Spanish>
+		<Finnish>Works the same as the game option version, except that you not only choose your own founding faith, but also the AI's</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__RISING_SEAS_TEXT</Tag>
+		<English>Rising Seas</English>
+		<French>Mers Er Hausse</French>
+		<German>Steigende Meere</German>
+		<Italian>Livello del mare in aumento</Italian>
+		<Spanish>Mares De Levantamiento</Spanish>
+		<Finnish>Rising Seas</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVDCM__RISING_SEAS_HOVER</Tag>
+		<English>Global warming can raise sea level.</English>
+		<French>Le rechauffement global peut soulever le niveau de la mer.</French>
+		<German>Die globale Erw&#228;rmung kann Meeresspiegel anheben.</German>
+		<Italian>Il riscaldamento globale pu&#242; alzare il livello del mare.</Italian>
+		<Spanish>El calentamiento del planeta puede levantar nivel del mar.</Spanish>
+		<Finnish>Global warming can raise sea level.</Finnish>
+	</TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCMINTERFACEOPTIONS</Tag>
+		<English>Interface Options:</English>
+		<French>Options d'Interface :</French>
+		<German>Interface Options:</German>
+		<Italian>Interface Options:</Italian>
+		<Spanish>Interface Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCM_SEIGE</Tag>
+		<English>Siege Options:</English>
+		<French>Options de Siège :</French>
+		<German>Seige Options:</German>
+		<Italian>Seige Options:</Italian>
+		<Spanish>Seige Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCM_GENERAL</Tag>
+		<English>Battle Options:</English>
+		<French>Options de Bataille :</French>
+		<German>Battle Options:</German>
+		<Italian>Battle Options:</Italian>
+		<Spanish>Battle Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCM_AIR</Tag>
+		<English>Airforce Options:</English>
+		<French>Options du Combat aérien :</French>
+		<German>Airforce Options:</German>
+		<Italian>Airforce Options:</Italian>
+		<Spanish>Airforce Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCM_NAVAL</Tag>
+		<English>Naval Options:</English>
+		<French>Options du Combat naval :</French>
+		<German>Naval Options:</German>
+		<Italian>Naval Options:</Italian>
+		<Spanish>Naval Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCMIDW</Tag>
+		<English>IDW Options:</English>
+		<French>Options IDW :</French>
+		<German>IDW Options:</German>
+		<Italian>IDW Options:</Italian>
+		<Spanish>IDW Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCMIDWINFLUENCE</Tag>
+		<English>Influence Options:</English>
+		<French>Options de l'Influence :</French>
+		<German>Influence Options:</German>
+		<Italian>Influence Options:</Italian>
+		<Spanish>Influence Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCMSS</Tag>
+		<English>Spy Options:</English>
+		<French>Options des Espions :</French>
+		<German>Spy Options:</German>
+		<Italian>Spy Options:</Italian>
+		<Spanish>Spy Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCMINQ</Tag>
+		<English>Inquisitions Options:</English>
+		<French>Options d'Inquisition :</French>
+		<German>Inquisitions Options:</German>
+		<Italian>Inquisitions Options:</Italian>
+		<Spanish>Inquisitions Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCMRELIGION</Tag>
+		<English>Religion Options:</English>
+		<French>Options de Religion :</French>
+		<German>Religion Options:</German>
+		<Italian>Religion Options:</Italian>
+		<Spanish>Religion Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM__REVDCMGENERALOPTIONS</Tag>
+		<English>General Options:</English>
+		<French>Options générales :</French>
+		<German>General Options:</German>
+		<Italian>General Options:</Italian>
+		<Spanish>General Options:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM_NETWORK_GAME</Tag>
+		<English>NETWORK GAME DETECTED:</English>
+		<French>JEU MULTIJOUEURS DETECTE:</French>
+		<German>NETWORK GAME DETECTED:</German>
+		<Italian>NETWORK GAME DETECTED:</Italian>
+		<Spanish>NETWORK GAME DETECTED:</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM_NETWORK_GAME1</Tag>
+		<English>Customising options during network play causes many problems. Options as they stand now must be agreed to between all network players before game start and settled in GlobalDefinesAlt.xml and RevolutionDCM.ini</English>
+		<French>Le Changement d'options pendant un jeu multijoueur peut engendrer un nombre important d'erreurs. Les options actuelles doivent être les mêmes pour tous les joueurs avant le début du jeu, et définies dans GlobalDefinesAlt.xml and RevolutionDCM.ini</French>
+		<German>Customising options during network play causes many problems. Options as they stand now must be agreed to between all network players before game start and settled in GlobalDefinesAlt.xml and RevolutionDCM.ini</German>
+		<Italian>Customising options during network play causes many problems. Options as they stand now must be agreed to between all network players before game start and settled in GlobalDefinesAlt.xml and RevolutionDCM.ini</Italian>
+		<Spanish>Customising options during network play causes many problems. Options as they stand now must be agreed to between all network players before game start and settled in GlobalDefinesAlt.xml and RevolutionDCM.ini</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM_INFO1</Tag>
+		<English>This options screen covers the basic RevolutionDCM options only.</English>
+		<French>Cet écran d'options présente uniqement les options de base de RevolutionDCM.</French>
+		<German>This options screen covers the basic RevolutionDCM options only.</German>
+		<Italian>This options screen covers the basic RevolutionDCM options only.</Italian>
+		<Spanish>This options screen covers the basic RevolutionDCM options only.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM_INFO1</Tag>
+		<English>This options screen covers the basic RevolutionDCM options only.</English>
+		<French>Cet écran d'options présente uniqement les options de base de RevolutionDCM.</French>
+		<German>This options screen covers the basic RevolutionDCM options only.</German>
+		<Italian>This options screen covers the basic RevolutionDCM options only.</Italian>
+		<Spanish>This options screen covers the basic RevolutionDCM options only.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM_INFO2</Tag>
+		<English>More detailed configuration options exist in the file: /MODS/RevolutionDCM/Assets/XML/GlobalDefinesAlt.xml</English>
+		<French>Des options avancées sont disponibles directement dans le fichier : Assets/XML/GlobalDefinesAlt.xml</French>
+		<German>More detailed configuration options exist in the file: /MODS/RevolutionDCM/Assets/XML/GlobalDefinesAlt.xml</German>
+		<Italian>More detailed configuration options exist in the file: /MODS/RevolutionDCM/Assets/XML/GlobalDefinesAlt.xml</Italian>
+		<Spanish>More detailed configuration options exist in the file: /MODS/RevolutionDCM/Assets/XML/GlobalDefinesAlt.xml</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVDCM_INFO3</Tag>
+		<English>The default options are stable and produce well balanced games. Non-default options may introduce reliability issues or may be unbalanced</English>
+		<French>Les Options par défaut sont stables et permettent un jeu équilibré. D'autres paramètres pourraient introduire des changements rendant le jeu instable ou non équitable</French>
+		<German>The default options are stable and produce well balanced games. Non-default options may introduce reliability issues or may be unbalanced</German>
+		<Italian>The default options are stable and produce well balanced games. Non-default options may introduce reliability issues or may be unbalanced</Italian>
+		<Spanish>The default options are stable and produce well balanced games. Non-default options may introduce reliability issues or may be unbalanced</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_REVOLUTIONDCMHELP</Tag>
+		<English>Help documentation found at MODS/RevolutionDCM/docs/</English>
+		<French>Documentation supplémentaire : MODS/RevolutionDCM/docs/</French>
+		<German>Help documentation found at MODS/RevolutionDCM/docs/</German>
+		<Italian>Help documentation found at MODS/RevolutionDCM/docs/</Italian>
+		<Spanish>Help documentation found at MODS/RevolutionDCM/docs/</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>    
+</Civ4GameText>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_CHOOSE_SAVE_GAME_FORMAT</Tag>
+		<English>Choose Save Format</English>
+		<French>Choose Save Format</French>
+		<German>Choose Save Format</German>
+		<Italian>Choose Save Format</Italian>
+		<Spanish>Choose Save Format</Spanish>
+	</TEXT> 
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_OLD_GAME_SAVE_FORMAT</Tag>
+		<English>Original BTS</English>
+		<French>Original BTS</French>
+		<German>Original BTS</German>
+		<Italian>Original BTS</Italian>
+		<Spanish>Original BTS</Spanish>
+	</TEXT> 
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_NEW_GAME_SAVE_FORMAT</Tag>
+		<English>Maximum Compatibility</English>
+		<French>Maximum Compatibility</French>
+		<German>Maximum Compatibility</German>
+		<Italian>Maximum Compatibility</Italian>
+		<Spanish>Maximum Compatibility</Spanish>
+	</TEXT> 
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_NEW_GAME_SAVE_FORMAT_BODY</Tag>
+		<English>&quot;Maximum Compatibility&quot; will allow save games to be loaded into later versions of the mod (in most cases) but is larger and a little slower to load &amp; save.  It is also currently beta functionality.[NEWLINE]&quot;Original BTS&quot; is the save format Civ4 used previously.  It is more compact and a little faster to load &amp; save, but normally will not support game loading between releases of a mod.</English>
+		<French>&quot;Maximum Compatibility&quot; will allow save games to be loaded into later versions of the mod (in most cases) but is larger and a little slower to load &amp; save. [NEWLINE]&quot;Original BTS&quot; is the save format Civ4 used previously.  It is more compact and a little faster to load &amp; save but normally will not support game loading from a previous release of a mod.</French>
+		<German>&quot;Maximum Compatibility&quot; will allow save games to be loaded into later versions of the mod (in most cases) but is larger and a little slower to load &amp; save. [NEWLINE]&quot;Original BTS&quot; is the save format Civ4 used previously.  It is more compact and a little faster to load &amp; save but normally will not support game loading from a previous release of a mod.</German>
+		<Italian>&quot;Maximum Compatibility&quot; will allow save games to be loaded into later versions of the mod (in most cases) but is larger and a little slower to load &amp; save. [NEWLINE]&quot;Original BTS&quot; is the save format Civ4 used previously.  It is more compact and a little faster to load &amp; save but normally will not support game loading from a previous release of a mod.</Italian>
+		<Spanish>&quot;Maximum Compatibility&quot; will allow save games to be loaded into later versions of the mod (in most cases) but is larger and a little slower to load &amp; save. [NEWLINE]&quot;Original BTS&quot; is the save format Civ4 used previously.  It is more compact and a little faster to load &amp; save but normally will not support game loading from a previous release of a mod.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_NON_FATAL_FORMAT_LOAD_ERROR</Tag>
+		<English>Non-fatal load warning</English>
+		<French>Non-fatal load warning</French>
+		<German>Non-fatal load warning</German>
+		<Italian>Non-fatal load warning</Italian>
+		<Spanish>Non-fatal load warning</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REQUIRES_NO_WARNING</Tag>
+		<English>Requires[SPACE]</English>
+		<French>Requiert :[SPACE]</French>
+		<German>Erfordert:[SPACE]</German>
+		<Italian>Richiede[SPACE]</Italian>
+		<Spanish>Requiere[SPACE]</Spanish>
+	</TEXT> 
+	<TEXT>
+		<Tag>TXT_KEY_SET_WARNING_COLOR</Tag>
+		<English>[COLOR_WARNING_TEXT]</English>
+		<French>[COLOR_WARNING_TEXT]</French>
+		<German>[COLOR_WARNING_TEXT]</German>
+		<Italian>[COLOR_WARNING_TEXT]</Italian>
+		<Spanish>[COLOR_WARNING_TEXT]</Spanish>
+	</TEXT> 
+	<TEXT>
+		<Tag>TXT_KEY_REVERT_COLOR</Tag>
+		<English>[COLOR_REVERT]</English>
+		<French>[COLOR_REVERT]</French>
+		<German>[COLOR_REVERT]</German>
+		<Italian>[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_REVERT]</Spanish>
+	</TEXT> 
+	<TEXT>
+		<Tag>TXT_KEY_POSITIVE_COLOR</Tag>
+		<English>[COLOR_POSITIVE_TEXT]</English>
+		<French>[COLOR_POSITIVE_TEXT]</French>
+		<German>[COLOR_POSITIVE_TEXT]</German>
+		<Italian>[COLOR_POSITIVE_TEXT]</Italian>
+		<Spanish>[COLOR_POSITIVE_TEXT]</Spanish>
+	</TEXT> 
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_ACTIVE_CIVICS_MET</Tag>
+		<English>[COLOR_POSITIVE_TEXT]Requires Civics to be Active</English>
+		<French>[COLOR_POSITIVE_TEXT]Requiert une Doctrine spécifique</French>
+		<German>[COLOR_POSITIVE_TEXT]Staatsform muss aktiv sein</German>
+		<Italian>[COLOR_POSITIVE_TEXT]Requires Civics to be Active</Italian>
+		<Spanish>[COLOR_POSITIVE_TEXT]Requires Civics to be Active</Spanish>
+	</TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BUILDING_REQUIRES_FRESH_WATER</Tag>
+    <English>[COLOR_WARNING_TEXT]Requires Fresh water[COLOR_REVERT]</English>
+    <French>[COLOR_WARNING_TEXT]Requires Fresh water[COLOR_REVERT]</French>
+    <German>[COLOR_WARNING_TEXT]Requires Fresh water[COLOR_REVERT]</German>
+    <Italian>[COLOR_WARNING_TEXT]Requires Fresh water[COLOR_REVERT]</Italian>
+    <Spanish>[COLOR_WARNING_TEXT]Requires Fresh water[COLOR_REVERT]</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CITY_REMOVED_FRESH_WATER</Tag>
+    <English>The %s1 in the City of %s2 has shut down to a lack of fresh water.</English>
+    <French>The %s1 in the City of %s2 has shut down to a lack of fresh water.</French>
+    <German>The %s1 in the City of %s2 has shut down to a lack of fresh water.</German>
+    <Italian>The %s1 in the City of %s2 has shut down to a lack of fresh water.</Italian>
+    <Spanish>The %s1 in the City of %s2 has shut down to a lack of fresh water.</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BUILDING_FREE_IN_AREA</Tag>
+    <English>Provides a free %s1 in every city on the same continent.</English>
+    <French>Provides a free %s1 in every city on the same continent.</French>
+    <German>Provides a free %s1 in every city on the same continent.</German>
+    <Italian>Provides a free %s1 in every city on the same continent.</Italian>
+    <Spanish>Provides a free %s1 in every city on the same continent.</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_BUILDING_FREE_IN_TRADE_REGION</Tag>
+    <English>Provides a free %s1 in every city connected by your trade routes.</English>
+    <French>Provides a free %s1 in every city connected by your trade routes.</French>
+    <German>Provides a free %s1 in every city connected by your trade routes.</German>
+    <Italian>Provides a free %s1 in every city connected by your trade routes.</Italian>
+    <Spanish>Provides a free %s1 in every city connected by your trade routes.</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_SOFT_CITY_LIMIT</Tag>
+    <English>[ICON_BULLET]Settling more than %d1 cities will cause %d2 unhappiness in every city for each one over that limit</English>
+    <French>[ICON_BULLET]Settling more than %d1 cities will cause %d2 unhappiness in every city for each one over that limit</French>
+    <German>[ICON_BULLET]Settling more than %d1 cities will cause %d2 unhappiness in every city for each one over that limit</German>
+    <Italian>[ICON_BULLET]Settling more than %d1 cities will cause %d2 unhappiness in every city for each one over that limit</Italian>
+    <Spanish>[ICON_BULLET]Settling more than %d1 cities will cause %d2 unhappiness in every city for each one over that limit</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_ANGER_TOO_MANY_CITIES</Tag>
+    <English>+%d1_Change[ICON_UNHAPPY]: Our inept government&apos;s attempts to over-expand are making us unhappy</English>
+    <French>+%d1_Change[ICON_UNHAPPY]: Our inept government&apos;s attempts to over-expand are making us unhappy</French>
+    <German>+%d1_Change[ICON_UNHAPPY]: Our inept government&apos;s attempts to over-expand are making us unhappy</German>
+    <Italian>+%d1_Change[ICON_UNHAPPY]: Our inept government&apos;s attempts to over-expand are making us unhappy</Italian>
+    <Spanish>+%d1_Change[ICON_UNHAPPY]: Our inept government&apos;s attempts to over-expand are making us unhappy</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GAMEOPTION_NO_CITY_LIMITS</Tag>
+    <English>No city limits from civics</English>
+    <French>No city limits from civics</French>
+    <German>No city limits from civics</German>
+    <Italian>No city limits from civics</Italian>
+    <Spanish>No city limits from civics</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GAMEOPTION_NO_CITY_LIMITS_HELP</Tag>
+    <English>No explicit limits or penalties from civic choices for founding any number of cities</English>
+    <French>No explicit limits or penalties from civic choices for founding any number of cities</French>
+    <German>No explicit limits or penalties from civic choices for founding any number of cities</German>
+    <Italian>No explicit limits or penalties from civic choices for founding any number of cities</Italian>
+    <Spanish>No explicit limits or penalties from civic choices for founding any number of cities</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GAMEOPTION_NO_FIXED_BORDERS</Tag>
+    <English>No fixed borders</English>
+    <French>No fixed borders</French>
+    <German>No fixed borders</German>
+    <Italian>No fixed borders</Italian>
+    <Spanish>No fixed borders</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_GAMEOPTION_NO_FIXED_BORDERS_HELP</Tag>
+    <English>No fixed border mechanics, whether from civics or any other source</English>
+    <French>No fixed border mechanics, whether from civics or any other source</French>
+    <German>No fixed border mechanics, whether from civics or any other source</German>
+    <Italian>No fixed border mechanics, whether from civics or any other source</Italian>
+    <Spanish>No fixed border mechanics, whether from civics or any other source</Spanish>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_MISC_HELP_WASTED_FOOD</Tag>
+    <English>[ICON_BULLET]%D1[ICON_EATENFOOD] wasted</English>
+    <French>[ICON_BULLET]%D1[ICON_EATENFOOD] wasted</French>
+    <German>[ICON_BULLET]%D1[ICON_EATENFOOD] wasted</German>
+    <Italian>[ICON_BULLET]%D1[ICON_EATENFOOD] wasted</Italian>
+    <Spanish>[ICON_BULLET]%D1[ICON_EATENFOOD] wasted</Spanish>
+    <Finnish>[ICON_BULLET]%D1[ICON_EATENFOOD] wasted</Finnish>
+    <Hungarian></Hungarian>
+    <Polish></Polish>
+    <Russian></Russian>
+    <Chinese></Chinese>
+    <Japanese></Japanese>
+  </TEXT>
+  <TEXT>
+    <Tag>TXT_KEY_CIVIC_BUILDING_HAPPINESS_PREFIX</Tag>
+    <English>[ICON_BULLET]%D1_Change%F2_HappOrUnhapp from[SPACE]</English>
+    <French>[ICON_BULLET]%D1_Change%F2_HappOrUnhapp :[SPACE]</French>
+    <German>[ICON_BULLET]%D1_Change%F2_HappOrUnhapp durch das Geb&#228;ude[SPACE]</German>
+    <Italian>[ICON_BULLET]%D1_Change%F2_HappOrUnhapp da[SPACE]</Italian>
+    <Spanish>[ICON_BULLET]%D1_Change %F2_HappOrUnhapp por[SPACE]</Spanish>
+  </TEXT>
+</Civ4GameText>

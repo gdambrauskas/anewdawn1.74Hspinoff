@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Tim McCracken (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!--Please place any new text entries into this file-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AMERICAN_MALL_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]Malls[COLOR_REVERT], the American replacement for [COLOR_BUILDING_TEXT]Supermarkets[COLOR_REVERT], increase the health of cities, especially if they have access to [COLOR_HIGHLIGHT_TEXT]Deer[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Cows[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Pigs[COLOR_REVERT], or [COLOR_HIGHLIGHT_TEXT]Sheep[COLOR_REVERT]. They also increase happiness from [COLOR_HIGHLIGHT_TEXT]Hit Musicals[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Hit Singles[COLOR_REVERT], and [COLOR_HIGHLIGHT_TEXT]Hit Movies[COLOR_REVERT].</English>
+		<French>Le [COLOR_BUILDING_TEXT]centre commercial[COLOR_REVERT], version am&#233;ricaine du [COLOR_BUILDING_TEXT]supermarch&#233;[COLOR_REVERT], augmente la sant&#233; des villes si celles-ci ont acc&#232;s &#224; certaines ressources : [COLOR_HIGHLIGHT_TEXT]cervid&#233;s[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]bovins[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]cochons[COLOR_REVERT] ou [COLOR_HIGHLIGHT_TEXT]moutons[COLOR_REVERT]. Il augmente aussi le bonheur fourni par les [COLOR_HIGHLIGHT_TEXT]com&#233;dies musicales populaires[COLOR_REVERT], les [COLOR_HIGHLIGHT_TEXT]chansons populaires[COLOR_REVERT] et les [COLOR_HIGHLIGHT_TEXT]films populaires[COLOR_REVERT].</French>
+		<German>Die amerikanischen [COLOR_BUILDING_TEXT]Einkaufszentren[COLOR_REVERT] ersetzen die [COLOR_BUILDING_TEXT]Superm&#228;rkte[COLOR_REVERT]. Sie steigern den Wohlstand einer Stadt, insbesondere dann, wenn diese Zugriff auf die Ressourcen [COLOR_HIGHLIGHT_TEXT]Wild[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]K&#252;he[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Schweine[COLOR_REVERT] oder [COLOR_HIGHLIGHT_TEXT]Schafe[COLOR_REVERT] hat. Au&#223;erdem bewirken Sie einen Anstieg der Zufriedenheit der Bev&#246;lkerung durch [COLOR_HIGHLIGHT_TEXT]Musicals[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Hitsingles[COLOR_REVERT] und [COLOR_HIGHLIGHT_TEXT]Filmhits[COLOR_REVERT].</German>
+		<Italian>Il [COLOR_BUILDING_TEXT]centro commerciale[COLOR_REVERT], l'equivalente americano del [COLOR_BUILDING_TEXT]supermercato[COLOR_REVERT], aumenta la salute nelle citt&#224;, soprattutto se ha accesso a [COLOR_HIGHLIGHT_TEXT]cervi[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]mucche[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]maiali[COLOR_REVERT] o [COLOR_HIGHLIGHT_TEXT]ovini[COLOR_REVERT]. Esso inoltre incrementa la felicit&#224; derivante da [COLOR_HIGHLIGHT_TEXT]musical di successo[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]canzoni di successo[COLOR_REVERT] e [COLOR_HIGHLIGHT_TEXT]film di successo[COLOR_REVERT].</Italian>
+		<Spanish>Los [COLOR_BUILDING_TEXT]Centros comerciales[COLOR_REVERT], el equivalente estadounidense de los [COLOR_BUILDING_TEXT]Supermercados[COLOR_REVERT], aumentan la salud de las ciudades, especialmente si tienen acceso a [COLOR_HIGHLIGHT_TEXT]Ciervos[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Vacas[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Cerdos[COLOR_REVERT] u [COLOR_HIGHLIGHT_TEXT]Ovejas[COLOR_REVERT]. Tambi&#233;n aumentan la felicidad que otorgan los [COLOR_HIGHLIGHT_TEXT]Musicales de &#233;xito[COLOR_REVERT], las [COLOR_HIGHLIGHT_TEXT]Canciones de &#233;xito[COLOR_REVERT], y las [COLOR_HIGHLIGHT_TEXT]Pel&#237;culas de &#233;xito[COLOR_REVERT].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AMERICAN_MALL</Tag>
+		<English>Mall</English>
+		<French>Shopping Center</French>
+		<German>Einkaufszentrum</German>
+		<Italian>Centro commerciale</Italian>
+		<Spanish>Centro comercial:Centros comerciales</Spanish>
+	</TEXT>
+</Civ4GameText>

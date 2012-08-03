@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- Movie Mod - Plays new movies for religion and national wonders  Author: Lemon Merchant -->
+<mod id="MovieMod" module="MovieMod">
+	<event type="buildingBuilt" function="onBuildingBuilt"/>
+</mod>

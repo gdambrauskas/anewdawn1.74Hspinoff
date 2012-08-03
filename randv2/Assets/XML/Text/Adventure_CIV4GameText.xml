@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Adventure Tours -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ADVENTURE</Tag>
+		<English>Adventure Tours</English>
+		<French>Aventure Tours</French>
+		<German>Adventure Tours</German>
+		<Italian>Adventure Tours</Italian>
+		<Spanish>Adventure Tours</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ADVENTURE_HQ</Tag>
+		<English>Adventure Tours Headquarters</English>
+		<French>Siège de Aventure Tours</French>
+		<German>Adventure-Tours-Zentrale</German>
+		<Italian>Adventure Tours Headquarters</Italian>
+		<Spanish>Adventure Tours Headquarters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ADVENTURE_FRANCHISE</Tag>
+		<English>Adventure Tours Franchise</English>
+		<French>Filiale de Aventure Tours</French>
+		<German>Adventure-Tours-Filiale</German>
+		<Italian>Adventure Tours Franchise</Italian>
+		<Spanish>Adventure Tours Franchise</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ADVENTURE_EXECUTIVE</Tag>
+		<English>Adventure Executive</English>
+		<French>Gérant de Aventure Tours</French>
+		<German>Adventure-Geschäftsführer</German>
+		<Italian>Adventure Executive</Italian>
+		<Spanish>Adventure Executive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ADVENTURE_PEDIA</Tag>
+		<English>[TAB]Bored of your monotonous life? Ready for adventures? Adventure Tours bring to you the excitement of scubadiving, horseback riding, exploration of ancient ruins or watching the biggest animals on earth's face in their own habitat. Spice up your life with us!</English>
+		<French>[TAB]Bored of your monotonous life? Ready for adventures? Adventure Tours bring to you the excitement of scubadiving, horseback riding, exploration of ancient ruins or watching the biggest animals on earth's face in their own habitat. Spice up your life with us!</French>
+		<German>[TAB]Bored of your monotonous life? Ready for adventures? Adventure Tours bring to you the excitement of scubadiving, horseback riding, exploration of ancient ruins or watching the biggest animals on earth's face in their own habitat. Spice up your life with us!</German>
+		<Italian>[TAB]Bored of your monotonous life? Ready for adventures? Adventure Tours bring to you the excitement of scubadiving, horseback riding, exploration of ancient ruins or watching the biggest animals on earth's face in their own habitat. Spice up your life with us!</Italian>
+		<Spanish>[TAB]Bored of your monotonous life? Ready for adventures? Adventure Tours bring to you the excitement of scubadiving, horseback riding, exploration of ancient ruins or watching the biggest animals on earth's face in their own habitat. Spice up your life with us!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_ADVENTURE_FRANCHISE_PEDIA</Tag>
+		<English>Your local adventure franchise to get your adrenaline pumping!</English>
+		<French>Your local adventure franchise to get your adrenaline pumping!</French>
+		<German>Your local adventure franchise to get your adrenaline pumping!</German>
+		<Italian>Your local adventure franchise to get your adrenaline pumping!</Italian>
+		<Spanish>Your local adventure franchise to get your adrenaline pumping!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ADVENTURE_STRATEGY</Tag>
+		<English>Build this corporation in order to get adventure bonuses.</English>
+		<French>Build this corporation in order to get adventure bonuses.</French>
+		<German>Build this corporation in order to get adventure bonuses.</German>
+		<Italian>Build this corporation in order to get adventure bonuses.</Italian>
+		<Spanish>Build this corporation in order to get adventure bonuses.</Spanish>
+	</TEXT>
+</Civ4GameText>

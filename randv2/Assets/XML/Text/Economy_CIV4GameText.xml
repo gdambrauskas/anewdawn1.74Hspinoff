@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Infos -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INSURANCE</Tag>
+		<English>Insurance</English>
+		<French>Assurance</French>
+		<German>Insurance</German>
+		<Italian>Insurance</Italian>
+		<Spanish>Insurance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INSURANCE_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INSURANCE_PEDIA</Tag>
+		<English>In law and economics, insurance is a form of risk management primarily used to hedge against the risk of a contingent, uncertain loss. Insurance is defined as the equitable transfer of the risk of a loss, from one entity to another, in exchange for payment. An insurer is a company selling the insurance; an insured or policyholder is the person or entity buying the insurance policy. The insurance rate is a factor used to determine the amount to be charged for a certain amount of insurance coverage, called the premium. Risk management, the practice of appraising and controlling risk, has evolved as a discrete field of study and practice.</English>
+		<French>En droit et en économie, l'assurance est une forme de gestion des risques, principalement utilisé pour se prémunir contre le risque d'une perte incertaine et contingente. L'assurance est définie comme le transfert équitable du risque de cette perte, d'une entité à une autre, en échange de paiement. L'assureur est une entreprise qui vend de l'assurance, un assuré ou preneur d'assurance est la personne physique ou morale achetant la police d'assurance. Le taux d'assurance est un facteur servant à déterminer le montant à payer pour une certaine quantité de la couverture d'assurance, appelé prime. La gestion des risques, la pratique de l'évaluation et du contrôle du risque, a évolué comme un champ distinct d'étude théorique et pratique.</French>
+		<German>In law and economics, insurance is a form of risk management primarily used to hedge against the risk of a contingent, uncertain loss. Insurance is defined as the equitable transfer of the risk of a loss, from one entity to another, in exchange for payment. An insurer is a company selling the insurance; an insured or policyholder is the person or entity buying the insurance policy. The insurance rate is a factor used to determine the amount to be charged for a certain amount of insurance coverage, called the premium. Risk management, the practice of appraising and controlling risk, has evolved as a discrete field of study and practice.</German>
+		<Italian>In law and economics, insurance is a form of risk management primarily used to hedge against the risk of a contingent, uncertain loss. Insurance is defined as the equitable transfer of the risk of a loss, from one entity to another, in exchange for payment. An insurer is a company selling the insurance; an insured or policyholder is the person or entity buying the insurance policy. The insurance rate is a factor used to determine the amount to be charged for a certain amount of insurance coverage, called the premium. Risk management, the practice of appraising and controlling risk, has evolved as a discrete field of study and practice.</Italian>
+		<Spanish>In law and economics, insurance is a form of risk management primarily used to hedge against the risk of a contingent, uncertain loss. Insurance is defined as the equitable transfer of the risk of a loss, from one entity to another, in exchange for payment. An insurer is a company selling the insurance; an insured or policyholder is the person or entity buying the insurance policy. The insurance rate is a factor used to determine the amount to be charged for a certain amount of insurance coverage, called the premium. Risk management, the practice of appraising and controlling risk, has evolved as a discrete field of study and practice.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INSURANCE_QUOTE</Tag>
+		<English>"You don't need to pray to God any more when there are storms in the sky, but you do have to be insured."[NEWLINE] - Bertolt Brecht</English>
+		<French>"Lorsqu'il y a des tempêtes dans le ciel, plus besoin de prier Dieu, mais il faut par contre être assuré."[NEWLINE] - Bertolt Brecht</French>
+		<German>"You don't need to pray to God any more when there are storms in the sky, but you do have to be insured."[NEWLINE] - Bertolt Brecht</German>
+		<Italian>"You don't need to pray to God any more when there are storms in the sky, but you do have to be insured."[NEWLINE] - Bertolt Brecht</Italian>
+		<Spanish>"You don't need to pray to God any more when there are storms in the sky, but you do have to be insured."[NEWLINE] - Bertolt Brecht</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STOCK_EXCHANGING</Tag>
+		<English>Stock Brokering</English>
+		<French>Courtage</French>
+		<German>Stock Brokering</German>
+		<Italian>Stock Brokering</Italian>
+		<Spanish>Stock Brokering</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STOCK_EXCHANGING_QUOTE</Tag>
+		<English>"Every once in a while, the market does something so stupid it takes your breath away."[NEWLINE] - Jim Cramer</English>
+		<French>"De temps en temps, le marché fait quelque chose de tellement stupide que c'est à couper le souffle."[NEWLINE] - Jim Cramer</French>
+		<German>"Every once in a while, the market does something so stupid it takes your breath away."[NEWLINE] - Jim Cramer</German>
+		<Italian>"Every once in a while, the market does something so stupid it takes your breath away."[NEWLINE] - Jim Cramer</Italian>
+		<Spanish>"Every once in a while, the market does something so stupid it takes your breath away."[NEWLINE] - Jim Cramer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STOCK_EXCHANGING_PEDIA</Tag>
+		<English>A stock broker or stockbroker is a regulated professional broker who buys and sells shares and other securities through market makers or Agency Only Firms on behalf of investors.</English>
+		<French>Un courtier en valeurs mobilières est un courtier professionnel règlementé qui achète et vend au nom des investisseurs des actions et autres valeurs mobilières auprès des teneurs du marché ou directement des entreprises.</French>
+		<German>A stock broker or stockbroker is a regulated professional broker who buys and sells shares and other securities through market makers or Agency Only Firms on behalf of investors.</German>
+		<Italian>A stock broker or stockbroker is a regulated professional broker who buys and sells shares and other securities through market makers or Agency Only Firms on behalf of investors.</Italian>
+		<Spanish>A stock broker or stockbroker is a regulated professional broker who buys and sells shares and other securities through market makers or Agency Only Firms on behalf of investors.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STOCK_EXCHANGING_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DERIVATIVES</Tag>
+		<English>Derivatives</English>
+		<French>Produits dérivés de crédits</French>
+		<German>Derivatives</German>
+		<Italian>Derivatives</Italian>
+		<Spanish>Derivatives</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DERIVATIVES_STRATEGY</Tag>
+		<English>.</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DERIVATIVES_PEDIA</Tag>
+		<English>A derivative is an agreement or contract that is not based on a real, or true, exchange, i.e.: There is nothing tangible like money, or a product, that is being exchanged. For example, a person goes to the grocery store, exchanges a currency (money) for a commodity (say, an apple). The exchange is complete, both parties have something tangible. If the purchaser had called the store and asked for the apple to be held for one hour while the purchaser drives to the store, and the seller agrees, then a derivative has been created. The agreement (derivative) is derived from a proposed exchange (trade money for apple in one hour, not now).</English>
+		<French>Un produit dérivé est un accord ou un contrat qui n'est pas fondée sur un véritable échange de biens réels : Il n'y a rien de tangible comme de l'argent, ou un produit, qui est échangé. Par exemple, une personne va à l'épicerie, échange de la monnaie (de l'argent) pour un produit (par exemple, une pomme). L'échange est terminé, les deux parties ont quelque chose de tangible. Si l'acheteur a appelé le magasin et a demandé que la pomme lui soit réservé pendant une heure le temps que l'acheteur arrive au magasin, et le vendeur accepte, alors un produit dérivé a été créé. L'accord (dérivé) est dérivé d'un échange proposé (commerce de l'argent pour la pomme dans une heure, pas maintenant).</French>
+		<German>A derivative is an agreement or contract that is not based on a real, or true, exchange, i.e.: There is nothing tangible like money, or a product, that is being exchanged. For example, a person goes to the grocery store, exchanges a currency (money) for a commodity (say, an apple). The exchange is complete, both parties have something tangible. If the purchaser had called the store and asked for the apple to be held for one hour while the purchaser drives to the store, and the seller agrees, then a derivative has been created. The agreement (derivative) is derived from a proposed exchange (trade money for apple in one hour, not now).</German>
+		<Italian>A derivative is an agreement or contract that is not based on a real, or true, exchange, i.e.: There is nothing tangible like money, or a product, that is being exchanged. For example, a person goes to the grocery store, exchanges a currency (money) for a commodity (say, an apple). The exchange is complete, both parties have something tangible. If the purchaser had called the store and asked for the apple to be held for one hour while the purchaser drives to the store, and the seller agrees, then a derivative has been created. The agreement (derivative) is derived from a proposed exchange (trade money for apple in one hour, not now).</Italian>
+		<Spanish>A derivative is an agreement or contract that is not based on a real, or true, exchange, i.e.: There is nothing tangible like money, or a product, that is being exchanged. For example, a person goes to the grocery store, exchanges a currency (money) for a commodity (say, an apple). The exchange is complete, both parties have something tangible. If the purchaser had called the store and asked for the apple to be held for one hour while the purchaser drives to the store, and the seller agrees, then a derivative has been created. The agreement (derivative) is derived from a proposed exchange (trade money for apple in one hour, not now).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DERIVATIVES_QUOTE</Tag>
+		<English>"Derivatives are financial weapons of mass destruction."[NEWLINE] - Warren Buffett</English>
+		<French>"Les produits dérivés de crédits sont des armes financières de destruction massive."[NEWLINE] - Warren Buffett</French>
+		<German>"Derivatives are financial weapons of mass destruction."[NEWLINE] - Warren Buffett</German>
+		<Italian>"Derivatives are financial weapons of mass destruction."[NEWLINE] - Warren Buffett</Italian>
+		<Spanish>"Derivatives are financial weapons of mass destruction."[NEWLINE] - Warren Buffett</Spanish>
+	</TEXT>
+</Civ4GameText>

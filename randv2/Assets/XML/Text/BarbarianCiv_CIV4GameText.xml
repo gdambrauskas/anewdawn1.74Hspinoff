@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_CHECK_BARB</Tag>
+        <English>Found %d barbarian cities, max %d within %d</English>
+        <French>%d Villes barbares trouv&#233;es, %d maximum dans %d</French>
+        <German>Gefundene %d Barbarenst&#228;dte, maximal %d innerhalb %d</German>
+		<Italian>Trovate %d Citt&#224; Barbare, max. da %d a %d</Italian>
+		<Spanish>Encontradas %d ciudades b&#225;rbaras, m&#225;ximo %d al alcance de %d</Spanish>
+		<Finnish>Found %d barbarian cities, max %d within %d</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_WORD_SPREADS</Tag>
+        <English>Word spreads from distant lands:</English>
+        <French>Rumeurs provenant des terres &#233;loign&#233;es :</French>
+        <German>Ger&#252;chte verbreiten sich aus entfernten L&#228;ndern:</German>
+		<Italian>Giungono voci da terre lontane:</Italian>
+		<Spanish>Rumores llegan desde tierras distantes:</Spanish>
+		<Finnish>Word spreads from distant lands:</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_FORM_MINOR</Tag>
+        <English>the %s has emerged in %s!</English>
+        <French>le %s a &#233;merg&#233; dans %s !</French>
+        <German>das %s ist in %s aufgetaucht!</German>
+		<Italian>Una civilt&#224; conosciuta come %s, &#232; apparsa nella citt&#224; di %s!</Italian>
+		<Spanish>&#161;La %s ha surgido en %s!</Spanish>
+		<Finnish>the %s has emerged in %s!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_MINOR_SETTLE</Tag>
+        <English>%s has organized the %s and formed the %s!</English>
+        <French>%s a organis&#233; le %s et a form&#233; le %s !</French>
+        <German>%s hat das %s organisiert und das %s gebildet!</German>
+		<Italian>%s ha organizzato il popolo %s ed ha formato il %s!!</Italian>
+		<Spanish>&#161;%s ha organizado al pueblo %s y formado el/la %s!</Spanish>
+		<Finnish>%s has organized the %s and formed the %s!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_FULL_CIV</Tag>
+        <English>Your achievements have led your people to be considered a true civilization!</English>
+        <French>Vos accomplissements ont men&#233; votre peuple à &#234;tre consid&#233;r&#233;e comme  une vraie civilisation !</French>
+        <German>Aufgrund Ihrer Errungenschaften wird Ihr Volk als wahre Zivilisation angesehen!</German>
+		<Italian>I tuoi successi hanno portato il tuo popolo ad essere considerato a pieno titolo una civilt&#224;!</Italian>
+		<Spanish>&#161;Tus logros han conseguido que tu gente se considere una verdadera civilizaci&#243;n!</Spanish>
+		<Finnish>Your achievements have led your people to be considered a true civilization!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_SPREAD_1</Tag>
+        <English>Word spreads from distant lands:</English>
+        <French>Rumeurs provenant des terres :</French>
+        <German>Ger&#252;chte verbreiten sich aus entfernten L&#228;ndern:</German>
+		<Italian>Giungono voci da terre lontane:</Italian>
+		<Spanish>Rumores llegan desde tierras distantes:</Spanish>
+		<Finnish>Word spreads from distant lands:</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_SPREAD_2</Tag>
+        <English>%s has organized the Barbarians and formed the %s!</English>
+        <French>%s a organis&#233; les barbares et a form&#233; le %s !</French>
+        <German>%s hat die Barbaren organisiert und das %s errichtet!</German>
+		<Italian>%s ha organizzato alcune trib&#249; barbare ed ha formato %s!</Italian>
+		<Spanish>%s ha organizado a los b&#225;rbaros y formado la %s!</Spanish>
+		<Finnish>%s has organized the Barbarians and formed the %s!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_SPREAD_OPT</Tag>
+        <English>[NEWLINE][NEWLINE](Note: You can opt to become %s)</English>
+        <French>[NEWLINE][NEWLINE](Note : Vous pouvez choisir de devenir %s)</French>
+        <German>[NEWLINE][NEWLINE](Anmerkung: Sie k&#246;nnen entscheiden, %s zu werden)</German>
+		<Italian>[NEWLINE][NEWLINE](Nota: Puoi scegliere di trasformarti in %s)</Italian>
+		<Spanish>[NEWLINE][NEWLINE](Nota: Puedes optar a convertirte en %s)</Spanish>
+		<Finnish>[NEWLINE][NEWLINE](Note: You can opt to become %s)</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_OPT_AM</Tag>
+        <English>I am %s ...</English>
+        <French>Je suis %s ...</French>
+        <German>Ich bin %s ...</German>
+		<Italian>Sono %s ...</Italian>
+		<Spanish>Yo soy %s ...</Spanish>
+		<Finnish>I am %s ...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_OK</Tag>
+        <English>Ok</English>
+        <French>Ok</French>
+        <German>Ok.</German>
+		<Italian>Ok</Italian>
+		<Spanish>De acuerdo.</Spanish>
+		<Finnish>Ok</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_HUMAN_DECLARE</Tag>
+        <English>Your advisers push for a declaration of war against the %s!</English>
+        <French>Vos conseillers insistent pour une d&#233;claration de guerre contre le %s !</French>
+        <German>Ihre Berater dr&#228;ngen auf eine Kriegserkl&#228;rung gegen %s!</German>
+		<Italian>I tuoi consiglieri insistono per una dichiarazione di guerra contro %s!</Italian>
+		<Spanish>&#161;Tus consejeros insisten en una declaraci&#243;n de guerra contra los %s!</Spanish>
+		<Finnish>Your advisers push for a declaration of war against the %s!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BARBCIV_DISCOVER_WRITING</Tag>
+        <English>With your discovery of writing, you can now conduct diplomacy!</English>
+        <French>Avec votre d&#233;couverte de l'&#233;criture, vous pouvez maintenant conduire la diplomatie !</French>
+        <German>Durch Ihre Entdeckung der Schrift k&#246;nnen Sie nun Diplomatie betreiben!</German>
+		<Italian>Dopo la scoperta della scrittura, si possono avviare relazioni diplomatiche!</Italian>
+		<Spanish>&#161;Con vuestro descubrimiento de la escritura, ahora podeis manejar la diplomacia!</Spanish>
+		<Finnish>With your discovery of writing, you can now conduct diplomacy!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_GAME_OPTION_BARBARIAN_WORLD</Tag>
+        <English>Barbarian World</English>
+        <French>Monde Barbare</French>
+        <German>Barbarenwelt</German>
+		<Italian>Mondo Barbarico</Italian>
+		<Spanish>Mundo B&#225;rbaro</Spanish>
+		<Finnish>Barbaari Maailma</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_GAME_OPTION_BARBARIAN_WORLD_HELP</Tag>
+        <English>The barbarians start with a free city for every civilization in the game</English>
+        <French>Les Barbares commencent avec une ville pour chaque civilization du jeu</French>
+        <German>Die Barbaren starten mit einer zus&#228;tzlichen Stadt pro Zivilisation im Spiel</German>
+		<Italian>I barbari iniziano la partita con una citt&#224; per ogni civilt&#224; in gioco</Italian>
+		<Spanish>Los b&#225;rbaros empiezan con una ciudad por cada civilizaci&#243;n en la partida</Spanish>
+		<Finnish>The barbarians start with a free city for every civilization in the game</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+    </TEXT>
+</Civ4GameText>

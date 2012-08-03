@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_NANOBOTS</Tag>
+		<English>Nanobots</English>
+		<French>Nanobots</French>
+		<German>Nanobots</German>
+		<Italian>Nanobots</Italian>
+		<Spanish>Nanobots</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_NANOBOTS_PEDIA</Tag>
+		<English>[TAB]</English>
+		<French>[TAB]</French>
+		<German>[TAB]</German>
+		<Italian>[TAB]</Italian>
+		<Spanish>[TAB]</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>	
+</Civ4GameText>

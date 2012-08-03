@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DOSAN_SEOWON</Tag>
+		<English>Dosan Seowon</English>
+		<French>Dosan Seowon</French>
+		<German>Dosan Seowon</German>
+		<Italian>Dosan Seowon</Italian>
+		<Spanish>Dosan Seowon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DOSAN_SEOWON_PEDIA</Tag>
+		<English>Dosan Seowon (alternatively, Tosansowon) was established in 1574 in what is present day Andong, South Korea, in memory of and four years after the death of Confucian scholar Yi Hwang by some of his disciples and other Confucian authorities. Yi Hwang had retired to the location in 1549 and begun construction on the facility, a private Confucian academy offering instruction in the classics and honouring the sages with regular memorial rites.  Like other Confucian academies, Dosan Seowon serves two purposes: education and commemoration. The site was well known in Korea as one of the leading academies and was home to the Toegye School of Thought for over 400 years. Although the educational function of the facility has long since ceased, the commemorative ceremonies have been and are still held twice a year.</English>
+		<French>Dosan Seowon (ou , Tosansowon) a été fondé en 1574 dans la ville nommé à présent Andong, et Corée de Sud, en mémoire, et quatre années après la mort de l'érudit Confucéen Yi Hwang par quelques-uns de ses disciples et les autorités Confucéennes. Yi Hwang s'est retiré à cet endroit en 1549 et a commencé à construire cette institution : une académie privée Confucéenne offrant l'instruction des doctrines et honorant les sages par des rites funéraires réguliers. Comme les autres académies Confucéennes, Dosan Seowon conserve les deux objectifs : l'éducation et la comémoration. Le Site était très connu en Corée comme une des meilleures académies, et a été le siège de l'Ecole de l'Esprit de Toegye pendant plus de 400 ans. Bien que la fonction d'éducattion de l'édifice a cessé depuis longtemps à présent, les cérémonies comémoratives sont encore célébrées deux fois par an..</French>
+		<German>Dosan Seowon (alternatively, Tosansowon) was established in 1574 in what is present day Andong, South Korea, in memory of and four years after the death of Confucian scholar Yi Hwang by some of his disciples and other Confucian authorities. Yi Hwang had retired to the location in 1549 and begun construction on the facility, a private Confucian academy offering instruction in the classics and honouring the sages with regular memorial rites.  Like other Confucian academies, Dosan Seowon serves two purposes: education and commemoration. The site was well known in Korea as one of the leading academies and was home to the Toegye School of Thought for over 400 years. Although the educational function of the facility has long since ceased, the commemorative ceremonies have been and are still held twice a year.</German>
+		<Italian>Dosan Seowon (alternatively, Tosansowon) was established in 1574 in what is present day Andong, South Korea, in memory of and four years after the death of Confucian scholar Yi Hwang by some of his disciples and other Confucian authorities. Yi Hwang had retired to the location in 1549 and begun construction on the facility, a private Confucian academy offering instruction in the classics and honouring the sages with regular memorial rites.  Like other Confucian academies, Dosan Seowon serves two purposes: education and commemoration. The site was well known in Korea as one of the leading academies and was home to the Toegye School of Thought for over 400 years. Although the educational function of the facility has long since ceased, the commemorative ceremonies have been and are still held twice a year.</Italian>
+		<Spanish>Dosan Seowon (alternatively, Tosansowon) was established in 1574 in what is present day Andong, South Korea, in memory of and four years after the death of Confucian scholar Yi Hwang by some of his disciples and other Confucian authorities. Yi Hwang had retired to the location in 1549 and begun construction on the facility, a private Confucian academy offering instruction in the classics and honouring the sages with regular memorial rites.  Like other Confucian academies, Dosan Seowon serves two purposes: education and commemoration. The site was well known in Korea as one of the leading academies and was home to the Toegye School of Thought for over 400 years. Although the educational function of the facility has long since ceased, the commemorative ceremonies have been and are still held twice a year.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DOSAN_SEOWON_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]Dosan Seowon[COLOR_REVERT] Increases Science and Reduces Maintenance in city.</English>
+		<French>[COLOR_BUILDING_TEXT]Dosan Seowon[COLOR_REVERT] Augmente le Science et réduit l'entretien de la Ville.</French>
+		<German>[COLOR_BUILDING_TEXT]Dosan Seowon[COLOR_REVERT] Erh&#246;ht die Forschung und reduziert den Unterhalt der Stadt.</German>
+		<Italian>[COLOR_BUILDING_TEXT]Dosan Seowon[COLOR_REVERT] Increases Science and Reduces Maintenance in city.</Italian>
+		<Spanish>[COLOR_BUILDING_TEXT]Dosan Seowon[COLOR_REVERT] Increases Science and Reduces Maintenance in city.</Spanish>
+	</TEXT>
+</Civ4GameText>

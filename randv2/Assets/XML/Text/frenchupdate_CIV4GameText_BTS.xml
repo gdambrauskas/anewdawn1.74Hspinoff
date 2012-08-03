@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- French updates made by Calvitix, to correct the original BTS File-->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNIT_COMBAT_PROMOTION</Tag>
+		<English>[ICON_BULLET]All %s1_units are promoted to [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</English>
+		<French>[ICON_BULLET][NUM1:Tous:Toutes] les %s1_units re&#231;oivent la promotion [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]Alle Einheiten %s1_units erhalten die Bef&#246;rderung [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]Tutte le unit&#224; %s1_units ricevono la promozione [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET][NUM1:Todos los:Todas las:Todos los:Todos las] %s1:2_units ascienden a [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IS_SPY</Tag>
+		<English>[ICON_BULLET]Can perform Espionage Missions in an opponent's territory. The longer the unit is stationary the lower the cost to perform a Mission</English>
+		<French>[ICON_BULLET]Peut ex&#233;cuter des missions d'espionnage en territoire ennemi. Le co&#251;t d'ex&#233;cution des missions d&#233;cro&#238;t en fonction du temps de d&#233;ploiement de votre unit&#233;.</French>
+		<German>[ICON_BULLET]Kann Spionagemissionen in feindlichem Territorium ausf&#252;hren. Je l&#228;nger sich die Einheit am selben Ort befindet, umso weniger kostet die Ausf&#252;hrung einer Mission</German>
+		<Italian>[ICON_BULLET]Pu&#242; effettuare missioni di spionaggio nei territori nemici. Pi&#249; l'unit&#224; &#232; stazionaria, minore &#232; il costo per portare a termine la missione.</Italian>
+		<Spanish>[ICON_BULLET]Puede llevar a cabo misiones de espionaje en el territorio de un oponente. Cuanto m&#225;s tiempo permanezca quieta la unidad, menor ser&#225; el coste de realizar la misi&#243;n.</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BONUS_UNIT</Tag>
+		<English>[ICON_BULLET]Receive %d1 [COLOR_UNIT_TEXT]%s2_units[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Obtenir [NUM1:un:une:%d1:%d1] [COLOR_UNIT_TEXT]%s2_UnitName[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]%d1 Einheit(en) [COLOR_UNIT_TEXT]%s2_units[COLOR_REVERT] erhalten</German>
+		<Italian>[ICON_BULLET]Ricevere %d1 [COLOR_UNIT_TEXT]%s2_units[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]Recibir %d1 [COLOR_UNIT_TEXT]%s2:2_units[COLOR_REVERT]</Spanish>
+	</TEXT>	
+	
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNIT_EXPERIENCE</Tag>
+		<English>[ICON_BULLET]The %s2_unit receives %d1 XP</English>
+		<French>[ICON_BULLET] [NUM2:Le:La:L':Les] %s2_unit re&#231;oit %d1 EXP</French>
+		<German>[ICON_BULLET]Die Einheit %s2_unit erh&#228;lt %d1 EP</German>
+		<Italian>[ICON_BULLET]L'unit&#224; %s2_unit riceve %d1 XP</Italian>
+		<Spanish>[ICON_BULLET][NUM2:El:La:Los:Las] %s2_unit [NUM2:recibe:recibe:reciben:reciben] %d1 PE</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_IMMOBILE_UNIT</Tag>
+		<English>[ICON_BULLET]The %s2_unit will be busy for %d1 [NUM1:turn:turns], unavailable for any other duty except self-defense.</English>
+		<French>[ICON_BULLET][NUM2:Le:La:L':Les] %s2_unit [NUM2:sera occup&#233;:sera occup&#233;e:seront occup&#233;s:seront occup&#233;es] pendant %d1 [NUM1:tour:tours] et indisponible pour toute activit&#233; &#224; part l'autod&#233;fense.</French>
+		<German>[ICON_BULLET]Die Einheit %s2_unit ist %d1 [NUM1:Runde:Runden] lang besch&#228;ftigt und f&#252;r keine andere Aufgabe au&#223;er Selbstverteidigung verf&#252;gbar.</German>
+		<Italian>[ICON_BULLET]L'unit&#224; %s2_unit sar&#224; occupata per %d1 [NUM1:turno:turni], e non far&#224; altro eccetto difendersi.</Italian>
+		<Spanish>[ICON_BULLET][NUM2:El:La:Los:Las] %s2_unit [NUM2:no estar&#225; disponible:no estar&#225; disponible:no estar&#225;n disponibles:no estar&#225;n disponibles] durante %d1 [NUM1:turno:turnos], para ning&#250;n cometido que no sea su propia defensa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_TECH_BROKERING_HELP</Tag>
+		<English>Players cannot trade technologies that they have not researched themselves</English>
+		<French>Les joueurs ne peuvent pas &#233;changer des technologies qu'ils ne peuvent pas rechercher eux-m&#234;mes.</French>
+		<German>Spieler k&#246;nnen nicht mit Technologien handeln, die sie nicht selbst erforscht haben</German>
+		<Italian>I giocatori non possono commerciare tecnologie che non hanno scoperto autonomamente.</Italian>
+		<Spanish>Los jugadores no pueden comerciar con tecnolog&#237;as que no hayan investigado por s&#237; mismos</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_UNIT_DISBAND</Tag>
+		<English>[ICON_BULLET]The %s1_unit is lost</English>
+		<French>[ICON_BULLET][NUM1:Le:La:Les:Les] %s1_unit [NUM1:est perdu:est perdue:sont perdu:sont perdues]</French>
+		<German>[ICON_BULLET]Verlust der Einheit %s1_unit</German>
+		<Italian>[ICON_BULLET]L'unit&#224; %s1_unit &#232; perduta</Italian>
+		<Spanish>[ICON_BULLET]Se [NUM1:ha perdido el:ha perdido la:han perdido los:han perdido las] %s1_unit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REMOVE_BUILDING</Tag>
+		<English>[ICON_BULLET]Lose the [COLOR_BUILDING_TEXT]%s1_building[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Perdre [NUM1:votre:votre:vos:vos] [COLOR_BUILDING_TEXT]%s1_building[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]Geb&#228;ude [COLOR_BUILDING_TEXT]%s1_building[COLOR_REVERT] entfernen</German>
+		<Italian>[ICON_BULLET]Perdere [NUM1:un:una] [COLOR_BUILDING_TEXT]%s1_building[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]Perder [NUM1:el:la:los:las] [COLOR_BUILDING_TEXT]%s1_building[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TECH_GAINED_PERCENT</Tag>
+		<English>[ICON_BULLET]%D1_num[ICON_RESEARCH] towards [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]%D1_num[ICON_RESEARCH] pour la d&#233;couverte de : [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]%D1_num[ICON_RESEARCH] f&#252;r die Technologie [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]%D1_num[ICON_RESEARCH] verso [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]%D1_num [ICON_RESEARCH] hacia [NUM2:el:la:los:las] [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TECH_GAINED_FROM_PLAYER_PERCENT</Tag>
+		<English>[ICON_BULLET]%D1[ICON_RESEARCH] towards [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] from %s3_player</English>
+		<French>[ICON_BULLET]%D1[ICON_RESEARCH] pour la d&#233;couverte de [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] gr&#226;ce &#224; %s3_player</French>
+		<German>[ICON_BULLET]%D1[ICON_RESEARCH] f&#252;r [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] von %s3_player</German>
+		<Italian>[ICON_BULLET]%D1[ICON_RESEARCH] verso [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] da %s3_player</Italian>
+		<Spanish>[ICON_BULLET]%D1 [ICON_RESEARCH] hacia [NUM2:el:la:los:las] [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] de %s3_player</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ESPIONAGE_SPY_SUCCESS</Tag>
+		<English>Upon completing the mission the %s1_unit has returned safely to %s2_city.</English>
+		<French>Apr&#232;s avoir compl&#233;t&#233; la mission, [NUM1:votre:votre:vos:vos] %s1_unit [NUM1:est revenu sain et sauf:est revenue saine et sauve:sont revenus sains et saufs:sont revenues saines et sauves] &#224; %s2_city.</French>
+		<German>Nach Beendigung der Mission ist die Einheit %s1_unit sicher nach %s2_city zur&#252;ckgekehrt.</German>
+		<Italian>Dopo aver completato la missione, l'unit&#224; %s1_unit &#232; tornata sana e salva a %s2_city.</Italian>
+		<Spanish>Tras completar la misi&#243;n, [NUM1:el:la:los:las] %s1_unit [NUM1:ha:ha:han:han] vuelto a salvo a %s2_city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_PROGRESS_TOWARDS_TECH</Tag>
+		<English>You have come %d1[ICON_RESEARCH] closer to a breakthrough on [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT]</English>
+		<French>Vous obtenez un bonus de %d1[ICON_RESEARCH] pour la d&#233;couverte de la technologie : [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT]</French>
+		<German>Ihr seid einem Durchbruch in der Technologie [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT] %d1[ICON_RESEARCH] n&#228;hergekommen</German>
+		<Italian>Sei %d1[ICON_RESEARCH] pi&#249; vicino a una scoperta sulla tecnologia [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT]</Italian>
+		<Spanish>Est&#225;is un %d1 [ICON_RESEARCH] m&#225;s cerca del adelanto [NUM2:del:de la:de los:de las] [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPY_INTERCEPTED</Tag>
+		<English>A %s1_unit has been stumbled upon while operating near the %s2_civ_adjective city of %s3_city!</English>
+		<French>[NUM1:Un:Une:Des:Des] %s1_unit [NUM1:a été repéré:a été repérée:ont été repérés:a été repérées] alors qu'[NUM1:il:elle:ils:elles:] se [NUM1:trouvait:trouvait:trouvaient:trouvaient] pr&#232;s de la ville %s2:2_civ_adjective de %s3_city !</French>
+		<German>Eine Einheit %s1_unit wurde w&#228;hrend eines Einsatzes in der N&#228;he der %s2:2_civ_adjective Stadt %s3_city entdeckt!</German>
+		<Italian>L'unit&#224; %s1_unit &#232; stata intercettata mentre operava nei pressi della citt&#224; %s2_civ_adjective di %s3_city!</Italian>
+		<Spanish>&#161;Se ha dado con [NUM1:un:una:unos:unas] %s1_unit mientras [NUM1:operaba:operaba:operaban:operaban] cerca de la ciudad %s2:2_civ_adjective de %s3_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPY_INTERCEPTED_REVEAL</Tag>
+		<English>A %s1_civ_adjective %s2_unit has been stumbled upon while operating near the %s3_civ_adjective city of %s4_city!</English>
+		<French>[NUM1:Un:Une:Des:Des] %s1_unit %s2_civ_adjective [NUM1:a été repéré:a été repérée:ont été repérés:a été repérées] alors qu'[NUM1:il:elle:ils:elles:] se [NUM1:trouvait:trouvait:trouvaient:trouvaient] pr&#232;s de la ville %s3:2_civ_adjective de %s4_city !</French>
+		<German>Eine %s1:3_civ_adjective Einheit %s2_unit wurde w&#228;hrend eines Einsatzes in der N&#228;he der %s3:2_civ_adjective Stadt %s4_city entdeckt!</German>
+		<Italian>Un'unit&#224; %s2_unit %s1_civ_adjective &#232; stata intercettata mentre operava nei pressi della citt&#224; %s3_civ_adjective di %s4_city!</Italian>
+		<Spanish>&#161;Se ha dado con [NUM2:un:una:unos:unas] %s2_unit de la civilizaci&#243;n %s1:2_civ_adjective mientras [NUM2:operaba:operaba:operaban:operaban] cerca de la ciudad %s3:3_civ_adjective de %s4_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPY_INTERCEPTED_SPY</Tag>
+		<English>A %s1_unit operating near %s3_city has been thwarted by %s2_civ_adjective counterintelligence agents!</English>
+		<French>[NUM1:Un:Une:Des:Des] %s1_unit se trouvant pr&#232;s de la ville de %s3_city [NUM1:a été neutralisé:a été neutralisée:ont été neutralisés:a été neutralisées] par les agents du contre-espionnage %s2_civ_adjective !</French>
+		<German>Der Einsatz einer Einheit %s1_unit in der N&#228;he von %s3_city wurde von %s2:2_civ_adjective Spionageabwehr-Agenten verhindert!</German>
+		<Italian>Una unit&#224; %s1_unit operante nei pressi di %s3_city &#232; stata fermata dagli agenti del controspionaggio %s2_civ_adjective!</Italian>
+		<Spanish>&#161;Los agentes de contraespionaje %s2:3_civ_adjective han desenmascarado a [NUM1:un:una:unos:unas] %s1_unit que [NUM1:operaba:operaba:operaban:operaban] cerca de %s3_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPY_INTERCEPTED_SPY_REVEAL</Tag>
+		<English>A %s1_civ_adjective %s2_unit operating near %s4_city has been thwarted by %s3_civ_adjective counterintelligence agents!</English>
+		<French>[NUM2:Un:Une:Des:Des] %s2_unit %s1_civ_adjective se trouvant pr&#232;s de la ville de %s4_city [NUM2:a été neutralisé:a été neutralisée:ont été neutralisés:a été neutralisées] par les agents du contre-espionnage %s3_civ_adjective !</French>
+		<German>Der Einsatz einer %s1:2_civ_adjective Einheit %s2_unit in der N&#228;he von %s4_city wurde von %s3:2_civ_adjective Spionageabwehr-Agenten verhindert!</German>
+		<Italian>Un'unit&#224; %s2_unit  %s1_civ_adjective operante nei pressi di %s4_city &#232; stata fermata dagli agenti del controspionaggio %s3_civ_adjective!</Italian>
+		<Spanish>&#161;Los agentes de contraespionaje %s3:3_civ_adjective han desenmascarado a [NUM2:un:una:unos:unas] %s2_unit de la civilizaci&#243;n %s1:2_civ_adjective que [NUM2:operaba:operaba:operaban:operaban] cerca de %s4_city!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPY_INTERCEPTED_MISSION</Tag>
+		<English>A %s1_unit operating near %s3_city has been caught due to elevated %s2_civ_adjective counterespionage efforts!</English>
+		<French>[NUM1:Un:Une:Des:Des] %s1_unit se trouvant pr&#232;s de la ville de %s3_city [NUM1:a été attrapé:a été attrapée:ont été attrapés:a été attrapées] gr&#226;ce aux nombreux efforts du contre-espionnage %s2_civ_adjective !</French>
+		<German>Eine Einheit %s1_unit in der N&#228;he von %s3_city wurde aufgrund von verbesserten %s2:2_civ_adjective Spionageabwehr-Leistungen gefasst!</German>
+		<Italian>Un'unit&#224; %s1_unit operante nei pressi di %s3_city &#232; stata catturata grazie ai notevoli sforzi del controspionaggio %s2_civ_adjective!</Italian>
+		<Spanish>&#161;[NUM1:Un:Una:Unos:Unas] %s1_unit que [NUM1:operaba:operaba:operaban:operaban] cerca de %s3_city [NUM1:ha sido atrapado:ha sido atrapada:han sido atrapados:han sido atrapadas] debido a los grandes esfuerzos de contraespionaje %s2:3_civ_adjective!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPY_INTERCEPTED_MISSION_REVEAL</Tag>
+		<English>A %s1_civ_adjective %s2_unit operating near %s4_city has been caught due to elevated %s3_civ_adjective counterespionage efforts!</English>
+		<French>[NUM2:Un:Une:Des:Des] %s2_unit %s1_civ_adjective se trouvant pr&#232;s de la ville de %s4_city [NUM2:a été attrapé:a été attrapée:ont été attrapés:a été attrapées] gr&#226;ce aux nombreux efforts du contre-espionnage %s3_civ_adjective !</French>
+		<German>Eine Einheit %s1_unit in der N&#228;he von %s4_city wurde aufgrund von verbesserten %s3:2_civ_adjective Spionageabwehr-Leistungen gefasst!</German>
+		<Italian>Un'unit&#224; %s2_unit %s1_civ_adjective operante nei pressi di %s4_city &#232; stata catturata grazie ai notevoli sforzi del controspionaggio %s2_civ_adjective!</Italian>
+		<Spanish>&#161;Han atrapado [NUM2:a un:a una:a unos:a unas] %s2_unit de la civilizaci&#243;n %s1:2_civ_adjective que [NUM2:operaba:operaba:operaban:operaban] cerca de %s4_city gracias a los grandes esfuerzos de contraespionaje %s3:3_civ_adjective!</Spanish>
+	</TEXT>		
+</Civ4GameText>

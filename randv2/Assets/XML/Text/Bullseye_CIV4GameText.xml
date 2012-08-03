@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Techs -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Bullseye -->
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_BULLSEYE</Tag>
+		<English>Bullseye</English>
+		<French>Gran'Frais</French>
+		<German>Bullseye</German>
+		<Italian>Bullseye</Italian>
+		<Spanish>Bullseye</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_BULLSEYE_HQ</Tag>
+		<English>Bullseye Headquarters</English>
+		<French>Siège de Gran'Frais</French>
+		<German>Bullseye Zentrale</German>
+		<Italian>Bullseye Headquarters</Italian>
+		<Spanish>Bullseye Headquarters</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_BULLSEYE_STORE</Tag>
+		<English>Bullseye Store</English>
+		<French>Epicerie Gran'Frais</French>
+		<German>Bullseye-Laden</German>
+		<Italian>Bullseye Store</Italian>
+		<Spanish>Bullseye Store</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BULLSEYE_EXECUTIVE</Tag>
+		<English>Bullseye Executive</English>
+		<French>Gérant Gran'Frais</French>
+		<German>Bullseye-Geschäftsführer</German>
+		<Italian>Bullseye Executive</Italian>
+		<Spanish>Bullseye Executive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_BULLSEYE_PEDIA</Tag>
+		<English>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</English>
+		<French>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</French>
+		<German>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</German>
+		<Italian>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</Italian>
+		<Spanish>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_BULLSEYE_STORE_PEDIA</Tag>
+		<English>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</English>
+		<French>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</French>
+		<German>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</German>
+		<Italian>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</Italian>
+		<Spanish>Fruits and vegetables were often were the only other source of nutrition amongst the less well off members of a society and religious orders which abstain from consumption of proteins from animals. Most of the vegetables back then however were provided by Farmer’s markets and the source of vegetable farms themselves. The Babylonians are the first known civilization to be able to bring a piece of nature to the cities of Babylon with inventions such as the Archimedes Screw and thus able to sustain hydroponic agriculture in cities where fresh vegetables are less likely to appear. As time went by however, thanks to refrigeration and other transportation techniques produce are becoming fresher and more organic than ever before</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BULLSEYE_STRATEGY</Tag>
+		<English>Build this corporation in order to get fruit and groceries bonuses.</English>
+		<French>Construire cette corporation pour obtenir la ressource 'fruits et épices'.</French>
+		<German>Build this corporation in order to get fruit and groceries bonuses.</German>
+		<Italian>Build this corporation in order to get fruit and groceries bonuses.</Italian>
+		<Spanish>Build this corporation in order to get fruit and groceries bonuses.</Spanish>
+	</TEXT>	
+</Civ4GameText>

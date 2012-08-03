@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Tutorial Schema -->
+<!-- -->
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+	<ElementType name="bHideSelectionCursor" content="textOnly" dt:type="boolean"/>
+	<ElementType name="fArgumentFloatVal" content="textOnly"/>
+	<ElementType name="iArgumentIntVal" content="textOnly" dt:type="int"/>
+	<ElementType name="Type" content="textOnly"/>
+<!-- XMLCOPY				02/20/2008			MRGENIE		-->
+	<ElementType name="bTypeDependency" content="textOnly" dt:type="boolean"/>
+	<ElementType name="DependencyType" content="textOnly"/>
+	<ElementType name="AndDependencyTypes" content="eltOnly">
+		<element type="DependencyType" minOccurs="1"/>
+	</ElementType>
+	<ElementType name="OrDependencyTypes" content="eltOnly">
+		<element type="DependencyType" minOccurs="1"/>
+	</ElementType>
+<!-- XMLCOPY				END					MRGENIE		-->	
+	<ElementType name="Description" content="textOnly"/>
+	<ElementType name="TutorialMessageText" content="textOnly"/>
+	<ElementType name="TutorialMessageImage" content="textOnly"/>
+	<ElementType name="TutorialMessageSound" content="textOnly"/>
+	<ElementType name="TutorialScript" content="textOnly"/>
+	<ElementType name="Script" content="textOnly"/>
+	<ElementType name="Civ4TutorialInfos" content="eltOnly">
+		<element type="TutorialInfos" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+	<ElementType name="TutorialInfos" content="eltOnly">
+		<element type="TutorialInfo" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+	<ElementType name="TutorialInfo" content="eltOnly">
+		<element type="Type" minOccurs="0" maxOccurs="*"/>
+<!-- XMLCOPY				02/20/2008			MRGENIE		-->
+		<element type="bTypeDependency" minOccurs="0"/>
+		<element type="AndDependencyTypes" minOccurs="0"/>
+		<element type="OrDependencyTypes" minOccurs="0"/>
+<!-- XMLCOPY				END					MRGENIE		-->
+		<element type="Description" minOccurs="0" maxOccurs="*"/>
+		<element type="TutorialMessages" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+	<ElementType name="TutorialMessages" content="eltOnly">
+		<element type="TutorialMessage" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+	<ElementType name="TutorialScripts" content="eltOnly">
+		<element type="Script" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+	<ElementType name="TutorialMessage" content="eltOnly">
+		<element type="TutorialMessageText" minOccurs="0" maxOccurs="*"/>
+		<element type="TutorialMessageImage" minOccurs="0" maxOccurs="*"/>
+		<element type="TutorialMessageSound" minOccurs="0" maxOccurs="*"/>
+		<element type="TutorialScript" minOccurs="0" maxOccurs="*"/>
+		<element type="TutorialScripts" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+	<ElementType name="Civ4Tutorial" content="eltOnly">
+		<element type="TutorialInfos" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+</Schema>

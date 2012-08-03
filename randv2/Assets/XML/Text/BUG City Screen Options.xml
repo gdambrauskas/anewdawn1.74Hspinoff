@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+	BUG City Screen
+	Options Game Text
+
+	Copyright (c) 2009 The BUG Mod.
+-->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__RAWYIELDS_TEXT</Tag>
+		<English>Raw Yields</English>
+		<French>Commerce Pur / Production</French>
+		<German>Anzeige der Roherträge</German>
+		<Italian>Rendite Lorde</Italian>
+		<Spanish>Rendimientos en Bruto</Spanish>
+		<Finnish>Raw Yields</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__RAWYIELDS_HOVER</Tag>
+		<English>When checked, the raw breakdowns for [ICON_FOOD], [ICON_PRODUCTION], and [ICON_COMMERCE] are displayed in the trade routes table.</English>
+		<French>Lorsque activé, les apports bruts de [ICON_FOOD], [ICON_PRODUCTION], et [ICON_COMMERCE] sont affichés dans le tableau des routes commerciales.</French>
+		<German>Zeigt eine Aufschlüsselung der Erträge von [ICON_FOOD], [ICON_PRODUCTION] und [ICON_COMMERCE] im Stadt-Bildschirm über dem Handelseinkommen an</German>
+		<Italian>Quando &#232; selezionato, i valori lordi di rendita ([ICON_FOOD], [ICON_PRODUCTION] e [ICON_COMMERCE]) vengono mostrati nel pannello delle vie commerciali.</Italian>
+		<Spanish>Cuando se activa, muestra un desglose de los ingresos para  [ICON_FOOD], [ICON_PRODUCTION], y [ICON_COMMERCE] en la pantalla de la ciudad en los ingresos comerciales.</Spanish>
+		<Finnish>When checked, the raw breakdowns for [ICON_FOOD], [ICON_PRODUCTION], and [ICON_COMMERCE] are displayed in the trade routes table.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__RAWYIELDSVIEW_TEXT</Tag>
+		<English>Default View</English>
+		<French>Vue par défaut</French>
+		<German>Standardanzeige</German>
+		<Italian>Vista predefinita</Italian>
+		<Spanish>Vista por Defecto</Spanish>
+		<Finnish>Default View</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__RAWYIELDSVIEW_HOVER</Tag>
+		<English>Determines the Raw Yields view used when Civ is started.</English>
+		<French>Détermines le type de vue concernant les apports bruts ([ICON_FOOD], [ICON_PRODUCTION], et [ICON_COMMERCE]) qui est affiché par défaut.</French>
+		<German>Bestimmt, welche Erträge beim Aufruf des Stadt-Bildschirms standardmäßig angezeigt werden sollen</German>
+		<Italian>Determina la vista predefinita alla partenza di Civ4 per il pannello delle rendite Lorde: Rotte Commerciali, Cibo, Produzione o Commercio.</Italian>
+		<Spanish>Determina la vista predefinida de los Rendimientos en Bruto cuando se arranca Civ.</Spanish>
+		<Finnish>Determines the Raw Yields view used when Civ is started.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__RAWYIELDSVIEW_LIST</Tag>
+		<English>Trade Routes|Food|Production|Commerce</English>
+		<French>Routes commercialles|Nourr.|Production|Commerce</French>
+		<German>Handelsverbindungen|Nahrung|Produktion|Wirtschaft</German>
+		<Italian>Rotte Commerciali|Cibo|Produzione|Commercio</Italian>
+		<Spanish>Rutas de Comercio|Alimentos|Producci&#243;n|Comercio</Spanish>
+		<Finnish>Trade Routes|Food|Production|Commerce</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__RAWYIELDSTILES_TEXT</Tag>
+		<English>Count Tiles</English>
+		<French>Count Tiles</French>
+		<German>Ertragsberechnung</German>
+		<Italian>Count Tiles</Italian>
+		<Spanish>Count Tiles</Spanish>
+		<Finnish>Casillas Predefinidas</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__RAWYIELDSTILES_HOVER</Tag>
+		<English>Select which tiles to count in Raw Yields when Civ is started.</English>
+		<French>Sélectionne que type de cases sont comptabilisée dans l'affichage par défaut des apports bruts ([ICON_FOOD], [ICON_PRODUCTION], et [ICON_COMMERCE]).</French>
+		<German>Wähle die Felder für Roherträge beim Starten von Civ aus.</German>
+		<Italian>Determina quali caselle devono essere incluse nel calcolo delle Rendite Lorde, alla partenza di Civ4</Italian>
+		<Spanish>Escoge que casillas se contaran en los Rendimientos en Bruto cuando se arranca Civ.</Spanish>
+		<Finnish>Select which tiles to count in Raw Yields when Civ is started.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__RAWYIELDSTILES_LIST</Tag>
+		<English>Worked|City|Owned</English>
+		<French>Utilisé|Ville|Possédé</French>
+		<German>Bearbeitet|Stadt|Besitz</German>
+		<Italian>Migliorate|Citt&#224;|Proprie</Italian>
+		<Spanish>Trabajadas|Ciudad|Psesi&#243;n</Spanish>
+		<Finnish>Worked|City|Owned</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__FOODASSIST_TEXT</Tag>
+		<English>Detailed Food Info</English>
+		<French>Infos Détaillées de la Nourriture</French>
+		<German>Ausführliche Nahrungserträge</German>
+		<Italian>Informazioni alimentari dettagliate</Italian>
+		<Spanish>Informacion Alimentos Detallada</Spanish>
+		<Finnish>Detailed Food Info</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__FOODASSIST_HOVER</Tag>
+		<English>When checked, displays the food difference generated per turn (plus or minus) and the number of turns until starvation when the food supply is shrinking.</English>
+		<French>Lorsque activé, affiche la différence générée par tour, et le nombre de tours jusqu'à la Famine lorsque le stock de nourriture diminue.</French>
+		<German>Zeigt die (positive oder negative) Abweichung der erwirtschafteten Nahrungserträge pro Runde an und außerdem die Anzahl der Runden, bis eine Hungersnot ausbricht und der Nahrungsvorrat zu schrumpfen beginnt</German>
+		<Italian>Quando &#232; selezionato, visualizza la differenza del cibo generato ogni turno (positiva o negativa); quando le risorse alimentari sono in riduzione, visualizza anche il numero di turni fino alla carestia.</Italian>
+		<Spanish>Cuando se activa, muestra las diferencias sobre la producci&#243;n de Alimentos generada por turno (m&#225;s o menos) y el n&#250;mero de turnos hasta la hambruna cuando el suministro de alimentos es escaso.</Spanish>
+		<Finnish>When checked, displays the food difference generated per turn (plus or minus) and the number of turns until starvation when the food supply is shrinking.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__WHIPASSIST_TEXT</Tag>
+		<English>Production Bar</English>
+		<French>Barre de Production</French>
+		<German>Produktionsbalken</German>
+		<Italian>Barra di Produzione</Italian>
+		<Spanish>Barra de Producci&#243;n</Spanish>
+		<Finnish>Production Bar</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__WHIPASSIST_HOVER</Tag>
+		<English>When checked, displays the [ICON_CITIZEN] cost and [ICON_PRODUCTION]/[ICON_GOLD] overflow for whipping and/or the [ICON_GOLD] cost for buying the item being produced in the Production Bar.</English>
+		<French>Lorsque activé, affiche dans la barre de production le coût en [ICON_CITIZEN] et le surplus [ICON_PRODUCTION]/[ICON_GOLD] qu'entraîne le Travail Forcé et les coût en [ICON_GOLD] pour l'accélération de la production de la ville.</French>
+		<German>Zeigt im Produktionsbalken die Anzahl der [ICON_CITIZEN], die für eine Beschleunigung der Produktion geopfert werden müssen, und den daraus entstehenden Überschuss ([ICON_PRODUCTION] und/oder [ICON_GOLD]) sowie die Kosten an, die anfallen, wenn das derzeitige Bauprojekt mit [ICON_GOLD] beschleunigt werden kann</German>
+		<Italian>Quando &#232; selezionato, la Barra della Produzione della Schermata Cittadina mostra il costo in popolazione ed il surplus di produzione per l'accelerazione di produzione mediante sacrifici e il costo in oro per l'accelerazione di produzione mediante pagamenti relativi all'oggetto attualmente costruito.</Italian>
+		<Spanish>Cuando se activa, muestra el [ICON_CITIZEN] coste y [ICON_PRODUCTION]/[ICON_GOLD] excedente al sacrificar poblaci&#243;n y/o el [ICON_GOLD] coste al comprar la producci&#243;n actual en la Barra de Producci&#243;n.</Spanish>
+		<Finnish>When checked, displays the [ICON_CITIZEN] cost and [ICON_PRODUCTION]/[ICON_GOLD] overflow for whipping and/or the [ICON_GOLD] cost for buying the item being produced in the Production Bar.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__WHIPASSISTOVERFLOWCOUNTCURRENTPRODUCTION_TEXT</Tag>
+		<English>Include Current</English>
+		<French>Voir les effets actuels</French>
+		<German>Aktuelle Runde einbeziehen</German>
+		<Italian>Includi corrente</Italian>
+		<Spanish>Incluir Actual</Spanish>
+		<Finnish>Include Current</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__WHIPASSISTOVERFLOWCOUNTCURRENTPRODUCTION_HOVER</Tag>
+		<English>When checked, whip production overflow estimates will include the city's current [ICON_PRODUCTION].</English>
+		<French>Lorsque activé, L'accélération de la production par le fouet inclut dans l'estimation la [ICON_PRODUCTION] actuelle de la Ville.</French>
+		<German>Bezieht [ICON_PRODUCTION] einer Stadt aus der aktuellen Runde in die Berechnung des Produktionsüberschusses ein</German>
+		<Italian>Quando &#232; selezionato, la stima del surplus di produzione include la produzione corrente della Citt&#224;.</Italian>
+		<Spanish>Cuando se activa, las estimaciones de exceso de producci&#243;n al sacrificar la poblaci&#243;n incluir&#225; la [ICON_PRODUCTION] actual de la ciudad.</Spanish>
+		<Finnish>When checked, whip production overflow estimates will include the city's current [ICON_PRODUCTION].</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__CULTURETURNS_TEXT</Tag>
+		<English>Culture Turns</English>
+		<French>Tours de Culture</French>
+		<German>Kulturanzeige (verbleibende Runden)</German>
+		<Italian>Turni per l'espansione culturale</Italian>
+		<Spanish>Turnos Expansion Cultural</Spanish>
+		<Finnish>Culture Turns</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__CULTURETURNS_HOVER</Tag>
+		<English>When checked, displays the number of turns until the city's borders expand.</English>
+		<French>Lorsque activé, le nombre de tours nécessaire à l'expansion des frontières culturelles est affiché.</French>
+		<German>Zeigt in der Kulturanzeige die Anzahl der Runden an, bis sich die Kulturgrenzen einer Stadt erweitern</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato il numero di turni mancanti alla successiva espansione culturale.</Italian>
+		<Spanish>Cuando se activa, muestra el n&#250;mero de turnos que faltan para la expansi&#243;n cultural.</Spanish>
+		<Finnish>When checked, displays the number of turns until the city's borders expand.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__GREATPERSONTURNS_TEXT</Tag>
+		<English>Turns Until Birth</English>
+		<French>Tours avant Naissance</French>
+		<German>Runden bis zum Erscheinen</German>
+		<Italian>Turni per la nascita di un Grande Personaggio</Italian>
+		<Spanish>Turnos Aparici&#243;n GP</Spanish>
+		<Finnish>Turns Until Birth</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__GREATPERSONTURNS_HOVER</Tag>
+		<English>When checked, displays the number of turns until the city will produce a [ICON_GREATPEOPLE].</English>
+		<French>Lorsque activé, Affiche le nombre de tours jusqu'à ce que la Ville donne naissance à [ICON_GREATPEOPLE].</French>
+		<German>Zeigt in der Anzeige der Große Persönlichkeit-Punkte die Anzahl der Runden an, bis eine Stadt eine Große Persönlichkeit ([ICON_GREATPEOPLE]) hervorbringt</German>
+		<Italian>Quando &#232; selezionato, viene visualizzato il numero di turni mancanti alla successiva nascita di un Grande Personaggio.</Italian>
+		<Spanish>Cuando se activa, muestras el n&#250;mero de turnos que faltan para que aparezca en la ciudad un[ICON_GREATPEOPLE].</Spanish>
+		<Finnish>When checked, displays the number of turns until the city will produce a [ICON_GREATPEOPLE].</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__GREATPERSONINFO_TEXT</Tag>
+		<English>Types and Percentages</English>
+		<French>Types and Pourcentages</French>
+		<German>Art und Wahrscheinlichkeit</German>
+		<Italian>Informazioni sui Grandi Personaggi</Italian>
+		<Spanish>Tipos y Porcentajes GP</Spanish>
+		<Finnish>Types and Percentages</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__GREATPERSONINFO_HOVER</Tag>
+		<English>When checked, displays the percentage chance and type of each possible [ICON_GREATPEOPLE] on the bar. The number shown is controlled by the General setting.</English>
+		<French>Lorsque activé, affiche le pourcentage de probabilité de chaque type de [ICON_GREATPEOPLE] dans la barre. Le Nombre de pourcentages affichés est géré dans l'onglet Général.</French>
+		<German>Zeigt die Wahrscheinlichkeit des Erscheinens der verschiedenen Arten von Großen Persönlichkeiten ([ICON_GREATPEOPLE]) an</German>
+		<Italian>Quando &#232; selezionato, vengono visualizzate informazioni aggiuntive sui Grandi Personaggi.</Italian>
+		<Spanish>Cuando se activa, muestra el porcentaje y el tipo de cada posible [ICON_GREATPEOPLE] en la barra de progreso. Los n&#250;meros mostrados son manejados por la Configuraci&#243;n General.</Spanish>
+		<Finnish>When checked, displays the percentage chance and type of each possible [ICON_GREATPEOPLE] on the bar. The number shown is controlled by the General setting.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__ANGER_COUNTER_TEXT</Tag>
+		<English>Anger Counter</English>
+		<French>Compteur de Mécontentement</French>
+		<German>Rundenzähler bei Unzufriedenheit</German>
+		<Italian>Infelicit&#224; da sacrifici</Italian>
+		<Spanish>Contador Insatisfacci&#243;n</Spanish>
+		<Finnish>Anger Counter</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__ANGER_COUNTER_HOVER</Tag>
+		<English>When checked, puts anger countdown on city screen.</English>
+		<French>Lorsque activé, Affice un compteur de mécontentement sur l'écran de ville, avec l'origine et le nombre de tours restants.</French>
+		<German>Zeigt einen Rundenzähler im Stadt-Bildschirm an, der die Anzahl der Runden angibt, bis die Unzufriedenheit wegen einer Beschleunigung der Produktion durch Zwangsarbeit verflogen ist</German>
+		<Italian>Quando &#232; selezionato, nella Schermata Cittadina viene visualizzato un contatore dei turni di Infelicit&#224; da sacrifici.</Italian>
+		<Spanish>Cuando se activa, coloca el contador de insatisfacci&#243;n en la pantalla de la ciudad.</Spanish>
+		<Finnish>When checked, puts anger countdown on city screen.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__ONLYPRESENTRELIGIONS_TEXT</Tag>
+		<English>Only Present Religions</English>
+		<French>Uniquement les Religions présentes</French>
+		<German>Nur vorhandene Religionen</German>
+		<Italian>Solo Religioni Presenti</Italian>
+		<Spanish>Solo Religiones Presentes</Spanish>
+		<Finnish>Only Present Religions</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__ONLYPRESENTRELIGIONS_HOVER</Tag>
+		<English>When checked, displays only the religions that are present in the city and allows for more than seven religions.</English>
+		<French>Lorsque activé, affiche uniquement les religions présentes dans la Ville et permet l'affichage de plus de sept religions.</French>
+		<German>Zeigt nur die in einer Stadt vorhandenen Religionen an und erlaubt die Darstellung von mehr als sieben Religionen</German>
+		<Italian>Quando &#232; selezionato, vengono visualizzate solo le religioni presenti nella citt&#224; e permette di visualizzarne pi&#249; di sette.</Italian>
+		<Spanish>Cuando se activa, muestra solo las religiones que est&#225;n presentes en la ciudad y permite m&#225;s de 7 religiones.</Spanish>
+		<Finnish>When checked, displays only the religions that are present in the city and allows for more than seven religions.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__ONLYPRESENTCORPORATIONS_TEXT</Tag>
+		<English>Only Present Corporations</English>
+		<French>Uniquement les Corporations présentes</French>
+		<German>Nur vorhandene Kapitalgesellschaften</German>
+		<Italian>Solo Corporazioni Presenti</Italian>
+		<Spanish>Solo Corporaciones Presentes</Spanish>
+		<Finnish>Only Present Corporations</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__ONLYPRESENTCORPORATIONS_HOVER</Tag>
+		<English>When checked, displays only the corporations that are present in the city and allows for more than seven corporations.</English>
+		<French>Lorsque activé, affiche uniquement les corporations présentes dans la Ville et permet l'affichage de plus de sept corporations.</French>
+		<German>Zeigt nur die in einer Stadt vorhandenen Kapitalgesellschaften an und erlaubt die Darstellung von mehr als sieben Kapitalgesellschaften</German>
+		<Italian>Quando &#232; selezionato, vengono visualizzate solo le corporazioni presenti nella citt&#224; e permette di visualizzarne pi&#249; di sette.</Italian>
+		<Spanish>Cuando se activa, muestra solo las corporaciones que est&#225;n presentes en la ciudad y permite m&#225;s de 7 corporaciones.</Spanish>
+		<Finnish>When checked, displays only the corporations that are present in the city and allows for more than seven corporations.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__SPECIALISTS_TEXT</Tag>
+		<English>City Specialists</English>
+		<French>Spécialistes</French>
+		<German>Anordnung der Spezialisten</German>
+		<Italian>Specialisti</Italian>
+		<Spanish>Ciudadanos Especialistas</Spanish>
+		<Finnish>City Specialists</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__SPECIALISTS_HOVER</Tag>
+		<English>Determines how specialists are displayed:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Default[COLOR_REVERT] - Shows specialists using the vanilla BtS format.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Stacker[COLOR_REVERT] - Shows specialists stacked using the Stacked Specialist mod.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Chevron[COLOR_REVERT] - Shows specialists grouped into 5 (single chevron), 10 (capped chevron) and 20 (boxed capped chevron) format.</English>
+		<French>Détermine comment les spécialistes sont affichés.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Défaut[COLOR_REVERT] - affiche les spécialistes comme BtS.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Groupe[COLOR_REVERT] - Groupe les spécialistes.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Chevrons[COLOR_REVERT] - Groupe les spécialistes par groupes de 5 (simple chevron), 10 (chevron plein) et 20 (chevrons pleins plus carré).</French>
+		<German>Bestimmt die Anordnung der Spezialisten im Stadt-Bildschirm:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Standard[COLOR_REVERT] - Spezialisten werden wie in "Beyond the Sword" angeordnet[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Stapel[COLOR_REVERT] - Spezialisten werden gestapelt angeordnet (verwendet die "Stacked Specialist"-Mod)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Chevron[COLOR_REVERT] - Spezialisten werden zu Gruppen aus 5 (einfaches Chevron), 10 (geschlossenes Chevron) und 20 (eingerahmtes geschlossenes Chevron) Spezialisten zusammengefasst</German>
+		<Italian>Determina quanti Specialisti vengono mostrati:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Predefinito[COLOR_REVERT] - mostra gli Specialisti utilizzando il formato standard di Civ4:BtS;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Impilati[COLOR_REVERT] - mostra gli Specialisti utilizzando il formato a pile dello 'Stacked Specialist Mod';[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Galloni[COLOR_REVERT] - mostra gli Specialisti raggruppati per 5, 10 e 20 utilizzando il formato a galloni dello 'Chevron Mod'.</Italian>
+		<Spanish>Determina como se muestran los especialistas:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Defecto[COLOR_REVERT] - Muestra los especialistas utilizando el formato vanilla BTS.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Apilados[COLOR_REVERT] - Muestra los especialistas utilizando el mod Especialistas Apilados.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Galones[COLOR_REVERT] - Muestra los especialistas agrupados en 5, 10  y 20 representados por tipos de galones.</Spanish>
+		<Finnish>Determines how specialists are displayed:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Default[COLOR_REVERT] - Shows specialists using the vanilla BtS format.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Stacker[COLOR_REVERT] - Shows specialists stacked using the Stacked Specialist mod.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Chevron[COLOR_REVERT] - Shows specialists grouped into 5 (single chevron), 10 (capped chevron) and 20 (boxed capped chevron) format.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__SPECIALISTS_LIST</Tag>
+		<English>Default|Stacker|Chevron</English>
+		<French>Défaut|Groupes|Chevrons</French>
+		<German>Standard|Stapel|Chevron</German>
+		<Italian>Predefinito|Impilati|Galloni</Italian>
+		<Spanish>Defecto|Apilados|Galones</Spanish>
+		<Finnish>Default|Stacker|Chevron</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONSTARTED_TEXT</Tag>
+		<English>Color Started Items</English>
+		<French>Eléments Commencé en Couleur</French>
+		<German>Baufortschritt einfärben</German>
+		<Italian>Color Started Items</Italian>
+		<Spanish>Color Elemento en Progreso</Spanish>
+		<Finnish>Color Started Items</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONSTARTED_HOVER</Tag>
+		<English>When checked, displays the remaining turns in cyan for items that have been started.</English>
+		<French>Lorsque activé, affiche le nombre de tours restants pour les objets qui ont déjà été commencés en Cyan.</French>
+		<German>Färbt die bis zur Fertigstellung eines Projekts verbleibenden Runden Blau ein</German>
+		<Italian>When checked, displays the remaining turns in cyan for items that have been started.</Italian>
+		<Spanish>Cuando se activa, muestra los restantes turnos de construcci&#243;n en cian para los elementos cuya producci&#243;n ya se ha comenzado.</Spanish>
+		<Finnish>When checked, displays the remaining turns in cyan for items that have been started.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYQUEUE_TEXT</Tag>
+		<English>Queue</English>
+		<French>File de Production</French>
+		<German>Produktionsliste</German>
+		<Italian>Coda</Italian>
+		<Spanish>Cola</Spanish>
+		<Finnish>Queue</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYQUEUE_HOVER</Tag>
+		<English>When checked, displays a yellow exclamation point (!) next to items in the build queue that are close to decaying from being left in the queue without adding [ICON_PRODUCTION] for too long. Two red exclamation points signify that the item will decay this turn if it is not first in the queue.</English>
+		<French>Lorsque activé, affiche un point d'exclamation jaune (!) devant les objets de la file de production qui vont perdre leur  [ICON_PRODUCTION] déjà commencée depuis trop longtemps. Les deux points d'exclammation rouge signifieront que cette perte se fera au tour suivant si l'objet n'est pas en tête de liste.</French>
+		<German>Zeigt ein gelbes Ausrufezeichen (!) bei Projekten in der Produktionsliste an, deren Produktionsfortschritt demnächst verfällt, da sie zu lange in der Liste stehen, ohne dass weitere [ICON_PRODUCTION] auf sie verwendet wurden. Zwei rote Ausrufezeichen (!!) zeigen an, dass der Produktionsfortschritt eines Projekts in dieser Runde verfällt, falls es nicht weiter produziert wird</German>
+		<Italian>Quando &#232; selezionato, mostra un punto esclamativo (!) giallo per gli oggetti nella coda di produzione che sono prossimi a perdere la produzione accumulata a causa della eccessiva permanenza nella coda senza ulteriore aggiunta di [ICON_PRODUCTION]. Due punti esclamativi rossi indicano che l'oggetto nella coda perder&#224; la produzione accumulata nel turno in corso a meno che non venga posizionato in testa alla coda produttiva.</Italian>
+		<Spanish>Cuando se activa, muestra una exclamaci&#243;n amarilla (!) al lado de los elementos en la cola que est&#225;n cerca de decaer por ser dejados en la cola durante mucho tiempo sin a&#241;adir nuevos [ICON_PRODUCTION]. Dos exclamaciones rojas indicas que el Elemento decaer&#225; este turno si no se coloca primero en la cola.</Spanish>
+		<Finnish>When checked, displays a yellow exclamation point (!) next to items in the build queue that are close to decaying from being left in the queue without adding [ICON_PRODUCTION] for too long. Two red exclamation points signify that the item will decay this turn if it is not first in the queue.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYQUEUEUNITTHRESHOLD_TEXT</Tag>
+		<English>Unit Warning</English>
+		<French>Avertissement des Unités</French>
+		<German>Einheiten-Warnung</German>
+		<Italian>Avviso per le Unit&#224;</Italian>
+		<Spanish>Aviso Unidades</Spanish>
+		<Finnish>Unit Warning</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYQUEUEUNITTHRESHOLD_HOVER</Tag>
+		<English>Select the number of turns before a unit will decay at which time a yellow exclamation mark is shown. Units decay after being in the queue without adding [ICON_PRODUCTION] for 10 turns.</English>
+		<French>Sélectione le nombre de tours avant l'apparition de l'avertissement par les points d'exclamation. Les Unités perdent leur avance de production à partir de 10 tours sans production.</French>
+		<German>Bestimmt die Anzahl der Runden, bevor der Produktionsfortschritt einer produzierten Einheit verfällt und ein gelbes Ausrufezeichen angezeigt wird (Produktionsfortschritte bei Einheiten verfallen, wenn sie 10 Runden in der Liste stehen, ohne dass weitere [ICON_PRODUCTION] auf sie verwendet wurden)</German>
+		<Italian>Inserisci il numero di turni prima che una Unit&#224; in coda perda la produzione accumulata mancanti i quali verr&#224; visualizzato il punto esclamativo giallo di avvertimento. Le Unit&#224; perdono la produzione accumulata dopo essere state nella coda di produzione per 10 turni senza aggiunte di [ICON_PRODUCTION].</Italian>
+		<Spanish>Escoge el n&#250;mero de turnos antes de que una unidad decaiga, para que se muestre una exclamaci&#243;n amarilla. Las unidades decaer&#225;n despu&#233;s de estar 10 turnos en la cola sin que se a&#241;ada ning&#250;n [ICON_PRODUCTION].</Spanish>
+		<Finnish>Select the number of turns before a unit will decay at which time a yellow exclamation mark is shown. Units decay after being in the queue without adding [ICON_PRODUCTION] for 10 turns.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYQUEUEBUILDINGTHRESHOLD_TEXT</Tag>
+		<English>Building Warning</English>
+		<French>Avertissement Bâtiments</French>
+		<German>Gebäude-Warnung</German>
+		<Italian>Avviso per gli Edifici</Italian>
+		<Spanish>Aviso Edificios</Spanish>
+		<Finnish>Building Warning</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYQUEUEBUILDINGTHRESHOLD_HOVER</Tag>
+		<English>Select the number of turns before a building will decay at which time a yellow exclamation mark is shown. Buildings decay after being in the queue without adding [ICON_PRODUCTION] for 50 turns. Projects never decay.</English>
+		<French>Sélectione le nombre de tours avant l'apparition de l'avertissement par les points d'exclamation. Les Unités perdent leur avance de production à partir de 50 tours sans production. Les Projets ne perdent jamais de leur avance de production</French>
+		<German>Bestimmt die Anzahl der Runden, bevor der Produktionsfortschritt eines produzierten Gebäudes verfällt und ein gelbes Ausrufezeichen angezeigt wird (Produktionsfortschritte bei Gebäuden verfallen, wenn sie 50 Runden in der Liste stehen, ohne dass weitere [ICON_PRODUCTION] auf sie verwendet wurden; bei Projekten geschieht dies nie)</German>
+		<Italian>Inserisci il numero di turni prima che un Edificio in coda perda la produzione accumulata mancanti i quali verr&#224; visualizzato il punto esclamativo giallo di avvertimento. Gli Edifici perdono la produzione accumulata dopo essere state nella coda di produzione per 50 turni senza aggiunte di [ICON_PRODUCTION]; i Progetti invece non perdono mai la produzione accumulata.</Italian>
+		<Spanish>Escoge el n&#250;mero de turnos antes de que un edificio decaiga, para que se muestre una exclamaci&#243;n amarilla. Los edificios decaer&#225;n despu&#233;s de estar 50 turnos en la cola sin que se a&#241;ada ning&#250;n [ICON_PRODUCTION]. Los proyectos no decaen.</Spanish>
+		<Finnish>Select the number of turns before a building will decay at which time a yellow exclamation mark is shown. Buildings decay after being in the queue without adding [ICON_PRODUCTION] for 50 turns. Projects never decay.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYHOVER_TEXT</Tag>
+		<English>Hover</English>
+		<French>InfoBulle</French>
+		<German>Tooltip</German>
+		<Italian>Testo a comparsa</Italian>
+		<Spanish>Flotar</Spanish>
+		<Finnish>Hover</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYHOVER_HOVER</Tag>
+		<English>When checked, displays the number of turns before and amount of decay in the hover text for units and buildings in the build queue.</English>
+		<French>Lorsque activé, affiche le nombre de tours avec la perte de l'avance de production dans les infobulles de la file de production des unités et bâtiments.</French>
+		<German>Zeigt im Tooltip von Einheiten und Gebäuden in der Produktionsliste die Anzahl der Runden an, bis ein Produktionsfortschritt verfällt und wie viele [ICON_PRODUCTION] dann verloren gehen</German>
+		<Italian>Quando &#232; selezionato, mostra nel testo a comparsa delle Unit&#224; e degli Edifici in coda di produzione il numero di turni prima che perdano la produzione accumulata e l'ammontare di tale perdita.</Italian>
+		<Spanish>Cuando se activa, muestra el n&#250;mero de turnos que faltan para que decaiga un elemento, y la cantidad que decaer&#225; en el texto que se muestra al dejar el rat&#243;n flotando sobre los elementos de la cola de producci&#243;n.</Spanish>
+		<Finnish>When checked, displays the number of turns before and amount of decay in the hover text for units and buildings in the build queue.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYHOVERUNITTHRESHOLD_TEXT</Tag>
+		<English>Unit Warning</English>
+		<French>Avertissement Unité</French>
+		<German>Einheiten-Warnung</German>
+		<Italian>Avviso per le Unit&#224;</Italian>
+		<Spanish>Aviso Unidades</Spanish>
+		<Finnish>Unit Warning</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYHOVERUNITTHRESHOLD_HOVER</Tag>
+		<English>Select the number of turns before a unit will decay at which time the decay information is first displayed.</English>
+		<French>Sélectionne le nombre de tours restants avant la perte d'avance de production, qui va déclencher l'information et l'avertissement pour les unités.</French>
+		<German>Bestimmt die Anzahl der Runden, bevor der Produktionsfortschritt einer produzierten Einheit verfällt und ein gelbes Ausrufezeichen angezeigt wird</German>
+		<Italian>Inserisci il numero di turni prima che una Unit&#224; in coda perda la produzione accumulata mancanti i quali verranno visualizzate per la prima volta le informazioni relative.</Italian>
+		<Spanish>Escoge el n&#250;mero de turnos antes de que una unidad decaiga y se muestre el indicador por primera vez.</Spanish>
+		<Finnish>Select the number of turns before a unit will decay at which time the decay information is first displayed.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYHOVERBUILDINGTHRESHOLD_TEXT</Tag>
+		<English>Building Warning</English>
+		<French>Avertissement Bâtiment</French>
+		<German>Gebäude-Warnung</German>
+		<Italian>Avviso per gli Edifici</Italian>
+		<Spanish>Aviso Edificios</Spanish>
+		<Finnish>Building Warning</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONDECAYHOVERBUILDINGTHRESHOLD_HOVER</Tag>
+		<English>Select the number of turns before a building will decay at which time the decay information is first displayed.</English>
+		<French>Sélectionne le nombre de tours restants avant la perte d'avance de production, qui va déclencher l'information et l'avertissement pour les bâtiments.</French>
+		<German>Bestimmt die Anzahl der Runden, bevor der Produktionsfortschritt eines produzierten Gebäudes verfällt und ein gelbes Ausrufezeichen angezeigt wird</German>
+		<Italian>Inserisci il numero di turni prima che un Edificio in coda perda la produzione accumulata mancanti i quali verranno visualizzate per la prima volta le informazioni relative.</Italian>
+		<Spanish>Escoge el n&#250;mero de turnos antes de que un edificio decaiga y se muestre el indicador por primera vez.</Spanish>
+		<Finnish>Select the number of turns before a building will decay at which time the decay information is first displayed.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONPOPUPTRAINCIVILIANUNITSFOREVER_TEXT</Tag>
+		<English>Train Civilian Units Forever</English>
+		<French>Unités Civiles sans fin</French>
+		<German>Unendliche Einheitenproduktion</German>
+		<Italian>Produzione continua Unit&#224; Civili</Italian>
+		<Spanish>Producir Unidades Civiles de Continuo</Spanish>
+		<Finnish>Train Civilian Units Forever</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONPOPUPTRAINCIVILIANUNITSFOREVER_HOVER</Tag>
+		<English>When checked, selecting a civilian unit in the Choose Production popup sets the city to train that unit repeatedly.</English>
+		<French>Lorsque activé, les unités civiles placées dans la liste de production vont être produites à répétition sans fin.</French>
+		<German>Lässt eine Stadt wiederholt jene Einheit produzieren, die im Stadt-Baumenü ausgewählt wurde</German>
+		<Italian>Quando &#232; selezionato, l'unit&#224; civile scelta nel Popup di Produzione, viene ripetutamente prodotta in quella citt&#224;.</Italian>
+		<Spanish>Cuando se activa, eligiendo una unidad civil en la ventana Elegir Producci&#243;n, pone a la ciudad a producir esa unidad de forma continua.</Spanish>
+		<Finnish>When checked, selecting a civilian unit in the Choose Production popup sets the city to train that unit repeatedly.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONPOPUPTRAINMILITARYUNITSFOREVER_TEXT</Tag>
+		<English>Train Military Units Forever</English>
+		<French>Unités Militaires sans fin</French>
+		<German>Unendliche Einheitenproduktion</German>
+		<Italian>Produzione continua Unit&#224; Militari</Italian>
+		<Spanish>Producir Unidades Militares de Continuo</Spanish>
+		<Finnish>Train Military Units Forever</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONPOPUPTRAINMILITARYUNITSFOREVER_HOVER</Tag>
+		<English>When checked, selecting a military unit in the Choose Production popup sets the city to train that unit repeatedly.</English>
+		<French>Lorsque activé, sles unités militaires placées dans la liste de production vont être produites à répétition sans fin.</French>
+		<German>Lässt eine Stadt wiederholt jene Einheit produzieren, die im Stadt-Baumenü ausgewählt wurde</German>
+		<Italian>Quando &#232; selezionato, l'unit&#224; militare scelta nel Popup di Produzione, viene ripetutamente prodotta in quella citt&#224;.</Italian>
+		<Spanish>Cuando se activa, eligiendo una unidad militar en la ventana Elegir Producci&#243;n, pone a la ciudad a producir esa unidad de forma continua.</Spanish>
+		<Finnish>When checked, selecting a military unit in the Choose Production popup sets the city to train that unit repeatedly.</Finnish>
+	</TEXT>
+</Civ4GameText>

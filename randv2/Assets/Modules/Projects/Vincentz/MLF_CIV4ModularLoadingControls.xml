@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Master Load File -->
+<!-- -->
+<Civ4ModularLoadControls xmlns="x-schema:CIV4ModularLoadingControlsSchema.xml">
+	<DefaultConfiguration>Modules_Vincentz</DefaultConfiguration>
+	<ConfigurationInfos>
+		<ConfigurationInfo>
+			<Type>Modules_Vincentz</Type>
+			<Description>Initialize ALL Modules by using the MLF file structure</Description>
+			<Modules>
+				<Module>
+					<Directory>Corporations</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Guilds</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Silent Hunter</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>SpySat</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Thor</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Improve</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Promo</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>VCivics</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Seaharvest</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+				<Module>
+					<Directory>Icons</Directory>
+					<bLoad>1</bLoad>
+				</Module>
+			</Modules>
+		</ConfigurationInfo>		
+	</ConfigurationInfos>
+</Civ4ModularLoadControls>

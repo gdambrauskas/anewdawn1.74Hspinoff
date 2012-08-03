@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:Hirohito_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_HIROHITO</Type>
+			<Button>Modules/Custom Leaderheads/Hirohito/Hirohito.dds</Button>
+			<NIF>Modules/Custom Leaderheads/Hirohito/napoleon.nif</NIF>
+			<KFM>Modules/Custom Leaderheads/Hirohito/napoleon.kfm</KFM>
+			<NoShaderNIF>Modules/Custom Leaderheads/Hirohito/napoleon_noshader.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom Leaderheads/Hirohito/napoleon_bg.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">	
+	
+<!-- UNIT KEY SECTION -->
+
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT_TEUTONIC</Tag>
+		<English>Teutonic Knight</English>
+		<French>
+			<Text>Teutonic Knight</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Teutonic Knight</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Teutonic Knight</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Teutonic Knight</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARSHALL_TEUTONIC</Tag>
+		<English>Marshall of the Teutons</English>
+		<French>
+			<Text>Marshall of the Teutons</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Marshall of the Teutons</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Marshall of the Teutons</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Marshall of the Teutons</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SERGEANT_TEUTONIC</Tag>
+		<English>Teutonic Sergeant</English>
+		<French>
+			<Text>Teutonic Sergeant</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Teutonic Sergeant</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Teutonic Sergeant</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Teutonic Sergeant</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	
+<!-- STRATEGY SECTION -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT_TEUTONIC_STRATEGY</Tag>
+		<English>Stronger than a the typical Knight, use this Teutonic Knight to easily smash enemies of the Crusade.</English>
+		<French>Stronger than a the typical Knight, use this Teutonic Knight to easily smash enemies of the Crusade.</French>
+		<German>Stronger than a the typical Knight, use this Teutonic Knight to easily smash enemies of the Crusade.</German>
+		<Italian>Stronger than a the typical Knight, use this Teutonic Knight to easily smash enemies of the Crusade.</Italian>
+		<Spanish>Stronger than a the typical Knight, use this Teutonic Knight to easily smash enemies of the Crusade.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARSHALL_TEUTONIC_STRATEGY</Tag>
+		<English>A strong unique unit, the Marshall of the Teutons invokes fear and panic in his enemies.</English>
+		<French>A strong unique unit, the Marshall of the Teutons invokes fear and panic in his enemies.</French>
+		<German>A strong unique unit, the Marshall of the Teutons invokes fear and panic in his enemies.</German>
+		<Italian>A strong unique unit, the Marshall of the Teutons invokes fear and panic in his enemies.</Italian>
+		<Spanish>A strong unique unit, the Marshall of the Teutons invokes fear and panic in his enemies.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SERGEANT_TEUTONIC_STRATEGY</Tag>
+		<English>Unable to don the familiar garb of a full brother in the Order, these Teutonic Sergeants are nonetheless fearsome spearmen.</English>
+		<French>Unable to don the familiar garb of a full brother in the Order, these Teutonic Sergeants are nonetheless fearsome spearmen.</French>
+		<German>Unable to don the familiar garb of a full brother in the Order, these Teutonic Sergeants are nonetheless fearsome spearmen.</German>
+		<Italian>Unable to don the familiar garb of a full brother in the Order, these Teutonic Sergeants are nonetheless fearsome spearmen.</Italian>
+		<Spanish>Unable to don the familiar garb of a full brother in the Order, these Teutonic Sergeants are nonetheless fearsome spearmen.</Spanish>
+	</TEXT>
+	
+<!-- PEDIA SECTION -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT_TEUTONIC_PEDIA</Tag>
+		<English>[TAB]In 1143 Pope Celestine II ordered the Knights Hospitaller to take over management of a German Hospital in Jerusalem, which, according to the chronicler Jean d’Ypres, accommodated the countless German pilgrims and crusaders who could neither speak the local tongue (i.e. French) nor Latin (patrie linguam ignorantibus atque Latinam).[1] However, although formally an institution of the Hospitallers, the pope commanded that the prior and the brothers of the domus Teutonicorum (house of the Germans) should always be Germans themselves, so a tradition of a German-led religious institution could develop during the 12th century in Palestine.[TAB]After the loss of Jerusalem in 1187, some merchants from Lübeck and Bremen took up the idea and founded a field hospital for the duration of the siege of Acre in 1190, which became the nucleus of the order; Celestine III recognized it in 1192 by granting the monks Augustinian Rule. Based on the model of the Knights Templar it was, however, transformed into a military order in 1198 and the head of the order became known as the Grand Master (magister hospitalis). It received Papal orders for crusades to take and hold Jerusalem for Latin Christianity and defend the Holy Land against the Muslim Saracens. During the rule of Grand Master Hermann von Salza (1209-1239) the Order changed from being a hospice brotherhood for pilgrims to primarily a military order.
+
+</English>
+		<French>[TAB]In 1143 Pope Celestine II ordered the Knights Hospitaller to take over management of a German Hospital in Jerusalem, which, according to the chronicler Jean d’Ypres, accommodated the countless German pilgrims and crusaders who could neither speak the local tongue (i.e. French) nor Latin (patrie linguam ignorantibus atque Latinam).[1] However, although formally an institution of the Hospitallers, the pope commanded that the prior and the brothers of the domus Teutonicorum (house of the Germans) should always be Germans themselves, so a tradition of a German-led religious institution could develop during the 12th century in Palestine.[TAB]After the loss of Jerusalem in 1187, some merchants from Lübeck and Bremen took up the idea and founded a field hospital for the duration of the siege of Acre in 1190, which became the nucleus of the order; Celestine III recognized it in 1192 by granting the monks Augustinian Rule. Based on the model of the Knights Templar it was, however, transformed into a military order in 1198 and the head of the order became known as the Grand Master (magister hospitalis). It received Papal orders for crusades to take and hold Jerusalem for Latin Christianity and defend the Holy Land against the Muslim Saracens. During the rule of Grand Master Hermann von Salza (1209-1239) the Order changed from being a hospice brotherhood for pilgrims to primarily a military order.
+
+</French>
+		<German>[TAB]In 1143 Pope Celestine II ordered the Knights Hospitaller to take over management of a German Hospital in Jerusalem, which, according to the chronicler Jean d’Ypres, accommodated the countless German pilgrims and crusaders who could neither speak the local tongue (i.e. French) nor Latin (patrie linguam ignorantibus atque Latinam).[1] However, although formally an institution of the Hospitallers, the pope commanded that the prior and the brothers of the domus Teutonicorum (house of the Germans) should always be Germans themselves, so a tradition of a German-led religious institution could develop during the 12th century in Palestine.[TAB]After the loss of Jerusalem in 1187, some merchants from Lübeck and Bremen took up the idea and founded a field hospital for the duration of the siege of Acre in 1190, which became the nucleus of the order; Celestine III recognized it in 1192 by granting the monks Augustinian Rule. Based on the model of the Knights Templar it was, however, transformed into a military order in 1198 and the head of the order became known as the Grand Master (magister hospitalis). It received Papal orders for crusades to take and hold Jerusalem for Latin Christianity and defend the Holy Land against the Muslim Saracens. During the rule of Grand Master Hermann von Salza (1209-1239) the Order changed from being a hospice brotherhood for pilgrims to primarily a military order.
+
+</German>
+		<Italian>[TAB]In 1143 Pope Celestine II ordered the Knights Hospitaller to take over management of a German Hospital in Jerusalem, which, according to the chronicler Jean d’Ypres, accommodated the countless German pilgrims and crusaders who could neither speak the local tongue (i.e. French) nor Latin (patrie linguam ignorantibus atque Latinam).[1] However, although formally an institution of the Hospitallers, the pope commanded that the prior and the brothers of the domus Teutonicorum (house of the Germans) should always be Germans themselves, so a tradition of a German-led religious institution could develop during the 12th century in Palestine.[TAB]After the loss of Jerusalem in 1187, some merchants from Lübeck and Bremen took up the idea and founded a field hospital for the duration of the siege of Acre in 1190, which became the nucleus of the order; Celestine III recognized it in 1192 by granting the monks Augustinian Rule. Based on the model of the Knights Templar it was, however, transformed into a military order in 1198 and the head of the order became known as the Grand Master (magister hospitalis). It received Papal orders for crusades to take and hold Jerusalem for Latin Christianity and defend the Holy Land against the Muslim Saracens. During the rule of Grand Master Hermann von Salza (1209-1239) the Order changed from being a hospice brotherhood for pilgrims to primarily a military order.
+
+</Italian>
+		<Spanish>[TAB]In 1143 Pope Celestine II ordered the Knights Hospitaller to take over management of a German Hospital in Jerusalem, which, according to the chronicler Jean d’Ypres, accommodated the countless German pilgrims and crusaders who could neither speak the local tongue (i.e. French) nor Latin (patrie linguam ignorantibus atque Latinam).[1] However, although formally an institution of the Hospitallers, the pope commanded that the prior and the brothers of the domus Teutonicorum (house of the Germans) should always be Germans themselves, so a tradition of a German-led religious institution could develop during the 12th century in Palestine.[TAB]After the loss of Jerusalem in 1187, some merchants from Lübeck and Bremen took up the idea and founded a field hospital for the duration of the siege of Acre in 1190, which became the nucleus of the order; Celestine III recognized it in 1192 by granting the monks Augustinian Rule. Based on the model of the Knights Templar it was, however, transformed into a military order in 1198 and the head of the order became known as the Grand Master (magister hospitalis). It received Papal orders for crusades to take and hold Jerusalem for Latin Christianity and defend the Holy Land against the Muslim Saracens. During the rule of Grand Master Hermann von Salza (1209-1239) the Order changed from being a hospice brotherhood for pilgrims to primarily a military order.
+
+</Spanish>
+	</TEXT>
+	
+</Civ4GameText>

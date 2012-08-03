@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+	Unit Naming
+	by Ruff_Hi
+
+	Copyright (c) 2008 The BUG Mod.
+-->
+<mod id="UnitNaming" 
+	 name="Unit Naming" 
+	 author="Ruff_Hi" 
+	 version="1.0" 
+	 date="09/02/2007"
+	 url="http://forums.civfanatics.com/showthread.php?t=241801">
+	 
+	<options id="UnitNaming" file="Unit Naming.ini">
+		<section id="UnitName">
+			<option id="Enabled" key="Enabled" 
+					type="boolean" default="True"/>
+			<option id="UseAdvanced" key="UseAdvanced" 
+					type="boolean" default="False" 
+					get="isAdvanced" set="setAdvanced"/>
+			<option id="Default" key="Default" 
+					type="string" default="^ut^ ^cnt[n][u]^ (^ct^)"/>
+			
+			<option id="Combat_None" key="CombatNone" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_AIR" key="CombatAIR" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_ARCHER" key="CombatARCHER" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_ARMOR" key="CombatARMOR" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_DIESEL_SHIPS" key="CombatDIESEL_SHIPS" 
+					type="string" default="DEFAULT"/>		
+			<option id="Combat_GUN" key="CombatGUN" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_HELICOPTER" key="CombatHELICOPTER" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_MELEE" key="CombatMELEE" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_MOUNTED" key="CombatMOUNTED" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_NUCLEAR_SHIPS" key="CombatNUCLEAR_SHIPS" 
+					type="string" default="DEFAULT"/>	
+			<option id="Combat_RECON" key="CombatRECON" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_SIEGE" key="CombatSIEGE" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_WHEELED" key="CombatWHEELED" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_TRACKED" key="CombatTRACKED" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_STEAM_SHIPS" key="CombatSTEAM_SHIPS" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_WOODEN_SHIPS" key="CombatWOODEN_SHIPS" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_SUBMARINE" key="CombatSUBMARINE" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_EARLY_FIGHTERS" key="CombatEARLY_FIGHTERS" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_EARLY_BOMBERS" key="CombatEARLY_BOMBERS" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_JET_FIGHTERS" key="CombatJET_FIGHTERS" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_BOMBERS" key="CombatBOMBERS" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_SUPERSONIC_PLANES" key="CombatSUPERSONIC_PLANES" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_STEALTH" key="CombatSTEALTH" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_HITECH" key="CombatHITECH" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_ANIMAL" key="CombatANIMAL" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_BIOLOGICAL" key="CombatBIOLOGICAL" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_CLONES" key="CombatCLONES" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_DREADNOUGHT" key="CombatDREADNOUGHT" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_ASSAULT_MECH" key="CombatASSAULT_MECH" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_SPY" key="CombatSPY" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_ROBOT" key="CombatROBOT" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_NANITE" key="CombatNANITE" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_MISSILE" key="CombatMISSILE" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_WORKER" key="CombatWORKER" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_SETTLER" key="CombatSETTLER" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_DOOM" key="CombatDOOM" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_MISSIONARY" key="CombatMISSIONARY" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_COMMANDER" key="CombatCOMMANDER" 
+					type="string" default="DEFAULT"/>
+			<option id="Combat_TRADE" key="CombatTRADE" 
+					type="string" default="DEFAULT"/>
+			<accessor get="getByCombatType" set="setByCombatType" 
+					  args="combatType" id="Combat_%s"/>
+		</section>
+	</options>
+	
+	<options id="AdvUnitNaming" file="Adv Unit Naming.ini">
+		<section id="UnitName">
+			<option id="ByEraAndClass" key="%s_%s" args="era, class" 
+					type="string" default="DEFAULT"/>
+		</section>
+	</options>
+	
+	<events module="UnitNameEventManager">
+		<!--arg type="key" value="Alt Ctrl N"/-->
+	</events>
+	
+</mod>

@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BASKETWEAVER</Tag>
+		<English>Basketweaver's Hut</English>
+		<French>
+			<Text>Hutte du Tresseur de paniers</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Korbmacherh&#252;tte</German>
+		<Italian>Basketweaver's Hut</Italian>
+		<Spanish>Basketweaver's Hut</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BASKETWEAVER_PEDIA</Tag>
+		<English>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</English>
+		<French>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</French>
+		<German>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</German>
+		<Italian>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</Italian>
+		<Spanish>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BASKETWEAVER_STRATEGY</Tag>
+		<English>Minor food bonus with Hemp and minor Gold bonus</English>
+		<French>Bonus mineur de Nourriture avec Chanvre, et Bonus mineur d'Or</French>
+		<German>Kleiner Nahrungsmittelbonus mit Hanf und kleiner Goldbonus.</German>
+		<Italian>Minor food bonus with Hemp and minor Gold bonus</Italian>
+		<Spanish>Minor food bonus with Hemp and minor Gold bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEAVER</Tag>
+		<English>Weaver's Hut</English>
+		<French>
+			<Text>Hutte du Tisserand</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Weberh&#252;tte</German>
+		<Italian>Weaver's Hut</Italian>
+		<Spanish>Weaver's Hut</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEAVER_PEDIA</Tag>
+		<English>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</English>
+		<French>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</French>
+		<German>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</German>
+		<Italian>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</Italian>
+		<Spanish>Weaving, the art of forming a fabric by interlacing at right angles two or more sets of yarn or other material. It is one of the most ancient fundamental arts, as indicated by archaeological evidence. Discoveries in the early 1990s in the Czech Republic point to an origin in the Paleolithic period some 27,000 years ago. Moreover, the earliest literatures often mention the products of the loom. In primitive cultures weaving was practiced mainly by women.[PARAGRAPH:2]Although weaving sprang up independently in different parts of the world and was early known in Europe, its high development there in the Middle Ages was brought about by Eastern influences operating through Muslim and Byzantine channels of culture. Byzantium became a center of silk weaving in the 6th cent. In the 9th cent. Greece, Italy, and Spain became proficient. In Flanders a high degree of skill was attained by the 10th cent., especially in the weaving of wool. Flemish weavers brought to England by William the Conqueror and later by Queen Elizabeth I gave a great impetus to the craft there, and Lancashire became an important center. Tapestry weaving was brought to a high art in France. In colonial America weaving was a household industry allied with agriculture.[PARAGRAPH:2]The 18th-century weaving and spinning inventions marked the transition from the old era of domestic craftsmanship to the tremendous, organized industry of today. The factory system of machine weaving produces quantities of standardized material for mass consumption; the result is a loss of the distinctive elements of quality and design. Some of the finest silks, velvets, table linens, and carpets are still woven on handlooms.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEAVER_STRATEGY</Tag>
+		<English>Makes use of "clothing" resources, providing Commerce</English>
+		<French>Procure une ressource 'Vêtement', fournissant du commerce</French>
+		<German>Erzeugt die Ressource "Kleidung", erzeugt Handel</German>
+		<Italian>Makes use of "clothing" resources, providing Commerce</Italian>
+		<Spanish>Makes use of "clothing" resources, providing Commerce</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POTTER</Tag>
+		<English>Potter's Hut</English>
+		<French>
+			<Text>Hutte du potier</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>T&#246;pferh&#252;tte</German>
+		<Italian>Potter's Hut</Italian>
+		<Spanish>Potter's Hut</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POTTER_PEDIA</Tag>
+		<English>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</English>
+		<French>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</French>
+		<German>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</German>
+		<Italian>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</Italian>
+		<Spanish>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POTTER_STRATEGY</Tag>
+		<English>Provides Pottery</English>
+		<French>Procure la Poterie</French>
+		<German>Erm&#246;glicht T&#246;pferei</German>
+		<Italian>Provides Pottery</Italian>
+		<Spanish>Provides Pottery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BOATYARD</Tag>
+		<English>Boatyard</English>
+		<French>Hangar à Bâteaux</French>
+		<German>Bootslager</German>
+		<Italian>Boatyard</Italian>
+		<Spanish>Boatyard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BOATYARD_PEDIA</Tag>
+		<English>A boatyard is where small watercraft are stored when not in use.</English>
+		<French>Le Hangar à Bâteaux est l'endroit pour les embarcations navales sont stockées lorsqu'elles ne sont pas utilisées.</French>
+		<German>A boatyard is where small watercraft are stored when not in use.</German>
+		<Italian>A boatyard is where small watercraft are stored when not in use.</Italian>
+		<Spanish>A boatyard is where small watercraft are stored when not in use.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BOATYARD_STRATEGY</Tag>
+		<English>Build in cities with Fishing Boats nearby.</English>
+		<French>Construit dans les Villes près de bâteaux de pêche.</French>
+		<German>Build in cities with Fishing Boats nearby.</German>
+		<Italian>Build in cities with Fishing Boats nearby.</Italian>
+		<Spanish>Build in cities with Fishing Boats nearby.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_APIARY</Tag>
+		<English>Apiary</English>
+		<French>Rucher</French>
+		<German>Bienenhaus</German>
+		<Italian>Apiary</Italian>
+		<Spanish>Apiary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_APIARY_PEDIA</Tag>
+		<English>An apiary (also known as a bee yard) is a place where beehives of honey bees are kept. Traditionally beekeepers (also known as apiarists) paid land rent in honey for the use of small parcels. Some farmers will provide free apiary sites, because they need pollination, and farmers who need many hives often pay for them to be moved to the crops when they bloom.</English>
+		<French>An apiary (also known as a bee yard) is a place where beehives of honey bees are kept. Traditionally beekeepers (also known as apiarists) paid land rent in honey for the use of small parcels. Some farmers will provide free apiary sites, because they need pollination, and farmers who need many hives often pay for them to be moved to the crops when they bloom.</French>
+		<German>An apiary (also known as a bee yard) is a place where beehives of honey bees are kept. Traditionally beekeepers (also known as apiarists) paid land rent in honey for the use of small parcels. Some farmers will provide free apiary sites, because they need pollination, and farmers who need many hives often pay for them to be moved to the crops when they bloom.</German>
+		<Italian>An apiary (also known as a bee yard) is a place where beehives of honey bees are kept. Traditionally beekeepers (also known as apiarists) paid land rent in honey for the use of small parcels. Some farmers will provide free apiary sites, because they need pollination, and farmers who need many hives often pay for them to be moved to the crops when they bloom.</Italian>
+		<Spanish>An apiary (also known as a bee yard) is a place where beehives of honey bees are kept. Traditionally beekeepers (also known as apiarists) paid land rent in honey for the use of small parcels. Some farmers will provide free apiary sites, because they need pollination, and farmers who need many hives often pay for them to be moved to the crops when they bloom.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_APIARY_STRATEGY</Tag>
+		<English>Great for growth, providing Food and Commerce</English>
+		<French>Utile pour la croissance, procure Nourriture et Santé. Procure du Miel, qui ajoute Santé et Commerce</French>
+		<German>Great for growth, providing Food and Commerce</German>
+		<Italian>Great for growth, providing Food and Commerce</Italian>
+		<Spanish>Great for growth, providing Food and Commerce</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GRAVEYARD</Tag>
+		<English>Graveyard</English>
+		<French>Cimetière</French>
+		<German>Friedhof</German>
+		<Italian>Graveyard</Italian>
+		<Spanish>Graveyard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GRAVEYARD_PEDIA</Tag>
+		<English>A graveyard is any place set aside for long-term burial of the dead, with or without monuments such as headstones. It is usually located near and administered by a church.  Since the mid-1800s, the term cemetery has become a more popular label for most burying grounds.</English>
+		<French>A graveyard is any place set aside for long-term burial of the dead, with or without monuments such as headstones. It is usually located near and administered by a church.  Since the mid-1800s, the term cemetery has become a more popular label for most burying grounds.</French>
+		<German>A graveyard is any place set aside for long-term burial of the dead, with or without monuments such as headstones. It is usually located near and administered by a church.  Since the mid-1800s, the term cemetery has become a more popular label for most burying grounds.</German>
+		<Italian>A graveyard is any place set aside for long-term burial of the dead, with or without monuments such as headstones. It is usually located near and administered by a church.  Since the mid-1800s, the term cemetery has become a more popular label for most burying grounds.</Italian>
+		<Spanish>A graveyard is any place set aside for long-term burial of the dead, with or without monuments such as headstones. It is usually located near and administered by a church.  Since the mid-1800s, the term cemetery has become a more popular label for most burying grounds.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GRAVEYARD_STRATEGY</Tag>
+		<English>Provides Culture and Happiness, but increased Maintenance.</English>
+		<French>Procure Culture et Bonheur, mais augmente le coût d'entretien de la ville.</French>
+		<German>Provides Culture and Happiness, but increased Maintenance.</German>
+		<Italian>Provides Culture and Happiness, but increased Maintenance.</Italian>
+		<Spanish>Provides Culture and Happiness, but increased Maintenance.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STONEWORKER</Tag>
+		<English>Stoneworker's Hut</English>
+		<French>
+			<Text>Hutte du Tailleur de Pierres</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Steinmetzh&#252;tte</German>
+		<Italian>Stoneworker's Hut</Italian>
+		<Spanish>Stoneworker's Hut</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STONEWORKER_PEDIA</Tag>
+		<English>A stoneworker engages in stonework, which is the art or process of working in stone, as in masonry or jewelry.</English>
+		<French>A stoneworker engages in stonework, which is the art or process of working in stone, as in masonry or jewelry.</French>
+		<German>A stoneworker engages in stonework, which is the art or process of working in stone, as in masonry or jewelry.</German>
+		<Italian>A stoneworker engages in stonework, which is the art or process of working in stone, as in masonry or jewelry.</Italian>
+		<Spanish>A stoneworker engages in stonework, which is the art or process of working in stone, as in masonry or jewelry.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STONEWORKER_STRATEGY</Tag>
+		<English>Production bonus with Resources</English>
+		<French>Bonus de Production avec Ressources</French>
+		<German>Production bonus with Resources</German>
+		<Italian>Production bonus with Resources</Italian>
+		<Spanish>Production bonus with Resources</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCULPTOR</Tag>
+		<English>Sculptor's Workshop</English>
+		<French>Atelier de Sculpteur</French>
+		<German>Bildhauerwerkstatt</German>
+		<Italian>Sculptor's Workshop</Italian>
+		<Spanish>Sculptor's Workshop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCULPTOR_PEDIA</Tag>
+		<English>A sculptor is a person who models or carves figures of clay, stone, metal, wood, or any similar material to create three-dimensional representations.</English>
+		<French>A sculptor is a person who models or carves figures of clay, stone, metal, wood, or any similar material to create three-dimensional representations.</French>
+		<German>A sculptor is a person who models or carves figures of clay, stone, metal, wood, or any similar material to create three-dimensional representations.</German>
+		<Italian>A sculptor is a person who models or carves figures of clay, stone, metal, wood, or any similar material to create three-dimensional representations.</Italian>
+		<Spanish>A sculptor is a person who models or carves figures of clay, stone, metal, wood, or any similar material to create three-dimensional representations.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCULPTOR_STRATEGY</Tag>
+		<English>Provides Gold and Culture.  Allows for an Artist specialist early on.</English>
+		<French>Procure de L'Or et de la Culture.  Permet également très tôt un spécialiste Artiste.</French>
+		<German>Provides Gold and Culture.  Allows for an Artist specialist early on.</German>
+		<Italian>Provides Gold and Culture.  Allows for an Artist specialist early on.</Italian>
+		<Spanish>Provides Gold and Culture.  Allows for an Artist specialist early on.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FIREPIT</Tag>
+		<English>Fire Pit</English>
+		<French>
+			<Text>Fosse de Feu</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Feuergrube</German>
+		<Italian>Fire Pit</Italian>
+		<Spanish>Fire Pit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FIREPIT_PEDIA</Tag>
+		<English>Fire pits have been in existence for a very long time and despite many technological advancements since the advent of man's use of fire, they have remained a popular item because of their versatility. A fire pit can physically vary from a pit dug into the ground to an elaborate gas burning compilation of stone, brick, and metal. The common feature of fire pits is that they are designed to contain a fire and prevent it from spreading.</English>
+		<French>Fire pits have been in existence for a very long time and despite many technological advancements since the advent of man's use of fire, they have remained a popular item because of their versatility. A fire pit can physically vary from a pit dug into the ground to an elaborate gas burning compilation of stone, brick, and metal. The common feature of fire pits is that they are designed to contain a fire and prevent it from spreading.</French>
+		<German>Fire pits have been in existence for a very long time and despite many technological advancements since the advent of man's use of fire, they have remained a popular item because of their versatility. A fire pit can physically vary from a pit dug into the ground to an elaborate gas burning compilation of stone, brick, and metal. The common feature of fire pits is that they are designed to contain a fire and prevent it from spreading.</German>
+		<Italian>Fire pits have been in existence for a very long time and despite many technological advancements since the advent of man's use of fire, they have remained a popular item because of their versatility. A fire pit can physically vary from a pit dug into the ground to an elaborate gas burning compilation of stone, brick, and metal. The common feature of fire pits is that they are designed to contain a fire and prevent it from spreading.</Italian>
+		<Spanish>Fire pits have been in existence for a very long time and despite many technological advancements since the advent of man's use of fire, they have remained a popular item because of their versatility. A fire pit can physically vary from a pit dug into the ground to an elaborate gas burning compilation of stone, brick, and metal. The common feature of fire pits is that they are designed to contain a fire and prevent it from spreading.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FIREPIT_STRATEGY</Tag>
+		<English>Provides an early, but minor, Culture bonus.</English>
+		<French>Procure un léger Bonus de Culture.</French>
+		<German>Provides an early, but minor, Culture bonus.</German>
+		<Italian>Provides an early, but minor, Culture bonus.</Italian>
+		<Spanish>Provides an early, but minor, Culture bonus.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EBGATEHOUSE</Tag>
+		<English>City Gatehouse</English>
+		<French>Corps de Garde</French>
+		<German>St&#228;dtisches Torhaus</German>
+		<Italian>City Gatehouse</Italian>
+		<Spanish>City Gatehouse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EBGATEHOUSE_PEDIA</Tag>
+		<English>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.
+
+Gatehouses made their first appearance in the early Middle Ages when it became necessary to protect the main entrance to a castle or town. Over time, they evolved into very complicated structures with many lines of defense. Strongly fortified gatehouses would normally include a drawbridge, one or more portcullises, machicolations, arrow loops and possibly even murder-holes where stones would be dropped on attackers. In the late Middle Ages, some of these arrow loops might have been converted into gun loops (or gun ports).
+
+Sometimes gatehouses formed part of town fortifications, perhaps defending the passage of a bridge across a river or a moat, as Monnow Bridge in Monmouth. York has four important gatehouses (such as the Micklegate) and known as Bars in its city walls.
+
+The French term for gatehouse is logis-porche. This could be a large, complex structure that served both as a gateway and lodging or it could have been composed of a gateway through an enclosing wall. A very large gatehouse might be called a châtelet (small castle).  At the end of the Middle Ages, many gatehouses in England and France were converted into beautiful, grand entrance structures to manor houses or estates. Many of them became a separate feature free-standing or attached to the manor or mansion only by an enclosing wall. By this time the gatehouse had lost its defensive purpose and had become more of a monumental structure designed to harmonize with the manor or mansion.
+</English>
+		<French>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.
+
+Gatehouses made their first appearance in the early Middle Ages when it became necessary to protect the main entrance to a castle or town. Over time, they evolved into very complicated structures with many lines of defense. Strongly fortified gatehouses would normally include a drawbridge, one or more portcullises, machicolations, arrow loops and possibly even murder-holes where stones would be dropped on attackers. In the late Middle Ages, some of these arrow loops might have been converted into gun loops (or gun ports).
+
+Sometimes gatehouses formed part of town fortifications, perhaps defending the passage of a bridge across a river or a moat, as Monnow Bridge in Monmouth. York has four important gatehouses (such as the Micklegate) and known as Bars in its city walls.
+
+The French term for gatehouse is logis-porche. This could be a large, complex structure that served both as a gateway and lodging or it could have been composed of a gateway through an enclosing wall. A very large gatehouse might be called a châtelet (small castle).  At the end of the Middle Ages, many gatehouses in England and France were converted into beautiful, grand entrance structures to manor houses or estates. Many of them became a separate feature free-standing or attached to the manor or mansion only by an enclosing wall. By this time the gatehouse had lost its defensive purpose and had become more of a monumental structure designed to harmonize with the manor or mansion.
+</French>
+		<German>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.
+
+Gatehouses made their first appearance in the early Middle Ages when it became necessary to protect the main entrance to a castle or town. Over time, they evolved into very complicated structures with many lines of defense. Strongly fortified gatehouses would normally include a drawbridge, one or more portcullises, machicolations, arrow loops and possibly even murder-holes where stones would be dropped on attackers. In the late Middle Ages, some of these arrow loops might have been converted into gun loops (or gun ports).
+
+Sometimes gatehouses formed part of town fortifications, perhaps defending the passage of a bridge across a river or a moat, as Monnow Bridge in Monmouth. York has four important gatehouses (such as the Micklegate) and known as Bars in its city walls.
+
+The French term for gatehouse is logis-porche. This could be a large, complex structure that served both as a gateway and lodging or it could have been composed of a gateway through an enclosing wall. A very large gatehouse might be called a châtelet (small castle).  At the end of the Middle Ages, many gatehouses in England and France were converted into beautiful, grand entrance structures to manor houses or estates. Many of them became a separate feature free-standing or attached to the manor or mansion only by an enclosing wall. By this time the gatehouse had lost its defensive purpose and had become more of a monumental structure designed to harmonize with the manor or mansion.
+</German>
+		<Italian>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.
+
+Gatehouses made their first appearance in the early Middle Ages when it became necessary to protect the main entrance to a castle or town. Over time, they evolved into very complicated structures with many lines of defense. Strongly fortified gatehouses would normally include a drawbridge, one or more portcullises, machicolations, arrow loops and possibly even murder-holes where stones would be dropped on attackers. In the late Middle Ages, some of these arrow loops might have been converted into gun loops (or gun ports).
+
+Sometimes gatehouses formed part of town fortifications, perhaps defending the passage of a bridge across a river or a moat, as Monnow Bridge in Monmouth. York has four important gatehouses (such as the Micklegate) and known as Bars in its city walls.
+
+The French term for gatehouse is logis-porche. This could be a large, complex structure that served both as a gateway and lodging or it could have been composed of a gateway through an enclosing wall. A very large gatehouse might be called a châtelet (small castle).  At the end of the Middle Ages, many gatehouses in England and France were converted into beautiful, grand entrance structures to manor houses or estates. Many of them became a separate feature free-standing or attached to the manor or mansion only by an enclosing wall. By this time the gatehouse had lost its defensive purpose and had become more of a monumental structure designed to harmonize with the manor or mansion.
+</Italian>
+		<Spanish>A gatehouse is a feature of European castles, manor houses and mansions. Originally a gatehouse was a fortified structure built over the gateway to a city or castle. In architectural terminology, a gatehouse is a building, enclosing or accompanying a gateway for a castle, manor house, or similar buildings of importance.
+
+Gatehouses made their first appearance in the early Middle Ages when it became necessary to protect the main entrance to a castle or town. Over time, they evolved into very complicated structures with many lines of defense. Strongly fortified gatehouses would normally include a drawbridge, one or more portcullises, machicolations, arrow loops and possibly even murder-holes where stones would be dropped on attackers. In the late Middle Ages, some of these arrow loops might have been converted into gun loops (or gun ports).
+
+Sometimes gatehouses formed part of town fortifications, perhaps defending the passage of a bridge across a river or a moat, as Monnow Bridge in Monmouth. York has four important gatehouses (such as the Micklegate) and known as Bars in its city walls.
+
+The French term for gatehouse is logis-porche. This could be a large, complex structure that served both as a gateway and lodging or it could have been composed of a gateway through an enclosing wall. A very large gatehouse might be called a châtelet (small castle).  At the end of the Middle Ages, many gatehouses in England and France were converted into beautiful, grand entrance structures to manor houses or estates. Many of them became a separate feature free-standing or attached to the manor or mansion only by an enclosing wall. By this time the gatehouse had lost its defensive purpose and had become more of a monumental structure designed to harmonize with the manor or mansion.
+</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EBGATEHOUSE_STRATEGY</Tag>
+		<English>Increased Defense at the cost of Trade.</English>
+		<French>Augmente la  Défense, mais réduit le Commerce.</French>
+		<German>Increased Defense at the cost of Trade.</German>
+		<Italian>Increased Defense at the cost of Trade.</Italian>
+		<Spanish>Increased Defense at the cost of Trade.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EBCITYGATE</Tag>
+		<English>City Gate</English>
+		<French>
+			<Text>Porte de la Ville</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Stadttor</German>
+		<Italian>City Gate</Italian>
+		<Spanish>City Gate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EBCITYGATE_PEDIA</Tag>
+		<English>City gates were traditionally built to provide a point of controlled access to and departure from a city for people, vehicles, goods and animals. Depending on their historical context they filled functions relating to defense, security, health, trade, taxation, and representation, and were correspondingly staffed by military or municipal authorities. The city gate was also commonly used to display diverse kinds of public information such as announcements, tax and toll schedules, standards of local measures, and legal texts. It could be heavily fortified, ornamented with heraldic shields, sculpture or inscriptions, or used as a location for warning or intimidation, for example by displaying the heads of beheaded criminals or public enemies.</English>
+		<French>City gates were traditionally built to provide a point of controlled access to and departure from a city for people, vehicles, goods and animals. Depending on their historical context they filled functions relating to defense, security, health, trade, taxation, and representation, and were correspondingly staffed by military or municipal authorities. The city gate was also commonly used to display diverse kinds of public information such as announcements, tax and toll schedules, standards of local measures, and legal texts. It could be heavily fortified, ornamented with heraldic shields, sculpture or inscriptions, or used as a location for warning or intimidation, for example by displaying the heads of beheaded criminals or public enemies.</French>
+		<German>City gates were traditionally built to provide a point of controlled access to and departure from a city for people, vehicles, goods and animals. Depending on their historical context they filled functions relating to defense, security, health, trade, taxation, and representation, and were correspondingly staffed by military or municipal authorities. The city gate was also commonly used to display diverse kinds of public information such as announcements, tax and toll schedules, standards of local measures, and legal texts. It could be heavily fortified, ornamented with heraldic shields, sculpture or inscriptions, or used as a location for warning or intimidation, for example by displaying the heads of beheaded criminals or public enemies.</German>
+		<Italian>City gates were traditionally built to provide a point of controlled access to and departure from a city for people, vehicles, goods and animals. Depending on their historical context they filled functions relating to defense, security, health, trade, taxation, and representation, and were correspondingly staffed by military or municipal authorities. The city gate was also commonly used to display diverse kinds of public information such as announcements, tax and toll schedules, standards of local measures, and legal texts. It could be heavily fortified, ornamented with heraldic shields, sculpture or inscriptions, or used as a location for warning or intimidation, for example by displaying the heads of beheaded criminals or public enemies.</Italian>
+		<Spanish>City gates were traditionally built to provide a point of controlled access to and departure from a city for people, vehicles, goods and animals. Depending on their historical context they filled functions relating to defense, security, health, trade, taxation, and representation, and were correspondingly staffed by military or municipal authorities. The city gate was also commonly used to display diverse kinds of public information such as announcements, tax and toll schedules, standards of local measures, and legal texts. It could be heavily fortified, ornamented with heraldic shields, sculpture or inscriptions, or used as a location for warning or intimidation, for example by displaying the heads of beheaded criminals or public enemies.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EBCITYGATE_STRATEGY</Tag>
+		<English>Counters the Trade penalty of the Gatehouse.</English>
+		<French>Compense les pénalité de commerce du Corps de Garde.</French>
+		<German>Counters the Trade penalty of the Gatehouse.</German>
+		<Italian>Counters the Trade penalty of the Gatehouse.</Italian>
+		<Spanish>Counters the Trade penalty of the Gatehouse.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BEADMAKER</Tag>
+		<English>Beadmaker's Hut</English>
+		<French>
+			<Text>Hutte du Perlier</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Glasperlenwerkstatt</German>
+		<Italian>Beadmaker's Hut</Italian>
+		<Spanish>Beadmaker's Hut</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BEADMAKER_PEDIA</Tag>
+		<English>Beadwork is the art or craft of attaching beads to one another or to cloth, usually by the use of a needle and thread or soft, flexible wire. Most beadwork takes the form of jewelry or other personal adornment, but beads are also used in wall hangings and sculpture.  Beadwork techniques are broadly divided into loom and off-loom weaving, stringing, bead embroidery, bead crochet, and bead knitting.  Most cultures have employed beads for personal adornment. Archaeological records show that people made and used beads as long as 5,000 years ago. Beads have also been used for religious purposes, as good luck talismans, and as curative agents.</English>
+		<French>Beadwork is the art or craft of attaching beads to one another or to cloth, usually by the use of a needle and thread or soft, flexible wire. Most beadwork takes the form of jewelry or other personal adornment, but beads are also used in wall hangings and sculpture.  Beadwork techniques are broadly divided into loom and off-loom weaving, stringing, bead embroidery, bead crochet, and bead knitting.  Most cultures have employed beads for personal adornment. Archaeological records show that people made and used beads as long as 5,000 years ago. Beads have also been used for religious purposes, as good luck talismans, and as curative agents.</French>
+		<German>Beadwork is the art or craft of attaching beads to one another or to cloth, usually by the use of a needle and thread or soft, flexible wire. Most beadwork takes the form of jewelry or other personal adornment, but beads are also used in wall hangings and sculpture.  Beadwork techniques are broadly divided into loom and off-loom weaving, stringing, bead embroidery, bead crochet, and bead knitting.  Most cultures have employed beads for personal adornment. Archaeological records show that people made and used beads as long as 5,000 years ago. Beads have also been used for religious purposes, as good luck talismans, and as curative agents.</German>
+		<Italian>Beadwork is the art or craft of attaching beads to one another or to cloth, usually by the use of a needle and thread or soft, flexible wire. Most beadwork takes the form of jewelry or other personal adornment, but beads are also used in wall hangings and sculpture.  Beadwork techniques are broadly divided into loom and off-loom weaving, stringing, bead embroidery, bead crochet, and bead knitting.  Most cultures have employed beads for personal adornment. Archaeological records show that people made and used beads as long as 5,000 years ago. Beads have also been used for religious purposes, as good luck talismans, and as curative agents.</Italian>
+		<Spanish>Beadwork is the art or craft of attaching beads to one another or to cloth, usually by the use of a needle and thread or soft, flexible wire. Most beadwork takes the form of jewelry or other personal adornment, but beads are also used in wall hangings and sculpture.  Beadwork techniques are broadly divided into loom and off-loom weaving, stringing, bead embroidery, bead crochet, and bead knitting.  Most cultures have employed beads for personal adornment. Archaeological records show that people made and used beads as long as 5,000 years ago. Beads have also been used for religious purposes, as good luck talismans, and as curative agents.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BEADMAKER_STRATEGY</Tag>
+		<English>Extra Commerce from nearby resources</English>
+		<French>Bonus de Commerce en fonction des ressources proches</French>
+		<German>Extra Commerce from nearby resources</German>
+		<Italian>Extra Commerce from nearby resources</Italian>
+		<Spanish>Extra Commerce from nearby resources</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RIVER_AUTHORITY</Tag>
+		<English>River Authority</English>
+		<French>
+			<Text>Administration de Rivière</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Wasserwirtschaftsamt</German>
+		<Italian>River Authority</Italian>
+		<Spanish>River Authority</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RIVER_AUTHORITY_STRATEGY</Tag>
+		<English>Construct a River Authority to increase the production and commerce of your waterways. However, It will also increase the maintenance costs associated with operating the city.</English>
+		<French>Construire une Administration de Rivière pour augmenter la production et le commerce de vos axes fluviaux. Cependant, cet établissement augmente le coût d'entretien de la Ville.</French>
+		<German>Construct a River Authority to increase the production and commerce of your waterways. However, It will also increase the maintenance costs associated with operating the city.</German>
+		<Italian>Construct a River Authority to increase the production and commerce of your waterways. However, It will also increase the maintenance costs associated with operating the city.</Italian>
+		<Spanish>Construct a River Authority to increase the production and commerce of your waterways. However, It will also increase the maintenance costs associated with operating the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RIVER_AUTHORITY_PEDIA</Tag>
+		<English>[TAB]The River Authority is a government agency dedicated to management of an area's fresh water supply.  It's duties include managing water supplies, flood management, wastewater utilities, and community and economic development services to rural and suburban communities near fresh water sources. It futher enables a greater police presence on a region's rivers, improving overall commerce and quality of life for the citizens living on it's banks.</English>
+		<French>[TAB]The River Authority is a government agency dedicated to management of an area's fresh water supply.  It's duties include managing water supplies, flood management, wastewater utilities, and community and economic development services to rural and suburban communities near fresh water sources. It futher enables a greater police presence on a region's rivers, improving overall commerce and quality of life for the citizens living on it's banks.</French>
+		<German>[TAB]The River Authority is a government agency dedicated to management of an area's fresh water supply.  It's duties include managing water supplies, flood management, wastewater utilities, and community and economic development services to rural and suburban communities near fresh water sources. It futher enables a greater police presence on a region's rivers, improving overall commerce and quality of life for the citizens living on it's banks.</German>
+		<Italian>[TAB]The River Authority is a government agency dedicated to management of an area's fresh water supply.  It's duties include managing water supplies, flood management, wastewater utilities, and community and economic development services to rural and suburban communities near fresh water sources. It futher enables a greater police presence on a region's rivers, improving overall commerce and quality of life for the citizens living on it's banks.</Italian>
+		<Spanish>[TAB]The River Authority is a government agency dedicated to management of an area's fresh water supply.  It's duties include managing water supplies, flood management, wastewater utilities, and community and economic development services to rural and suburban communities near fresh water sources. It futher enables a greater police presence on a region's rivers, improving overall commerce and quality of life for the citizens living on it's banks.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CANDLEMAKER</Tag>
+		<English>Candlemaker's Shop</English>
+		<French>Atelier du Chandeleur</French>
+		<German>Kerzenmacherwerkstatt</German>
+		<Italian>Candlemaker's Shop</Italian>
+		<Spanish>Candlemaker's Shop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CANDLEMAKER_PEDIA</Tag>
+		<English>Candle making was developed independently in many countries throughout history. The Egyptians produced candles out of beeswax as early as 3000 BC.  The Chinese made candles from whale fat during the Qin Dynasty (221–206 BC). In early China and Japan, tapers were made with wax from insects and seeds, wrapped in paper.  In India, wax from boiling cinnamon was used for temple candles.  During the first century AD, indigenous people of the Pacific Northwest fused oil from the eulachon, or "candlefish", for illumination.  Excavations at Pompeii, Italy, revealed several candelabra.</English>
+		<French>Candle making was developed independently in many countries throughout history. The Egyptians produced candles out of beeswax as early as 3000 BC.  The Chinese made candles from whale fat during the Qin Dynasty (221–206 BC). In early China and Japan, tapers were made with wax from insects and seeds, wrapped in paper.  In India, wax from boiling cinnamon was used for temple candles.  During the first century AD, indigenous people of the Pacific Northwest fused oil from the eulachon, or "candlefish", for illumination.  Excavations at Pompeii, Italy, revealed several candelabra.</French>
+		<German>Candle making was developed independently in many countries throughout history. The Egyptians produced candles out of beeswax as early as 3000 BC.  The Chinese made candles from whale fat during the Qin Dynasty (221–206 BC). In early China and Japan, tapers were made with wax from insects and seeds, wrapped in paper.  In India, wax from boiling cinnamon was used for temple candles.  During the first century AD, indigenous people of the Pacific Northwest fused oil from the eulachon, or "candlefish", for illumination.  Excavations at Pompeii, Italy, revealed several candelabra.</German>
+		<Italian>Candle making was developed independently in many countries throughout history. The Egyptians produced candles out of beeswax as early as 3000 BC.  The Chinese made candles from whale fat during the Qin Dynasty (221–206 BC). In early China and Japan, tapers were made with wax from insects and seeds, wrapped in paper.  In India, wax from boiling cinnamon was used for temple candles.  During the first century AD, indigenous people of the Pacific Northwest fused oil from the eulachon, or "candlefish", for illumination.  Excavations at Pompeii, Italy, revealed several candelabra.</Italian>
+		<Spanish>Candle making was developed independently in many countries throughout history. The Egyptians produced candles out of beeswax as early as 3000 BC.  The Chinese made candles from whale fat during the Qin Dynasty (221–206 BC). In early China and Japan, tapers were made with wax from insects and seeds, wrapped in paper.  In India, wax from boiling cinnamon was used for temple candles.  During the first century AD, indigenous people of the Pacific Northwest fused oil from the eulachon, or "candlefish", for illumination.  Excavations at Pompeii, Italy, revealed several candelabra.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CANDLEMAKER_STRATEGY</Tag>
+		<English>The ability to work at night allows extra Commerce and Production.</English>
+		<French>La possibilité de travailler la nuit permet un bonus en Commerce et Production.</French>
+		<German>The ability to work at night allows extra Commerce and Production.</German>
+		<Italian>The ability to work at night allows extra Commerce and Production.</Italian>
+		<Spanish>The ability to work at night allows extra Commerce and Production.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FISHTRAPS</Tag>
+		<English>Fish Traps</English>
+		<French>
+			<Text>Pièges à Poissons</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Fischreusen</German>
+		<Italian>Fish Traps</Italian>
+		<Spanish>Fish Traps</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FISHTRAPS_PEDIA</Tag>
+		<English>Fish are an important part of diets for many cultures, since fish can be easily salted and dried and are rich in protein.  Fish traps allow fish migrating in rivers or coastal areas to be easily caught.</English>
+		<French>Fish are an important part of diets for many cultures, since fish can be easily salted and dried and are rich in protein.  Fish traps allow fish migrating in rivers or coastal areas to be easily caught.</French>
+		<German>Fish are an important part of diets for many cultures, since fish can be easily salted and dried and are rich in protein.  Fish traps allow fish migrating in rivers or coastal areas to be easily caught.</German>
+		<Italian>Fish are an important part of diets for many cultures, since fish can be easily salted and dried and are rich in protein.  Fish traps allow fish migrating in rivers or coastal areas to be easily caught.</Italian>
+		<Spanish>Fish are an important part of diets for many cultures, since fish can be easily salted and dried and are rich in protein.  Fish traps allow fish migrating in rivers or coastal areas to be easily caught.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FISHTRAPS_STRATEGY</Tag>
+		<English>The ability to catch fish in rivers increases Food</English>
+		<French>La possibilité de piéger des poissons augmente la Nourriture</French>
+		<German>The ability to catch fish in rivers increases Food</German>
+		<Italian>The ability to catch fish in rivers increases Food</Italian>
+		<Spanish>The ability to catch fish in rivers increases Food</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNDIAL</Tag>
+		<English>Timekeeper's Workshop</English>
+		<French>Atelier du gardien du Temps</French>
+		<German>Zeitmesserwerkstatt</German>
+		<Italian>Timekeeper's Workshop</Italian>
+		<Spanish>Timekeeper's Workshop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNDIAL_PEDIA</Tag>
+		<English>For thousands of years, devices have been used to measure and keep track of time. The current sexagesimal system of time measurement dates to approximately 2000 BC, in Sumer. The Ancient Egyptians divided the day into two 12-hour periods, and used large obelisks to track the movement of the Sun. They also developed water clocks, which were probably first used in the Precinct of Amun-Re, and later outside Egypt as well; they were employed frequently by the Ancient Greeks, who called them clepsydrae. The Shang Dynasty is believed to have used the outflow water clock around the same time; the clocks were introduced from Mesopotamia, possibly as early as 2000 BC.  Other ancient timekeeping devices include the candle clock, used in China, Japan, England and Iraq; the timestick, widely used in India and Tibet, as well as some parts of Europe; and the hourglass, which functioned similarly to a water clock.  The earliest clocks relied on shadows cast by the sun, so they were not useful in cloudy weather or at night, and required recalibration as the seasons changed if the gnomon was not aligned with the Earth's axis. The first clock with an escapement mechanism, which transferred rotational energy into intermittent motions, dates back to 3rd century BC ancient Greece, while Arabic engineers invented water clocks driven by gears and weights in the 11th century.</English>
+		<French>For thousands of years, devices have been used to measure and keep track of time. The current sexagesimal system of time measurement dates to approximately 2000 BC, in Sumer. The Ancient Egyptians divided the day into two 12-hour periods, and used large obelisks to track the movement of the Sun. They also developed water clocks, which were probably first used in the Precinct of Amun-Re, and later outside Egypt as well; they were employed frequently by the Ancient Greeks, who called them clepsydrae. The Shang Dynasty is believed to have used the outflow water clock around the same time; the clocks were introduced from Mesopotamia, possibly as early as 2000 BC.  Other ancient timekeeping devices include the candle clock, used in China, Japan, England and Iraq; the timestick, widely used in India and Tibet, as well as some parts of Europe; and the hourglass, which functioned similarly to a water clock.  The earliest clocks relied on shadows cast by the sun, so they were not useful in cloudy weather or at night, and required recalibration as the seasons changed if the gnomon was not aligned with the Earth's axis. The first clock with an escapement mechanism, which transferred rotational energy into intermittent motions, dates back to 3rd century BC ancient Greece, while Arabic engineers invented water clocks driven by gears and weights in the 11th century.</French>
+		<German>For thousands of years, devices have been used to measure and keep track of time. The current sexagesimal system of time measurement dates to approximately 2000 BC, in Sumer. The Ancient Egyptians divided the day into two 12-hour periods, and used large obelisks to track the movement of the Sun. They also developed water clocks, which were probably first used in the Precinct of Amun-Re, and later outside Egypt as well; they were employed frequently by the Ancient Greeks, who called them clepsydrae. The Shang Dynasty is believed to have used the outflow water clock around the same time; the clocks were introduced from Mesopotamia, possibly as early as 2000 BC.  Other ancient timekeeping devices include the candle clock, used in China, Japan, England and Iraq; the timestick, widely used in India and Tibet, as well as some parts of Europe; and the hourglass, which functioned similarly to a water clock.  The earliest clocks relied on shadows cast by the sun, so they were not useful in cloudy weather or at night, and required recalibration as the seasons changed if the gnomon was not aligned with the Earth's axis. The first clock with an escapement mechanism, which transferred rotational energy into intermittent motions, dates back to 3rd century BC ancient Greece, while Arabic engineers invented water clocks driven by gears and weights in the 11th century.</German>
+		<Italian>For thousands of years, devices have been used to measure and keep track of time. The current sexagesimal system of time measurement dates to approximately 2000 BC, in Sumer. The Ancient Egyptians divided the day into two 12-hour periods, and used large obelisks to track the movement of the Sun. They also developed water clocks, which were probably first used in the Precinct of Amun-Re, and later outside Egypt as well; they were employed frequently by the Ancient Greeks, who called them clepsydrae. The Shang Dynasty is believed to have used the outflow water clock around the same time; the clocks were introduced from Mesopotamia, possibly as early as 2000 BC.  Other ancient timekeeping devices include the candle clock, used in China, Japan, England and Iraq; the timestick, widely used in India and Tibet, as well as some parts of Europe; and the hourglass, which functioned similarly to a water clock.  The earliest clocks relied on shadows cast by the sun, so they were not useful in cloudy weather or at night, and required recalibration as the seasons changed if the gnomon was not aligned with the Earth's axis. The first clock with an escapement mechanism, which transferred rotational energy into intermittent motions, dates back to 3rd century BC ancient Greece, while Arabic engineers invented water clocks driven by gears and weights in the 11th century.</Italian>
+		<Spanish>For thousands of years, devices have been used to measure and keep track of time. The current sexagesimal system of time measurement dates to approximately 2000 BC, in Sumer. The Ancient Egyptians divided the day into two 12-hour periods, and used large obelisks to track the movement of the Sun. They also developed water clocks, which were probably first used in the Precinct of Amun-Re, and later outside Egypt as well; they were employed frequently by the Ancient Greeks, who called them clepsydrae. The Shang Dynasty is believed to have used the outflow water clock around the same time; the clocks were introduced from Mesopotamia, possibly as early as 2000 BC.  Other ancient timekeeping devices include the candle clock, used in China, Japan, England and Iraq; the timestick, widely used in India and Tibet, as well as some parts of Europe; and the hourglass, which functioned similarly to a water clock.  The earliest clocks relied on shadows cast by the sun, so they were not useful in cloudy weather or at night, and required recalibration as the seasons changed if the gnomon was not aligned with the Earth's axis. The first clock with an escapement mechanism, which transferred rotational energy into intermittent motions, dates back to 3rd century BC ancient Greece, while Arabic engineers invented water clocks driven by gears and weights in the 11th century.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUNDIAL_STRATEGY</Tag>
+		<English>The ability to track daylight and tell time increases Commerce and Production.</English>
+		<French>La possibilité de suivre le cycle du jour et d'indiquer le temps augmente Commerce et Production.</French>
+		<German>The ability to track daylight and tell time increases Commerce and Production.</German>
+		<Italian>The ability to track daylight and tell time increases Commerce and Production.</Italian>
+		<Spanish>The ability to track daylight and tell time increases Commerce and Production.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWNWATCH</Tag>
+		<English>Town Watch</English>
+		<French>
+			<Text>Patrouille de Ville</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Stadtwache</German>
+		<Italian>Town Watch</Italian>
+		<Spanish>Town Watch</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWNWATCH_PEDIA</Tag>
+		<English>As communities grew, they had more to defend and more resources with which to defend.  The town watch grew into a town patrol usually provided by the local lord as part of his responsibility for the community's protection.  Town patrols ranged far from the community to crossing points or passes where enemies might appear.  Longer ranged patrols meant earlier warnings and more time for preparation against attack.</English>
+		<French>As communities grew, they had more to defend and more resources with which to defend.  The town watch grew into a town patrol usually provided by the local lord as part of his responsibility for the community's protection.  Town patrols ranged far from the community to crossing points or passes where enemies might appear.  Longer ranged patrols meant earlier warnings and more time for preparation against attack.</French>
+		<German>As communities grew, they had more to defend and more resources with which to defend.  The town watch grew into a town patrol usually provided by the local lord as part of his responsibility for the community's protection.  Town patrols ranged far from the community to crossing points or passes where enemies might appear.  Longer ranged patrols meant earlier warnings and more time for preparation against attack.</German>
+		<Italian>As communities grew, they had more to defend and more resources with which to defend.  The town watch grew into a town patrol usually provided by the local lord as part of his responsibility for the community's protection.  Town patrols ranged far from the community to crossing points or passes where enemies might appear.  Longer ranged patrols meant earlier warnings and more time for preparation against attack.</Italian>
+		<Spanish>As communities grew, they had more to defend and more resources with which to defend.  The town watch grew into a town patrol usually provided by the local lord as part of his responsibility for the community's protection.  Town patrols ranged far from the community to crossing points or passes where enemies might appear.  Longer ranged patrols meant earlier warnings and more time for preparation against attack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWNWATCH_STRATEGY</Tag>
+		<English>Who knew that keeping watch for intruders could keep out spies?</English>
+		<French>Qui sait que de constament surveiller les envahisseurs peut garder les espions à l'écart?</French>
+		<German>Who knew that keeping watch for intruders could keep out spies?</German>
+		<Italian>Who knew that keeping watch for intruders could keep out spies?</Italian>
+		<Spanish>Who knew that keeping watch for intruders could keep out spies?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TREADMILL_CRANE</Tag>
+		<English>Treadmill Crane</English>
+		<French>
+			<Text>Cage à Ecureuil</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Tretm&#252;hlenkran</German>
+		<Italian>Treadmill Crane</Italian>
+		<Spanish>Treadmill Crane</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TREADMILL_CRANE_PEDIA</Tag>
+		<English>A treadwheel crane (magna rola) is a wooden, human powered, hoisting and lowering device. It was primarily used during Roman times and the Middle Ages in the building of castles and cathedrals. The often heavy charge is lifted as the individual inside the treadwheel crane walks. The rope attached to a pulley is turned onto a spindle by the rotation of the wheel thus allowing the device to hoist or lower the affixed pallet.</English>
+		<French>A treadwheel crane (magna rola) is a wooden, human powered, hoisting and lowering device. It was primarily used during Roman times and the Middle Ages in the building of castles and cathedrals. The often heavy charge is lifted as the individual inside the treadwheel crane walks. The rope attached to a pulley is turned onto a spindle by the rotation of the wheel thus allowing the device to hoist or lower the affixed pallet.</French>
+		<German>A treadwheel crane (magna rola) is a wooden, human powered, hoisting and lowering device. It was primarily used during Roman times and the Middle Ages in the building of castles and cathedrals. The often heavy charge is lifted as the individual inside the treadwheel crane walks. The rope attached to a pulley is turned onto a spindle by the rotation of the wheel thus allowing the device to hoist or lower the affixed pallet.</German>
+		<Italian>A treadwheel crane (magna rola) is a wooden, human powered, hoisting and lowering device. It was primarily used during Roman times and the Middle Ages in the building of castles and cathedrals. The often heavy charge is lifted as the individual inside the treadwheel crane walks. The rope attached to a pulley is turned onto a spindle by the rotation of the wheel thus allowing the device to hoist or lower the affixed pallet.</Italian>
+		<Spanish>A treadwheel crane (magna rola) is a wooden, human powered, hoisting and lowering device. It was primarily used during Roman times and the Middle Ages in the building of castles and cathedrals. The often heavy charge is lifted as the individual inside the treadwheel crane walks. The rope attached to a pulley is turned onto a spindle by the rotation of the wheel thus allowing the device to hoist or lower the affixed pallet.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TREADMILL_CRANE_STRATEGY</Tag>
+		<English>Increases Production for Buildings.</English>
+		<French>Augmente la vitesse de Construction des Bâtiments.</French>
+		<German>Increases Production for Buildings.</German>
+		<Italian>Increases Production for Buildings.</Italian>
+		<Spanish>Increases Production for Buildings.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONSTRUCTION_FIRM</Tag>
+		<English>Construction Firm</English>
+		<French>
+			<Text>Entreprise de Construction</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Bauunternehmer</German>
+		<Italian>Construction Firm</Italian>
+		<Spanish>Construction Firm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONSTRUCTION_FIRM_PEDIA</Tag>
+		<English>In the fields of architecture and civil engineering, construction is a process that consists of the building or assembling of infrastructure. Far from being a single activity, large scale construction is a feat of multitasking. Normally the job is managed by the project manager and supervised by the construction manager, design engineer, construction engineer or project architect.  For the successful execution of a project, effective planning is essential. Those involved with the design and execution of the infrastructure in question must consider the environmental impact of the job, the successful scheduling, budgeting, site safety, availability of materials, logistics, inconvenience to the public caused by construction delays, preparing tender documents, etc.</English>
+		<French>In the fields of architecture and civil engineering, construction is a process that consists of the building or assembling of infrastructure. Far from being a single activity, large scale construction is a feat of multitasking. Normally the job is managed by the project manager and supervised by the construction manager, design engineer, construction engineer or project architect.  For the successful execution of a project, effective planning is essential. Those involved with the design and execution of the infrastructure in question must consider the environmental impact of the job, the successful scheduling, budgeting, site safety, availability of materials, logistics, inconvenience to the public caused by construction delays, preparing tender documents, etc.</French>
+		<German>In the fields of architecture and civil engineering, construction is a process that consists of the building or assembling of infrastructure. Far from being a single activity, large scale construction is a feat of multitasking. Normally the job is managed by the project manager and supervised by the construction manager, design engineer, construction engineer or project architect.  For the successful execution of a project, effective planning is essential. Those involved with the design and execution of the infrastructure in question must consider the environmental impact of the job, the successful scheduling, budgeting, site safety, availability of materials, logistics, inconvenience to the public caused by construction delays, preparing tender documents, etc.</German>
+		<Italian>In the fields of architecture and civil engineering, construction is a process that consists of the building or assembling of infrastructure. Far from being a single activity, large scale construction is a feat of multitasking. Normally the job is managed by the project manager and supervised by the construction manager, design engineer, construction engineer or project architect.  For the successful execution of a project, effective planning is essential. Those involved with the design and execution of the infrastructure in question must consider the environmental impact of the job, the successful scheduling, budgeting, site safety, availability of materials, logistics, inconvenience to the public caused by construction delays, preparing tender documents, etc.</Italian>
+		<Spanish>In the fields of architecture and civil engineering, construction is a process that consists of the building or assembling of infrastructure. Far from being a single activity, large scale construction is a feat of multitasking. Normally the job is managed by the project manager and supervised by the construction manager, design engineer, construction engineer or project architect.  For the successful execution of a project, effective planning is essential. Those involved with the design and execution of the infrastructure in question must consider the environmental impact of the job, the successful scheduling, budgeting, site safety, availability of materials, logistics, inconvenience to the public caused by construction delays, preparing tender documents, etc.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONSTRUCTION_FIRM_STRATEGY</Tag>
+		<English>Increases Production for Buildings.</English>
+		<French>Augmente la vitesse de Construction des Bâtiments.</French>
+		<German>Increases Production for Buildings.</German>
+		<Italian>Increases Production for Buildings.</Italian>
+		<Spanish>Increases Production for Buildings.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FURRIER</Tag>
+		<English>Furrier</English>
+		<French>Fourreur</French>
+		<German>K&#252;rschner</German>
+		<Italian>Furrier</Italian>
+		<Spanish>Furrier</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FURRIER_PEDIA</Tag>
+		<English>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</English>
+		<French>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</French>
+		<German>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</German>
+		<Italian>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</Italian>
+		<Spanish>Originally, Russia exported a majority in raw furs of the pelts of martens, beavers, wolves, foxes, squirrels and hares. Between the 16th and 18th centuries, Russians tamed Siberia, a region rich in many mammal species, such as Arctic fox, lynx, sable, sea otter and stoat (ermine). In the search for the prized sea otter (pelts first used in China), and, later the northern fur seal, the Russian Empire expanded into North America, notably Alaska. Between the 17th and second half of the 19th century, Russia was the largest supplier of fur in the world. The fur trade played a vital role in the development of Siberia, the Russian Far East and the Russian colonization of the Americas. To this day sable is a regional symbol of Ural Sverdlovsk oblast and Siberian Novosibirsk, Tyumen and Irkutsk oblasts of Russia.  The European discovery of North America, with its vast forests and wild-life, particularly the beaver, led to the continent's becoming a major supplier in the 17th century of fur pelts for the fur-felt hat and fur trimming and garment trades of Europe. Fur was a major source of warmth in clothing, critical prior to the organisation of coal distribution.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FURRIER_STRATEGY</Tag>
+		<English>Adds gold and commerce with Fur; Resource requirement.</English>
+		<French>Ajoute de l'Or et du commerce avec la ressource Fourrure (nécessaire)</French>
+		<German>Adds gold and commerce with Fur; Resource requirement.</German>
+		<Italian>Adds gold and commerce with Fur; Resource requirement.</Italian>
+		<Spanish>Adds gold and commerce with Fur; Resource requirement.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ELDER_COUNCIL</Tag>
+		<English>Elder Council</English>
+		<French>Conseil des Anciens</French>
+		<German>&#196;ltestenrat</German>
+		<Italian>Elder Council</Italian>
+		<Spanish>Elder Council</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ELDER_COUNCIL_PEDIA</Tag>
+		<English>Oral tradition, oral culture and oral lore are messages or testimony transmitted orally from one generation to another.  The messages or testimony are verbally transmitted in speech or song and may take the form, for example, of folktales, sayings, ballads, songs, or chants. In this way, it is possible for a society to transmit oral history, oral literature, oral law and other knowledges across generations without a writing system.</English>
+		<French>Oral tradition, oral culture and oral lore are messages or testimony transmitted orally from one generation to another.  The messages or testimony are verbally transmitted in speech or song and may take the form, for example, of folktales, sayings, ballads, songs, or chants. In this way, it is possible for a society to transmit oral history, oral literature, oral law and other knowledges across generations without a writing system.</French>
+		<German>Oral tradition, oral culture and oral lore are messages or testimony transmitted orally from one generation to another.  The messages or testimony are verbally transmitted in speech or song and may take the form, for example, of folktales, sayings, ballads, songs, or chants. In this way, it is possible for a society to transmit oral history, oral literature, oral law and other knowledges across generations without a writing system.</German>
+		<Italian>Oral tradition, oral culture and oral lore are messages or testimony transmitted orally from one generation to another.  The messages or testimony are verbally transmitted in speech or song and may take the form, for example, of folktales, sayings, ballads, songs, or chants. In this way, it is possible for a society to transmit oral history, oral literature, oral law and other knowledges across generations without a writing system.</Italian>
+		<Spanish>Oral tradition, oral culture and oral lore are messages or testimony transmitted orally from one generation to another.  The messages or testimony are verbally transmitted in speech or song and may take the form, for example, of folktales, sayings, ballads, songs, or chants. In this way, it is possible for a society to transmit oral history, oral literature, oral law and other knowledges across generations without a writing system.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ELDER_COUNCIL_STRATEGY</Tag>
+		<English>Early science building.</English>
+		<French>Bâtiment Primitif de Science</French>
+		<German>Early science building.</German>
+		<Italian>Early science building.</Italian>
+		<Spanish>Early science building.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WHEELWRIGHT</Tag>
+		<English>Wheelwright</English>
+		<French>Charron</French>
+		<German>Stellmacher</German>
+		<Italian>Wheelwright</Italian>
+		<Spanish>Wheelwright</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WHEELWRIGHT_PEDIA</Tag>
+		<English>Historically, these tradesmen made wheels for carts and wagons by first constructing the hub, the spokes and the rim/fellows segments and assembling them all into a unit working from the center of the wheel outwards. Most wheels were made from wood but other materials have been used, such as bone and horn, for decorative or other purposes. Around the middle of the 19th century iron strakes were replaced by a solid iron tire custom made by a blacksmith who first measured each wheel to ensure proper fit. Strakes were lengths of iron that were nailed to the outside of wheels to hold wooden wheels together. Strakes were replaced around the mid-1800s by more dependable iron tires that were fastened to the wooden wheel by both the tight fit of the tire/band as well as tire-bolts. Tire-bolts were less likely than tire-nails to break off because they were flush with the wheel's outer surface. During the second half of the 19th century the use of pre-manufactured iron hubs, and other factory-made wood, iron and rubber wheel parts became increasingly common.</English>
+		<French>Historically, these tradesmen made wheels for carts and wagons by first constructing the hub, the spokes and the rim/fellows segments and assembling them all into a unit working from the center of the wheel outwards. Most wheels were made from wood but other materials have been used, such as bone and horn, for decorative or other purposes. Around the middle of the 19th century iron strakes were replaced by a solid iron tire custom made by a blacksmith who first measured each wheel to ensure proper fit. Strakes were lengths of iron that were nailed to the outside of wheels to hold wooden wheels together. Strakes were replaced around the mid-1800s by more dependable iron tires that were fastened to the wooden wheel by both the tight fit of the tire/band as well as tire-bolts. Tire-bolts were less likely than tire-nails to break off because they were flush with the wheel's outer surface. During the second half of the 19th century the use of pre-manufactured iron hubs, and other factory-made wood, iron and rubber wheel parts became increasingly common.</French>
+		<German>Historically, these tradesmen made wheels for carts and wagons by first constructing the hub, the spokes and the rim/fellows segments and assembling them all into a unit working from the center of the wheel outwards. Most wheels were made from wood but other materials have been used, such as bone and horn, for decorative or other purposes. Around the middle of the 19th century iron strakes were replaced by a solid iron tire custom made by a blacksmith who first measured each wheel to ensure proper fit. Strakes were lengths of iron that were nailed to the outside of wheels to hold wooden wheels together. Strakes were replaced around the mid-1800s by more dependable iron tires that were fastened to the wooden wheel by both the tight fit of the tire/band as well as tire-bolts. Tire-bolts were less likely than tire-nails to break off because they were flush with the wheel's outer surface. During the second half of the 19th century the use of pre-manufactured iron hubs, and other factory-made wood, iron and rubber wheel parts became increasingly common.</German>
+		<Italian>Historically, these tradesmen made wheels for carts and wagons by first constructing the hub, the spokes and the rim/fellows segments and assembling them all into a unit working from the center of the wheel outwards. Most wheels were made from wood but other materials have been used, such as bone and horn, for decorative or other purposes. Around the middle of the 19th century iron strakes were replaced by a solid iron tire custom made by a blacksmith who first measured each wheel to ensure proper fit. Strakes were lengths of iron that were nailed to the outside of wheels to hold wooden wheels together. Strakes were replaced around the mid-1800s by more dependable iron tires that were fastened to the wooden wheel by both the tight fit of the tire/band as well as tire-bolts. Tire-bolts were less likely than tire-nails to break off because they were flush with the wheel's outer surface. During the second half of the 19th century the use of pre-manufactured iron hubs, and other factory-made wood, iron and rubber wheel parts became increasingly common.</Italian>
+		<Spanish>Historically, these tradesmen made wheels for carts and wagons by first constructing the hub, the spokes and the rim/fellows segments and assembling them all into a unit working from the center of the wheel outwards. Most wheels were made from wood but other materials have been used, such as bone and horn, for decorative or other purposes. Around the middle of the 19th century iron strakes were replaced by a solid iron tire custom made by a blacksmith who first measured each wheel to ensure proper fit. Strakes were lengths of iron that were nailed to the outside of wheels to hold wooden wheels together. Strakes were replaced around the mid-1800s by more dependable iron tires that were fastened to the wooden wheel by both the tight fit of the tire/band as well as tire-bolts. Tire-bolts were less likely than tire-nails to break off because they were flush with the wheel's outer surface. During the second half of the 19th century the use of pre-manufactured iron hubs, and other factory-made wood, iron and rubber wheel parts became increasingly common.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WHEELWRIGHT_STRATEGY</Tag>
+		<English>Increases trade and Commerce</English>
+		<French>Augmente les échanges et le Commerce</French>
+		<German>Increases trade and Commerce</German>
+		<Italian>Increases trade and Commerce</Italian>
+		<Spanish>Increases trade and Commerce</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STORAGE_PIT</Tag>
+		<English>Storage Pit</English>
+		<French>
+			<Text>Fosse de Stockage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Lagergrube</German>
+		<Italian>Storage Pit</Italian>
+		<Spanish>Storage Pit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STORAGE_PIT_PEDIA</Tag>
+		<English>Burial of food can preserve it due to a variety of factors: lack of light, lack of oxygen, cool temperatures, pH level, or desiccants in the soil. Burial may be combined with other methods such as salting or fermentation.</English>
+		<French>Burial of food can preserve it due to a variety of factors: lack of light, lack of oxygen, cool temperatures, pH level, or desiccants in the soil. Burial may be combined with other methods such as salting or fermentation.</French>
+		<German>Burial of food can preserve it due to a variety of factors: lack of light, lack of oxygen, cool temperatures, pH level, or desiccants in the soil. Burial may be combined with other methods such as salting or fermentation.</German>
+		<Italian>Burial of food can preserve it due to a variety of factors: lack of light, lack of oxygen, cool temperatures, pH level, or desiccants in the soil. Burial may be combined with other methods such as salting or fermentation.</Italian>
+		<Spanish>Burial of food can preserve it due to a variety of factors: lack of light, lack of oxygen, cool temperatures, pH level, or desiccants in the soil. Burial may be combined with other methods such as salting or fermentation.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STORAGE_PIT_STRATEGY</Tag>
+		<English>Stores Food before Granary.</English>
+		<French>Conserve la Nourriture avant le Grenier.</French>
+		<German>Stores Food before Granary.</German>
+		<Italian>Stores Food before Granary.</Italian>
+		<Spanish>Stores Food before Granary.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAILOR_SHOP</Tag>
+		<English>Tailor Shop</English>
+		<French>Atelier du Tailleur</French>
+		<German>Schneidergesch&#228;ft</German>
+		<Italian>Tailor Shop</Italian>
+		<Spanish>Tailor Shop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAILOR_SHOP_PEDIA</Tag>
+		<English>A tailor is a person who makes, repairs, or alters clothing professionally, especially suits and men's clothing.  Although the term dates to the thirteenth century, tailor took on its modern sense in the late eighteenth century, and now refers to makers of men's and women's suits, coats, trousers, and similar garments, usually of wool, linen, or silk.</English>
+		<French>A tailor is a person who makes, repairs, or alters clothing professionally, especially suits and men's clothing.  Although the term dates to the thirteenth century, tailor took on its modern sense in the late eighteenth century, and now refers to makers of men's and women's suits, coats, trousers, and similar garments, usually of wool, linen, or silk.</French>
+		<German>A tailor is a person who makes, repairs, or alters clothing professionally, especially suits and men's clothing.  Although the term dates to the thirteenth century, tailor took on its modern sense in the late eighteenth century, and now refers to makers of men's and women's suits, coats, trousers, and similar garments, usually of wool, linen, or silk.</German>
+		<Italian>A tailor is a person who makes, repairs, or alters clothing professionally, especially suits and men's clothing.  Although the term dates to the thirteenth century, tailor took on its modern sense in the late eighteenth century, and now refers to makers of men's and women's suits, coats, trousers, and similar garments, usually of wool, linen, or silk.</Italian>
+		<Spanish>A tailor is a person who makes, repairs, or alters clothing professionally, especially suits and men's clothing.  Although the term dates to the thirteenth century, tailor took on its modern sense in the late eighteenth century, and now refers to makers of men's and women's suits, coats, trousers, and similar garments, usually of wool, linen, or silk.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAILOR_SHOP_STRATEGY</Tag>
+		<English>Makes use of "clothing" resources, providing Commerce and Happiness</English>
+		<French>Procure une ressource 'Vêtement', fournissant commerce et bonheur</French>
+		<German>Makes use of "clothing" resources, providing Commerce and Happiness</German>
+		<Italian>Makes use of "clothing" resources, providing Commerce and Happiness</Italian>
+		<Spanish>Makes use of "clothing" resources, providing Commerce and Happiness</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MARINA</Tag>
+		<English>Marina</English>
+		<French>
+			<Text>Marina</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Marina</German>
+		<Italian>Marina</Italian>
+		<Spanish>Marina</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MARINA_PEDIA</Tag>
+		<English>A marina is a sheltered harbor where boats and yachts are kept in the water and where services geared to the needs of recreational boating are found.  The marina may have re-fueling, washing and repair facilities, ship chandlers, stores and restaurants. Slipways are used to get a trailered boat into the water. Marinas may offer a boat hoist well, a type of traveling crane, instead of a more space-wasteful slipway, operated by service center personnel. Marinas may offer out-of-water-storage, which is useful out of season and important in latitudes susceptible to freezing waters. Marinas may include ground facilities such as parking lots for vehicles and boat trailers.</English>
+		<French>A marina is a sheltered harbor where boats and yachts are kept in the water and where services geared to the needs of recreational boating are found.  The marina may have re-fueling, washing and repair facilities, ship chandlers, stores and restaurants. Slipways are used to get a trailered boat into the water. Marinas may offer a boat hoist well, a type of traveling crane, instead of a more space-wasteful slipway, operated by service center personnel. Marinas may offer out-of-water-storage, which is useful out of season and important in latitudes susceptible to freezing waters. Marinas may include ground facilities such as parking lots for vehicles and boat trailers.</French>
+		<German>A marina is a sheltered harbor where boats and yachts are kept in the water and where services geared to the needs of recreational boating are found.  The marina may have re-fueling, washing and repair facilities, ship chandlers, stores and restaurants. Slipways are used to get a trailered boat into the water. Marinas may offer a boat hoist well, a type of traveling crane, instead of a more space-wasteful slipway, operated by service center personnel. Marinas may offer out-of-water-storage, which is useful out of season and important in latitudes susceptible to freezing waters. Marinas may include ground facilities such as parking lots for vehicles and boat trailers.</German>
+		<Italian>A marina is a sheltered harbor where boats and yachts are kept in the water and where services geared to the needs of recreational boating are found.  The marina may have re-fueling, washing and repair facilities, ship chandlers, stores and restaurants. Slipways are used to get a trailered boat into the water. Marinas may offer a boat hoist well, a type of traveling crane, instead of a more space-wasteful slipway, operated by service center personnel. Marinas may offer out-of-water-storage, which is useful out of season and important in latitudes susceptible to freezing waters. Marinas may include ground facilities such as parking lots for vehicles and boat trailers.</Italian>
+		<Spanish>A marina is a sheltered harbor where boats and yachts are kept in the water and where services geared to the needs of recreational boating are found.  The marina may have re-fueling, washing and repair facilities, ship chandlers, stores and restaurants. Slipways are used to get a trailered boat into the water. Marinas may offer a boat hoist well, a type of traveling crane, instead of a more space-wasteful slipway, operated by service center personnel. Marinas may offer out-of-water-storage, which is useful out of season and important in latitudes susceptible to freezing waters. Marinas may include ground facilities such as parking lots for vehicles and boat trailers.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MARINA_STRATEGY</Tag>
+		<English>Upgrade to Boatyard.</English>
+		<French>Amélioration du Hangar à Bâteaux</French>
+		<German>Wird zur Bootswerft modernisiert.</German>
+		<Italian>Upgrade to Boatyard.</Italian>
+		<Spanish>Upgrade to Boatyard.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POACHER_CAMP</Tag>
+		<English>Poacher's Camp</English>
+		<French>Camp du Braconnier</French>
+		<German>Wildererlager</German>
+		<Italian>Poacher's Camp</Italian>
+		<Spanish>Poacher's Camp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POACHER_CAMP_PEDIA</Tag>
+		<English>Poaching is the illegal hunting, fishing, trapping, or eating of wild plants or animals contrary to local and international conservation and wildlife management laws. Violations of hunting laws and regulations are normally punishable by law and, collectively, such violations are known as poaching.</English>
+		<French>Poaching is the illegal hunting, fishing, trapping, or eating of wild plants or animals contrary to local and international conservation and wildlife management laws. Violations of hunting laws and regulations are normally punishable by law and, collectively, such violations are known as poaching.</French>
+		<German>Poaching is the illegal hunting, fishing, trapping, or eating of wild plants or animals contrary to local and international conservation and wildlife management laws. Violations of hunting laws and regulations are normally punishable by law and, collectively, such violations are known as poaching.</German>
+		<Italian>Poaching is the illegal hunting, fishing, trapping, or eating of wild plants or animals contrary to local and international conservation and wildlife management laws. Violations of hunting laws and regulations are normally punishable by law and, collectively, such violations are known as poaching.</Italian>
+		<Spanish>Poaching is the illegal hunting, fishing, trapping, or eating of wild plants or animals contrary to local and international conservation and wildlife management laws. Violations of hunting laws and regulations are normally punishable by law and, collectively, such violations are known as poaching.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POACHER_CAMP_STRATEGY</Tag>
+		<English>Illegal hunting results in more Gold, Food, and instability.</English>
+		<French>Le Braconnage Illégal a comme résultats plus d'Or, de Nourriture, mais également d'instabilité.</French>
+		<German>Illegal hunting results in more Gold, Food, and instability.</German>
+		<Italian>Illegal hunting results in more Gold, Food, and instability.</Italian>
+		<Spanish>Illegal hunting results in more Gold, Food, and instability.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAMBLING_HALL</Tag>
+		<English>Gambling Hall</English>
+		<French>Hall de Jeux</French>
+		<German>Gl&#252;cksspielsaal</German>
+		<Italian>Gambling Hall</Italian>
+		<Spanish>Gambling Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAMBLING_HALL_PEDIA</Tag>
+		<English>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</English>
+		<French>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</French>
+		<German>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</German>
+		<Italian>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</Italian>
+		<Spanish>Gambling is the wagering of money or something of material value on an event with an uncertain outcome with the primary intent of winning additional money and/or material goods. Typically, the outcome of the wager is evident within a short period.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAMBLING_HALL_STRATEGY</Tag>
+		<English>Cheap gold building, but angers citizens</English>
+		<French>Bâtiment générant de l'Or, mais rend certains citoyens mécontents</French>
+		<German>Cheap gold building, but angers citizens</German>
+		<Italian>Cheap gold building, but angers citizens</Italian>
+		<Spanish>Cheap gold building, but angers citizens</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAX_OFFICE</Tag>
+		<English>Tax Office</English>
+		<French>Bureau de Taxes</French>
+		<German>Steuerb&#252;ro</German>
+		<Italian>Tax Office</Italian>
+		<Spanish>Tax Office</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAX_OFFICE_PEDIA</Tag>
+		<English>To tax is to impose a financial charge or other levy upon a taxpayer (an individual or legal entity) by a state or the functional equivalent of a state such that failure to pay is punishable by law.</English>
+		<French>To tax is to impose a financial charge or other levy upon a taxpayer (an individual or legal entity) by a state or the functional equivalent of a state such that failure to pay is punishable by law.</French>
+		<German>To tax is to impose a financial charge or other levy upon a taxpayer (an individual or legal entity) by a state or the functional equivalent of a state such that failure to pay is punishable by law.</German>
+		<Italian>To tax is to impose a financial charge or other levy upon a taxpayer (an individual or legal entity) by a state or the functional equivalent of a state such that failure to pay is punishable by law.</Italian>
+		<Spanish>To tax is to impose a financial charge or other levy upon a taxpayer (an individual or legal entity) by a state or the functional equivalent of a state such that failure to pay is punishable by law.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAX_OFFICE_STRATEGY</Tag>
+		<English>Reduced maintenance with slight instability.</English>
+		<French>Réduit les coûts d'entretien, augmente légèrement l'instabilité.</French>
+		<German>Reduced maintenance with slight instability.</German>
+		<Italian>Reduced maintenance with slight instability.</Italian>
+		<Spanish>Reduced maintenance with slight instability.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CARPENTER</Tag>
+		<English>Carpenter's Shop</English>
+		<French>
+			<Text>Atelier du Charpentier</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Zimmermannswerkstatt</German>
+		<Italian>Carpenter's Shop</Italian>
+		<Spanish>Carpenter's Shop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CARPENTER_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CARPENTER_STRATEGY</Tag>
+		<English>Increases Production from Forests.</English>
+		<French>Augmente la Production provenant des Forêts.</French>
+		<German>Increases Production from Forests.</German>
+		<Italian>Increases Production from Forests.</Italian>
+		<Spanish>Increases Production from Forests.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_POTTERY</Tag>
+		<English>Pottery</English>
+		<French>
+			<Text>Poterie</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Keramik</German>
+		<Italian>Pottery</Italian>
+		<Spanish>Pottery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_POTTERY_PEDIA</Tag>
+		<English>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</English>
+		<French>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</French>
+		<German>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</German>
+		<Italian>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</Italian>
+		<Spanish>The invention of pottery was essential to the development of agricultural societies. To get the most out of seasonal crops and domesticated animals, a tribe needed sturdy, waterproof containers in which to store and protect surplus food. The discovery of the properties of clay, and the invention of the kiln and the potter's wheel made it possible to build such containers. The earliest examples of Western pottery date back to as early as 6500 BC. Most of the examples from this period were strictly utilitarian. Although use continued to be primarily practical, decorative pottery soon became a ritualistic and aesthetic art form in cultures all over the world. Some of the most impressive examples of artistic pottery comes from the pre-Columbian cultures of South America, and from the Ming dynasty in 14th century China.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HONEY</Tag>
+		<English>Honey</English>
+		<French>Miel</French>
+		<German>Honig</German>
+		<Italian>Honey</Italian>
+		<Spanish>Honey</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HONEY_PEDIA</Tag>
+		<English>Honey is a sweet aliment produced by honey bees (and some other species) and derived from the nectar of flowers.  According to the United States National Honey Board and various international food regulations, "honey stipulates a pure product that does not allow for the addition of any other substance…this includes, but is not limited to, water or other sweeteners."   Honey gets its sweetness from the monosaccharides fructose and glucose and has approximately the same relative sweetness as that of granulated sugar (97% of the sweetness of sucrose, a disaccharide).  Honey has attractive chemical properties for baking, and a distinctive flavor which leads some people to prefer it over sugar and other sweeteners.</English>
+		<French>Honey is a sweet aliment produced by honey bees (and some other species) and derived from the nectar of flowers.  According to the United States National Honey Board and various international food regulations, "honey stipulates a pure product that does not allow for the addition of any other substance…this includes, but is not limited to, water or other sweeteners."   Honey gets its sweetness from the monosaccharides fructose and glucose and has approximately the same relative sweetness as that of granulated sugar (97% of the sweetness of sucrose, a disaccharide).  Honey has attractive chemical properties for baking, and a distinctive flavor which leads some people to prefer it over sugar and other sweeteners.</French>
+		<German>Honey is a sweet aliment produced by honey bees (and some other species) and derived from the nectar of flowers.  According to the United States National Honey Board and various international food regulations, "honey stipulates a pure product that does not allow for the addition of any other substance…this includes, but is not limited to, water or other sweeteners."   Honey gets its sweetness from the monosaccharides fructose and glucose and has approximately the same relative sweetness as that of granulated sugar (97% of the sweetness of sucrose, a disaccharide).  Honey has attractive chemical properties for baking, and a distinctive flavor which leads some people to prefer it over sugar and other sweeteners.</German>
+		<Italian>Honey is a sweet aliment produced by honey bees (and some other species) and derived from the nectar of flowers.  According to the United States National Honey Board and various international food regulations, "honey stipulates a pure product that does not allow for the addition of any other substance…this includes, but is not limited to, water or other sweeteners."   Honey gets its sweetness from the monosaccharides fructose and glucose and has approximately the same relative sweetness as that of granulated sugar (97% of the sweetness of sucrose, a disaccharide).  Honey has attractive chemical properties for baking, and a distinctive flavor which leads some people to prefer it over sugar and other sweeteners.</Italian>
+		<Spanish>Honey is a sweet aliment produced by honey bees (and some other species) and derived from the nectar of flowers.  According to the United States National Honey Board and various international food regulations, "honey stipulates a pure product that does not allow for the addition of any other substance…this includes, but is not limited to, water or other sweeteners."   Honey gets its sweetness from the monosaccharides fructose and glucose and has approximately the same relative sweetness as that of granulated sugar (97% of the sweetness of sucrose, a disaccharide).  Honey has attractive chemical properties for baking, and a distinctive flavor which leads some people to prefer it over sugar and other sweeteners.</Spanish>
+	</TEXT>
+</Civ4GameText>

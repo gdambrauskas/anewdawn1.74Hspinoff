@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Game Text Infos -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- Governor Builds Workers -->
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_MODDER_1</Tag>
+		<English>City Governors Build Workboats</English>
+		<French>Gouverneurs construisent Bateaux-Ateliers</French>
+		<German>Stadtverwalter: Arbeitsboot aufstellen</German>
+		<Italian>I Governatori cittadini costruiscono le Chiatte</Italian>
+		<Spanish>Los Gobernadores de las Ciudades Construyen Pesqueros</Spanish>
+		<Finnish>City Governors Build Workboats</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_MODDER_1_HELP</Tag>
+		<English>City governors can build Workboats when needed</English>
+		<French>Les Gouverneurs des Villes peuvent construire des Bateaux-Ateliers si nécessaire</French>
+		<German>L&#228;sst den Stadtverwalter Arbeitsboote aufstellen, falls dies erforderlich ist</German>
+		<Italian>I Governatori cittadini possono costruire le Chiatte quando &#232; necessario</Italian>
+		<Spanish>Los gobernadores de las ciudades pueden construir Pesqueros cuando sea necesario</Spanish>
+		<Finnish>City governors can build Workboats when needed</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_MODDER_2</Tag>
+		<English>City Governors Build Workers</English>
+		<French>Gouverneurs construisent Ouvriers</French>
+		<German>Stadtverwalter: Bautrupp aufstellen</German>
+		<Italian>I Governatori cittadini costruiscono i Lavoratori</Italian>
+		<Spanish>Los Gobernadores de las Ciudades Construiyen Trabajadores</Spanish>
+		<Finnish>City Governors Build Workers</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_MODDER_2_HELP</Tag>
+		<English>City governors can build Workers when needed</English>
+		<French>Les Gouverneurs des Villes peuvent construire des Ouvriers si nécessaire</French>
+		<German>L&#228;sst den Stadtverwalter Bautrupps aufstellen, falls dies erforderlich ist</German>
+		<Italian>I Governatori cittadini possono costruire i Lavoratori quando &#232; necessario</Italian>
+		<Spanish>Los gobernadores de las ciudades pueden construir Trabajadores cuando sea necesario</Spanish>
+		<Finnish>City governors can build Workers when needed</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

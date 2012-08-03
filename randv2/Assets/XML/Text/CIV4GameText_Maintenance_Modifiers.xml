@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!--Please place any new text entries into this file-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GLOBAL_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs in All Cities</English>
+		<French>[ICON_BULLET]Pas de coût d'entretien dans toutes les Villes</French>
+		<German>[ICON_BULLET]No Maintenance Costs in All Cities</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs in All Cities</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GLOBAL_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</English>
+		<French>[ICON_BULLET]%D1_MOD%% de coûts d'entretien dans toutes les Villes</French>
+		<German>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</German>
+		<Italian>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</Italian>
+		<Spanish>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DISTANCE_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs from Distance to Palace</English>
+		<French>[ICON_BULLET]Pas de coût d'entretien lié à la distance du Palais</French>
+		<German>[ICON_BULLET]No Maintenance Costs from Distance to Palace</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs from Distance to Palace</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs from Distance to Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DISTANCE_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien lié à la distance du Palais</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NO_MAINT_NUM_CITIES</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs from Number of Cities</English>
+		<French>[ICON_BULLET]Pas de coût d'entretien lié au nombre de Villes</French>
+		<German>[ICON_BULLET]No Maintenance Costs from Number of Cities</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs from Number of Cities</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs from Number of Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NO_MAINT_NUM_CITIES_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien lié au nombre de Villes</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_GLOBAL_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</English>
+		<French>[ICON_BULLET]%D1_MOD%% de coût d'entretien dans toutes les Villes</French>
+		<German>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</German>
+		<Italian>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</Italian>
+		<Spanish>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_DISTANCE_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien lié à la distance du Palais</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_NUM_CITIES_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien lié au nombre de Villes</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</English>
+		<French>[ICON_BULLET]%D1_MOD%% de coût d'entretien dans toutes les Villes</French>
+		<German>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</German>
+		<Italian>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</Italian>
+		<Spanish>[ICON_BULLET]%D1_MOD%% Maintenance Costs in All Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DISTANCE_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs from Distance to Palace</English>
+		<French>[ICON_BULLET]Pas de coût d'entretien lié à la distance du Palais</French>
+		<German>[ICON_BULLET]No Maintenance Costs from Distance to Palace</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs from Distance to Palace</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs from Distance to Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DISTANCE_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien lié à la distance du Palais</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NUM_CITIES_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs from Number of Cities</English>
+		<French>[ICON_BULLET]Pas de coût d'entretien lié au nombre de Villes</French>
+		<German>[ICON_BULLET]No Maintenance Costs from Number of Cities</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs from Number of Cities</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs from Number of Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NUM_CITIES_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien lié au nombre de Villes</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Number of Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COASTAL_DISTANCE_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs from Distance to Palace for Coastal Cities</English>
+		<French>[ICON_BULLET]Pas de coûts d'entretien lié à la distance du Palais pour les Villes côtières</French>
+		<German>[ICON_BULLET]No Maintenance Costs from Distance to Palace for Coastal Cities</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs from Distance to Palace for Coastal Cities</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs from Distance to Palace for Coastal Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COASTAL_DISTANCE_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace for Coastal Cities</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien lié à la distance du Palais pour les Villes côtières</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace for Coastal Cities</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace for Coastal Cities</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Distance to Palace for Coastal Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONNECTED_CITY_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs for Cities Connected to Capital</English>
+		<French>[ICON_BULLET]Pas de coût d'entretien pour les Villes connectées à la Capitale</French>
+		<German>[ICON_BULLET]No Maintenance Costs for Cities Connected to Capital</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs for Cities Connected to Capital</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs for Cities Connected to Capital</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONNECTED_CITY_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs for Cities Connected to Capital</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien pour les Villes connectées à la Capitale</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs for Cities Connected to Capital</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs for Cities Connected to Capital</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs for Cities Connected to Capital</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONTINENTAL_CITY_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs for All Cities on Continent</English>
+		<French>[ICON_BULLET]Pas de coût d'entretien pour toutes les Villes du Continent</French>
+		<German>[ICON_BULLET]No Maintenance Costs for All Cities on Continent</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs for All Cities on Continent</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs for All Cities on Continent</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONTINENTAL_CITY_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs for All Cities on Continent</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien pour toutes les Villes du Continent</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs for All Cities on Continent</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs for All Cities on Continent</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs for All Cities on Continent</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OVERSEAS_CITY_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs for Overseas Cities</English>
+		<French>[ICON_BULLET]Pas de coût d'entretien pour les Villes d'outre-mer</French>
+		<German>[ICON_BULLET]No Maintenance Costs for Overseas Cities</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs for Overseas Cities</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs for Overseas Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OVERSEAS_CITY_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs for Overseas Cities</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coûts d'entretien pour les Villes d'outre-mer</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs for Overseas Cities</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs for Overseas Cities</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs for Overseas Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HOME_AREA_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs for All Cities on Home Continent</English>
+		<French>[ICON_BULLET]Pas de coût d'entretien pour toutes les Villes sur le continent d'origine</French>
+		<German>[ICON_BULLET]No Maintenance Costs for All Cities on Home Continent</German>
+		<Italian>[ICON_BULLET]No Maintenance Costs for All Cities on Home Continent</Italian>
+		<Spanish>[ICON_BULLET]No Maintenance Costs for All Cities on Home Continent</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HOME_AREA_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs for All Cities on Home Continent</English>
+		<French>[ICON_BULLET]%D1_Mod%% de coût d'entretien pour toutes les Villes sur le continent d'origine</French>
+		<German>[ICON_BULLET]%D1_Mod%% Maintenance Costs for All Cities on Home Continent</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% Maintenance Costs for All Cities on Home Continent</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% Maintenance Costs for All Cities on Home Continent</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__AUTOMATEDSETTINGS</Tag>
+		<English>Advanced Automation Settings:</English>
+		<French>Paramètres Avancés d'automatisation :</French>
+		<German>Advanced Automation Settings:</German>
+		<Italian>Advanced Automation Settings:</Italian>
+		<Spanish>Advanced Automation Settings:</Spanish>
+		<Finnish>Advanced Automation Settings:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__PILLAGESETTINGS</Tag>
+		<English>Automate Pillage Options:</English>
+		<French>Options de pillage Automatique :</French>
+		<German>Automate Pillage Options:</German>
+		<Italian>Automate Pillage Options:</Italian>
+		<Spanish>Automate Pillage Options:</Spanish>
+		<Finnish>Automate Pillage Options:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__WORKERSETTINGS</Tag>
+		<English>Automate Worker Options:</English>
+		<French>Automate Worker Options:</French>
+		<German>Automate Worker Options:</German>
+		<Italian>Automate Worker Options:</Italian>
+		<Spanish>Automate Worker Options:</Spanish>
+		<Finnish>Automate Worker Options:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__WORKERSETTINGS</Tag>
+		<English>Automate Worker Options:</English>
+		<French>Automate Worker Options:</French>
+		<German>Automate Worker Options:</German>
+		<Italian>Automate Worker Options:</Italian>
+		<Spanish>Automate Worker Options:</Spanish>
+		<Finnish>Automate Worker Options:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__SHOWCITYAUTOMATIONS_TEXT</Tag>
+		<English>Show City Automations:</English>
+		<French>Show City Automations:</French>
+		<German>Show City Automations:</German>
+		<Italian>Show City Automations:</Italian>
+		<Spanish>Show City Automations:</Spanish>
+		<Finnish>Show City Automations:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__SHOWCITYAUTOMATIONS_HOVER</Tag>
+		<English>Shows the worker automation settings for individual settings. Close and reopen the menu to see the changes take affect.</English>
+		<French>Shows the worker automation settings for individual settings. Close and reopen the menu to see the changes take affect.</French>
+		<German>Shows the worker automation settings for individual settings. Close and reopen the menu to see the changes take affect.</German>
+		<Italian>Shows the worker automation settings for individual settings. Close and reopen the menu to see the changes take affect.</Italian>
+		<Spanish>Shows the worker automation settings for individual settings. Close and reopen the menu to see the changes take affect.</Spanish>
+		<Finnish>Shows the worker automation settings for individual settings. Close and reopen the menu to see the changes take affect.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AVOIDENEMYUNITS_TEXT</Tag>
+		<English>Avoid Enemy Units</English>
+		<French>Eviter les unités ennemies</French>
+		<German>Avoid Enemy Units</German>
+		<Italian>Avoid Enemy Units</Italian>
+		<Spanish>Avoid Enemy Units</Spanish>
+		<Finnish>Avoid Enemy Units</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AVOIDENEMYUNITS_HOVER</Tag>
+		<English>Units will avoid any encounters with hostile enemies</English>
+		<French>Les Unités vont éviter toute rencontre avec les unités ennemies hostiles</French>
+		<German>Units will avoid any encounters with hostile enemies</German>
+		<Italian>Units will avoid any encounters with hostile enemies</Italian>
+		<Spanish>Units will avoid any encounters with hostile enemies</Spanish>
+		<Finnish>Units will avoid any encounters with hostile enemies</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AVOIDBARBARIANCITIES_TEXT</Tag>
+		<English>Avoid Barbarian Cities</English>
+		<French>Eviter les Villes Barbares</French>
+		<German>Avoid Barbarian Cities</German>
+		<Italian>Avoid Barbarian Cities</Italian>
+		<Spanish>Avoid Barbarian Cities</Spanish>
+		<Finnish>Avoid Barbarian Cities</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AVOIDBARBARIANCITIES_HOVER</Tag>
+		<English>Units will avoid going near to barbarian cities and encampments</English>
+		<French>Les Unités vont éviter de se déplacer près des Villes et campements barbares</French>
+		<German>Units will avoid going near to barbarian cities and encampments</German>
+		<Italian>Units will avoid going near to barbarian cities and encampments</Italian>
+		<Spanish>Units will avoid going near to barbarian cities and encampments</Spanish>
+		<Finnish>Units will avoid going near to barbarian cities and encampments</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOMATEPILLAGE_TEXT</Tag>
+		<English>Hide Automate Pillage</English>
+		<French>Masquer le Pillage Automatisé</French>
+		<German>Hide Automate Pillage</German>
+		<Italian>Hide Automate Pillage</Italian>
+		<Spanish>Hide Automate Pillage</Spanish>
+		<Finnish>Hide Automate Pillage</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOMATEPILLAGE_HOVER</Tag>
+		<English>Hides the Automate Pillage icon from the unit interface.</English>
+		<French>Masque l'icone de Pillage automatisé de la liste des actions des unités.</French>
+		<German>Hides the Automate Pillage icon from the unit interface.</German>
+		<Italian>Hides the Automate Pillage icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate Pillage icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Pillage icon from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__HUNTSETTINGS</Tag>
+		<English>Automate Hunt Options:</English>
+		<French>Options de Traque automatisée :</French>
+		<German>Automate Hunt Options:</German>
+		<Italian>Automate Hunt Options:</Italian>
+		<Spanish>Automate Hunt Options:</Spanish>
+		<Finnish>Automate Hunt Options:</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__NOCAPTURINGCITIES_TEXT</Tag>
+		<English>No City Capturing</English>
+		<French>Pas de capture de Villes</French>
+		<German>No City Capturing</German>
+		<Italian>No City Capturing</Italian>
+		<Spanish>No City Capturing</Spanish>
+		<Finnish>No City Capturing</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__NOCAPTURINGCITIES_HOVER</Tag>
+		<English>Units will be unable to attack or capture enemy cities, no matter the odds.</English>
+		<French>Les Units seront incapable d'attaquer ou de capturer les villes ennemies.</French>
+		<German>Units will be unable to attack or capture enemy cities, no matter the odds.</German>
+		<Italian>Units will be unable to attack or capture enemy cities, no matter the odds.</Italian>
+		<Spanish>Units will be unable to attack or capture enemy cities, no matter the odds.</Spanish>
+		<Finnish>Units will be unable to attack or capture enemy cities, no matter the odds.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__NOPATROLCAPTURINGCITIES_TEXT</Tag>
+		<English>No City Capturing</English>
+		<French>Pas de capture de Villes</French>
+		<German>No City Capturing</German>
+		<Italian>No City Capturing</Italian>
+		<Spanish>No City Capturing</Spanish>
+		<Finnish>No City Capturing</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__NOPATROLCAPTURINGCITIES_HOVER</Tag>
+		<English>Units will be unable to attack or capture enemy cities, no matter the odds.</English>
+		<French>Les Units seront incapable d'attaquer ou de capturer les villes ennemies.</French>
+		<German>Units will be unable to attack or capture enemy cities, no matter the odds.</German>
+		<Italian>Units will be unable to attack or capture enemy cities, no matter the odds.</Italian>
+		<Spanish>Units will be unable to attack or capture enemy cities, no matter the odds.</Spanish>
+		<Finnish>Units will be unable to attack or capture enemy cities, no matter the odds.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__ALLOWUNITSUICIDING_TEXT</Tag>
+		<English>Allow Unit Suiciding</English>
+		<French>Autoriser le suicide de l'unité</French>
+		<German>Allow Unit Suiciding</German>
+		<Italian>Allow Unit Suiciding</Italian>
+		<Spanish>Allow Unit Suiciding</Spanish>
+		<Finnish>Allow Unit Suiciding</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__ALLOWUNITSUICIDING_HOVER</Tag>
+		<English>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</English>
+		<French>Les Groupes importants d'unités peuvent sacrifier une unité plus faible pour affaiblier l'ennemi</French>
+		<German>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</German>
+		<Italian>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</Italian>
+		<Spanish>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</Spanish>
+		<Finnish>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOMATEHUNT_TEXT</Tag>
+		<English>Hide Automate Hunt</English>
+		<French>Masquer la Traque Automatisée</French>
+		<German>Hide Automate Hunt</German>
+		<Italian>Hide Automate Hunt</Italian>
+		<Spanish>Hide Automate Hunt</Spanish>
+		<Finnish>Hide Automate Hunt</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOMATEHUNT_HOVER</Tag>
+		<English>Hides the Automate Hunt icon from the unit interface.</English>
+		<French>Masque l'icone de Traque automatisée de la liste des actions des unités.</French>
+		<German>Hides the Automate Hunt icon from the unit interface.</German>
+		<Italian>Hides the Automate Hunt icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate Hunt icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Hunt icon from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AUTOHUNTMINIMUMATTACKODDS_TEXT</Tag>
+		<English>Minimum Attack Odds:</English>
+		<French>Prob. de Combat Minimum pour Attaquer :</French>
+		<German>Minimum Attack Odds:</German>
+		<Italian>Minimum Attack Odds:</Italian>
+		<Spanish>Minimum Attack Odds:</Spanish>
+		<Finnish>Minimum Attack Odds:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AUTOHUNTMINIMUMATTACKODDS_HOVER</Tag>
+		<English>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</English>
+		<French>La Prob. de combat minimum à laquelle une unité va engager l'ennemie. Les Probabilité plus faible augmente le combat et l'expérience, mais également les chances de périr.</French>
+		<German>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</German>
+		<Italian>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Italian>
+		<Spanish>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Spanish>
+		<Finnish>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__PATROLSETTINGS</Tag>
+		<English>Automate Patrol Options:</English>
+		<French>Options des patrouilles Automatisées :</French>
+		<German>Automate Patrol Options:</German>
+		<Italian>Automate Patrol Options:</Italian>
+		<Spanish>Automate Patrol Options:</Spanish>
+		<Finnish>Automate Patrol Options:</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__CANLEAVEBORDERS_TEXT</Tag>
+		<English>Can Leave Borders</English>
+		<French>Peut quitter le territoire</French>
+		<German>Can Leave Borders</German>
+		<Italian>Can Leave Borders</Italian>
+		<Spanish>Can Leave Borders</Spanish>
+		<Finnish>Can Leave Borders</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__CANLEAVEBORDERS_HOVER</Tag>
+		<English>Units can leave friendly borders to attack enemy units skirting the edges. Even with this options, units will turn back after going three tiles from a friendly border.</English>
+		<French>Les Unités peuvent quitter l'intérieur des frontières pour attaque des unités ennemies proches. Même avec cette option, les unités reviendrons dans le territoire au bout de trois cases.</French>
+		<German>Units can leave friendly borders to attack enemy units skirting the edges. Even with this options, units will turn back after going three tiles from a friendly border.</German>
+		<Italian>Units can leave friendly borders to attack enemy units skirting the edges. Even with this options, units will turn back after going three tiles from a friendly border.</Italian>
+		<Spanish>Units can leave friendly borders to attack enemy units skirting the edges. Even with this options, units will turn back after going three tiles from a friendly border.</Spanish>
+		<Finnish>Units can leave friendly borders to attack enemy units skirting the edges. Even with this options, units will turn back after going three tiles from a friendly border.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__ALLOWPATROLUNITSUICIDING_TEXT</Tag>
+		<English>Allow Unit Suiciding</English>
+		<French>Autoriser le suicide d'Unités</French>
+		<German>Allow Unit Suiciding</German>
+		<Italian>Allow Unit Suiciding</Italian>
+		<Spanish>Allow Unit Suiciding</Spanish>
+		<Finnish>Allow Unit Suiciding</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__ALLOWPATROLUNITSUICIDING_HOVER</Tag>
+		<English>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</English>
+		<French>Les Groupes importants d'unités peuvent sacrifier une unité plus faible pour affaiblier l'ennemi</French>
+		<German>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</German>
+		<Italian>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</Italian>
+		<Spanish>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</Spanish>
+		<Finnish>Larger groups of units may sacrifice a weaker unit to soften up the enemy for easier kills</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOMATEPATROL_TEXT</Tag>
+		<English>Hide Automate Patrol</English>
+		<French>Masquer la patrouille automatisée</French>
+		<German>Hide Automate Patrol</German>
+		<Italian>Hide Automate Patrol</Italian>
+		<Spanish>Hide Automate Patrol</Spanish>
+		<Finnish>Hide Automate Patrol</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOMATEPATROL_HOVER</Tag>
+		<English>Hides the Automate Patrol icon from the unit interface.</English>
+		<French>Masque l'icone de patrouille automatisée de la liste des actions des unités.</French>
+		<German>Hides the Automate Patrol icon from the unit interface.</German>
+		<Italian>Hides the Automate Patrol icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate Patrol icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Patrol icon from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AUTOPATROLMINIMUMATTACKODDS_TEXT</Tag>
+		<English>Minimum Attack Odds:</English>
+		<French>Prob. de Combat Minimum pour Attaquer :</French>
+		<German>Minimum Attack Odds:</German>
+		<Italian>Minimum Attack Odds:</Italian>
+		<Spanish>Minimum Attack Odds:</Spanish>
+		<Finnish>Minimum Attack Odds:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AUTOPATROLMINIMUMATTACKODDS_HOVER</Tag>
+		<English>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</English>
+		<French>La Prob. de combat minimum à laquelle une unité va engager l'ennemie. Les Probabilité plus faible augmente le combat et l'expérience, mais également les chances de périr.</French>
+		<German>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</German>
+		<Italian>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Italian>
+		<Spanish>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Spanish>
+		<Finnish>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__DEFENSESETTINGS</Tag>
+		<English>Automate City Defense Options:</English>
+		<French>Options de Défense Automatisée :</French>
+		<German>Automate City Defense Options:</German>
+		<Italian>Automate City Defense Options:</Italian>
+		<Spanish>Automate City Defense Options:</Spanish>
+		<Finnish>Automate City Defense Options:</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__CANLEAVECITY_TEXT</Tag>
+		<English>Can Leave City</English>
+		<French>Peut quitter la Ville</French>
+		<German>Can Leave City</German>
+		<Italian>Can Leave City</Italian>
+		<Spanish>Can Leave City</Spanish>
+		<Finnish>Can Leave City</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__CANLEAVECITY_HOVER</Tag>
+		<English>Units can leave their current city, to shore up defenses in weaker or threatened cities. A unit will never leave a city if it the only defender.</English>
+		<French>Les Unités peuvent quitter leur Ville, pour aller supporter la défense d'un ville menacée ou plus faible. Une unité ne quittera jamais la ville si elle est le seul défenseur.</French>
+		<German>Units can leave their current city, to shore up defenses in weaker or threatened cities. A unit will never leave a city if it the only defender.</German>
+		<Italian>Units can leave their current city, to shore up defenses in weaker or threatened cities. A unit will never leave a city if it the only defender.</Italian>
+		<Spanish>Units can leave their current city, to shore up defenses in weaker or threatened cities. A unit will never leave a city if it the only defender.</Spanish>
+		<Finnish>Units can leave their current city, to shore up defenses in weaker or threatened cities. A unit will never leave a city if it the only defender.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOMATEDEFENSE_TEXT</Tag>
+		<English>Hide Automate City Defense</English>
+		<French>Masquer Défense Automatisée</French>
+		<German>Hide Automate City Defense</German>
+		<Italian>Hide Automate City Defense</Italian>
+		<Spanish>Hide Automate City Defense</Spanish>
+		<Finnish>Hide Automate City Defense</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOMATEDEFENSE_HOVER</Tag>
+		<English>Hides the Automate City Defense icon from the unit interface.</English>
+		<French>Masque l'icone de Défense automatisée de la liste des actions des unités.</French>
+		<German>Hides the Automate City Defense icon from the unit interface.</German>
+		<Italian>Hides the Automate City Defense icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate City Defense icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate City Defense icon from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AUTODEFENSEMINIMUMATTACKODDS_TEXT</Tag>
+		<English>Minimum Attack Odds:</English>
+		<French>Prob. de Combat Minimum pour Attaquer :</French>
+		<German>Minimum Attack Odds:</German>
+		<Italian>Minimum Attack Odds:</Italian>
+		<Spanish>Minimum Attack Odds:</Spanish>
+		<Finnish>Minimum Attack Odds:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AUTODEFENSEMINIMUMATTACKODDS_HOVER</Tag>
+		<English>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</English>
+		<French>La Prob. de combat minimum à laquelle une unité va engager l'ennemie. Les Probabilité plus faible augmente le combat et l'expérience, mais également les chances de périr.</French>
+		<German>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</German>
+		<Italian>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Italian>
+		<Spanish>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Spanish>
+		<Finnish>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__AIRSETTINGS</Tag>
+		<English>Automate Air Strike and Air Bomb Options:</English>
+		<French>Options des Opérations Aériennes automatisées:</French>
+		<German>Automate Air Strike and Air Bomb Options:</German>
+		<Italian>Automate Air Strike and Air Bomb Options:</Italian>
+		<Spanish>Automate Air Strike and Air Bomb Options:</Spanish>
+		<Finnish>Automate Air Strike and Air Bomb Options:</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AIRUNITCANDEFEND_TEXT</Tag>
+		<English>Can Air Patrol</English>
+		<French>Peut patrouiller</French>
+		<German>Can Air Patrol</German>
+		<Italian>Can Air Patrol</Italian>
+		<Spanish>Can Air Patrol</Spanish>
+		<Finnish>Can Air Patrol</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AIRUNITCANDEFEND_HOVER</Tag>
+		<English>Aircraft can air patrol when in peacetime, or nessecary.</English>
+		<French>Les Avions peuvent patrouiller en temps de paix ou lorsque nécessaire.</French>
+		<German>Aircraft can air patrol when in peacetime, or nessecary.</German>
+		<Italian>Aircraft can air patrol when in peacetime, or nessecary.</Italian>
+		<Spanish>Aircraft can air patrol when in peacetime, or nessecary.</Spanish>
+		<Finnish>Aircraft can air patrol when in peacetime, or nessecary.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAIRAUTOMATIONS_TEXT</Tag>
+		<English>Hide Aircraft Automations</English>
+		<French>Masquer Opérations Aériennes automatisées</French>
+		<German>Hide Aircraft Automations</German>
+		<Italian>Hide Aircraft Automations</Italian>
+		<Spanish>Hide Aircraft Automations</Spanish>
+		<Finnish>Hide Aircraft Automations</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAIRAUTOMATIONS_HOVER</Tag>
+		<English>Hides the Automate Air Strike and Automate Air Bomb icons from the unit interface.</English>
+		<French>Masque l'icone des Opérations Aériennes automatisées de la liste des actions des unités.</French>
+		<German>Hides the Automate Air Strike and Automate Air Bomb icons from the unit interface.</German>
+		<Italian>Hides the Automate Air Strike and Automate Air Bomb icons from the unit interface.</Italian>
+		<Spanish>Hides the Automate Air Strike and Automate Air Bomb icons from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Air Strike and Automate Air Bomb icons from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AIRUNITCANREBASE_TEXT</Tag>
+		<English>Aircraft Can Rebase</English>
+		<French>Les avions peuvent se réaffecter</French>
+		<German>Aircraft Can Rebase</German>
+		<Italian>Aircraft Can Rebase</Italian>
+		<Spanish>Aircraft Can Rebase</Spanish>
+		<Finnish>Aircraft Can Rebase</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AIRUNITCANREBASE_HOVER</Tag>
+		<English>Aircraft can rebase into other cities, moving to fronts of action, as needed.</English>
+		<French>Les Avions peuvent se réaffecter vers d'autres Villes, se déplaçant près du front si nécessaire.</French>
+		<German>Aircraft can rebase into other cities, moving to fronts of action, as needed.</German>
+		<Italian>Aircraft can rebase into other cities, moving to fronts of action, as needed.</Italian>
+		<Spanish>Aircraft can rebase into other cities, moving to fronts of action, as needed.</Spanish>
+		<Finnish>Aircraft can rebase into other cities, moving to fronts of action, as needed.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__EXPLORESETTINGS</Tag>
+		<English>Automate Explore Options:</English>
+		<French>Options d'Exploration automatisée :</French>
+		<German>Automate Explore Options:</German>
+		<Italian>Automate Explore Options:</Italian>
+		<Spanish>Automate Explore Options:</Spanish>
+		<Finnish>Automate Explore Options:</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOEXPLORE_TEXT</Tag>
+		<English>Hide Automate Explore</English>
+		<French>Masquer l'Exploration automatisées</French>
+		<German>Hide Automate Explore</German>
+		<Italian>Hide Automate Explore</Italian>
+		<Spanish>Hide Automate Explore</Spanish>
+		<Finnish>Hide Automate Explore</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOEXPLORE_HOVER</Tag>
+		<English>Hides the Automate Explore icon from the unit interface.</English>
+		<French>Masque l'icone de l'exploration automatisée de la liste des actions des unités.</French>
+		<German>Hides the Automate Explore icon from the unit interface.</German>
+		<Italian>Hides the Automate Explore icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate Explore icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Explore icon from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__SPREADSETTINGS</Tag>
+		<English>Automate Spread Options:</English>
+		<French>Options de propagation automatisée:</French>
+		<German>Automate Spread Options:</German>
+		<Italian>Automate Spread Options:</Italian>
+		<Spanish>Automate Spread Options:</Spanish>
+		<Finnish>Automate Spread Options:</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOSPREAD_TEXT</Tag>
+		<English>Hide Automate Spread</English>
+		<French>Masquer la Propagation automatique</French>
+		<German>Hide Automate Spread</German>
+		<Italian>Hide Automate Spread</Italian>
+		<Spanish>Hide Automate Spread</Spanish>
+		<Finnish>Hide Automate Spread</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOSPREAD_HOVER</Tag>
+		<English>Hides the Automate Missionary and Automate Corporation Spead icons from the unit interface.</English>
+		<French>Masque l'icone de la Propagation automatisée de la liste des actions des unités.</French>
+		<German>Hides the Automate Missionary and Automate Corporation Spead icons from the unit interface.</German>
+		<Italian>Hides the Automate Missionary and Automate Corporation Spead icons from the unit interface.</Italian>
+		<Spanish>Hides the Automate Missionary and Automate Corporation Spead icons from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Missionary and Automate Corporation Spead icons from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__CARAVANSETTINGS</Tag>
+		<English>Automate Caravan Options:</English>
+		<French>Options des Caravanes automatisées :</French>
+		<German>Automate Caravan Options:</German>
+		<Italian>Automate Caravan Options:</Italian>
+		<Spanish>Automate Caravan Options:</Spanish>
+		<Finnish>Automate Caravan Options:</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOCARAVAN_TEXT</Tag>
+		<English>Hide Automate Caravan</English>
+		<French>Masquer les Caravanes automatisées</French>
+		<German>Hide Automate Caravan</German>
+		<Italian>Hide Automate Caravan</Italian>
+		<Spanish>Hide Automate Caravan</Spanish>
+		<Finnish>Hide Automate Caravan</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOCARAVAN_HOVER</Tag>
+		<English>Hides the Automate Caravan icon from the unit interface.</English>
+		<French>Masque l'icone des Caravanes automatisées de la liste des actions des unités.</French>
+		<German>Hides the Automate Caravan icon from the unit interface.</German>
+		<Italian>Hides the Automate Caravan icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate Caravan icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Caravan icon from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__PROTECTSETTINGS</Tag>
+		<English>Automate Protect Options:</English>
+		<French>Options de Protection Automatisée :</French>
+		<German>Automate Protect Options:</German>
+		<Italian>Automate Protect Options:</Italian>
+		<Spanish>Automate Protect Options:</Spanish>
+		<Finnish>Automate Protect Options:</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOPROTECT_TEXT</Tag>
+		<English>Hide Automate Protect</English>
+		<French>Masquer la Protection Automatisée</French>
+		<German>Hide Automate Protect</German>
+		<Italian>Hide Automate Protect</Italian>
+		<Spanish>Hide Automate Protect</Spanish>
+		<Finnish>Hide Automate Protect</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOPROTECT_HOVER</Tag>
+		<English>Hides the Automate Protect icon from the unit interface.</English>
+		<French>Masque l'icone de Protection automatisée de la liste des actions des unités.</French>
+		<German>Hides the Automate Protect icon from the unit interface.</German>
+		<Italian>Hides the Automate Protect icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate Protect icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Protect icon from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__PIRATESETTINGS</Tag>
+		<English>Automate Pirate Options:</English>
+		<French>Options de piratage automatisé :</French>
+		<German>Automate Pirate Options:</German>
+		<Italian>Automate Pirate Options:</Italian>
+		<Spanish>Automate Pirate Options:</Spanish>
+		<Finnish>Automate Pirate Options:</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOPIRATE_TEXT</Tag>
+		<English>Hide Automate Pirate</English>
+		<French>Masquer le piratage automatisé</French>
+		<German>Hide Automate Pirate</German>
+		<Italian>Hide Automate Pirate</Italian>
+		<Spanish>Hide Automate Pirate</Spanish>
+		<Finnish>Hide Automate Pirate</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOPIRATE_HOVER</Tag>
+		<English>Hides the Automate Pirate icon from the unit interface.</English>
+		<French>Masque l'icone de piratage automatisé de la liste des actions des unités.</French>
+		<German>Hides the Automate Pirate icon from the unit interface.</German>
+		<Italian>Hides the Automate Pirate icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate Pirate icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Pirate icon from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AUTOPIRATEMINIMUMATTACKODDS_TEXT</Tag>
+		<English>Minimum Attack Odds:</English>
+		<French>Prob. de Combat Minimum pour Attaquer : </French>
+		<German>Minimum Attack Odds:</German>
+		<Italian>Minimum Attack Odds:</Italian>
+		<Spanish>Minimum Attack Odds:</Spanish>
+		<Finnish>Minimum Attack Odds:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__AUTOPIRATEMINIMUMATTACKODDS_HOVER</Tag>
+		<English>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</English>
+		<French>La Prob. de combat minimum à laquelle une unité va engager l'ennemie. Les Probabilité plus faible augmente le combat et l'expérience, mais également les chances de périr.</French>
+		<German>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</German>
+		<Italian>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Italian>
+		<Spanish>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Spanish>
+		<Finnish>The minimum odds that a unit will engage an enemy with. Lower odds increases fighting, but also the chances of death.</Finnish>
+	</TEXT>
+	
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__UPGRADINGSETTINGS</Tag>
+		<English>Automate Upgrade Options:</English>
+		<French>Options d'Amélioration Automatisée des Unités :</French>
+		<German>Automate Upgrade Options:</German>
+		<Italian>Automate Upgrade Options:</Italian>
+		<Spanish>Automate Upgrade Options:</Spanish>
+		<Finnish>Automate Upgrade Options:</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOUPGRADE_TEXT</Tag>
+		<English>Hide Automate Upgrade</English>
+		<French>Masquer l'Amélioration automatisée</French>
+		<German>Hide Automate Upgrade</German>
+		<Italian>Hide Automate Upgrade</Italian>
+		<Spanish>Hide Automate Upgrade</Spanish>
+		<Finnish>Hide Automate Upgrade</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOUPGRADE_HOVER</Tag>
+		<English>Hides the Automate Upgrade icon from the unit interface.</English>
+		<French>Masque l'icone d'amélioration automatisé de la liste des actions des unités.</French>
+		<German>Hides the Automate Upgrade icon from the unit interface.</German>
+		<Italian>Hides the Automate Upgrade icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate Upgrade icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Upgrade icon from the unit interface.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__MOSTEXPENSIVE_TEXT</Tag>
+		<English>Most Expensive First</English>
+		<French>D'abord les Plus chères</French>
+		<German>Most Expensive First</German>
+		<Italian>Most Expensive First</Italian>
+		<Spanish>Most Expensive First</Spanish>
+		<Finnish>Most Expensive First</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__MOSTEXPENSIVE_HOVER</Tag>
+		<English>The Most Expensive Units will be Upgraded First.</English>
+		<French>Les Unités où le prix d'amélioration est le plus élevé sont prioritaires.</French>
+		<German>The Most Expensive Units will be Upgraded First.</German>
+		<Italian>The Most Expensive Units will be Upgraded First.</Italian>
+		<Spanish>The Most Expensive Units will be Upgraded First.</Spanish>
+		<Finnish>The Most Expensive Units will be Upgraded First.</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__MOSTEXPIERENCED_TEXT</Tag>
+		<English>Most Experienced</English>
+		<French>D'abord les Expérimentés</French>
+		<German>Most Experienced</German>
+		<Italian>Most Experienced</Italian>
+		<Spanish>Most Experienced</Spanish>
+		<Finnish>Most Experienced</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__MOSTEXPIERENCED_HOVER</Tag>
+		<English>The Most Experienced Units will be Upgraded First. If Most Expensive is enabled, it will take precedence.</English>
+		<French>Les Unités ayant la plus grande expérience sont prioritaires.</French>
+		<German>The Most Experienced Units will be Upgraded First. If Most Expensive is enabled, it will take precedence.</German>
+		<Italian>The Most Experienced Units will be Upgraded First. If Most Expensive is enabled, it will take precedence.</Italian>
+		<Spanish>The Most Experienced Units will be Upgraded First. If Most Expensive is enabled, it will take precedence.</Spanish>
+		<Finnish>The Most Experienced Units will be Upgraded First. If Most Expensive is enabled, it will take precedence.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__MINIMUMUPGRADEGOLD_TEXT</Tag>
+		<English>Minimum Upgrade Gold:</English>
+		<French>Or minimum pour Améliorer :</French>
+		<German>Minimum Upgrade Gold:</German>
+		<Italian>Minimum Upgrade Gold:</Italian>
+		<Spanish>Minimum Upgrade Gold:</Spanish>
+		<Finnish>Minimum Upgrade Gold:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__MINIMUMUPGRADEGOLD_HOVER</Tag>
+		<English>The minimum amount of gold that must be in your nation's treasury before any units will be auto-upgraded.</English>
+		<French>Le montant d'or minimum qu'il doit y avoir dans votre trésor pour commencer l'automatisation de l'amélioration.</French>
+		<German>The minimum amount of gold that must be in your nation's treasury before any units will be auto-upgraded.</German>
+		<Italian>The minimum amount of gold that must be in your nation's treasury before any units will be auto-upgraded.</Italian>
+		<Spanish>The minimum amount of gold that must be in your nation's treasury before any units will be auto-upgraded.</Spanish>
+		<Finnish>The minimum amount of gold that must be in your nation's treasury before any units will be auto-upgraded.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__PROMOTESETTINGS</Tag>
+		<English>Automate Promote Options:</English>
+		<French>Options de Promotion Automatisé :</French>
+		<German>Automate Promote Options:</German>
+		<Italian>Automate Promote Options:</Italian>
+		<Spanish>Automate Promote Options:</Spanish>
+		<Finnish>Automate Promote Options:</Finnish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOPROMOTE_TEXT</Tag>
+		<English>Hide Automate Promote</English>
+		<French>Masque la Promotion automatisé</French>
+		<German>Hide Automate Promote</German>
+		<Italian>Hide Automate Promote</Italian>
+		<Spanish>Hide Automate Promote</Spanish>
+		<Finnish>Hide Automate Promote</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOMATEDSETTINGS__HIDEAUTOPROMOTE_HOVER</Tag>
+		<English>Hides the Automate Promote icon from the unit interface.</English>
+		<French>Masquer l'icone de Promotion automatisée de la liste des Actions des unités.</French>
+		<German>Hides the Automate Promote icon from the unit interface.</German>
+		<Italian>Hides the Automate Promote icon from the unit interface.</Italian>
+		<Spanish>Hides the Automate Promote icon from the unit interface.</Spanish>
+		<Finnish>Hides the Automate Promote icon from the unit interface.</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__NATIONALWORKERSETTINGS</Tag>
+		<English>National Automate Worker Options:</English>
+		<French>National Automate Worker Options:</French>
+		<German>National Automate Worker Options:</German>
+		<Italian>National Automate Worker Options:</Italian>
+		<Spanish>National Automate Worker Options:</Spanish>
+		<Finnish>National Automate Worker Options:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTLABEL_AUTOMATEDSETTINGS__NATIONALWORKERSETTINGSHOVER</Tag>
+		<English>(Disabling a build option nationally overrides any city settings!)</English>
+		<French>(Disabling a build option nationally overrides any city settings!)</French>
+		<German>(Disabling a build option nationally overrides any city settings!)</German>
+		<Italian>(Disabling a build option nationally overrides any city settings!)</Italian>
+		<Spanish>(Disabling a build option nationally overrides any city settings!)</Spanish>
+		<Finnish>(Disabling a build option nationally overrides any city settings!)</Finnish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_AUTOMATED_WORKERS_CAN_BUILD</Tag>
+		<English>Automated Workers in the vicinity of %s1 can %s2</English>
+		<French>Automated Workers in the vicinity of %s1 can %s2</French>
+		<German>Automated Workers in the vicinity of %s1 can %s2</German>
+		<Italian>Automated Workers in the vicinity of %s1 can %s2</Italian>
+		<Spanish>Automated Workers in the vicinity of %s1 can %s2</Spanish>
+		<Finnish>Automated Workers in the vicinity of %s1 can %s2</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AUTOMATED_WORKERS_CAN_BUILD_CITY</Tag>
+		<English>Automated Worker Options For %s1:</English>
+		<French>Automated Worker Options For %s1:</French>
+		<German>Automated Worker Options For %s1:</German>
+		<Italian>Automated Worker Options For %s1:</Italian>
+		<Spanish>Automated Worker Options For %s1:</Spanish>
+		<Finnish>Automated Worker Options For %s1:</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NATIONAL_AUTOMATED_WORKERS_CAN_BUILD</Tag>
+		<English>Automated Workers can %s1</English>
+		<French>Automated Workers can %s1</French>
+		<German>Automated Workers can %s1</German>
+		<Italian>Automated Workers can %s1</Italian>
+		<Spanish>Automated Workers can %s1</Spanish>
+		<Finnish>Automated Workers can %s1</Finnish>
+	</TEXT>
+	
+</Civ4GameText>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText>
+	<!-- UNITCOMBAT -->
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_COMMANDER</Tag>
+		<English>Commander Units</English>
+		<French>Unités de Commandement</French>
+		<German>Kommandeureinheiten</German>
+		<Italian>Commander Units</Italian>
+		<Spanish>Commander Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_CIVILIAN</Tag>
+		<English>Civilian Units</English>
+		<French>.</French>
+		<German>.</German>
+		<Italian>.</Italian>
+		<Spanish>.</Spanish>
+	</TEXT>
+	<!-- PROMOTIONS -->
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MORALE1</Tag>
+		<English>Morale I</English>
+		<French>Moral I</French>
+		<German>Moral I</German>
+		<Italian>Morale I</Italian>
+		<Spanish>Morale I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MORALE2</Tag>
+		<English>Morale II</English>
+		<French>Moral II</French>
+		<German>Moral II</German>
+		<Italian>Morale II</Italian>
+		<Spanish>Morale II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MORALE3</Tag>
+		<English>Morale III</English>
+		<French>Moral III</French>
+		<German>Moral III</German>
+		<Italian>Morale III</Italian>
+		<Spanish>Morale III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MORALE4</Tag>
+		<English>Morale IV</English>
+		<French>Moral IV</French>
+		<German>Moral IV</German>
+		<Italian>Morale IV</Italian>
+		<Spanish>Morale IV</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MORALE5</Tag>
+		<English>Morale V</English>
+		<French>Moral V</French>
+		<German>Moral V</German>
+		<Italian>Morale V</Italian>
+		<Spanish>Morale V</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OPERATIONS1</Tag>
+		<English>Operations I</English>
+		<French>Opérations I</French>
+		<German>Operationen I</German>
+		<Italian>Operations I</Italian>
+		<Spanish>Operations I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OPERATIONS2</Tag>
+		<English>Operations II</English>
+		<French>Opérations II</French>
+		<German>Operationen II</German>
+		<Italian>Operations II</Italian>
+		<Spanish>Operations II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OPERATIONS3</Tag>
+		<English>Operations III</English>
+		<French>Opérations III</French>
+		<German>Operationen III</German>
+		<Italian>Operations III</Italian>
+		<Spanish>Operations III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OPERATIONS4</Tag>
+		<English>Operations IV</English>
+		<French>Opérations IV</French>
+		<German>Operationen IV</German>
+		<Italian>Operations IV</Italian>
+		<Spanish>Operations IV</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS1</Tag>
+		<English>Tactics I</English>
+		<French>Tactiques I</French>
+		<German>Taktiken I</German>
+		<Italian>Tactics I</Italian>
+		<Spanish>Tactics I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS2</Tag>
+		<English>Tactics II</English>
+		<French>Tactiques II</French>
+		<German>Taktiken II</German>
+		<Italian>Tactics II</Italian>
+		<Spanish>Tactics II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS3</Tag>
+		<English>Tactics III</English>
+		<French>Tactiques III</French>
+		<German>Taktiken III</German>
+		<Italian>Tactics III</Italian>
+		<Spanish>Tactics III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS4</Tag>
+		<English>Tactics IV</English>
+		<French>Tactiques IV</French>
+		<German>Taktiken IV</German>
+		<Italian>Tactics IV</Italian>
+		<Spanish>Tactics IV</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INITIATIVE1</Tag>
+		<English>Initiative I</English>
+		<French>Initiative I</French>
+		<German>Initiative I</German>
+		<Italian>Initiative I</Italian>
+		<Spanish>Initiative I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INITIATIVE2</Tag>
+		<English>Initiative II</English>
+		<French>Initiative II</French>
+		<German>Initiative II</German>
+		<Italian>Initiative II</Italian>
+		<Spanish>Initiative II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INITIATIVE3</Tag>
+		<English>Initiative III</English>
+		<French>Initiative III</French>
+		<German>Initiative III</German>
+		<Italian>Initiative III</Italian>
+		<Spanish>Initiative III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INITIATIVE4</Tag>
+		<English>Initiative IV</English>
+		<French>Initiative IV</French>
+		<German>Initiative IV</German>
+		<Italian>Initiative IV</Italian>
+		<Spanish>Initiative IV</Spanish>
+	</TEXT>
+	<!-- PROMOTION EFFECTS -->
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CONTROL_POINTS_TEXT</Tag>
+		<English>[ICON_BULLET]+%d1_Num Control Points</English>
+		<French>[ICON_BULLET]+%d1_Num Points de Contrôle</French>
+		<German>[ICON_BULLET]+%d1_Num Kontrollpunkte</German>
+		<Italian>[ICON_BULLET]+%d1_Num Control Points</Italian>
+		<Spanish>[ICON_BULLET]+%d1_Num Control Points</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMMAND_RANGE_TEXT</Tag>
+		<English>[ICON_BULLET]+%d1_Num Command Range</English>
+		<French>[ICON_BULLET]+%d1_Num Portée de Commandement</French>
+		<German>[ICON_BULLET]+%d1_Num Kommandobereich</German>
+		<Italian>[ICON_BULLET]+%d1_Num Command Range</Italian>
+		<Spanish>[ICON_BULLET]+%d1_Num Command Range</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ONSLAUGHT_TEXT</Tag>
+		<English>[ICON_BULLET]Continues attack while at full [ICON_STRENGTH]</English>
+		<French>[ICON_BULLET]Continue l'Attaque dès que la [ICON_STRENGTH] est au Maximum</French>
+		<German>[ICON_BULLET]Setzt Angriff fort bei voller [ICON_STRENGTH]</German>
+		<Italian>[ICON_BULLET]Continues attack while at full [ICON_STRENGTH]</Italian>
+		<Spanish>[ICON_BULLET]Continues attack while at full [ICON_STRENGTH]</Spanish>
+	</TEXT>
+	<!-- INTERFACE INFORMATION -->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HELP_COMMAND_RANGE</Tag>
+		<English>, CR: %d1_Num</English>
+		<French>Portée de Commandement: %d1_Num</French>
+		<German>Kommandobereich: %d1_Num</German>
+		<Italian>Command range: %d1_Num</Italian>
+		<Spanish>Command range: %d1_Num</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HELP_CONTROL_POINTS</Tag>
+		<English>, CP: (%d1_Curr/%d2_Max)</English>
+		<French>Points de Contrôle: %d1_Curr/%d2_Max</French>
+		<German>Kontrollpunkte: %d1_Curr/%d2_Max</German>
+		<Italian>Control points: %d1_Curr/%d2_Max</Italian>
+		<Spanish>Control points: %d1_Curr/%d2_Max</Spanish>
+	</TEXT>	
+</Civ4GameText>

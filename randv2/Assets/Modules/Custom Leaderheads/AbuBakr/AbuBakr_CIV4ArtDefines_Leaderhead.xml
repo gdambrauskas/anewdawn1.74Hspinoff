@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:AbuBakr_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ABUBAKR</Type>
+			<Button>Modules/Custom Leaderheads/AbuBakr/AbuBakr.dds</Button>
+			<NIF>Modules/Custom Leaderheads/AbuBakr/abubakr.nif</NIF>
+			<KFM>Modules/Custom Leaderheads/AbuBakr/frederick_the_great.kfm</KFM>
+			<NoShaderNIF>Modules/Custom Leaderheads/AbuBakr/frederick_the_great_noshader.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom Leaderheads/AbuBakr/frederick_the_great_BG.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

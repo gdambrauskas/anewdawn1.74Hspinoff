@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SID_MEIER</Tag>
+		<English>Sid Meier</English>
+		<French>Sid Meier</French>
+		<German>Sid Meier</German>
+		<Italian>Sid Meier</Italian>
+		<Spanish>Sid Meier</Spanish>
+		<Finnish>Sid Meier</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ELI_WHITNEY</Tag>
+		<English>Eli Whitney</English>
+		<French>Eli Whitney</French>
+		<German>Eli Whitney</German>
+		<Italian>Eli Whitney</Italian>
+		<Spanish>Eli Whitney</Spanish>
+		<Finnish>Eli Whitney</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_IGOR_SIKORSKY</Tag>
+		<English>Igor Sikorsky</English>
+		<French>Igor Sikorsky</French>
+		<German>Igor Sikorsky</German>
+		<Italian>Igor Sikorsky</Italian>
+		<Spanish>Igor Sikorsky</Spanish>
+		<Finnish>Igor Sikorsky</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WESTINGHOUSE</Tag>
+		<English>George Westinghouse</English>
+		<French>George Westinghouse</French>
+		<German>George Westinghouse</German>
+		<Italian>George Westinghouse</Italian>
+		<Spanish>George Westinghouse</Spanish>
+		<Finnish>George Westinghouse</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FULTON</Tag>
+		<English>Robert Fulton</English>
+		<French>Robert Fulton</French>
+		<German>Robert Fulton</German>
+		<Italian>Robert Fulton</Italian>
+		<Spanish>Robert Fulton</Spanish>
+		<Finnish>Robert Fulton</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GODDARD</Tag>
+		<English>Robert H Goddard</English>
+		<French>Robert H Goddard</French>
+		<German>Robert H Goddard</German>
+		<Italian>Robert H Goddard</Italian>
+		<Spanish>Robert H Goddard</Spanish>
+		<Finnish>Robert H Goddard</Finnish>
+	</TEXT><TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANK_LLOYD_WRIGHT</Tag>
+		<English>Frank Lloyd Wright</English>
+		<French>Frank Lloyd Wright</French>
+		<German>Frank Lloyd Wright</German>
+		<Italian>Frank Lloyd Wright</Italian>
+		<Spanish>Frank Lloyd Wright</Spanish>
+		<Finnish>Frank Lloyd Wright</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VITRUVIUS</Tag>
+		<English>Vitruvius</English>
+		<French>Vitruvius</French>
+		<German>Vitruvius</German>
+		<Italian>Vitruvius</Italian>
+		<Spanish>Vitruvius</Spanish>
+		<Finnish>Vitruvius</Finnish>
+	</TEXT><TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SENEMUT</Tag>
+		<English>Senemut</English>
+		<French>Senemut</French>
+		<German>Senemut</German>
+		<Italian>Senemut</Italian>
+		<Spanish>Senemut</Spanish>
+		<Finnish>Senemut</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDWIN_ARMSTRONG</Tag>
+		<English>Edwin Armstrong</English>
+		<French>Edwin Armstrong</French>
+		<German>Edwin Armstrong</German>
+		<Italian>Edwin Armstrong</Italian>
+		<Spanish>Edwin Armstrong</Spanish>
+		<Finnish>Edwin Armstrong</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TIM_BERNERS</Tag>
+		<English>Tim Berners-Lee</English>
+		<French>Tim Berners-Lee</French>
+		<German>Tim Berners-Lee</German>
+		<Italian>Tim Berners-Lee</Italian>
+		<Spanish>Tim Berners-Lee</Spanish>
+		<Finnish>Tim Berners-Lee</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BRAILLE</Tag>
+		<English>Louis Braille</English>
+		<French>Louis Braille</French>
+		<German>Louis Braille</German>
+		<Italian>Louis Braille</Italian>
+		<Spanish>Louis Braille</Spanish>
+		<Finnish>Louis Braille</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FARNSWORTH</Tag>
+		<English>Philo Farnsworth</English>
+		<French>Philo Farnsworth</French>
+		<German>Philo Farnsworth</German>
+		<Italian>Philo Farnsworth</Italian>
+		<Spanish>Philo Farnsworth</Spanish>
+		<Finnish>Philo Farnsworth</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GUTENBERG</Tag>
+		<English>Johann Gutenberg</English>
+		<French>Johann Gutenberg</French>
+		<German>Johann Gutenberg</German>
+		<Italian>Johann Gutenberg</Italian>
+		<Spanish>Johann Gutenberg</Spanish>
+		<Finnish>Johann Gutenberg</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MORSE</Tag>
+		<English>Samuel Morse</English>
+		<French>Samuel Morse</French>
+		<German>Samuel Morse</German>
+		<Italian>Samuel Morse</Italian>
+		<Spanish>Samuel Morse</Spanish>
+		<Finnish>Samuel Morse</Finnish>
+	</TEXT><TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ADOLPHE_SAX</Tag>
+		<English>Adolphe Sax</English>
+		<French>Adolphe Sax</French>
+		<German>Adolphe Sax</German>
+		<Italian>Adolphe Sax</Italian>
+		<Spanish>Adolphe Sax</Spanish>
+		<Finnish>Adolphe Sax</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ENGELBART</Tag>
+		<English>Douglas Engelbart</English>
+		<French>Douglas Engelbart</French>
+		<German>Douglas Engelbart</German>
+		<Italian>Douglas Engelbart</Italian>
+		<Spanish>Douglas Engelbart</Spanish>
+		<Finnish>Douglas Engelbart</Finnish>
+	</TEXT><TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BERNOULLI</Tag>
+		<English>Daniel Bernoulli</English>
+		<French>Daniel Bernoulli</French>
+		<German>Daniel Bernoulli</German>
+		<Italian>Daniel Bernoulli</Italian>
+		<Spanish>Daniel Bernoulli</Spanish>
+		<Finnish>Daniel Bernoulli</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JDOG5000</Tag>
+		<English>Jdog5000</English>
+		<French>Jdog5000</French>
+		<German>Jdog5000</German>
+		<Italian>Jdog5000</Italian>
+		<Spanish>Jdog5000</Spanish>
+		<Finnish>Jdog5000</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GLIDER1</Tag>
+		<English>Glider1</English>
+		<French>Glider1</French>
+		<German>Glider1</German>
+		<Italian>Glider1</Italian>
+		<Spanish>Glider1</Spanish>
+		<Finnish>Glider1</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AFFORESS</Tag>
+		<English>Afforess</English>
+		<French>Afforess</French>
+		<German>Afforess</German>
+		<Italian>Afforess</Italian>
+		<Spanish>Afforess</Spanish>
+		<Finnish>Afforess</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PHUNGUS420</Tag>
+		<English>Phungus420</English>
+		<French>Phungus420</French>
+		<German>Phungus420</German>
+		<Italian>Phungus420</Italian>
+		<Spanish>Phungus420</Spanish>
+		<Finnish>Phungus420</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EF</Tag>
+		<English>EmperorFool</English>
+		<French>EmperorFool</French>
+		<German>EmperorFool</German>
+		<Italian>EmperorFool</Italian>
+		<Spanish>EmperorFool</Spanish>
+		<Finnish>EmperorFool</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ZAPPARA</Tag>
+		<English>Zappara</English>
+		<French>Zappara</French>
+		<German>Zappara</German>
+		<Italian>Zappara</Italian>
+		<Spanish>Zappara</Spanish>
+		<Finnish>Zappara</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_EASTMAN</Tag>
+		<English>George Eastman</English>
+		<French>George Eastman</French>
+		<German>George Eastman</German>
+		<Italian>George Eastman</Italian>
+		<Spanish>George Eastman</Spanish>
+		<Finnish>George Eastman</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_DEERE</Tag>
+		<English>John Deere</English>
+		<French>John Deere</French>
+		<German>John Deere</German>
+		<Italian>John Deere</Italian>
+		<Spanish>John Deere</Spanish>
+		<Finnish>John Deere</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_J_PAUL_GETTY</Tag>
+		<English>J Paul Getty</English>
+		<French>J Paul Getty</French>
+		<German>J Paul Getty</German>
+		<Italian>J Paul Getty</Italian>
+		<Spanish>J Paul Getty</Spanish>
+		<Finnish>J Paul Getty</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EZRA_CORNELL</Tag>
+		<English>Ezra Cornell</English>
+		<French>Ezra Cornell</French>
+		<German>Ezra Cornell</German>
+		<Italian>Ezra Cornell</Italian>
+		<Spanish>Ezra Cornell</Spanish>
+		<Finnish>Ezra Cornell</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HARVEY_S_FIRESTONE</Tag>
+		<English>Harvey S Firestone</English>
+		<French>Harvey S Firestone</French>
+		<German>Harvey S Firestone</German>
+		<Italian>Harvey S Firestone</Italian>
+		<Spanish>Harvey S Firestone</Spanish>
+		<Finnish>Harvey S Firestone</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAY_GOULD</Tag>
+		<English>Jay Gould</English>
+		<French>Jay Gould</French>
+		<German>Jay Gould</German>
+		<Italian>Jay Gould</Italian>
+		<Spanish>Jay Gould</Spanish>
+		<Finnish>Jay Gould</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEE_IACOCCA</Tag>
+		<English>Lee Iacocca</English>
+		<French>Lee Iacocca</French>
+		<German>Lee Iacocca</German>
+		<Italian>Lee Iacocca</Italian>
+		<Spanish>Lee Iacocca</Spanish>
+		<Finnish>Lee Iacocca</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DONALD_TRUMP</Tag>
+		<English>Donald Trump</English>
+		<French>Donald Trump</French>
+		<German>Donald Trump</German>
+		<Italian>Donald Trump</Italian>
+		<Spanish>Donald Trump</Spanish>
+		<Finnish>Donald Trump</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PAUL_ALLEN</Tag>
+		<English>Paul Allen</English>
+		<French>Paul Allen</French>
+		<German>Paul Allen</German>
+		<Italian>Paul Allen</Italian>
+		<Spanish>Paul Allen</Spanish>
+		<Finnish>Paul Allen</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ELIZABETH_ARDEN</Tag>
+		<English>Elizabeth Arden</English>
+		<French>Elizabeth Arden</French>
+		<German>Elizabeth Arden</German>
+		<Italian>Elizabeth Arden</Italian>
+		<Spanish>Elizabeth Arden</Spanish>
+		<Finnish>Elizabeth Arden</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARY_KAY_ASH</Tag>
+		<English>Mary Kay Ash</English>
+		<French>Mary Kay Ash</French>
+		<German>Mary Kay Ash</German>
+		<Italian>Mary Kay Ash</Italian>
+		<Spanish>Mary Kay Ash</Spanish>
+		<Finnish>Mary Kay Ash</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WARREN_BUFFETT</Tag>
+		<English>Warren Buffett</English>
+		<French>Warren Buffett</French>
+		<German>Warren Buffett</German>
+		<Italian>Warren Buffett</Italian>
+		<Spanish>Warren Buffett</Spanish>
+		<Finnish>Warren Buffett</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_CADBURY</Tag>
+		<English>George Cadbury</English>
+		<French>George Cadbury</French>
+		<German>George Cadbury</German>
+		<Italian>George Cadbury</Italian>
+		<Spanish>George Cadbury</Spanish>
+		<Finnish>George Cadbury</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDWARD_COKE</Tag>
+		<English>Edward Coke</English>
+		<French>Edward Coke</French>
+		<German>Edward Coke</German>
+		<Italian>Edward Coke</Italian>
+		<Spanish>Edward Coke</Spanish>
+		<Finnish>Edward Coke</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WALT_DISNEY</Tag>
+		<English>Walt Disney</English>
+		<French>Walt Disney</French>
+		<German>Walt Disney</German>
+		<Italian>Walt Disney</Italian>
+		<Spanish>Walt Disney</Spanish>
+		<Finnish>Walt Disney</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARSHALL_FIELD</Tag>
+		<English>Marshall Field</English>
+		<French>Marshall Field</French>
+		<German>Marshall Field</German>
+		<Italian>Marshall Field</Italian>
+		<Spanish>Marshall Field</Spanish>
+		<Finnish>Marshall Field</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAMUEL_GOLDWYN</Tag>
+		<English>Samuel Goldwyn</English>
+		<French>Samuel Goldwyn</French>
+		<German>Samuel Goldwyn</German>
+		<Italian>Samuel Goldwyn</Italian>
+		<Spanish>Samuel Goldwyn</Spanish>
+		<Finnish>Samuel Goldwyn</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ARMAND_HAMMER</Tag>
+		<English>Armand Hammer</English>
+		<French>Armand Hammer</French>
+		<German>Armand Hammer</German>
+		<Italian>Armand Hammer</Italian>
+		<Spanish>Armand Hammer</Spanish>
+		<Finnish>Armand Hammer</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAMES_J_HILL</Tag>
+		<English>James J Hill</English>
+		<French>James J Hill</French>
+		<German>James J Hill</German>
+		<Italian>James J Hill</Italian>
+		<Spanish>James J Hill</Spanish>
+		<Finnish>James J Hill</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JP_MORGAN</Tag>
+		<English>JP Morgan</English>
+		<French>JP Morgan</French>
+		<German>JP Morgan</German>
+		<Italian>JP Morgan</Italian>
+		<Spanish>JP Morgan</Spanish>
+		<Finnish>JP Morgan</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LEVI_STRAUSS</Tag>
+		<English>Levi Strauss</English>
+		<French>Levi Strauss</French>
+		<German>Levi Strauss</German>
+		<Italian>Levi Strauss</Italian>
+		<Spanish>Levi Strauss</Spanish>
+		<Finnish>Levi Strauss</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HIPPOCRATES</Tag>
+		<English>Hippocrates</English>
+		<French>Hippocrates</French>
+		<German>Hippocrates</German>
+		<Italian>Hippocrates</Italian>
+		<Spanish>Hippocrates</Spanish>
+		<Finnish>Hippocrates</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PARACELSUS</Tag>
+		<English>Paracelsus</English>
+		<French>Paracelsus</French>
+		<German>Paracelsus</German>
+		<Italian>Paracelsus</Italian>
+		<Spanish>Paracelsus</Spanish>
+		<Finnish>Paracelsus</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LUIS_WALTER_ALVAREZ</Tag>
+		<English>Luis Walter Alvarez</English>
+		<French>Luis Walter Alvarez</French>
+		<German>Luis Walter Alvarez</German>
+		<Italian>Luis Walter Alvarez</Italian>
+		<Spanish>Luis Walter Alvarez</Spanish>
+		<Finnish>Luis Walter Alvarez</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FELIX_HOFFMAN</Tag>
+		<English>Felix Hoffman</English>
+		<French>Felix Hoffman</French>
+		<German>Felix Hoffman</German>
+		<Italian>Felix Hoffman</Italian>
+		<Spanish>Felix Hoffman</Spanish>
+		<Finnish>Felix Hoffman</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALFRED_NOBEL</Tag>
+		<English>Alfred Nobel</English>
+		<French>Alfred Nobel</French>
+		<German>Alfred Nobel</German>
+		<Italian>Alfred Nobel</Italian>
+		<Spanish>Alfred Nobel</Spanish>
+		<Finnish>Alfred Nobel</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ISAAC_ASIMOV</Tag>
+		<English>Isaac Asimov</English>
+		<French>Isaac Asimov</French>
+		<German>Isaac Asimov</German>
+		<Italian>Isaac Asimov</Italian>
+		<Spanish>Isaac Asimov</Spanish>
+		<Finnish>Isaac Asimov</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_JAMES_AUDUBON</Tag>
+		<English>John James Audubon</English>
+		<French>John James Audubon</French>
+		<German>John James Audubon</German>
+		<Italian>John James Audubon</Italian>
+		<Spanish>John James Audubon</Spanish>
+		<Finnish>John James Audubon</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ELIZABETH_BLACKWELL</Tag>
+		<English>Elizabeth Blackwell</English>
+		<French>Elizabeth Blackwell</French>
+		<German>Elizabeth Blackwell</German>
+		<Italian>Elizabeth Blackwell</Italian>
+		<Spanish>Elizabeth Blackwell</Spanish>
+		<Finnish>Elizabeth Blackwell</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DIAN_FOSSEY</Tag>
+		<English>Dian Fossey</English>
+		<French>Dian Fossey</French>
+		<German>Dian Fossey</German>
+		<Italian>Dian Fossey</Italian>
+		<Spanish>Dian Fossey</Spanish>
+		<Finnish>Dian Fossey</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_AGASSIZ</Tag>
+		<English>Louis Agassiz</English>
+		<French>Louis Agassiz</French>
+		<German>Louis Agassiz</German>
+		<Italian>Louis Agassiz</Italian>
+		<Spanish>Louis Agassiz</Spanish>
+		<Finnish>Louis Agassiz</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_BALLARD</Tag>
+		<English>Robert Ballard</English>
+		<French>Robert Ballard</French>
+		<German>Robert Ballard</German>
+		<Italian>Robert Ballard</Italian>
+		<Spanish>Robert Ballard</Spanish>
+		<Finnish>Robert Ballard</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BENJAMIN_BANNEKER</Tag>
+		<English>Benjamin Banneker</English>
+		<French>Benjamin Banneker</French>
+		<German>Benjamin Banneker</German>
+		<Italian>Benjamin Banneker</Italian>
+		<Spanish>Benjamin Banneker</Spanish>
+		<Finnish>Benjamin Banneker</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_BENTHAM</Tag>
+		<English>George Bentham</English>
+		<French>George Bentham</French>
+		<German>George Bentham</German>
+		<Italian>George Bentham</Italian>
+		<Spanish>George Bentham</Spanish>
+		<Finnish>George Bentham</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HOWARD_CARTER</Tag>
+		<English>Howard Carter</English>
+		<French>Howard Carter</French>
+		<German>Howard Carter</German>
+		<Italian>Howard Carter</Italian>
+		<Spanish>Howard Carter</Spanish>
+		<Finnish>Howard Carter</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DOCTOR_EMMETT_BROWN</Tag>
+		<English>Doctor Emmett Brown</English>
+		<French>Doctor Emmett Brown</French>
+		<German>Doctor Emmett Brown</German>
+		<Italian>Doctor Emmett Brown</Italian>
+		<Spanish>Doctor Emmett Brown</Spanish>
+		<Finnish>Doctor Emmett Brown</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDSGER_DIJKSTRA</Tag>
+		<English>Edsger Dijkstra</English>
+		<French>Edsger Dijkstra</French>
+		<German>Edsger Dijkstra</German>
+		<Italian>Edsger Dijkstra</Italian>
+		<Spanish>Edsger Dijkstra</Spanish>
+		<Finnish>Edsger Dijkstra</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ARTHUR_STANLEY_EDDINGTON</Tag>
+		<English>Arthur Stanley Eddington</English>
+		<French>Arthur Stanley Eddington</French>
+		<German>Arthur Stanley Eddington</German>
+		<Italian>Arthur Stanley Eddington</Italian>
+		<Spanish>Arthur Stanley Eddington</Spanish>
+		<Finnish>Arthur Stanley Eddington</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDWIN_HUBBLE</Tag>
+		<English>Edwin Hubble</English>
+		<French>Edwin Hubble</French>
+		<German>Edwin Hubble</German>
+		<Italian>Edwin Hubble</Italian>
+		<Spanish>Edwin Hubble</Spanish>
+		<Finnish>Edwin Hubble</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_PRIESTLEY</Tag>
+		<English>Joseph Priestley</English>
+		<French>Joseph Priestley</French>
+		<German>Joseph Priestley</German>
+		<Italian>Joseph Priestley</Italian>
+		<Spanish>Joseph Priestley</Spanish>
+		<Finnish>Joseph Priestley</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JONAS_SALK</Tag>
+		<English>Jonas Salk</English>
+		<French>Jonas Salk</French>
+		<German>Jonas Salk</German>
+		<Italian>Jonas Salk</Italian>
+		<Spanish>Jonas Salk</Spanish>
+		<Finnish>Jonas Salk</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDER_FLEMING</Tag>
+		<English>Alexander Fleming</English>
+		<French>Alexander Fleming</French>
+		<German>Alexander Fleming</German>
+		<Italian>Alexander Fleming</Italian>
+		<Spanish>Alexander Fleming</Spanish>
+		<Finnish>Alexander Fleming</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CIV_FUEHRER</Tag>
+		<English>Civ Fuehrer</English>
+		<French>Civ Fuehrer</French>
+		<German>Civ Fuehrer</German>
+		<Italian>Civ Fuehrer</Italian>
+		<Spanish>Civ Fuehrer</Spanish>
+		<Finnish>Civ Fuehrer</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HYDROMANCERX</Tag>
+		<English>HydromancerX</English>
+		<French>HydromancerX</French>
+		<German>HydromancerX</German>
+		<Italian>HydromancerX</Italian>
+		<Spanish>HydromancerX</Spanish>
+		<Finnish>HydromancerX</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANK_FRAZETTA</Tag>
+		<English>Frank Frazetta</English>
+		<French>Frank Frazetta</French>
+		<German>Frank Frazetta</German>
+		<Italian>Frank Frazetta</Italian>
+		<Spanish>Frank Frazetta</Spanish>
+		<Finnish>Frank Frazetta</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BARRY_WINDSOR_SMITH</Tag>
+		<English>Barry Windsor-Smith</English>
+		<French>Barry Windsor-Smith</French>
+		<German>Barry Windsor-Smith</German>
+		<Italian>Barry Windsor-Smith</Italian>
+		<Spanish>Barry Windsor-Smith</Spanish>
+		<Finnish>Barry Windsor-Smith</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RABBIT_WHITE</Tag>
+		<English>Rabbit, White</English>
+		<French>Rabbit, White</French>
+		<German>Rabbit, White</German>
+		<Italian>Rabbit, White</Italian>
+		<Spanish>Rabbit, White</Spanish>
+		<Finnish>Rabbit, White</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_E_HOWARD</Tag>
+		<English>Robert E Howard</English>
+		<French>Robert E Howard</French>
+		<German>Robert E Howard</German>
+		<Italian>Robert E Howard</Italian>
+		<Spanish>Robert E Howard</Spanish>
+		<Finnish>Robert E Howard</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PAUL_CEZANNE</Tag>
+		<English>Paul Cezanne</English>
+		<French>Paul Cezanne</French>
+		<German>Paul Cezanne</German>
+		<Italian>Paul Cezanne</Italian>
+		<Spanish>Paul Cezanne</Spanish>
+		<Finnish>Paul Cezanne</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JANIS_JOPLIN</Tag>
+		<English>Janis Joplin</English>
+		<French>Janis Joplin</French>
+		<German>Janis Joplin</German>
+		<Italian>Janis Joplin</Italian>
+		<Spanish>Janis Joplin</Spanish>
+		<Finnish>Janis Joplin</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDGAR_RICE_BURROUGHS</Tag>
+		<English>Edgar Rice Burroughs</English>
+		<French>Edgar Rice Burroughs</French>
+		<German>Edgar Rice Burroughs</German>
+		<Italian>Edgar Rice Burroughs</Italian>
+		<Spanish>Edgar Rice Burroughs</Spanish>
+		<Finnish>Edgar Rice Burroughs</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JIMI_HENDRIX</Tag>
+		<English>Jimi Hendrix</English>
+		<French>Jimi Hendrix</French>
+		<German>Jimi Hendrix</German>
+		<Italian>Jimi Hendrix</Italian>
+		<Spanish>Jimi Hendrix</Spanish>
+		<Finnish>Jimi Hendrix</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PAUL_GAUGUIN</Tag>
+		<English>Paul Gauguin</English>
+		<French>Paul Gauguin</French>
+		<German>Paul Gauguin</German>
+		<Italian>Paul Gauguin</Italian>
+		<Spanish>Paul Gauguin</Spanish>
+		<Finnish>Paul Gauguin</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SALVADOR_DALI</Tag>
+		<English>Salvador Dali</English>
+		<French>Salvador Dali</French>
+		<German>Salvador Dali</German>
+		<Italian>Salvador Dali</Italian>
+		<Spanish>Salvador Dali</Spanish>
+		<Finnish>Salvador Dali</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_HENRI_MATISSE</Tag>
+		<English>Henri Matisse</English>
+		<French>Henri Matisse</French>
+		<German>Henri Matisse</German>
+		<Italian>Henri Matisse</Italian>
+		<Spanish>Henri Matisse</Spanish>
+		<Finnish>Henri Matisse</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GRANDMA_MOSES</Tag>
+		<English>Grandma Moses</English>
+		<French>Grandma Moses</French>
+		<German>Grandma Moses</German>
+		<Italian>Grandma Moses</Italian>
+		<Spanish>Grandma Moses</Spanish>
+		<Finnish>Grandma Moses</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SANDRO_BOTTICELLI</Tag>
+		<English>Sandro Botticelli</English>
+		<French>Sandro Botticelli</French>
+		<German>Sandro Botticelli</German>
+		<Italian>Sandro Botticelli</Italian>
+		<Spanish>Sandro Botticelli</Spanish>
+		<Finnish>Sandro Botticelli</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GIOTTO_DI_BONDONE</Tag>
+		<English>Giotto di Bondone</English>
+		<French>Giotto di Bondone</French>
+		<German>Giotto di Bondone</German>
+		<Italian>Giotto di Bondone</Italian>
+		<Spanish>Giotto di Bondone</Spanish>
+		<Finnish>Giotto di Bondone</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRA_ANGELICO</Tag>
+		<English>Fra Angelico</English>
+		<French>Fra Angelico</French>
+		<German>Fra Angelico</German>
+		<Italian>Fra Angelico</Italian>
+		<Spanish>Fra Angelico</Spanish>
+		<Finnish>Fra Angelico</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CARAVAGGIO</Tag>
+		<English>Caravaggio</English>
+		<French>Caravaggio</French>
+		<German>Caravaggio</German>
+		<Italian>Caravaggio</Italian>
+		<Spanish>Caravaggio</Spanish>
+		<Finnish>Caravaggio</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARC_CHAGALL</Tag>
+		<English>Marc Chagall</English>
+		<French>Marc Chagall</French>
+		<German>Marc Chagall</German>
+		<Italian>Marc Chagall</Italian>
+		<Spanish>Marc Chagall</Spanish>
+		<Finnish>Marc Chagall</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_CONSTABLE</Tag>
+		<English>John Constable</English>
+		<French>John Constable</French>
+		<German>John Constable</German>
+		<Italian>John Constable</Italian>
+		<Spanish>John Constable</Spanish>
+		<Finnish>John Constable</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EDGAR_DEGAS</Tag>
+		<English>Edgar Degas</English>
+		<French>Edgar Degas</French>
+		<German>Edgar Degas</German>
+		<Italian>Edgar Degas</Italian>
+		<Spanish>Edgar Degas</Spanish>
+		<Finnish>Edgar Degas</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RENOIR</Tag>
+		<English>Renoir</English>
+		<French>Renoir</French>
+		<German>Renoir</German>
+		<Italian>Renoir</Italian>
+		<Spanish>Renoir</Spanish>
+		<Finnish>Renoir</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAMES_MCNEILL_WHISTLER</Tag>
+		<English>James McNeill Whistler</English>
+		<French>James McNeill Whistler</French>
+		<German>James McNeill Whistler</German>
+		<Italian>James McNeill Whistler</Italian>
+		<Spanish>James McNeill Whistler</Spanish>
+		<Finnish>James McNeill Whistler</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RAY_BRADBURY</Tag>
+		<English>Ray Bradbury</English>
+		<French>Ray Bradbury</French>
+		<German>Ray Bradbury</German>
+		<Italian>Ray Bradbury</Italian>
+		<Spanish>Ray Bradbury</Spanish>
+		<Finnish>Ray Bradbury</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ARTHUR_CONAN_DOYLE</Tag>
+		<English>Arthur Conan Doyle</English>
+		<French>Arthur Conan Doyle</French>
+		<German>Arthur Conan Doyle</German>
+		<Italian>Arthur Conan Doyle</Italian>
+		<Spanish>Arthur Conan Doyle</Spanish>
+		<Finnish>Arthur Conan Doyle</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRANK_HERBERT</Tag>
+		<English>Frank Herbert</English>
+		<French>Frank Herbert</French>
+		<German>Frank Herbert</German>
+		<Italian>Frank Herbert</Italian>
+		<Spanish>Frank Herbert</Spanish>
+		<Finnish>Frank Herbert</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SMEAGOLHEART</Tag>
+		<English>SmeagolHeart</English>
+		<French>SmeagolHeart</French>
+		<German>SmeagolHeart</German>
+		<Italian>SmeagolHeart</Italian>
+		<Spanish>SmeagolHeart</Spanish>
+		<Finnish>SmeagolHeart</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NOSTRADAMUS</Tag>
+		<English>Nostradamus</English>
+		<French>Nostradamus</French>
+		<German>Nostradamus</German>
+		<Italian>Nostradamus</Italian>
+		<Spanish>Nostradamus</Spanish>
+		<Finnish>Nostradamus</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SHIRDI_SAI_BABA</Tag>
+		<English>Shirdi Sai Baba</English>
+		<French>Shirdi Sai Baba</French>
+		<German>Shirdi Sai Baba</German>
+		<Italian>Shirdi Sai Baba</Italian>
+		<Spanish>Shirdi Sai Baba</Spanish>
+		<Finnish>Shirdi Sai Baba</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CONFUCIUS</Tag>
+		<English>Confucius</English>
+		<French>Confucius</French>
+		<German>Confucius</German>
+		<Italian>Confucius</Italian>
+		<Spanish>Confucius</Spanish>
+		<Finnish>Confucius</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THEOPHRASTUS</Tag>
+		<English>Theophrastus</English>
+		<French>Theophrastus</French>
+		<German>Theophrastus</German>
+		<Italian>Theophrastus</Italian>
+		<Spanish>Theophrastus</Spanish>
+		<Finnish>Theophrastus</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_THALES</Tag>
+		<English>Thales</English>
+		<French>Thales</French>
+		<German>Thales</German>
+		<Italian>Thales</Italian>
+		<Spanish>Thales</Spanish>
+		<Finnish>Thales</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_FRIEDRICH_NIETZSCHE</Tag>
+		<English>Friedrich Nietzsche</English>
+		<French>Friedrich Nietzsche</French>
+		<German>Friedrich Nietzsche</German>
+		<Italian>Friedrich Nietzsche</Italian>
+		<Spanish>Friedrich Nietzsche</Spanish>
+		<Finnish>Friedrich Nietzsche</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MAIMONIDES</Tag>
+		<English>Maimonides</English>
+		<French>Maimonides</French>
+		<German>Maimonides</German>
+		<Italian>Maimonides</Italian>
+		<Spanish>Maimonides</Spanish>
+		<Finnish>Maimonides</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AVICENNA</Tag>
+		<English>Avicenna</English>
+		<French>Avicenna</French>
+		<German>Avicenna</German>
+		<Italian>Avicenna</Italian>
+		<Spanish>Avicenna</Spanish>
+		<Finnish>Avicenna</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MADAME_BLAVATSKY</Tag>
+		<English>Madame Blavatsky</English>
+		<French>Madame Blavatsky</French>
+		<German>Madame Blavatsky</German>
+		<Italian>Madame Blavatsky</Italian>
+		<Spanish>Madame Blavatsky</Spanish>
+		<Finnish>Madame Blavatsky</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_TITOR</Tag>
+		<English>John Titor</English>
+		<French>John Titor</French>
+		<German>John Titor</German>
+		<Italian>John Titor</Italian>
+		<Spanish>John Titor</Spanish>
+		<Finnish>John Titor</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANACHARSIS</Tag>
+		<English>Anacharsis</English>
+		<French>Anacharsis</French>
+		<German>Anacharsis</German>
+		<Italian>Anacharsis</Italian>
+		<Spanish>Anacharsis</Spanish>
+		<Finnish>Anacharsis</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ISAIAH</Tag>
+		<English>Isaiah</English>
+		<French>Isaiah</French>
+		<German>Isaiah</German>
+		<Italian>Isaiah</Italian>
+		<Spanish>Isaiah</Spanish>
+		<Finnish>Isaiah</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GAUTAMA_BUDDHA</Tag>
+		<English>Gautama Buddha</English>
+		<French>Gautama Buddha</French>
+		<German>Gautama Buddha</German>
+		<Italian>Gautama Buddha</Italian>
+		<Spanish>Gautama Buddha</Spanish>
+		<Finnish>Gautama Buddha</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAINT_FRANCIS_OF_ASSISI</Tag>
+		<English>Saint Francis of Assisi</English>
+		<French>Saint Francis of Assisi</French>
+		<German>Saint Francis of Assisi</German>
+		<Italian>Saint Francis of Assisi</Italian>
+		<Spanish>Saint Francis of Assisi</Spanish>
+		<Finnish>Saint Francis of Assisi</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JAN_HUS</Tag>
+		<English>Jan Hus</English>
+		<French>Jan Hus</French>
+		<German>Jan Hus</German>
+		<Italian>Jan Hus</Italian>
+		<Spanish>Jan Hus</Spanish>
+		<Finnish>Jan Hus</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MARTIN_LUTHER</Tag>
+		<English>Martin Luther</English>
+		<French>Martin Luther</French>
+		<German>Martin Luther</German>
+		<Italian>Martin Luther</Italian>
+		<Spanish>Martin Luther</Spanish>
+		<Finnish>Martin Luther</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAINT_IGNATIUS_OF_LOYOLA</Tag>
+		<English>Saint Ignatius of Loyola</English>
+		<French>Saint Ignatius of Loyola</French>
+		<German>Saint Ignatius of Loyola</German>
+		<Italian>Saint Ignatius of Loyola</Italian>
+		<Spanish>Saint Ignatius of Loyola</Spanish>
+		<Finnish>Saint Ignatius of Loyola</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_FOX</Tag>
+		<English>George Fox</English>
+		<French>George Fox</French>
+		<German>George Fox</German>
+		<Italian>George Fox</Italian>
+		<Spanish>George Fox</Spanish>
+		<Finnish>George Fox</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_WESLEY</Tag>
+		<English>John Wesley</English>
+		<French>John Wesley</French>
+		<German>John Wesley</German>
+		<Italian>John Wesley</Italian>
+		<Spanish>John Wesley</Spanish>
+		<Finnish>John Wesley</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BRIGHAM_YOUNG</Tag>
+		<English>Brigham Young</English>
+		<French>Brigham Young</French>
+		<German>Brigham Young</German>
+		<Italian>Brigham Young</Italian>
+		<Spanish>Brigham Young</Spanish>
+		<Finnish>Brigham Young</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SABBATAI_ZEVI</Tag>
+		<English>Sabbatai Zevi</English>
+		<French>Sabbatai Zevi</French>
+		<German>Sabbatai Zevi</German>
+		<Italian>Sabbatai Zevi</Italian>
+		<Spanish>Sabbatai Zevi</Spanish>
+		<Finnish>Sabbatai Zevi</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AL_MAHDI</Tag>
+		<English>Al-Mahdi</English>
+		<French>Al-Mahdi</French>
+		<German>Al-Mahdi</German>
+		<Italian>Al-Mahdi</Italian>
+		<Spanish>Al-Mahdi</Spanish>
+		<Finnish>Al-Mahdi</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ABRAHAM</Tag>
+		<English>Abraham</English>
+		<French>Abraham</French>
+		<German>Abraham</German>
+		<Italian>Abraham</Italian>
+		<Spanish>Abraham</Spanish>
+		<Finnish>Abraham</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_BAHA_U_LLAH</Tag>
+		<English>Baha'u'llah</English>
+		<French>Baha'u'llah</French>
+		<German>Baha'u'llah</German>
+		<Italian>Baha'u'llah</Italian>
+		<Spanish>Baha'u'llah</Spanish>
+		<Finnish>Baha'u'llah</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOAN_ARC</Tag>
+		<English>Joan Arc</English>
+		<French>Joan Arc</French>
+		<German>Joan Arc</German>
+		<Italian>Joan Arc</Italian>
+		<Spanish>Joan Arc</Spanish>
+		<Finnish>Joan Arc</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_CHAING_KAI_SHEK</Tag>
+		<English>Chaing Kai-shek</English>
+		<French>Chaing Kai-shek</French>
+		<German>Chaing Kai-shek</German>
+		<Italian>Chaing Kai-shek</Italian>
+		<Spanish>Chaing Kai-shek</Spanish>
+		<Finnish>Chaing Kai-shek</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DAVID_BEN_GURION</Tag>
+		<English>David Ben-Gurion</English>
+		<French>David Ben-Gurion</French>
+		<German>David Ben-Gurion</German>
+		<Italian>David Ben-Gurion</Italian>
+		<Spanish>David Ben-Gurion</Spanish>
+		<Finnish>David Ben-Gurion</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DOUGLAS_MACARTHUR</Tag>
+		<English>Douglas MacArthur</English>
+		<French>Douglas MacArthur</French>
+		<German>Douglas MacArthur</German>
+		<Italian>Douglas MacArthur</Italian>
+		<Spanish>Douglas MacArthur</Spanish>
+		<Finnish>Douglas MacArthur</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DWIGHT_D_EISENHOWER</Tag>
+		<English>Dwight D Eisenhower</English>
+		<French>Dwight D Eisenhower</French>
+		<German>Dwight D Eisenhower</German>
+		<Italian>Dwight D Eisenhower</Italian>
+		<Spanish>Dwight D Eisenhower</Spanish>
+		<Finnish>Dwight D Eisenhower</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_EHUD_BARAK</Tag>
+		<English>Ehud Barak</English>
+		<French>Ehud Barak</French>
+		<German>Ehud Barak</German>
+		<Italian>Ehud Barak</Italian>
+		<Spanish>Ehud Barak</Spanish>
+		<Finnish>Ehud Barak</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MUSTAFA_KEMAL</Tag>
+		<English>Mustafa Kemal</English>
+		<French>Mustafa Kemal</French>
+		<German>Mustafa Kemal</German>
+		<Italian>Mustafa Kemal</Italian>
+		<Spanish>Mustafa Kemal</Spanish>
+		<Finnish>Mustafa Kemal</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_NORMAN_SCHWARZKOPF</Tag>
+		<English>Norman Schwarzkopf</English>
+		<French>Norman Schwarzkopf</French>
+		<German>Norman Schwarzkopf</German>
+		<Italian>Norman Schwarzkopf</Italian>
+		<Spanish>Norman Schwarzkopf</Spanish>
+		<Finnish>Norman Schwarzkopf</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_RICHARD_THE_LION_HEARTED</Tag>
+		<English>Richard the Lion-Hearted</English>
+		<French>Richard the Lion-Hearted</French>
+		<German>Richard the Lion-Hearted</German>
+		<Italian>Richard the Lion-Hearted</Italian>
+		<Spanish>Richard the Lion-Hearted</Spanish>
+		<Finnish>Richard the Lion-Hearted</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SIMON_BOLIVAR</Tag>
+		<English>Simon Bolivar</English>
+		<French>Simon Bolivar</French>
+		<German>Simon Bolivar</German>
+		<Italian>Simon Bolivar</Italian>
+		<Spanish>Simon Bolivar</Spanish>
+		<Finnish>Simon Bolivar</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_TAMERLANE</Tag>
+		<English>Tamerlane</English>
+		<French>Tamerlane</French>
+		<German>Tamerlane</German>
+		<Italian>Tamerlane</Italian>
+		<Spanish>Tamerlane</Spanish>
+		<Finnish>Tamerlane</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ULYSSES_S_GRANT</Tag>
+		<English>Ulysses S Grant</English>
+		<French>Ulysses S Grant</French>
+		<German>Ulysses S Grant</German>
+		<Italian>Ulysses S Grant</Italian>
+		<Spanish>Ulysses S Grant</Spanish>
+		<Finnish>Ulysses S Grant</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VO_NGUYEN_GIAP</Tag>
+		<English>Vo Nguyen Giap</English>
+		<French>Vo Nguyen Giap</French>
+		<German>Vo Nguyen Giap</German>
+		<Italian>Vo Nguyen Giap</Italian>
+		<Spanish>Vo Nguyen Giap</Spanish>
+		<Finnish>Vo Nguyen Giap</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_TECUMSEH_SHERMAN</Tag>
+		<English>William Tecumseh Sherman</English>
+		<French>William Tecumseh Sherman</French>
+		<German>William Tecumseh Sherman</German>
+		<Italian>William Tecumseh Sherman</Italian>
+		<Spanish>William Tecumseh Sherman</Spanish>
+		<Finnish>William Tecumseh Sherman</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DAVID_DIXON_PORTER</Tag>
+		<English>David Dixon Porter</English>
+		<French>David Dixon Porter</French>
+		<German>David Dixon Porter</German>
+		<Italian>David Dixon Porter</Italian>
+		<Spanish>David Dixon Porter</Spanish>
+		<Finnish>David Dixon Porter</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_ANTHONY_MCAULIFFE</Tag>
+		<English>Anthony McAuliffe</English>
+		<French>Anthony McAuliffe</French>
+		<German>Anthony McAuliffe</German>
+		<Italian>Anthony McAuliffe</Italian>
+		<Spanish>Anthony McAuliffe</Spanish>
+		<Finnish>Anthony McAuliffe</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_VASILY_CHUIKOV</Tag>
+		<English>Vasily Chuikov</English>
+		<French>Vasily Chuikov</French>
+		<German>Vasily Chuikov</German>
+		<Italian>Vasily Chuikov</Italian>
+		<Spanish>Vasily Chuikov</Spanish>
+		<Finnish>Vasily Chuikov</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PYRRHUS_OF_EPIRUS</Tag>
+		<English>Pyrrhus of Epirus</English>
+		<French>Pyrrhus of Epirus</French>
+		<German>Pyrrhus of Epirus</German>
+		<Italian>Pyrrhus of Epirus</Italian>
+		<Spanish>Pyrrhus of Epirus</Spanish>
+		<Finnish>Pyrrhus of Epirus</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_MERNEPTAH</Tag>
+		<English>Merneptah</English>
+		<French>Merneptah</French>
+		<German>Merneptah</German>
+		<Italian>Merneptah</Italian>
+		<Spanish>Merneptah</Spanish>
+		<Finnish>Merneptah</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_JOSHUA</Tag>
+		<English>Joshua</English>
+		<French>Joshua</French>
+		<German>Joshua</German>
+		<Italian>Joshua</Italian>
+		<Spanish>Joshua</Spanish>
+		<Finnish>Joshua</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_AGAMEMNON</Tag>
+		<English>Agamemnon</English>
+		<French>Agamemnon</French>
+		<German>Agamemnon</German>
+		<Italian>Agamemnon</Italian>
+		<Spanish>Agamemnon</Spanish>
+		<Finnish>Agamemnon</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_SAMUDRAGUPTA</Tag>
+		<English>Samudragupta</English>
+		<French>Samudragupta</French>
+		<German>Samudragupta</German>
+		<Italian>Samudragupta</Italian>
+		<Spanish>Samudragupta</Spanish>
+		<Finnish>Samudragupta</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_DARIUS_THE_GREAT</Tag>
+		<English>Darius the Great</English>
+		<French>Darius the Great</French>
+		<German>Darius the Great</German>
+		<Italian>Darius the Great</Italian>
+		<Spanish>Darius the Great</Spanish>
+		<Finnish>Darius the Great</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_PERICLES</Tag>
+		<English>Pericles</English>
+		<French>Pericles</French>
+		<German>Pericles</German>
+		<Italian>Pericles</Italian>
+		<Spanish>Pericles</Spanish>
+		<Finnish>Pericles</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_WALLACE</Tag>
+		<English>William Wallace</English>
+		<French>William Wallace</French>
+		<German>William Wallace</German>
+		<Italian>William Wallace</Italian>
+		<Spanish>William Wallace</Spanish>
+		<Finnish>William Wallace</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_OS79</Tag>
+		<English>OS79</English>
+		<French>OS79</French>
+		<German>OS79</German>
+		<Italian>OS79</Italian>
+		<Spanish>OS79</Spanish>
+		<Finnish>OS79</Finnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREAT_PERSON_KILLTECH</Tag>
+		<English>Killtech</English>
+		<French>Killtech</French>
+		<German>Killtech</German>
+		<Italian>Killtech</Italian>
+		<Spanish>Killtech</Spanish>
+		<Finnish>Killtech</Finnish>
+	</TEXT>
+</Civ4GameText>

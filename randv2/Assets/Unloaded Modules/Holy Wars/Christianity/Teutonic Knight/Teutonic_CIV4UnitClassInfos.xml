@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- UnitClass Schema -->
+<Civ4UnitClassInfos xmlns="x-schema:Teutonic_CIV4UnitSchema.xml">
+	<UnitClassInfos>
+		<UnitClassInfo>
+			<Type>UNITCLASS_KNIGHT_TEUTONIC</Type>
+			<Description>TXT_KEY_UNIT_KNIGHT_TEUTONIC</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_KNIGHT_TEUTONIC</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_MARSHALL_TEUTONIC</Type>
+			<Description>TXT_KEY_UNIT_MARSHALL_TEUTONIC</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_MARSHALL_TEUTONIC</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_SERGEANT_TEUTONIC</Type>
+			<Description>TXT_KEY_UNIT_SERGEANT_TEUTONIC</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_SERGEANT_TEUTONIC</DefaultUnit>
+		</UnitClassInfo>
+	</UnitClassInfos>
+</Civ4UnitClassInfos>

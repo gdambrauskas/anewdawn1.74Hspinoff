@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+	Autolog
+	Options Game Text
+
+	Copyright (c) 2009 The BUG Mod.
+-->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__ENABLED_TEXT</Tag>
+		<English>Enable Logging</English>
+		<French>Activer le log</French>
+		<German>Protokollierung aktivieren</German>
+		<Italian>Abilita Registro Automatico</Italian>
+		<Spanish>Activa Trazas Log</Spanish>
+		<Finnish>Enable Logging</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__ENABLED_HOVER</Tag>
+		<English>When checked, various game events are logged to a text file using eotinb's AutoLog mod.</English>
+		<French>Lorsque activé, plusieurs évènements du jeu sont loggés dans un fichier texte grâce au mod AutoLog de eotinb.</French>
+		<German>Protokolliert verschiedene Spielereignisse in einer Textdatei (verwendet eotinbs "AutoLog"-Mod)</German>
+		<Italian>Quando &#232; selezionato, vari eventi di gioco vengono registrati in un file  (utilizzando l'AutoLog Mod di Eotinb).</Italian>
+		<Spanish>Cuando se activa, algunos eventos del juego se guardan en un fichero de texto utilizando eotinb's AutoLog mod.</Spanish>
+		<Finnish>When checked, various game events are logged to a text file using eotinb's AutoLog mod.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__SILENT_TEXT</Tag>
+		<English>Start Automatically</English>
+		<French>Démarrage Silencieux</French>
+		<German>Automatischer Start</German>
+		<Italian>Avvio automatico</Italian>
+		<Spanish>Comienzo Autom&#225;tico</Spanish>
+		<Finnish>Start Automatically</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__SILENT_HOVER</Tag>
+		<English>When checked, the logger is automatically started and doesn't wait for the manual start (or stop) command which can be issued by using [Alt + L].</English>
+		<French>Lorsque activé, Autolog est démarré automatiquement sans message à l'écran.</French>
+		<German>Startet die Protokollierung automatisch, ohne darauf zu warten, dass diese mit der Tastenkombination [ALT + L] gestartet oder gestoppt wird</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico viene avviato automaticamente; quando non &#232; selezionato, il Registro Automatico deve essere avviato (ed eventualmente arrestato) utilizzando il comando [Alt + L].</Italian>
+		<Spanish>Cuando se activa, las trazas se inicia autom&#225;ticamente y no espera al comando de comienzo (o parada) manual que puede ser realizado utilizando[Alt + L].</Spanish>
+		<Finnish>When checked, the logger is automatically started and doesn't wait for the manual start (or stop) command which can be issued by using [Alt + L].</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__DEFAULTFILENAME_TEXT</Tag>
+		<English>Use Default File Name</English>
+		<French>Utiliser le nom de Fichier par défaut</French>
+		<German>Standard-Dateiname verwenden</German>
+		<Italian>Usa il nome di file predefinito</Italian>
+		<Spanish>Utilizar Nombre de Fichero por Defecto</Spanish>
+		<Finnish>Use Default File Name</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__DEFAULTFILENAME_HOVER</Tag>
+		<English>When checked, the default (playername.txt) will be used, ignores log file name option.</English>
+		<French>Lorsque activé, le nom de fichier par défaut (playername.txt) sera utilisé, en ignorant l'option çi-dessous.</French>
+		<German>Den Standard-Dateinamen (playername.txt) verwenden, wobei die Namensoption für die Protokolldatei ignoriert wird</German>
+		<Italian>Quando &#232; selezionato, viene utilizzato il nome di file predefinito (nomegiocatore.txt): le opzioni sul nome di file personalizzato verranno ignorate.</Italian>
+		<Spanish>Cuando se activa, el nombre por defecto (playername.txt) ser&#225; utilizado, ignorando la opci&#243;n del nombre de fichero de traza.</Spanish>
+		<Finnish>When checked, the default (playername.txt) will be used, ignores log file name option.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FILEPATH_TEXT</Tag>
+		<English>Path</English>
+		<French>Chemin</French>
+		<German>Pfad</German>
+		<Italian>Percorso</Italian>
+		<Spanish>Ruta</Spanish>
+		<Finnish>Path</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FILEPATH_HOVER</Tag>
+		<English>Directory where log file resides (fully qualified path, i.e. C:\folder\subfolder or blank).</English>
+		<French>Le Répertoire ou le fichier de log sera sauvegardé (chemin complet, p.ex. C:\folder\subfolder ou vide).</French>
+		<German>Verzeichnis, in dem sich die Protokolldatei befindet (komplette Pfadangabe, d.h. C:\Ordner\Unterordner oder leer lassen)</German>
+		<Italian>Cartella dove &#232; localizzato il file di registro (percorso completo (ad esempio C:\cartella\sottocartella) o vuoto).</Italian>
+		<Spanish>Directorio donde reside el fichero de log (Ruta completa, i.e. C:\folder\subfolder o vacio).</Spanish>
+		<Finnish>Directory where log file resides (fully qualified path, i.e. C:\folder\subfolder or blank).</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FILENAME_TEXT</Tag>
+		<English>File</English>
+		<French>Fichier</French>
+		<German>Datei</German>
+		<Italian>File</Italian>
+		<Spanish>Fichero</Spanish>
+		<Finnish>File</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FILENAME_HOVER</Tag>
+		<English>Name of log file. If there is no file of this name in the directory above, one will be created.</English>
+		<French>Nom du fichier de log. Si un fichier de ce nom n'existe pas dans le répertoire spécifié ci-dessus, il sera créé.</French>
+		<German>Falls sich keine Datei mit diesem Namen im obigen Verzeichnis befindet, wird eine erstellt</German>
+		<Italian>Nome del file di registro. Se non &#232; presente alcun file con questo nome nella cartella indicata, ne verr&#224; creato uno.</Italian>
+		<Spanish>Nombre del fichero de log. Si no existe un fichero con este nombre en el directorio, se creara.</Spanish>
+		<Finnish>Name of log file. If there is no file of this name in the directory above, one will be created.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FORMAT_TEXT</Tag>
+		<English>Format Style</English>
+		<French>Formatage</French>
+		<German>Ausgabeformat</German>
+		<Italian>Stile</Italian>
+		<Spanish>Formato</Spanish>
+		<Finnish>Format Style</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FORMAT_HOVER</Tag>
+		<English>The format of the log output.</English>
+		<French>Le style du log.</French>
+		<German>Bestimmt die Formatierung, in der das Protokoll erstellt wird</German>
+		<Italian>Lo stile di visualizzazione del registro.</Italian>
+		<Spanish>Formato de salida del log.</Spanish>
+		<Finnish>The format of the log output.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FORMAT_LIST</Tag>
+		<English>Plain|HTML Tags|Forum Tags, With " around color codes|Forum Tags, No " around color codes</English>
+		<French>Simple|Tags HTML|Tags de Forum, avec des " autour des codes couleur|Tags de Forum, sans " autour des codes couleur</French>
+		<German>Klartext|HTML-Code|Foren-Code, mit Anführungszeichen (") um Farbcodes|Foren-Code, ohne Anführungszeichen (") um Farbcodes</German>
+		<Italian>Testo semplice|Testo HTML|Testo in formato Forum (con " per i codici di colore)|Testo in formato Forum (senza " per i codici di colore)</Italian>
+		<Spanish>Texto simple|HTML Tags|Formato Forum, con  " para c&#243;digos de color|Formato Forum, sin " para c&#243;digos de color</Spanish>
+		<Finnish>Plain|HTML Tags|Forum Tags, With " around color codes|Forum Tags, No " around color codes</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__COLORCODING_TEXT</Tag>
+		<English>Color Coding</English>
+		<French>Couleurs</French>
+		<German>Farbkodierung</German>
+		<Italian>Codice cromatico</Italian>
+		<Spanish>C&#243;digo de Color</Spanish>
+		<Finnish>Color Coding</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__COLORCODING_HOVER</Tag>
+		<English>When checked, comments are color-coded for forum posts.</English>
+		<French>Lorsque activé, les commentaires sont colorés pour les forums.</French>
+		<German>Hebt Kommentare und Ereignisse farblich hervor, um sie in Forumsbeiträgen schneller finden zu können</German>
+		<Italian>Quando &#232; selezionato, viene applicato il codice cromatico per i post nel Forum.</Italian>
+		<Spanish>Cuando se activa, se aplica el c&#243;digo de color a los comentarios Forum.</Spanish>
+		<Finnish>When checked, comments are color-coded for forum posts.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__4000BC_TEXT</Tag>
+		<English>6000BC is Turn</English>
+		<French>6000 av. J.C. est le Tour</French>
+		<German>6000 n.Chr. ist Runde</German>
+		<Italian>[SPACE][SPACE]6000 a.C. &#232; il turno</Italian>
+		<Spanish>6000 A.C. es el Turno</Spanish>
+		<Finnish>6000BC is Turn</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__4000BC_HOVER</Tag>
+		<English>Select which turn number 6000BC should be.</English>
+		<French>S&#233;lectionnez quel devrait être le num&#233;ro de tour de 6000 av.J.C.</French>
+		<German>Bestimmt die Runde, der das Jahr 6000 n. Chr. entsprechen soll</German>
+		<Italian>Indica che numero di turno deve corrispondere all'anno 6000 a.C.</Italian>
+		<Spanish>Elige que n&#250;mero de turno el ano 6000 A.C. ser&#225;.</Spanish>
+		<Finnish>Select which turn number 6000BC should be.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__IBT_TEXT</Tag>
+		<English>Show IBT</English>
+		<French>Montrez IBT</French>
+		<German>"IBT" einfügen</German>
+		<Italian>Mostra IBT</Italian>
+		<Spanish>Mostrar IBT</Spanish>
+		<Finnish>Show IBT</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__IBT_HOVER</Tag>
+		<English>When checked, the logger inserts IBT (in between turns) at the end of the player's turn.</English>
+		<French>Lorsque activé, Autolog insère IBT (in between turns = entre les tours) à la fin du tour du joueur.</French>
+		<German>Fügt dem Protokoll die Ereignisse der anderen Zivilisationen hinzu, die zwischen den Runden (engl. "In Between Turns") geschehen</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico inserisce IBT ("In Between Turns" = "Fra i turni") alla fine del turno del giocatore.</Italian>
+		<Spanish>Cuando se activa, en las trazas se inserta IBT (in between turns) al final del turno del jugador.</Spanish>
+		<Finnish>When checked, the logger inserts IBT (in between turns) at the end of the player's turn.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__PREFIX_TEXT</Tag>
+		<English>Custom Entry Prefix</English>
+		<French>Préfixe</French>
+		<German>Präfix</German>
+		<Italian>Prefisso</Italian>
+		<Spanish>Prefijo Personalizado</Spanish>
+		<Finnish>Custom Entry Prefix</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__PREFIX_HOVER</Tag>
+		<English>Used as a prefix before custom entries in the log (use [ALT + E]), e.g. your nick.</English>
+		<French>Utilisé comme préfixe avant les entrées manuelles [ALT + E] dans le log, p.ex. devant votre nom d'utilisateur.</French>
+		<German>Bestimmt das Präfix, das den Protokolleinträgen des Spielers (Tastenkombination [ALT + E]) vorangestellt wird, z.B. der Spielername</German>
+		<Italian>Questo prefisso viene immesso prima delle aggiunte manuali del giocatore (inserite mediante [ALT + E]) per distinguerle dagli eventi registrati automaticamente; pu&#242; essere per esempio il nome o la sigla del giocatore.</Italian>
+		<Spanish>Define el prefijo que se insertara antes de las entradas del jugador (utiliza [ALT + E]), e.g. tu nick.</Spanish>
+		<Finnish>Used as a prefix before custom entries in the log (use [ALT + E]), e.g. your nick.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTECH_TEXT</Tag>
+		<English>Technologies</English>
+		<French>Technologies</French>
+		<German>Technologien</German>
+		<Italian>Tecnologie</Italian>
+		<Spanish>Tecnolog&#237;as</Spanish>
+		<Finnish>Technologies</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTECH_HOVER</Tag>
+		<English>When checked, will log techs acquired and research started.</English>
+		<French>Lorsque activé, les technologies découvertes et les recherches commencées seront notés dans le log.</French>
+		<German>Protokolliert erworbene Technologien und begonnene Forschungen</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra le tecnologie acquisite e le ricerche avviate.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log que tecnolog&#237;as se obtienen y cuando se comienza la investigaci&#243;n.</Spanish>
+		<Finnish>When checked, will log techs acquired and research started.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGBUILDSTARTED_TEXT</Tag>
+		<English>Builds Started</English>
+		<French>Constructions Démarrées</French>
+		<German>Bauten begonnen</German>
+		<Italian>Produzioni avviate</Italian>
+		<Spanish>Producci&#243;n Comenzada</Spanish>
+		<Finnish>Builds Started</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGBUILDSTARTED_HOVER</Tag>
+		<English>When checked, will log when a city starts a build.</English>
+		<French>Lorsque activé, le démarrage des constructions sera noté dans le log.</French>
+		<German>Protokolliert begonnene Bauprojekte einer Stadt</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando una Citt&#224; avvia una produzione.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log cuando una ciudad empieza la producci&#243;n.</Spanish>
+		<Finnish>When checked, will log when a city starts a build.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGBUILDCOMPLETED_TEXT</Tag>
+		<English>Builds Completed</English>
+		<French>Constructions Finies</French>
+		<German>Bauten vollendet</German>
+		<Italian>Produzioni completate</Italian>
+		<Spanish>Producci&#243;n Completada</Spanish>
+		<Finnish>Builds Completed</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGBUILDCOMPLETED_HOVER</Tag>
+		<English>When checked, will log when a city completes a build.</English>
+		<French>Lorsque activé, la fin des constructions sera noté dans le log.</French>
+		<German>Protokolliert fertiggestellte Bauprojekte einer Stadt</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando una Citt&#224; completa una produzione.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log cuando una ciudad finaliza la producci&#243;n.</Spanish>
+		<Finnish>When checked, will log when a city completes a build.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPROJECTS_TEXT</Tag>
+		<English>Projects Completed</English>
+		<French>Projets Finis</French>
+		<German>Wunder vollendet</German>
+		<Italian>Progetti completati</Italian>
+		<Spanish>Proyectos Completados</Spanish>
+		<Finnish>Projects Completed</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPROJECTS_HOVER</Tag>
+		<English>When checked, will log completion of projects (certain wonders are technically projects -- other wonders are treated like normal buildings).</English>
+		<French>Lorsque activé, la fin d'un projet sera noté dans le log. (Certaines merveilles sont techniquement des projets -- des autres merveilles sont traités comme des bâtiments normaux.)</French>
+		<German>Protokolliert fertiggestellte Wunder (bestimmte Wunder sind eigentlich Projekte, während andere Wunder wie normale Gebäude behandelt werden)</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra il completamento dei Progetti (certe Meraviglie sono tecnicamente dei Progetti, altre vengono considerate come normali edifici).</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log la finalizaci&#243;n de proyectos (algunas maravillas se consideran proyectos -- otras maravillas son tratadas como edificios normales).</Spanish>
+		<Finnish>When checked, will log completion of projects (certain wonders are technically projects -- other wonders are treated like normal buildings).</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGIMPROVEMENTS_TEXT</Tag>
+		<English>Improvements</English>
+		<French>Améliorations</French>
+		<German>Modernisierungen</German>
+		<Italian>Miglioramenti</Italian>
+		<Spanish>Mejoras</Spanish>
+		<Finnish>Improvements</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGIMPROVEMENTS_HOVER</Tag>
+		<English>When checked, will log when your improvements are built or destroyed by you.</English>
+		<French>Lorsque activé, la construction d'une Améliorations, ou la destruction par vous-même, seront notés dans le log.</French>
+		<German>Protokolliert errichtete oder zerstörte Modernisierungen des Spielers</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando costruisci o distruggi dei miglioramenti.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log las mejoras que  construyes o destruyes.</Spanish>
+		<Finnish>When checked, will log when your improvements are built or destroyed by you.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYFOUNDED_TEXT</Tag>
+		<English>City Founded</English>
+		<French>Fondation</French>
+		<German>Gründungen</German>
+		<Italian>Citt&#224; fondate</Italian>
+		<Spanish>Fundaci&#243;n de Ciudad</Spanish>
+		<Finnish>City Founded</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYFOUNDED_HOVER</Tag>
+		<English>When checked, will log when you found a city.</English>
+		<French>Lorsque activé, la fondation d'une ville sera noté dans le log.</French>
+		<German>Protokolliert die Gründung von eigenen Städten</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando fondi una Citt&#224;.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log la fundaci&#243;n de una ciudad.</Spanish>
+		<Finnish>When checked, will log when you found a city.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYGROWTH_TEXT</Tag>
+		<English>City Growth</English>
+		<French>Population</French>
+		<German>Wachstum</German>
+		<Italian>Crescita cittadina</Italian>
+		<Spanish>Crecimiento de Ciudad</Spanish>
+		<Finnish>City Growth</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYGROWTH_HOVER</Tag>
+		<English>When checked, will log when one of your cities grows in population.</English>
+		<French>Lorsque activé, l'augmentation de la population de vos villes sera noté dans le log.</French>
+		<German>Protokolliert das Bevölkerungswachstum in den eigenen Städten</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando cresce la popolazione di una tua Citt&#224;.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log el crecimiento de poblaci&#243;n de tus ciudades.</Spanish>
+		<Finnish>When checked, will log when one of your cities grows in population.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYBORDERS_TEXT</Tag>
+		<English>City Borders</English>
+		<French>Frontières</French>
+		<German>Stadtgrenzen</German>
+		<Italian>Confini culturali</Italian>
+		<Spanish>Fronteras</Spanish>
+		<Finnish>City Borders</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYBORDERS_HOVER</Tag>
+		<English>When checked, will log when one of your city's borders expand.</English>
+		<French>Lorsque activé, l'expansion des frontières de vos villes sera noté dans le log.</French>
+		<German>Protokolliert die Erweiterung der städtischen Kulturgrenzen</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando si espandono i confini culturali di una tua Citt&#224;.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log la expansi&#243;n de las fronteras de tus ciudades.</Spanish>
+		<Finnish>When checked, will log when one of your city's borders expand.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYOWNER_TEXT</Tag>
+		<English>City Ownership</English>
+		<French>Contrôle</French>
+		<German>Besitzwechsel</German>
+		<Italian>Possesso Citt&#224;</Italian>
+		<Spanish>Posesi&#243;n de Ciudad</Spanish>
+		<Finnish>City Ownership</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYOWNER_HOVER</Tag>
+		<English>When checked, will log when you acquire or lose a city through conquest or trade.</English>
+		<French>Lorsque activé, l'aquisition ou la perte d'une ville par la conquête ou le commerce sera noté dans le log.</French>
+		<German>Protokolliert den Erwerb oder Verlust von Städten durch Eroberung oder Verhandlung</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando acquisisci una citt&#224; mediante conquista o diplomazia.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log la p&#233;rdida o la toma de posesi&#243;n de una ciudad a trav&#233;s de conquista o comercio.</Spanish>
+		<Finnish>When checked, will log when you acquire or lose a city through conquest or trade.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYRAZED_TEXT</Tag>
+		<English>City Razed</English>
+		<French>Démolition</French>
+		<German>Zerstörungen</German>
+		<Italian>Citt&#224; Razziate</Italian>
+		<Spanish>Ciudad Arrasada</Spanish>
+		<Finnish>City Razed</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYRAZED_HOVER</Tag>
+		<English>When checked, will log when you raze another civ's city or one of your cities is razed.</English>
+		<French>Lorsque activé, la démolition d'une ville par vos troupes et la démolition de vos villes sera noté dans le log.</French>
+		<German>Protokolliert die Zerstörung eigener und feindlicher Städte</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando tu saccheggi una Citt&#224; altrui o quando una delle tue Citt&#224; viene razziata.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log cuando arrases una ciudad o cuando una de tus ciudades es arrasada.</Spanish>
+		<Finnish>When checked, will log when you raze another civ's city or one of your cities is razed.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYWHIPSTATUS_TEXT</Tag>
+		<English>City Whip</English>
+		<French>Le Fouet</French>
+		<German>Zwangsarbeit</German>
+		<Italian>Sacrifici</Italian>
+		<Spanish>Sacrificio de Poblaci&#243;n</Spanish>
+		<Finnish>City Whip</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYWHIPSTATUS_HOVER</Tag>
+		<English>When checked, will log when you whip a city or when the whip anger decreases in a city.</English>
+		<French>Lorsque activé, l'utilisation du fouet dans vos villes sera noté dans le log, ainsi que le décroissement de la colère.</French>
+		<German>Protokolliert die Opferung von Bürgern zur Beschleunigung der Produktion oder das Abklingen der Unzufriedenheit darüber</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando compi Sacrifici in una tua Citt&#224; o quando la rabbia da Sacrifici diminuisce in una tua Citt&#224;.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log cuando sacrificas poblaci&#243;n en una ciudad o cuando decrece el descontento por sacrificio.</Spanish>
+		<Finnish>When checked, will log when you whip a city or when the whip anger decreases in a city.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGOODIES_TEXT</Tag>
+		<English>Tribal Villages</English>
+		<French>Villages Tribaux</French>
+		<German>Stammesdörfer</German>
+		<Italian>Villaggi</Italian>
+		<Spanish>Aldeas Tribales</Spanish>
+		<Finnish>Tribal Villages</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGOODIES_HOVER</Tag>
+		<English>When checked, will log results from popping tribal villages.</English>
+		<French>Lorsque activé, le résultats des villages tribaux sera noté dans le log.</French>
+		<German>Protokolliert die Ereignisse beim Betreten von Stammesdörfern</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra le conseguenze del ritrovamento di Villaggi Tribali.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log los resultados de visitar aldeas tribales.</Spanish>
+		<Finnish>When checked, will log results from popping tribal villages.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGRELIGION_TEXT</Tag>
+		<English>Religions</English>
+		<French>Religions</French>
+		<German>Religionen</German>
+		<Italian>Religioni</Italian>
+		<Spanish>Religiones</Spanish>
+		<Finnish>Religions</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGRELIGION_HOVER</Tag>
+		<English>When checked, will log[NEWLINE][ICON_BULLET]When you found a religion[NEWLINE][ICON_BULLET]Spread of any religion to your cities[NEWLINE][ICON_BULLET]Spread of religions whose Holy city you control to foreign cities</English>
+		<French>Lorsque activé, le log contiendra[NEWLINE][ICON_BULLET]Quand vous fondez une religion[NEWLINE][ICON_BULLET]Quand une religion se propage dans vos villes[NEWLINE][ICON_BULLET]Quand une religion dont vous contrôlez la Cité Sainte se propage dans une ville étrangère</French>
+		<German>Protokolliert:[NEWLINE][ICON_BULLET]die Gründung einer Religion[NEWLINE][ICON_BULLET]die Verbreitung von Religionen in eigenen Städten[NEWLINE][ICON_BULLET]die Verbreitung von Religionen, deren Heilige Städte der eigenen Zivilisation angehören, in ausländischen Städten</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra: [NEWLINE][ICON_BULLET]quando fondi una Religione;[NEWLINE][ICON_BULLET]la diffusione delle varie Religioni nelle tue Citt&#224;;[NEWLINE][ICON_BULLET]la diffusione nelle citt&#224; straniere delle Religioni di cui controlli la Citt&#224; Santa.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log[NEWLINE][ICON_BULLET]La fundaci&#243;n de una religi&#243;n[NEWLINE][ICON_BULLET]La expansi&#243;n de una religi&#243;n a tus ciudades[NEWLINE][ICON_BULLET]La expansi&#243;n de religiones a ciudades extranjeras cuya Ciudad Santa controles</Spanish>
+		<Finnish>When checked, will log[NEWLINE][ICON_BULLET]When you found a religion[NEWLINE][ICON_BULLET]Spread of any religion to your cities[NEWLINE][ICON_BULLET]Spread of religions whose Holy city you control to foreign cities</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCORPORATION_TEXT</Tag>
+		<English>Corporations</English>
+		<French>Corporations</French>
+		<German>Kapitalgesellschaften</German>
+		<Italian>Corporazioni</Italian>
+		<Spanish>Corporaciones</Spanish>
+		<Finnish>Corporations</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCORPORATION_HOVER</Tag>
+		<English>When checked, will log[NEWLINE][ICON_BULLET]When you found a corporation[NEWLINE][ICON_BULLET]Spread of any corporation to your cities[NEWLINE][ICON_BULLET]Spread of corporation whose headquarters you control to foreign cities</English>
+		<French>Lorsque activé, le log contiendra[NEWLINE][ICON_BULLET]Quand vous fondez une corporation[NEWLINE][ICON_BULLET]Quand une corporation se propage dans vos villes[NEWLINE][ICON_BULLET]Quand une corporation dont vous contrôlez la Quartier Général se propage dans une ville étrangère</French>
+		<German>Protokolliert:[NEWLINE][ICON_BULLET]die Gründung einer Kapitalgesellschaft[NEWLINE][ICON_BULLET]die Verbreitung von Kapitalgesellschaften in eigenen Städten[NEWLINE][ICON_BULLET]die Verbreitung von Kapitalgesellschaften, deren Hauptsitze  sich in Städten der eigenen Zivilisation befinden, in ausländischen Städten</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra: [NEWLINE][ICON_BULLET]quando fondi una Corporazione;[NEWLINE][ICON_BULLET]la diffusione delle varie Corporazioni nelle tue Citt&#224;;[NEWLINE][ICON_BULLET]la diffusione nelle citt&#224; straniere delle Corporazioni di cui controlli la Sede Principale.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log[NEWLINE][ICON_BULLET]La fundaci&#243;n de una corporaci&#243;n[NEWLINE][ICON_BULLET]La expansi&#243;n de una corporaci&#243;n a tus ciudades[NEWLINE][ICON_BULLET]La expansi&#243;n de corporaciones a ciudades extranjeras cuya Cuartel General controles</Spanish>
+		<Finnish>When checked, will log[NEWLINE][ICON_BULLET]When you found a corporation[NEWLINE][ICON_BULLET]Spread of any corporation to your cities[NEWLINE][ICON_BULLET]Spread of corporation whose headquarters you control to foreign cities</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGP_TEXT</Tag>
+		<English>Great People</English>
+		<French>Personnages Illustres</French>
+		<German>Große Persönlichkeiten</German>
+		<Italian>Grandi Personaggi</Italian>
+		<Spanish>Grandes Personajes</Spanish>
+		<Finnish>Great People</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGP_HOVER</Tag>
+		<English>When checked, will log the birth of great people (in your cities).</English>
+		<French>Lorsque activé, la naissance des personnages illustres dans vos villes sera noté dans le log.</French>
+		<German>Protokolliert das Erscheinen Großer Persönlichkeiten in eigenen Städten</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra la nascita di Grandi Personaggi nelle tue Citt&#224;.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log la aparici&#243;n de Grandes Personajes (en tus ciudades).</Spanish>
+		<Finnish>When checked, will log the birth of great people (in your cities).</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGA_TEXT</Tag>
+		<English>Golden Age</English>
+		<French>Age d'Or</French>
+		<German>Goldene Zeitalter</German>
+		<Italian>Et&#224; dell'Oro</Italian>
+		<Spanish>Edad de Oro</Spanish>
+		<Finnish>Golden Age</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGA_HOVER</Tag>
+		<English>When checked, will log begin and end of your Golden Ages.</English>
+		<French>Lorsque activé, le début et la fin de vos Ages d'Or sera noté dans le log.</French>
+		<German>Protokolliert den Beginn und das Ende von Goldenen Zeitaltern der eigenen Zivilisation</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra l'inizio e la fine delle Et&#224; dell'Oro.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log el comienzo y el final de tus Edades de Oro.</Spanish>
+		<Finnish>When checked, will log begin and end of your Golden Ages.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCONTACT_TEXT</Tag>
+		<English>Contact</English>
+		<French>Contact</French>
+		<German>Erstkontakte</German>
+		<Italian>Primi Contatti</Italian>
+		<Spanish>Primer Contacto</Spanish>
+		<Finnish>Contact</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCONTACT_HOVER</Tag>
+		<English>When checked, will log first contact with other civs.</English>
+		<French>Lorsque activé, le premier contact avec une autre civilisation sera noté dans le log.</French>
+		<German>Protokolliert eigene Erstkontakte mit anderen Zivilisationen</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra i Primi Contatti con le altre Civilt&#224;.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log el primer contacto con otras civilizaciones</Spanish>
+		<Finnish>When checked, will log first contact with other civs.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGATTITUDE_TEXT</Tag>
+		<English>Attitude</English>
+		<French>Attitude</French>
+		<German>Beziehungen</German>
+		<Italian>Atteggiamento</Italian>
+		<Spanish>Actitud</Spanish>
+		<Finnish>Attitude</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGATTITUDE_HOVER</Tag>
+		<English>When checked, will log any change in attitude between civs known to you.</English>
+		<French>Lorsque activé, tout changement d'attitude entre les civilisations que vous connaissez sera noté dans le log.</French>
+		<German>Protokolliert jede Veränderung der diplomatischen Beziehungen zwischen allen bekannten Zivilisationen</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra ogni cambio di atteggiamento fra le Civilt&#224; che ti sono note.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log los cambios de actitud entre civilizaciones que conozcas.</Spanish>
+		<Finnish>When checked, will log any change in attitude between civs known to you.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGWAR_TEXT</Tag>
+		<English>War</English>
+		<French>Guerre</French>
+		<German>Kriege</German>
+		<Italian>Guerre</Italian>
+		<Spanish>Guerra</Spanish>
+		<Finnish>War</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGWAR_HOVER</Tag>
+		<English>When checked, will log start and end of wars between civs known to you.</English>
+		<French>Lorsque activé, le début et la fin des guerres entre civilisations que vous connaissez sera noté dans le log.</French>
+		<German>Protokolliert den Beginn und das Ende von Kriegen zwischen allen bekannten Zivilisationen</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra l'inizio e la fine delle Guerre fra le Civilt&#224; che ti sono note.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log el comienzo y el final de las guerras entre civilizaciones que conozcas.</Spanish>
+		<Finnish>When checked, will log start and end of wars between civs known to you.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGVASSALS_TEXT</Tag>
+		<English>Vassal States</English>
+		<French>Etat Vassal</French>
+		<German>Vasallen</German>
+		<Italian>Stati Vassalli</Italian>
+		<Spanish>Estados Vasallos</Spanish>
+		<Finnish>Vassal States</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGVASSALS_HOVER</Tag>
+		<English>When checked, will log when any civ becomes a vassal state of or frees itself from another.</English>
+		<French>Lorsque activé, il sera noté dans le log quand une civilisation devient vassale ou se libère.</French>
+		<German>Protokolliert jede Zivilisationen, die zu einem Vasallenstaat wird oder von ihrem Hegemoniestaat lossagt</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra quando una Civilt&#224; diviene uno Stato Vassallo di un'altra e quando si affranca da essa.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log cuando una civilizaci&#243;n se convierte en estado vasallo o cuando se libera de ser vasallo de otra.</Spanish>
+		<Finnish>When checked, will log when any civ becomes a vassal state of or frees itself from another.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCIVICS_TEXT</Tag>
+		<English>Civics</English>
+		<French>Doctrines</French>
+		<German>Staatsformen</German>
+		<Italian>Forme Governo</Italian>
+		<Spanish>Principios</Spanish>
+		<Finnish>Civics</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCIVICS_HOVER</Tag>
+		<English>When checked, will log any change in civics of civs known to you.</English>
+		<French>Lorsque activé, tout changement de doctrine par des civilisations que vous connaissez sera noté dans le log.</French>
+		<German>Protokolliert jede Veränderung der Staatsform in allen bekannten Zivilisationen</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra ogni modifica di Forma di Governo nelle Civilt&#224; che ti sono note.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log los cambios en los principios de las civilizaciones que conozcas.</Spanish>
+		<Finnish>When checked, will log any change in civics of civs known to you.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCOMBAT_TEXT</Tag>
+		<English>Combat</English>
+		<French>Combat</French>
+		<German>Kämpfe</German>
+		<Italian>Battaglie</Italian>
+		<Spanish>Combate</Spanish>
+		<Finnish>Combat</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCOMBAT_HOVER</Tag>
+		<English>When checked, will log combat results involving your units.</English>
+		<French>Lorsque activé, le résultat des combats de vos unités sera noté dans le log.</French>
+		<German>Protokolliert die Kampfergebnisse aller eigenen Einheiten</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra tutte le battaglie in cui sono coinvolte le tue Unit&#224;.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log los resultados de los combates en los que participen tus unidades.</Spanish>
+		<Finnish>When checked, will log combat results involving your units.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPROMOTIONS_TEXT</Tag>
+		<English>Promotions</English>
+		<French>Promotions</French>
+		<German>Beförderungen</German>
+		<Italian>Promozioni</Italian>
+		<Spanish>Ascensos</Spanish>
+		<Finnish>Promotions</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPROMOTIONS_HOVER</Tag>
+		<English>When checked, will log when you promote one of your units.</English>
+		<French>Lorsque activé, les promotions de vos unités seront notés dans le log.</French>
+		<German>Protokolliert die Beförderungen aller eigenen Einheiten</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra le Promozioni delle tue Unit&#224;.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log los ascensos a tus unidades.</Spanish>
+		<Finnish>When checked, will log when you promote one of your units.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPILLAGE_TEXT</Tag>
+		<English>Pillaging</English>
+		<French>Pillage</French>
+		<German>Plünderungen</German>
+		<Italian>Saccheggi</Italian>
+		<Spanish>Saqueo</Spanish>
+		<Finnish>Pillaging</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPILLAGE_HOVER</Tag>
+		<English>When checked, will log when you pillage or your improvements are pillaged.</English>
+		<French>Lorsque activé, vos pillages et ceux de vos améliorations seront notés dans le log.</French>
+		<German>Protokolliert die Plünderung eigener und feindlicher Modernisierungen</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra i saccheggi effettuate da te o quando i tuoi miglioramenti vengono saccheggiati.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log cuando realices saqueos o cuando tus mejoras son saqueadas.</Spanish>
+		<Finnish>When checked, will log when you pillage or your improvements are pillaged.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRADEALL_TEXT</Tag>
+		<English>Trade/Demands</English>
+		<French>Commerce/Demandes</French>
+		<German>Handel / Forderungen</German>
+		<Italian>Commercio</Italian>
+		<Spanish>Comercio/Exigencias</Spanish>
+		<Finnish>Trade/Demands</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRADEALL_HOVER</Tag>
+		<English>When checked, will log all AI-initiated trade offers and demands along with your responses.</English>
+		<French>Lorsque activé, inscrit dans le log les offres d'échange et les requêtes des IA, avec vos réponses.</French>
+		<German>Protokolliert alle von anderen Zivilisationen angeregte Handelsangebote und Forderungen zusammen mit den Reaktionen der eigenen Zivilisation</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra tutte le offerte e le richieste commerciali delle altre Civilt&#224; e le vostre risposte.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log las propuestas de comercio y las exigencias iniciadas por la IA y tu respuesta.</Spanish>
+		<Finnish>When checked, will log all AI-initiated trade offers and demands along with your responses.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRADEOFFER_TEXT</Tag>
+		<English>Trade Offers</English>
+		<French>Offres d'échange</French>
+		<German>Handelsangebote</German>
+		<Italian>Offerte commerciali</Italian>
+		<Spanish>Ofertas comerciales</Spanish>
+		<Finnish>Trade Offers</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRADEOFFER_HOVER</Tag>
+		<English>When checked, will log AI-initiated trades and gift offers and your responses.</English>
+		<French>Lorsque activé, inscrit dans le log les échanges et cadeaux à l'initiative des IAs, et vos réponses.</French>
+		<German>Protokolliert alle von anderen Zivilisationen angeregte Handelsangebote und Geschenke zusammen mit den Reaktionen der eigenen Zivilisation</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra le offerte commerciali ed i doni delle altre Civilt&#224; e le vostre risposte.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log las propuestas de comercio y los regalos iniciadas por la IA y tu respuesta.</Spanish>
+		<Finnish>When checked, will log AI-initiated trades and gift offers and your responses.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRIBUTEDEMAND_TEXT</Tag>
+		<English>Tribute/Help</English>
+		<French>Tribut/Aide</French>
+		<German>Tribut / Hilfe</German>
+		<Italian>Richieste di tributi</Italian>
+		<Spanish>Tributos/Asistencia</Spanish>
+		<Finnish>Tribute/Help</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRIBUTEDEMAND_HOVER</Tag>
+		<English>When checked, will log AI demands for tribute or help and your responses.</English>
+		<French>Lorsque activé, inscrit au log les demandes de tribut ou d'aide et vos réponses.</French>
+		<German>Protokolliert alle von anderen Zivilisationen verlangte Tribute oder Hilfsleistungen zusammen mit den Reaktionen der eigenen Zivilisation</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra le richieste di tributi o d'aiuto delle altre Civilt&#224; e le vostre risposte.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log las demandas de tributo y las solicitudes de ayudas iniciadas por la IA y tu respuesta.</Spanish>
+		<Finnish>When checked, will log AI demands for tribute or help and your responses.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGRELIGIONDEMAND_TEXT</Tag>
+		<English>Change Religion</English>
+		<French>Changement Religion</French>
+		<German>Religionswechsel</German>
+		<Italian>Conversioni religiose</Italian>
+		<Spanish>Solicitud de Conversi&#243;n</Spanish>
+		<Finnish>Change Religion</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGRELIGIONDEMAND_HOVER</Tag>
+		<English>When checked, will log AI demands that you change religion and your responses.</English>
+		<French>Lorsque activé, inscrit dans le log les demandes de l'IA pour changer de religion, et vos réponses.</French>
+		<German>Protokolliert alle von anderen Zivilisationen verlangte Religionswechsel zusammen mit den Reaktionen der eigenen Zivilisation</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra le richieste di conversione religiosa delle altre Civilt&#224; e le vostre risposte.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log las solicitudes de conversi&#243;n iniciadas por la IA y tu respuesta.</Spanish>
+		<Finnish>When checked, will log AI demands that you change religion and your responses.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCIVICDEMAND_TEXT</Tag>
+		<English>Change Civics</English>
+		<French>Chang. Doctrines</French>
+		<German>Staatsformwechsel</German>
+		<Italian>Cambi di governo</Italian>
+		<Spanish>Cambios de Principios</Spanish>
+		<Finnish>Change Civics</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCIVICDEMAND_HOVER</Tag>
+		<English>When checked, will log AI demands that you change civics and your responses.</English>
+		<French>Lorsque activé, inscrit dans le log les demandes de changement de doctrine, et vos réponses.</French>
+		<German>Protokolliert alle von anderen Zivilisationen verlangte Staatsformwechsel zusammen mit den Reaktionen der eigenen Zivilisation</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra le richieste di cambio di forme di governo delle altre Civilt&#224; e le vostre risposte.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log las solicitudes de cambio de principios iniciadas por la IA y tu respuesta.</Spanish>
+		<Finnish>When checked, will log AI demands that you change civics and your responses.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGWARDEMAND_TEXT</Tag>
+		<English>Declare War</English>
+		<French>Déclaration de Guerre</French>
+		<German>Kriegserklärung</German>
+		<Italian>Dichiarazioni di guerra</Italian>
+		<Spanish>Declaraci&#243;n de Guerra</Spanish>
+		<Finnish>Declare War</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGWARDEMAND_HOVER</Tag>
+		<English>When checked, will log AI requests to declare war on a third party and your responses.</English>
+		<French>Lorsque activé, inscrit dans le log les demandes de déclaration de Guerre envers un autre rival, et vos réponses.</French>
+		<German>Protokolliert alle von anderen Zivilisationen verlangte Kriegserklärungen gegenüber einer dritten Partei zusammen mit den Reaktionen der eigenen Zivilisation</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra le richieste di dichiarazione di guerra delle altre Civilt&#224; e le vostre risposte.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log las solicitudes de declaraci&#243;n de guerra sobre terceros y tu respuesta.</Spanish>
+		<Finnish>When checked, will log AI requests to declare war on a third party and your responses.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGEMBARGODEMAND_TEXT</Tag>
+		<English>Stop Trading</English>
+		<French>Arrêt des échanges</French>
+		<German>Handelsstopp</German>
+		<Italian>Embargo commerciale</Italian>
+		<Spanish>Dejar de Comerciar</Spanish>
+		<Finnish>Stop Trading</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGEMBARGODEMAND_HOVER</Tag>
+		<English>When checked, will log AI requests to stop trading with a third party and your responses.</English>
+		<French>Lorsque activé, inscrit dans le log les demandes d'arrêts des échanges commerciaux envers un autre Rival, et vos réponses.</French>
+		<German>Protokolliert alle von anderen Zivilisationen verlangte Handelsstopps gegenüber einer dritten Partei zusammen mit den Reaktionen der eigenen Zivilisation</German>
+		<Italian>Quando &#232; selezionato, il Registro Automatico registra le richieste di embargo commerciale delle altre Civilt&#224; e le vostre risposte.</Italian>
+		<Spanish>Cuando se activa, grabar&#225; en el log las solicitudes de dejar de comerciar sobre terceros y tu respuesta.</Spanish>
+		<Finnish>When checked, will log AI requests to stop trading with a third party and your responses.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

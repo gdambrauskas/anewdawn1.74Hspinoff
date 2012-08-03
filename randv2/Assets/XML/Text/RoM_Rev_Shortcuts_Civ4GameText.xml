@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_CTRL_SHIFT_M_SHORTCUT</Tag>
+		<English>[NEWLINE]CTRL-SHIFT-M = Turn played by AI!</English>
+		<French>[NEWLINE]CTRL-SHIFT-M = Ce Tour joué par l'IA!</French>
+		<German>[NEWLINE]CTRL-SHIFT-M = Turn played by AI!</German>
+		<Italian>[NEWLINE]CTRL-SHIFT-M = Turn played by AI!</Italian>
+		<Spanish>[NEWLINE]CTRL-SHIFT-M = Turn played by AI!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_X_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-X = Edit dotmap!</English>
+		<French>[NEWLINE]ALT-X = Editer 'dotmap'!</French>
+		<German>[NEWLINE]ALT-X = Edit dotmap!</German>
+		<Italian>[NEWLINE]ALT-X = Edit dotmap!</Italian>
+		<Spanish>[NEWLINE]ALT-X = Edit dotmap!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_CTRL_X_SHORTCUT</Tag>
+		<English>[NEWLINE]CTRL-X = Show/Hide dotmap!</English>
+		<French>[NEWLINE]CTRL-X = Aff./Masquer 'dotmap'!</French>
+		<German>[NEWLINE]CTRL-X = Show/Hide dotmap!</German>
+		<Italian>[NEWLINE]CTRL-X = Show/Hide dotmap!</Italian>
+		<Spanish>[NEWLINE]CTRL-X = Show/Hide dotmap!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_S_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-S = Add Sign!</English>
+		<French>[NEWLINE]ALT-S = Ajouter Panneau!</French>
+		<German>[NEWLINE]ALT-S = Add Sign!</German>
+		<Italian>[NEWLINE]ALT-S = Add Sign!</Italian>
+		<Spanish>[NEWLINE]ALT-S = Add Sign!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_CTRL_A_SHORTCUT</Tag>
+		<English>[NEWLINE]CTRL-A = Abandon City or Demolish Buildings!</English>
+		<French>[NEWLINE]CTRL-A = Abandonner Ville ou Démolir des Bâtiments!</French>
+		<German>[NEWLINE]CTRL-A = Abandon City or Demolish Buildings!</German>
+		<Italian>[NEWLINE]CTRL-A = Abandon City or Demolish Buildings!</Italian>
+		<Spanish>[NEWLINE]CTRL-A = Abandon City or Demolish Buildings!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_M_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-M, ALT-CTRL-R = Create Reminder!</English>
+		<French>[NEWLINE]ALT-M, ALT-CTRL-R = Créer un Rappel!</French>
+		<German>[NEWLINE]ALT-M, ALT-CTRL-R = Create Reminder!</German>
+		<Italian>[NEWLINE]ALT-M, ALT-CTRL-R = Create Reminder!</Italian>
+		<Spanish>[NEWLINE]ALT-M, ALT-CTRL-R = Create Reminder!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_L_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-L = Start/Stop logging! (Autolog must be on.)</English>
+		<French>[NEWLINE]ALT-L = Démarrer/Arrêter les logs! (si Autolog activé.)</French>
+		<German>[NEWLINE]ALT-L = Start/Stop logging! (Autolog must be on.)</German>
+		<Italian>[NEWLINE]ALT-L = Start/Stop logging! (Autolog must be on.)</Italian>
+		<Spanish>[NEWLINE]ALT-L = Start/Stop logging! (Autolog must be on.)</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_E_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-E = Create log entry!</English>
+		<French>[NEWLINE]ALT-E = Créer une Entrée log!</French>
+		<German>[NEWLINE]ALT-E = Create log entry!</German>
+		<Italian>[NEWLINE]ALT-E = Create log entry!</Italian>
+		<Spanish>[NEWLINE]ALT-E = Create log entry!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_B_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-B = Log Battle stats!</English>
+		<French>[NEWLINE]ALT-B = Log des Stats de combat!</French>
+		<German>[NEWLINE]ALT-B = Log Battle stats!</German>
+		<Italian>[NEWLINE]ALT-B = Log Battle stats!</Italian>
+		<Spanish>[NEWLINE]ALT-B = Log Battle stats!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_F_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-F = Satellite view!</English>
+		<French>[NEWLINE]ALT-F = Vue Satellite!</French>
+		<German>[NEWLINE]ALT-F = Satellite view!</German>
+		<Italian>[NEWLINE]ALT-F = Satellite view!</Italian>
+		<Spanish>[NEWLINE]ALT-F = Satellite view!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_O_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-O = Change perspective!</English>
+		<French>[NEWLINE]ALT-O = Changer la perspective!</French>
+		<German>[NEWLINE]ALT-O = Change perspective!</German>
+		<Italian>[NEWLINE]ALT-O = Change perspective!</Italian>
+		<Spanish>[NEWLINE]ALT-O = Change perspective!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_CTRL_L_ARROW_SHORTCUT</Tag>
+		<English>[NEWLINE]CTRL-L ARROW = Angle 45 o CW!</English>
+		<French>[NEWLINE]CTRL-FLECHE G = Angle 45 D!</French>
+		<German>[NEWLINE]CTRL-L ARROW = Angle 45 o CW!</German>
+		<Italian>[NEWLINE]CTRL-L ARROW = Angle 45 o CW!</Italian>
+		<Spanish>[NEWLINE]CTRL-L ARROW = Angle 45 o CW!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_CTRL_R_ARROW_SHORTCUT</Tag>
+		<English>[NEWLINE]CTRL-R ARROW = Angle 45 o CCW!</English>
+		<French>[NEWLINE]CTRL-FLECHE D = Angle 45 G!</French>
+		<German>[NEWLINE]CTRL-R ARROW = Angle 45 o CCW!</German>
+		<Italian>[NEWLINE]CTRL-R ARROW = Angle 45 o CCW!</Italian>
+		<Spanish>[NEWLINE]CTRL-RL ARROW = Angle 45 o CCW!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_CTRL_I_SHORTCUT</Tag>
+		<English>[NEWLINE]CTRL-I = Minimize Interface!</English>
+		<French>[NEWLINE]CTRL-I = Minimiser l'Interface!</French>
+		<German>[NEWLINE]CTRL-I = Minimize Interface!</German>
+		<Italian>[NEWLINE]CTRL-I = Minimize Interface!</Italian>
+		<Spanish>[NEWLINE]CTRL-I = Minimize Interface!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_I_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-I = No Interface!</English>
+		<French>[NEWLINE]ALT-I = Masquer Interface!</French>
+		<German>[NEWLINE]ALT-I = No Interface!</German>
+		<Italian>[NEWLINE]ALT-I = No Interface!</Italian>
+		<Spanish>[NEWLINE]ALT-I = No Interface!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_ALT_CTRL_N_ARROW_SHORTCUT</Tag>
+		<English>[NEWLINE]ALT-CTRL-N ARROW = Unit naming test!</English>
+		<French>[NEWLINE]ALT-CTRL-N ARROW = Test Nom Unités!</French>
+		<German>[NEWLINE]ALT-CTRL-N ARROW = Unit naming test!</German>
+		<Italian>[NEWLINE]ALT-CTRL-N ARROW = Unit naming test!</Italian>
+		<Spanish>[NEWLINE]ALT-CTRL-N ARROW = Unit naming test!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_SHIFT_F5_SHORTCUT</Tag>
+		<English>[NEWLINE]SHIFT-F5 = Quick Save!</English>
+		<French>[NEWLINE]SHIFT-F5 = Sauvegarde Rapide!</French>
+		<German>[NEWLINE]SHIFT-F5 = Quick Save!</German>
+		<Italian>[NEWLINE]SHIFT-F5 = Quick Save!</Italian>
+		<Spanish>[NEWLINE]SHIFT-F5 = Quick Save!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REV_MOD_INITIALIZING_SHIFT_F8_SHORTCUT</Tag>
+		<English>[NEWLINE]SHIFT-F8 = Quick Load!</English>
+		<French>[NEWLINE]SHIFT-F8 = Chargement Rapide!</French>
+		<German>[NEWLINE]SHIFT-F8 = Quick Load!</German>
+		<Italian>[NEWLINE]SHIFT-F8 = Quick Load!</Italian>
+		<Spanish>[NEWLINE]SHIFT-F8 = Quick Load!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

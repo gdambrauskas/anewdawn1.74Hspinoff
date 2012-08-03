@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Infos -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_GUILDS</Tag>
+		<English>Guilds</English>
+		<French>Guildes</French>
+		<German>Gilden</German>
+		<Italian>Guilds</Italian>
+		<Spanish>Guilds</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_GUILDS_STRATEGY</Tag>
+		<English>A system of commerce where 'guilds' control significant portions of the labor system. Guilds are outside of the government, only answerable to themselves. Guilds are a early precursor to modern Corporations.</English>
+		<French>A system of commerce where 'guilds' control significant portions of the labor system. Guilds are outside of the government, only answerable to themselves. Guilds are a early precursor to modern Corporations.</French>
+		<German>A system of commerce where 'guilds' control significant portions of the labor system. Guilds are outside of the government, only answerable to themselves. Guilds are a early precursor to modern Corporations.</German>
+		<Italian>A system of commerce where 'guilds' control significant portions of the labor system. Guilds are outside of the government, only answerable to themselves. Guilds are a early precursor to modern Corporations.</Italian>
+		<Spanish>A system of commerce where 'guilds' control significant portions of the labor system. Guilds are outside of the government, only answerable to themselves. Guilds are a early precursor to modern Corporations.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_COINAGE</Tag>
+		<English>Coinage</English>
+		<French>Système monétaire</French>
+		<German>M&#252;nzwesen</German>
+		<Italian>Coinage</Italian>
+		<Spanish>Coinage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_COINAGE_PEDIA</Tag>
+		<English>The first metal coins are regarded by some as having been invented in China. The earliest known Chinese metal tokens were made ca. 900 BC, discovered in a tomb near Anyang. These were replicas in bronze of earlier Chinese money, cowrie shells, so they were named Bronze Shell. Most numismatists, however, regard these as well as later Chinese bronzes that were replicas of knives, spades, and hoes as money but not as coins because they didn't at least initially carry a mark or marks certifying them to be of a definite exchange value.[NEWLINE]Coins originated independently in Anatolia, with most numismatists regarding Lydia as the birthplace of coinage. The Greeks soon adopted the Lydian practice and extended it to commerce and trade, with coinage following Greek colonization and influence first around the eastern Mediterranean and soon after to North Africa (including Egypt), Syria, Persia, and the Balkans.</English>
+		<French>The first metal coins are regarded by some as having been invented in China. The earliest known Chinese metal tokens were made ca. 900 BC, discovered in a tomb near Anyang. These were replicas in bronze of earlier Chinese money, cowrie shells, so they were named Bronze Shell. Most numismatists, however, regard these as well as later Chinese bronzes that were replicas of knives, spades, and hoes as money but not as coins because they didn't at least initially carry a mark or marks certifying them to be of a definite exchange value.[NEWLINE]Coins originated independently in Anatolia, with most numismatists regarding Lydia as the birthplace of coinage. The Greeks soon adopted the Lydian practice and extended it to commerce and trade, with coinage following Greek colonization and influence first around the eastern Mediterranean and soon after to North Africa (including Egypt), Syria, Persia, and the Balkans.</French>
+		<German>The first metal coins are regarded by some as having been invented in China. The earliest known Chinese metal tokens were made ca. 900 BC, discovered in a tomb near Anyang. These were replicas in bronze of earlier Chinese money, cowrie shells, so they were named Bronze Shell. Most numismatists, however, regard these as well as later Chinese bronzes that were replicas of knives, spades, and hoes as money but not as coins because they didn't at least initially carry a mark or marks certifying them to be of a definite exchange value.[NEWLINE]Coins originated independently in Anatolia, with most numismatists regarding Lydia as the birthplace of coinage. The Greeks soon adopted the Lydian practice and extended it to commerce and trade, with coinage following Greek colonization and influence first around the eastern Mediterranean and soon after to North Africa (including Egypt), Syria, Persia, and the Balkans.</German>
+		<Italian>The first metal coins are regarded by some as having been invented in China. The earliest known Chinese metal tokens were made ca. 900 BC, discovered in a tomb near Anyang. These were replicas in bronze of earlier Chinese money, cowrie shells, so they were named Bronze Shell. Most numismatists, however, regard these as well as later Chinese bronzes that were replicas of knives, spades, and hoes as money but not as coins because they didn't at least initially carry a mark or marks certifying them to be of a definite exchange value.[NEWLINE]Coins originated independently in Anatolia, with most numismatists regarding Lydia as the birthplace of coinage. The Greeks soon adopted the Lydian practice and extended it to commerce and trade, with coinage following Greek colonization and influence first around the eastern Mediterranean and soon after to North Africa (including Egypt), Syria, Persia, and the Balkans.</Italian>
+		<Spanish>The first metal coins are regarded by some as having been invented in China. The earliest known Chinese metal tokens were made ca. 900 BC, discovered in a tomb near Anyang. These were replicas in bronze of earlier Chinese money, cowrie shells, so they were named Bronze Shell. Most numismatists, however, regard these as well as later Chinese bronzes that were replicas of knives, spades, and hoes as money but not as coins because they didn't at least initially carry a mark or marks certifying them to be of a definite exchange value.[NEWLINE]Coins originated independently in Anatolia, with most numismatists regarding Lydia as the birthplace of coinage. The Greeks soon adopted the Lydian practice and extended it to commerce and trade, with coinage following Greek colonization and influence first around the eastern Mediterranean and soon after to North Africa (including Egypt), Syria, Persia, and the Balkans.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_COINAGE_STRATEGY</Tag>
+		<English>Coinage is a system of commerce where a precious metal (usually silver or gold) is used as a central currency to exchange goods. Primary disadvantage over fiat currencies is that sudden influxes of this resource will upset the value of money.</English>
+		<French>Coinage is a system of commerce where a precious metal (usually silver or gold) is used as a central currency to exchange goods. Primary disadvantage over fiat currencies is that sudden influxes of this resource will upset the value of money.</French>
+		<German>Coinage is a system of commerce where a precious metal (usually silver or gold) is used as a central currency to exchange goods. Primary disadvantage over fiat currencies is that sudden influxes of this resource will upset the value of money.</German>
+		<Italian>Coinage is a system of commerce where a precious metal (usually silver or gold) is used as a central currency to exchange goods. Primary disadvantage over fiat currencies is that sudden influxes of this resource will upset the value of money.</Italian>
+		<Spanish>Coinage is a system of commerce where a precious metal (usually silver or gold) is used as a central currency to exchange goods. Primary disadvantage over fiat currencies is that sudden influxes of this resource will upset the value of money.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NATIONAL_MINT</Tag>
+		<English>National Mint</English>
+		<French>Monnaie Nationale</French>
+		<German>Staatliche M&#252;nzanstalt</German>
+		<Italian>National Mint</Italian>
+		<Spanish>National Mint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NATIONAL_MINT_PEDIA</Tag>
+		<English>A mint is an industrial facility which manufactures coins for currency.[NEWLINE]The history of mints correlates closely with the history of coins. One difference is that the history of the mint is normally related in a fashion that more closely ties to the political situation of an era. For example, when discussing the history of the New Orleans Mint, the usage of that mint by the Confederate States of America beginning in 1861 is a notable occurrence. The origins of the Philadelphia Mint, which began operations in 1792 and first produced circulating coinage in 1793, are often related within the political context of the time.[NEWLINE]In the beginning, hammered coinage or cast coinage were the chief means of coin minting, with resulting production runs numbering as little as the hundreds or thousands. In modern mints, coin dies are manufactured in large numbers and planchets are made into milled coins by the billions.[NEWLINE]With the mass production of currency the production cost is weighed when minting coins. For example, it costs the US Mint much less than 25 cents to make a quarter, and the difference in production cost and face value (called seigniorage) helps fund the minting body.</English>
+		<French>A mint is an industrial facility which manufactures coins for currency.[NEWLINE]The history of mints correlates closely with the history of coins. One difference is that the history of the mint is normally related in a fashion that more closely ties to the political situation of an era. For example, when discussing the history of the New Orleans Mint, the usage of that mint by the Confederate States of America beginning in 1861 is a notable occurrence. The origins of the Philadelphia Mint, which began operations in 1792 and first produced circulating coinage in 1793, are often related within the political context of the time.[NEWLINE]In the beginning, hammered coinage or cast coinage were the chief means of coin minting, with resulting production runs numbering as little as the hundreds or thousands. In modern mints, coin dies are manufactured in large numbers and planchets are made into milled coins by the billions.[NEWLINE]With the mass production of currency the production cost is weighed when minting coins. For example, it costs the US Mint much less than 25 cents to make a quarter, and the difference in production cost and face value (called seigniorage) helps fund the minting body.</French>
+		<German>A mint is an industrial facility which manufactures coins for currency.[NEWLINE]The history of mints correlates closely with the history of coins. One difference is that the history of the mint is normally related in a fashion that more closely ties to the political situation of an era. For example, when discussing the history of the New Orleans Mint, the usage of that mint by the Confederate States of America beginning in 1861 is a notable occurrence. The origins of the Philadelphia Mint, which began operations in 1792 and first produced circulating coinage in 1793, are often related within the political context of the time.[NEWLINE]In the beginning, hammered coinage or cast coinage were the chief means of coin minting, with resulting production runs numbering as little as the hundreds or thousands. In modern mints, coin dies are manufactured in large numbers and planchets are made into milled coins by the billions.[NEWLINE]With the mass production of currency the production cost is weighed when minting coins. For example, it costs the US Mint much less than 25 cents to make a quarter, and the difference in production cost and face value (called seigniorage) helps fund the minting body.</German>
+		<Italian>A mint is an industrial facility which manufactures coins for currency.[NEWLINE]The history of mints correlates closely with the history of coins. One difference is that the history of the mint is normally related in a fashion that more closely ties to the political situation of an era. For example, when discussing the history of the New Orleans Mint, the usage of that mint by the Confederate States of America beginning in 1861 is a notable occurrence. The origins of the Philadelphia Mint, which began operations in 1792 and first produced circulating coinage in 1793, are often related within the political context of the time.[NEWLINE]In the beginning, hammered coinage or cast coinage were the chief means of coin minting, with resulting production runs numbering as little as the hundreds or thousands. In modern mints, coin dies are manufactured in large numbers and planchets are made into milled coins by the billions.[NEWLINE]With the mass production of currency the production cost is weighed when minting coins. For example, it costs the US Mint much less than 25 cents to make a quarter, and the difference in production cost and face value (called seigniorage) helps fund the minting body.</Italian>
+		<Spanish>A mint is an industrial facility which manufactures coins for currency.[NEWLINE]The history of mints correlates closely with the history of coins. One difference is that the history of the mint is normally related in a fashion that more closely ties to the political situation of an era. For example, when discussing the history of the New Orleans Mint, the usage of that mint by the Confederate States of America beginning in 1861 is a notable occurrence. The origins of the Philadelphia Mint, which began operations in 1792 and first produced circulating coinage in 1793, are often related within the political context of the time.[NEWLINE]In the beginning, hammered coinage or cast coinage were the chief means of coin minting, with resulting production runs numbering as little as the hundreds or thousands. In modern mints, coin dies are manufactured in large numbers and planchets are made into milled coins by the billions.[NEWLINE]With the mass production of currency the production cost is weighed when minting coins. For example, it costs the US Mint much less than 25 cents to make a quarter, and the difference in production cost and face value (called seigniorage) helps fund the minting body.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NATIONAL_MINT_STRATEGY</Tag>
+		<English>Build A Mint when you have access to lots of rare metals</English>
+		<French>Faites Frapper la Monnaie nationale lorsque vous avez accès à beaucoup de métaux rares</French>
+		<German>Errichte eine M&#252;nzanstalt wenn DU Zugang zu vielen seltenen Metallen hast</German>
+		<Italian>Build A Mint when you have access to lots of rare metals</Italian>
+		<Spanish>Build A Mint when you have access to lots of rare metals</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NATIONAL_MINT_HELP</Tag>
+		<English>If a National Mint is captured by the enemy, they will recieve 10 times the normal amount of plunder</English>
+		<French>Si la Monnaie Nationale est capturée par l'ennemi, il recevra un 10x le montant standard de pillage</French>
+		<German>Wenn eine staatliche M&#252;nzanstalt vom Feind eingenommen wird, so erhalten sie das 10fache der &#252;blichen Beute</German>
+		<Italian>If a National Mint is captured by the enemy, they will recieve 10 times the normal amount of plunder</Italian>
+		<Spanish>If a National Mint is captured by the enemy, they will recieve 10 times the normal amount of plunder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GUILD</Tag>
+		<English>Guild</English>
+		<French>Guilde</French>
+		<German>Guild</German>
+		<Italian>Guild</Italian>
+		<Spanish>Guild</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FACTORY</Tag>
+		<English>Factory</English>
+		<French>Usine</French>
+		<German>Factory</German>
+		<Italian>Factory</Italian>
+		<Spanish>Factory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_FACTORY</Tag>
+		<English>Build Factory</English>
+		<French>Construire une Usine</French>
+		<German>Build Factory</German>
+		<Italian>Build Factory</Italian>
+		<Spanish>Build Factory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_INDUSTRIAL_COMPLEX</Tag>
+		<English>Industrial Complex</English>
+		<French>Complexe Industriel</French>
+		<German>Industrial Complex</German>
+		<Italian>Industrial Complex</Italian>
+		<Spanish>Industrial Complex</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WINDTURBINE</Tag>
+		<English>Wind Turbine</English>
+		<French>Eolienne</French>
+		<German>Wind Turbine</German>
+		<Italian>Wind Turbine</Italian>
+		<Spanish>Wind Turbine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ORCHARD</Tag>
+		<English>Orchard</English>
+		<French>Verger d'arbres Fruitiers</French>
+		<German>Orchard</German>
+		<Italian>Orchard</Italian>
+		<Spanish>Orchard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_BURN_FOREST</Tag>
+		<English>Burn Forest</English>
+		<French>Brûler la Forêt</French>
+		<German>Burn Forest</German>
+		<Italian>Burn Forest</Italian>
+		<Spanish>Burn Forest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_BURN_JUNGLE</Tag>
+		<English>Burn Jungle</English>
+		<French>Brûler la Jungle</French>
+		<German>Burn Jungle</German>
+		<Italian>Burn Jungle</Italian>
+		<Spanish>Burn Jungle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_ORCHARD</Tag>
+		<English>Build an [LINK=IMPROVEMENT_APPLE_FARM]Orchard[\LINK]</English>
+		<French>Planter un [LINK=IMPROVEMENT_APPLE_FARM]Verger[\LINK]</French>
+		<German>Build an [LINK=IMPROVEMENT_APPLE_FARM]Orchard[\LINK]</German>
+		<Italian>Build an [LINK=IMPROVEMENT_APPLE_FARM]Orchard[\LINK]</Italian>
+		<Spanish>Build an [LINK=IMPROVEMENT_APPLE_FARM]Orchard[\LINK]</Spanish>
+	</TEXT>
+</Civ4GameText>

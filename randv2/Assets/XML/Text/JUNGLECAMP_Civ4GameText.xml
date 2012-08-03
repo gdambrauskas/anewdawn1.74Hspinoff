@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Game Text Infos -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_JUNGLE_CAMP</Tag>
+		<English>Jungle Camp</English>
+		<French>Jungle Camp</French>
+		<German>Jungle Camp</German>
+		<Italian>Jungle Camp</Italian>
+		<Spanish>Jungle Camp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_JUNGLE_CAMP_PEDIA</Tag>
+		<English>Jungle Camp</English>
+		<French>Jungle Camp</French>
+		<German>Jungle Camp</German>
+		<Italian>Jungle Camp</Italian>
+		<Spanish>Jungle Camp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_JUNGLE_CAMP</Tag>
+		<English>Build Jungle Camp</English>
+		<French>Build Jungle Camp</French>
+		<German>Build Jungle Camp</German>
+		<Italian>Build Jungle Camp</Italian>
+		<Spanish>Build Jungle Camp</Spanish>
+	</TEXT>
+</Civ4GameText>

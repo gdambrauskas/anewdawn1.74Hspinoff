@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the RevolutionDCM Team -->
+<!-- Game Text -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_CANCEL</Tag>
+		<English>Cancel</English>
+		<French>Annulation</French>
+		<German>Abbrechen</German>
+		<Italian>Annulla</Italian>
+		<Spanish>Cancelar</Spanish>
+		<Finnish>Peruuta</Finnish>
+		<Hungarian>Cancel</Hungarian>
+		<Polish>Anuluj</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_PICK_CIV</Tag>
+		<English>Pick a civ</English>
+		<French>S&#233;lectionnez une civ</French>
+		<German>W&#228;hlen Sie eine Civ aus</German>
+		<Italian>Seleziona una civilt&#224;</Italian>
+		<Spanish>Elige una civilizaci&#243;n</Spanish>
+		<Finnish>Valitse kansa</Finnish>
+		<Hungarian>Pick a civ</Hungarian>
+		<Polish>Wybierz cywilizacj&#234;</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_CIV_DIED</Tag>
+		<English>Your civ has died.[NEWLINE]Would you like to lead another civ?[NEWLINE]</English>
+		<French>Votre civ est éteinte.[NEWLINE]Souhaitez-vous diriger une autre civ  [NEWLINE]</French>
+		<German>Ihre Civ ist gestorben.[NEWLINE]M&#246;chten Sie eine andere Civ f&#252;hren?[NEWLINE]</German>
+		<Italian>La tua civilt&#224; &#232; scomparsa.[NEWLINE]Vuoi guidarne un'altra?[NEWLINE]</Italian>
+		<Spanish>Tu civilizaci&#243;n ha muerto.[NEWLINE]&#191;Le gustar&#237;a dirigir otra civilizaci&#243;n?[NEWLINE]</Spanish>
+		<Finnish>Kansasi on tuhottu.[NEWLINE]Haluatko johtaa toista kansaa?[NEWLINE]</Finnish>
+		<Hungarian>Your civ has died.[NEWLINE]Would you like to lead another civ?[NEWLINE]</Hungarian>
+		<Polish>Twoja cywilizacja upad&#244;a.[NEWLINE]Czy chcesz przewodzi&#226; inn&#225; cywilizacj&#225;?[NEWLINE]</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TAKE_CONTROL_CIV</Tag>
+		<English>Take control of this civ ...</English>
+		<French>Prendre le contrôle de cette civ ...</French>
+		<German>Kontrollieren Sie diese Civ ...</German>
+		<Italian>Prendi il controllo di questa civilt&#224;...</Italian>
+		<Spanish>Coge el control de esta civilizaci&#243;n ...</Spanish>
+		<Finnish>Hallitse t&#228;t&#228; kansaa ...</Finnish>
+		<Hungarian>Take control of this civ ...</Hungarian>
+		<Polish>Przejmij kontrol&#234; nad t&#225; cywilizacj&#225; ...</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_OF_THE</Tag>
+		<English>%s of the %s</English>
+		<French>%s de %s</French>
+		<German>%s von %s</German>
+		<Italian>%s / %s</Italian>
+		<Spanish>%s del %s</Spanish>
+		<Finnish>%s / %s</Finnish>
+		<Hungarian>%s of the %s</Hungarian>
+		<Polish>%s %s</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_NOW_CONTROL</Tag>
+		<English>You now control the %s</English>
+		<French>Vous contrôlez maintenant %s</French>
+		<German>Sie steuern jetzt %s</German>
+		<Italian>Ora controlli %s</Italian>
+		<Spanish>Ahora controlas %s</Spanish>
+		<Finnish>%s ovat nyt hallinnassasi</Finnish>
+		<Hungarian>You now control the %s</Hungarian>
+		<Polish>Teraz kontrolujesz %s</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_NONE</Tag>
+		<English>None</English>
+		<French>Aucun</French>
+		<German>Kein</German>
+		<Italian>Nessuno</Italian>
+		<Spanish>Ninguna</Spanish>
+		<Finnish>Ei valintaa</Finnish>
+		<Hungarian>None</Hungarian>
+		<Polish>Brak</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TURN_ON</Tag>
+		<English>Turn on AI Auto Control?</English>
+		<French>Activer le contrôle automatique par IA?</French>
+		<German>AI-Autosteuerung einschalten?</German>
+		<Italian>Attivare l'Automazione dell'IA?</Italian>
+		<Spanish>&#191;Activar el Auto Control de la IA?</Spanish>
+		<Finnish>K&#228;yt&#228; teko&#228;lyautomaatiota?</Finnish>
+		<Hungarian>Turn on AI Auto Control?</Hungarian>
+		<Polish>Czy w&#244;&#225;czy&#226; autogr&#234;?</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TURNS</Tag>
+		<English>How many turns would you like the AI to control?</English>
+		<French>Pour combien de tours donnez-vous le contrôle à l'IA?</French>
+		<German>Wieviele Runden m&#246;chten Sie die AI kontrollieren lassen?</German>
+		<Italian>Per quanti turni vuoi lasciare il controllo all'IA?</Italian>
+		<Spanish>&#191;Cu&#225;ntos turnos quieres que coja el control la IA?</Spanish>
+		<Finnish>Kuinka monta vuoroa haluat k&#228;ytt&#228;&#228; teko&#228;ly&#228;?</Finnish>
+		<Hungarian>How many turns would you like the AI to control?</Hungarian>
+		<Polish>Ile tur SI ma kontrolowa&#226; twoj&#225; cywilizacj&#234;?</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_AUTOMATION</Tag>
+		<English>Choose type of automation</English>
+		<French>Choisissez le type d'automatisation</French>
+		<German>W&#228;hlen Sie die Art der Automatisierung</German>
+		<Italian>Scegli il tipo di automazione</Italian>
+		<Spanish>Elige tipo de automatizaci&#243;n</Spanish>
+		<Finnish>Valitse automaation tyyli</Finnish>
+		<Hungarian>Choose type of automation</Hungarian>
+		<Polish>Wybierz tryb autogry</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TURN_OFF</Tag>
+		<English>AI Auto Control Ended</English>
+		<French>Contrôle automatique par l'IA terminé</French>
+		<German>AI-Autosteuerung wurde beendet</German>
+		<Italian>L'automazione dell'IA &#232; finita</Italian>
+		<Spanish>El control autom&#225;tico del AI termin&#243;</Spanish>
+		<Finnish>AI Auto kontrolli on loppunut</Finnish>
+		<Hungarian>AI Auto Control Ended</Hungarian>
+		<Polish>Autogra zako&#241;czona</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TURN_OFF_TEXT</Tag>
+		<English>Control returned.</English>
+		<French>Contrôle du Joueur rétabli.</French>
+		<German>Steuerung wieder &#252;bernommen.</German>
+		<Italian>Sei tornato alla guida.</Italian>
+		<Spanish>Control devuelto.</Spanish>
+		<Finnish>Hallinta palautettu.</Finnish>
+		<Hungarian>Control returned.</Hungarian>
+		<Polish>Kontrola przywr&#243;cona.</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TURN_ABDICATE</Tag>
+		<English>Turn AI Auto Controled</English>
+		<French>Laisser l'IA contrôler le Tour</French>
+		<German>Eine Runde AI-Autosteuerung</German>
+		<Italian>Turno dell'Automazione dell'IA</Italian>
+		<Spanish>Turno Controlado autom&#225;ticamente por la IA </Spanish>
+		<Finnish>Vuoro on teko&#228;lyn hallinnassa</Finnish>
+		<Hungarian>Turn AI Auto Controled</Hungarian>
+		<Polish>W&#244;&#225;cz Autogr&#234;</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TURN_ABDICATE_TEXT</Tag>
+		<English>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]Game AI Auto Controled for a single Turn.</English>
+		<French>LEADER: %s1_Leader[NEWLINE]CIVILISATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]TOUR DEBUT: %d3_StartTurn[NEWLINE]TOUR FIN: %d4_EndTurn[NEWLINE]TOURS AUTO: %d5_AutoTurn[NEWLINE][NEWLINE]L'IA contrôle la partie pour un tour.</French>
+		<German>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]Command&#233; Eine Runde AI-Autosteuerung.</German>
+		<Italian>LEADER: %s1_Leader[NEWLINE]CIVILTA': %s2_CivilizationAdj[NEWLINE][NEWLINE]TURNO INIZIALE: %d3_StartTurn[NEWLINE]TURNO FINALE: %d4_EndTurn[NEWLINE]TURNI AUTO: %d5_AutoTurn[NEWLINE][NEWLINE]Controllo Automatico dell'IA per un solo turno.</Italian>
+		<Spanish>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]Juego controlado autom&#225;ticamente por la IA  un solo turno.</Spanish>
+		<Finnish>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]Game AI Auto Controled for a single Turn.</Finnish>
+		<Hungarian>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]Game AI Auto Controled for a single Turn.</Hungarian>
+		<Polish>PRZYW&#211;DCA: %s1_Leader[NEWLINE]CYWILIZACJA: %s2_CivilizationAdj[NEWLINE][NEWLINE]TURA ROZPOCZ&#202;CIA: %d3_StartTurn[NEWLINE]TURA ZAKO&#209;CZENIA: %d4_EndTurn[NEWLINE]AUTOMATYCZNE TURY: %d5_AutoTurn[NEWLINE][NEWLINE]Autogra przez jedn&#225; tur&#234;.</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_MP_ANNOUNCE_ABDICATE</Tag>
+		<English>AI Auto Control On</English>
+		<French>Activation du Contrôle par l'IA</French>
+		<German>AI-Autosteuerung an</German>
+		<Italian>Automazione dell'IA attivata</Italian>
+		<Spanish>Control autom&#225;tico de la IA activado</Spanish>
+		<Finnish>Teko&#228;lyautomaatio k&#228;yt&#246;ss&#228;</Finnish>
+		<Hungarian>AI Auto Control On</Hungarian>
+		<Polish>Autogra w&#244;&#225;czona</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_MP_ANNOUNCE_ABDICATE_TEXT</Tag>
+		<English>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]Game AI Auto Control is Now Active.</English>
+		<French>LEADER: %s1_Leader[NEWLINE]CIVILISATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]TOUR DEBUT: %d3_StartTurn[NEWLINE]TOUR FIN: %d4_EndTurn[NEWLINE]TOURS AUTO: %d5_AutoTurn[NEWLINE][NEWLINE]Le contrôle du Jeu par l'IA est à présent actif.</French>
+		<German>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]AI-Autosteuerung ist jetzt aktiv.</German>
+		<Italian>LEADER: %s1_Leader[NEWLINE]CIVILTA': %s2_CivilizationAdj[NEWLINE][NEWLINE]TURNO INIZIALE: %d3_StartTurn[NEWLINE]TURNO FINALE: %d4_EndTurn[NEWLINE]TURNI AUTO: %d5_AutoTurn[NEWLINE][NEWLINE]Controllo Automatico dell'IA attivo.</Italian>
+		<Spanish>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]El control autom&#225;tico de la IA activado.</Spanish>
+		<Finnish>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]Teko&#228;lyautomaatio on nyt toiminnassa.</Finnish>
+		<Hungarian>LEADER: %s1_Leader[NEWLINE]CIVILIZATION: %s2_CivilizationAdj[NEWLINE][NEWLINE]START TURN: %d3_StartTurn[NEWLINE]END TURN: %d4_EndTurn[NEWLINE]AUTO TURNS: %d5_AutoTurn[NEWLINE][NEWLINE]Game AI Auto Control is Now Active.</Hungarian>
+		<Polish>PRZYW&#211;DCA: %s1_Leader[NEWLINE]CYWILIZACJA: %s2_CivilizationAdj[NEWLINE][NEWLINE]TURA ROZPOCZ&#202;CIA: %d3_StartTurn[NEWLINE]TURA ZAKO&#209;CZENIA: %d4_EndTurn[NEWLINE]AUTOMATYCZNE TURY: %d5_AutoTurn[NEWLINE][NEWLINE]Autogra jest teraz w&#244;&#225;czona.</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TURNS_HELP</Tag>
+		<English>Number of turns the AI control</English>
+		<French>Nombre de tours contrôlés par l'IA</French>
+		<German>Wieviele Runden m&#246;chten Sie die AI kontrollieren lassen?</German>
+		<Italian>Per quanti turni vuoi lasciare il controllo all'IA?</Italian>
+		<Spanish>&#191;Cu&#225;ntos turnos quieres que coja el control la IA?</Spanish>
+		<Finnish>Kuinka monta vuoroa haluat teko&#228;lyn pelaavan?</Finnish>
+		<Hungarian>How many turns would you like the AI to control?</Hungarian>
+		<Polish>Ile tur SI ma kontrolowa&#226; twoj&#225; cywilizacj&#234;?</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_NO</Tag>
+		<English>No automation</English>
+		<French>Aucune automatisation</French>
+		<German>Keine Automatisierung</German>
+		<Italian>Nessuna automazione</Italian>
+		<Spanish>Sin automatizaci&#243;n</Spanish>
+		<Finnish>Ei automaatiota</Finnish>
+		<Hungarian>No automation</Hungarian>
+		<Polish>Brak automatyzacji</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_LIMIT_DIPLO</Tag>
+		<English>Limit diplomacy changes</English>
+		<French>Limiter les changements de diplomatie</French>
+		<German>Diplomatie&#228;nderungen begrenzen</German>
+		<Italian>Limita i cambiamenti diplomatici</Italian>
+		<Spanish>Limitar cambios de la diplomacia</Spanish>
+		<Finnish>Rajoita diplomaattisia muutoksia</Finnish>
+		<Hungarian>Limit diplomacy changes</Hungarian>
+		<Polish>Ogranicz zmiany dyplomatyczne</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_FULLY</Tag>
+		<English>Fully Automate</English>
+		<French>Automatiser enti&#232;rement</French>
+		<German>Vollst&#228;ndige Automatisierung</German>
+		<Italian>Automazione totale</Italian>
+		<Spanish>Automatizaci&#243;n Completa</Spanish>
+		<Finnish>T&#228;ysautomaatio</Finnish>
+		<Hungarian>Fully Automate</Hungarian>
+		<Polish>Pe&#244;na automatyzacja</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_UNIT</Tag>
+		<English>Automate unit moves only (not fully tested)</English>
+		<French>Automatiser uniquement les mouvements d'unit&#233; (pas enti&#232;rement testé)</French>
+		<German>Nur Einheitenz&#252;ge automatisieren (noch nicht vollst&#228;ndig getestet)</German>
+		<Italian>Solo controllo automatico dei movimenti (non completamente testato)</Italian>
+		<Spanish>La unidad automatizada se mueve solo (sin terminar de probar)</Spanish>
+		<Finnish>Liikuta vain yksik&#246;it&#228; (toiminnon testaus on vaiheessa)</Finnish>
+		<Hungarian>Automate unit moves only (not fully tested)</Hungarian>
+		<Polish>Automatyzuj tylko ruchy jednostek (nie w pe&#244;ni przetestowane)</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_DEBUG</Tag>
+		<English>Debug Mode (will reveal entire world!!!)</English>
+		<French>Mode Debug (Dévoile toute la carte !!!)</French>
+		<German>Fehlerpr&#252;fungsmodus (deckt ganze Welt auf!!!)</German>
+		<Italian>Modalit&#224; Debug (rivela il mondo intero!!!)</Italian>
+		<Spanish>Modo Debug (&#161;&#161;&#161;Revelar&#225; el mundo entero!!!)</Spanish>
+		<Finnish>Debug-moodi (paljastaa koko maailman!!!)</Finnish>
+		<Hungarian>Debug Mode (will reveal entire world!!!)</Hungarian>
+		<Polish>Tryb Debugowy (odkryje ca&#244;y &#228;wiat!!!)</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_NEW_LEADER</Tag>
+		<English>There is a new leader!!!</English>
+		<French>Il y a un nouveau chef !!!</French>
+		<German>Es gibt einen neuen Anf&#252;hrer!!!</German>
+		<Italian>C'&#232; un nuovo leader!!!</Italian>
+		<Spanish>&#161;&#161;&#161;Hay un nuevo l&#237;der!!!</Spanish>
+		<Finnish>Hallitsija on vaihtunut!!!</Finnish>
+		<Hungarian>There is a new leader!!!</Hungarian>
+		<Polish>Mamy nowego przyw&#243;dc&#234;!!!</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_ABDICATE</Tag>
+		<English>Old age has finally caught up with you and you decide to abdicate rule.</English>
+		<French>La vieillesse vous a finalement rattrap&#233; vous d&#233;cidez &#224; de renoncer au pouvoir.</French>
+		<German>Hohes Alter hat Sie schlie&#223;lich eingeholt und Sie entscheiden sich, die Herrschaft abzugeben.</German>
+		<Italian>La vecchiaia infine ti ha raggiunto e tu hai deciso di lasciare il potere.</Italian>
+		<Spanish>Los viejos tiempos finalmente te han alcanzado y decides abdicar del poder.</Spanish>
+		<Finnish>Aika on viimein kirinyt sinut kiinni ja p&#228;&#228;t&#228;t korkean ik&#228;si vuoksi luopua vallasta.</Finnish>
+		<Hungarian>Old age has finally caught up with you and you decide to abdicate rule.</Hungarian>
+		<Polish>Staro&#228;&#226; da&#244;a w ko&#241;cu zna&#226; o sobie i zadecydowa&#244;e&#228; zrzec si&#234; tronu.</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_USURPATOR</Tag>
+		<English>Terrible news:[NEWLINE][NEWLINE]Coniving rivals have overthrown you in a coup![NEWLINE]A little to much "Let them eat cake" perhaps?</English>
+		<French>Nouvelles terribles:[NEWLINE][NEWLINE]Des rivaux ont réussi à monter un complot et vous destituer dans un coup d'état![NEWLINE] Laisser-les prendre une part du gâteau ?</French>
+		<German>Schreckliche Neuigkeiten:[NEWLINE][NEWLINE]Hinterh&#228;ltige Rivalen haben Sie gest&#252;rzt![NEWLINE]Etwas zu viel "Sollen sie doch Kuchen essen" m&#246;glicherweise?</German>
+		<Italian>Notizie terribili:[NEWLINE][NEWLINE]Nemici occulti ti hanno rovesciato con un colpo di stato![NEWLINE]Hai forse esagerato con "Che mangino brioches"?</Italian>
+		<Spanish>Terribles noticias:[NEWLINE][NEWLINE]&#161;Unos conspiradores rivales han dado un golpe de estado![NEWLINE]&#191;Puede que a lo mejor hayas sido demasiado permisivo?</Spanish>
+		<Finnish>Kamalia uutisia:[NEWLINE][NEWLINE]Sinut on siirretty syrj&#228;&#228;n vallankaappauksessa![NEWLINE]Annoitkohan vastustajillesi hieman liikaa karkkia?</Finnish>
+		<Hungarian>Terrible news:[NEWLINE][NEWLINE]Coniving rivals have overthrown you in a coup![NEWLINE]A little to much "Let them eat cake" perhaps?</Hungarian>
+		<Polish>Okropne wie&#228;ci:[NEWLINE][NEWLINE]Rywale obalili ci&#234; w zamachu stanu![NEWLINE]Mo&#235;e pozwoli&#244;e&#228; im za du&#235;o wolno&#228;ci?</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_GOOD_NEWS</Tag>
+		<English>[NEWLINE][NEWLINE]However, there is good news![NEWLINE]Mystical advisors report that you will be reincarnated and return to power in %d turns.[NEWLINE][NEWLINE]In the meantime, you can only hope your successor proves worthy.</English>
+		<French>[NEWLINE] [NEWLINE] Cependant, il y a de bonnes nouvelles ! [NEWLINE] les conseillers mystiques rapportent que vous serez r&#233;incarn&#233; et de retour d'ici %d tours. [NEWLINE] [NEWLINE] en attendant, vous pouvez seulement esp&#233;rer que votre successeur se montre digne de ce que vous avez bâti.</French>
+		<German>[NEWLINE] [NEWLINE] Es gibt allerdings auch gute Nachrichten! [NEWLINE] Geheimnisvolle Berater berichten, dass Sie wiedergeboren und in %d Runden wieder an die Macht gelangen werden. [NEWLINE] [NEWLINE] In der Zwischenzeit k&#246;nnen Sie nur hoffen, dass Ihr Nachfolger sich Ihrer w&#252;rdig erweist.</German>
+		<Italian>[NEWLINE] [NEWLINE] Tuttavia, ci sono buone notizie! [NEWLINE] I consiglieri religiosi prevedono che sarai reincarnato e tornerai al potere in %d turni. [NEWLINE] [NEWLINE] Nel frattempo, puoi soltanto sperare che il tuo successore si dimostri degno.</Italian>
+		<Spanish>[NEWLINE][NEWLINE]&#161;No obstante, tambi&#233;n hay buenas noticias![NEWLINE]Los astr&#243;logos vaticinaron vuestra reencarnaci&#243;n y retorno al poder en %d turnos.[NEWLINE][NEWLINE]Mientras tanto, solo podeis esperar que vuestro sucesor este a la altura.</Spanish>
+		<Finnish>[NEWLINE][NEWLINE]Hyvi&#228;kin uutisia l&#246;ytyy![NEWLINE]Mystiset neuvonantajat ilmoittavat sinun palaavan kuolleista %d vuorossa.[NEWLINE][NEWLINE]Odottaessasi voit vain toivoa seuraajasi olevan kelvollinen.</Finnish>
+		<Hungarian>[NEWLINE][NEWLINE]However, there is good news![NEWLINE]Mystical advisors report that you will be reincarnated and return to power in %d turns.[NEWLINE][NEWLINE]In the meantime, you can only hope your successor proves worthy.</Hungarian>
+		<Polish>[NEWLINE][NEWLINE]Pomimo tego, s&#225; i dobre wie&#228;ci![NEWLINE]Mistycy g&#244;osz&#225;, &#235;e za %d tur dost&#225;pisz reinkarnacji i powr&#243;cisz do w&#244;adzy.[NEWLINE][NEWLINE]W mi&#234;dzyczasie, mo&#235;esz tylko mie&#226; nadziej&#234;, &#235;e Tw&#243;j nast&#234;pca dobrze si&#234; spisze.</Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

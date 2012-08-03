@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:Basil_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_BASIL</Type>
+			<Button>Modules/Custom Leaderheads/Basil/Basil.dds</Button>
+			<NIF>Modules/Custom Leaderheads/Basil/huayna_capac.nif</NIF>
+			<KFM>Modules/Custom Leaderheads/Basil/huayna_capac.kfm</KFM>
+			<NoShaderNIF>Modules/Custom Leaderheads/Basil/huayna_capac_noshader.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom Leaderheads/Basil/huayna_capac_bg.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

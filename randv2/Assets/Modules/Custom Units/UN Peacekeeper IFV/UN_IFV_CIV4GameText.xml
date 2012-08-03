@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">	
+	
+<!-- UNIT KEY SECTION -->
+
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_UN_IFV</Tag>
+		<English>UN Fighting Vehicle</English>
+		<French>
+			<Text>Véhicule de Combat ONU</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>UN-Kampffahrzeug</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>UN Fighting Vehicle</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>UN Fighting Vehicle</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	
+<!-- STRATEGY SECTION -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_UN_IFV_STRATEGY</Tag>
+		<English>UN Fighting Vehicles are used to carry Peacekeepers into battle and provide fire support.</English>
+		<French>Les Véhicules de Combat ONU sont utilisé pour transporter les troupes et apporter un soutien sur le terrain.</French>
+		<German>UN Fighting Vehicles) are used to carry Peacekeepers into battle and provide fire support.</German>
+		<Italian>UN Fighting Vehicles are used to carry Peacekeepers into battle and provide fire support.</Italian>
+		<Spanish>UN Fighting Vehicles are used to carry Peacekeepers into battle and provide fire support.</Spanish>
+	</TEXT>
+	
+<!-- PEDIA SECTION -->
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_UN_IFV_PEDIA</Tag>
+		<English>[TAB]Peacekeeping, as defined by the United Nations, is "a way to help countries torn by conflict create conditions for sustainable peace."[1]. Peacekeepers monitor and observe peace processes in post-conflict areas and assist ex-combatants in implementing the peace agreements they may have signed. Such assistance comes in many forms, including confidence-building measures, power-sharing arrangements, electoral support, strengthening the rule of law, and economic and social development. Accordingly UN peacekeepers (often referred to as Blue Beret because of their light blue helmets) can include soldiers, civilian police officers, and other civilian personnel.
+
+The Charter of the United Nations gives the UN Security Council the power and responsibility to take collective action to maintain international peace and security. For this reason, the international community usually looks to the Security Council to authorize peacekeeping operations, as all UN Peacekeeping missions must be authorized by the Security Council.
+</English>
+		<French>[TAB]Peacekeeping, as defined by the United Nations, is "a way to help countries torn by conflict create conditions for sustainable peace."[1]. Peacekeepers monitor and observe peace processes in post-conflict areas and assist ex-combatants in implementing the peace agreements they may have signed. Such assistance comes in many forms, including confidence-building measures, power-sharing arrangements, electoral support, strengthening the rule of law, and economic and social development. Accordingly UN peacekeepers (often referred to as Blue Beret because of their light blue helmets) can include soldiers, civilian police officers, and other civilian personnel.
+
+The Charter of the United Nations gives the UN Security Council the power and responsibility to take collective action to maintain international peace and security. For this reason, the international community usually looks to the Security Council to authorize peacekeeping operations, as all UN Peacekeeping missions must be authorized by the Security Council.
+</French>
+		<German>[TAB]Peacekeeping, as defined by the United Nations, is "a way to help countries torn by conflict create conditions for sustainable peace."[1]. Peacekeepers monitor and observe peace processes in post-conflict areas and assist ex-combatants in implementing the peace agreements they may have signed. Such assistance comes in many forms, including confidence-building measures, power-sharing arrangements, electoral support, strengthening the rule of law, and economic and social development. Accordingly UN peacekeepers (often referred to as Blue Beret because of their light blue helmets) can include soldiers, civilian police officers, and other civilian personnel.
+
+The Charter of the United Nations gives the UN Security Council the power and responsibility to take collective action to maintain international peace and security. For this reason, the international community usually looks to the Security Council to authorize peacekeeping operations, as all UN Peacekeeping missions must be authorized by the Security Council.
+</German>
+		<Italian>[TAB]Peacekeeping, as defined by the United Nations, is "a way to help countries torn by conflict create conditions for sustainable peace."[1]. Peacekeepers monitor and observe peace processes in post-conflict areas and assist ex-combatants in implementing the peace agreements they may have signed. Such assistance comes in many forms, including confidence-building measures, power-sharing arrangements, electoral support, strengthening the rule of law, and economic and social development. Accordingly UN peacekeepers (often referred to as Blue Beret because of their light blue helmets) can include soldiers, civilian police officers, and other civilian personnel.
+
+The Charter of the United Nations gives the UN Security Council the power and responsibility to take collective action to maintain international peace and security. For this reason, the international community usually looks to the Security Council to authorize peacekeeping operations, as all UN Peacekeeping missions must be authorized by the Security Council.
+</Italian>
+		<Spanish>[TAB]Peacekeeping, as defined by the United Nations, is "a way to help countries torn by conflict create conditions for sustainable peace."[1]. Peacekeepers monitor and observe peace processes in post-conflict areas and assist ex-combatants in implementing the peace agreements they may have signed. Such assistance comes in many forms, including confidence-building measures, power-sharing arrangements, electoral support, strengthening the rule of law, and economic and social development. Accordingly UN peacekeepers (often referred to as Blue Beret because of their light blue helmets) can include soldiers, civilian police officers, and other civilian personnel.
+
+The Charter of the United Nations gives the UN Security Council the power and responsibility to take collective action to maintain international peace and security. For this reason, the international community usually looks to the Security Council to authorize peacekeeping operations, as all UN Peacekeeping missions must be authorized by the Security Council.
+</Spanish>
+	</TEXT>
+	
+</Civ4GameText>

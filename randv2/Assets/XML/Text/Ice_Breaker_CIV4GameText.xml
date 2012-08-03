@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text Infos -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_BREAK_ICE</Tag>
+		<English>Break [LINK=FEATURE_ICE]Ice[\LINK]</English>
+		<French>Faille de [LINK=FEATURE_ICE]Glace[\LINK]</French>
+		<German>[LINK=FEATURE_ICE]Eis[\LINK]-Brechen</German>
+		<Italian>Rottura Del [LINK=FEATURE_ICE]Ghiaccio[\LINK]</Italian>
+		<Spanish>Rotura Del [LINK=FEATURE_ICE]Hielo[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CAN_ONLY_TRAVERSE</Tag>
+		<English>Can Not Traverse</English>
+		<French>Can Not Traverse</French>
+		<German>Kann nicht queren</German>
+		<Italian>Can Not Traverse</Italian>
+		<Spanish>Can Not Traverse</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IGLOO</Tag>
+		<English>Igloo</English>
+		<French>Igloo</French>
+		<German>Iglo</German>
+		<Italian>Igloo</Italian>
+		<Spanish>Igloo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ICE_HOTEL</Tag>
+		<English>SnowCastle of Kemi</English>
+		<French>Château de Glace de Kemi</French>
+		<German>Schneeschloss von Kemi</German>
+		<Italian>SnowCastle of Kemi</Italian>
+		<Spanish>SnowCastle of Kemi</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ICE_HOUSE</Tag>
+		<English>Ice Storehouse</English>
+		<French>Entrepôt de Glace</French>
+		<German>Eis-Lagerhaus</German>
+		<Italian>Ice Storehouse</Italian>
+		<Spanish>Ice Storehouse</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IGLOO_STRATEGY</Tag>
+		<English>Igloo's are useful for expanding cities in artic territory.</English>
+		<French>Les Igloo sont utilisés pour étendre les Villes situées dans le territoire arctique.</French>
+		<German>Iglos sind n&#252;tzlich, um St&#228;dte in arktischen Regionen wachsen zu lassen.</German>
+		<Italian>Igloo's are useful for expanding cities in artic territory.</Italian>
+		<Spanish>Igloo's are useful for expanding cities in artic territory.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ICE_HOTEL_STRATEGY</Tag>
+		<English>The SnowCastle of Kemi offers an excellant source of income and is an excellant tourist destination for colder places.</English>
+		<French>Les Châteaux de Glace de Kemile of Kemi constitue une source de revenus excellente, en tant que destination touristique attirante pour ceux qui aiment les endroits plus froids.</French>
+		<German>Das Schneeschloss von Kemi ist eine hervorragende Einkunftsquelle und ein wunderbare Touristenattraktion in den k&#228;lteren Regionen.</German>
+		<Italian>The SnowCastle of Kemi offers an excellant source of income and is an excellant tourist destination for colder places.</Italian>
+		<Spanish>The SnowCastle of Kemi offers an excellant source of income and is an excellant tourist destination for colder places.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ICE_HOUSE_STRATEGY</Tag>
+		<English>Ice Storehouse's are excellant sources of income, especially during the summer.</English>
+		<French>L'Entrepôt de Glace est une excellente source de revenus, spécialement en été.</French>
+		<German>Eis-Lagerh&#228;user sind eine ausgezeichnete Einkunftsquelle, insbesondere im Sommer. </German>
+		<Italian>Ice Storehouse's are excellant sources of income, especially during the summer.</Italian>
+		<Spanish>Ice Storehouse's are excellant sources of income, especially during the summer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IGLOO_PEDIA</Tag>
+		<English>An igloo, or snowhouse, is a type of shelter built out of snow, originally built by the Inuit. Iglu is the Inuit word for a house or home built out of any material, and is not restricted exclusively to snowhouses but includes traditional tents, sod houses, homes constructed of driftwood and modern buildings.[NEWLINE]When referring to a snowhouse, igloos are shelters constructed from blocks of snow, generally in the form of a dome. Although igloos are usually associated with all Inuit, they were predominantly constructed by people of Canada's Central Arctic and Greenland's Thule area. Other Inuit people tended to use snow to insulate their houses which consisted of whalebone and hides. Snow was used because the air pockets trapped in it make it an insulator. On the outside, temperatures may be as low as -45 °C (-49.0 °F), but on the inside the temperature may range from -7 °C (19 °F) to 16 °C (61 °F) when warmed by body heat alone.</English>
+		<French>An igloo, or snowhouse, is a type of shelter built out of snow, originally built by the Inuit. Iglu is the Inuit word for a house or home built out of any material, and is not restricted exclusively to snowhouses but includes traditional tents, sod houses, homes constructed of driftwood and modern buildings.[NEWLINE]When referring to a snowhouse, igloos are shelters constructed from blocks of snow, generally in the form of a dome. Although igloos are usually associated with all Inuit, they were predominantly constructed by people of Canada's Central Arctic and Greenland's Thule area. Other Inuit people tended to use snow to insulate their houses which consisted of whalebone and hides. Snow was used because the air pockets trapped in it make it an insulator. On the outside, temperatures may be as low as -45 °C (-49.0 °F), but on the inside the temperature may range from -7 °C (19 °F) to 16 °C (61 °F) when warmed by body heat alone.</French>
+		<German>An igloo, or snowhouse, is a type of shelter built out of snow, originally built by the Inuit. Iglu is the Inuit word for a house or home built out of any material, and is not restricted exclusively to snowhouses but includes traditional tents, sod houses, homes constructed of driftwood and modern buildings.[NEWLINE]When referring to a snowhouse, igloos are shelters constructed from blocks of snow, generally in the form of a dome. Although igloos are usually associated with all Inuit, they were predominantly constructed by people of Canada's Central Arctic and Greenland's Thule area. Other Inuit people tended to use snow to insulate their houses which consisted of whalebone and hides. Snow was used because the air pockets trapped in it make it an insulator. On the outside, temperatures may be as low as -45 °C (-49.0 °F), but on the inside the temperature may range from -7 °C (19 °F) to 16 °C (61 °F) when warmed by body heat alone.</German>
+		<Italian>An igloo, or snowhouse, is a type of shelter built out of snow, originally built by the Inuit. Iglu is the Inuit word for a house or home built out of any material, and is not restricted exclusively to snowhouses but includes traditional tents, sod houses, homes constructed of driftwood and modern buildings.[NEWLINE]When referring to a snowhouse, igloos are shelters constructed from blocks of snow, generally in the form of a dome. Although igloos are usually associated with all Inuit, they were predominantly constructed by people of Canada's Central Arctic and Greenland's Thule area. Other Inuit people tended to use snow to insulate their houses which consisted of whalebone and hides. Snow was used because the air pockets trapped in it make it an insulator. On the outside, temperatures may be as low as -45 °C (-49.0 °F), but on the inside the temperature may range from -7 °C (19 °F) to 16 °C (61 °F) when warmed by body heat alone.</Italian>
+		<Spanish>An igloo, or snowhouse, is a type of shelter built out of snow, originally built by the Inuit. Iglu is the Inuit word for a house or home built out of any material, and is not restricted exclusively to snowhouses but includes traditional tents, sod houses, homes constructed of driftwood and modern buildings.[NEWLINE]When referring to a snowhouse, igloos are shelters constructed from blocks of snow, generally in the form of a dome. Although igloos are usually associated with all Inuit, they were predominantly constructed by people of Canada's Central Arctic and Greenland's Thule area. Other Inuit people tended to use snow to insulate their houses which consisted of whalebone and hides. Snow was used because the air pockets trapped in it make it an insulator. On the outside, temperatures may be as low as -45 °C (-49.0 °F), but on the inside the temperature may range from -7 °C (19 °F) to 16 °C (61 °F) when warmed by body heat alone.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ICE_HOTEL_PEDIA</Tag>
+		<English>The SnowCastle of Kemi is the biggest snow fort in the world. It is rebuilt every winter with a different architecture in Kemi, Finland. In 1996 the first snow castle drew 300,000 visitors.[NEWLINE]The area covered by the castle has varied from 13,000 to over 20,000 square meters. The highest towers have been over 20 meters high and longest walls over 1,000 meters long, and the castle has had up to three stories. Despite its varying configurations, the snow castle has a few recurring elements: a chapel, a restaurant and a hotel.</English>
+		<French>The SnowCastle of Kemi is the biggest snow fort in the world. It is rebuilt every winter with a different architecture in Kemi, Finland. In 1996 the first snow castle drew 300,000 visitors.[NEWLINE]The area covered by the castle has varied from 13,000 to over 20,000 square meters. The highest towers have been over 20 meters high and longest walls over 1,000 meters long, and the castle has had up to three stories. Despite its varying configurations, the snow castle has a few recurring elements: a chapel, a restaurant and a hotel.</French>
+		<German>The SnowCastle of Kemi is the biggest snow fort in the world. It is rebuilt every winter with a different architecture in Kemi, Finland. In 1996 the first snow castle drew 300,000 visitors.[NEWLINE]The area covered by the castle has varied from 13,000 to over 20,000 square meters. The highest towers have been over 20 meters high and longest walls over 1,000 meters long, and the castle has had up to three stories. Despite its varying configurations, the snow castle has a few recurring elements: a chapel, a restaurant and a hotel.</German>
+		<Italian>The SnowCastle of Kemi is the biggest snow fort in the world. It is rebuilt every winter with a different architecture in Kemi, Finland. In 1996 the first snow castle drew 300,000 visitors.[NEWLINE]The area covered by the castle has varied from 13,000 to over 20,000 square meters. The highest towers have been over 20 meters high and longest walls over 1,000 meters long, and the castle has had up to three stories. Despite its varying configurations, the snow castle has a few recurring elements: a chapel, a restaurant and a hotel.</Italian>
+		<Spanish>The SnowCastle of Kemi is the biggest snow fort in the world. It is rebuilt every winter with a different architecture in Kemi, Finland. In 1996 the first snow castle drew 300,000 visitors.[NEWLINE]The area covered by the castle has varied from 13,000 to over 20,000 square meters. The highest towers have been over 20 meters high and longest walls over 1,000 meters long, and the castle has had up to three stories. Despite its varying configurations, the snow castle has a few recurring elements: a chapel, a restaurant and a hotel.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ICE_HOUSE_PEDIA</Tag>
+		<English>Ice houses were buildings used to store ice throughout the year, prior to the invention of the refrigerator. The most common designs involved underground chambers, usually man-made, which were built close to natural sources of winter ice such as freshwater lakes.[NEWLINE]During the winter, ice and snow would be taken into the ice house and packed with insulation, often straw or sawdust. It would remain frozen for many months, often until the following winter, and could be used as a source of ice during summer months. The main application of the ice was the storage of perishable foods, but it could also be used simply to cool drinks, or allow ice-cream and sorbet desserts to be prepared.</English>
+		<French>Ice houses were buildings used to store ice throughout the year, prior to the invention of the refrigerator. The most common designs involved underground chambers, usually man-made, which were built close to natural sources of winter ice such as freshwater lakes.[NEWLINE]During the winter, ice and snow would be taken into the ice house and packed with insulation, often straw or sawdust. It would remain frozen for many months, often until the following winter, and could be used as a source of ice during summer months. The main application of the ice was the storage of perishable foods, but it could also be used simply to cool drinks, or allow ice-cream and sorbet desserts to be prepared.</French>
+		<German>Ice houses were buildings used to store ice throughout the year, prior to the invention of the refrigerator. The most common designs involved underground chambers, usually man-made, which were built close to natural sources of winter ice such as freshwater lakes.[NEWLINE]During the winter, ice and snow would be taken into the ice house and packed with insulation, often straw or sawdust. It would remain frozen for many months, often until the following winter, and could be used as a source of ice during summer months. The main application of the ice was the storage of perishable foods, but it could also be used simply to cool drinks, or allow ice-cream and sorbet desserts to be prepared.</German>
+		<Italian>Ice houses were buildings used to store ice throughout the year, prior to the invention of the refrigerator. The most common designs involved underground chambers, usually man-made, which were built close to natural sources of winter ice such as freshwater lakes.[NEWLINE]During the winter, ice and snow would be taken into the ice house and packed with insulation, often straw or sawdust. It would remain frozen for many months, often until the following winter, and could be used as a source of ice during summer months. The main application of the ice was the storage of perishable foods, but it could also be used simply to cool drinks, or allow ice-cream and sorbet desserts to be prepared.</Italian>
+		<Spanish>Ice houses were buildings used to store ice throughout the year, prior to the invention of the refrigerator. The most common designs involved underground chambers, usually man-made, which were built close to natural sources of winter ice such as freshwater lakes.[NEWLINE]During the winter, ice and snow would be taken into the ice house and packed with insulation, often straw or sawdust. It would remain frozen for many months, often until the following winter, and could be used as a source of ice during summer months. The main application of the ice was the storage of perishable foods, but it could also be used simply to cool drinks, or allow ice-cream and sorbet desserts to be prepared.</Spanish>
+	</TEXT>
+</Civ4GameText>

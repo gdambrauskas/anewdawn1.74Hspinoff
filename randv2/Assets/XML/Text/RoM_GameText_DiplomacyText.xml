@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SUPPI_1</Tag>
+		<English>Welcome, [CT_NAME]! Mighty [OUR_CIV_SHORT] seeks peace with your weak little civilization. For the moment, that is.</English>
+		<French>Bienvenue, [CT_NAME] ! Les puissants [OUR_CIV_SHORT:3] veulent la paix avec votre misérable civilisation. Enfin, pour l'instant.</French>
+		<German>Willkommen, [CT_NAME]! Das m&#228;chtige Volk von [OUR_CIV_SHORT] w&#252;nscht friedvolle Beziehungen zu Eurer bedauernswerten Nation. Zumindest f&#252;r den Augenblick ...</German>
+		<Italian>Ti do il benvenuto, [CT_NAME]! [OUR_CIV_SHORT] vuole la pace con la tua piccola e debole civiltà. Per il momento, almeno.</Italian>
+		<Spanish>¡Os doy la bienvenida, [CT_NAME]! La poderosa tierra de [OUR_CIV_SHORT] busca la paz con vuestra débil civilización de pacotilla. De momento, claro está.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GJERGJ_KASTRIOTI_1</Tag>
+		<English>May God bless you and your whole tribe, [CT_NAME]!  Accept my hospitality as celebrate the peace between our peoples!</English>
+		<French>Que Dieu vous bénisse, ainsi que votre peuple, [CT_NAME]!  Acceptez mon hospitalité comme signe de paix entre nos deux peuples!</French>
+		<German>M&#246;ge Gott Dich und Deinen ganzen Stamm segnen, [CT_NAME]!  Akzeptiere meine Gastfreundschaft und feiere mit mir den Frieden zwischen unseren V&#246;lkern!</German>
+		<Italian>May God bless you and your whole tribe, [CT_NAME]!  Accept my hospitality as celebrate the peace between our peoples!</Italian>
+		<Spanish>May God bless you and your whole tribe, [CT_NAME]!  Accept my hospitality as celebrate the peace between our peoples!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TEUTA_1</Tag>
+		<English>Hello, [CT_NAME]. I am [OUR_NAME] of the [OUR_EMPIRE]. I welcome you, but please know that we build with sweat, and defend with blood.</English>
+		<French>Bonjour, [CT_NAME]. Je suis [OUR_NAME] de l'[OUR_EMPIRE]. Je vous souhaite la bienvenue, mais sachez que nous construisons avec le miel, et nous défendons avec le sang.</French>
+		<German>Hallo, [CT_NAME]. Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Ich hei&#223;e Dich willkommen, doch bitte wisse, dass wir mit Schwei&#223; erbauen und mit Blut verteidigen.</German>
+		<Italian>Hello, [CT_NAME]. I am [OUR_NAME] of the [OUR_EMPIRE]. I welcome you, but please know that we build with sweat, and defend with blood.</Italian>
+		<Spanish>Hello, [CT_NAME]. I am [OUR_NAME] of the [OUR_EMPIRE]. I welcome you, but please know that we build with sweat, and defend with blood.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PERON_1</Tag>
+		<English>Greetings to you, [CT_NAME]. A word of advice - if you have a tail of straw, then keep it away from the fire.</English>
+		<French>Salutations à vous, [CT_NAME]. Un conseil - si vous avez une pièce de tissu à conserver, alors laissez-la loin du feu.</French>
+		<German>Sei gegr&#252;&#223;t, [CT_NAME]. Ein guter Rat - wenn Du einen Schwanz aus Stroh hast, so halte ihn vom Feuer fern.</German>
+		<Italian>Greetings to you, [CT_NAME]. A word of advice - if you have a tail of straw, then keep it away from the fire.</Italian>
+		<Spanish>Greetings to you, [CT_NAME]. A word of advice - if you have a tail of straw, then keep it away from the fire.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CURTIN_1</Tag>
+		<English>Greetings, [CT_NAME].  The game is not lost - or won - until the last bell goes.</English>
+		<French>Salutations, [CT_NAME]. Le jeu n'est pas perdu - ou gagné - jusqu'à ce que la dernière cloche disparaisse.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]. Das Spiel ist nicht verloren - oder gewonnen - bis die letzte Glocke l&#228;utet.</German>
+		<Italian>Greetings, [CT_NAME]. Il gioco non è perso - o vinto - fino a che l'ultima flangia non vada.</Italian>
+		<Spanish>Greetings, [CT_NAME]. El juego no se pierde - o ganado - hasta que va la campana pasada.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_FRANZ_1</Tag>
+		<English>Greetings to you, [CT_NAME]. Let us work side by side. It is said that success has more than one father.</English>
+		<French>Salutations à vous, [CT_NAME]. Travaillons côte à côte. Il est dit que le succès à plus d'un père.</French>
+		<German>Sei gegr&#252;&#223;t, [CT_NAME]. Lass uns Seite an Seite arbeiten. Man sagt, dass Erfolg mehrere V&#228;ter hat.</German>
+		<Italian>Greetings to you, [CT_NAME]. Let us work side by side. It is said that success has more than one father.</Italian>
+		<Spanish>Greetings to you, [CT_NAME]. Let us work side by side. It is said that success has more than one father.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MARIA_THERESA_1</Tag>
+		<English>It is a pleasure to meet you, [CT_NAME]. History is constantly teaching, but it does not find many pupils, so look closely at the world around you.</English>
+		<French>C'est un plaisir de vous rencontrer, [CT_NAME]. L'histoire ne cesse de nous enseigner, mais elle ne trouve pas beaucoup d'élèves, alors examinez de près le monde autour de vous.</French>
+		<German>Es ist ein Vergn&#252;gen, Sie kennen zu lernen, [CT_NAME]. Die Geschichte lehrt uns st&#228;ndig, aber es lassen sich nicht viele Sch&#252;ler finden, so beobachte die Welt um Dich herum genau.</German>
+		<Italian>E 'un piacere incontrarvi, [CT_NAME]. È in costante insegnamento della storia, ma non trovano molti alunni, in modo da vicino il mondo che vi circonda.</Italian>
+		<Spanish>Es un placer conocerte, [CT_NAME]. La historia está en constante enseñanza, pero no encuentra muchos alumnos, por lo que examinar de cerca el mundo que te rodea.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PEDRO_II_1</Tag>
+		<English>I am [OUR_NAME] of the [OUR_EMPIRE]. Shall we discuss our future together? If one does not look ahead, one remains behind.</English>
+		<French>Je suis [OUR_NAME] de l'[OUR_EMPIRE]. Pouvons nous discuter de notre future ensemble ? Celui qui ne regarde pas devant, reste derrière.</French>
+		<German>Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Sollen wir &#252;ber unsere Zukunft diskutieren? Wer nicht nach vorne sieht bleibt zur&#252;ck.</German>
+		<Italian>I am [OUR_NAME] of the [OUR_EMPIRE]. Shall we discuss our future together? If one does not look ahead, one remains behind.</Italian>
+		<Spanish>I am [OUR_NAME] of the [OUR_EMPIRE]. Shall we discuss our future together? If one does not look ahead, one remains behind.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SIMEON_I_1</Tag>
+		<English>Greetings, [CT_NAME].  Tell me who your friends are, so I can tell who you are.</English>
+		<French>Salutations, [CT_NAME].  Dites-moi qui sont vos amis, je vous dirai qui vous êtes.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME].  Sage mir, wer Deine Freunde sind, und ich sage Dir, wer Du bist.</German>
+		<Italian>Saluti, [CT_NAME].  Dicami che i vostri amici sono, in modo da posso dire a chi siete.</Italian>
+		<Spanish>Saludos, [CT_NAME].  Dígame que sus amigos sean, así que puedo decir quiénes usted es.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_STAMBOLOV_1</Tag>
+		<English>Dobro utro [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE]. The first sign of true political wisdom has always been the ability to give up the unachievable.</English>
+		<French>Dobro utro [CT_NAME]! Je suis [OUR_NAME] de l'[OUR_EMPIRE]. Le premier signe de la vraie sagesse politique a toujours été de savoir abandonner ce qui est impossible.</French>
+		<German>Dobro utro [CT_NAME]! Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Das erste Zeichen wahrer politischer Weisheit war immer die F&#228;higkeit, das Unerreichbare aufzugeben.</German>
+		<Italian>Dobro utro [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE]. The first sign of true political wisdom has always been the ability to give up the unachievable.</Italian>
+		<Spanish>Dobro utro [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE]. The first sign of true political wisdom has always been the ability to give up the unachievable.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JEAN_1</Tag>
+		<English>The [OUR_EMPIRE] is showcased for the world to see. It is an achievement that has eluded many societies, such as that of the [CT_CIV_ADJ] people . Come, [CT_NAME], and learn from what we have to offer.</English>
+		<French>L'[OUR_EMPIRE] est montré en exemple dans le monde entier. C'est un aboutissement qui fait des envieux dans toutes les sociétés, y compris le peuple [CT_CIV_ADJ]. Viens, [CT_NAME], et apprends de ce que nous t'offrons.</French>
+		<German>Das [OUR_EMPIRE] ist ein Schaufenster zur Welt. Es ist eine Errungenschaft, die vielen Gesellschaften verborgen blieb, wie auch dem [CT_CIV_ADJ] Volk . Komm, [CT_NAME], und lerne, was wir anzubieten haben.</German>
+		<Italian>The [OUR_EMPIRE] is showcased for the world to see. It is an achievement that has eluded many societies, such as that of the [CT_CIV_ADJ] people . Come, [CT_NAME], and learn from what we have to offer.</Italian>
+		<Spanish>The [OUR_EMPIRE] is showcased for the world to see. It is an achievement that has eluded many societies, such as that of the [CT_CIV_ADJ] people . Come, [CT_NAME], and learn from what we have to offer.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MACKENZIEKING_1</Tag>
+		<English>I am [OUR_NAME] and I offer you the friendship of the [OUR_EMPIRE]. After all, [CT_NAME], it is what we prevent, rather than what we do that counts most in Government.</English>
+		<French>Je suis [OUR_NAME] et je t'offre l'amitié de l'[OUR_EMPIRE]. Après tout, [CT_NAME], c'est ce que l'ont prévient, plutôt que ce que l'on fait, qui compte le plus en gouvernant.</French>
+		<German>Ich bin [OUR_NAME] und ich biete Dir die Freundschaft vom [OUR_EMPIRE]. Schlie&#223;lich, [CT_NAME], ist das was wir vermeiden und nicht was wir tun entscheidend f&#252;r die Regierung.</German>
+		<Italian>I am [OUR_NAME] and I offer you the friendship of the [OUR_EMPIRE]. After all, [CT_NAME], it is what we prevent, rather than what we do that counts most in Government.</Italian>
+		<Spanish>I am [OUR_NAME] and I offer you the friendship of the [OUR_EMPIRE]. After all, [CT_NAME], it is what we prevent, rather than what we do that counts most in Government.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MACDONALD_1</Tag>
+		<English>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. We offer you the friendship of the glorious nation of [OUR_CIV_SHORT]!</English>
+		<French>Salutations! Je suis [OUR_NAME] de l'[OUR_EMPIRE]. Nous vous offrons l'amitié de la glorieuse nation des [OUR_CIV_SHORT]!</French>
+		<German>Gr&#252;&#223;e! Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Wir bieten Euch die Freundschaft des glorreichen Nation [OUR_CIV_SHORT]!</German>
+		<Italian>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. We offer you the friendship of the glorious nation of [OUR_CIV_SHORT]!</Italian>
+		<Spanish>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. We offer you the friendship of the glorious nation of [OUR_CIV_SHORT]!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PEARSON_1</Tag>
+		<English>It has too often been too easy for rulers and governments to incite man to war, [CT_NAME]. Let us direct the [CT_CIV_ADJ] and [OUR_CIV_ADJ]  people toward a life of peace together.</English>
+		<French>Il a trop souvent été trop facile pour les dirigeants et les gouvernements d'inciter les hommes à la Guerre, [CT_NAME]. Dirigeons ensemble les peuples [CT_CIV_ADJ] et [OUR_CIV_ADJ] vers une vie plus paisible.</French>
+		<German>Es war schon zu oft zu einfach f&#252;r Herrscher und Regierungen die Menschen zum Krieg anzustiften, [CT_NAME]. Lass uns die [CT_CIV_ADJ] und die [OUR_CIV_ADJ] V&#246;lker zu einem gemeinsamen Leben in Frieden f&#252;hren.</German>
+		<Italian>It has too often been too easy for rulers and governments to incite man to war, [CT_NAME]. Let us direct the [CT_CIV_ADJ] and [OUR_CIV_ADJ]  people toward a life of peace together.</Italian>
+		<Spanish>It has too often been too easy for rulers and governments to incite man to war, [CT_NAME]. Let us direct the [CT_CIV_ADJ] and [OUR_CIV_ADJ]  people toward a life of peace together.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TRUDEAU_1</Tag>
+		<English>Hello, I am [OUR_NAME] of [OUR_CIV_SHORT].  Be ready when opportunity comes...luck is the time when preparation and opportunity meet.</English>
+		<French>Bonjour, je suis [OUR_NAME] de [OUR_CIV_SHORT]. Soyez prêt quand l'occasion vient...La chance est le moment où la préparation et l'occasion se réunissent.</French>
+		<German>Hallo, ich bin [OUR_NAME] vom [OUR_CIV_SHORT].  Ergreifen Sie die Gelegenheit, wenn sie kommt...Gl&#252;ck ist die Zeit, wenn Vorbereitung und Gelegenheit aufeinandertreffen.</German>
+		<Italian>Ciao, sono [OUR_NAME] di [OUR_CIV_SHORT].  Sia aspettano quando l'occasione viene...fortuna è il tempo in cui la preparazione e l'occasione vengono a contatto di.</Italian>
+		<Spanish>Hola, estoy [OUR_NAME] de [OUR_CIV_SHORT].  Sea listo cuando viene la oportunidad...suerte es el tiempo en que la preparación y la oportunidad satisfacen.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CHE_BONG_NGA_1</Tag>
+		<English>Greetings to you, [CT_NAME].  I am [OUR_NAME] and remind you that opportunity knocks but once.  What favors do you bring with you?</English>
+		<French>Je vous Salue, [CT_NAME]. Je suis [OUR_NAME] et je vous rappelle que l'occasion ne se présente qu'une fois. Quelles faveurs apportez-vous ?</French>
+		<German>Sei gegr&#252;&#223;t, [CT_NAME]. Ich bin [OUR_NAME] und erinnere Dich, da&#223; die Gelegenheit nur einmal anklopft. Welche Gef&#228;lligkeiten bringst Du mit?</German>
+		<Italian>Saluti a voi, [CT_NAME]. Sono [OUR_NAME] e gli ricordo che l'occasione batte ma una volta. Che favori portate con voi?</Italian>
+		<Spanish>Saludos a ti, [CT_NAME]. Soy [OUR_NAME] y te recuerdo que la oportunidad golpea pero una vez. ¿Qué favores traes con ti?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_OHIGGINS_1</Tag>
+		<English>Greetings, [CT_NAME]. I am [OUR_NAME], in battle I'm brave to the point of insanity.</English>
+		<French>Salutations, [CT_NAME]. Je suis [OUR_NAME], au combat, ma bravoure peux me conduire jusqu'à la folie.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]. Ich bin [OUR_NAME], in der Schlacht bin ich tapfer bis in den Wahnsinn.</German>
+		<Italian>Greetings, [CT_NAME]. I am [OUR_NAME], in battle I'm brave to the point of insanity.</Italian>
+		<Spanish>Greetings, [CT_NAME]. I am [OUR_NAME], in battle I'm brave to the point of insanity.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TOMISLAV_1</Tag>
+		<English>Greetings. I am [OUR_NAME] of the mighty [OUR_EMPIRE]. Let us help one another, [CT_NAME]. If strokes are good to give, they are good to receive.</English>
+		<French>Salutations. Je suis [OUR_NAME] du puissant [OUR_EMPIRE]. Aidons notre prochain, [CT_NAME]. Si les coups sont bons à donner, il sont également bons à recevoir.</French>
+		<German>Gr&#252;&#223;e, ich bin [OUR_NAME] vom m&#228;chtigen [OUR_EMPIRE]. Lass uns uns gegenseitig helfen, [CT_NAME]. Wenn man Schl&#228;ge gut austeilen kann, so kann man sie auch gut ertragen.</German>
+		<Italian>Greetings. I am [OUR_NAME] of the mighty [OUR_EMPIRE]. Let us help one another, [CT_NAME]. If strokes are good to give, they are good to receive.</Italian>
+		<Spanish>Greetings. I am [OUR_NAME] of the mighty [OUR_EMPIRE]. Let us help one another, [CT_NAME]. If strokes are good to give, they are good to receive.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MASARYK_1</Tag>
+		<English>Greetings, [CT_NAME]. I am [OUR_NAME], do not fear and do not steal.</English>
+		<French>Salutations, [CT_NAME]. Je suis [OUR_NAME], soit sans crainte et sans tromperie.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]. Ich bin [OUR_NAME], habe keine Angst und stehle nicht.</German>
+		<Italian>Greetings, [CT_NAME]. I am [OUR_NAME], do not fear and do not steal.</Italian>
+		<Spanish>Greetings, [CT_NAME]. I am [OUR_NAME], do not fear and do not steal.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CANUTE_1</Tag>
+		<English>Warm greetings to the [CT_EMPIRE]. I, [OUR_NAME], seek a peace above all earthly dignities, and a still and quiet conscience. </English>
+		<French>Salutations chaleureuses de l'[CT_EMPIRE]. Moi, [OUR_NAME], je recherche la paix par dessus tout, et une conscience tranquille.</French>
+		<German>Warmherzige Gr&#252;&#223;e dem [CT_EMPIRE]. Ich, [OUR_NAME], suche Frieden jenseits aller irdischen W&#252;rde und ein stilles und ruhiges Gewissen. </German>
+		<Italian>Warm greetings to the [CT_EMPIRE]. I, [OUR_NAME], seek a peace above all earthly dignities, and a still and quiet conscience. </Italian>
+		<Spanish>Warm greetings to the [CT_EMPIRE]. I, [OUR_NAME], seek a peace above all earthly dignities, and a still and quiet conscience. </Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CHRISTIAN_IV_1</Tag>
+		<English>Warm greetings to the [CT_EMPIRE]. I, [OUR_NAME], seek a peace above all earthly dignities, and a still and quiet conscience. </English>
+		<French>Salutations chaleureuses à l'[CT_EMPIRE]. Moi, [OUR_NAME], je recherche la paix auprès de toutes les dignités de la terre, et une conscience calme et paisible</French>
+		<German>Warmherzige Gr&#252;&#223;e dem [CT_EMPIRE]. Ich, [OUR_NAME], suche Frieden jenseits aller irdischen W&#252;rde und ein stilles und ruhiges Gewissen. </German>
+		<Italian>Warm greetings to the [CT_EMPIRE]. I, [OUR_NAME], seek a peace above all earthly dignities, and a still and quiet conscience. </Italian>
+		<Spanish>Warm greetings to the [CT_EMPIRE]. I, [OUR_NAME], seek a peace above all earthly dignities, and a still and quiet conscience. </Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MARGRETE_1</Tag>
+		<English>Greetings, [CT_NAME] of the [CT_EMPIRE]. I am [OUR_NAME] of [OUR_CIV_SHORT], although you may call me "Margrete, by the grace of God, Valdemar Daneking's daughter, and Denmark's rightful heir". What is it you wish to speak of?</English>
+		<French>Greetings, [CT_NAME] of the [CT_EMPIRE]. I am [OUR_NAME] of [OUR_CIV_SHORT], although you may call me "Margrete, by the grace of God, Valdemar Daneking's daughter, and Denmark's rightful heir". What is it you wish to speak of?</French>
+		<German>Gr&#252;&#223;e, [CT_NAME] vom [CT_EMPIRE]. Ich bin [OUR_NAME] von [OUR_CIV_SHORT], aber Du darfts mich auch "Margarete, von Gottes Gnaden, Tochter Waldemars, K&#246;nig der D&#228;nen, und D&#228;nemarks rechtm&#228;&#223;iger Erbe". Weshalb w&#252;nschst Du mich zu sprechen?</German>
+		<Italian>Greetings, [CT_NAME] of the [CT_EMPIRE]. I am [OUR_NAME] of [OUR_CIV_SHORT], although you may call me "Margrete, by the grace of God, Valdemar Daneking's daughter, and Denmark's rightful heir". What is it you wish to speak of?</Italian>
+		<Spanish>Greetings, [CT_NAME] of the [CT_EMPIRE]. I am [OUR_NAME] of [OUR_CIV_SHORT], although you may call me "Margrete, by the grace of God, Valdemar Daneking's daughter, and Denmark's rightful heir". What is it you wish to speak of?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_COCHISE_1</Tag>
+		<English>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. I warn you, do not settle on our land or I will fight you!</English>
+		<French>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. I warn you, do not settle on our land or I will fight you!</French>
+		<German>Gr&#252;&#223;e, ich bin [OUR_NAME] vom [OUR_EMPIRE]. Ich warne Dich, siedle nicht auf unserem Land oder ich werde Dich bek&#228;mpfen!</German>
+		<Italian>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. I warn you, do not settle on our land or I will fight you!</Italian>
+		<Spanish>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. I warn you, do not settle on our land or I will fight you!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GOYATHLAY_1</Tag>
+		<English>The great [OUR_CIV_ADJ] people welcome you, [CT_NAME]. I yawn if you don't have something interesting to offer.</English>
+		<French>The great [OUR_CIV_ADJ] people welcome you, [CT_NAME]. I yawn if you don't have something interesting to offer.</French>
+		<German>Das gro&#223;e [OUR_CIV_ADJ] Volk hei&#223;t Dich willkommen, [CT_NAME]. Ich g&#228;hne, wenn Du nicht etwas von Interesse anbieten kannst.</German>
+		<Italian>The great [OUR_CIV_ADJ] people welcome you, [CT_NAME]. I yawn if you don't have something interesting to offer.</Italian>
+		<Spanish>The great [OUR_CIV_ADJ] people welcome you, [CT_NAME]. I yawn if you don't have something interesting to offer.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_NARBONA_1</Tag>
+		<English>Ya'at'eeh shiyaazh, [CT_NAME]. Walk on a rainbow trail; walk on a trail of song, and all about you will be beauty. There is a way out of every dark mist, over a rainbow trail. Why do you walk the trail that leads to our land?</English>
+		<French>Ya'at'eeh shiyaazh, [CT_NAME]. Walk on a rainbow trail; walk on a trail of song, and all about you will be beauty. There is a way out of every dark mist, over a rainbow trail. Why do you walk the trail that leads to our land?</French>
+		<German>Ya'at'eeh shiyaazh, [CT_NAME]. Wandere auf dem Pfad des Regenbogens; wandere auf dem Pfad des Gesanges und um Dich herum wird Sch&#246;nheit sein. Es gibt einen Weg aus jeglichem dunklen Nebel, &#252;ber den Pfad des Regenbogens. Wieso wanderst Du auf dem Pfad, der in unser Land f&#252;hrt?</German>
+		<Italian>Ya'at'eeh shiyaazh, [CT_NAME]. Walk on a rainbow trail; walk on a trail of song, and all about you will be beauty. There is a way out of every dark mist, over a rainbow trail. Why do you walk the trail that leads to our land?</Italian>
+		<Spanish>Ya'at'eeh shiyaazh, [CT_NAME]. Walk on a rainbow trail; walk on a trail of song, and all about you will be beauty. There is a way out of every dark mist, over a rainbow trail. Why do you walk the trail that leads to our land?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_LARS_PORSENA_1</Tag>
+		<English>By the Nine Gods, I swear that the great house of Tarquin shall suffer wrong no more! Greetings, [CT_NAME], I am [OUR_NAME] of the [OUR_EMPIRE].</English>
+		<French>By the Nine Gods, I swear that the great house of Tarquin shall suffer wrong no more! Greetings, [CT_NAME], I am [OUR_NAME] of the [OUR_EMPIRE].</French>
+		<German>Bei den Neun G&#246;ttern, ich schw&#246;re, dass das Haus von Tarquin kein weiteres Unrecht ertragen wird! Gr&#252;&#223;e, [CT_NAME], Ich bin [OUR_NAME] vom [OUR_EMPIRE].</German>
+		<Italian>By the Nine Gods, I swear that the great house of Tarquin shall suffer wrong no more! Greetings, [CT_NAME], I am [OUR_NAME] of the [OUR_EMPIRE].</Italian>
+		<Spanish>By the Nine Gods, I swear that the great house of Tarquin shall suffer wrong no more! Greetings, [CT_NAME], I am [OUR_NAME] of the [OUR_EMPIRE].</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_KEKKONEN_1</Tag>
+		<English>Welcome, [CT_NAME] of the [CT_EMPIRE]. An argument rips, but peace builds. Let us build it together.</English>
+		<French>Welcome, [CT_NAME] of the [CT_EMPIRE]. An argument rips, but peace builds. Let us build it together.</French>
+		<German>Willkommen, [CT_NAME] vom [CT_EMPIRE]. Eine Diskussion kann verletzten, aber der Friede baut auf. Lass ihn uns zusammen aufbauen.</German>
+		<Italian>Welcome, [CT_NAME] of the [CT_EMPIRE]. An argument rips, but peace builds. Let us build it together.</Italian>
+		<Spanish>Welcome, [CT_NAME] of the [CT_EMPIRE]. An argument rips, but peace builds. Let us build it together.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ALARIC_1</Tag>
+		<English>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. When it comes to doing battle, I often say "The thicker the hay, the easier to mow".</English>
+		<French>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. When it comes to doing battle, I often say "The thicker the hay, the easier to mow".</French>
+		<German>Gr&#252;&#223;e, ich bin [OUR_NAME] vom [OUR_EMPIRE]. Wenn es zur Schlacht kommt, so sage ich oft "Je dicker das Heu, umso leichter ist es zu m&#228;hen".</German>
+		<Italian>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. When it comes to doing battle, I often say "The thicker the hay, the easier to mow".</Italian>
+		<Spanish>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. When it comes to doing battle, I often say "The thicker the hay, the easier to mow".</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_RISHI_1</Tag>
+		<English>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. Beware, I flow, move near by flowing, I push, thrust and kill!</English>
+		<French>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. Beware, I flow, move near by flowing, I push, thrust and kill!</French>
+		<German>Gr&#252;&#223;e, ich bin [OUR_NAME] vom [OUR_EMPIRE]. Nimm Dich in Acht, ich flie&#223;e, n&#228;her Dich mir flie&#223;end und ich sto&#223;e, haue und t&#246;te!</German>
+		<Italian>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. Beware, I flow, move near by flowing, I push, thrust and kill!</Italian>
+		<Spanish>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. Beware, I flow, move near by flowing, I push, thrust and kill!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SHAMBARA_1</Tag>
+		<English>I hope we can bring each other aid, [CT_NAME], for dark nights will return after these few moonlit nights.</English>
+		<French>J'espère que nous pourrons porter mutuellement assistance, [CT_NAME], pour les nuits obscures sera de retour après ces quelques nuits clair de lune.</French>
+		<German>Ich hoffe, wir k&#246;nnen uns gegenseitig Hilfe brinegn, [CT_NAME], denn dunkle N&#228;chte werden nach diesen wenigen mondhellen N&#228;chten kommen.</German>
+		<Italian>J'espère que nous pourrons porter mutuellement assistance, [CT_NAME], pour les nuits obscures sera de retour après ces quelques nuits clair de lune.</Italian>
+		<Spanish>Espero que cada uno puede aportar otras ayudas, [CT_NAME], de noches oscuras regresará después de estas pocas noches la luz de la luna.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ARPAD_1</Tag>
+		<English>Welcome to my lands, [CT_NAME]. The [OUR_EMPIRE] advises that you only stretch as far as your blanket reaches.</English>
+		<French>Bienvenue dans mes Terres, [CT_NAME]. Le [OUR_EMPIRE] vous conseille de ne pas vous étendre plus que ce que vous pouvez couvrir.</French>
+		<German>Willkommen in meinem Land, [CT_NAME]. Das [OUR_EMPIRE] gibt Dir den Rat Dich nur soweit auszustrecken, wie Deine Decke reicht.</German>
+		<Italian>Welcome to my lands, [CT_NAME]. The [OUR_EMPIRE] advises that you only stretch as far as your blanket reaches.</Italian>
+		<Spanish>Welcome to my lands, [CT_NAME]. The [OUR_EMPIRE] advises that you only stretch as far as your blanket reaches.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MATTHIAS_1</Tag>
+		<English>Welcome to this beautiful land, [CT_NAME].  I hope that you bring peace with you, for he who greets with a stick, will be answered with a club.</English>
+		<French>Bienvenue dans ce beau pays, [CT_NAME]. J'espère que vous apportez la paix avec vous, car à celui qui accueille avec un bâton, on répond avec un Gourdin.</French>
+		<German>Willkommen in diesem sch&#246;nen Land, [CT_NAME]. Ich hoffe, dass Ihr den Frieden mitbringt, denn derjenige, der mit einem Stock gr&#252;&#223;t wird die Antwort mit der Keule erhalten.</German>
+		<Italian>Benvenuti in questa bella terra, [CT_NAME]. Spero che lei portare la pace con voi, per lui che saluta con un bastone, verrà risposto con un club.</Italian>
+		<Spanish>Bienvenidos a esta hermosa tierra, [CT_NAME]. Espero que lograr la paz con usted, por el que saluda con un palo, será respondido con un club.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_STEPHEN_1</Tag>
+		<English>Greetings, [CT_NAME] of  the [CT_EMPIRE]. Let us be strong  lest prosperity lift us up too much or adversity cast us down.</English>
+		<French>Greetings, [CT_NAME] of  the [CT_EMPIRE]. Let us be strong  lest prosperity lift us up too much or adversity cast us down.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME] vom [CT_EMPIRE]. Lass uns stark sein, damit uns Reichtum nicht zu sehr abheben l&#228;sst und Feindseligkeit uns nicht zugrunde richtet.</German>
+		<Italian>Greetings, [CT_NAME] of  the [CT_EMPIRE]. Let us be strong  lest prosperity lift us up too much or adversity cast us down.</Italian>
+		<Spanish>Greetings, [CT_NAME] of  the [CT_EMPIRE]. Let us be strong  lest prosperity lift us up too much or adversity cast us down.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SHAUSHTATAR_1</Tag>
+		<English>Greetings, [CT_NAME].  I hope we will be there are many who throw stones at a red apple.</English>
+		<French>Salutations, [CT_NAME]. J'espère que nous serons nombreux sont ceux qui jettent des pierres à une pomme rouge.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]. Ich hoffe, wir werden gut auskommen. Es gibt viele, die Steine auf einen roten Apfel werfen.</German>
+		<Italian>Saluti, [CT_NAME]. Spero che saremo in molti ci sono pietre che passi a una mela rossa.</Italian>
+		<Spanish>Saludos, [CT_NAME]. Espero que seamos muchos son los que tiran piedras en una manzana roja.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BORU_1</Tag>
+		<English>Greetings, [CT_NAME]! I hope we will be allies, for in our togetherness, castles are built.</English>
+		<French>Salutations, [CT_NAME]! J'espère que nous serons alliés, dans notre rassemblement, les châteaux sont construits.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]! Ich hoffe, wir werden Verb&#252;ndete werden, denn durch unser Miteinander werden Burgen gebaut werden.</German>
+		<Italian>Saluti, [CT_NAME]! Spero che saremo alleati, per il nostro stare insieme, i castelli sono costruiti.</Italian>
+		<Spanish>Saludos, [CT_NAME]! Espero que seamos aliados, en nuestra unidad, se construyen castillos.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_COLLINS_1</Tag>
+		<English>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ]. We will not become sitting targets, but become flying columns if you threaten us.</English>
+		<French>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ]. We will not become sitting targets, but become flying columns if you threaten us.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]! Ich bin [OUR_NAME] der [OUR_CIV_ADJ]. Wir werden keine sitzenden Ziele werden, sondern fliegende S&#228;ulen, wenn Du uns bedrohst.</German>
+		<Italian>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ]. We will not become sitting targets, but become flying columns if you threaten us.</Italian>
+		<Spanish>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ]. We will not become sitting targets, but become flying columns if you threaten us.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_NIALL_1</Tag>
+		<English>[CT_NAME] of the [CT_EMPIRE]. I, [OUR_NAME], welcome you… from a distance, of course. If one lies down with dogs, one will rise with fleas.</English>
+		<French>[CT_NAME] of the [CT_EMPIRE]. I, [OUR_NAME], welcome you… from a distance, of course. If one lies down with dogs, one will rise with fleas.</French>
+		<German>[CT_NAME] vom [CT_EMPIRE]. Ich, [OUR_NAME], hei&#223;e Dich aus der Ferne willkomen, was sonst. Wer sich mit Hunden niederlegt wird mit Fl&#246;hen aufstehen.</German>
+		<Italian>[CT_NAME] of the [CT_EMPIRE]. I, [OUR_NAME], welcome you… from a distance, of course. If one lies down with dogs, one will rise with fleas.</Italian>
+		<Spanish>[CT_NAME] of the [CT_EMPIRE]. I, [OUR_NAME], welcome you… from a distance, of course. If one lies down with dogs, one will rise with fleas.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	  </TEXT>
+	  <TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BEN_GURION_1</Tag>
+		<English>Shalom, [CT_NAME]. Let us hope you bring with you peaceful relations, for I can overcome most obstacles in my way.</English>
+		<French>Shalom, [CT_NAME]. Espérons-toi apportent avec toi des relations paisibles, parce que je peux surmonter la plupart des obstacles de ma manière.</French>
+		<German>Schalom, [CT_NAME]. Lasst uns hoffen, dass Du friedliche Beziehungen mit Dir bringst, denn ich kann die meisten Hindernisse auf meinem Weg &#252;berwinden.</German>
+		<Italian>Shalom, [CT_NAME]. Speriamoli portano con voi i rapporti pacifici, dato che posso superare la maggior parte dei ostacoli nel mio senso.</Italian>
+		<Spanish>Shalom, [CT_NAME]. Esperémoste traen con ti relaciones pacíficas, porque puedo superar la mayoría de los obstáculos de mi manera.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_DAVID_1</Tag>
+		<English>Greetings.  I am [OUR_NAME], and I welcome you, with a hand on the heart, to the the land of [OUR_CIV_SHORT].</English>
+		<French>Salutations. Je suis [OUR_NAME], et je te souhaite la bienvenue, avec une main sur le coeur, l'à la terre de [OUR_CIV_SHORT].</French>
+		<German>Gr&#252;&#223;e. Ich bin [OUR_NAME], und ich begr&#252;&#223;e dich, mit einer Hand auf dem Herzen, zum Land von [OUR_CIV_SHORT].</German>
+		<Italian>Saluti. Sono [OUR_NAME] e li accolgo favorevolmente, con una mano sul cuore, alla terra di [OUR_CIV_SHORT].</Italian>
+		<Spanish>Saludos. Soy [OUR_NAME], y te doy la bienvenida, con una mano en el corazón, el tierra de [OUR_CIV_SHORT].</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_LORENZO_1</Tag>
+		<English>"Whoever wants to be happy, let him be so: about tomorrow there's no knowing." I am [OUR_NAME] of the [OUR_EMPIRE].</English>
+		<French>"Whoever wants to be happy, let him be so: about tomorrow there's no knowing." I am [OUR_NAME] of the [OUR_EMPIRE].</French>
+		<German>"Wenn jemand gl&#252;cklich sein will, so g&#246;nne es ihm: Niemand kennt morgen." Ich bin [OUR_NAME] vom [OUR_EMPIRE].</German>
+		<Italian>"Whoever wants to be happy, let him be so: about tomorrow there's no knowing." I am [OUR_NAME] of the [OUR_EMPIRE].</Italian>
+		<Spanish>"Whoever wants to be happy, let him be so: about tomorrow there's no knowing." I am [OUR_NAME] of the [OUR_EMPIRE].</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_VITTORIO_EMANUELE_II_1</Tag>
+		<English>Saluti! I am [OUR_NAME] of the [OUR_EMPIRE]. "Chi la fa l'aspetti." He who wrongs someone has to expect something in retaliation. Please Keep that in mind.</English>
+		<French>Saluti! I am [OUR_NAME] of the [OUR_EMPIRE]. "Chi la fa l'aspetti." He who wrongs someone has to expect something in retaliation. Please Keep that in mind.</French>
+		<German>Saluti! Ich bin [OUR_NAME] vom [OUR_EMPIRE]. "Chi la fa l'aspetti." Wer betr&#252;gt muss mit Vergeltung rechnen. Vergiss das nicht.</German>
+		<Italian>Saluti! I am [OUR_NAME] of the [OUR_EMPIRE]. "Chi la fa l'aspetti." He who wrongs someone has to expect something in retaliation. Please Keep that in mind.</Italian>
+		<Spanish>Saluti! I am [OUR_NAME] of the [OUR_EMPIRE]. "Chi la fa l'aspetti." He who wrongs someone has to expect something in retaliation. Please Keep that in mind.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ALOOMA_1</Tag>
+		<English>The mighty [OUR_EMPIRE] greets you. We value our safety so that a lone woman clad in gold might walk with none to fear but God.</English>
+		<French>The mighty [OUR_EMPIRE] greets you. We value our safety so that a lone woman clad in gold might walk with none to fear but God.</French>
+		<German>Das m&#228;chtige [OUR_EMPIRE] gr&#252;&#223;t Dich. Wir sch&#228;tzen unsere Sicherheit hoch, so dass eine einsame, in Gold gekleidete Frau auf ihrem Weg niemanden f&#252;rchten muss, au&#223;er Gott.</German>
+		<Italian>The mighty [OUR_EMPIRE] greets you. We value our safety so that a lone woman clad in gold might walk with none to fear but God.</Italian>
+		<Spanish>The mighty [OUR_EMPIRE] greets you. We value our safety so that a lone woman clad in gold might walk with none to fear but God.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ZIEBEL_1</Tag>
+		<English>Greetings, [CT_NAME]. Intelligent people know of what they speak; fools speak of what they know.</English>
+		<French>Salutations, [CT_NAME]. Intelligent personnes savent de quoi elles parlent; imbéciles parler de ce qu'ils savent.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]. Intelligente Menschen wissen, wovon sie sprechen; Narren sprechen von dem, was sie wissen.</German>
+		<Italian>Saluti, [CT_NAME]. Persone intelligenti sanno di cosa parlano; stolti parlare di quello che già sanno.</Italian>
+		<Spanish>Saludos, [CT_NAME]. La gente inteligente sabe de lo que habla; tontos hablan de lo que saben.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CAKSTE_1</Tag>
+		<English>I caution you against aggression, [CT_NAME] of the [CT_EMPIRE]. You will kill 10 of our men, and we will kill 1 of yours, and in the end it will be you who tire of it.</English>
+		<French>I caution you against aggression, [CT_NAME] of the [CT_EMPIRE]. You will kill 10 of our men, and we will kill 1 of yours, and in the end it will be you who tire of it.</French>
+		<German>Ich warne Dich vor Aggression, [CT_NAME] vom [CT_EMPIRE]. Du wirst 10 von unseren M&#228;nner t&#246;ten w&#228;hrend wir 1 von Deinen t&#246;ten, doch am Ende wirst Du ersch&#246;pft aufgeben.</German>
+		<Italian>I caution you against aggression, [CT_NAME] of the [CT_EMPIRE]. You will kill 10 of our men, and we will kill 1 of yours, and in the end it will be you who tire of it.</Italian>
+		<Spanish>I caution you against aggression, [CT_NAME] of the [CT_EMPIRE]. You will kill 10 of our men, and we will kill 1 of yours, and in the end it will be you who tire of it.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JOGAILA_1</Tag>
+		<English>Hello [CT_NAME].  I hope we can help each other, for the person who gives is the person who has.</English>
+		<French>Bonjour [CT_NAME]. J'espère que nous pourrons aider les uns les autres, pour la personne qui donne est la personne qui l'a fait.</French>
+		<German>Hallo [CT_NAME]. Ich hoffe, wir k&#246;nnen einander helfen, denn die Person die gibt, ist die Person, die hat.</German>
+		<Italian>Ciao [CT_NAME]. Spero che si possa aiutare a vicenda, per la persona che dà è la persona che ha.</Italian>
+		<Spanish>Hola [CT_NAME]. Espero que podamos ayudar unos a otros, para la persona que se da a la persona que los haya.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MINDAUGAS_1</Tag>
+		<English>I, [OUR_NAME], offer the [CT_EMPIRE] friendship. A person who gives is a person who has. Will you receive this gift, [CT_NAME]?</English>
+		<French>I, [OUR_NAME], offer the [CT_EMPIRE] friendship. A person who gives is a person who has. Will you receive this gift, [CT_NAME]?</French>
+		<German>Ich, [OUR_NAME], biete die Freundschaft vom [CT_EMPIRE]. Eine Person die gibt ist eine Person die hat. Wirst Du dieses Geschenk annehmen, [CT_NAME]?</German>
+		<Italian>I, [OUR_NAME], offer the [CT_EMPIRE] friendship. A person who gives is a person who has. Will you receive this gift, [CT_NAME]?</Italian>
+		<Spanish>I, [OUR_NAME], offer the [CT_EMPIRE] friendship. A person who gives is a person who has. Will you receive this gift, [CT_NAME]?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ALBOIN_1</Tag>
+		<English>May the heavens rain down blessings upon you, [CT_NAME]! I am [OUR_NAME], wise and benevolent ruler of [OUR_EMPIRE]! Feel free to begin showering me with tribute at your convenience!</English>
+		<French>Qu'une pluie de b&#233;n&#233;dictions caresse votre peuple, [CT_NAME] ! Je suis [OUR_NAME], sage et bienveillant sultan de [OUR_EMPIRE] ! J'esp&#232;re que vous n'h&#233;siterez pas &#224; me couvrir de tributs en tout genre !</French>
+		<German>M&#246;gen die G&#246;tter Euch segnen, [CT_NAME]! Ich bin [OUR_NAME], weises und g&#252;tiges Staatsoberhaupt des [OUR_EMPIRE:3]! Ihr d&#252;rft mir gerne angemessenen Tribut zollen!</German>
+		<Italian>Che il cielo possa far piovere benedizioni su di te, [CT_NAME]! Io sono [OUR_NAME], benevolo leader dell'impero [OUR_EMPIRE]! Inondami pure di tributi come preferisci!</Italian>
+		<Spanish>Que los cielos os colmen de bendiciones, [CT_NAME]. Soy [OUR_NAME], el gobernante sabio y benevolente del [OUR_EMPIRE]. Cuando quer&#225;is, pod&#233;is empezar a rendirme pleites&#237;a.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ANTIGONUS_1</Tag>
+		<English>Welcome [CT_NAME] I the god like [OUR_NAME] greet you.  Shall we live in peace or shall the warlike peoples of the [OUR_CIV_SHORT] pillage the [CT_EMPIRE]</English>
+		<French>Welcome [CT_NAME] I the god like [OUR_NAME] greet you.  Shall we live in peace or shall the warlike peoples of the [OUR_CIV_SHORT] pillage the [CT_EMPIRE]</French>
+		<German>Willkommen [CT_NAME] Ich, der gottgeiche [OUR_NAME] gr&#252;&#223;e Dich.  Sollen wir in Frieden leben oder soll das kriegerische Volk von [OUR_CIV_SHORT] das [CT_EMPIRE] pl&#252;ndern?</German>
+		<Italian>Welcome [CT_NAME] I the god like [OUR_NAME] greet you.  Shall we live in peace or shall the warlike peoples of the [OUR_CIV_SHORT] pillage the [CT_EMPIRE]</Italian>
+		<Spanish>Welcome [CT_NAME] I the god like [OUR_NAME] greet you.  Shall we live in peace or shall the warlike peoples of the [OUR_CIV_SHORT] pillage the [CT_EMPIRE]</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PHILIP_II_1</Tag>
+		<English>Observe your enemies, [CT_NAME] of the [CT_EMPIRE], for they first find your faults.</English>
+		<French>Observe your enemies, [CT_NAME] of the [CT_EMPIRE], for they first find your faults.</French>
+		<German>&#220;berwache Deine Feinde, [CT_NAME] vom [CT_EMPIRE], denn sie entdecken Deine Fehler als erste.</German>
+		<Italian>Observe your enemies, [CT_NAME] of the [CT_EMPIRE], for they first find your faults.</Italian>
+		<Spanish>Observe your enemies, [CT_NAME] of the [CT_EMPIRE], for they first find your faults.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HEKE_1</Tag>
+		<English>KA MATE! KA ORA, KA MATE! KA ORA....</English>
+		<French>KA MATE! KA ORA, KA MATE! KA ORA....</French>
+		<German>KA MATE! KA ORA, KA MATE! KA ORA....</German>
+		<Italian>KA MATE! KA ORA, KA MATE! KA ORA....</Italian>
+		<Spanish>KA MATE! KA ORA, KA MATE! KA ORA....</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TOQUI_LAUTARO_1</Tag>
+		<English>Behold, [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE] - here by the will of the Great Father, and by his will I am chief!</English>
+		<French>Behold, [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE] - here by the will of the Great Father, and by his will I am chief!</French>
+		<German>Betrachte mich, [CT_NAME]! Ich bin [OUR_NAME] vom [OUR_EMPIRE] - ich bin hier durch den Willen des Gro&#223;en Vaters und durch seinen Willen bin ich der H&#228;uptling!</German>
+		<Italian>Behold, [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE] - here by the will of the Great Father, and by his will I am chief!</Italian>
+		<Spanish>Behold, [CT_NAME]! I am [OUR_NAME] of the [OUR_EMPIRE] - here by the will of the Great Father, and by his will I am chief!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CARDENAS_1</Tag>
+		<English>Hola. I am [OUR_NAME] of the [OUR_EMPIRE]. I am convinced that the good intentions of a ruler are simply not enough and that the collective factor represented by the workers is indispensable. Don't you agree [CT_NAME]?</English>
+		<French>Hola. I am [OUR_NAME] of the [OUR_EMPIRE]. I am convinced that the good intentions of a ruler are simply not enough and that the collective factor represented by the workers is indispensable. Don't you agree [CT_NAME]?</French>
+		<German>Hola. Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Ich bin &#252;berzeugt, dass die guten Absichten eines Herrschers nicht ausreichen und dass der gemeinschaftliche Faktor den die Arbeiterschaft repr&#228;sentiert unersetzlich ist. Stimmst Du mir zu, [CT_NAME]?</German>
+		<Italian>Hola. I am [OUR_NAME] of the [OUR_EMPIRE]. I am convinced that the good intentions of a ruler are simply not enough and that the collective factor represented by the workers is indispensable. Don't you agree [CT_NAME]?</Italian>
+		<Spanish>Hola. I am [OUR_NAME] of the [OUR_EMPIRE]. I am convinced that the good intentions of a ruler are simply not enough and that the collective factor represented by the workers is indispensable. Don't you agree [CT_NAME]?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HIDALGO_1</Tag>
+		<English>May the blessings of Heaven be upon you, [CT_NAME]. I am [OUR_NAME] of the [OUR_CIV_SHORT]. Mexicanos, Viva Mexico!</English>
+		<French>May the blessings of Heaven be upon you, [CT_NAME]. I am [OUR_NAME] of the [OUR_CIV_SHORT]. Mexicanos, Viva Mexico!</French>
+		<German>M&#246;ge der Segen des Himmels mit Dir sein, [CT_NAME]. Ich bin [OUR_NAME] vom [OUR_CIV_SHORT]. Mexicanos, Viva Mexico!</German>
+		<Italian>May the blessings of Heaven be upon you, [CT_NAME]. I am [OUR_NAME] of the [OUR_CIV_SHORT]. Mexicanos, Viva Mexico!</Italian>
+		<Spanish>May the blessings of Heaven be upon you, [CT_NAME]. I am [OUR_NAME] of the [OUR_CIV_SHORT]. Mexicanos, Viva Mexico!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SATUR_1</Tag>
+		<English>Greetings [CT_NAME]. I am [OUR_NAME], King of the [OUR_EMPIRE]. Won't you stay for a while and enjoy our Bull Leaping contest?</English>
+		<French>Salutations [CT_NAME]. Je suis [OUR_NAME], Roi de [OUR_EMPIRE]. Won't you stay for a while and enjoy our Bull Leaping contest?</French>
+		<German>Gr&#252;&#223;e [CT_NAME]. Ich bin [OUR_NAME], K&#246;nig vom [OUR_EMPIRE]. M&#246;chtest Du nicht ein wenig verweilen und einen Stierspringerwettbewerb genie&#223;en?</German>
+		<Italian>Greetings [CT_NAME]. I am [OUR_NAME], King of the [OUR_EMPIRE]. Won't you stay for a while and enjoy our Bull Leaping contest?</Italian>
+		<Spanish>Greetings [CT_NAME]. I am [OUR_NAME], King of the [OUR_EMPIRE]. Won't you stay for a while and enjoy our Bull Leaping contest?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AGAMEMNON_1</Tag>
+		<English>Greetings.  I am [OUR_NAME], Prince of [OUR_EMPIRE], and defeater of all enemies.  Tell me, are you a friend, or enemy?</English>
+		<French>Salutations. Je suis [OUR_NAME], prince de [OUR_EMPIRE], et defeater de tous les ennemis. Est-ce que, toi me dit est un ami, ou ennemi ?</French>
+		<German>Gr&#252;&#223;e. Ich bin [OUR_NAME], Prinz vom [OUR_EMPIRE] und Vernichter aller Feinde. Erkl&#228;re mir, bist Du ein Freund oder Feind?</German>
+		<Italian>Saluti. Sono [OUR_NAME], principe di [OUR_EMPIRE] e defeater di tutti i nemici. Mi dico, sono voi un amico, o nemico?</Italian>
+		<Spanish>Saludos. Soy [OUR_NAME], príncipe de [OUR_EMPIRE], y defeater de todos los enemigos. ¿Me dice, es tú un amigo, o enemigo?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CLARK_1</Tag>
+		<English>Welcome to [OUR_CIV_SHORT], [CT_NAME]. We prefer our champions to be humble and modest.</English>
+		<French>Bienvenue aux [OUR_CIV_SHORT], [CT_NAME]. Nous demandons à nos Champions d'être humble et modeste.</French>
+		<German>Willkommen in [OUR_CIV_SHORT], [CT_NAME]. Wir bevorzugen es, wenn unsere Sieger bescheiden und anspruchslos sind.</German>
+		<Italian>Welcome to [OUR_CIV_SHORT], [CT_NAME]. We prefer our champions to be humble and modest.</Italian>
+		<Spanish>Welcome to [OUR_CIV_SHORT], [CT_NAME]. We prefer our champions to be humble and modest.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AMANISHABHETO_1</Tag>
+		<English>Greetings, [CT_NAME] of the [CT_EMPIRE]. Welcome to the land of riches and prosperity! We are please to serve you...to the degree that serves us.</English>
+		<French>Salutations, [CT_NAME] de [CT_EMPIRE]. Bienvenue au pays de la richesse et la prospérité! Nous sommes ravi vous servir ... dans la mesure où cela nous sert.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME] vom [CT_EMPIRE]. Willkommen im Land von Reichtum und Wohlstand! Wir freuen uns, Euch dienen zu k&#246;nnen...soweit es uns dient.</German>
+		<Italian>Greetings, [CT_NAME] of the [CT_EMPIRE]. Welcome to the land of riches and prosperity! We are please to serve you...to the degree that serves us.</Italian>
+		<Spanish>Greetings, [CT_NAME] of the [CT_EMPIRE]. Welcome to the land of riches and prosperity! We are please to serve you...to the degree that serves us.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PIYE_1</Tag>
+		<English>Greetings o' traveler, [OUR_NAME] is my name, welcome to the [OUR_EMPIRE].  Please, make yourself at home!</English>
+		<French>Salutations, O voyageur, [OUR_NAME] est mon nom, bienvenue au [OUR_EMPIRE]. Faites comme chez vous !</French>
+		<German>Gr&#252;&#223;e o Reisender, [OUR_NAME] ist mein Name, willkommen im [OUR_EMPIRE]. F&#252;hle Dich wie zuhause!</German>
+		<Italian>Il viaggiatore del o di saluti, [OUR_NAME] è il mio nome, benvenuto al [OUR_EMPIRE]. Per favore, far nel paese!</Italian>
+		<Spanish>El viajero del o de los saludos, [OUR_NAME] es mi nombre, recepción a [OUR_EMPIRE]. ¡Por favor, hacerte en el país!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TAHARQA_1</Tag>
+		<English>Greetings, [CT_NAME] of the feeble [CT_EMPIRE]. We tolerate your presence in these lands. A termite can do nothing to a stone but lick it.</English>
+		<French>Greetings, [CT_NAME] of the feeble [CT_EMPIRE]. We tolerate your presence in these lands. A termite can do nothing to a stone but lick it.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME] vom kl&#228;glichen [CT_EMPIRE]. Wir tolerieren Deine Anwesenheit in diesem Land. Eine Termite kann einem Stein nichts antun, au&#223;er an ihm zu lecken.</German>
+		<Italian>Greetings, [CT_NAME] of the feeble [CT_EMPIRE]. We tolerate your presence in these lands. A termite can do nothing to a stone but lick it.</Italian>
+		<Spanish>Greetings, [CT_NAME] of the feeble [CT_EMPIRE]. We tolerate your presence in these lands. A termite can do nothing to a stone but lick it.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PO_NGBE_1</Tag>
+		<English>Welcome, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ] people. My spiritual tranquility is boundless, my patience is not.</English>
+		<French>Bienvenue, [CT_NAME]! Je suis [OUR_NAME] du peuple [OUR_CIV_ADJ]. Mon calme spirituel est sans fin, mais pas ma patience.</French>
+		<German>Willkommen, [CT_NAME]! Ich bin [OUR_NAME] vom [OUR_CIV_ADJ] Volk. Meine spirituelle Ruhe ist grenzenlos, meine Geduld ist es nicht.</German>
+		<Italian>Welcome, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ] people. My spiritual tranquility is boundless, my patience is not.</Italian>
+		<Spanish>Welcome, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ] people. My spiritual tranquility is boundless, my patience is not.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HIRAM_1</Tag>
+		<English>Greetings. I am [OUR_NAME] of the [OUR_EMPIRE]. I am trained to work in gold, silver, bronze, iron, stone, and wood, and in purple, blue, and crimson fabrics and fine linen, and to do all sorts of engraving and execute any design that may be assigned to me.</English>
+		<French>Salutations. Je suis [OUR_NAME] de [OUR_EMPIRE]. Je suis capable de travailler l'or, l'argent, le bronze, le fer, la pierre et le bois, les textiles rouges, bleu et pourpre, et le lin, et tous les arts de la gravure, quelle que soit ce que l'on me demande de réaliser.</French>
+		<German>Gr&#252;&#223;e. Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Ich bin ausgebildet, mit Gold, Silber, Bronze, Eisen, Stein und Holz zu arbeiten, und mit purpurnen, blauen und roten Textilien und feinen Leinen, und allen Arten von Gravuren in beliebigem Design auszuf&#252;hren, was auch immer gew&#252;nscht wird.</German>
+		<Italian>Greetings. I am [OUR_NAME] of the [OUR_EMPIRE]. I am trained to work in gold, silver, bronze, iron, stone, and wood, and in purple, blue, and crimson fabrics and fine linen, and to do all sorts of engraving and execute any design that may be assigned to me.</Italian>
+		<Spanish>Greetings. I am [OUR_NAME] of the [OUR_EMPIRE]. I am trained to work in gold, silver, bronze, iron, stone, and wood, and in purple, blue, and crimson fabrics and fine linen, and to do all sorts of engraving and execute any design that may be assigned to me.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_WOVOKA_1</Tag>
+		<English>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. The wind helps those without an axe to cut wood.</English>
+		<French>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. The wind helps those without an axe to cut wood.</French>
+		<German>Gr&#252;&#223;e! Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Denen ohne Axt hilft der Wind beim Holz f&#228;llen.</German>
+		<Italian>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. The wind helps those without an axe to cut wood.</Italian>
+		<Spanish>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. The wind helps those without an axe to cut wood.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CASIMIR_1</Tag>
+		<English>Best wishes to you, [CT_NAME] of the [CT_EMPIRE]. Fate throws fortune, but not everyone catches.</English>
+		<French>Best wishes to you, [CT_NAME] of the [CT_EMPIRE]. Fate throws fortune, but not everyone catches.</French>
+		<German>Ich w&#252;nsche Dir alles Gute, [CT_NAME] vom [CT_EMPIRE]. Das Schicksal wirft mit dem Gl&#252;ck, aber nicht jeder f&#228;ngt es.</German>
+		<Italian>Best wishes to you, [CT_NAME] of the [CT_EMPIRE]. Fate throws fortune, but not everyone catches.</Italian>
+		<Spanish>Best wishes to you, [CT_NAME] of the [CT_EMPIRE]. Fate throws fortune, but not everyone catches.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SOBIESKI_1</Tag>
+		<English>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE].  Before you come to me, always remember: no labour, no oilcakes.</English>
+		<French>Bonjour! Je suis [OUR_NAME] de la [OUR_EMPIRE]. Avant de venir à moi, toujours se rappeler: pas de travail, pas de oilcakes.</French>
+		<German>Gr&#252;&#223;e! Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Bevor Du zu mir kommst, denke immer daran: keine Arbeit, kein &#214;lkuchen.</German>
+		<Italian>Saluti! Sono [OUR_NAME] del [OUR_EMPIRE]. Prima di venire a me, ricordate sempre: nessun lavoro, nessuna panelli.</Italian>
+		<Spanish>¡Saludos! Me [OUR_NAME] de la [OUR_EMPIRE]. Antes de venir a mí, recordar siempre: no hay trabajo, no se oilcakes.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_WALESA_1</Tag>
+		<English>Welcome, [CT_NAME]! Liberty is not only a right, but also our common responsibility and duty.</English>
+		<French>Welcome, [CT_NAME]! Liberty is not only a right, but also our common responsibility and duty.</French>
+		<German>Willkommen, [CT_NAME]! Freiheit ist nicht nur ein Recht, sondern auch unsere allgemeine Verantwortung und Pflicht.</German>
+		<Italian>Welcome, [CT_NAME]! Liberty is not only a right, but also our common responsibility and duty.</Italian>
+		<Spanish>Welcome, [CT_NAME]! Liberty is not only a right, but also our common responsibility and duty.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_KAMEHAMEHA_1</Tag>
+		<English>Hello! Ask me what is the greatest thing in the world, I will reply: It is people, it is people, it is people!</English>
+		<French>Hello! Me demande quelle est la plus grande chose dans le monde, je répondrai: C'est gens, les gens, les gens!</French>
+		<German>Hallo! Frag mich bitte, was ist die gr&#246;&#223;te Sache in der Welt, und ich werde antworten: Es sind die Menschen, die Menschen, die Menschen!</German>
+		<Italian>Ciao! Mi chiedete qual è la cosa più grande del mondo, vorrei rispondere: E 'la gente, è la gente, è la gente!</Italian>
+		<Spanish>¡Hola! Me pregunta qué es lo más grande en el mundo, voy a responder: Es la gente, es la gente, es la gente</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SALAMASINA_1</Tag>
+		<English>Hello, [CT_NAME] of the [CT_CIV_SHORT]. Let us enjoy today, for our lives are decreed to be taken by the gods!</English>
+		<French>Hello, [CT_NAME] of the [CT_CIV_SHORT]. Let us enjoy today, for our lives are decreed to be taken by the gods!</French>
+		<German>Hallo, [CT_NAME] von [CT_CIV_SHORT]. Lass uns den Tag genie&#223;en, denn unsere Leben sind dazu bestimmt, von den G&#246;ttern genommen zu werden!</German>
+		<Italian>Hello, [CT_NAME] of the [CT_CIV_SHORT]. Let us enjoy today, for our lives are decreed to be taken by the gods!</Italian>
+		<Spanish>Hello, [CT_NAME] of the [CT_CIV_SHORT]. Let us enjoy today, for our lives are decreed to be taken by the gods!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CUZA_1</Tag>
+		<English>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! Shall our two peoples live in peace or will the proud descendants of the Getae crush you like a worm!</English>
+		<French>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! Shall our two peoples live in peace or will the proud descendants of the Getae crush you like a worm!</French>
+		<German>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! M&#246;gen unsere zwei V&#246;lker in Frieden leben oder die stolzen Nachfahren der Getae werden Dich wie einen Wurm zerquetschen!</German>
+		<Italian>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! Shall our two peoples live in peace or will the proud descendants of the Getae crush you like a worm!</Italian>
+		<Spanish>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! Shall our two peoples live in peace or will the proud descendants of the Getae crush you like a worm!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MEHAI_1</Tag>
+		<English>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! Shall our two peoples live in peace or will the proud descendants of the Getae crush you like a worm!</English>
+		<French>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! Shall our two peoples live in peace or will the proud descendants of the Getae crush you like a worm!</French>
+		<German>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! M&#246;gen unsere zwei V&#246;lker in Frieden leben oder die stolzen Nachfahren der Getae werden Dich wie einen Wurm zerquetschen!</German>
+		<Italian>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! Shall our two peoples live in peace or will the proud descendants of the Getae crush you like a worm!</Italian>
+		<Spanish>Felicitari! Eu sunt [OUR_NAME],dominatorul mandriei [OUR_EMPIRE]! Shall our two peoples live in peace or will the proud descendants of the Getae crush you like a worm!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+		<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_VLAD_1</Tag>
+		<English>Greetings, [CT_NAME] of  the [CT_EMPIRE]. Either act as you speak or speak as you act in our time together.</English>
+		<French>Greetings, [CT_NAME] of  the [CT_EMPIRE]. Either act as you speak or speak as you act in our time together.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME] vom [CT_EMPIRE]. Handle so wie Du sprichst oder spreche so wie Du handelst solange wir beisammen sind.</German>
+		<Italian>Greetings, [CT_NAME] of  the [CT_EMPIRE]. Either act as you speak or speak as you act in our time together.</Italian>
+		<Spanish>Greetings, [CT_NAME] of  the [CT_EMPIRE]. Either act as you speak or speak as you act in our time together.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MARY_STUART_1</Tag>
+		<English>I am [OUR_NAME] of the [OUR_EMPIRE]. To be kind to all, to like many and love a few, to be needed and wanted by those we love, is certainly the nearest we can come to happiness, [CT_NAME]. </English>
+		<French>I am [OUR_NAME] of the [OUR_EMPIRE]. To be kind to all, to like many and love a few, to be needed and wanted by those we love, is certainly the nearest we can come to happiness, [CT_NAME]. </French>
+		<German>Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Gut zu Allen sein, Viele m&#246;gen und Wenige lieben, gebraucht und verlangt werden von denen, die wir lieben, n&#228;her k&#246;nnen wir wahrem Gl&#252;ck sicherlich nicht kommen, [CT_NAME]. </German>
+		<Italian>I am [OUR_NAME] of the [OUR_EMPIRE]. To be kind to all, to like many and love a few, to be needed and wanted by those we love, is certainly the nearest we can come to happiness, [CT_NAME]. </Italian>
+		<Spanish>I am [OUR_NAME] of the [OUR_EMPIRE]. To be kind to all, to like many and love a few, to be needed and wanted by those we love, is certainly the nearest we can come to happiness, [CT_NAME]. </Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ROBERT_I_1</Tag>
+		<English>Greetings! I am [OUR_NAME].  Remember to be slow in choosing a friend, but slower in changing him.</English>
+		<French>Salutations! Je suis [OUR_NAME]. N'oubliez pas d'être lent dans le choix d'un ami, mais plus lente à changer.</French>
+		<German>Gr&#252;&#223;e! Ich bin [OUR_NAME]. Denke daran, sei langsam, einen Freund auszuw&#228;hlen, aber sei noch langsamer in zu ver&#228;ndern.</German>
+		<Italian>Auguri! Sono [OUR_NAME]. Ricorda di essere lento e la scelta di un amico, ma più lento a cambiare lui.</Italian>
+		<Spanish> Saludos! Me [OUR_NAME]. Recuerde que debe ser lento en la elección de un amigo, pero más lento en el cambio de él.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_DUSAN_1</Tag>
+		<English>Greetings, [CT_NAME].  Remember, he who digs a trap for others ends up in it himself.</English>
+		<French>Salutations, [CT_NAME]. N'oubliez pas que celui qui creuse un piège pour d'autres, il finit par se retrouver dans lui-même.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]. Denke daran, wer andern eine Grube gr&#228;bt f&#228;llt selbst hinein.</German>
+		<Italian>Saluti, [CT_NAME]. Ricordate, colui che scava una trappola per gli altri e si finisce per se stesso.</Italian>
+		<Spanish>Saludos, [CT_NAME]. Recuerde, el que cava una trampa para otros termina en él mismo. </Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TASHUNKEWITKO_1</Tag>
+		<English>Greetings, [CT_NAME]. Share this land with the [OUR_NAME]. One does not own the earth on which the people walk.</English>
+		<French>Greetings, [CT_NAME]. Share this land with the [OUR_NAME]. One does not own the earth on which the people walk.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]. Teile dieses Land mit dem [OUR_NAME]. Niemandem geh&#246;rt das Land auf dem die Menschen wandeln.</German>
+		<Italian>Greetings, [CT_NAME]. Share this land with the [OUR_NAME]. One does not own the earth on which the people walk.</Italian>
+		<Spanish>Greetings, [CT_NAME]. Share this land with the [OUR_NAME]. One does not own the earth on which the people walk.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CHARLES_XII_1</Tag>
+		<English>I am [OUR_NAME].  The best place to find a helping hand is at the end of your own arm.</English>
+		<French>Je suis [OUR_NAME].  Le meilleur endroit pour trouver une main aidante est à l'extrémité de votre propre bras.</French>
+		<German>Ich bin [OUR_NAME].  Der beste Ort, eine helfende Hand zu finden ist am Ende Deines eigenen Armes.</German>
+		<Italian>Sono [OUR_NAME].  Il posto migliore per trovare una mano d'assistenza è all'estremità del vostro proprio braccio.</Italian>
+		<Spanish>Soy [OUR_NAME].  El mejor lugar para encontrar una mano que ayuda está en el extremo de su propio brazo.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SONGTSEN_1</Tag>
+		<English>Welcome, [CT_NAME].  I hope we can maintain peaceful relations, for excellent people are honored wherever they go.</English>
+		<French>Bienvenue, [CT_NAME]. J'espère que nous pourrons maintenir des relations pacifiques, pour l'excellence de personnes sont honorés partout où ils vont.</French>
+		<German>Willkommen, [CT_NAME]. Ich hoffe, wir k&#246;nnen friedliche Beziehungen beibehalten, denn exzellente Menschen werden geachtet, wo immer sie gehen.</German>
+		<Italian>Benvenuto, [CT_NAME]. Mi auguro che riusciremo a mantenere relazioni pacifiche, per le eccellenti persone sono onorato, ovunque si trovino.</Italian>
+		<Spanish>Bienvenido, [CT_NAME]. Espero que podamos mantener relaciones pacíficas, excelente para la gente honrada, dondequiera que vaya.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TOPILTZIN_1</Tag>
+		<English>May Spirits bless you and your whole tribe, [CT_NAME]!  Accept my hospitality as celebrate the peace between our peoples!</English>
+		<French>May Spirits bless you and your whole tribe, [CT_NAME]!  Accept my hospitality as celebrate the peace between our peoples!</French>
+		<German>M&#246;gen die Geister Dich und Deinen Stamm segnen, [CT_NAME]!  Akzeptiere meine Gastfreundschaft und feiere den Frieden zwischen unseren V&#246;lkern!</German>
+		<Italian>May Spirits bless you and your whole tribe, [CT_NAME]!  Accept my hospitality as celebrate the peace between our peoples!</Italian>
+		<Spanish>May Spirits bless you and your whole tribe, [CT_NAME]!  Accept my hospitality as celebrate the peace between our peoples!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HECTOR_1</Tag>
+		<English>I am [OUR_NAME] of [OUR_CIV_SHORT]. I have abided by three laws in my life. Honor the gods, love your woman, and defend your country.</English>
+		<French>I am [OUR_NAME] of [OUR_CIV_SHORT]. I have abided by three laws in my life. Honor the gods, love your woman, and defend your country.</French>
+		<German>Ich bin [OUR_NAME] vom [OUR_CIV_SHORT]. Ich habe stets drei Gesetze in meinem Leben befolgt: Ehre die G&#246;tter, liebe Deine Frau und verteidige Dein Land.</German>
+		<Italian>I am [OUR_NAME] of [OUR_CIV_SHORT]. I have abided by three laws in my life. Honor the gods, love your woman, and defend your country.</Italian>
+		<Spanish>I am [OUR_NAME] of [OUR_CIV_SHORT]. I have abided by three laws in my life. Honor the gods, love your woman, and defend your country.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CUNHAMBEBE_1</Tag>
+		<English>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ] people. Help us safe our precious rainforest and you'll have our eternal gratitude!</English>
+		<French>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ] people. Help us safe our precious rainforest and you'll have our eternal gratitude!</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]! Ich bin [OUR_NAME] vom [OUR_CIV_ADJ] Volk. Helfe uns bei der Rettung unseres wertvollen Regenwaldes und Du wirst unsere ewige Dankbarkeit erhalten!</German>
+		<Italian>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ] people. Help us safe our precious rainforest and you'll have our eternal gratitude!</Italian>
+		<Spanish>Greetings, [CT_NAME]! I am [OUR_NAME] of the [OUR_CIV_ADJ] people. Help us safe our precious rainforest and you'll have our eternal gratitude!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SVIATOSLAV_I_1</Tag>
+		<English>Greetings, [CT_NAME].  May you be warned: do not mess with me, for he who licks knives will soon cut his tongue.</English>
+		<French>Greetings, [CT_NAME]. Puissiez-vous être mis en garde: ne plaisante pas avec moi, car celui qui se lèche les couteaux vont bientôt couper sa langue.</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]. Sei gewarnt: Lege Dich nicht mit mir an, denn derjenige, der am Messer leckt wird sich bald die Zunge schneiden.</German>
+		<Italian>Greetings, [CT_NAME]. Possa tu stai in guardia: non pasticciare con me, per lui che lecca coltelli presto tagliata la lingua.</Italian>
+		<Spanish>Greetings, [CT_NAME]. Que tenga mucho cuidado: ¡no juegues con mi, para el que se lame cuchillos pronto cortar su lengua.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TYMOSHENKO_1</Tag>
+		<English>A true leader has no fear when they are sure of their actions, [CT_NAME]. I am always sure of my actions.  Are you?</English>
+		<French>A true leader has no fear when they are sure of their actions, [CT_NAME]. I am always sure of my actions.  Are you?</French>
+		<German>Ein wahrer Anf&#252;hrer hatte keine Angst, wenn er sich seiner Handlungen sicher ist, [CT_NAME]. Ich bin meiner Handlungen immer sicher. Wie sieht es mit Dir aus?</German>
+		<Italian>A true leader has no fear when they are sure of their actions, [CT_NAME]. I am always sure of my actions.  Are you?</Italian>
+		<Spanish>A true leader has no fear when they are sure of their actions, [CT_NAME]. I am always sure of my actions.  Are you?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_YUSHCHENKO_1</Tag>
+		<English>Welcome to [OUR_CIV_SHORT], [CT_NAME]. The conviction of our [OUR_CIV_ADJ] nation is embedded in the pages of its history.</English>
+		<French>Welcome to [OUR_CIV_SHORT], [CT_NAME]. The conviction of our [OUR_CIV_ADJ] nation is embedded in the pages of its history.</French>
+		<German>Wilkommen in [OUR_CIV_SHORT], [CT_NAME]. Die &#220;berzeugung unserer [OUR_CIV_ADJ] Nation ist im Geschichtsbuch verankert.</German>
+		<Italian>Welcome to [OUR_CIV_SHORT], [CT_NAME]. The conviction of our [OUR_CIV_ADJ] nation is embedded in the pages of its history.</Italian>
+		<Spanish>Welcome to [OUR_CIV_SHORT], [CT_NAME]. The conviction of our [OUR_CIV_ADJ] nation is embedded in the pages of its history.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_LLYWELYN_1</Tag>
+		<English>Good day, I am [OUR_NAME] of the [OUR_EMPIRE].  I offer you my hostility!</English>
+		<French>Bonne journée, j'ai un nom, [OUR_NAME], de même que mon empire, [OUR_EMPIRE]. J'ai mais deux souhaits, un est d'être dans la paix avec toi. La seconde est que vous ne devez jamais, d'être irrespectueuse en ma présence.</French>
+		<German>Guten Tag, Ich bin [OUR_NAME] vom [OUR_EMPIRE]. Ich biete Dir meine Feindschaft!</German>
+		<Italian>Buon giorno, ho un nome, [OUR_NAME], come il mio impero, [OUR_EMPIRE]. Ho ma due desideri, uno è di essere nella pace con voi. Il secondo è che non dovete mai, di essere disrespectful nella mia presenza.</Italian>
+		<Spanish>Buen día, tengo un nombre, [OUR_NAME], al igual que mi imperio, [OUR_EMPIRE]. Tengo pero dos deseos, uno son estar en paz con ti. El segundo es que nunca debes, ser irrespetuoso en mi presencia.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AFONSO_1</Tag>
+		<English>Welcome, [CT_NAME] of the [CT_EMPIRE]. Excuse my distance but birds of prey do not flock together.</English>
+		<French>Bienvenue, [CT_NAME] de l'[CT_EMPIRE]. Excusez ma distance, mais les oiseaux de proie ne se regroupent pas ensemble.</French>
+		<German>Willkommen, [CT_NAME] vom [CT_EMPIRE]. Entschuldige meine Distanziertheit, aber Raubv&#246;gel jagen nicht gemeinsam.</German>
+		<Italian>Welcome, [CT_NAME] of the [CT_EMPIRE]. Excuse my distance but birds of prey do not flock together.</Italian>
+		<Spanish>Welcome, [CT_NAME] of the [CT_EMPIRE]. Excuse my distance but birds of prey do not flock together.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BASIL_1</Tag>
+		<English>Salutations [CT_NAME]! I am [OUR_NAME] of [OUR_CIV_SHORT], called by some "The father of the Army". Are your intentions noble?</English>
+		<French>Salutations [CT_NAME]! Je suis[OUR_NAME] des [OUR_CIV_SHORT], aussi appelé "Le Père de l'Armée". Est-ce que vos intentions sont louables ?</French>
+		<German>Sei gegr&#252;&#223;t, [CT_NAME]! Ich bin [OUR_NAME] aus [OUR_CIV_SHORT], manche nennen mich "Den Vater der Armee". Hast Du noble Absichten?</German>
+		<Italian>Salutations [CT_NAME]! I am [OUR_NAME] of [OUR_CIV_SHORT], called by some "The father of the Army". Are your intentions noble?</Italian>
+		<Spanish>Salutations [CT_NAME]! I am [OUR_NAME] of [OUR_CIV_SHORT], called by some "The father of the Army". Are your intentions noble?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CETSHWAYO_1</Tag>
+		<English>Greetings, [CT_NAME]. We seek peace but will not give up strength. No partridge scratches the ground in search of food for another.</English>
+		<French>Salutations, [CT_NAME]. Nous recherchons la paix, mais pas au détriment de notre Force ! Aucune perdrix ne gratte le sol pour rechercher de la nourriture pour une autre...</French>
+		<German>Gr&#252;&#223;e, [CT_NAME]. Wir suchen den Frieden aber werden unsere St&#228;rke nicht aufgeben. Ein Rebhuhn scharrt den Boden auf der Suche nach Nahrung f&#252;r sich, nicht f&#252;r andere.</German>
+		<Italian>Greetings, [CT_NAME]. We seek peace but will not give up strength. No partridge scratches the ground in search of food for another.</Italian>
+		<Spanish>Greetings, [CT_NAME]. We seek peace but will not give up strength. No partridge scratches the ground in search of food for another.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CHARLES_V_1</Tag>
+		<English>I am honored to meet you, [CT_NAME]. I hope that our two nations will be able to live in peace and friendship.</English>
+		<French>Je suis honoré de vous rencontrer, [CT_NAME]. J'espère que nos deux nations seront capables de vivre dans la paix et l'amitié.</French>
+		<German>Es ist mir eine Ehre, Dir zu begegnen [CT_NAME]. Ich hoffe, es wird Friede und Freundschaft zwischen unseren V&#246;lkern herrschen.</German>
+		<Italian>È un onore incontrarti, [CT_NAME]. Spero che le nostre due nazioni riusciranno a vivere in pace e amicizia.</Italian>
+		<Spanish>Es un honor conoceros, [CT_NAME]. Espero que nuestras dos naciones sean capaces de vivir en paz y armonía.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CLEOPATRA_1</Tag>
+		<English>Do not underestimate our resolve, [CT_NAME]. All strange and terrible events are welcome by the [OUR_EMPIRE], but comforts we despise.</English>
+		<French>Ne sous-estimez notre détermination, [CT_NAME]. Tous les événements étranges et terribles sont les bienvenus pour [OUR_EMPIRE], mais nous méprisons le confort.</French>
+		<German>Untersch&#228;tze unsere Entschlossenhait nicht, [CT_NAME]. Alle seltsamen und schrecklichen Ereignisse sind willkommen im [OUR_EMPIRE], aber wir verabscheuen die Bequemlichkeit.</German>
+		<Italian>Do not underestimate our resolve, [CT_NAME]. All strange and terrible events are welcome by the [OUR_EMPIRE], but comforts we despise.</Italian>
+		<Spanish>Do not underestimate our resolve, [CT_NAME]. All strange and terrible events are welcome by the [OUR_EMPIRE], but comforts we despise.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_DIDO_1</Tag>
+		<English>I agree you on before of the [OUR_EMPIRE], [CT_NAME]. Pray that I do not grow to curse your progeny.</English>
+		<French>Je vous salue au nom de [OUR_EMPIRE], [CT_NAME]. Priez pour que je n'ai jamais à maudir votre progéniture.</French>
+		<German>Du stehst vor dem gro&#223;en [OUR_EMPIRE], [CT_NAME]. Bete, dass ich mich nicht dazu entscheide, Deine Nachkommen zu verfluchen.</German>
+		<Italian>I agree you on before of the [OUR_EMPIRE], [CT_NAME]. Pray that I do not grow to curse your progeny.</Italian>
+		<Spanish>I agree you on before of the [OUR_EMPIRE], [CT_NAME]. Pray that I do not grow to curse your progeny.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_FRANCO_1</Tag>
+		<English>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. I am responsible only to God and history!</English>
+		<French>Salutations! Je suis [OUR_NAME] de l'[OUR_EMPIRE]. Je suis responsable uniquement devant Dieu et l'Histoire!</French>
+		<German>Gr&#252;&#223;e, ich bin [OUR_NAME] vom [OUR_EMPIRE]. Meine Verantwortung gilt nur Gott und der Geschichte!</German>
+		<Italian>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. I am responsible only to God and history!</Italian>
+		<Spanish>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. I am responsible only to God and history!</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HENRY_VIII_1</Tag>
+		<English>Warm greetings to the [CT_EMPIRE]. I, [OUR_NAME], seek a peace above all earthly dignities, and a still and quiet conscience. </English>
+		<French>Salutations chaleureuses à l'[CT_EMPIRE]. Moi, [OUR_NAME], je cherche la paix auprès de toutes les dignités de la terre, et une conscience calme et paisible</French>
+		<German>Herzliche Gr&#252;&#223;e dem [CT_EMPIRE]. Ich, [OUR_NAME], suche den Frieden mehr als alle irdischen W&#252;rden und ein ruhiges Gewissen. </German>
+		<Italian>Warm greetings to the [CT_EMPIRE]. I, [OUR_NAME], seek a peace above all earthly dignities, and a still and quiet conscience. </Italian>
+		<Spanish>Warm greetings to the [CT_EMPIRE]. I, [OUR_NAME], seek a peace above all earthly dignities, and a still and quiet conscience. </Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HIROHITO_1</Tag>
+		<English>I am honored to meet you, [CT_NAME]. The [OUR_EMPIRE] will be a strong and resilient neighbour, resolved to endure the unendurable and suffer what is insufferable.</English>
+		<French>Je suis honoré de vous rencontrer, [CT_NAME]. L'[OUR_EMPIRE] sera un voisin fort résistant, déterminé à endurer ce qui n'est pas endurable et à souffrir au-delà de toute souffrance.</French>
+		<German>Ich f&#252;hle mich geehrt, Dich zu treffen, [CT_NAME]. Das [OUR_EMPIRE] wird ein starker und belastbarer Nachbar sein, entschlossen, das Unertr&#228;gliche zu ertragen.</German>
+		<Italian>I am honored to meet you, [CT_NAME]. The [OUR_EMPIRE] will be a strong and resilient neighbour, resolved to endure the unendurable and suffer what is insufferable.</Italian>
+		<Spanish>I am honored to meet you, [CT_NAME]. The [OUR_EMPIRE] will be a strong and resilient neighbour, resolved to endure the unendurable and suffer what is insufferable.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_IVAN_1</Tag>
+		<English>I am honored to meet you, [CT_NAME]. I am the great [OUR_NAME] of the [OUR_CIV_ADJ] people, inhabitants of [OUR_CIV_SHORT].</English>
+		<French>Je suis honoré de vous rencontrer, [CT_NAME]. J'espère que nos deux nations seront capables de vivre dans la paix et l'amitié.</French>
+		<German>Es ist mir eine Ehre Dir zu begegnen, [CT_NAME]. Ich bin der gro&#223;e [OUR_NAME] des [OUR_CIV_ADJ] Volkes, Bewohner von [OUR_CIV_SHORT].</German>
+		<Italian>È un onore incontrarti, [CT_NAME]. Spero che le nostre due nazioni riusciranno a vivere in pace e amicizia.</Italian>
+		<Spanish>Es un honor conoceros, [CT_NAME]. Espero que nuestras dos naciones sean capaces de vivir en paz y armonía.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JAYAVARMAN_1</Tag>
+		<English>Greetings. I am [OUR_NAME]. Always be pleasant, [CT_NAME], and your reputation will be fragrant and pervasive within the [OUR_EMPIRE].</English>
+		<French>Salutations. Je suis [OUR_NAME]. Soiyez toujours poli, [CT_NAME], et votre réputation sera ressentie et omniprésente dans [OUR_EMPIRE].</French>
+		<German>Gr&#252;&#223;e. Ich bin [OUR_NAME]. Sei stets freundlich, [CT_NAME], und Dein Ansehen wird wohlriechend und durchdringend sein im [OUR_EMPIRE].</German>
+		<Italian>Greetings. I am [OUR_NAME]. Always be pleasant, [CT_NAME], and your reputation will be fragrant and pervasive within the [OUR_EMPIRE].</Italian>
+		<Spanish>Greetings. I am [OUR_NAME]. Always be pleasant, [CT_NAME], and your reputation will be fragrant and pervasive within the [OUR_EMPIRE].</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JOANOFARC_1</Tag>
+		<English>Choose your words carefully, [CT_NAME]. Those of [OUR_EMPIRE] say that people are hanged sometimes for speaking the truth.</English>
+		<French>Choisissez bien vos mots, [CT_NAME]. On raconte dans mon [OUR_EMPIRE] que les gens sont parfois pendus pour avoir dit la vérité.</French>
+		<German>W&#228;hle Deine Worte mit Sorgfalt, [CT_NAME]. Die Bewohner vom [OUR_EMPIRE] sagen, dass manchmal Leute aufgeh&#228;ngt werden, weil sie die Wahrheit sagen.</German>
+		<Italian>Choose your words carefully, [CT_NAME]. Those of [OUR_EMPIRE] say that people are hanged sometimes for speaking the truth.</Italian>
+		<Spanish>Choose your words carefully, [CT_NAME]. Those of [OUR_EMPIRE] say that people are hanged sometimes for speaking the truth.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_KANGXI_1</Tag>
+		<English>Greetings,[CT_NAME]. Allow me to keep the [CT_EMPIRE] within my sights. It is easy to dodge a spear that comes in front of you but hard to keep harms away from an arrow shot from behind. </English>
+		<French>Salutations,[CT_NAME]. permettez-moi de garder l'[CT_EMPIRE] dans mon champ de vision. Il est facile d'esquiver une lance arrivant droit sur vous, mais difficile de ne pas être blassé par une flêche tiré dans le dos. </French>
+		<German>Gr&#252;&#223;e,[CT_NAME]. Erlaube mir, das [CT_EMPIRE] im Auge zu behalten. Es ist leicht, einen Speer abzuwehren, der von vorne kommt, aber schwer, einen Pfeil von hinten abzuwehren. </German>
+		<Italian>Greetings,[CT_NAME]. Allow me to keep the [CT_EMPIRE] within my sights. It is easy to dodge a spear that comes in front of you but hard to keep harms away from an arrow shot from behind. </Italian>
+		<Spanish>Greetings,[CT_NAME]. Allow me to keep the [CT_EMPIRE] within my sights. It is easy to dodge a spear that comes in front of you but hard to keep harms away from an arrow shot from behind. </Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_LENIN_1</Tag>
+		<English>There are no morals in politics, [CT_NAME], there is only expedience. I bid you welcome and look forward to our relationship. A scoundrel may be of use to us just because he is a scoundrel.</English>
+		<French>Il n'y a pas de morale en politique, [CT_NAME], uniquement des convenances. J'accepte votre accueil et suis partant pour notre relation. and look forward to our relationship. Une canaille pourrait nous être utile parce que c'est une canaille.</French>
+		<German>Es gibt keine Moral in der Politik, [CT_NAME], der Zweck heiligt die Mittel. Ich hei&#223;e Dich willkommen und freue mich auf unsere Zusammenarbeit. Eine Schurke kann uns von Nutzen sein, gerade weil er ein Schurke ist.</German>
+		<Italian>There are no morals in politics, [CT_NAME], there is only expedience. I bid you welcome and look forward to our relationship. A scoundrel may be of use to us just because he is a scoundrel.</Italian>
+		<Spanish>There are no morals in politics, [CT_NAME], there is only expedience. I bid you welcome and look forward to our relationship. A scoundrel may be of use to us just because he is a scoundrel.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_LEONIDAS_1</Tag>
+		<English>Welcome, oh leader of the [CT_EMPIRE]. Tonight we dine in hell. Care to join for dinner?</English>
+		<French>Bienvenue, O Chef de l'[CT_EMPIRE]. Cette nuit nous dinons en enfer. Prêt à vous joindre à nous pour le repas ?</French>
+		<German>Willkommen, oh Anf&#252;hrer vom [CT_EMPIRE]. Heute Nacht speisen wir in der H&#246;lle. Willst Du mit uns zu Abend essen?</German>
+		<Italian>Welcome, oh leader of the [CT_EMPIRE]. Tonight we dine in hell. Care to join for dinner?</Italian>
+		<Spanish>Welcome, oh leader of the [CT_EMPIRE]. Tonight we dine in hell. Care to join for dinner?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MARCUS_1</Tag>
+		<English>A man's worth is no greater than his ambitions. And I am an ambitious man, [CT_NAME].</English>
+		<French>La valeur d'un homme n'est pas plus grande que ses ambitions. et je suis un homme ambitieux, [CT_NAME].</French>
+		<German>Der Wert eines Mannes ist nicht gr&#246;&#223;er als seine Ambitionen. Und ich bin ein ambitionierter Mann, [CT_NAME].</German>
+		<Italian>A man's worth is no greater than his ambitions. And I am an ambitious man, [CT_NAME].</Italian>
+		<Spanish>A man's worth is no greater than his ambitions. And I am an ambitious man, [CT_NAME].</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MASINISSA_1</Tag>
+		<English>We meet in good faith. [CT_NAME]. The [OUR_EMPIRE] will support you to the extent that it pleases us to do so.</English>
+		<French>Nous nous rencontrons de bonne foi. [CT_NAME]. L'[OUR_EMPIRE] nous vous soutiendrons autant qu'il nous plaira de le faire.</French>
+		<German>Wir treffen uns in gutem Glauben, [CT_NAME]. Das [OUR_EMPIRE] wird Dich unterst&#252;tzen, solange es uns gef&#228;llt, dies zu tun.</German>
+		<Italian>We meet in good faith. [CT_NAME]. The [OUR_EMPIRE] will support you to the extent that it pleases us to do so.</Italian>
+		<Spanish>We meet in good faith. [CT_NAME]. The [OUR_EMPIRE] will support you to the extent that it pleases us to do so.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_NEBUCHADREZZAR_1</Tag>
+		<English>I, [OUR_NAME], welcome the [CT_EMPIRE] into my divine presence. Shall we live peacefully, or must we crush you?</English>
+		<French>Moi, [OUR_NAME], désire faire bon accueil au [CT_EMPIRE] en les honorant de ma divine présence. Devons-nous vivre paisiblement, ou devons-nous vous écraser ?</French>
+		<German>Ich, [OUR_NAME], begr&#252;&#223;e das [CT_EMPIRE] in meiner g&#246;ttlichen Pr&#228;senz. Sollen wir friedlich leben oder m&#252;ssen wir dich zerquetschen?</German>
+		<Italian>, [OUR_NAME], accoglie favorevolmente [CT_EMPIRE] nella mia presenza. Vivere pacificamente, o dobbiamo schiacciarli?</Italian>
+		<Spanish>I, [OUR_NAME], da la bienvenida a [CT_EMPIRE] en mi presencia. ¿Vivir pacífico, o debemos machacarte?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_RICHELIEU_1</Tag>
+		<English>If you give me six lines written by the hand of the most honest of men, [CT_NAME], I will find something in them which will hang him. Perhaps you will feed me only five?</English>
+		<French>Si vous me donnez six lignes écrites par la main du plus honnête des hommes, [CT_NAME], j'y trouverai dans ces mots quelque chose qui le confondra. Peut-être que vous m'en donnerez seulement cinq ?</French>
+		<German>Gebe mir 6 Zeilen, geschrieben von der Hand des ehrenhaftesten Mannes, [CT_NAME], und werde darin etwas darin finden, ihn aufzuh&#228;ngen. Vielleicht m&#246;chtest Du mir nur 5 &#252;bermitteln?</German>
+		<Italian>If you give me six lines written by the hand of the most honest of men, [CT_NAME], I will find something in them which will hang him. Perhaps you will feed me only five?</Italian>
+		<Spanish>If you give me six lines written by the hand of the most honest of men, [CT_NAME], I will find something in them which will hang him. Perhaps you will feed me only five?</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SEJONG_1</Tag>
+		<English>I am honored to meet you. We will be watching you closely, [CT_NAME] It is often  darkest underneath the lampstand.</English>
+		<French>Je suis honoré de vous rencontrer. Nous vous avons à l'oeil, [CT_NAME] Il y a souvent de l'Ombre sous le pied de lampe.</French>
+		<German>Ich f&#252;hle mich geehrt, Dir zu begegnen. Wir werden Dich genau beobachten, [CT_NAME]. Unter dem St&#228;nder der Leuchte ist es oft am dunkelsten.</German>
+		<Italian>I am honored to meet you. We will be watching you closely, [CT_NAME] It is often  darkest underneath the lampstand.</Italian>
+		<Spanish>I am honored to meet you. We will be watching you closely, [CT_NAME] It is often  darkest underneath the lampstand.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_WILHELMINA_1</Tag>
+		<English>I am honored to meet you, [CT_NAME]. I hope that our two nations will be able to live in peace and friendship.</English>
+		<French>Je suis honoré de vous rencontrer, [CT_NAME]. J'espère que nos deux nations seront capables de vivre dans la paix et l'amitié.</French>
+		<German>Es ist mir eine Ehre, Dich zu treffen, [CT_NAME]. Ich hoffe, es wird Friede und Freundschaft zwischen unseren V&#246;lkern herrschen.</German>
+		<Italian>È un onore incontrarti, [CT_NAME]. Spero che le nostre due nazioni riusciranno a vivere in pace e amicizia.</Italian>
+		<Spanish>Es un honor conoceros, [CT_NAME]. Espero que nuestras dos naciones sean capaces de vivir en paz y armonía.</Spanish>
+		<Finnish></Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<!-- RevolutionDCM - start diplomacy text -->
+	<TEXT>
+		<Tag>USER_STOP_BOTHERING</Tag>
+		<English>Cease bothering us!</English>
+		<French>Cessez de nous importuner!</French>
+		<German>Bel&#228;stigt uns nicht weiter!</German>
+		<Italian>Cease bothering us!</Italian>
+		<Spanish>Cease bothering us!</Spanish>
+		<Finnish>J&#228;t&#228; meid&#228;t rauhaan!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>ASSUME_SNUFFED</Tag>
+		<English>So be it. But if we need you at the table, your absense may not be to your advantage.</English>
+    	<French>Alors faites le, mais si nous avons besoin de vous la prochaine fois, ça ne sera pas à v&#212;tre avantage.</French>
+		<German>So sei es. Aber wenn wir Dich am Verhandlungstisch brauchen, wird Deine Abwesenheit Dir nicht von Vorteil sein.</German>
+		<Italian>So be it. But if we need you at the table, your absense may not be to your advantage.</Italian>
+		<Spanish>Sea. Pero si os necesitamos a la mesa, vuestra ausencia puede que no sea vuestra ventaja.</Spanish>
+		<Finnish>Olkoon niin. Jos kuitenkin joskus haluaisimme n&#228;hd&#228; teid&#228;t neuvottelup&#246;yd&#228;n &#228;&#228;ress&#228;, ei poissaolonne ole v&#228;ltt&#228;m&#228;tt&#228; hy&#246;dyksenne.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>ASSUME_REALLY_SNUFFED</Tag>
+		<English>So be it. But the next time we meet, it may be on the battlefield!</English>
+		<French>Qu'il en soit soit ainsi. Mais la prochaine fois que l'on se recontrera, ce sera peut-être sur le champ de bataille!</French>
+		<German>So sei es. Doch unser n&#228;chstes Treffen k&#246;nnte auf dem Schlachtfeld stattfinden!</German>
+		<Italian>So be it. But the next time we meet, it may be on the battlefield!</Italian>
+		<Spanish>Sea. Pero la pr&#243;xima vez que no veamos,  &#161;ser&#225; en el campo de batalla!</Spanish>
+		<Finnish>Olkoon niin. Voi olla ett&#228; seuraavan kerran tapaamme taistelutantereella!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>  
+	<TEXT>
+		<Tag>ASSUME_NOT_SNUFFED</Tag>
+		<English>What a shame. My diplomats enjoyed your openness and all it revealed about you.</English>
+    	<French>Quel dommage ! Mes diplomates avaient apprécié votre ouverture d'esprit qui en disait long sur vous.</French>
+		<German>Was f&#252;r ein Jammer. Meine Diplomaten genossen Deine Offenheit und was sie von Dir enth&#252;llte.</German>
+		<Italian>What a shame. My diplomats enjoyed your openness and all it revealed about you.</Italian>
+		<Spanish>Que Lastima. Mis diplom&#225;ticos disfrutan vuestra franqueza y todo lo que revelaba sobre ti.</Spanish>
+		<Finnish>Harmi. Diplomaattini nauttivat avoimuudestanne ja sen tarjoamista... paljastuksista.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>  
+	<TEXT>
+		<Tag>USER_LETS_TALK</Tag>
+		<English>We wish to resume talks...</English>
+        <French>Nous souhaitons reprendre les négociations...</French>
+		<German>Wir w&#252;nschen, die Gespr&#228;che wieder aufzunehmen...</German>
+		<Italian>We wish to resume talks...</Italian>
+		<Spanish>Desear&#237;amos retomar el di&#225;logo...</Spanish>
+		<Finnish>Haluamme palata puhev&#228;leihin...</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>  
+	<TEXT>
+		<Tag>RESUME_TALKS</Tag>
+		<English>If you wish. I will contact you when it suits me.</English>
+		<French>Si vous le souhaitez. Je vous contacterai lorsque cela me conviendra.</French>
+		<German>Wie Ihr w&#252;nscht. Ich werde Euch kontaktieren, sobald es mir genehm ist.</German>
+		<Italian>If you wish. I will contact you when it suits me.</Italian>
+		<Spanish>Como desees. Ya te llamare cuando me apetezca.</Spanish>
+		<Finnish>Kuten haluat. Otamme yhteytt&#228; kun se meille sopii.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>   
+	<TEXT>
+		<Tag>RESUME_TALKS_RELUCTANT</Tag>
+		<English>If you insist. But I have enjoyed your absense.</English>
+        <French>Si vous le souhaitez, mais j'ai apprécié votre absence.</French>
+		<German>Wenn Ihr darauf besteht. Aber ich genoss Eure Abwesenheit.</German>
+		<Italian>If you insist. But I have enjoyed your absense.</Italian>
+		<Spanish>Si insist&#237;s. Pero debo decir que he disfrutado vuestra ausencia.</Spanish>
+		<Finnish>Jos niin vaadit... olen kuitenkin nauttinut poissaolostasi.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>    
+	<TEXT>
+		<Tag>RESUME_TALKS_GLADLY</Tag>
+		<English>Excellent! There are many things you have to offer us.</English>
+		<French>Excellent! Il y a tant de choses que avez à nous offrir.</French>
+		<German>Exzellent! Es gibt so vieles, was Ihr uns bieten k&#246;nnt.</German>
+		<Italian>Excellent! There are many things you have to offer us.</Italian>
+		<Spanish>&#161;Excelente! Hay un mont&#243;n de cosas que pod&#233;is ofrecernos.</Spanish>
+		<Finnish>Mainiota! On niin paljon mit&#228; voitte tarjota meille!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>     
+	<!-- RevolutionDCM - end -->
+</Civ4GameText>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Infos -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_MISC_NUCLEAR_WINTER_NEAR_CITY</Tag>
+		<English>Radioactive dust fills the skies near %s1_CityName!</English>
+		<French>*Hiver nucléaire* Alerte ! R&#233;chauffement plan&#233;taire pr&#232;s de %s1_CityName !</French>
+		<German>*Kernwinter* Nahe der Stadt %s1_CityName zeigen sich Auswirkungen der globalen Erw&#228;rmung!</German>
+		<Italian>*Inverno nucleare* Gli effetti del riscaldamento globale colpiscono %s1_CityName!</Italian>
+		<Spanish>*Invierno nuclear* El calentamiento global causa efecto cerca de %s1_CityName.</Spanish>
+		<Finnish>Radioactive dust fills the skies near %s1_CityName!</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_RISING_SEAS</Tag>
+		<English>Rising Seas</English>
+		<French>Hausse des Océans</French>
+		<German>Steigende Meere</German>
+		<Italian>Livello del mare in aumento</Italian>
+		<Spanish>Subir el nivel del Mar</Spanish>
+		<Finnish>Rising Seas</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_RISING_SEAS_HELP</Tag>
+		<English>Global warming can raise sea level.</English>
+		<French>Le r&#233;chauffement global peut élever le niveau de la mer.</French>
+		<German>Die globale Erw&#228;rmung kann Meeresspiegel anheben.</German>
+		<Italian>Il riscaldamento globale pu&#242; alzare il livello del mare.</Italian>
+		<Spanish>El calentamiento global puede hacer subir el nivel del mar.</Spanish>
+		<Finnish>Global warming can raise sea level.</Finnish>
+		<Hungarian></Hungarian>
+		<Polish></Polish>
+		<Russian></Russian>
+		<Chinese></Chinese>
+		<Japanese></Japanese>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+
+<!-- Global Defines -->
+<Civ4Defines xmlns="x-schema:CIV4GlobalDefinesSchema.xml">
+	<!-- Show Hidden Attitude Mod -->
+	<Define>
+		<DefineName>SHOW_HIDDEN_ATTITUDE</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>USE_MODDERS_PLAYEROPTION_1</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>USE_MODDERS_PLAYEROPTION_2</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>USE_MODDERS_PLAYEROPTION_3</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+<!-- Inquisitions -->
+	<Define>
+		<DefineName>INQUISITION_BUILDING_GOLD_DIVISOR</DefineName>
+		<iDefineIntVal>4</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>HOLYCITY_REMOVAL_GOLD</DefineName>
+		<iDefineIntVal>500</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>RELIGION_REMOVAL_GOLD</DefineName>
+		<iDefineIntVal>50</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>OC_RESPAWN_HOLY_CITIES</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+<!-- minimum required revolution index to consider an inquisition-->
+		<DefineName>OC_MIN_REV_INDEX</DefineName>
+		<iDefineIntVal>600</iDefineIntVal>
+	</Define>
+	<Define>
+<!-- minimum required revolution trend to consider an inquisition-->
+		<DefineName>OC_MIN_REV_TREND</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+<!-- Civs with state religious dominance below this percent threshold may conduct inquisitions -->
+		<DefineName>OC_THRESHOLD_SMALL_INQUISITION_STATE</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+<!-- Civs with state religious dominance above this percent threshold may conduct inquisitions -->
+		<DefineName>OC_THRESHOLD_BIG_INQUISITION_STATE</DefineName>
+		<iDefineIntVal>67</iDefineIntVal>
+	</Define>
+  <!-- Dexy - Surround and Destroy START -->
+	<Define>
+		<DefineName>SAD_FACTOR_1</DefineName>
+		<fDefineFloatVal>6.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>SAD_FACTOR_2</DefineName>
+		<fDefineFloatVal>10.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>SAD_FACTOR_3</DefineName>
+		<fDefineFloatVal>15.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>SAD_FACTOR_4</DefineName>
+		<fDefineFloatVal>20.0</fDefineFloatVal>
+	</Define>
+	<Define>
+		<DefineName>SAD_MAX_MODIFIER</DefineName>
+		<iDefineIntVal>60</iDefineIntVal>
+	</Define>
+	<!-- Dexy - Surround and Destroy  END  -->
+	<!--Afforess:
+	This sets the maximum bombard resistance a city can have. Set to 100 for normal games, less, for a lower minimum-->
+	<Define>
+		<DefineName>MAX_BOMBARD_DEFENSE</DefineName>
+		<iDefineIntVal>75</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Units can not Claim Water Tiles-->
+	<Define>
+		<DefineName>CANNOT_CLAIM_OCEAN</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Show the text for the leader's traits on the flag-->
+	<Define>
+		<DefineName>SHOW_CIVILIZATION_TRAITS_ON_FLAG</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Don't round up for 5% tax increments with taxation anger, only round down.-->
+	<Define>
+		<DefineName>TAXATION_ANGER_ROUND_DOWN</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Disbanding units earn gold-->
+	<Define>
+		<DefineName>DISBANDING_EARNS_GOLD</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	The divisor (or denominator) for the disbanded units gold. 1 will yield the full production cost. Has no effect if the above setting is disabled.-->
+	<Define>
+		<DefineName>UNIT_GOLD_DISBAND_DIVISOR</DefineName>
+		<iDefineIntVal>4</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Units Can Withdraw from Defending as well, if they have a withdraw chance.-->
+	<Define>
+		<DefineName>WITHDRAW_FROM_DEFENDING</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>ELECTION_FRAUD_DETECTION</DefineName>
+		<iDefineIntVal>75</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>ELECTION_DELAY_ANGER</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>ELECTION_DELAY_LENGTH</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>ELECTION_INTERVAL</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+  <!-- Set WOC Gamefont Resource Value -->
+	<Define>
+		<DefineName>WOC_GAMEFONT_RESOURCE_FIX</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+<!--Afforess:
+	The number of turns that the Cut Lower's Game Option Checks-->
+	<Define>
+		<DefineName>CUT_LOSERS_TURN_INCREMENT</DefineName>
+		<iDefineIntVal>50</iDefineIntVal>
+	</Define>
+<!--Afforess:
+	Every X turns the game checks the High to Low Option-->
+	<Define>
+		<DefineName>HIGH_TO_LOW_FIRST_TURN_CHECK</DefineName>
+		<iDefineIntVal>20</iDefineIntVal>
+	</Define>
+<!--Afforess:
+	Every X turns the game checks the Increasing Difficulty Option-->
+	<Define>
+		<DefineName>INCREASING_DIFFICULTY_TURN_CHECK_INCREMENTS</DefineName>
+		<iDefineIntVal>50</iDefineIntVal>
+	</Define>
+<!--Afforess:
+	Every X turns the game checks the Flexible Difficulty Option-->
+	<Define>
+		<DefineName>FLEXIBLE_DIFFICULTY_TURN_CHECK_INCREMENTS</DefineName>
+		<iDefineIntVal>50</iDefineIntVal>
+	</Define>
+	<!-- 0 is Settler, add 1 for each higher difficulty. -1 indicates no minimum difficulty -->
+	<Define>
+		<DefineName>FLEXIBLE_DIFFICULTY_MINIMUM_DIFFICULTY</DefineName>
+		<iDefineIntVal>-1</iDefineIntVal>
+	</Define>
+	<!-- 0 is Settler, add 1 for each higher difficulty. -1 indicates no maximum difficulty -->
+	<Define>
+		<DefineName>FLEXIBLE_DIFFICULTY_MAXIMUM_DIFFICULTY</DefineName>
+		<iDefineIntVal>-1</iDefineIntVal>
+	</Define>
+	<!-- 0 is the highest rank, 49 the lowest. -1 indicates no minimum rank -->
+	<Define>
+		<DefineName>FLEXIBLE_DIFFICULTY_MINIMUM_PLAYER_RANK</DefineName>
+		<iDefineIntVal>-1</iDefineIntVal>
+	</Define>
+	<!-- 0 is the highest rank, 49 the lowest. -1 indicates no maximum rank -->
+	<Define>
+		<DefineName>FLEXIBLE_DIFFICULTY_MAXIMUM_PLAYER_RANK</DefineName>
+		<iDefineIntVal>-1</iDefineIntVal>
+	</Define>
+<!--Afforess:
+	Adds a random value to the AI choosing a wonder, between 0 and X-->
+	<Define>
+		<DefineName>AI_BUILD_WONDERS_RAND</DefineName>
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Adds a static value to the AI's selection of new city sites on rivers-->
+	<Define>
+		<DefineName>AI_SETTLE_ON_RIVERS_VALUE_BOOST</DefineName>
+		<iDefineIntVal>250</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	How much Golden Ages lower the food requirement for city growth-->
+	<Define>
+		<DefineName>GOlDEN_AGE_PERCENT_LESS_FOOD_FOR_GROWTH</DefineName>
+		<iDefineIntVal>-25</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	The one time effect having a dark age will affect all player's cities revolt status (if in Revolutions Mod)-->
+	<Define>
+		<DefineName>DARK_AGE_REVOLUTION_INDEX_PENALTY</DefineName>
+		<iDefineIntVal>250</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	percent slower workers work in a dark age-->
+	<Define>
+		<DefineName>DARK_AGE_WORKER_SLOWDOWN_RATE</DefineName>
+		<iDefineIntVal>-50</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	The percent penalty all attacking units recieve to strength in a dark age-->
+	<Define>
+		<DefineName>DARK_AGE_ATTACK_STRENGTH_PERCENT_DECREASE</DefineName>
+		<iDefineIntVal>-10</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	The percent weaker culture is in a dark age-->
+	<Define>
+		<DefineName>DARK_AGE_CULTURE_STRENGTH_PERCENT_DECREASE</DefineName>
+		<iDefineIntVal>-25</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	The number of turns that the player is safe from a Dark Age after a Golden Age. Scaled for Gamespeed.-->
+	<Define>
+		<DefineName>NUMBER_OF_SAFE_TURNS_AFTER_GOLDEN_AGE</DefineName>
+		<iDefineIntVal>30</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Maximum units that can be on a tile at any given time, for any reason. -1 is for unlimited.-->
+	<Define>
+		<DefineName>MAX_UNITS_ON_A_TILE</DefineName>
+		<iDefineIntVal>-1</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	GameFont Testing.-->
+	<Define>
+		<DefineName>TEST_GAMEFONTS</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Purely for safety. Should be overwritten by Depletion Modmod value.-->
+	<Define>
+		<DefineName>DEPLETION_MOD_ENABLED</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Enables Air Interception chances being Multiplicitive. 3 Planes with 20% intercept chance would intercept incoming planes at .80^3 of the time. The Firaxis method is to intercept at highest intercept chance on the tile.-->
+	<Define>
+		<DefineName>BETTER_AIR_INTERCEPTION</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Sets a Maximum Airlift and Rebase range for aircraft. -1 for no limit to range or rebase.-->
+	<Define>
+		<DefineName>MAX_AIRLIFT_RANGE</DefineName>
+		<iDefineIntVal>-1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>LFB_BASEDONGENERAL</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>LFB_BASEDONEXPERIENCE</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>LFB_BASEDONLIMITED</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>LFB_BASEDONHEALER</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>LFB_USESLIDINGSCALE</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>LFB_ADJUSTNUMERATOR</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>LFB_ADJUSTDENOMINATOR</DefineName>
+		<iDefineIntVal>3</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>LFB_USECOMBATODDS</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	If one players Mastery Score is half of the total Mastery Score of all other players combined, the mercy rule activates, and the game ends in ten turns if the scores do not change-->
+	<Define>
+		<DefineName>MASTERY_VICTORY_MERCY_RULE_ENABLED</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MINIMUM_DESERT_SIZE</DefineName>
+		<iDefineIntVal>4</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MINIMUM_JUNGLE_SIZE</DefineName>
+		<iDefineIntVal>12</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MAXIMUM_ISLAND_SIZE</DefineName>
+		<iDefineIntVal>48</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MINIMUM_FOREST_SIZE</DefineName>
+		<iDefineIntVal>12</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MINIMUM_MOUNTAIN_RANGE_SIZE</DefineName>
+		<iDefineIntVal>3</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MINIMUM_CITY_SIZE_FOR_ENSLAVEMENT</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MINIMUM_CITY_SIZE_FOR_SACK</DefineName>
+		<iDefineIntVal>4</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>MINIMUM_CULTURE_PERCENT_FOR_ENSLAVE_ANGER</DefineName>
+		<iDefineIntVal>5</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>PEAK_EXTRA_DEFENSE</DefineName>
+		<iDefineIntVal>75</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>PEAK_EXTRA_MOVEMENT</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>PEAK_CAN_FOUND_CITY</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>PEAK_BUILD_TIME_MODIFIER</DefineName>
+		<iDefineIntVal>100</iDefineIntVal>
+	</Define>
+	<!--Afforess:
+	Disables Military Unit Trading in Advanced Diplomacy. 0 Allows Military Unit Trading, any other value disables it.-->
+	<Define>
+		<DefineName>NO_MILITARY_UNIT_TRADING</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>LANDMARK_ANGER_DIVISOR</DefineName>
+		<iDefineIntVal>20</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>NUM_BAY_NAMES</DefineName>
+		<iDefineIntVal>3</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>NUM_FOREST_NAMES</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>NUM_JUNGLE_NAMES</DefineName>
+		<iDefineIntVal>4</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>NUM_PEAK_NAMES</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>NUM_MOUNTAINS_NAMES</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>NUM_DESERT_NAMES</DefineName>
+		<iDefineIntVal>1</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>NUM_LAKE_NAMES</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>BATTLEFIELD_PROMOTIONS</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>SHARED_CURRENCY_TRADE_MODIFIER</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<!--Scaled for gamespeed-->
+	<Define>
+		<DefineName>REMEMBER_WAR_ALLY_TURNS</DefineName>
+		<iDefineIntVal>15</iDefineIntVal>
+	</Define>
+	
+	<Define>
+		<DefineName>EMBASSY_ESPIONAGE_MISSION_COST_MODIFIER</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>COMMERCE_ATTACKS_FADE_RATE</DefineName>
+		<iDefineIntVal>8</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>CORPORATION_SPREAD_DISTANCE_DIVISOR</DefineName>
+		<iDefineIntVal>100</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>CORPORATION_SPREAD_RAND</DefineName>
+		<iDefineIntVal>2500</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>CORPORATION_RESOURCE_BASE_INFLUENCE</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>RAND_CORPORATION_BEST_SPREAD</DefineName>
+		<iDefineIntVal>500</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FREE_TRADE_CORPORATION_SPREAD_MOD</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>HURRY_INFLATION_DECAY_RATE</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>FREE_TRADE_AGREEMENT_ESPIONAGE_MISSION_COST_MODIFIER</DefineName>
+		<iDefineIntVal>25</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>XML_LOGGING_ENABLED</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<!-- If the number of players with the prereq tech for the corporation is greater than this value, the corporation will be founded with Realistic Corporations.-->
+	<Define>
+		<DefineName>MINIMUM_PLAYERS_WITH_TECH_FOR_AUTO_CORPORATION_FOUNDING</DefineName>
+		<iDefineIntVal>2</iDefineIntVal>
+	</Define>
+	<!--The game will try to found a HQ for a corporation every "x" turns -->
+	<Define>
+		<DefineName>CORPORATION_FOUND_CHECK_TURNS</DefineName>
+		<iDefineIntVal>3</iDefineIntVal>
+	</Define>
+	<!--The Time and Gold to Build a Route over an existing route is reduced by the time and Gold already invested in the previous Route-->
+	<Define>
+		<DefineName>ROUTES_UPGRADE</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+	<Define>
+		<DefineName>ALWAYS_USE_MAX_COMPAT_SAVES</DefineName>
+		<iDefineIntVal>0</iDefineIntVal>
+	</Define>
+</Civ4Defines>

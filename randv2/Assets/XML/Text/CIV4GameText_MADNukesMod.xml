@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- GameText Civilopedia Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_PRETARGET_NUKE_HELP</Tag>
+		<English>Pretargets a nuclear device onto the selected space.</English>
+		<French>Permet de Verrouiller la cible d'un missile nucléaire sur l'espace sélectionné.</French>
+		<German>Pretargets a nuclear device onto the selected space.</German>
+		<Italian>Pretargets a nuclear device onto the selected space.</Italian>
+		<Spanish>Pretargets a nuclear device onto the selected space.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_PRETARGET_NUKE</Tag>
+		<English>Pretarget Nuke</English>
+		<French>Verrouillage des Cibles nucléaires</French>
+		<German>Pretarget Nuke</German>
+		<Italian>Pretarget Nuke</Italian>
+		<Spanish>Pretarget Nuke</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_PRETARGET_NUKE</Tag>
+		<English>Pretarget Nuke Mode</English>
+		<French>Mode Verrouillage des Cibles nucléaires</French>
+		<German>Pretarget Nuke Mode</German>
+		<Italian>Pretarget Nuke Mode</Italian>
+		<Spanish>Pretarget Nuke Mode</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_PRETARGET_NUKE_HELP</Tag>
+		<English>Set the selected tile as the target for nuclear missile strike</English>
+		<French>Définit la case sélectionnée en tant que cible pour une attaque de missile nucléaire</French>
+		<German>Set the selected tile as the target for nuclear missile strike</German>
+		<Italian>Set the selected tile as the target for nuclear missile strike</Italian>
+		<Spanis>Set the selected tile as the target for nuclear missile strike</Spanis>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUKE_TARGET_CITY</Tag>
+		<English>Currently targetting: %s1</English>
+		<French>Cible actuellement verrouillée: %s1</French>
+		<German>Currently targetting: %s1</German>
+		<Italian>Currently targetting: %s1</Italian>
+		<Spanish>Currently targetting: %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUKE_TARGET_RESET</Tag>
+		<English>%s1 Target Reset</English>
+		<French>%s1 Cible Réinitialisée</French>
+		<German>%s1 Target Reset</German>
+		<Italian>%s1 Target Reset</Italian>
+		<Spanish>%s1 Target Reset</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUKE_TARGET_FAILED</Tag>
+		<English>Target Failed</English>
+		<French>Cible échouée</French>
+		<German>Target Failed</German>
+		<Italian>Target Failed</Italian>
+		<Spanish>Target Failed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUKE_TARGET_LOST</Tag>
+		<English>Target Lost</English>
+		<French>Cible perdue</French>
+		<German>Target Lost</German>
+		<Italian>Target Lost</Italian>
+		<Spanish>Target Lost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUKE_TARGET_FRIENDLY_CITY</Tag>
+		<English>%s1 has targetted %s2 with a nuke!</English>
+		<French>%s1 a ciblé %s2 avec une arme nucléaire!</French>
+		<German>%s1 has targetted %s2 with a nuke!</German>
+		<Italian>%s1 has targetted %s2 with a nuke!</Italian>
+		<Spanish>%s1 has targetted %s2 with a nuke!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUKE_TARGET_SET_ON</Tag>
+		<English>%s1 target set on %s2</English>
+		<French>Cible de %s1 définie sur %s2</French>
+		<German>%s1 target set on %s2</German>
+		<Italian>%s1 target set on %s2</Italian>
+		<Spanish>%s1 target set on %s2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ENABLES_MAD</Tag>
+		<English>[ICON_BULLET]Enables the ability to set targets for nuclear warheads</English>
+		<French>[ICON_BULLET]Acvite la possibilité de verruoiller des cibles pour les armées nucléaires</French>
+		<German>[ICON_BULLET]Enables the ability to set targets for nuclear warheads</German>
+		<Italian>[ICON_BULLET]Enables the ability to set targets for nuclear warheads</Italian>
+		<Spanish>[ICON_BULLET]Enables the ability to set targets for nuclear warheads</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAD_SCREEN_HOVER</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]MAD Nukes Screen (ALT-N)[COLOR_REVERT]</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Ecran MAD-Nucléaire (ALT-N)[COLOR_REVERT]</French>
+		<German>[COLOR_HIGHLIGHT_TEXT]MAD Nukes Screen (ALT-N)[COLOR_REVERT]</German>
+		<Italian>[COLOR_HIGHLIGHT_TEXT]MAD Nukes Screen (ALT-N)[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_HIGHLIGHT_TEXT]MAD Nukes Screen (ALT-N)[COLOR_REVERT]</Spanish>
+	</TEXT>
+</Civ4GameText>

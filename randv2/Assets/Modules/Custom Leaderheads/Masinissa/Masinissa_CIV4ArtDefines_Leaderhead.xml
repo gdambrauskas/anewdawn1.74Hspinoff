@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4ArtDefines xmlns="x-schema:Masinissa_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MASINISSA</Type>
+			<Button>Modules/Custom Leaderheads/Masinissa/Masinissa.dds</Button>
+			<NIF>Modules/Custom Leaderheads/Masinissa/Masinissa.nif</NIF>
+			<KFM>Modules/Custom Leaderheads/Masinissa/augustus_caesar.kfm</KFM>
+			<NoShaderNIF>Modules/Custom Leaderheads/Masinissa/Masinissa.nif</NoShaderNIF>
+			<BackgroundKFM>Modules/Custom Leaderheads/Masinissa/augustus_caesar_bg.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>
