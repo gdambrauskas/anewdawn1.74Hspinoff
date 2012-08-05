@@ -307,19 +307,19 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_WORLD_WONDERS_PER_CITY</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_TEAM_WONDERS_PER_CITY</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_NATIONAL_WONDERS_PER_CITY</DefineName>
-		<iDefineIntVal>6</iDefineIntVal>
+		<iDefineIntVal>-1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_NATIONAL_WONDERS_PER_CITY_FOR_OCC</DefineName>
-		<iDefineIntVal>8</iDefineIntVal>
+		<iDefineIntVal>-1</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_BUILDINGS_PER_CITY</DefineName>

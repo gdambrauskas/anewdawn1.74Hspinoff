@@ -593,7 +593,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -776,7 +776,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -793,7 +793,7 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_GUERILLA1</FreePromotion>
+			<FreePromotion>PROMOTION_DRILL1</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
@@ -959,7 +959,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_SIEGE_WARFARE</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -1141,7 +1141,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -1335,7 +1335,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -2293,7 +2293,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_FASCISM</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -7580,7 +7580,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -7759,7 +7759,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -8100,7 +8100,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -9019,7 +9019,7 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_COASTAL_ASSAULT1</FreePromotion>
+			<FreePromotion>PROMOTION_MANUEVERING1</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
@@ -11192,7 +11192,6 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_NAVIGATION1</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
@@ -18380,7 +18379,7 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<iDCMAirbombMission>3</iDCMAirbombMission>
 		</BuildingInfo>
-<!--
+<!-- gvd
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_WEAPON_FACTORY</BuildingClass>
 			<Type>BUILDING_WEAPON_FACTORY</Type>
@@ -18808,7 +18807,7 @@
 			<bNukeImmune>0</bNukeImmune>
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
-			<iAIWeight>1</iAIWeight>
+			<iAIWeight>1</iAIWeight> <!-- gvd mine had 100 -->
 			<iCost>325</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -18972,7 +18971,7 @@
 			<iHurryAngerModifier>0</iHurryAngerModifier>
 			<bBorderObstacle>0</bBorderObstacle>
 			<bTeamShare>0</bTeamShare>
-			<bWater>0</bWater>
+			<bWater>1</bWater>
 			<bRiver>1</bRiver>
 			<bPower>0</bPower>
 			<bDirtyPower>0</bDirtyPower>
@@ -21180,7 +21179,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21356,7 +21355,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21537,7 +21536,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21717,7 +21716,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21898,7 +21897,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -22773,7 +22772,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CREATIVE</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -22962,7 +22961,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CREATIVE</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -23155,7 +23154,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CREATIVE</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -23344,7 +23343,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CREATIVE</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -27800,7 +27799,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -28009,7 +28008,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -28213,7 +28212,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -38302,7 +38301,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -38502,13 +38501,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -39012,7 +39011,7 @@
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
 					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-					<iFreeSpecialistCount>2</iFreeSpecialistCount>
+					<iFreeSpecialistCount>1</iFreeSpecialistCount>
 				</FreeSpecialistCount>
 			</FreeSpecialistCounts>
 			<CommerceFlexibles/>
@@ -39261,7 +39260,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -39461,13 +39460,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -40019,7 +40018,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -40219,13 +40218,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -40777,7 +40776,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -40977,13 +40976,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -41461,15 +41460,16 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
+				<iCommerce>20</iCommerce>
+				<iCommerce>20</iCommerce>
+				<iCommerce>20</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<GlobalCommerceModifiers>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
 			</GlobalCommerceModifiers>
 			<SpecialistExtraCommerces/>
 			<StateReligionCommerces/>
@@ -41734,7 +41734,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -41934,13 +41934,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -42492,7 +42492,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -42692,13 +42692,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -42890,7 +42890,7 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_MORALE</FreePromotion>
+			<FreePromotion>NONE</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
@@ -43250,7 +43250,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -43450,13 +43450,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -43965,7 +43965,7 @@
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
 					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-					<iFreeSpecialistCount>2</iFreeSpecialistCount>
+					<iFreeSpecialistCount>1</iFreeSpecialistCount>
 				</FreeSpecialistCount>
 			</FreeSpecialistCounts>
 			<CommerceFlexibles/>
@@ -44210,7 +44210,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -44410,13 +44410,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -44784,7 +44784,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -44984,13 +44984,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -45366,13 +45366,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -45744,7 +45744,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -46132,7 +46132,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -46308,16 +46308,6 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<PrereqNotBuildingClasses>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_TEMPLE_OF_SET</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_TEMPLE_OF_ISIS</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-			</PrereqNotBuildingClasses>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_TEMPLE_OF_ISIS</BuildingClass>
@@ -46349,7 +46339,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -46516,16 +46506,6 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<PrereqNotBuildingClasses>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_TEMPLE_OF_SET</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_TEMPLE_OF_OSIRIS</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-			</PrereqNotBuildingClasses>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_TEMPLE_OF_SET</BuildingClass>
@@ -46557,7 +46537,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -46724,16 +46704,6 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<PrereqNotBuildingClasses>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_TEMPLE_OF_OSIRIS</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_TEMPLE_OF_ISIS</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-			</PrereqNotBuildingClasses>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MESOAMERICAN_MONASTERY</BuildingClass>
@@ -46765,13 +46735,13 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>25</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -47145,7 +47115,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -47248,7 +47218,7 @@
 			<ObsoleteSafeCommerceChanges/>
 			<CommerceChangeDoubleTimes/>
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>35</iCommerce>
 			</CommerceModifiers>
@@ -47554,7 +47524,7 @@
 			<bForceTeamVoteEligible>0</bForceTeamVoteEligible>
 			<bCapital>0</bCapital>
 			<bGovernmentCenter>0</bGovernmentCenter>
-			<bGoldenAge>1</bGoldenAge>
+			<bGoldenAge>0</bGoldenAge>
 			<bAllowsNukes>0</bAllowsNukes>
 			<bMapCentering>0</bMapCentering>
 			<bNoUnhappiness>0</bNoUnhappiness>
@@ -47659,7 +47629,7 @@
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
 					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-					<iFreeSpecialistCount>2</iFreeSpecialistCount>
+					<iFreeSpecialistCount>1</iFreeSpecialistCount>
 				</FreeSpecialistCount>
 			</FreeSpecialistCounts>
 			<CommerceFlexibles/>
@@ -49320,7 +49290,7 @@
 				<TechCommerceModifier>
 					<PrereqTech>TECH_DERIVATIVES</PrereqTech>
 					<TechCommerce>
-						<iCommerce>15</iCommerce>
+						<iCommerce>5</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
@@ -50447,7 +50417,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -51132,7 +51102,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -51981,7 +51951,7 @@
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
 					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-					<iFreeSpecialistCount>2</iFreeSpecialistCount>
+					<iFreeSpecialistCount>1</iFreeSpecialistCount>
 				</FreeSpecialistCount>
 			</FreeSpecialistCounts>
 			<CommerceFlexibles/>
@@ -52777,7 +52747,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<ObsoleteTech>TECH_SCIENTIFIC_METHOD</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_AESTHETICS</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_POLYTHEISM</PrereqTech>
@@ -57032,7 +57002,7 @@
 			<iMaxLatitude>90</iMaxLatitude>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
-			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
+			<iDomesticGreatGeneralRateModifier>25</iDomesticGreatGeneralRateModifier>
 			<iGlobalGreatPeopleRateModifier>0</iGlobalGreatPeopleRateModifier>
 			<iAnarchyModifier>0</iAnarchyModifier>
 			<iGoldenAgeModifier>0</iGoldenAgeModifier>
@@ -57051,7 +57021,7 @@
 			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
-			<iEnemyWarWearinessModifier>100</iEnemyWarWearinessModifier>
+			<iEnemyWarWearinessModifier>25</iEnemyWarWearinessModifier>
 			<iHealRateChange>0</iHealRateChange>
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
@@ -57219,7 +57189,7 @@
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iGlobalGreatPeopleRateModifier>0</iGlobalGreatPeopleRateModifier>
 			<iAnarchyModifier>0</iAnarchyModifier>
-			<iGoldenAgeModifier>50</iGoldenAgeModifier>
+			<iGoldenAgeModifier>10</iGoldenAgeModifier>
 			<iGlobalHurryModifier>0</iGlobalHurryModifier>
 			<iExperience>0</iExperience>
 			<iGlobalExperience>0</iGlobalExperience>
@@ -57397,7 +57367,7 @@
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iGlobalGreatPeopleRateModifier>0</iGlobalGreatPeopleRateModifier>
-			<iAnarchyModifier>-100</iAnarchyModifier>
+			<iAnarchyModifier>-50</iAnarchyModifier>
 			<iGoldenAgeModifier>0</iGoldenAgeModifier>
 			<iGlobalHurryModifier>0</iGlobalHurryModifier>
 			<iExperience>0</iExperience>
@@ -57587,7 +57557,7 @@
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
 			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
-			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
+			<iGlobalWarWearinessModifier>25</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
 			<iHealRateChange>0</iHealRateChange>
 			<iHealth>0</iHealth>
@@ -60929,7 +60899,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<ObsoleteTech>TECH_RAILROAD</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_DIVINE_RIGHT</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_ENGINEERING</PrereqTech>
@@ -61304,7 +61274,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<ObsoleteTech>TECH_NATIONALISM</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -63603,13 +63573,13 @@
 			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-			<iGreatGeneralRateModifier>50</iGreatGeneralRateModifier>
+			<iGreatGeneralRateModifier>100</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iGlobalGreatPeopleRateModifier>0</iGlobalGreatPeopleRateModifier>
 			<iAnarchyModifier>0</iAnarchyModifier>
 			<iGoldenAgeModifier>0</iGoldenAgeModifier>
 			<iGlobalHurryModifier>0</iGlobalHurryModifier>
-			<iExperience>0</iExperience>
+			<iExperience>5</iExperience>
 			<iGlobalExperience>0</iGlobalExperience>
 			<iFoodKept>0</iFoodKept>
 			<iAirlift>0</iAirlift>
@@ -63633,7 +63603,7 @@
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>0</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
-			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
+			<iMilitaryProductionModifier>100</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
 			<iGlobalSpaceProductionModifier>0</iGlobalSpaceProductionModifier>
 			<iTradeRoutes>0</iTradeRoutes>
@@ -64729,8 +64699,8 @@
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
 			<iMaintenanceModifier>0</iMaintenanceModifier>
-			<iWarWearinessModifier>0</iWarWearinessModifier>
-			<iGlobalWarWearinessModifier>25</iGlobalWarWearinessModifier>
+			<iWarWearinessModifier>25</iWarWearinessModifier>
+			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
 			<iHealRateChange>0</iHealRateChange>
 			<iHealth>0</iHealth>
@@ -64741,7 +64711,7 @@
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
-			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
+			<iMilitaryProductionModifier>-100</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
 			<iGlobalSpaceProductionModifier>0</iGlobalSpaceProductionModifier>
 			<iTradeRoutes>0</iTradeRoutes>
@@ -66436,7 +66406,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>100</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<GlobalCommerceModifiers/>
 			<SpecialistExtraCommerces/>
@@ -66571,7 +66541,7 @@
 			<iAnarchyModifier>0</iAnarchyModifier>
 			<iGoldenAgeModifier>0</iGoldenAgeModifier>
 			<iGlobalHurryModifier>0</iGlobalHurryModifier>
-			<iExperience>0</iExperience>
+			<iExperience>2</iExperience>
 			<iGlobalExperience>0</iGlobalExperience>
 			<iFoodKept>0</iFoodKept>
 			<iAirlift>0</iAirlift>
@@ -66609,7 +66579,7 @@
 			<iBombardDefense>0</iBombardDefense>
 			<iAllCityDefense>0</iAllCityDefense>
 			<iEspionageDefense>0</iEspionageDefense>
-			<iUnitUpgradePriceModifier>-50</iUnitUpgradePriceModifier>
+			<iUnitUpgradePriceModifier>0</iUnitUpgradePriceModifier>
 			<iAsset>10</iAsset>
 			<iPower>0</iPower>
 			<fVisibilityPriority>100.0</fVisibilityPriority>
@@ -67608,7 +67578,7 @@
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iGlobalGreatPeopleRateModifier>0</iGlobalGreatPeopleRateModifier>
 			<iAnarchyModifier>-25</iAnarchyModifier>
-			<iGoldenAgeModifier>25</iGoldenAgeModifier>
+			<iGoldenAgeModifier>10</iGoldenAgeModifier>
 			<iGlobalHurryModifier>0</iGlobalHurryModifier>
 			<iExperience>0</iExperience>
 			<iGlobalExperience>0</iGlobalExperience>
@@ -68608,7 +68578,7 @@
 				<TechCommerceModifier>
 					<PrereqTech>TECH_DERIVATIVES</PrereqTech>
 					<TechCommerce>
-						<iCommerce>10</iCommerce>
+						<iCommerce>5</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
@@ -70263,7 +70233,7 @@
 			<Description>TXT_KEY_BUILDING_MOAT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MOAT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_MOAT_STRATEGY</Strategy>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MOAT</ArtDefineTag>
@@ -70307,7 +70277,7 @@
 			<Strategy>TXT_KEY_BUILDING_ARROW_SLITS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ARROW_SLITS</ArtDefineTag>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<iCost>40</iCost>
 			<iConquestProb>40</iConquestProb>
@@ -70350,7 +70320,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_SIEGE_TOWERS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_SIEGE_TOWERS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<ArtDefineTag>ART_DEF_BUILDING_SIEGE_TOWERS</ArtDefineTag>
 			<ProductionTraits>
@@ -70393,7 +70363,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_UNDERGROUND_TUNNELS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_UNDERGROUND_TUNNELS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<ArtDefineTag>ART_DEF_BUILDING_UNDERGROUND_TUNNELS</ArtDefineTag>
 			<iCost>80</iCost>
@@ -70431,7 +70401,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_KEEP_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_KEEP_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<ArtDefineTag>ART_DEF_BUILDING_KEEP</ArtDefineTag>
 			<iCost>270</iCost>
@@ -70479,7 +70449,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_HEAVY_GATES_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_HEAVY_GATES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<ArtDefineTag>ART_DEF_BUILDING_HEAVY_GATES</ArtDefineTag>
 			<iCost>75</iCost>
@@ -75756,7 +75726,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CREATIVE</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -76126,7 +76096,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_SIEGE_WARFARE</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -76134,7 +76104,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
-					<iProductionTrait>75</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -76303,7 +76273,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
 			<TechTypes/>
 			<Bonus>BONUS_IRON</Bonus>
@@ -77290,7 +77260,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_NATIONALISM</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_MONARCHY</PrereqTech>
 			<TechTypes>
 				<PrereqTech>NONE</PrereqTech>
@@ -77896,7 +77866,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_NOMAD</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -79129,7 +79099,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_FINANCIAL</ProductionTraitType>
-					<iProductionTrait>10</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -85737,7 +85707,7 @@
 			<FreeBonus>NONE</FreeBonus>
 			<iNumFreeBonuses>0</iNumFreeBonuses>
 			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>PROMOTION_ORDER_OF_ORMAZD</FreePromotion>
+			<FreePromotion>NONE</FreePromotion>
 			<CivicOption>NONE</CivicOption>
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
@@ -85857,7 +85827,12 @@
 			<CommerceHappinesses/>
 			<ReligionChanges/>
 			<SpecialistCounts/>
-			<FreeSpecialistCounts/>
+			<FreeSpecialistCounts>
+                <FreeSpecialistCount>
+                    <SpecialistType>SPECIALIST_PRIEST</SpecialistType>
+                    <iFreeSpecialistCount>1</iFreeSpecialistCount>
+                </FreeSpecialistCount>
+            </FreeSpecialistCounts>
 			<CommerceFlexibles/>
 			<CommerceChangeOriginalOwners>
 				<bCommerceChangeOriginalOwner>0</bCommerceChangeOriginalOwner>
@@ -86503,7 +86478,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<ObsoleteTech>TECH_COMPULSORY_EDUCATION</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<TechTypes>
 				<PrereqTech>NONE</PrereqTech>
@@ -86623,7 +86598,7 @@
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>30</iCommerce>
+				<iCommerce>50</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 			<GlobalCommerceModifiers/>
@@ -87268,7 +87243,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<ObsoleteTech>NONE</ObsoleteTech>
+			<ObsoleteTech>TECH_ECONOMICS</ObsoleteTech>
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
@@ -87312,7 +87287,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>800</iCost>
+			<iCost>2400</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -87579,8 +87554,8 @@
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers/>
 			<GlobalCommerceModifiers>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 			</GlobalCommerceModifiers>
 			<SpecialistExtraCommerces>
@@ -87732,7 +87707,7 @@
 			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
-			<iEnemyWarWearinessModifier>50</iEnemyWarWearinessModifier>
+			<iEnemyWarWearinessModifier>25</iEnemyWarWearinessModifier>
 			<iHealRateChange>0</iHealRateChange>
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
@@ -87969,7 +87944,7 @@
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers/>
 			<GlobalCommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 			</GlobalCommerceModifiers>
@@ -88051,7 +88026,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -88240,7 +88215,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -88792,7 +88767,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_DECEIVER</ProductionTraitType>
-					<iProductionTrait>50</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -90108,7 +90083,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>1</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -90691,7 +90666,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_HUMANITARIAN</ProductionTraitType>
-					<iProductionTrait>50</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -92827,7 +92802,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_INDUSTRIOUS</ProductionTraitType>
-					<iProductionTrait>60</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<HappinessTraits/>
@@ -94891,7 +94866,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_ORGANIZED</ProductionTraitType>
-					<iProductionTrait>50</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<bNeverCapture>0</bNeverCapture>
@@ -94964,7 +94939,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_ORGANIZED</ProductionTraitType>
-					<iProductionTrait>50</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<bNeverCapture>0</bNeverCapture>
@@ -95034,7 +95009,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_ORGANIZED</ProductionTraitType>
-					<iProductionTrait>50</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<bNeverCapture>0</bNeverCapture>
@@ -95112,7 +95087,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_ORGANIZED</ProductionTraitType>
-					<iProductionTrait>50</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<bNeverCapture>0</bNeverCapture>
@@ -95187,7 +95162,7 @@
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_ORGANIZED</ProductionTraitType>
-					<iProductionTrait>50</iProductionTrait>
+					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
 			<bNeverCapture>1</bNeverCapture>

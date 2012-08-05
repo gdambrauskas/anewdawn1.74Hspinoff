@@ -41,10 +41,10 @@
 				</SpeedThreshold>
 			</SpeedThresholds>
 			<iCityRadius>2</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>
 		</CultureLevelInfo>
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_POOR</Type>
@@ -82,10 +82,10 @@
 				
 			</SpeedThresholds>
 			<iCityRadius>2</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>
 		</CultureLevelInfo>
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_FLEDGLING</Type>
@@ -122,10 +122,10 @@
 				</SpeedThreshold>
 			</SpeedThresholds>
 			<iCityRadius>2</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>
 		</CultureLevelInfo>
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_DEVELOPING</Type>
@@ -162,10 +162,10 @@
 				</SpeedThreshold>
 			</SpeedThresholds>
 			<iCityRadius>2</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>
 		</CultureLevelInfo>
 		<!--Afforess: Used only for Realistic Culture Spread Option -->
 		<CultureLevelInfo>
@@ -204,10 +204,10 @@
 				</SpeedThreshold>
 			</SpeedThresholds>
 			<iCityRadius>2</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>
 		</CultureLevelInfo>
 		<!--Afforess: Used only for Realistic Culture Spread Option -->
 		<CultureLevelInfo>
@@ -245,10 +245,10 @@
 				</SpeedThreshold>
 			</SpeedThresholds>
 			<iCityRadius>2</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>		</CultureLevelInfo>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>		</CultureLevelInfo>
 		<!--Afforess: Used only for Realistic Culture Spread Option -->
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_ELEGANT</Type>
@@ -286,10 +286,10 @@
 				</SpeedThreshold>
 			</SpeedThresholds>
 			<iCityRadius>2</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>
 		</CultureLevelInfo>
 		<!--Afforess: Used only for Realistic Culture Spread Option -->
 		<CultureLevelInfo>
@@ -327,10 +327,10 @@
 				</SpeedThreshold>
 			</SpeedThresholds>
 			<iCityRadius>3</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>
 		</CultureLevelInfo>
 		<!--Afforess: Used only for Realistic Culture Spread Option -->
 		<CultureLevelInfo>
@@ -369,10 +369,10 @@
 				</SpeedThreshold>
 			</SpeedThresholds>
 			<iCityRadius>3</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>
 		</CultureLevelInfo>
 		<!--Afforess: Used only for Realistic Culture Spread Option -->
 		<CultureLevelInfo>
@@ -410,9 +410,9 @@
 				</SpeedThreshold>
 			</SpeedThresholds>
 			<iCityRadius>3</iCityRadius>
-			<iMaxWorldWonders>4</iMaxWorldWonders>
-			<iMaxTeamWonders>4</iMaxTeamWonders>
-			<iMaxNationalWonders>3</iMaxNationalWonders>
-			<iMaxNationalWondersOCC>8</iMaxNationalWondersOCC>		</CultureLevelInfo>
+			<iMaxWorldWonders>10</iMaxWorldWonders>
+			<iMaxTeamWonders>10</iMaxTeamWonders>
+			<iMaxNationalWonders>-1</iMaxNationalWonders>
+			<iMaxNationalWondersOCC>-1</iMaxNationalWondersOCC>		</CultureLevelInfo>
 	</CultureLevelInfos>
 </Civ4CultureLevelInfo>

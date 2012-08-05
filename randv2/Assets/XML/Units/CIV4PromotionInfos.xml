@@ -697,7 +697,7 @@
 			<iRevoltProtection>0</iRevoltProtection>
 			<iCollateralDamageProtection>0</iCollateralDamageProtection>
 			<iPillageChange>0</iPillageChange>
-			<iUpgradeDiscount>50</iUpgradeDiscount>
+			<iUpgradeDiscount>100</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
 			<TerrainAttacks/>
 			<TerrainDefenses/>
@@ -827,9 +827,9 @@
 			<iFriendlyHealChange>0</iFriendlyHealChange>
 			<iSameTileHealChange>0</iSameTileHealChange>
 			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
-			<iCombatPercent>20</iCombatPercent>
-			<iCityAttack>20</iCityAttack>
-			<iCityDefense>20</iCityDefense>
+			<iCombatPercent>30</iCombatPercent>
+			<iCityAttack>30</iCityAttack>
+			<iCityDefense>30</iCityDefense>
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
 			<iKamikazePercent>0</iKamikazePercent>
@@ -1111,7 +1111,7 @@
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
 			<iKamikazePercent>0</iKamikazePercent>
-			<iRevoltProtection>100</iRevoltProtection>
+			<iRevoltProtection>1000</iRevoltProtection>
 			<iCollateralDamageProtection>0</iCollateralDamageProtection>
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
@@ -1904,7 +1904,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_CITY_RAIDER2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>TECH_FUNDAMENTALISM</TechPrereq>
 			<StateReligionPrereq>RELIGION_CHRISTIANITY</StateReligionPrereq>
@@ -1969,6 +1969,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -1983,7 +1987,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_JUDAISM</StateReligionPrereq>
@@ -2048,6 +2052,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2062,7 +2070,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_GUERILLA2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_ISLAM</StateReligionPrereq>
@@ -2136,6 +2144,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2150,7 +2162,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_WOODSMAN1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_MESOAMERICANISM</StateReligionPrereq>
@@ -2195,11 +2207,11 @@
 			<FeatureAttacks>
 				<FeatureAttack>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
+					<iFeatureAttack>100</iFeatureAttack>
 				</FeatureAttack>
 				<FeatureAttack>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
+					<iFeatureAttack>100</iFeatureAttack>
 				</FeatureAttack>
 			</FeatureAttacks>
 			<FeatureDefenses/>
@@ -2224,6 +2236,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2238,7 +2254,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_EGYPT_MYTHOLOGY</StateReligionPrereq>
@@ -2265,7 +2281,7 @@
 			<iEnemyHealChange>0</iEnemyHealChange>
 			<iNeutralHealChange>0</iNeutralHealChange>
 			<iFriendlyHealChange>0</iFriendlyHealChange>
-			<iSameTileHealChange>0</iSameTileHealChange>
+			<iSameTileHealChange>25</iSameTileHealChange>
 			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
 			<iCombatPercent>0</iCombatPercent>
 			<iCityAttack>0</iCityAttack>
@@ -2273,18 +2289,28 @@
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
 			<iKamikazePercent>0</iKamikazePercent>
-			<iRevoltProtection>30</iRevoltProtection>
+			<iRevoltProtection>100</iRevoltProtection>
 			<iCollateralDamageProtection>0</iCollateralDamageProtection>
 			<iPillageChange>0</iPillageChange>
 			<iUpgradeDiscount>0</iUpgradeDiscount>
 			<iExperiencePercent>0</iExperiencePercent>
 			<TerrainAttacks/>
-			<TerrainDefenses/>
+			<TerrainDefenses>
+                <TerrainDefense>
+                    <TerrainType>TERRAIN_DESERT</TerrainType>
+                    <iTerrainDefense>100</iTerrainDefense>
+                </TerrainDefense>
+            </TerrainDefenses>
 			<FeatureAttacks/>
 			<FeatureDefenses/>
 			<UnitCombatMods/>
-			<DomainMods/>
-			<TerrainDoubleMoves/>
+			<DomainMods/>			
+            <TerrainDoubleMoves>
+                <TerrainDoubleMove>
+                    <TerrainType>TERRAIN_DESERT</TerrainType>
+                    <bTerrainDoubleMove>1</bTerrainDoubleMove>
+                </TerrainDoubleMove>
+            </TerrainDoubleMoves>			
 			<FeatureDoubleMoves/>
 			<UnitCombats>
 				<UnitCombat>
@@ -2303,6 +2329,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2316,8 +2346,8 @@
 			<Description>TXT_KEY_PROMOTION_ZEN</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_DRILL2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_BUDDHISM</StateReligionPrereq>
@@ -2382,6 +2412,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2396,7 +2430,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_ZOROASTRIANISM</StateReligionPrereq>
@@ -2461,6 +2495,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2475,7 +2513,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_DRILL2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_CONFUCIANISM</StateReligionPrereq>
@@ -2505,7 +2543,7 @@
 			<iSameTileHealChange>0</iSameTileHealChange>
 			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
 			<iCombatPercent>0</iCombatPercent>
-			<iCityAttack>-25</iCityAttack>
+			<iCityAttack>0</iCityAttack>
 			<iCityDefense>50</iCityDefense>
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
@@ -2521,11 +2559,11 @@
 			<FeatureDefenses>
 				<FeatureDefense>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureDefense>-25</iFeatureDefense>
+					<iFeatureDefense>0</iFeatureDefense>
 				</FeatureDefense>
 				<FeatureDefense>
 					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureDefense>-25</iFeatureDefense>
+					<iFeatureDefense>0</iFeatureDefense>
 				</FeatureDefense>
 			</FeatureDefenses>
 			<UnitCombatMods>
@@ -2558,6 +2596,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2571,8 +2613,8 @@
 			<Description>TXT_KEY_PROMOTION_WAIDAN</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
+			<PromotionPrereq>PROMOTION_COMBAT2</PromotionPrereq>
+			<PromotionPrereqOr1>PROMOTION_SHOCK</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_TAOISM</StateReligionPrereq>
@@ -2641,6 +2683,10 @@
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -2658,7 +2704,7 @@
 			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>TECH_MEDITATION</TechPrereq>
-			<StateReligionPrereq>RELIGION_TAOISM</StateReligionPrereq>
+			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>
 			<bBlitz>0</bBlitz>
 			<bAmphib>0</bAmphib>
@@ -2702,7 +2748,7 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>15</iUnitCombatMod>
+					<iUnitCombatMod>20</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
@@ -2740,7 +2786,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_HINDUISM</StateReligionPrereq>
@@ -2805,6 +2851,10 @@
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 			</UnitCombats>
 			<HotKey/>
 			<bAltDown>0</bAltDown>
@@ -22226,7 +22276,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_COMBAT3</PromotionPrereqOr1>
+			<PromotionPrereqOr1>PROMOTION_GUERILLA3</PromotionPrereqOr1>
 			<PromotionPrereqOr2>PROMOTION_LEADER</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>NONE</StateReligionPrereq>
@@ -22325,7 +22375,7 @@
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>NONE</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_LEADER</PromotionPrereqOr1>
-			<PromotionPrereqOr2>PROMOTION_INITIATIVE4</PromotionPrereqOr2>
+			<PromotionPrereqOr2>PROMOTION_MOUNTAINEER</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>NONE</StateReligionPrereq>
 			<bLeader>0</bLeader>

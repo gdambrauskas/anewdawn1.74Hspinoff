@@ -257,7 +257,7 @@
 			<Civilopedia>TXT_KEY_BONUS_COW_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_COW</ArtDefineTag>
-			<TechReveal>TECH_HUNTING</TechReveal>
+			<TechReveal>NONE</TechReveal>
 			<TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
@@ -390,7 +390,7 @@
 			<Civilopedia>TXT_KEY_BONUS_PIG_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_PIG</ArtDefineTag>
-			<TechReveal>TECH_HUNTING</TechReveal>
+			<TechReveal>NONE</TechReveal>
 			<TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
@@ -456,7 +456,7 @@
 			<Civilopedia>TXT_KEY_BONUS_SHEEP_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_SHEEP</ArtDefineTag>
-			<TechReveal>TECH_WEAVING</TechReveal>
+			<TechReveal>NONE</TechReveal>
 			<TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
 			<TechObsolete>NONE</TechObsolete>
 			<YieldChanges>
