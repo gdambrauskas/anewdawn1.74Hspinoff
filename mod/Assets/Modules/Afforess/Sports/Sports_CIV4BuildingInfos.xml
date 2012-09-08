@@ -2059,7 +2059,7 @@
 			<PrereqTech>TECH_MARTIAL_ARTS</PrereqTech>
 			<FreePromotion>PROMOTION_MARTIAL_ARTS</FreePromotion>
 			<iAIWeight>15</iAIWeight>
-			<iCost>115</iCost>
+			<iCost>75</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
