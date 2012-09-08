@@ -2618,8 +2618,8 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
 			<PromotionPrereq>PROMOTION_MARTIAL_ARTS</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_SHOCK</PromotionPrereqOr1>
-			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
+            <PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
+            <PromotionPrereqOr2>PROMOTION_DRILL2</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>RELIGION_TAOISM</StateReligionPrereq>
 			<bLeader>0</bLeader>

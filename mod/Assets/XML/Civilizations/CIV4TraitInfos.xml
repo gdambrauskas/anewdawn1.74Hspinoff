@@ -12,7 +12,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_PHILOSOPHICAL_SHORT</ShortDescription>
 			<iHealth>0</iHealth>
 			<iHappiness>2</iHappiness>
-			<iMaxAnarchy>2</iMaxAnarchy>
+			<iMaxAnarchy>1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>200</iGreatPeopleRateModifier>
@@ -105,7 +105,7 @@
 			<Description>TXT_KEY_TRAIT_SPIRITUAL</Description>
 			<ShortDescription>TXT_KEY_TRAIT_SPIRITUAL_SHORT</ShortDescription>
 			<iHealth>0</iHealth>
-			<iHappiness>3</iHappiness>
+			<iHappiness>2</iHappiness>
 			<iMaxAnarchy>0</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
@@ -116,7 +116,7 @@
 			<iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
 			<iMaxPlayerBuildingProductionModifier>0</iMaxPlayerBuildingProductionModifier>
 			<!-- Revolution Trait Effects Begin -->
-			<iRevIdxLocal>-20</iRevIdxLocal>
+			<iRevIdxLocal>0</iRevIdxLocal>
 			<iRevIdxNational>0</iRevIdxNational>
 			<iRevIdxHolyCityGood>0</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>0</iRevIdxHolyCityBad>
@@ -141,7 +141,7 @@
 			<iHealth>10</iHealth>
 			<iHappiness>0</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
-			<iUpkeepModifier>0</iUpkeepModifier>
+			<iUpkeepModifier>-25</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
@@ -157,7 +157,7 @@
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
 			<fRevIdxBadReligionMod>0</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>0</fRevIdxGoodReligionMod>
-			<iRevIdxDistanceModifier>-100</iRevIdxDistanceModifier>
+			<iRevIdxDistanceModifier>0</iRevIdxDistanceModifier>
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
@@ -211,15 +211,15 @@
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
-			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
+			<iGreatPeopleRateModifier>50</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iMaxGlobalBuildingProductionModifier>0</iMaxGlobalBuildingProductionModifier>
 			<iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
 			<iMaxPlayerBuildingProductionModifier>0</iMaxPlayerBuildingProductionModifier>
 			<!-- Revolution Trait Effects Begin -->
-			<iRevIdxLocal>-10</iRevIdxLocal>
-			<iRevIdxNational>-10</iRevIdxNational>
+			<iRevIdxLocal>0</iRevIdxLocal>
+			<iRevIdxNational>0</iRevIdxNational>
 			<iRevIdxHolyCityGood>0</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>0</iRevIdxHolyCityBad>
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
@@ -321,12 +321,12 @@
 			<Description>TXT_KEY_TRAIT_CHARISMATIC</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CHARISMATIC_SHORT</ShortDescription>
 			<iHealth>0</iHealth>
-			<iHappiness>3</iHappiness>
+			<iHappiness>2</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
-			<iLevelExperienceModifier>-75</iLevelExperienceModifier>
+			<iLevelExperienceModifier>-50</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
+			<iGreatGeneralRateModifier>-100</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iMaxGlobalBuildingProductionModifier>0</iMaxGlobalBuildingProductionModifier>
 			<iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
@@ -361,7 +361,7 @@
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
-			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
+			<iDomesticGreatGeneralRateModifier>100</iDomesticGreatGeneralRateModifier>
 			<iMaxGlobalBuildingProductionModifier>0</iMaxGlobalBuildingProductionModifier>
 			<iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
 			<iMaxPlayerBuildingProductionModifier>0</iMaxPlayerBuildingProductionModifier>
@@ -394,6 +394,10 @@
 					<PromotionType>PROMOTION_DRILL1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
+				<FreePromotion>
+                    <PromotionType>PROMOTION_DRILL2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -469,7 +473,7 @@
 			<fRevIdxGoodReligionMod>0</fRevIdxGoodReligionMod>
 			<iRevIdxDistanceModifier>0</iRevIdxDistanceModifier>
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
-			<bUpgradeAnywhere>0</bUpgradeAnywhere>
+			<bUpgradeAnywhere>1</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -750,11 +754,11 @@
 			<Description>TXT_KEY_TRAIT_HUMANITARIAN</Description>
 			<ShortDescription>TXT_KEY_TRAIT_HUMANITARIAN_SHORT</ShortDescription>
 			<iHealth>5</iHealth>
-			<iHappiness>3</iHappiness>
+			<iHappiness>2</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>-25</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
-			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
+			<iGreatPeopleRateModifier>25</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iMaxGlobalBuildingProductionModifier>0</iMaxGlobalBuildingProductionModifier>
@@ -762,7 +766,7 @@
 			<iMaxPlayerBuildingProductionModifier>0</iMaxPlayerBuildingProductionModifier>
 			<!-- Revolution Trait Effects Begin -->
 			<iRevIdxLocal>0</iRevIdxLocal>
-			<iRevIdxNational>-20</iRevIdxNational>
+			<iRevIdxNational>0</iRevIdxNational>
 			<iRevIdxHolyCityGood>0</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>0</iRevIdxHolyCityBad>
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>

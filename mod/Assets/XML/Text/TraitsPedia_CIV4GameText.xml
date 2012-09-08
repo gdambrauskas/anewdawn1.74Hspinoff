@@ -228,7 +228,7 @@ o accumulate to a significant level.[PARAGRAPH:1]The Pyramids are an attractive 
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_NOMAD_PEDIA</Tag>
-		<English>[TAB].</English>
+		<English>[TAB] Nomad units can upgrade outside their cultural borders. With double hill movement, nomad units can show up at your door very quickly and 2 flanking promotions gaurantee their mounted units will soften up enemy stacks.</English>
 		<French>[TAB].</French>
 		<German>.</German>
 		<Italian>[TAB].</Italian>
@@ -298,7 +298,7 @@ o accumulate to a significant level.[PARAGRAPH:1]The Pyramids are an attractive 
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_HUMANITARIAN_PEDIA</Tag>
-		<English>[TAB] If revolutions are enabled, humanitarian gets 20 bonus to local rev index keeping revolutions in check in the early game.</English>
+		<English>[TAB] If revolutions are enabled, humanitarian gets large bonus to local rev index keeping revolutions in check in the early game.</English>
 		<French>[TAB].</French>
 		<German>.</German>
 		<Italian>[TAB].</Italian>
