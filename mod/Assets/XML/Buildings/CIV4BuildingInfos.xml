@@ -7436,7 +7436,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -7609,7 +7609,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -7945,7 +7945,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -20743,7 +20743,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -20919,7 +20919,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21100,7 +21100,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21280,7 +21280,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -21461,7 +21461,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -27292,7 +27292,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -27486,7 +27486,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -27684,7 +27684,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -40672,7 +40672,7 @@
 			<RiverPlotYieldChanges/>
 			<GlobalSeaPlotYieldChanges/>
 			<YieldChanges/>
-			<CommerceChanges/>			
+			<CommerceChanges/>
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -40684,10 +40684,10 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-                <iCommerce>10</iCommerce>
-                <iCommerce>10</iCommerce>
-                <iCommerce>10</iCommerce>
-                <iCommerce>10</iCommerce>
+                <iCommerce>20</iCommerce>
+                <iCommerce>20</iCommerce>
+                <iCommerce>20</iCommerce>
+                <iCommerce>20</iCommerce>
             </CommerceModifiers>
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
@@ -49468,7 +49468,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -50153,7 +50153,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>

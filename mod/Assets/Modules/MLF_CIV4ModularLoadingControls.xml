@@ -94,10 +94,6 @@
 					<Directory>Killtech</Directory>
 					<bLoad>1</bLoad>
 				</Module>
-				<Module>
-					<Directory>AND Extra Media Pack</Directory>
-					<bLoad>1</bLoad>
-				</Module>
 			</Modules>
 		</ConfigurationInfo>
 	</ConfigurationInfos>

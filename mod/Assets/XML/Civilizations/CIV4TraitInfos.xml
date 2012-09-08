@@ -35,8 +35,16 @@
 			<!-- Revolution Trait Effects End -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
-			<CommerceChanges/>
-			<CommerceModifiers/>
+			<CommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>2</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>5</iCommerce>
+			</CommerceModifiers>
 			<FreePromotions/>
 			<FreePromotionUnitCombats/>
 		</TraitInfo>
@@ -424,7 +432,7 @@
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-			<iGreatGeneralRateModifier>200</iGreatGeneralRateModifier>
+			<iGreatGeneralRateModifier>100</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iMaxGlobalBuildingProductionModifier>0</iMaxGlobalBuildingProductionModifier>
 			<iMaxTeamBuildingProductionModifier>0</iMaxTeamBuildingProductionModifier>
@@ -442,7 +450,11 @@
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
 			<ExtraYieldThresholds/>
-			<TradeYieldModifiers/>
+			<TradeYieldModifiers>
+			  <iYield>0</iYield>
+			  <iYield>0</iYield>
+			  <iYield>100</iYield>
+			</TradeYieldModifiers>
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions/>
@@ -738,7 +750,7 @@
 			<TradeYieldModifiers/>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
-				<iCommerce>3</iCommerce>
+				<iCommerce>4</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceChanges>

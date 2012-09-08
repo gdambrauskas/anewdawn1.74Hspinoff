@@ -498,7 +498,7 @@
 			<iRevIdxHolyCityGood>0</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>0</iRevIdxHolyCityBad>
 			<iRevIdxSwitchTo>-80</iRevIdxSwitchTo>
-			<fRevIdxNationalityMod>-3</fRevIdxNationalityMod>
+			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
 			<fRevIdxBadReligionMod>0</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>0</fRevIdxGoodReligionMod>
 			<fRevViolentMod>0</fRevViolentMod>

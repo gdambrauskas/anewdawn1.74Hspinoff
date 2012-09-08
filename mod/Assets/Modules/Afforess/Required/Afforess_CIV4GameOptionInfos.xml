@@ -59,7 +59,7 @@
             <Type>GAMEOPTION_BARBARIAN_GENERALS</Type>
             <Description>TXT_KEY_GAMEOPTION_BARBARIAN_GENERALS</Description>
             <Help>TXT_KEY_GAMEOPTION_BARBARIAN_GENERALS_HELP</Help>
-            <bDefault>1</bDefault>
+            <bDefault>0</bDefault>
             <bVisible>1</bVisible>
         </GameOptionInfo>
 		<GameOptionInfo>
@@ -94,7 +94,7 @@
 			<Type>GAMEOPTION_CHALLENGE_INCREASING_DIFFICULTY</Type>
 			<Description>TXT_KEY_GAME_OPTION_CHALLENGE_INCREASING_DIFFICULTY</Description>
 			<Help>TXT_KEY_GAME_OPTION_CHALLENGE_INCREASING_DIFFICULTY_HELP</Help>
-			<bDefault>1</bDefault>
+			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
@@ -108,7 +108,7 @@
 			<Type>GAMEOPTION_RUTHLESS_AI</Type>
 			<Description>TXT_KEY_GAME_OPTION_RUTHLESS_AI</Description>
 			<Help>TXT_KEY_GAME_OPTION_RUTHLESS_AI_HELP</Help>
-			<bDefault>1</bDefault>
+			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
@@ -136,7 +136,7 @@
 			<Type>GAMEOPTION_ADVANCED_ECONOMY</Type>
 			<Description>TXT_KEY_GAME_OPTION_ADVANCED_ECONOMY</Description>
 			<Help>TXT_KEY_GAME_OPTION_ADVANCED_ECONOMY_HELP</Help>
-			<bDefault>1</bDefault>
+			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
@@ -185,7 +185,7 @@
 			<Type>GAMEOPTION_UNITED_NATIONS</Type>
 			<Description>TXT_KEY_GAMEOPTION_UNITED_NATIONS</Description>
 			<Help>TXT_KEY_GAMEOPTION_UNITED_NATIONS_HELP</Help>
-			<bDefault>1</bDefault>
+			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
@@ -220,14 +220,14 @@
 			<Type>GAMEOPTION_CIVIC_BUILDINGS</Type>
 			<Description>TXT_KEY_GAMEOPTION_CIVIC_BUILDINGS</Description>
 			<Help>TXT_KEY_GAMEOPTION_CIVIC_BUILDINGS_HELP</Help>
-			<bDefault>1</bDefault>
+			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_EARLY_BUILDINGS</Type>
 			<Description>TXT_KEY_GAMEOPTION_EARLY_BUILDINGS</Description>
 			<Help>TXT_KEY_GAMEOPTION_EARLY_BUILDINGS_HELP</Help>
-			<bDefault>1</bDefault>
+			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
 		<GameOptionInfo>

@@ -310,10 +310,6 @@
 		<iDefineIntVal>12</iDefineIntVal>
 	</Define>
 	<Define>
-		<DefineName>MAXIMUM_ISLAND_SIZE</DefineName>
-		<iDefineIntVal>48</iDefineIntVal>
-	</Define>
-	<Define>
 		<DefineName>MINIMUM_FOREST_SIZE</DefineName>
 		<iDefineIntVal>12</iDefineIntVal>
 	</Define>

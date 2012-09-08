@@ -2111,7 +2111,7 @@
 			<FreePromotion>PROMOTION_MARTIAL_ARTS</FreePromotion>
 			<FreePromotion_2>PROMOTION_MARTIAL_ARTS2</FreePromotion_2>
 			<iAIWeight>5</iAIWeight>
-			<iCost>150</iCost>
+			<iCost>100</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iMaintenanceModifier>0</iMaintenanceModifier>

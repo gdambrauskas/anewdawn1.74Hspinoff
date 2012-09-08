@@ -1002,10 +1002,10 @@
 			<iAsset>6</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceModifiers>
-                <iCommerce>10</iCommerce>
-                <iCommerce>10</iCommerce>
-                <iCommerce>10</iCommerce>
-                <iCommerce>10</iCommerce>
+                <iCommerce>20</iCommerce>
+                <iCommerce>20</iCommerce>
+                <iCommerce>20</iCommerce>
+                <iCommerce>20</iCommerce>
             </CommerceModifiers>
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>

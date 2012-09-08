@@ -215,7 +215,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -404,7 +404,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
@@ -2256,17 +2256,17 @@
 			<iDCMAirbombMission>2</iDCMAirbombMission>
 			<PrereqGameOption>GAMEOPTION_CIVIC_BUILDINGS</PrereqGameOption>
 		</BuildingInfo>-->
-		<!--BuildingInfo>
+		<BuildingInfo>
 			<Type>BUILDING_KEEP</Type>
 			<bTypeDependency>1</bTypeDependency>
-			<iCost>500</iCost>
+			<iCost>175</iCost>
 			<PrereqAndCivics>
 				<PrereqCivic>
 					<CivicOption>CIVIC_VASSALAGE</CivicOption>
-					<bPrereqCivic>0</bPrereqCivic>
+					<bPrereqCivic>1</bPrereqCivic>
 				</PrereqCivic>
 			</PrereqAndCivics>
-		</BuildingInfo-->
+		</BuildingInfo>
 		<!--<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_SINGLE_ISSUE_PARTY</BuildingClass>
 			<Type>BUILDING_SINGLE_ISSUE_PARTY</Type>
@@ -2643,7 +2643,7 @@
 			<HappinessTraits>
 				<HappinessTrait>
 					<HappinessTraitType>TRAIT_CHARISMATIC</HappinessTraitType>
-					<iHappinessTrait>3</iHappinessTrait>
+					<iHappinessTrait>2</iHappinessTrait>
 				</HappinessTrait>
 			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
