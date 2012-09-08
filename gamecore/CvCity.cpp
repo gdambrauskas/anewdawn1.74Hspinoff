@@ -17328,21 +17328,51 @@ public:
 	}
 };
 
+//	Flags to determine which building types are displayed
+#define	SHOW_BUILDINGS_WONDERS	1
+#define	SHOW_BUILDINGS_DEFENSES	2
+#define	SHOW_BUILDINGS_OTHER	128
+
 void CvCity::getVisibleBuildings(std::list<BuildingTypes>& kChosenVisible, int& iChosenNumGenerics)
 {
 	int iNumBuildings;
 	BuildingTypes eCurType;
 	std::vector<BuildingTypes> kVisible;
+	//int iShowFlags = GC.getDefineINT("SHOW_BUILDINGS_LEVEL");
+	int iShowFlags = SHOW_BUILDINGS_DEFENSES;
 
-	iNumBuildings = GC.getNumBuildingInfos();
+	iNumBuildings = GC.getNumBuildingInfos();	
 	for(int i = 0; i < iNumBuildings; i++)
-	{
-		eCurType = (BuildingTypes) i;
+    {
+        eCurType = (BuildingTypes) i;
 		if(getNumBuilding(eCurType) > 0)
 		{
-			kVisible.push_back(eCurType);
+			bool	bValid = false;
+			bool	bIsWonder = isLimitedWonderClass((BuildingClassTypes)GC.getBuildingInfo(eCurType).getBuildingClassType());
+			bool	bIsDefense = (GC.getBuildingInfo(eCurType).getDefenseModifier() > 0);
+
+			if ( (iShowFlags & SHOW_BUILDINGS_WONDERS) != 0 )
+			{
+				//	Wonders
+				bValid |= bIsWonder;
+			}
+			if ( (iShowFlags & SHOW_BUILDINGS_DEFENSES) != 0 )
+			{
+				//	Defences
+				bValid |= bIsDefense;
+			}
+			if ( (iShowFlags & SHOW_BUILDINGS_OTHER) != 0 )
+			{
+				//	Others
+				bValid |= (!bIsWonder && !bIsDefense);
+			}
+
+			if ( bValid )
+			{
+				kVisible.push_back(eCurType);
+			}
 		}
-	}
+    }	
 
 	// sort the visible ones by decreasing priority
 	VisibleBuildingComparator kComp;
