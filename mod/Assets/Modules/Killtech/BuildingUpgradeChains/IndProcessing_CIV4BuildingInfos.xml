@@ -902,6 +902,8 @@
 			<iPower>20</iPower>
 			<bPrereqPower>1</bPrereqPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
+			<!-- Defines the change in city yield, using iYield. There are three iYield tags: the first is for food per turn change,
+			the second for hammers per turn, and the third for commerce per turn (e.g. the Palace provides 8 free commerce per turn). -->  
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>6</iYield>

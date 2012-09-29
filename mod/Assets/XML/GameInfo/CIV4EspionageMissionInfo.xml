@@ -184,7 +184,7 @@
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_DESTROY_IMPROVEMENT</Type>
 			<Description>TXT_KEY_ESPIONAGE_DESTROY_IMPROVEMENT</Description>
-			<iCost>75</iCost>
+			<iCost>50</iCost>
 			<bIsPassive>0</bIsPassive>
 			<bIsTwoPhases>0</bIsTwoPhases>
 			<bTargetsCity>0</bTargetsCity>
@@ -416,7 +416,7 @@
 			<iStealTreasuryTypes>0</iStealTreasuryTypes>
 			<iCityInsertCultureAmountFactor>0</iCityInsertCultureAmountFactor>
 			<iCityInsertCultureCostFactor>0</iCityInsertCultureCostFactor>
-			<iCityPoisonWaterCounter>5</iCityPoisonWaterCounter>
+			<iCityPoisonWaterCounter>10</iCityPoisonWaterCounter>
 			<iCityUnhappinessCounter>0</iCityUnhappinessCounter>
 			<iCityRevoltCounter>0</iCityRevoltCounter>
 			<iBuyTechCostFactor>0</iBuyTechCostFactor>
@@ -452,7 +452,7 @@
 			<iCityInsertCultureAmountFactor>0</iCityInsertCultureAmountFactor>
 			<iCityInsertCultureCostFactor>0</iCityInsertCultureCostFactor>
 			<iCityPoisonWaterCounter>0</iCityPoisonWaterCounter>
-			<iCityUnhappinessCounter>8</iCityUnhappinessCounter>
+			<iCityUnhappinessCounter>10</iCityUnhappinessCounter>
 			<iCityRevoltCounter>0</iCityRevoltCounter>
 			<iBuyTechCostFactor>0</iBuyTechCostFactor>
 			<iSwitchCivicCostFactor>0</iSwitchCivicCostFactor>
@@ -904,12 +904,12 @@
 			<bNuke>0</bNuke>
 			<bRevolt>0</bRevolt>
 			<bDisablePower>0</bDisablePower>
-			<iWarWearinessCounter>150</iWarWearinessCounter>
+			<iWarWearinessCounter>300</iWarWearinessCounter>
 		</EspionageMissionInfo>
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_BRIBE_CITY</Type>
 			<Description>TXT_KEY_ESPIONAGE_BUY_CITY</Description>
-			<iCost>50000</iCost>
+			<iCost>10000</iCost>
 			<bIsPassive>0</bIsPassive>
 			<bIsTwoPhases>0</bIsTwoPhases>
 			<bTargetsCity>1</bTargetsCity>
@@ -990,7 +990,7 @@
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_REMOVE_RELIGION</Type>
 			<Description>TXT_KEY_ESPIONAGE_PLAYER_REMOVE_RELIGIONS</Description>
-			<iCost>150</iCost>
+			<iCost>50</iCost>
 			<bIsPassive>0</bIsPassive>
 			<bIsTwoPhases>1</bIsTwoPhases>
 			<bTargetsCity>1</bTargetsCity>
@@ -1002,7 +1002,7 @@
 			<bNoActiveMissions>0</bNoActiveMissions>
 			<bSeeResearch>0</bSeeResearch>
 			<bDestroyImprovement>0</bDestroyImprovement>
-			<iDifficultyMod>25</iDifficultyMod>
+			<iDifficultyMod>-25</iDifficultyMod>
 			<iDestroyBuildingCostFactor>0</iDestroyBuildingCostFactor>
 			<iDestroyUnitCostFactor>0</iDestroyUnitCostFactor>
 			<iDestroyProjectCostFactor>0</iDestroyProjectCostFactor>
@@ -1032,7 +1032,7 @@
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_REMOVE_CORPORATION</Type>
 			<Description>TXT_KEY_ESPIONAGE_PLAYER_REMOVE_CORPORATIONS</Description>
-			<iCost>150</iCost>
+			<iCost>75</iCost>
 			<bIsPassive>0</bIsPassive>
 			<bIsTwoPhases>1</bIsTwoPhases>
 			<bTargetsCity>1</bTargetsCity>
@@ -1044,7 +1044,7 @@
 			<bNoActiveMissions>0</bNoActiveMissions>
 			<bSeeResearch>0</bSeeResearch>
 			<bDestroyImprovement>0</bDestroyImprovement>
-			<iDifficultyMod>25</iDifficultyMod>
+			<iDifficultyMod>-25</iDifficultyMod>
 			<iDestroyBuildingCostFactor>0</iDestroyBuildingCostFactor>
 			<iDestroyUnitCostFactor>0</iDestroyUnitCostFactor>
 			<iDestroyProjectCostFactor>0</iDestroyProjectCostFactor>

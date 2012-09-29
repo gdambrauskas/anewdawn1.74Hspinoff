@@ -5977,12 +5977,6 @@
 			<bWaterWork>0</bWaterWork>
 			<iGridX>13</iGridX>
 			<iGridY>14</iGridY>
-			<DomainExtraMoves>
-				<DomainExtraMove>
-					<DomainType>DOMAIN_SEA</DomainType>
-					<iExtraMoves>1</iExtraMoves>
-				</DomainExtraMove>
-			</DomainExtraMoves>
 			<CommerceFlexible/>
 			<TerrainTrades>
 				<TerrainTrade>
@@ -10530,12 +10524,6 @@
 			<bWaterWork>0</bWaterWork>
 			<iGridX>12</iGridX>
 			<iGridY>14</iGridY>
-			<DomainExtraMoves>
-				<DomainExtraMove>
-					<DomainType>DOMAIN_SEA</DomainType>
-					<iExtraMoves>1</iExtraMoves>
-				</DomainExtraMove>
-			</DomainExtraMoves>
 			<CommerceFlexible/>
 			<TerrainTrades/>
 			<bRiverTrade>0</bRiverTrade>
@@ -13776,12 +13764,6 @@
 			<bWaterWork>0</bWaterWork>
 			<iGridX>20</iGridX>
 			<iGridY>9</iGridY>
-			<DomainExtraMoves>
-				<DomainExtraMove>
-					<DomainType>DOMAIN_SEA</DomainType>
-					<iExtraMoves>1</iExtraMoves>
-				</DomainExtraMove>
-			</DomainExtraMoves>
 			<CommerceFlexible/>
 			<TerrainTrades/>
 			<bRiverTrade>0</bRiverTrade>
