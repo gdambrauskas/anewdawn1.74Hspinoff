@@ -1,5 +1,0 @@
-This unit was created by Snafusmith.  If you use this unit in a published mod, please give credit.  The skin was adapted and heavily modified from one created by Saguanay82 @ the Combat Aces forums.
-
-Uses bomber animations (Bomber.kfm in your XML), team color is not supported.  Poly Count ~1000
-
--Smitty
