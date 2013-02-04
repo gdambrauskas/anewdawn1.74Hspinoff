@@ -251,7 +251,7 @@ class RoMEventManager:
 					if ( pPlot.isPlayerCityRadius(pPID)==true ):
 						if ( pPlot.getTeam()==pTID ):
 							if ( pPlot.getTerrainType()==tt_desert ):
-								CyGame().setPlotExtraYield(iXLoop, iYLoop, YieldTypes.YIELD_COMMERCE, 2)
+								CyGame().setPlotExtraYield(iXLoop, iYLoop, YieldTypes.YIELD_COMMERCE, 8)
 			
 			CyInterface().addMessage(pPID,false,15,CyTranslator().getText("TXT_KEY_DJENNE_PYTHON",()),'',0,'Art/Interface/Buttons/Buildings/Djenne.dds',ColorTypes(44), iX, iY, True,True)
 

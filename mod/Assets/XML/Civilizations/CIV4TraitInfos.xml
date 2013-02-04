@@ -56,7 +56,7 @@
 			<iHappiness>0</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
-			<iLevelExperienceModifier>0</iLevelExperienceModifier>
+			<iLevelExperienceModifier>-25</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>25</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
@@ -86,6 +86,14 @@
 				</FreePromotion>
 				<FreePromotion>
                     <PromotionType>PROMOTION_COMBAT2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_SHOCK</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_COVER</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
 			</FreePromotions>
@@ -188,8 +196,8 @@
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
-			<iMaxGlobalBuildingProductionModifier>25</iMaxGlobalBuildingProductionModifier>
-			<iMaxTeamBuildingProductionModifier>25</iMaxTeamBuildingProductionModifier>
+			<iMaxGlobalBuildingProductionModifier>40</iMaxGlobalBuildingProductionModifier>
+			<iMaxTeamBuildingProductionModifier>40</iMaxTeamBuildingProductionModifier>
 			<iMaxPlayerBuildingProductionModifier>100</iMaxPlayerBuildingProductionModifier>
 			<!-- Revolution Trait Effects Begin -->
 			<iRevIdxLocal>0</iRevIdxLocal>
@@ -451,9 +459,9 @@
 			<!-- Revolution Trait Effects End -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers>
-			  <iYield>0</iYield>
-			  <iYield>0</iYield>
-			  <iYield>100</iYield>
+			  <iYield>50</iYield>
+			  <iYield>50</iYield>
+			  <iYield>50</iYield>
 			</TradeYieldModifiers>
 			<CommerceChanges/>
 			<CommerceModifiers/>
@@ -506,6 +514,14 @@
 				</FreePromotion>
 				<FreePromotion>
                     <PromotionType>PROMOTION_GUERILLA2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_SHOCK</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_COVER</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
 			</FreePromotions>

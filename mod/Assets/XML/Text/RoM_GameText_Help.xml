@@ -147,7 +147,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_DJENNE_HELP</Tag>
-		<English>[ICON_BULLET]Desert Tiles: +2[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% Cost of Cathedrals in All Cities[NEWLINE][COLOR_NEGATIVE_TEXT]Requires Desert in City Radius[COLOR_REVERT]</English>
+		<English>[ICON_BULLET]Desert Tiles: +8[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% Cost of Cathedrals in All Cities[NEWLINE][COLOR_NEGATIVE_TEXT]Requires Desert in City Radius[COLOR_REVERT]</English>
 		<French>[ICON_BULLET]Déserts : +2[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% de coût des Cathédrales dans toutes les Villes [NEWLINE][COLOR_NEGATIVE_TEXT]Requiert du Désert dans le périmètre de la Ville[COLOR_REVERT]</French>
 		<German>[ICON_BULLET]W&#252;stenfelder: +2[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% Kosten f&#252;r Kathedralen in allen St&#228;dten[NEWLINE][COLOR_NEGATIVE_TEXT]Ben&#246;tigt W&#252;ste im Stadtradius[COLOR_REVERT]</German>
 		<Italian>[ICON_BULLET]Desert Tiles: +2[ICON_COMMERCE][NEWLINE][ICON_BULLET]-50% Cost of Cathedrals in All Cities[NEWLINE][COLOR_NEGATIVE_TEXT]Requires Desert in City Radius[COLOR_REVERT]</Italian>

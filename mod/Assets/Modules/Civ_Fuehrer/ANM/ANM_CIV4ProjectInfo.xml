@@ -34,7 +34,7 @@
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_ALUMINUM</BonusType>
-					<iProductonModifier>100</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<CreateSound/>
@@ -66,7 +66,7 @@
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_ALUMINUM</BonusType>
-					<iProductonModifier>50</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<CreateSound/>
@@ -106,7 +106,7 @@
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_SEMICONDUCTORS</BonusType>
-					<iProductonModifier>50</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<CreateSound/>

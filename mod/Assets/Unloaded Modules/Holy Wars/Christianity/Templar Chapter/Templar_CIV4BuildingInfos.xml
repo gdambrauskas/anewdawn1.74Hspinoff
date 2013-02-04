@@ -367,7 +367,7 @@
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_STONE</BonusType>
-					<iProductonModifier>100</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>

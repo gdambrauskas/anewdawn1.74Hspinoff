@@ -166,6 +166,10 @@
 			<DomainProductionModifiers/>
 			<BuildingHappinessChanges/>
 			<PrereqBuildingClasses>
+			    <PrereqBuildingClass>
+                    <BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+                    <iNumBuildingNeeded>4</iNumBuildingNeeded>
+                </PrereqBuildingClass>
 				<PrereqBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_SGUILDHALL</BuildingClassType>
 					<iNumBuildingNeeded>1</iNumBuildingNeeded>

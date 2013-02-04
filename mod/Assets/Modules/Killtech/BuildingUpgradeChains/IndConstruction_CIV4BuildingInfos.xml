@@ -766,7 +766,7 @@
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-					<iProductionModifier>50</iProductionModifier>
+					<iProductionModifier>100</iProductionModifier>
 				</BuildingClassProductionModifier>
 			</BuildingClassProductionModifiers>
 			<BuildingHappinessChanges/>

@@ -11,8 +11,8 @@
 			<Description>TXT_KEY_PROMOTION_MOUNTIANEER</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
-			<PromotionPrereq>NONE</PromotionPrereq>
-			<PromotionPrereqOr1>PROMOTION_GUERILLA3</PromotionPrereqOr1>
+			<PromotionPrereq>PROMOTION_GUERILLA3</PromotionPrereq>
+			<PromotionPrereqOr1>NONE</PromotionPrereqOr1>
 			<PromotionPrereqOr2>NONE</PromotionPrereqOr2>
 			<TechPrereq>NONE</TechPrereq>
 			<StateReligionPrereq>NONE</StateReligionPrereq>

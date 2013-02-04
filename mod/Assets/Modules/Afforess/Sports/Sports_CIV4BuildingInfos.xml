@@ -1734,7 +1734,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>25</iMaintenanceModifier>
+			<iMaintenanceModifier>5</iMaintenanceModifier>
 			<iHealth>2</iHealth>
 			<iHappiness>1</iHappiness>
 			<iAsset>8</iAsset>
@@ -2055,7 +2055,7 @@
 			<Strategy>TXT_KEY_BUILDING_TRAINING_DOJO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TRAINING_DOJO</ArtDefineTag>
-			<ObsoleteTech>TECH_HOMO_SUPERIOR</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_MARTIAL_ARTS</PrereqTech>
 			<FreePromotion>PROMOTION_MARTIAL_ARTS</FreePromotion>
 			<iAIWeight>15</iAIWeight>
@@ -2106,7 +2106,7 @@
 			<Strategy>TXT_KEY_BUILDING_MASTERS_DOJO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MASTERS_DOJO</ArtDefineTag>
-			<ObsoleteTech>TECH_HOMO_SUPERIOR</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_MARTIAL_ARTS</PrereqTech>
 			<FreePromotion>PROMOTION_MARTIAL_ARTS</FreePromotion>
 			<FreePromotion_2>PROMOTION_MARTIAL_ARTS2</FreePromotion_2>

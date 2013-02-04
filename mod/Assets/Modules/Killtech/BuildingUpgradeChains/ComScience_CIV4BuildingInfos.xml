@@ -766,7 +766,7 @@
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_GLASS</BonusType>
-					<iProductonModifier>100</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<CommerceChanges>
@@ -837,7 +837,7 @@
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_GLASS</BonusType>
-					<iProductonModifier>100</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<CommerceChanges>
@@ -919,7 +919,7 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>520</iCost>
-			<iMaintenanceModifier>30</iMaintenanceModifier>
+			<iMaintenanceModifier>5</iMaintenanceModifier>
 			<iAsset>5</iAsset>
 			<iPower>0</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>

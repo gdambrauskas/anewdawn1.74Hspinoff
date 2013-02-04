@@ -63148,7 +63148,7 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<FreePromotions/>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
-			<iLeaderExperience>30</iLeaderExperience>
+			<iLeaderExperience>100</iLeaderExperience>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_GREAT_SPY</Class>

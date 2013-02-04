@@ -174,6 +174,10 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -264,6 +268,10 @@
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
+				<UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
