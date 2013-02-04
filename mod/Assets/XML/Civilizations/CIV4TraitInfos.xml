@@ -286,12 +286,12 @@
 			<ExtraYieldThresholds>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
-				<iExtraYieldThreshold>2</iExtraYieldThreshold>
+				<iExtraYieldThreshold>1</iExtraYieldThreshold>
 			</ExtraYieldThresholds>
 			<TradeYieldModifiers>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
-				<iYield>3</iYield>
+				<iYield>50</iYield>
 			</TradeYieldModifiers>
 			<CommerceChanges/>
 			<CommerceModifiers/>
@@ -572,7 +572,7 @@
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
 			<ExtraYieldThresholds>
-				<iExtraYieldThreshold>1</iExtraYieldThreshold>
+				<iExtraYieldThreshold>2</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 			</ExtraYieldThresholds>
