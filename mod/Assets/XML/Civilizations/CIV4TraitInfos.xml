@@ -11,7 +11,7 @@
 			<Description>TXT_KEY_TRAIT_PHILOSOPHICAL</Description>
 			<ShortDescription>TXT_KEY_TRAIT_PHILOSOPHICAL_SHORT</ShortDescription>
 			<iHealth>0</iHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>0</iHappiness>
 			<iMaxAnarchy>1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
