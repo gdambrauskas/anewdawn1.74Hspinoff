@@ -109,7 +109,7 @@
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>0</iStateReligionHappiness>
@@ -366,25 +366,25 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_MOVIES</BonusType>
 					<YieldModifiers>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_MUSIC</BonusType>
 					<YieldModifiers>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_DRAMA</BonusType>
 					<YieldModifiers>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>

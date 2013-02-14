@@ -34,7 +34,7 @@
 			<iConquestProb>85</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iFreeSpecialist>1</iFreeSpecialist>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>4</iAsset>
 			<iPower>5</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -103,7 +103,7 @@
 			<iConquestProb>85</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iFreeSpecialist>2</iFreeSpecialist>
-			<iMaintenanceModifier>25</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>4</iAsset>
 			<iPower>5</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -169,7 +169,7 @@
 			<iConquestProb>85</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iFreeSpecialist>3</iFreeSpecialist>
-			<iMaintenanceModifier>35</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>4</iAsset>
 			<iPower>5</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -243,7 +243,7 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iFreeSpecialist>4</iFreeSpecialist>
-			<iMaintenanceModifier>75</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>4</iAsset>
 			<iPower>5</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -318,7 +318,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iFreeSpecialist>6</iFreeSpecialist>
-			<iMaintenanceModifier>25</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>4</iAsset>
 			<iPower>5</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>

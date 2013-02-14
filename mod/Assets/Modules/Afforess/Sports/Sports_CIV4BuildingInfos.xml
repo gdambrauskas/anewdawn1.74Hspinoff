@@ -24,7 +24,7 @@
 			<iMaxLatitude>90</iMaxLatitude>
 			<iHealth>-1</iHealth>
 			<iHappiness>1</iHappiness>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>5</iAsset>
 			<iPower>6</iPower>
 			<fVisibilityPriority>0.0</fVisibilityPriority>
@@ -159,7 +159,7 @@
 			<iMaxLatitude>90</iMaxLatitude>			
 			<iHealth>-1</iHealth>
 			<iHappiness>1</iHappiness>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>4</iAsset>
 			<iPower>5</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -286,10 +286,10 @@
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
 			<iHealth>-1</iHealth>
-			<iHappiness>2</iHappiness>	
+			<iHappiness>1</iHappiness>	
 			<iAsset>8</iAsset>
 			<fVisibilityPriority>100.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -412,7 +412,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
 			<iHealth>0</iHealth>
 			<iHappiness>1</iHappiness>	
@@ -645,9 +645,9 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iWarWearinessModifier>5</iWarWearinessModifier>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>5</iAsset>
 			<iPower>4</iPower>
 			<fVisibilityPriority>0.0</fVisibilityPriority>
@@ -777,8 +777,8 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iWarWearinessModifier>10</iWarWearinessModifier>
-			<iMaintenanceModifier>25</iMaintenanceModifier>
-			<iHappiness>2</iHappiness>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
+			<iHappiness>1</iHappiness>
 			<iAsset>5</iAsset>
 			<iPower>4</iPower>
 			<fVisibilityPriority>0.0</fVisibilityPriority>
@@ -876,8 +876,8 @@
 			</PrereqNotBuildingClasses>
 			<iCost>1200</iCost>
 			<iWarWearinessModifier>15</iWarWearinessModifier>
-			<iMaintenanceModifier>25</iMaintenanceModifier>
-			<iHappiness>2</iHappiness>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
+			<iHappiness>1</iHappiness>
 			<iAsset>12</iAsset>
 			<iPower>5</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -973,7 +973,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iHappiness>1</iHappiness>
 			<iHealth>-1</iHealth>
 			<iAsset>8</iAsset>
@@ -1065,7 +1065,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>20</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iHappiness>1</iHappiness>
 			<iHealth>-2</iHealth>
 			<iAsset>8</iAsset>
@@ -1160,7 +1160,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>20</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>8</iAsset>
 			<iPower>4</iPower>
 			<fVisibilityPriority>0.0</fVisibilityPriority>
@@ -1253,7 +1253,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iHappiness>3</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iGlobalHappiness>2</iGlobalHappiness>
 			<iAsset>8</iAsset>
 			<iPower>4</iPower>
@@ -1339,7 +1339,7 @@
 			<iMinLatitude>40</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iHappiness>1</iHappiness>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>5</iAsset>
 			<iPower>4</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -1424,7 +1424,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>20</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iHappiness>1</iHappiness>
 			<iAsset>8</iAsset>
 			<iPower>4</iPower>
@@ -1558,7 +1558,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>20</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iHappiness>3</iHappiness>
 			<iAsset>15</iAsset>
 			<iPower>4</iPower>
@@ -1677,7 +1677,7 @@
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iWarWearinessModifier>20</iWarWearinessModifier>
 			<iAsset>5</iAsset>
 			<iPower>10</iPower>
@@ -1734,7 +1734,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iHealth>2</iHealth>
 			<iHappiness>1</iHappiness>
 			<iAsset>8</iAsset>
@@ -1763,7 +1763,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iHealth>2</iHealth>
 			<iHappiness>1</iHappiness>
 			<iAsset>8</iAsset>
@@ -1879,7 +1879,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iHealth>-3</iHealth>
 			<iAsset>8</iAsset>
 			<iPower>4</iPower>
@@ -1944,9 +1944,9 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>25</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>20</iWarWearinessModifier>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAsset>4</iAsset>
 			<iPower>0</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -2021,7 +2021,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
 			<iAsset>2</iAsset>

@@ -89,11 +89,11 @@
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
                 <FreePromotion>
-                    <PromotionType>PROMOTION_SHOCK</PromotionType>
+                    <PromotionType>PROMOTION_COMBAT3</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
                 <FreePromotion>
-                    <PromotionType>PROMOTION_COVER</PromotionType>
+                    <PromotionType>PROMOTION_COMMANDO</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
 			</FreePromotions>
@@ -294,7 +294,9 @@
 				<iYield>50</iYield>
 			</TradeYieldModifiers>
 			<CommerceChanges/>
-			<CommerceModifiers/>
+			<CommerceModifiers>
+                <iCommerce>10</iCommerce>
+            </CommerceModifiers>
 			<FreePromotions/>
 			<FreePromotionUnitCombats/>
 		</TraitInfo>
@@ -371,7 +373,7 @@
 			<Description>TXT_KEY_TRAIT_PROTECTIVE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_PROTECTIVE_SHORT</ShortDescription>
 			<iHealth>0</iHealth>
-			<iHappiness>0</iHappiness>
+			<iHappiness>3</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
@@ -459,9 +461,9 @@
 			<!-- Revolution Trait Effects End -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers>
-			  <iYield>50</iYield>
-			  <iYield>50</iYield>
-			  <iYield>50</iYield>
+			  <iYield>25</iYield>
+			  <iYield>25</iYield>
+			  <iYield>25</iYield>
 			</TradeYieldModifiers>
 			<CommerceChanges/>
 			<CommerceModifiers/>
@@ -572,11 +574,15 @@
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
 			<ExtraYieldThresholds>
-				<iExtraYieldThreshold>2</iExtraYieldThreshold>
+				<iExtraYieldThreshold>1</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 			</ExtraYieldThresholds>
-			<TradeYieldModifiers/>
+			<TradeYieldModifiers>
+                <iYield>50</iYield>
+                <iYield>0</iYield>
+                <iYield>0</iYield>
+            </TradeYieldModifiers>
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions/>
@@ -819,6 +825,10 @@
                 </FreePromotion>
             </FreePromotions>
             <FreePromotionUnitCombats>
+                <FreePromotionUnitCombat>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+                </FreePromotionUnitCombat>
                 <FreePromotionUnitCombat>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>

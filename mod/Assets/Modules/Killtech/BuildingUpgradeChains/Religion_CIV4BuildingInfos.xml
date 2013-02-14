@@ -233,7 +233,7 @@
 			<BuildingClass>BUILDINGCLASS_JEWISH_TEMPLE</BuildingClass>
 			<Type>BUILDING_JEWISH_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_JEWISH_CATHEDRAL</BuildingClassType>
@@ -276,7 +276,7 @@
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>4</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>6</iAsset>
@@ -438,7 +438,7 @@
 			<BuildingClass>BUILDINGCLASS_CHRISTIAN_TEMPLE</BuildingClass>
 			<Type>BUILDING_CHRISTIAN_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_CHRISTIAN_CATHEDRAL</BuildingClassType>
@@ -481,7 +481,7 @@
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>5</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>6</iAsset>
@@ -646,7 +646,7 @@
 			<BuildingClass>BUILDINGCLASS_ISLAMIC_TEMPLE</BuildingClass>
 			<Type>BUILDING_ISLAMIC_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_ISLAMIC_CATHEDRAL</BuildingClassType>
@@ -689,7 +689,7 @@
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>5</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>6</iAsset>
@@ -857,7 +857,7 @@
 			<BuildingClass>BUILDINGCLASS_HINDU_TEMPLE</BuildingClass>
 			<Type>BUILDING_HINDU_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_HINDU_CATHEDRAL</BuildingClassType>
@@ -900,7 +900,7 @@
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>4</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>6</iAsset>
@@ -1062,7 +1062,7 @@
 			<BuildingClass>BUILDINGCLASS_BUDDHIST_TEMPLE</BuildingClass>
 			<Type>BUILDING_BUDDHIST_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_BUDDHIST_CATHEDRAL</BuildingClassType>
@@ -1105,7 +1105,7 @@
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>4</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iHealth>1</iHealth>
@@ -1262,7 +1262,7 @@
 			<BuildingClass>BUILDINGCLASS_CONFUCIAN_TEMPLE</BuildingClass>
 			<Type>BUILDING_CONFUCIAN_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_CONFUCIAN_CATHEDRAL</BuildingClassType>
@@ -1305,7 +1305,7 @@
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>4</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>6</iAsset>
@@ -1464,7 +1464,7 @@
 			<BuildingClass>BUILDINGCLASS_TAOIST_TEMPLE</BuildingClass>
 			<Type>BUILDING_TAOIST_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_TAOIST_CATHEDRAL</BuildingClassType>
@@ -1490,7 +1490,7 @@
 			<BuildingClass>BUILDINGCLASS_TAOIST_CATHEDRAL</BuildingClass>
 			<Type>BUILDING_TAOIST_CATHEDRAL</Type>
 			<SpecialBuildingType>SPECIALBUILDING_CATHEDRAL</SpecialBuildingType>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<Description>TXT_KEY_BUILDING_TAOIST_CATHEDRAL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TAOIST_CATHEDRAL_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TAOIST_CATHEDRAL_STRATEGY</Strategy>
@@ -1674,7 +1674,7 @@
 			<BuildingClass>BUILDINGCLASS_HELLENIC_TEMPLE</BuildingClass>
 			<Type>BUILDING_HELLENIC_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_HELLENIC_CATHEDRAL</BuildingClassType>
@@ -1717,7 +1717,7 @@
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>4</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>6</iAsset>
@@ -1884,7 +1884,7 @@
 			<BuildingClass>BUILDINGCLASS_ZOROASTRIAN_TEMPLE</BuildingClass>
 			<Type>BUILDING_ZOROASTRIAN_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_ZOROASTRIAN_CATHEDRAL</BuildingClassType>
@@ -1927,7 +1927,7 @@
 			<iCost>300</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>5</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>6</iAsset>
@@ -2007,7 +2007,7 @@
 			<BuildingClass>BUILDINGCLASS_EGYPT_MYTH_TEMPLE</BuildingClass>
 			<Type>BUILDING_EGYPT_MYTH_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_EGYPT_MYTH_CATHEDRAL</BuildingClassType>
@@ -2066,7 +2066,7 @@
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>4</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>6</iAsset>
@@ -2174,7 +2174,7 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iHappiness>1</iHappiness>
-			<iStateReligionHappiness>7</iStateReligionHappiness>
+			<iStateReligionHappiness>5</iStateReligionHappiness>
 			<iAsset>6</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ObsoleteSafeCommerceChanges>
@@ -2253,7 +2253,7 @@
 			<iMaxLatitude>90</iMaxLatitude>
 			<iAreaHealth>1</iAreaHealth>
 			<iHappiness>1</iHappiness>
-			<iStateReligionHappiness>7</iStateReligionHappiness>
+			<iStateReligionHappiness>5</iStateReligionHappiness>
 			<iAsset>6</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ObsoleteSafeCommerceChanges>
@@ -2325,7 +2325,7 @@
 			<iMaxLatitude>90</iMaxLatitude>
 			<iGreatGeneralRateModifier>10</iGreatGeneralRateModifier>
 			<iHappiness>1</iHappiness>
-			<iStateReligionHappiness>7</iStateReligionHappiness>
+			<iStateReligionHappiness>5</iStateReligionHappiness>
 			<iMilitaryProductionModifier>25</iMilitaryProductionModifier>
 			<iAsset>6</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -2382,7 +2382,7 @@
 			<BuildingClass>BUILDINGCLASS_MESOAMERICAN_TEMPLE</BuildingClass>
 			<Type>BUILDING_MESOAMERICAN_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<BuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_MESOAMERICAN_CATHEDRAL</BuildingClassType>
@@ -2427,7 +2427,7 @@
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iStateReligionHappiness>4</iStateReligionHappiness>
 			<iHappiness>1</iHappiness>
 			<iAsset>6</iAsset>

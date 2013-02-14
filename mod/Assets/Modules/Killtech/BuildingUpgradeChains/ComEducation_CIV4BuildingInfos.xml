@@ -272,7 +272,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -566,7 +566,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -755,7 +755,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -948,7 +948,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -1087,7 +1087,7 @@
 			<YieldChanges/>
 			<YieldModifiers>
 				<iYield>0</iYield>
-				<iYield>-10</iYield>
+				<iYield>0</iYield>
 				<iYield>0</iYield>
 			</YieldModifiers>
 			<CommerceChanges/>
@@ -1107,7 +1107,7 @@
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>15</iCommerce>
+				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -1120,54 +1120,6 @@
 				<BuildingClassProductionModifier>
 					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 					<iProductionModifier>100</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_JEWISH_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_CHRISTIAN_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_ISLAMIC_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_HINDU_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_BUDDHIST_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_CONFUCIAN_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_TAOIST_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_HELLENIC_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_ZOROASTRIAN_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_EGYPT_MYTH_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_JEWISH_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
-				</BuildingClassProductionModifier>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_MESOAMERICAN_MONASTERY</BuildingClassType>
-					<iProductionModifier>-25</iProductionModifier>
 				</BuildingClassProductionModifier>
 			</BuildingClassProductionModifiers>
 			<ReplaceBuildings>
@@ -1230,7 +1182,7 @@
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
@@ -3491,7 +3443,7 @@
 			<iConquestProb>33</iConquestProb>
 			<iExperience>1</iExperience>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>20</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges/>
@@ -3571,7 +3523,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ObsoleteSafeCommerceChanges>

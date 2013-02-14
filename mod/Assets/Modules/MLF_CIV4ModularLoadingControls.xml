@@ -94,6 +94,10 @@
 					<Directory>Killtech</Directory>
 					<bLoad>1</bLoad>
 				</Module>
+				<Module>
+                    <Directory>Hydro</Directory>
+                    <bLoad>1</bLoad>
+                </Module>
 			</Modules>
 		</ConfigurationInfo>
 	</ConfigurationInfos>

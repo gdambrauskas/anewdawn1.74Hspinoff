@@ -366,7 +366,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_COW</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</YieldModifiers>
@@ -374,7 +374,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_PIG</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</YieldModifiers>
@@ -382,7 +382,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_SHEEP</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</YieldModifiers>
@@ -390,7 +390,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_DEER</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</YieldModifiers>
@@ -398,7 +398,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_WHALE</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</YieldModifiers>

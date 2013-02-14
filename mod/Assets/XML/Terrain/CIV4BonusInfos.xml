@@ -3393,7 +3393,7 @@
 			<iAITradeModifier>2</iAITradeModifier>
 			<iAIObjective>0</iAIObjective>
 			<iHealth>0</iHealth>
-			<iHappiness>1</iHappiness>
+			<iHappiness>0</iHappiness>
 			<iPlacementOrder>2</iPlacementOrder>
 			<iConstAppearance>40</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>

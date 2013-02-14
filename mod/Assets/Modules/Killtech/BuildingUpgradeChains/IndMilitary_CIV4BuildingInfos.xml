@@ -29,7 +29,7 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>75</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iHealth>-1</iHealth>
 			<iAsset>4</iAsset>
@@ -117,7 +117,7 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>25</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iHealth>-1</iHealth>
 			<iAsset>4</iAsset>
@@ -190,7 +190,7 @@
 			<iConquestProb>75</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iHealth>-1</iHealth>
-			<iMaintenanceModifier>25</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iMilitaryProductionModifier>35</iMilitaryProductionModifier>
 			<iAsset>6</iAsset>
 			<iPower>30</iPower>
@@ -249,7 +249,7 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>25</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>40</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iMilitaryProductionModifier>50</iMilitaryProductionModifier>
 			<iHealth>-1</iHealth>
 			<iAsset>4</iAsset>

@@ -1181,7 +1181,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -1375,7 +1375,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -6460,7 +6460,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -6633,7 +6633,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -6641,7 +6641,7 @@
 			<iHealth>1</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>0</iStateReligionHappiness>
@@ -6806,7 +6806,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -7155,7 +7155,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -7322,7 +7322,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -8353,7 +8353,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>15</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -13447,7 +13447,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -13649,7 +13649,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -16463,7 +16463,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_FISH</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16471,7 +16471,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_CLAM</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16479,7 +16479,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_CRAB</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16487,7 +16487,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_RICE</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16495,7 +16495,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_SHRIMP</BonusType>
 					<YieldModifiers>
-						<iYield>4</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16677,7 +16677,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_WHEAT</BonusType>
 					<YieldModifiers>
-						<iYield>6</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16685,7 +16685,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_CORN</BonusType>
 					<YieldModifiers>
-						<iYield>6</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16693,7 +16693,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_RICE</BonusType>
 					<YieldModifiers>
-						<iYield>6</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16701,7 +16701,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_POTATO</BonusType>
 					<YieldModifiers>
-						<iYield>6</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -17051,12 +17051,12 @@
 			<YieldChanges/>
 			<YieldModifiers>
 				<iYield>0</iYield>
-				<iYield>5</iYield>
+				<iYield>1</iYield>
 				<iYield>0</iYield>
 			</YieldModifiers>
 			<PowerYieldModifiers>
 				<iYield>0</iYield>
-				<iYield>5</iYield>
+				<iYield>1</iYield>
 				<iYield>0</iYield>
 			</PowerYieldModifiers>
 			<CommerceChanges/>
@@ -17088,7 +17088,7 @@
 					<BonusType>BONUS_CORN</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17096,7 +17096,7 @@
 					<BonusType>BONUS_SUGAR</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17104,7 +17104,7 @@
 					<BonusType>BONUS_RICE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17112,7 +17112,7 @@
 					<BonusType>BONUS_POTATO</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17310,7 +17310,7 @@
 					<BonusType>BONUS_IRON</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>7</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17318,7 +17318,7 @@
 					<BonusType>BONUS_COPPER</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>7</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17326,7 +17326,7 @@
 					<BonusType>BONUS_STONE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>7</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17334,7 +17334,7 @@
 					<BonusType>BONUS_MARBLE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>7</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17342,7 +17342,7 @@
 					<BonusType>BONUS_BAUXITE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>7</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17540,7 +17540,7 @@
 					<BonusType>BONUS_IRON</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17548,7 +17548,7 @@
 					<BonusType>BONUS_LEAD</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17556,7 +17556,7 @@
 					<BonusType>BONUS_COAL</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17564,7 +17564,7 @@
 					<BonusType>BONUS_COPPER</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17572,16 +17572,16 @@
 					<BonusType>BONUS_GOLD</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_SILVER</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
@@ -17782,16 +17782,16 @@
 					<BonusType>BONUS_COAL</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>6</iYield>
-						<iYield>6</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_BAUXITE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>6</iYield>
-						<iYield>6</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
@@ -21695,7 +21695,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -21863,7 +21863,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -25929,7 +25929,7 @@
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>0</iStateReligionHappiness>
@@ -26472,7 +26472,7 @@
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>0</iStateReligionHappiness>
@@ -26661,7 +26661,7 @@
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>3</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>0</iStateReligionHappiness>
@@ -27035,9 +27035,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>100</iCommerce>
 			</CommerceChangeDoubleTimes>
-			<CommerceModifiers>
-				<iCommerce>-10</iCommerce>
-			</CommerceModifiers>
+			<CommerceModifiers/>
 			<GlobalCommerceModifiers/>
 			<SpecialistExtraCommerces/>
 			<StateReligionCommerces/>
@@ -27941,7 +27939,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -29086,7 +29084,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -30074,7 +30072,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -30082,7 +30080,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -30090,7 +30088,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -30098,7 +30096,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
@@ -30588,7 +30586,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>20</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -30596,7 +30594,7 @@
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>0</iStateReligionHappiness>
@@ -32286,7 +32284,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -33948,7 +33946,7 @@
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>0</iStateReligionHappiness>
@@ -34127,7 +34125,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>-25</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -34314,7 +34312,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>-25</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -37143,7 +37141,7 @@
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>0</iStateReligionHappiness>
@@ -37501,7 +37499,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -38438,7 +38436,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>3</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -39175,7 +39173,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>3</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -39912,7 +39910,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -40849,7 +40847,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -41586,7 +41584,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -42323,7 +42321,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -43262,7 +43260,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -43815,7 +43813,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>3</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -45301,7 +45299,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>3</iStateReligionHappiness>
+			<iStateReligionHappiness>5</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -45503,7 +45501,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>3</iStateReligionHappiness>
+			<iStateReligionHappiness>5</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -45696,7 +45694,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>3</iStateReligionHappiness>
+			<iStateReligionHappiness>5</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>25</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -46069,7 +46067,7 @@
 			<iHappiness>0</iHappiness>
 			<iAreaHappiness>0</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
+			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iSpaceProductionModifier>0</iSpaceProductionModifier>
@@ -50401,7 +50399,7 @@
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
 			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
@@ -61943,7 +61941,7 @@
 			<iHealth>0</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAreaHappiness>1</iAreaHappiness>
 			<iGlobalHappiness>0</iGlobalHappiness>
 			<iStateReligionHappiness>2</iStateReligionHappiness>

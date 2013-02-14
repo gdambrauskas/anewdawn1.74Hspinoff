@@ -170,7 +170,7 @@
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>150</iCost>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iAsset>5</iAsset>
 			<iPower>2</iPower>
 			<fVisibilityPriority>0.0</fVisibilityPriority>

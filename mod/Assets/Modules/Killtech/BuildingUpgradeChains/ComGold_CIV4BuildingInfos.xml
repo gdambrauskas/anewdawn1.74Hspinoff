@@ -2400,7 +2400,7 @@
 			<iTradeRouteModifier>15</iTradeRouteModifier>
 			<iAsset>4</iAsset>
 			<iPower>2</iPower>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
 				<iCommerce>6</iCommerce>

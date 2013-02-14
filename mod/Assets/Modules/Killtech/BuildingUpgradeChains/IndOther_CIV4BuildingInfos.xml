@@ -30,7 +30,7 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>85</iConquestProb>
 			<iMaxLatitude>90</iMaxLatitude>
-			<iMaintenanceModifier>10</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>4</iAsset>
 			<iPower>5</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -375,9 +375,9 @@
 			<BuildingClass>BUILDINGCLASS_WORKHOUSE</BuildingClass>
 			<Type>BUILDING_WORKHOUSE</Type>
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
-			<iMaintenanceModifier>5</iMaintenanceModifier>
+			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iHealth>2</iHealth>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<YieldModifiers>
 				<iYield>0</iYield>
 				<iYield>5</iYield>

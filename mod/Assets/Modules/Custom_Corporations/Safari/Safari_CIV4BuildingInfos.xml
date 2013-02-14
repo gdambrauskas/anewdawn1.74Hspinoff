@@ -366,33 +366,33 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_IVORY</BonusType>
 					<YieldModifiers>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_DEER</BonusType>
 					<YieldModifiers>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_FUR</BonusType>
 					<YieldModifiers>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_WHALE</BonusType>
 					<YieldModifiers>
+						<iYield>1</iYield>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>1</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>

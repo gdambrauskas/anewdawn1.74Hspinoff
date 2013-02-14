@@ -41,7 +41,7 @@
 			<MovieSound>NONE</MovieSound>
 			<Sound>AS2D_BUILD_BANK</Sound>
 			<PrereqGameOption>GAMEOPTION_MODERN_CORPORATIONS</PrereqGameOption>
-			<iHappiness>2</iHappiness>
+			<iHappiness>1</iHappiness>
 			<iHealth>2</iHealth>
 			<iSpread>50</iSpread>
 		</CorporationInfo>

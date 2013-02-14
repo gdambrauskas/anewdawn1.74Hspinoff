@@ -1486,7 +1486,7 @@
             <iWithdrawalChange>0</iWithdrawalChange>
             <iCargoChange>0</iCargoChange>
             <iCollateralDamageChange>30</iCollateralDamageChange>
-            <iBombardRateChange>3</iBombardRateChange>
+            <iBombardRateChange>100</iBombardRateChange>
             <iFirstStrikesChange>0</iFirstStrikesChange>
             <iChanceFirstStrikesChange>0</iChanceFirstStrikesChange>
             <iEnemyHealChange>0</iEnemyHealChange>
@@ -2285,7 +2285,7 @@
             <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
             <iCombatPercent>0</iCombatPercent>
             <iCityAttack>0</iCityAttack>
-            <iCityDefense>0</iCityDefense>
+            <iCityDefense>100</iCityDefense>
             <iHillsAttack>0</iHillsAttack>
             <iHillsDefense>0</iHillsDefense>
             <iKamikazePercent>0</iKamikazePercent>
@@ -2295,22 +2295,12 @@
             <iUpgradeDiscount>0</iUpgradeDiscount>
             <iExperiencePercent>0</iExperiencePercent>
             <TerrainAttacks/>
-            <TerrainDefenses>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_DESERT</TerrainType>
-                    <iTerrainDefense>100</iTerrainDefense>
-                </TerrainDefense>
-            </TerrainDefenses>
+            <TerrainDefenses/>
             <FeatureAttacks/>
             <FeatureDefenses/>
             <UnitCombatMods/>
             <DomainMods/>
-            <TerrainDoubleMoves>
-                <TerrainDoubleMove>
-                    <TerrainType>TERRAIN_DESERT</TerrainType>
-                    <bTerrainDoubleMove>1</bTerrainDoubleMove>
-                </TerrainDoubleMove>
-            </TerrainDoubleMoves>
+            <TerrainDoubleMoves/>
             <FeatureDoubleMoves/>
             <UnitCombats>
                 <UnitCombat>
@@ -8826,18 +8816,6 @@
             <FeatureDefenses/>
             <UnitCombatMods>
                 <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>50</iUnitCombatMod>
-                </UnitCombatMod>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>50</iUnitCombatMod>
-                </UnitCombatMod>
-                <UnitCombatMod>
-                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
-                </UnitCombatMod>
-                <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
                     <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
@@ -15118,40 +15096,7 @@
             <iUpgradeDiscount>0</iUpgradeDiscount>
             <iExperiencePercent>0</iExperiencePercent>
             <TerrainAttacks/>
-            <TerrainDefenses>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_GRASS</TerrainType>
-                    <iTerrainDefense>-25</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_PLAINS</TerrainType>
-                    <iTerrainDefense>-25</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_SNOW</TerrainType>
-                    <iTerrainDefense>-25</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_TUNDRA</TerrainType>
-                    <iTerrainDefense>-25</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_MARSH</TerrainType>
-                    <iTerrainDefense>-25</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_DESERT</TerrainType>
-                    <iTerrainDefense>-25</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_COAST</TerrainType>
-                    <iTerrainDefense>-25</iTerrainDefense>
-                </TerrainDefense>
-                <TerrainDefense>
-                    <TerrainType>TERRAIN_OCEAN</TerrainType>
-                    <iTerrainDefense>-25</iTerrainDefense>
-                </TerrainDefense>
-            </TerrainDefenses>
+            <TerrainDefenses/>
             <FeatureAttacks/>
             <FeatureDefenses/>
             <UnitCombatMods/>
