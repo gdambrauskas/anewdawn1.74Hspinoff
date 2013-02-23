@@ -3530,6 +3530,10 @@
                     <UnitCombatType>UNITCOMBAT_NUCLEAR_SHIPS</UnitCombatType>
                     <bUnitCombat>1</bUnitCombat>
                 </UnitCombat>
+                <UnitCombat>
+                    <UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+                    <bUnitCombat>1</bUnitCombat>
+                </UnitCombat>
             </UnitCombats>
             <HotKey/>
             <bAltDown>0</bAltDown>

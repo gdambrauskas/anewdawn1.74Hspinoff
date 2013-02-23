@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COFFEE_SHOP</Tag>
+		<English>Coffee Shop</English>
+		<French>
+			<Text>Caf&#233;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Coffee Shop</German>
+		<Italian>Coffee Shop</Italian>
+		<Spanish>Coffee Shop</Spanish>
+	</TEXT>
+	<TEXT>
+        <Tag>TXT_KEY_BUILDING_TEA_HOUSE</Tag>
+        <English>Tea House</English>
+        <French>
+            <Text>Salon de th&#233;</Text>
+            <Gender>Male</Gender>
+            <Plural>0</Plural>
+        </French>
+        <German>Tea House</German>
+        <Italian>Tea House</Italian>
+        <Spanish>Tea House</Spanish>
+    </TEXT>
+</Civ4GameText>
