@@ -366,7 +366,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_SILK</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -374,7 +374,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_SPICES</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -382,7 +382,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_SUGAR</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -390,7 +390,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_COFFEE</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -398,7 +398,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_COTTON</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>

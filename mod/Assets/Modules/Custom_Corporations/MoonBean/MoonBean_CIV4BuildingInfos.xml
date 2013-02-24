@@ -350,41 +350,41 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_COFFEE</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_MUSIC</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_TEA</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_TOBACCO</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_SUGAR</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>

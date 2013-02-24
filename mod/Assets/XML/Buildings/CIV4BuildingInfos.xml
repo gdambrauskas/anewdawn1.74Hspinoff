@@ -16463,7 +16463,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_FISH</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16471,7 +16471,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_CLAM</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16479,7 +16479,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_CRAB</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16487,7 +16487,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_RICE</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16495,7 +16495,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_SHRIMP</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16677,7 +16677,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_WHEAT</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16685,7 +16685,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_CORN</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16693,7 +16693,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_RICE</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -16701,7 +16701,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_POTATO</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -17088,7 +17088,7 @@
 					<BonusType>BONUS_CORN</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17096,7 +17096,7 @@
 					<BonusType>BONUS_SUGAR</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17104,7 +17104,7 @@
 					<BonusType>BONUS_RICE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17112,7 +17112,7 @@
 					<BonusType>BONUS_POTATO</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17310,7 +17310,7 @@
 					<BonusType>BONUS_IRON</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17318,7 +17318,7 @@
 					<BonusType>BONUS_COPPER</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17326,7 +17326,7 @@
 					<BonusType>BONUS_STONE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17334,7 +17334,7 @@
 					<BonusType>BONUS_MARBLE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17342,7 +17342,7 @@
 					<BonusType>BONUS_BAUXITE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17540,7 +17540,7 @@
 					<BonusType>BONUS_IRON</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17548,7 +17548,7 @@
 					<BonusType>BONUS_LEAD</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17556,7 +17556,7 @@
 					<BonusType>BONUS_COAL</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17564,7 +17564,7 @@
 					<BonusType>BONUS_COPPER</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
@@ -17572,16 +17572,16 @@
 					<BonusType>BONUS_GOLD</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_SILVER</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
@@ -17782,16 +17782,16 @@
 					<BonusType>BONUS_COAL</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
+						<iYield>9</iYield>
+						<iYield>9</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
 					<BonusType>BONUS_BAUXITE</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
+						<iYield>9</iYield>
+						<iYield>9</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
@@ -30072,7 +30072,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -30080,7 +30080,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -30088,7 +30088,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -30096,7 +30096,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>

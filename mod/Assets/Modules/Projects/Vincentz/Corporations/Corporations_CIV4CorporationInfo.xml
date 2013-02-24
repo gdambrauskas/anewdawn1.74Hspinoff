@@ -32,12 +32,12 @@
 			<CommercesProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>200</iCommerceProduced>
+				<iCommerceProduced>100</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>50</iYieldProduced>
+				<iYieldProduced>60</iYieldProduced>
 			</YieldsProduced>
 			<Button>Modules/Projects/Vincentz/Corporations/Corp/EC.dds</Button>
 			<MovieFile>NONE</MovieFile>
@@ -67,7 +67,7 @@
 			</HeadquarterCommerces>
 			<BonusProduced>BONUS_CANNABIS</BonusProduced>
 			<CommercesProduced>
-				<iCommerceProduced>50</iCommerceProduced>
+				<iCommerceProduced>100</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>25</iCommerceProduced>
 			</CommercesProduced>
@@ -139,12 +139,12 @@
 			</HeadquarterCommerces>
 			<BonusProduced>NONE</BonusProduced>
 			<CommercesProduced>
-				<iCommerceProduced>25</iCommerceProduced>
+				<iCommerceProduced>100</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
-				<iYieldProduced>25</iYieldProduced>
+				<iYieldProduced>60</iYieldProduced>
 			</YieldsProduced>
 			<Button>Modules/Projects/Vincentz/Corporations/Corp/MW.dds</Button>
 			<MovieFile>NONE</MovieFile>
@@ -177,7 +177,7 @@
 			<CommercesProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>50</iCommerceProduced>
-				<iCommerceProduced>200</iCommerceProduced>
+				<iCommerceProduced>100</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>

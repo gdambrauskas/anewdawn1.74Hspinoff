@@ -31,7 +31,7 @@
 				<iCommerceProduced>0</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
-				<iYieldProduced>20</iYieldProduced>
+				<iYieldProduced>60</iYieldProduced>
 			</YieldsProduced>
 			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,1,6</Button>
 			<MovieFile>NONE</MovieFile>
@@ -67,7 +67,7 @@
 				<iCommerceProduced>20</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
-				<iYieldProduced>30</iYieldProduced>
+				<iYieldProduced>60</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldsProduced>
@@ -100,7 +100,7 @@
 			<BonusProduced>BONUS_DIESEL</BonusProduced>
 			<CommercesProduced>
 				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>40</iCommerceProduced>
+				<iCommerceProduced>80</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
@@ -140,7 +140,7 @@
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>30</iYieldProduced>
+				<iYieldProduced>60</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldsProduced>
 			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,4,6</Button>
@@ -179,7 +179,7 @@
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>20</iYieldProduced>
+				<iYieldProduced>60</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldsProduced>
 			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,5,6</Button>
@@ -244,7 +244,7 @@
 			</HeadquarterCommerces>
 			<BonusProduced>NONE</BonusProduced>
 			<CommercesProduced>
-				<iCommerceProduced>75</iCommerceProduced>
+				<iCommerceProduced>100</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>20</iCommerceProduced>
 			</CommercesProduced>

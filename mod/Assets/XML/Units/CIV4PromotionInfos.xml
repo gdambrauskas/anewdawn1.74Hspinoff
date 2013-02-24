@@ -5118,7 +5118,7 @@
             <PromotionPrereq>NONE</PromotionPrereq>
             <PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
             <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_SPECIAL_PROMOTION</TechPrereq>
             <StateReligionPrereq>NONE</StateReligionPrereq>
             <bLeader>0</bLeader>
             <bBlitz>0</bBlitz>
@@ -5215,7 +5215,7 @@
             <PromotionPrereq>NONE</PromotionPrereq>
             <PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
             <PromotionPrereqOr2>NONE</PromotionPrereqOr2>
-            <TechPrereq>NONE</TechPrereq>
+            <TechPrereq>TECH_SPECIAL_PROMOTION</TechPrereq>
             <StateReligionPrereq>NONE</StateReligionPrereq>
             <bLeader>0</bLeader>
             <bBlitz>0</bBlitz>

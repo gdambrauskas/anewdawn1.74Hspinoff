@@ -366,7 +366,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_APPLE</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -374,7 +374,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_BANANA</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -382,7 +382,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_POTATO</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -390,7 +390,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_OLIVES</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
@@ -398,7 +398,7 @@
 				<BonusYieldModifier>
 					<BonusType>BONUS_LEMON</BonusType>
 					<YieldModifiers>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>

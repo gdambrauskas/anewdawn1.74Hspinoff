@@ -643,6 +643,14 @@
                 <FreePromotion>
                     <PromotionType>PROMOTION_LOOTER</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_DRILL1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_DRILL2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>                         
             </FreePromotions>
             <FreePromotionUnitCombats>

@@ -368,7 +368,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -376,7 +376,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -384,7 +384,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -392,7 +392,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 				<BonusYieldModifier>
@@ -400,7 +400,7 @@
 					<YieldModifiers>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>3</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
