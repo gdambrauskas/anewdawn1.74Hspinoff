@@ -93,10 +93,6 @@
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
                 <FreePromotion>
-                    <PromotionType>PROMOTION_COMMANDO</PromotionType>
-                    <bFreePromotion>1</bFreePromotion>
-                </FreePromotion>
-                <FreePromotion>
                     <PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
@@ -651,7 +647,11 @@
                 <FreePromotion>
                     <PromotionType>PROMOTION_DRILL2</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
-                </FreePromotion>                         
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_UPGRADE_DISCOUNT2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>     
             </FreePromotions>
             <FreePromotionUnitCombats>
                 <FreePromotionUnitCombat>

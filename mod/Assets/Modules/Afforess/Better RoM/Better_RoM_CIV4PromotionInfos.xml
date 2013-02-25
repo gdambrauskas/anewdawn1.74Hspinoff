@@ -314,13 +314,13 @@
 			<iPowerMultiplierPercent>10</iPowerMultiplierPercent>
 		</PromotionInfo>
 		<PromotionInfo>
-			<Type>PROMOTION_WARMTH1</Type>
+			<Type>PROMOTION_UPGRADE_DISCOUNT1</Type>
 			<bTypeDependency>1</bTypeDependency>
 			<iAssetMultiplierPercent>0</iAssetMultiplierPercent>
 			<iPowerMultiplierPercent>0</iPowerMultiplierPercent>
 		</PromotionInfo>
 		<PromotionInfo>
-			<Type>PROMOTION_COLD1</Type>
+			<Type>PROMOTION_UPGRADE_DISCOUNT2</Type>
 			<bTypeDependency>1</bTypeDependency>
 			<iAssetMultiplierPercent>0</iAssetMultiplierPercent>
 			<iPowerMultiplierPercent>10</iPowerMultiplierPercent>
