@@ -1947,10 +1947,10 @@
 			</ImprovementYieldChanges>
 			<!-- Revolution Mod Start -->
 			<iRevIdxLocal>0</iRevIdxLocal>
-			<iRevIdxNational>2</iRevIdxNational>
+			<iRevIdxNational>4</iRevIdxNational>
 			<iRevIdxHolyCityGood>0</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>0</iRevIdxHolyCityBad>
-			<iRevIdxSwitchTo>20</iRevIdxSwitchTo>
+			<iRevIdxSwitchTo>100</iRevIdxSwitchTo>
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
 			<fRevIdxBadReligionMod>0</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>0</fRevIdxGoodReligionMod>
@@ -3035,7 +3035,7 @@
 			<iDistanceMaintenanceModifier>0</iDistanceMaintenanceModifier>
 			<iNumCitiesMaintenanceModifier>-15</iNumCitiesMaintenanceModifier>
 			<iCorporationMaintenanceModifier>0</iCorporationMaintenanceModifier>
-			<iExtraHealth>-1</iExtraHealth>
+			<iExtraHealth>-3</iExtraHealth>
 			<iFreeExperience>0</iFreeExperience>
 			<iWorkerSpeedModifier>50</iWorkerSpeedModifier>
 			<iImprovementUpgradeRateModifier>0</iImprovementUpgradeRateModifier>
@@ -3168,11 +3168,11 @@
 				</ImprovementYieldChange>
 			</ImprovementYieldChanges>
 			<!-- Revolution Mod Start -->
-			<iRevIdxLocal>1</iRevIdxLocal>
-			<iRevIdxNational>2</iRevIdxNational>
+			<iRevIdxLocal>2</iRevIdxLocal>
+			<iRevIdxNational>4</iRevIdxNational>
 			<iRevIdxHolyCityGood>0</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>0</iRevIdxHolyCityBad>
-			<iRevIdxSwitchTo>-50</iRevIdxSwitchTo>
+			<iRevIdxSwitchTo>100</iRevIdxSwitchTo>
 			<fRevIdxNationalityMod>0.2</fRevIdxNationalityMod>
 			<fRevIdxBadReligionMod>0</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>0</fRevIdxGoodReligionMod>
@@ -4681,13 +4681,13 @@
 			<FeatureHappinessChanges/>
 			<ImprovementYieldChanges/>
 			<!-- Revolution Mod Start -->
-			<iRevIdxLocal>2</iRevIdxLocal>
+			<iRevIdxLocal>4</iRevIdxLocal>
 			<iRevIdxNational>-1</iRevIdxNational>
 			<iRevIdxHolyCityGood>3</iRevIdxHolyCityGood>
 			<iRevIdxHolyCityBad>1</iRevIdxHolyCityBad>
-			<iRevIdxSwitchTo>50</iRevIdxSwitchTo>
+			<iRevIdxSwitchTo>100</iRevIdxSwitchTo>
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
-			<fRevIdxBadReligionMod>.5</fRevIdxBadReligionMod>
+			<fRevIdxBadReligionMod>1.0</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>.7</fRevIdxGoodReligionMod>
 			<iRevIdxDistanceModifier>0</iRevIdxDistanceModifier>
 			<fRevViolentMod>0.3</fRevViolentMod>
@@ -4799,7 +4799,7 @@
 			<iRevIdxHolyCityBad>3</iRevIdxHolyCityBad>
 			<iRevIdxSwitchTo>30</iRevIdxSwitchTo>
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
-			<fRevIdxBadReligionMod>.5</fRevIdxBadReligionMod>
+			<fRevIdxBadReligionMod>1.0</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>.5</fRevIdxGoodReligionMod>
 			<iRevIdxDistanceModifier>0</iRevIdxDistanceModifier>
 			<fRevViolentMod>0</fRevViolentMod>
@@ -5009,7 +5009,7 @@
 			<iRevIdxHolyCityBad>3</iRevIdxHolyCityBad>
 			<iRevIdxSwitchTo>-10</iRevIdxSwitchTo>
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
-			<fRevIdxBadReligionMod>0.2</fRevIdxBadReligionMod>
+			<fRevIdxBadReligionMod>0.5</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>0.5</fRevIdxGoodReligionMod>
 			<iRevIdxDistanceModifier>0</iRevIdxDistanceModifier>
 			<fRevViolentMod>0</fRevViolentMod>
@@ -5120,7 +5120,7 @@
 			<iRevIdxHolyCityBad>3</iRevIdxHolyCityBad>
 			<iRevIdxSwitchTo>0</iRevIdxSwitchTo>
 			<fRevIdxNationalityMod>0</fRevIdxNationalityMod>
-			<fRevIdxBadReligionMod>1.0</fRevIdxBadReligionMod>
+			<fRevIdxBadReligionMod>5.0</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>1.0</fRevIdxGoodReligionMod>
 			<iRevIdxDistanceModifier>0</iRevIdxDistanceModifier>
 			<fRevViolentMod>0</fRevViolentMod>
