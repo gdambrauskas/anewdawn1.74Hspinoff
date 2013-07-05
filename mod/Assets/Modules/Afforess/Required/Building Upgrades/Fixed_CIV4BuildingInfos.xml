@@ -7,26 +7,6 @@
 <Civ4BuildingInfos xmlns="x-schema:Fixed_CIV4BuildingsSchema.xml">
 	<BuildingInfos>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
-			<Type>BUILDING_STABLE</Type>
-			<ReplaceBuildings>
-				<ReplaceBuilding>
-					<BuildingClassType>BUILDINGCLASS_KNIGHT_STABLE</BuildingClassType>
-					<bReplace>1</bReplace>
-				</ReplaceBuilding>
-			</ReplaceBuildings>
-		</BuildingInfo>
-		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
-			<Type>BUILDING_MONGOL_GER</Type>
-			<ReplaceBuildings>
-				<ReplaceBuilding>
-					<BuildingClassType>BUILDINGCLASS_KNIGHT_STABLE</BuildingClassType>
-					<bReplace>1</bReplace>
-				</ReplaceBuilding>
-			</ReplaceBuildings>
-		</BuildingInfo>
-		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_ANTI_MISSILE_BATTERIES</BuildingClass>
 			<Type>BUILDING_ANTI_MISSILE_BATTERIES</Type>
 			<ReplaceBuildings>

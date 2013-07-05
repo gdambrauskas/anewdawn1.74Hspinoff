@@ -66,6 +66,35 @@ class RoMEventManager:
 		self.iBUILDING_CRUSADE = 0
 		self.iBUILDING_DJENNE = 0
 		self.iBUILDING_WORLD_BANK = 0
+		
+		# gvd nomad trait mounted unit spawn buildings start
+		self.building_stable = 0
+		self.building_ger = 0
+		self.nomad_trait = 0
+		self.sitting_bull = 0
+		self.nomad_leaders = []
+		
+		self.tech_chariotry = 0
+		self.unit_chariot = 0
+		
+		self.tech_horse_backriding = 0
+		self.unit_horseman = 0
+		
+		self.tech_horse_breeding = 0
+		self.unit_mounted_infantry = 0
+		self.unit_mounted_swordsman = 0
+		
+		self.tech_mounted_archery = 0
+		self.unit_horse_archer = 0
+		self.unit_keshik = 0
+		
+		self.tech_stirrup = 0
+		self.unit_light_cavalry = 0
+
+		self.tech_vertical_flight = 0
+		
+		# gvd nomad trait mounted unit spawn buildings end
+		
 		self.iTECH_KNOWLEDGE_MANAGEMENT = 0
 		self.iTECH_APPLIED_ECONOMICS = 0
 		self.m_iNetMessage_Colonist = 410
@@ -149,26 +178,47 @@ class RoMEventManager:
 				pCity.setNumRealBuilding(iUniqueBuilding, 1)
 				
 	def onLoadGame(self, argsList):
-
-		self.iBUILDING_CRUSADE = gc.getInfoTypeForString("BUILDING_CRUSADE")
-		self.iBUILDING_DJENNE = gc.getInfoTypeForString("BUILDING_DJENNE")
-		self.iBUILDING_WORLD_BANK = gc.getInfoTypeForString("BUILDING_WORLD_BANK")
-		self.iTECH_KNOWLEDGE_MANAGEMENT = gc.getInfoTypeForString("TECH_KNOWLEDGE_MANAGEMENT")
-		self.iTECH_APPLIED_ECONOMICS = gc.getInfoTypeForString("TECH_APPLIED_ECONOMICS")
-		self.iPROJECT_EDEN = gc.getInfoTypeForString("PROJECT_EDEN")
-		self.iUNIT_CRUSADER = gc.getInfoTypeForString("UNIT_CRUSADER")
-		self.iBUILDING_NANITE_DEFUSER = gc.getInfoTypeForString("BUILDING_NANITE_DEFUSER")
-		self.iTECH_FUNDAMENTALISM = gc.getInfoTypeForString("TECH_FUNDAMENTALISM")
+		self.initProperties()
 
 	def onGameStart(self, argsList):
 		'Called at the start of the game'
 		# def onBuildingBuilt / Additional tests variable
+		self.initProperties()
+	
+	def initProperties(self):
 		self.iBUILDING_CRUSADE = gc.getInfoTypeForString("BUILDING_CRUSADE")
 		self.iBUILDING_DJENNE = gc.getInfoTypeForString("BUILDING_DJENNE")
 		self.iBUILDING_WORLD_BANK = gc.getInfoTypeForString("BUILDING_WORLD_BANK")
+		
+		self.building_stable = gc.getInfoTypeForString("BUILDING_STABLE")
+		self.building_ger = gc.getInfoTypeForString("BUILDING_MONGOL_GER")
+		self.nomad_trait = gc.getInfoTypeForString("TRAIT_NOMAD")
+		self.sitting_bull = CvUtil.findInfoTypeNum(gc.getLeaderHeadInfo,gc.getNumLeaderHeadInfos(),"LEADER_SITTING_BULL")
+		for leader_name in ["LEADER_SITTING_BULL", "LEADER_KUBLAI_KHAN", "LEADER_GENGHIS_KHAN"]:
+			self.nomad_leaders.append(CvUtil.findInfoTypeNum(gc.getLeaderHeadInfo,gc.getNumLeaderHeadInfos(),leader_name))
+
+		self.tech_chariotry = gc.getInfoTypeForString("TECH_CHARIOTRY")
+		self.unit_chariot = gc.getInfoTypeForString("UNIT_CHARIOT")
+
+		self.tech_horse_backriding = gc.getInfoTypeForString("TECH_HORSEBACK_RIDING")
+		self.unit_horseman = gc.getInfoTypeForString("UNIT_HORSEMAN")
+
+		self.tech_horse_breeding = gc.getInfoTypeForString("TECH_HORSE_BREEDING")
+		self.unit_mounted_infantry = gc.getInfoTypeForString("UNIT_MOUNTED_INFANTRY")
+		self.unit_mounted_swordsman = gc.getInfoTypeForString("UNIT_MONGOL_MOUNTED_SWORDSMAN")
+
+		self.tech_mounted_archery = gc.getInfoTypeForString("TECH_MOUNTED_ARCHERY")
+		self.unit_horse_archer = gc.getInfoTypeForString("UNIT_HORSE_ARCHER")
+		self.unit_keshik = gc.getInfoTypeForString("UNIT_MONGOL_KESHIK")
+		
+		self.tech_stirrup = gc.getInfoTypeForString("TECH_STIRRUP")
+		self.unit_light_cavalry = gc.getInfoTypeForString("UNIT_LIGHT_CAVALRY")
+
+		self.tech_vertical_flight = gc.getInfoTypeForString("TECH_VERTICAL_FLIGHT")
+		
 		self.iTECH_KNOWLEDGE_MANAGEMENT = gc.getInfoTypeForString("TECH_KNOWLEDGE_MANAGEMENT")
 		self.iTECH_APPLIED_ECONOMICS = gc.getInfoTypeForString("TECH_APPLIED_ECONOMICS")
-		self.iPROJECT_EDEN = gc.getInfoTypeForString('PROJECT_EDEN')
+		self.iPROJECT_EDEN = gc.getInfoTypeForString("PROJECT_EDEN")
 		self.iUNIT_CRUSADER = gc.getInfoTypeForString("UNIT_CRUSADER")
 		self.iBUILDING_NANITE_DEFUSER = gc.getInfoTypeForString("BUILDING_NANITE_DEFUSER")
 		self.iTECH_FUNDAMENTALISM = gc.getInfoTypeForString("TECH_FUNDAMENTALISM")
@@ -191,46 +241,85 @@ class RoMEventManager:
 		# Crusade Start ##
 #		test = ( iGameTurn % 14 )
 #		BugUtil.info ( "crusade test: %d", test) 
-		if gc.getTeam(pPlayer.getTeam()).isHasTech(self.iTECH_FUNDAMENTALISM):
-			obsoleteTech = gc.getBuildingInfo(self.iBUILDING_CRUSADE).getObsoleteTech()
-			if ( gc.getTeam(pPlayer.getTeam()).isHasTech(obsoleteTech) == false or obsoleteTech == -1 ):
-#				BugUtil.info("RoM - crusader spawn, tech check passed")
-				for iCity in range(pPlayer.getNumCities()):
-					ppCity = pPlayer.getCity(iCity)
-					if ppCity.getNumActiveBuilding(self.iBUILDING_CRUSADE) == true:
-						iX = ppCity.getX()
-						iY = ppCity.getY()
-						estiEnd = CyGame().getEstimateEndTurn()
-						if ( estiEnd >= 1800 ):
-							if ( iGameTurn % 16 ) == 0:
-								for i in range(1):
-									pNewUnit = pPlayer.initUnit( self.iUNIT_CRUSADER, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-						elif ( estiEnd >= 1400 ):
-							if ( iGameTurn % 14 ) == 0:
-								for i in range(1):
-									pNewUnit = pPlayer.initUnit( self.iUNIT_CRUSADER, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-						elif ( estiEnd >= 1000 ):
-							if ( iGameTurn % 12 ) == 0:
-								for i in range(1):
-									pNewUnit = pPlayer.initUnit( self.iUNIT_CRUSADER, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-						elif ( estiEnd >= 700 ):
-							if ( iGameTurn % 8 ) == 0:
-								for i in range(1):
-									pNewUnit = pPlayer.initUnit( self.iUNIT_CRUSADER, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-						elif ( estiEnd >= 500 ):
-							if ( iGameTurn % 6 ) == 0:
-								for i in range(1):
-									pNewUnit = pPlayer.initUnit( self.iUNIT_CRUSADER, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-						elif ( estiEnd >= 300 ):
-							if ( iGameTurn % 4 ) == 0:
-								for i in range(1):
-									pNewUnit = pPlayer.initUnit( self.iUNIT_CRUSADER, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
-						else:
-							if ( iGameTurn % 4 ) == 0:
-								for i in range(1):
-									pNewUnit = pPlayer.initUnit( self.iUNIT_CRUSADER, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+		self.spawnCrusader(iGameTurn, pPlayer, self.iUNIT_CRUSADER, self.iBUILDING_CRUSADE, self.iTECH_FUNDAMENTALISM)
+		self.spawnNomadMountedUnits(iGameTurn, pPlayer)
 		# Crusade End #
-
+	
+	def spawnNomadMountedUnits(self, currentGameTurn, player):
+		if not self.isNomadLeader(player):
+			return
+		if gc.getTeam(player.getTeam()).isHasTech(self.tech_vertical_flight):
+			return
+		if not gc.getTeam(player.getTeam()).isHasTech(self.tech_chariotry):
+			return
+		self.spawnUnitInEachEligibleCity(currentGameTurn, player, self.getMountedUnitToSpawn(player), [self.building_stable, self.building_ger])
+	
+	def getMountedUnitToSpawn(self, player):
+		if gc.getTeam(player.getTeam()).isHasTech(self.tech_stirrup):
+			return self.unit_light_cavalry
+		if gc.getTeam(player.getTeam()).isHasTech(self.tech_mounted_archery):
+			if player.getLeaderType() == self.sitting_bull:
+				return self.unit_horse_archer
+			else:
+				return self.unit_keshik
+		if gc.getTeam(player.getTeam()).isHasTech(self.tech_horse_breeding):
+			if player.getLeaderType() == self.sitting_bull:
+				return self.unit_mounted_infantry
+			else:
+				return self.unit_mounted_swordsman
+		if gc.getTeam(player.getTeam()).isHasTech(self.tech_horse_backriding):
+			return self.unit_horseman
+		if gc.getTeam(player.getTeam()).isHasTech(self.tech_chariotry):
+			return self.unit_chariot
+	
+	def isNomadLeader(self, player):
+		return player.hasTrait(self.nomad_trait) and (player.getLeaderType() in self.nomad_leaders)
+	
+	def spawnCrusader(self, currentGameTurn, player, unit, building, tech):
+		if not gc.getTeam(player.getTeam()).isHasTech(tech):
+			return
+		obsoleteTech = gc.getBuildingInfo(building).getObsoleteTech()
+		if (obsoleteTech != -1 and gc.getTeam(player.getTeam()).isHasTech(obsoleteTech) == true):
+			return
+		# BugUtil.info("unit spawn, technology check passed")
+		self.spawnUnitInEachEligibleCity(currentGameTurn, player, unit, [building])
+		# Crusade End #
+	
+	def spawnUnitInEachEligibleCity(self, currentGameTurn, player, unit, enabling_buildings):
+		for iCity in range(player.getNumCities()):
+			ppCity = player.getCity(iCity)
+			can_build_unit = false
+			for enabling_building in enabling_buildings:
+				if ppCity.getNumActiveBuilding(enabling_building) == true:
+					can_build_unit = true
+					break
+			if not can_build_unit:
+				continue
+			iX = ppCity.getX()
+			iY = ppCity.getY()
+			estiEnd = CyGame().getEstimateEndTurn()
+			if ( estiEnd >= 1800 ):
+				if ( currentGameTurn % 16 ) == 0:
+					pNewUnit = player.initUnit(unit, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+			elif ( estiEnd >= 1400 ):
+				if ( currentGameTurn % 14 ) == 0:
+					pNewUnit = player.initUnit(unit, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+			elif ( estiEnd >= 1000 ):
+				if ( currentGameTurn % 12 ) == 0:
+					pNewUnit = player.initUnit(unit, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+			elif ( estiEnd >= 700 ):
+				if ( currentGameTurn % 8 ) == 0:
+					pNewUnit = player.initUnit(unit, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+			elif ( estiEnd >= 500 ):
+				if ( currentGameTurn % 6 ) == 0:
+					pNewUnit = player.initUnit(unit, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+			elif ( estiEnd >= 300 ):
+				if ( currentGameTurn % 4 ) == 0:
+					pNewUnit = player.initUnit(unit, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+			else:
+				if ( currentGameTurn % 4 ) == 0:
+					pNewUnit = player.initUnit(unit, iX, iY, UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.NO_DIRECTION )
+	
 	def onBuildingBuilt(self, argsList):
 		'Building Completed'
 		pCity, iBuildingType = argsList
