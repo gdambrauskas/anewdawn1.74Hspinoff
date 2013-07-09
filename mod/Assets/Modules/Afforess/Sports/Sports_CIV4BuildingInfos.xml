@@ -2059,6 +2059,18 @@
 			<PrereqTech>TECH_MARTIAL_ARTS</PrereqTech>
 			<FreePromotion>PROMOTION_MARTIAL_ARTS</FreePromotion>
 			<iAIWeight>15</iAIWeight>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_AGGRESSIVE</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_AGGRESSIVE</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<iCost>75</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -2111,6 +2123,18 @@
 			<FreePromotion>PROMOTION_MARTIAL_ARTS</FreePromotion>
 			<FreePromotion_2>PROMOTION_MARTIAL_ARTS2</FreePromotion_2>
 			<iAIWeight>5</iAIWeight>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_AGGRESSIVE</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_AGGRESSIVE</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<iCost>100</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaxLatitude>90</iMaxLatitude>

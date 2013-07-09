@@ -324,6 +324,9 @@
 	<ElementType name="bNonStateReligionCommerce" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bUpgradeAnywhere" content="textOnly" dt:type="boolean"/>
 	<!-- End Phungus Traits -->
+	<!-- gvd start-->
+	<ElementType name="iHappyPerMilitary" content= "textOnly" dt:type="int"/>
+	<!-- gvd end-->
 	<ElementType name="iExtraYieldThreshold" content="textOnly" dt:type="int"/>
 	<ElementType name="ExtraYieldThresholds" content="eltOnly">
 		<element type="iExtraYieldThreshold" minOccurs="0" maxOccurs="*"/>

@@ -58,7 +58,12 @@
 			<TechPrereq>TECH_MEDITATION</TechPrereq>
 			<TechPrereqAnyone>NONE</TechPrereqAnyone>
 			<bValid>1</bValid>
-			<ProductionTraits/>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
 			<Button>Art/Interface/Buttons/Buildings/Monastery_Hindu.dds</Button>
 		</SpecialBuildingInfo>
 		<SpecialBuildingInfo>

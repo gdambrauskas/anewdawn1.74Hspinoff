@@ -6493,8 +6493,24 @@ int CvCity::badHealth(bool bNoAngry, int iExtra) const
 	}
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
-/************************************************************************************************/	
-	return (unhealthyPopulation(bNoAngry, iExtra) - iTotalHealth);
+/************************************************************************************************/
+	// gvd start
+	// humanitarian trait has total bad health cut in half
+	int iFinalBadHealth = (unhealthyPopulation(bNoAngry, iExtra) - iTotalHealth);
+	CvString traitHumanitarianType = CvString::format("TRAIT_HUMANITARIAN").GetCString();
+	for (int i = 0; i < GC.getNumTraitInfos(); i++)
+	{
+		if (hasTrait((TraitTypes)i))
+		{
+			CvTraitInfo& trait = GC.getTraitInfo((TraitTypes)i);
+			if (trait.getType() == traitHumanitarianType) {
+				iFinalBadHealth /=2;
+				break;
+			}
+		}
+	}
+	// gvd end
+	return iFinalBadHealth;
 }
 
 
@@ -7411,6 +7427,21 @@ void CvCity::setPopulation(int iNewValue)
 		plot()->updateYield();
 
 		updateMaintenance();
+		// gvd start
+		// expansive trait gets no polution from population
+		CvString traitExpansiveType = CvString::format("TRAIT_EXPANSIVE").GetCString();
+		for (int i = 0; i < GC.getNumTraitInfos(); i++)
+		{
+			if (hasTrait((TraitTypes)i))
+			{
+				CvTraitInfo& trait = GC.getTraitInfo((TraitTypes)i);
+				if (trait.getType() == traitExpansiveType) {
+					changeNoUnhealthyPopulationCount(getHighestPopulation());
+					break;
+				}
+			}
+		}
+		// gvd end
 
 		if (((iOldPopulation == 1) && (getPopulation() > 1)) ||
 			  ((getPopulation() == 1) && (iOldPopulation > 1))
@@ -7433,8 +7464,7 @@ void CvCity::setPopulation(int iNewValue)
 		{
 			gDLL->getInterfaceIFace()->setDirty(SelectionButtons_DIRTY_BIT, true);
 			gDLL->getInterfaceIFace()->setDirty(CityScreen_DIRTY_BIT, true);
-		}
-
+		}		
 		//updateGenericBuildings();
 	}
 }
@@ -10609,6 +10639,9 @@ void CvCity::setCultureLevel(CultureLevelTypes eNewValue, bool bUpdatePlotGroups
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
+				// gvd start
+				spawnGreatPersonForCreativeOwner();
+				// gvd end
 				if (getCultureLevel() == (GC.getNumCultureLevelInfos() - 1))
 				{
 					for (iI = 0; iI < MAX_PLAYERS; iI++)
@@ -19522,7 +19555,53 @@ int CvCity::getImprovementBadHealth() const
 {
 	return m_iImprovementBadHealth;
 }
+// gvd start
+void CvCity::spawnGreatPersonForCreativeOwner() // gvd what does const mean?
+{	
+	CvString traitCreativeType = CvString::format("TRAIT_CREATIVE").GetCString();
+	for (int i = 0; i < GC.getNumTraitInfos(); i++)
+	{
+		if (hasTrait((TraitTypes)i))
+		{
+			CvTraitInfo& trait = GC.getTraitInfo((TraitTypes)i);
+			if (trait.getType() == traitCreativeType) {
+				// pop a random great person in this city.
+				SpecialistTypes eSpecialistType = (SpecialistTypes)0;
+				CvString priestType = CvString::format("SPECIALIST_PRIEST").GetCString();
+				CvString artistType = CvString::format("SPECIALIST_ARTIST").GetCString();
+				CvString scientistType = CvString::format("SPECIALIST_SCIENTIST").GetCString();
+				CvString merchantType = CvString::format("SPECIALIST_MERCHANT").GetCString();
+				CvString engineerType = CvString::format("SPECIALIST_ENGINEER").GetCString();
+				CvString spyType = CvString::format("SPECIALIST_SPY").GetCString();
+				int randomSpecialistType = GC.getGameINLINE().getSorenRandNum(6, "Random specialist choice for creative leader.");
+				for (int iSpecialist = 0; iSpecialist < GC.getNumSpecialistInfos(); iSpecialist++)
+				{					
+					eSpecialistType = (SpecialistTypes)iSpecialist;
+					CvSpecialistInfo& specialistInfo = GC.getSpecialistInfo(eSpecialistType);
+					if (specialistInfo.getGreatPeopleUnitClass() != NO_UNITCLASS)
+					{	
+						if (specialistInfo.getType() == priestType && randomSpecialistType == 0 ||
+							specialistInfo.getType() == artistType && randomSpecialistType == 1 ||
+							specialistInfo.getType() == scientistType && randomSpecialistType == 2 ||
+							specialistInfo.getType() == merchantType && randomSpecialistType == 3 ||
+							specialistInfo.getType() == engineerType && randomSpecialistType == 4 ||
+							specialistInfo.getType() == spyType && randomSpecialistType == 5) {
+							UnitTypes eGreatPeopleUnit = ((UnitTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(GC.getSpecialistInfo(eSpecialistType).getGreatPeopleUnitClass())));
 
+							if (eGreatPeopleUnit != NO_UNIT)
+							{
+								createGreatPeople(eGreatPeopleUnit, false, false);
+								break;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}
+// gvd end
 void CvCity::updateImprovementHealth()
 {
 	CvPlayer &kPlayer = GET_PLAYER(getOwnerINLINE());

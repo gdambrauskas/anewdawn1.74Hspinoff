@@ -20,7 +20,7 @@
 					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
-			<iCost>75</iCost>
+			<iCost>150</iCost>
 			<iConquestProb>90</iConquestProb>
 			<iHealth>-2</iHealth>
 			<iAsset>4</iAsset>
@@ -54,7 +54,13 @@
 			<Strategy>TXT_KEY_BUILDING_ARROW_SLITS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ARROW_SLITS</ArtDefineTag>
-			<iCost>40</iCost>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<iCost>150</iCost>
 			<iConquestProb>40</iConquestProb>
 			<iAsset>8</iAsset>
 			<iPower>8</iPower>
@@ -102,7 +108,7 @@
 					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
-			<iCost>100</iCost>
+			<iCost>200</iCost>
 			<iAsset>6</iAsset>
 			<iPower>12</iPower>
 			<ConstructSound>AS2D_BUILD_CASTLE</ConstructSound>
@@ -137,7 +143,13 @@
 			<Strategy>TXT_KEY_BUILDING_UNDERGROUND_TUNNELS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_UNDERGROUND_TUNNELS</ArtDefineTag>
-			<iCost>80</iCost>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<iCost>160</iCost>
 			<CommerceModifiers>
 				<iCommerce>10</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -173,7 +185,13 @@
 			<Strategy>TXT_KEY_BUILDING_KEEP_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_KEEP</ArtDefineTag>
-			<iCost>500</iCost>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<iCost>1000</iCost>
 			<iDefense>50</iDefense>
 			<iAsset>15</iAsset>
 			<iPower>25</iPower>
@@ -213,7 +231,13 @@
 			<Strategy>TXT_KEY_BUILDING_HEAVY_GATES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HEAVY_GATES</ArtDefineTag>
-			<iCost>75</iCost>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<iCost>200</iCost>
 			<iAsset>8</iAsset>
 			<iPower>10</iPower>
 			<ConstructSound>AS2D_BUILD_CASTLE</ConstructSound>
@@ -246,7 +270,19 @@
 			<Strategy>TXT_KEY_BUILDING_HERBALIST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HERBALIST</ArtDefineTag>
-			<iCost>50</iCost>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_HUMANITARIAN</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_HUMANITARIAN</HappinessTraitType>
+					<iHappinessTrait>2</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
+			<iCost>150</iCost>
 			<iAsset>5</iAsset>
 			<iPower>3</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -279,7 +315,19 @@
 			<Strategy>TXT_KEY_BUILDING_DUNGEON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DUNGEON</ArtDefineTag>
-			<iCost>60</iCost>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_DECEIVER</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_DECEIVER</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
+			<iCost>150</iCost>
 			<iAsset>4</iAsset>
 			<iPower>4</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -311,7 +359,13 @@
 			<Strategy>TXT_KEY_BUILDING_MURDER_HOLES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MURDER_HOLES</ArtDefineTag>
-			<iCost>35</iCost>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<iCost>150</iCost>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<ConstructSound>AS2D_BUILD_ARROW</ConstructSound>

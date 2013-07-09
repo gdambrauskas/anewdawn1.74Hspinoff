@@ -5863,6 +5863,10 @@ public:
 /********************************************************************************/
 /**		REVDCM									END								*/
 /********************************************************************************/
+    // gvd start
+	int getHappyPerMilitaryUnit() const;
+	// gvd end
+
 
 	const TCHAR* getShortDescription() const;				// Exposed to Python
 	void setShortDescription(const TCHAR* szVal);			
@@ -5921,7 +5925,9 @@ protected:
 /********************************************************************************/
 /**		REVDCM									END								*/
 /********************************************************************************/
-
+	//gvd start
+	int m_happyPerMilitaryUnit;
+	//gvd end
 	CvString m_szShortDescription;
 
 	// Arrays

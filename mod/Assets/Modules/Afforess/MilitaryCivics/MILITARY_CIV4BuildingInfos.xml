@@ -83,6 +83,18 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARCHING_PAVILION</ArtDefineTag>
 			<ObsoleteTech>TECH_COMMUNICATION_NETWORKS</ObsoleteTech>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_AGGRESSIVE</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_AGGRESSIVE</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<iCost>150</iCost>
 			<iConquestProb>55</iConquestProb>
 			<iExperience>2</iExperience>

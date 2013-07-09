@@ -338,6 +338,12 @@ void CvPlayer::init(PlayerTypes eID)
 /************************************************************************************************/
 /* REVDCM                                  END                                                  */
 /************************************************************************************************/
+				//gvd start
+				if ( GC.getTraitInfo((TraitTypes)iI).getHappyPerMilitaryUnit() != 0 )
+				{
+					changeHappyPerMilitaryUnit(GC.getTraitInfo((TraitTypes)iI).getHappyPerMilitaryUnit());
+				}
+				// gvd end
 
 /************************************************************************************************/
 /* Afforess	                  Start		 01/31/10                                               */

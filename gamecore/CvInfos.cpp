@@ -27498,7 +27498,9 @@ m_bUpgradeAnywhere(false),
 /********************************************************************************/
 /**		REVDCM									END								*/
 /********************************************************************************/
-
+//gvd start
+m_happyPerMilitaryUnit(0),
+// gvd end
 m_paiExtraYieldThreshold(NULL),
 m_paiTradeYieldModifier(NULL),
 m_paiCommerceChange(NULL),
@@ -27639,6 +27641,13 @@ bool CvTraitInfo::isUpgradeAnywhere() const
 /**		REVDCM									END								*/
 /********************************************************************************/
 
+// gvd start
+int CvTraitInfo::getHappyPerMilitaryUnit() const
+{
+	return m_happyPerMilitaryUnit;
+}
+// gvd end
+
 const TCHAR* CvTraitInfo::getShortDescription() const
 {
 	return m_szShortDescription; 
@@ -27722,6 +27731,9 @@ bool CvTraitInfo::read(CvXMLLoadUtility* pXML)
 /********************************************************************************/
 /**		REVDCM									END								*/
 /********************************************************************************/
+	// gvd start
+	pXML->GetChildXmlValByName(&m_happyPerMilitaryUnit, "iHappyPerMilitaryUnit");
+	// gvd end
 
 	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "ExtraYieldThresholds"))
 	{
@@ -27799,7 +27811,10 @@ void CvTraitInfo::copyNonDefaults(CvTraitInfo* pClassInfo, CvXMLLoadUtility* pXM
 	if (getMaxGlobalBuildingProductionModifier() == iDefault) m_iMaxGlobalBuildingProductionModifier = pClassInfo->getMaxGlobalBuildingProductionModifier();
 	if (getMaxTeamBuildingProductionModifier() == iDefault) m_iMaxTeamBuildingProductionModifier = pClassInfo->getMaxTeamBuildingProductionModifier();
 	if (getMaxPlayerBuildingProductionModifier() == iDefault) m_iMaxPlayerBuildingProductionModifier = pClassInfo->getMaxPlayerBuildingProductionModifier();
-	
+	//gvd start
+	// not sure if this is need?
+	if (getHappyPerMilitaryUnit() == iDefault) m_happyPerMilitaryUnit = pClassInfo->getHappyPerMilitaryUnit();
+	// gvd end
 	for ( int j = 0; j < NUM_YIELD_TYPES; j++ )
 	{
 		if (m_paiExtraYieldThreshold[j] == iDefault)
