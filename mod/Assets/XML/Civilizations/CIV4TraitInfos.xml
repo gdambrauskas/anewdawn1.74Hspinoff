@@ -498,9 +498,9 @@
 			<!-- gvd end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers>
-			  <iYield>20</iYield>
-			  <iYield>20</iYield>
-			  <iYield>20</iYield>
+			  <iYield>30</iYield>
+			  <iYield>30</iYield>
+			  <iYield>30</iYield>
 			</TradeYieldModifiers>
 			<CommerceChanges/>
 			<CommerceModifiers/>
@@ -542,6 +542,14 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
+			    <FreePromotion>
+                    <PromotionType>PROMOTION_UPGRADE_DISCOUNT1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_UPGRADE_DISCOUNT2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
 				<FreePromotion>
 					<PromotionType>PROMOTION_FLANKING1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -696,6 +704,10 @@
                 </FreePromotion>
                 <FreePromotion>
                     <PromotionType>PROMOTION_DRILL2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_UPGRADE_DISCOUNT1</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
                 <FreePromotion>

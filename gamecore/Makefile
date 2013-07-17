@@ -7,7 +7,7 @@ TOOLKIT=W:\games-info\_game_files\civilization4\modding-development\Microsoft Vi
 PSDK=W:\games-info\_game_files\civilization4\modding-development\WindowsSDK-v6
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
 #YOURMOD=C:\Users\Danny\Documents\My Games\beyond the sword\MODS\MyMod
-YOURMOD=W:\games\civ4\Beyond the Sword\Mods\gandtest
+YOURMOD=W:\games\civ4\Beyond the Sword\Mods\gand
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"

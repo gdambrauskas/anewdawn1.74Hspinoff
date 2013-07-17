@@ -15980,8 +15980,13 @@ void CvUnit::applyEvent(EventTypes eEvent)
 }
 
 const CvArtInfoUnit* CvUnit::getArtInfo(int i, EraTypes eEra) const
-{
-	return m_pUnitInfo->getArtInfo(i, eEra, (UnitArtStyleTypes) GC.getCivilizationInfo(getCivilizationType()).getUnitArtStyleType());
+{	
+	// gvd: bug fix by me(not sure if it was real bug), lion would get here with civ type = -1
+	UnitArtStyleTypes unitArtStyleType = NO_UNIT_ARTSTYLE;
+	if (NO_CIVILIZATION != getCivilizationType()) {
+		unitArtStyleType = (UnitArtStyleTypes) GC.getCivilizationInfo(getCivilizationType()).getUnitArtStyleType();
+	}
+	return m_pUnitInfo->getArtInfo(i, eEra, unitArtStyleType);
 }
 
 const TCHAR* CvUnit::getButton() const

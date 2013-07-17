@@ -3627,7 +3627,9 @@ void CvGame::setModem(bool bModem)
 /*                                                                                              */
 /************************************************************************************************/
 void CvGame::revivePlayer(PlayerTypes iPlayer)
-{
+{	
+	// gvd bug fix temp: game was crashing with player 49 failing to be found by gamecore.
+	return;
 	if (!(GET_PLAYER(iPlayer).isAlive()))
 	{
 		setAIAutoPlay(iPlayer, 0);
@@ -3650,7 +3652,9 @@ void CvGame::revivePlayer(PlayerTypes iPlayer)
 }
 
 void CvGame::reviveActivePlayer()
-{
+{	
+	// gvd bug fix temp: game was crashing with player 49 failing to be found by gamecore.
+	return;
 	if (!(GET_PLAYER(getActivePlayer()).isAlive()))
 	{
 		setAIAutoPlay(getActivePlayer(), 0);
