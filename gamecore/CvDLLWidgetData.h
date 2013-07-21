@@ -225,6 +225,11 @@ public:
 // BUG - Trade Hover - start
 	void parseTradeRoutes(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 // BUG - Trade Hover - end
+
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	void parsePandemicHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
+	// MOD - END - Pandemics
 /************************************************************************************************/
 /* Afforess	                  Start		 01/13/10                                               */
 /*                                                                                              */

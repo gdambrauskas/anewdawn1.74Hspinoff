@@ -163,7 +163,7 @@
 			<Type>TRAIT_EXPANSIVE</Type>
 			<Description>TXT_KEY_TRAIT_EXPANSIVE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_EXPANSIVE_SHORT</ShortDescription>
-			<iHealth>5</iHealth>
+			<iHealth>0</iHealth>
 			<iHappiness>0</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>-25</iUpkeepModifier>
@@ -598,7 +598,7 @@
 			<Type>TRAIT_AGRICULTURAL</Type>
 			<Description>TXT_KEY_TRAIT_AGRICULTURAL</Description>
 			<ShortDescription>TXT_KEY_TRAIT_AGRICULTURAL_SHORT</ShortDescription>
-			<iHealth>5</iHealth>
+			<iHealth>0</iHealth>
 			<iHappiness>0</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>0</iUpkeepModifier>
@@ -867,7 +867,7 @@
 			<Type>TRAIT_HUMANITARIAN</Type>
 			<Description>TXT_KEY_TRAIT_HUMANITARIAN</Description>
 			<ShortDescription>TXT_KEY_TRAIT_HUMANITARIAN_SHORT</ShortDescription>
-			<iHealth>5</iHealth>
+			<iHealth>0</iHealth>
 			<iHappiness>2</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
 			<iUpkeepModifier>-25</iUpkeepModifier>

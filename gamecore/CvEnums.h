@@ -572,6 +572,11 @@ enum WidgetTypes					// Exposed to Python
 	WIDGET_GLOBELAYER_OPTION,
 	WIDGET_GLOBELAYER_TOGGLE,
 
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	WIDGET_HELP_PANDEMIA,
+	// MOD - END - Pandemics
+
 // BUG - Min/Max Commerce Rate - start
 	WIDGET_SET_PERCENT,
 // BUG - Min/Max Commerce Rate - end

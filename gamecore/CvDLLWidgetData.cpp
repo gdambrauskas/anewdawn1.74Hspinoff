@@ -649,6 +649,13 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 		parseCommerceModHelp(widgetDataStruct, szBuffer);
 		break;
 
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	case WIDGET_HELP_PANDEMIA:
+		parsePandemicHelp(widgetDataStruct, szBuffer);
+		break;
+	// MOD - END - Pandemics
+
 // BUG - Trade Hover - start
 	case WIDGET_TRADE_ROUTES:
 		parseTradeRoutes(widgetDataStruct, szBuffer);
@@ -6275,6 +6282,21 @@ void CvDLLWidgetData::parseScoreHelp(CvWidgetDataStruct& widgetDataStruct, CvWSt
 {
 	GAMETEXT.setScoreHelp(szBuffer, (PlayerTypes)widgetDataStruct.m_iData1);
 }
+
+// MOD - START - Pandemics
+// Pandemic system by Mexico
+void CvDLLWidgetData::parsePandemicHelp(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer)
+{
+	CvCity* pHeadSelectedCity;
+
+	pHeadSelectedCity = gDLL->getInterfaceIFace()->getHeadSelectedCity();
+
+	if (pHeadSelectedCity != NULL)
+	{
+		GAMETEXT.setPandemicHelp(szBuffer, *pHeadSelectedCity);
+	}
+}
+// MOD - END - Pandemics
 
 // BUG - Trade Hover - start
 void CvDLLWidgetData::parseTradeRoutes(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer)

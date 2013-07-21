@@ -747,4 +747,70 @@
 		<DefineName>MIN_POP_CONSIDER_INQUISITORS</DefineName>
 		<iDefineIntVal>7</iDefineIntVal>
 	</Define>
+	<!-- Pandemic system by Mexico -->
+    <Define>
+        <DefineName>PANDEMIC_TRADE_RATE</DefineName>
+        <iDefineIntVal>25</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_TURN_RATE_SPREAD</DefineName>
+        <iDefineIntVal>20</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_TURN_RATE_IMMUNIZE</DefineName>
+        <iDefineIntVal>20</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_TURN_IMMUNE</DefineName>
+        <iDefineIntVal>4</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_KILL_PER_TURN</DefineName>
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_CITY_DAMAGE_PER_TURN</DefineName>
+        <iDefineIntVal>20</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_AROUND_DAMAGE_PER_TURN</DefineName>
+        <iDefineIntVal>15</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_MIN_DAMAGE</DefineName>
+        <iDefineIntVal>50</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_MAX_CHANCE</DefineName>
+        <iDefineIntVal>100</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_MIN_CHANCE</DefineName>
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_MIN_CITY_SIZE</DefineName>
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_RAND_BASE</DefineName>
+        <iDefineIntVal>100</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_CITY_IMMUNE_AFTER_PANDEMIA</DefineName>
+        <iDefineIntVal>5</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_MIN_TURNS</DefineName>
+        <iDefineIntVal>2</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_MAX_TURNS</DefineName>
+        <iDefineIntVal>6</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PANDEMIC_RANDOM_ROUND</DefineName>
+        <iDefineIntVal>2</iDefineIntVal>
+    </Define>
+    <!-- Pandemic system by Mexico END -->
 </Civ4Defines>

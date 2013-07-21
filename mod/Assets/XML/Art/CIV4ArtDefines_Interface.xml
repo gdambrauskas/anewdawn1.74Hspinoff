@@ -1688,6 +1688,21 @@
 			<Type>INTERFACE_BUTTON_NULL</Type>
 			<Path>Art/BUG/Null.dds</Path>
 		</InterfaceArtInfo>
-
+        
+        <!-- Pandemia - Start -->
+        <InterfaceArtInfo>
+            <Type>PANDEMIC_START</Type>
+            <Path>Art/Interface/Buttons/Pandemic/pandemicstart.dds</Path>
+        </InterfaceArtInfo>
+        <InterfaceArtInfo>
+            <Type>PANDEMIC_END</Type>
+            <Path>Art/Interface/Buttons/Pandemic/pandemicend.dds</Path>
+        </InterfaceArtInfo>
+        <InterfaceArtInfo>
+            <Type>PANDEMIC_KILL</Type>
+            <Path>Art/Interface/Buttons/Pandemic/pandemicdie.dds</Path>
+        </InterfaceArtInfo>
+        <!-- Pandemia - End   -->
+        
 	</InterfaceArtInfos>
 </Civ4ArtDefines>

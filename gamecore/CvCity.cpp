@@ -592,7 +592,10 @@ void CvCity::reset(int iID, PlayerTypes eOwner, int iX, int iY, bool bConstructo
 	m_iCitySizeBoost = 0;
 	m_iSpecialistFreeExperience = 0;
 	m_iEspionageDefenseModifier = 0;
-
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	m_iPandemicTurns = 0;
+	// MOD - END - Pandemics
 /************************************************************************************************/
 /* Afforess	                  Start		 12/7/09                                                */
 /*                                                                                              */
@@ -1422,6 +1425,12 @@ void CvCity::doTurn()
 /************************************************************************************************/
 /* Afforess	                                 END                                                */
 /************************************************************************************************/
+
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	doPandemic();
+	// MOD - END - Pandemics
+
 	setCurrAirlift(0);
 
 	AI_doTurn();
@@ -13990,6 +13999,107 @@ void CvCity::changeEspionageDefenseModifier(int iChange)
 	}
 }
 
+
+// MOD - START - Pandemics
+// Pandemic system by Mexico
+int CvCity::getPandemicTurns() const
+{
+	return m_iPandemicTurns;
+}
+
+
+bool CvCity::isPandemic() const
+{
+	return (getPandemicTurns() > 0);
+}
+
+
+bool CvCity::isImmune() const
+{
+	return (getPandemicTurns() < 0);
+}
+
+
+void CvCity::setPandemicTurns(int iNewValue)
+{
+	m_iPandemicTurns = iNewValue;
+}
+
+
+void CvCity::changePandemicTurns(int iChange)
+{
+	if (0 != iChange)
+	{
+		setPandemicTurns(getPandemicTurns() + iChange);
+	}
+}
+
+
+int CvCity::getPandemicProbabilityPercent() const
+{
+	return getPandemicProbability();
+}
+
+int CvCity::getPandemicProbability() const
+{	
+	CvCity* pLoopCity;
+	int iProbability = 0;
+	// Check for immunity
+	if (isImmune())
+	{
+		return 0;
+	}
+
+	// Check for minimum turns
+	if (isPandemic() && (GC.getDefineINT("PANDEMIC_MIN_TURNS")!= -1) && (getPandemicTurns() < GC.getDefineINT("PANDEMIC_MIN_TURNS")))
+	{
+		return GC.getDefineINT("PANDEMIC_RAND_BASE");
+	}
+
+	// Check for maximum turns
+	if (isPandemic() && (GC.getDefineINT("PANDEMIC_MAX_TURNS")!= -1) && (getPandemicTurns() >= GC.getDefineINT("PANDEMIC_MAX_TURNS")))
+	{
+		return 0;
+	}
+
+	// Unhealthiness
+	// We must negate this, because healthRate returns negative points
+	iProbability += (-(healthRate(false,0)));
+
+	// Trade routes with infected cities
+	for (int iI = 0; iI < GC.getDefineINT("MAX_TRADE_ROUTES"); iI++)
+	{
+		pLoopCity = getTradeCity(iI);
+		if (pLoopCity != NULL)
+		{
+			if(pLoopCity->isPandemic())
+			{
+				iProbability += GC.getDefineINT("PANDEMIC_TRADE_RATE");
+			}
+		}
+	}
+
+	// Number of turns
+	if (isPandemic())
+	{
+		if ( getPandemicTurns() <  GC.getDefineINT("PANDEMIC_TURN_IMMUNE"))
+		{
+			iProbability += GC.getDefineINT("PANDEMIC_TURN_RATE_SPREAD");
+		}
+		else
+		{
+			iProbability -= GC.getDefineINT("PANDEMIC_TURN_RATE_IMMUNIZE");
+		}
+	}
+
+	// Limits
+	iProbability = std::min(iProbability, GC.getDefineINT("PANDEMIC_MAX_CHANCE"));
+	iProbability = std::max(iProbability, GC.getDefineINT("PANDEMIC_MIN_CHANCE"));
+
+	return iProbability;
+}
+// MOD - END - Pandemics
+
 bool CvCity::isWorkingPlot(int iIndex) const
 {
 	FAssertMsg(iIndex >= 0, "iIndex expected to be >= 0");
@@ -16698,6 +16808,101 @@ void CvCity::doMeltdown()
 		}
 	}
 }
+// gvd
+// MOD - START - Pandemics
+// Pandemic system by Mexico
+void CvCity::doPandemic()
+{
+	CvWString szMessage;
+
+	if (isImmune())
+	{
+		if (isPandemic())
+		{
+			doEndPandemic();
+		}
+		else
+		{
+			changePandemicTurns(1);
+		}
+		return;
+	}
+
+	int finalSpreadChance = getPandemicProbability();
+
+	if (finalSpreadChance <= 0)
+	{
+		if (isPandemic())
+		{
+			doEndPandemic();
+		}
+		return;
+	}
+
+	int randRate = 0;
+	int rounds = std::max(1,GC.getDefineINT("PANDEMIC_RANDOM_ROUND"));
+
+	for (int i=0; i<rounds; i++)
+	{
+		randRate += GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("PANDEMIC_RAND_BASE"),"Pandemic spread chance generator");
+	}
+	randRate /= rounds;
+
+	if (finalSpreadChance >= randRate)
+	{
+		// Pandemic code
+
+		// Display message if pandemia is started
+		if (getPandemicTurns() == 0)
+		{
+			szMessage = gDLL->getText("TXT_KEY_PANDEMIA_STRIKE", getName().GetCString());
+			gDLL->getInterfaceIFace()->addHumanMessage(getOwnerINLINE(), false, GC.getDefineINT("EVENT_MESSAGE_TIME"), szMessage, "AS2D_DESTROY", MESSAGE_TYPE_MAJOR_EVENT, ARTFILEMGR.getInterfaceArtInfo("PANDEMIC_START")->getPath(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), getX_INLINE(), getY_INLINE(), true, true);
+		}
+
+		// do somethig wrong : kill a citizens! - but don't go under min size
+		int kpt = GC.getDefineINT("PANDEMIC_KILL_PER_TURN");
+		int oldPop = getPopulation();
+		int minPop = GC.getDefineINT("PANDEMIC_MIN_CITY_SIZE");
+		if (oldPop > minPop)
+		{
+			setPopulation(std::max(minPop,oldPop-kpt));
+			szMessage = gDLL->getText("TXT_KEY_PANDEMIA_KILL", getName().GetCString(), getPopulation());
+			gDLL->getInterfaceIFace()->addHumanMessage(getOwnerINLINE(), false, GC.getDefineINT("EVENT_MESSAGE_TIME"), szMessage, NULL, MESSAGE_TYPE_MAJOR_EVENT, ARTFILEMGR.getInterfaceArtInfo("PANDEMIC_KILL")->getPath(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), getX_INLINE(), getY_INLINE(), true, true);
+		}
+
+		changePandemicTurns(1);
+		// health damage for stationed units
+		// ......
+		//szMessage = gDLL->getText("TXT_KEY_PANDEMIA_CITY_UNIT_DAMAGED", getName().GetCString());
+		//gDLL->getInterfaceIFace()->addHumanMessage(getOwnerINLINE(), false, GC.getDefineINT("EVENT_MESSAGE_TIME"), szMessage, "", MESSAGE_TYPE_MINOR_EVENT, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"));
+		// health damage for units around city
+		// .......
+		//szMessage = gDLL->getText("TXT_KEY_PANDEMIA_AROUND_UNIT_DAMAGED", getName().GetCString());
+		//gDLL->getInterfaceIFace()->addHumanMessage(getOwnerINLINE(), false, GC.getDefineINT("EVENT_MESSAGE_TIME"), szMessage, "", MESSAGE_TYPE_MINOR_EVENT, NULL, (ColorTypes)GC.getInfoTypeForString("COLOR_RED"));		
+	}
+	else
+	{
+		if (isPandemic())
+		{
+			doEndPandemic();
+		}
+	}
+
+	return;
+}
+
+
+void CvCity::doEndPandemic()
+{
+	CvWString szMessage;
+
+	// Display message if pandemia is ended
+	szMessage = gDLL->getText("TXT_KEY_PANDEMIA_STRIKE_END", getName().GetCString());
+	gDLL->getInterfaceIFace()->addHumanMessage(getOwnerINLINE(), false, GC.getDefineINT("EVENT_MESSAGE_TIME"), szMessage, NULL, MESSAGE_TYPE_MINOR_EVENT, ARTFILEMGR.getInterfaceArtInfo("PANDEMIC_END")->getPath(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), getX_INLINE(), getY_INLINE(), true, true);
+	// set counters to immune turn
+	setPandemicTurns( -GC.getDefineINT("PANDEMIC_CITY_IMMUNE_AFTER_PANDEMIA"));
+}
+// MOD - END - Pandemics
 
 // Private Functions...
 
@@ -16809,6 +17014,11 @@ void CvCity::read(FDataStreamBase* pStream)
 	pStream->Read(&m_iCitySizeBoost);
 	pStream->Read(&m_iSpecialistFreeExperience);
 	pStream->Read(&m_iEspionageDefenseModifier);
+
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	pStream->Read(&m_iPandemicTurns);
+	// MOD - END - Pandemics
 
 	pStream->Read(&m_bNeverLost);
 	pStream->Read(&m_bBombarded);
@@ -17143,6 +17353,11 @@ void CvCity::write(FDataStreamBase* pStream)
 	pStream->Write(m_iCitySizeBoost);
 	pStream->Write(m_iSpecialistFreeExperience);
 	pStream->Write(m_iEspionageDefenseModifier);
+
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	pStream->Write(m_iPandemicTurns);
+	// MOD - END - Pandemics
 
 	pStream->Write(m_bNeverLost);
 	pStream->Write(m_bBombarded);

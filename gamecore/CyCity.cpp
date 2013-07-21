@@ -2584,6 +2584,46 @@ int CyCity::getEspionageDefenseModifier() const
 	return m_pCity ? m_pCity->getEspionageDefenseModifier() : 0;
 }
 
+// MOD - START - Pandemics
+// Pandemic system by Mexico
+int CyCity::getPandemicTurns() const
+{
+    return m_pCity ? m_pCity->getPandemicTurns() : 0;
+}
+
+bool CyCity::isPandemic() const
+{
+    return m_pCity ? m_pCity->isPandemic() : false;
+}
+
+bool CyCity::isImmune() const
+{
+    return m_pCity ? m_pCity->isImmune() : false;
+}
+
+void CyCity::setPandemicTurns(int iNewValue)
+{
+    if (m_pCity)
+		 m_pCity->setPandemicTurns(iNewValue);
+}
+
+void CyCity::changePandemicTurns(int iChange)
+{
+    if (m_pCity)
+		 m_pCity->changePandemicTurns(iChange);
+}
+
+int CyCity::getPandemicProbabilityPercent()
+{
+    return m_pCity ? m_pCity->getPandemicProbabilityPercent() : 0;
+}
+
+int CyCity::getPandemicProbability()
+{
+    return m_pCity ? m_pCity->getPandemicProbability() : 0;
+}
+// MOD - END - Pandemics
+
 bool CyCity::isWorkingPlotByIndex(int iIndex)
 {
 	return m_pCity ? m_pCity->isWorkingPlot(iIndex) : false;

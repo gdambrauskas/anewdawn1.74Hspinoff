@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text Help -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REAPER_PEDIA</Tag>
+		<English>[TAB]This is not real building, this represent epidemic strike in this city.</English>
+		<French>[TAB]Ce batiment ne sert qu'à représenter l'épidemie.</French>
+		<German>[TAB]Dies ist kein echtes Gebäude, dies symbolisiert nur, daß eine Seuche Ihre Stadt heim sucht.</German>
+		<Italian>[TAB]This is not real building, this represent epidemic strike in this city.</Italian>
+		<Spanish>[TAB]This is not real building, this represent epidemic strike in this city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PANDEMIC_COLONY_PEDIA</Tag>
+		<English>[TAB]Epidemic colony act as hospital, where infeceted peoples are separated from other citizens. This can reduce chance to be infected, so epidemic can be stopped in city.</English>
+		<French>[TAB]Ce ghetto sert à isoler les malades du reste de la population, réduisent ainsi les chances de contamination.</French>
+		<German>[TAB]Die kranken Menschen werden in einer Seuchenkolonie isoliert, so daß sich die Infektionswahrscheinlichkeit für den Rest der Bevölkerung verringert.</German>
+		<Italian>[TAB]Epidemic colony act as hospital, where infeceted peoples are separated from other citizens. This can reduce chance to be infected, so epidemic can be stopped in city.</Italian>
+		<Spanish>[TAB]Epidemic colony act as hospital, where infeceted peoples are separated from other citizens. This can reduce chance to be infected, so epidemic can be stopped in city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_VACCINE_PEDIA</Tag>
+		<English>[TAB]Vaccination can be used to make you (and your team members) immune to epidemics.</English>
+		<French>[TAB]La vaccination vous rend immunisé aus épidémies.</French>
+		<German>[TAB]Impfstoff kann Sie (und Ihre Teammitglieder) gegen Seuchen immun machen.</German>
+		<Italian>[TAB]Vaccination can be used to make you (and your team members) immune to epidemics.</Italian>
+		<Spanish>[TAB]Vaccination can be used to make you (and your team members) immune to epidemics.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PANDEMIC_COLONY_STRATEGY</Tag>
+		<English>Build colony to help fight against epidemics!</English>
+		<French>Construit un ghetto pour isoler les malades !</French>
+		<German>Erbauen Sie die Kolonie, um die Seuche in Ihrer Stadt zu bekämpfen!</German>
+		<Italian>Build colony to help fight against epidemics!</Italian>
+		<Spanish>Build colony to help fight against epidemics!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_VACCINE_STRATEGY</Tag>
+		<English>Vaccination can make you immune to epidemics.</English>
+		<French>La vaccination vous immunise.</French>
+		<German>Impfstoffe können Sie gegen Seuchen immun machen!</German>
+		<Italian>Vaccination can make you immune to epidemics.</Italian>
+		<Spanish>Vaccination can make you immune to epidemics.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REAPER</Tag>
+		<English>Epidemic !!!</English>
+		<French>
+			<Text>Epidémie !!!</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Seuche !!!</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Epidemic !!!</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Epidemic !!!</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_VACCINE</Tag>
+		<English>Vaccination</English>
+		<French>
+			<Text>Vaccination</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Impfstoff</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Vaccination</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Vaccination</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PANDEMIC_COLONY</Tag>
+		<English>Epidemic colony</English>
+		<French>
+			<Text>Ghetto</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Seuchenkolonie</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Epidemic colony</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Epidemic colony</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANDEMIA_STRIKE</Tag>
+		<English>%s1 is affected by an epidemic !!!</English>
+		<French>%s1 est infecté par l'épidémie !!!</French>
+		<German>%s1 wird von einer Seuche heimgesucht !!!</German>
+		<Italian>%s1 is affected by an epidemic !!!</Italian>
+		<Spanish>%s1 is affected by an epidemic !!! </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANDEMIA_STRIKE_END</Tag>
+		<English>Epidemic in %s1 has ended.</English>
+		<French>L'épidémie en %s1 est terminée.</French>
+		<German>Die Seuche in %s1 wurde besiegt!</German>
+		<Italian>Epidemic in %s1 has ended.</Italian>
+		<Spanish>Epidemic in %s1 has ended.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANDEMIA_KILL</Tag>
+		<English>Citizens died in %s1, city size reduced to %d2.</English>
+		<French>Des habitants meurent en %s1, la ville est réduite à %d2.</French>
+		<German>Bürger in %s1 sterben, Stadtgröße auf %d2 gefallen.</German>
+		<Italian>Citizens died in %s1, city size reduced to %d2.</Italian>
+		<Spanish>Citizens died in %s1, city size reduced to %d2.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GLOBAL_PANDEMIC_MODIFIER</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%s1_change%% chance of epidemics in empire</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%s1_change%% de chance d'être infecté dand l'Empire.</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%s1_change%% Seuchenwahrscheinlichkeit im Imperium</German>
+		<Italian>[NEWLINE][SPACE][SPACE][ICON_BULLET]%s1_change%% chance of epidemics in empire</Italian>
+		<Spanish>[NEWLINE][SPACE][SPACE][ICON_BULLET]%s1_change%% chance of epidemics in empire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBAL_PANDEMIC_MODIFIER</Tag>
+		<English>[ICON_BULLET]%s1_change%% chance of epidemics in empire</English>
+		<French>[ICON_BULLET]%s1_change%% de chance d'être infecté dand l'Empire.</French>
+		<German>[ICON_BULLET]%s1_change%% Seuchenwahrscheinlichkeit im Imperium</German>
+		<Italian>[ICON_BULLET]%s1_change%% chance of epidemics in empire</Italian>
+		<Spanish>[ICON_BULLET]%s1_change%% chance of epidemics in empire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_PANDEMIC_MODIFIER</Tag>
+		<English>[ICON_BULLET]%s1_change%% chance of epidemic in city</English>
+		<French>[ICON_BULLET]%s1_change%% de chance d'être infecté.</French>
+		<German>[ICON_BULLET]%s1_change%% Seuchenwahrscheinlichkeit in der Stadt</German>
+		<Italian>[ICON_BULLET]%s1_change%% chance of epidemic in city</Italian>
+		<Spanish>[ICON_BULLET]%s1_change%% chance of epidemic in city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_PANDEMIC</Tag>
+		<English>[NEWLINE][ICON_BULLET]%s1_change%% chance of epidemic in nearby cities</English>
+		<French>[NEWLINE][ICON_BULLET]%s1_change%% de chance d'être infecté dans la cité proche.</French>
+		<German>[NEWLINE][ICON_BULLET]%s1_change%% Seuchenwahrscheinlichkeit in der nächsten Stadt</German>
+		<Italian>[NEWLINE][ICON_BULLET]%s1_change%% chance of epidemic in nearby cities</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%s1_change%% chance of epidemic in nearby cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PANDEMIC_MODIFIER</Tag>
+		<English>[ICON_BULLET]%s1_change%% chance of epidemic in nearby cities</English>
+		<French>[ICON_BULLET]%s1%% de chance d'être infecté dans la cité proche.</French>
+		<German>[ICON_BULLET]%s1%% Seuchenwahrscheinlichkeit in der nächsten Stadt</German>
+		<Italian>[ICON_BULLET]%s1_change%% chance of epidemic in nearby cities</Italian>
+		<Spanish>[ICON_BULLET]%s1_change%% chance of epidemic in nearby cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PANDEMIC_MODIFIER</Tag>
+		<English>Epidemics: %s1%%</English>
+		<French>Epidemics: %s1%%</French>
+		<German>Seuche: %s1%%</German>
+		<Italian>Epidemics: %s1%%</Italian>
+		<Spanish>Epidemics: %s1%%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANDEMIC_PROBABILITY</Tag>
+		<English>Epidemic probability: %d1%%</English>
+		<French>Probabilité d'épidémies: %d1%%</French>
+		<German>Seuchenwahrscheinlichkeit: %d1%%</German>
+		<Italian>Epidemic probability: %d1%%</Italian>
+		<Spanish>Epidemic probability: %d1%%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PANDEMIC_PROBABILITY_IMMUNE</Tag>
+		<English>City is immune</English>
+		<French>La cité est immunisée.</French>
+		<German>Die Stadt ist gegen Seuchen immun</German>
+		<Italian>City is immune</Italian>
+		<Spanish>City is immune</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_MIN_TURNS</Tag>
+		<English>Epidemic for at least %d1 turns !</English>
+		<French>Epidémie pour (au moins) %d1 tours !</French>
+		<German>Seuche für (mindestens) %d1 Runden!</German>
+		<Italian>Epidemic for at least %d1 turns !</Italian>
+		<Spanish>Epidemic for at least %d1 turns !</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_MAX_TURNS</Tag>
+		<English>Epidemic will end next turn</English>
+		<French>L'épidémie s'arretera au prochain tour.</French>
+		<German>Die Seuche wird in der Runde besiegt sein.</German>
+		<Italian>Epidemic will end next turn</Italian>
+		<Spanish>Epidemic will end next turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_UNHEALTH_RATE</Tag>
+		<English>%s1%% from unhealthiness</English>
+		<French>%s1%% par l'hygiène. </French>
+		<German>%s1%% durch unhealthiness</German>
+		<Italian>%s1%% from unhealthiness</Italian>
+		<Spanish>%s1%% from unhealthiness</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_BUILDINGS_MODIFIER</Tag>
+		<English>%s1%% from buildings</English>
+		<French>%s1%% grâce aux bâtiments.</French>
+		<German>%s1%% durch Gebäude</German>
+		<Italian>%s1%% from buildings</Italian>
+		<Spanish>%s1%% from buildings</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_TERRAIN_MODIFIER</Tag>
+		<English>%s1%% from terrain features</English>
+		<French>%s1%% par les terrains.</French>
+		<German>%s1%% durch Geländeeigenschaften</German>
+		<Italian>%s1%% from terrain features</Italian>
+		<Spanish>%s1%% from terrain features</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_PLAYER_MODIFIER</Tag>
+		<English>%s1%% from global modifiers</English>
+		<French>%s1%% grâce aux modificateurs globaux.</French>
+		<German>%s1%% durch globale Einflüsse</German>
+		<Italian>%s1%% from global modifiers</Italian>
+		<Spanish>%s1%% from global modifiers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_TRADE_MODIFIER</Tag>
+		<English>%s1%% from infected trade routes</English>
+		<French>%s1%% depuis les cités voisines infectées.</French>
+		<German>%s1%% durch die Verbindung mit befallenen Städten</German>
+		<Italian>%s1%% from infected trade routes</Italian>
+		<Spanish>%s1%% from infected trade routes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_OTHER_MODIFIER</Tag>
+		<English>%s1%% from other modifiers</English>
+		<French>%s1%% des autres modificateurs.</French>
+		<German>%s1%% durch andere Einflüsse</German>
+		<Italian>%s1%% from other modifiers</Italian>
+		<Spanish>%s1%% from other modifiers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_IMPROVEMENT_MODIFIER</Tag>
+		<English>%s1%% from improvements</English>
+		<French>%s1%% from improvements</French>
+		<German>%s1%% durch Verbesserungen</German>
+		<Italian>%s1%% from improvements</Italian>
+		<Spanish>%s1%% from improvements</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HELP_PANDEMIC_BONUS_MODIFIER</Tag>
+		<English>%s1%% from resources</English>
+		<French>%s1%% from resources</French>
+		<German>%s1%% durch Ressourcen</German>
+		<Italian>%s1%% from resources</Italian>
+		<Spanish>%s1%% from resources</Spanish>
+	</TEXT>
+</Civ4GameText>

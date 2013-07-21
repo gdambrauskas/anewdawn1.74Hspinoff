@@ -286,6 +286,18 @@ public:
 	int getEspionageHappinessCounter();
 	void changeEspionageHappinessCounter(int iChange);
 
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	int getPandemicTurns() const;
+	bool isPandemic() const;
+	bool isImmune() const;
+	void setPandemicTurns(int iNewValue);
+	void changePandemicTurns(int iChange);
+
+	int getPandemicProbabilityPercent();
+	int getPandemicProbability();
+	// MOD - END - Pandemics
+
 	int getFreshWaterGoodHealth();
 	int getFreshWaterBadHealth();
 	int getBuildingGoodHealth();

@@ -986,6 +986,18 @@ public:
 	int getEspionageDefenseModifier() const;										// Exposed to Python
 	void changeEspionageDefenseModifier(int iChange);
 
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	int getPandemicTurns() const;
+	bool isPandemic() const;
+	bool isImmune() const;
+	void setPandemicTurns(int iNewValue);
+	void changePandemicTurns(int iChange);
+
+	int getPandemicProbabilityPercent() const;
+	int getPandemicProbability() const;
+	// MOD - END - Pandemics
+
 	bool isWorkingPlot(int iIndex) const;													// Exposed to Python
 	bool isWorkingPlot(const CvPlot* pPlot) const;													// Exposed to Python
 	void setWorkingPlot(int iIndex, bool bNewValue);
@@ -1477,6 +1489,11 @@ protected:
 	int m_iSpecialistFreeExperience;
 	int m_iEspionageDefenseModifier;
 
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	int m_iPandemicTurns;
+	// MOD - END - Pandemics
+
 	bool m_bNeverLost;
 	bool m_bBombarded;
 	bool m_bDrafted;
@@ -1614,6 +1631,12 @@ protected:
 	void doGreatPeople();
 	void doMeltdown();
 	bool doCheckProduction();
+
+	// MOD - START - Pandemics
+	// Pandemic system by Mexico
+	void doPandemic();
+	void doEndPandemic();
+	// MOD - END - Pandemics
 /************************************************************************************************/
 /* Afforess	Meteorology Modmod Start		 09/25/09                                           */
 /*                                                                                              */

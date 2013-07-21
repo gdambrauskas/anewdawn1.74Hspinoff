@@ -479,6 +479,88 @@ void CvGameTextMgr::setEspionageMissionHelp(CvWStringBuffer &szBuffer, const CvU
 	}
 }
 
+// MOD - START - Pandemics
+// Pandemic system by Mexico
+void CvGameTextMgr::setPandemicHelp(CvWStringBuffer &szBuffer, CvCity& city)
+{	
+	CvCity* pLoopCity;
+	CvWString szTempBuffer;
+	int iI;
+	int iTemp;
+
+	int iRandBase = GC.getDefineINT("PANDEMIC_RAND_BASE");
+
+	// check for immunity
+	if (city.isImmune())
+	{
+		szBuffer.append(gDLL->getText("TXT_KEY_PANDEMIC_PROBABILITY_IMMUNE"));
+		szBuffer.append(L"\n-----------------------\n");
+	}
+	// check for minimum turns
+	else if (city.isPandemic() && (GC.getDefineINT("PANDEMIC_MIN_TURNS")!= -1) && (city.getPandemicTurns() < GC.getDefineINT("PANDEMIC_MIN_TURNS")))
+	{
+		szBuffer.append(gDLL->getText("TXT_KEY_HELP_PANDEMIC_MIN_TURNS", GC.getDefineINT("PANDEMIC_MIN_TURNS") - city.getPandemicTurns() +1));
+		szBuffer.append(L"\n-----------------------\n");
+	}
+
+	// check for maximum turns
+	if (city.isPandemic() && (GC.getDefineINT("PANDEMIC_MAX_TURNS")!= -1) && (city.getPandemicTurns() >= GC.getDefineINT("PANDEMIC_MAX_TURNS")))
+	{
+		szBuffer.append(gDLL->getText("TXT_KEY_HELP_PANDEMIC_MAX_TURNS"));
+		szBuffer.append(L"\n-----------------------\n");
+	}
+
+	// each unhealth point increase chance
+	// we must negate this, because healthRate return negative points
+	iTemp = (-(city.healthRate(false,0)));
+	       
+	if (iTemp != 0)
+	{
+		szTempBuffer.Format(L"%+.2f", (float)iTemp);
+		szBuffer.append(NEWLINE);
+		szBuffer.append(gDLL->getText("TXT_KEY_HELP_PANDEMIC_UNHEALTH_RATE", szTempBuffer.GetCString()));
+	}
+
+	// other modifications: previous turns, trade route, num of pandemic turns etc..
+	iTemp = 0;
+	for (iI = 0; iI < GC.getDefineINT("MAX_TRADE_ROUTES"); iI++)
+	{
+		pLoopCity = city.getTradeCity(iI);
+		if (pLoopCity != NULL)
+		{
+			if(pLoopCity->isPandemic())
+			{
+				iTemp += GC.getDefineINT("PANDEMIC_TRADE_RATE");
+			}
+		}
+	}
+	if (iTemp != 0)
+	{
+		szTempBuffer.Format(L"%+.2f", (float)iTemp);
+		szBuffer.append(NEWLINE);
+		szBuffer.append(gDLL->getText("TXT_KEY_HELP_PANDEMIC_TRADE_MODIFIER", szTempBuffer.GetCString()));
+	}
+
+	iTemp = 0;
+	if (city.isPandemic())
+	{
+		if ( city.getPandemicTurns() <  GC.getDefineINT("PANDEMIC_TURN_IMMUNE"))
+		{
+			iTemp += GC.getDefineINT("PANDEMIC_TURN_RATE_SPREAD");
+		}
+		else
+		{
+			iTemp -= GC.getDefineINT("PANDEMIC_TURN_RATE_IMMUNIZE");
+		}
+	}
+	if (iTemp != 0)
+	{
+		szTempBuffer.Format(L"%+.2f", (float)iTemp);
+		szBuffer.append(NEWLINE);
+		szBuffer.append(gDLL->getText("TXT_KEY_HELP_PANDEMIC_OTHER_MODIFIER", szTempBuffer.GetCString()));
+	}
+}
+// MOD - END - Pandemics
 
 void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, bool bOneLine, bool bShort)
 {
@@ -11311,7 +11393,6 @@ void CvGameTextMgr::setUnitExperienceHelp(CvWStringBuffer &szBuffer, CvWString s
 	}
 }
 // BUG - Starting Experience - end
-
 
 void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szBuffer, UnitTypes eUnit, bool bCivilopediaText, bool bStrategyText, bool bTechChooserText, CvCity* pCity)
 {

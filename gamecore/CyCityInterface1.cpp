@@ -229,6 +229,18 @@ void CyCityPythonInterface1(python::class_<CyCity>& x)
 		.def("getEspionageHappinessCounter", &CyCity::getEspionageHappinessCounter, "int ()")
 		.def("changeEspionageHappinessCounter", &CyCity::changeEspionageHappinessCounter, "void (int iChange)")
 
+		// MOD - START - Pandemics
+		// Pandemic system by Mexico
+		.def("getPandemicTurns", &CyCity::getPandemicTurns, "int () - how long is city affected by pandemia / how long will be immune (if < 0) ")
+        .def("isPandemic", &CyCity::isPandemic, "bool () - is city affected by pandemia?")
+        .def("isImmune", &CyCity::isImmune, "bool () - is city immune to pandemia?")
+        .def("setPandemicTurns", &CyCity::setPandemicTurns, "void (int) - set new value how long is city affected by pandemia / how long will be immune (if < 0) ")
+        .def("changePandemicTurns", &CyCity::changePandemicTurns, "void (int) - change value how long is city affected by pandemia / how long will be immune (if < 0) ")
+
+		.def("getPandemicProbabilityPercent", &CyCity::getPandemicProbabilityPercent, "int () - return relative value (in %) of pandemic probability")
+        .def("getPandemicProbability", &CyCity::getPandemicProbability, "int () - return absolute value of pandemic probability (depend on base)")
+		// MOD - END - Pandemics
+
 		.def("getFreshWaterGoodHealth", &CyCity::getFreshWaterGoodHealth, "int ()")
 		.def("getFreshWaterBadHealth", &CyCity::getFreshWaterBadHealth, "int ()")
 		.def("getBuildingGoodHealth", &CyCity::getBuildingGoodHealth, "int ()")

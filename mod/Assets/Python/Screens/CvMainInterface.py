@@ -3654,6 +3654,9 @@ class CvMainInterface:
 		
 		screen.hide( "NationalityText" )
 		screen.hide( "NationalityBar" )
+# MOD - START - Pandemic
+		screen.hide( "PandemicText" )
+# MOD - END - Pandemic
 # < Revolution Mod Start >
 		screen.hide( "RevStatusText" )
 		screen.hide( "RevStatusBar1" )
@@ -4679,6 +4682,22 @@ class CvMainInterface:
 							iRemainder -= iPercent
 							iWhichBar += 1
 				screen.show( "NationalityBar" )
+				
+				# MOD - START - Pandemia
+				iPandemicProbability = pHeadSelectedCity.getPandemicProbabilityPercent()
+
+				if (iPandemicProbability > 0):
+					szBuffer = localText.getText("TXT_KEY_PANDEMIC_PROBABILITY", (iPandemicProbability, ))
+				else:
+					szBuffer = localText.getText("TXT_KEY_PANDEMIC_PROBABILITY_IMMUNE", (iPandemicProbability, ))
+					
+				szNewBuffer = "<font=4>"
+				szNewBuffer = szNewBuffer + szBuffer
+				szNewBuffer = szNewBuffer + "</font>"
+				#screen.setLabel( "PandemicText", "Background", szBuffer, CvUtil.FONT_LEFT_JUSTIFY, 270, 40, -0.3, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_HELP_PANDEMIA, -1, -1 )
+				screen.setLabel( "PandemicText", "Background", szBuffer, CvUtil.FONT_LEFT_JUSTIFY, 270, 140, -0.3, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_HELP_PANDEMIA, -1, -1 )
+				screen.show( "PandemicText" )
+				# MOD - END - Pandemia
 
 # < Revolution Mod Start >
 				if( not game.isOption(GameOptionTypes.GAMEOPTION_NO_REVOLUTION) and not RevInstances.RevolutionInst == None ) :
