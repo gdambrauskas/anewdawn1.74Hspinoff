@@ -6097,6 +6097,7 @@ bool CvPlayer::canTradeItem(PlayerTypes eWhoTo, TradeData item, bool bTestDenial
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
+	bool canReceiveCity;
 	if (bTestDenial)
 	{
 		if (getTradeDenial(eWhoTo, item) != NO_DENIAL)
@@ -6170,13 +6171,14 @@ bool CvPlayer::canTradeItem(PlayerTypes eWhoTo, TradeData item, bool bTestDenial
 			{
 				return true;
 			}
-
-			if (GET_PLAYER(eWhoTo).canReceiveTradeCity())
+			canReceiveCity = GET_PLAYER(eWhoTo).canReceiveTradeCity();
+			if (canReceiveCity)
 			{
 				if (0 == GC.getGameINLINE().getMaxCityElimination())
-				{
-					if (!GET_TEAM(getTeam()).isAVassal() && !GET_TEAM(GET_PLAYER(eWhoTo).getTeam()).isVassal(getTeam()))
-					{
+				{   
+					// gvd: line below would prevent giving cities to vasal. Not sure why it's there in the first place.
+					//if (!GET_TEAM(getTeam()).isAVassal() && !GET_TEAM(GET_PLAYER(eWhoTo).getTeam()).isVassal(getTeam()))
+					//{
 						pOurCapitalCity = getCapitalCity();
 						if (pOurCapitalCity != NULL)
 						{
@@ -6194,7 +6196,7 @@ bool CvPlayer::canTradeItem(PlayerTypes eWhoTo, TradeData item, bool bTestDenial
 								return true;
 							}
 						}
-					}
+					//}
 				}
 			}
 		}

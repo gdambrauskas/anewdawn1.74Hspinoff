@@ -9658,15 +9658,16 @@ int CvPlayerAI::AI_cityTradeVal(CvCity* pCity) const
 
 DenialTypes CvPlayerAI::AI_cityTrade(CvCity* pCity, PlayerTypes ePlayer) const
 {
-	CvCity* pNearestCity;
-
 	FAssert(pCity->getOwnerINLINE() == getID());
 
 	if (pCity->getLiberationPlayer(false) == ePlayer)
 	{
 		return NO_DENIAL;
 	}
-
+	
+	// gda start: allow to gift city to ai without culture/finance checks
+	/*
+	CvCity* pNearestCity;
 	if (!(GET_PLAYER(ePlayer).isHuman()))
 	{
 		if (GET_PLAYER(ePlayer).getTeam() != getTeam())
@@ -9687,6 +9688,8 @@ DenialTypes CvPlayerAI::AI_cityTrade(CvCity* pCity, PlayerTypes ePlayer) const
 			}
 		}
 	}
+	*/
+	// gda end
 
 	if (isHuman())
 	{
@@ -9716,12 +9719,15 @@ DenialTypes CvPlayerAI::AI_cityTrade(CvCity* pCity, PlayerTypes ePlayer) const
 	{
 		return DENIAL_NEVER;
 	}
-
+	
+	// gda start: allow to gift city to ai without culture/finance checks
+	/*
 	if (pCity->calculateCulturePercent(getID()) > 50)
 	{
 		return DENIAL_TOO_MUCH;
 	}
-
+	*/
+	//gda end
 	return NO_DENIAL;
 }
 
