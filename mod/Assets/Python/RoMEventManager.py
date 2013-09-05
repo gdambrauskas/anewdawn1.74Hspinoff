@@ -67,7 +67,7 @@ class RoMEventManager:
 		self.iBUILDING_DJENNE = 0
 		self.iBUILDING_WORLD_BANK = 0
 		
-		# gvd nomad trait mounted unit spawn buildings start
+		# gdam nomad trait mounted unit spawn buildings start
 		self.building_stable = 0
 		self.building_ger = 0
 		self.nomad_trait = 0
@@ -93,7 +93,7 @@ class RoMEventManager:
 
 		self.tech_vertical_flight = 0
 		
-		# gvd nomad trait mounted unit spawn buildings end
+		# gdam nomad trait mounted unit spawn buildings end
 		
 		self.iTECH_KNOWLEDGE_MANAGEMENT = 0
 		self.iTECH_APPLIED_ECONOMICS = 0

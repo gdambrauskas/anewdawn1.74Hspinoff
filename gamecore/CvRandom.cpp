@@ -82,6 +82,11 @@ unsigned short CvRandom::get(unsigned short usNum, const TCHAR* pszLog)
 	return us;
 }
 
+unsigned int CvRandom::getInt()
+{
+	return get(MAX_UNSIGNED_SHORT,NULL) + (get(MAX_UNSIGNED_SHORT,NULL) << 16);
+}
+
 
 float CvRandom::getFloat()
 {

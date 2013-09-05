@@ -7,7 +7,7 @@ patch.
 
 Created on Aug 1, 2013
 
-@author: gvd
+@author: gdambrauskas
 '''
 import os
 from distutils.dir_util import mkpath,copy_tree
@@ -64,9 +64,9 @@ def log(message):
 logging = False
 civdiff = "W:\\temp\civdiff"
 #new = "W:\\temp\\new"
-new = "W:\games\civ4\Beyond the Sword\Mods\gandtestnew"
+new = "W:\games\civ4\Beyond the Sword\Mods\gandtest"
 #old = "W:\\temp\old"
-old = "W:\games\civ4\Beyond the Sword\Mods\gandold"
+old = "W:\games\civ4\Beyond the Sword\Mods\gand"
 
 diff_root, diff_dirs, diff_files =  next(os.walk(civdiff))
 compareDirectories(new, old)  

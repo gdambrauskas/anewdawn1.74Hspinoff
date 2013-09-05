@@ -8,6 +8,9 @@
 //#include "CvStructs.h"
 #include "CvDeal.h"
 #include "CvRandom.h"
+#include "CvGameObject.h"
+#include "CvPropertySolver.h"
+#include "CvDate.h"
 
 class CvPlot;
 class CvCity;
@@ -27,7 +30,11 @@ public:
 	DllExport void init(HandicapTypes eHandicap);
 	DllExport void reset(HandicapTypes eHandicap, bool bConstructorCall = false);
 
+	CvGameObjectGame* getGameObject() {return &m_GameObject;};
+
 protected:
+
+	CvGameObjectGame m_GameObject;
 
 	void uninit();
 
@@ -887,6 +894,13 @@ protected:
 	CvPlot* normalizeFindLakePlot(PlayerTypes ePlayer);
 
 	void doUpdateCacheOnTurn();
+
+	// AIAndy: Properties
+	CvProperties m_Properties;
+	CvPropertySolver m_PropertySolver;
+public:
+	CvProperties* getProperties();
+	const CvProperties* getPropertiesConst() const;
 };
 
 #endif

@@ -150,6 +150,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\BoolExpr.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CvArea.cpp"
 				>
 			</File>
@@ -162,11 +166,31 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvBuildingFilters.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvBuildingGrouping.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvBuildingList.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvBuildingSort.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CvCity.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\CvCityAI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvDate.cpp"
 				>
 			</File>
 			<File
@@ -227,6 +251,10 @@
 			</File>
 			<File
 				RelativePath=".\CvGameInterface.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvGameObject.cpp"
 				>
 			</File>
 			<File
@@ -294,6 +322,30 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvProperties.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertyInteraction.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertyManipulators.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertyPropagator.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertySolver.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertySource.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CvRandom.cpp"
 				>
 			</File>
@@ -319,6 +371,10 @@
 			</File>
 			<File
 				RelativePath=".\CvStructs.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvTaggedSaveFormatWrapper.cpp"
 				>
 			</File>
 			<File
@@ -561,6 +617,10 @@
 				RelativePath=".\FDialogTemplate.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\IntExpr.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -569,6 +629,10 @@
 			>
 			<File
 				RelativePath=".\AI_Defines.h"
+				>
+			</File>
+			<File
+				RelativePath=".\BoolExpr.h"
 				>
 			</File>
 			<File
@@ -584,11 +648,31 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvBuildingFilters.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvBuildingGrouping.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvBuildingList.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvBuildingSort.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CvCity.h"
 				>
 			</File>
 			<File
 				RelativePath=".\CvCityAI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvDate.h"
 				>
 			</File>
 			<File
@@ -716,6 +800,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvGameObject.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CvGameTextMgr.h"
 				>
 			</File>
@@ -780,6 +868,30 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvProperties.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertyInteraction.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertyManipulators.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertyPropagator.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertySolver.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPropertySource.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CvRandom.h"
 				>
 			</File>
@@ -809,6 +921,10 @@
 			</File>
 			<File
 				RelativePath=".\CvStructs.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvTaggedSaveFormatWrapper.h"
 				>
 			</File>
 			<File
@@ -965,6 +1081,10 @@
 			</File>
 			<File
 				RelativePath=".\interfaceDirtyBits.inl"
+				>
+			</File>
+			<File
+				RelativePath=".\IntExpr.h"
 				>
 			</File>
 			<File

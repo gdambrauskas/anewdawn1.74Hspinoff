@@ -11,6 +11,7 @@
 
 class CyUnit;
 class CvPlayer;
+class CvProperties;
 class CyCity;
 class CyArea;
 class CyPlot;

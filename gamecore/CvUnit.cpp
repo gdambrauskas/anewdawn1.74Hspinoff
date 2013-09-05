@@ -44,7 +44,9 @@
 // Public Functions...
 
 
-CvUnit::CvUnit()
+// Public Functions...
+#pragma warning( disable : 4355 )
+CvUnit::CvUnit() : m_GameObject(this)
 {
 	m_aiExtraDomainModifier = new int[NUM_DOMAIN_TYPES];
 /************************************************************************************************/
@@ -15981,7 +15983,7 @@ void CvUnit::applyEvent(EventTypes eEvent)
 
 const CvArtInfoUnit* CvUnit::getArtInfo(int i, EraTypes eEra) const
 {	
-	// gvd: bug fix by me(not sure if it was real bug), lion would get here with civ type = -1
+	// gdam: bug fix by me(not sure if it was real bug), lion would get here with civ type = -1
 	UnitArtStyleTypes unitArtStyleType = NO_UNIT_ARTSTYLE;
 	if (NO_CIVILIZATION != getCivilizationType()) {
 		unitArtStyleType = (UnitArtStyleTypes) GC.getCivilizationInfo(getCivilizationType()).getUnitArtStyleType();
@@ -20625,3 +20627,13 @@ void CvUnit::setAutoUpgrading(bool bNewValue)
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
 
+
+CvProperties* CvUnit::getProperties()
+{
+	return &m_Properties;
+}
+
+const CvProperties* CvUnit::getPropertiesConst() const
+{
+	return &m_Properties;
+}

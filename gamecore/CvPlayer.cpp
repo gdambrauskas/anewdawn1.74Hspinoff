@@ -56,7 +56,11 @@
 
 // Public Functions...
 
+//Disable this passed in initialization list warning, as it is only stored in the constructor of CvBuildingList and not used
+#pragma warning( disable : 4355 )
+
 CvPlayer::CvPlayer()
+: m_GameObject(this)
 {
 	m_aiSeaPlotYield = new int[NUM_YIELD_TYPES];
 	m_aiYieldRateModifier = new int[NUM_YIELD_TYPES];
@@ -338,12 +342,12 @@ void CvPlayer::init(PlayerTypes eID)
 /************************************************************************************************/
 /* REVDCM                                  END                                                  */
 /************************************************************************************************/
-				//gvd start
+				//gdam start
 				if ( GC.getTraitInfo((TraitTypes)iI).getHappyPerMilitaryUnit() != 0 )
 				{
 					changeHappyPerMilitaryUnit(GC.getTraitInfo((TraitTypes)iI).getHappyPerMilitaryUnit());
 				}
-				// gvd end
+				// gdam end
 
 /************************************************************************************************/
 /* Afforess	                  Start		 01/31/10                                               */
@@ -6176,7 +6180,7 @@ bool CvPlayer::canTradeItem(PlayerTypes eWhoTo, TradeData item, bool bTestDenial
 			{
 				if (0 == GC.getGameINLINE().getMaxCityElimination())
 				{   
-					// gvd: line below would prevent giving cities to vasal. Not sure why it's there in the first place.
+					// gdam: line below would prevent giving cities to vasal. Not sure why it's there in the first place.
 					//if (!GET_TEAM(getTeam()).isAVassal() && !GET_TEAM(GET_PLAYER(eWhoTo).getTeam()).isVassal(getTeam()))
 					//{
 						pOurCapitalCity = getCapitalCity();
@@ -13958,12 +13962,6 @@ void CvPlayer::setTurnActive(bool bNewValue, bool bDoTurn)
 				gDLL->getInterfaceIFace()->setForcePopup(false);
 				gDLL->getInterfaceIFace()->clearQueuedPopups();
 				gDLL->getInterfaceIFace()->flushTalkingHeadMessages();
-			}
-
-			// start profiling DLL if desired
-			if (getID() == GC.getGameINLINE().getActivePlayer())
-			{
-				startProfilingDLL();
 			}
 
 			GC.getGameINLINE().changeNumGameTurnActive(-1);
@@ -30756,3 +30754,22 @@ void CvPlayer::addReminder(int iGameTurn, CvWString szMessage) const
 	CvMessageControl::getInstance().sendAddReminder(getID(), iGameTurn, szMessage);
 }
 // BUG - Reminder Mod - end
+CvProperties* CvPlayer::getProperties()
+{
+	return &m_Properties;
+}
+
+const CvProperties* CvPlayer::getPropertiesConst() const
+{
+	return &m_Properties;
+}
+bool CvPlayer::getBuildingListFilterActive(BuildingFilterTypes eFilter)
+{
+	// gvd return m_BuildingList.getFilterActive(eFilter);
+	return false;
+}
+
+void CvPlayer::setBuildingListFilterActive(BuildingFilterTypes eFilter, bool bActive)
+{
+	// gvd m_BuildingList.setFilterActive(eFilter, bActive);
+}

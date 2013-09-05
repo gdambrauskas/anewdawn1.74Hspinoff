@@ -37,9 +37,12 @@
 /* BETTER_BTS_AI_MOD                       END                                                  */
 /************************************************************************************************/
 
+//Disable this passed in initialization list warning, as it is only stored in the constructor of CvBuildingList and not used
+#pragma warning( disable : 4355 )
 // Public Functions...
 
 CvCity::CvCity()
+: m_GameObject(this)
 {
 	m_aiSeaPlotYield = new int[NUM_YIELD_TYPES];
 	m_aiRiverPlotYield = new int[NUM_YIELD_TYPES];
@@ -6503,7 +6506,7 @@ int CvCity::badHealth(bool bNoAngry, int iExtra) const
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
-	// gvd start
+	// gdam start
 	// humanitarian trait has total bad health cut in half
 	int iFinalBadHealth = (unhealthyPopulation(bNoAngry, iExtra) - iTotalHealth);
 	CvString traitHumanitarianType = CvString::format("TRAIT_HUMANITARIAN").GetCString();
@@ -6518,7 +6521,7 @@ int CvCity::badHealth(bool bNoAngry, int iExtra) const
 			}
 		}
 	}
-	// gvd end
+	// gdam end
 	return iFinalBadHealth;
 }
 
@@ -7436,7 +7439,7 @@ void CvCity::setPopulation(int iNewValue)
 		plot()->updateYield();
 
 		updateMaintenance();
-		// gvd start
+		// gdam start
 		// expansive trait gets no polution from population
 		CvString traitExpansiveType = CvString::format("TRAIT_EXPANSIVE").GetCString();
 		for (int i = 0; i < GC.getNumTraitInfos(); i++)
@@ -7450,7 +7453,7 @@ void CvCity::setPopulation(int iNewValue)
 				}
 			}
 		}
-		// gvd end
+		// gdam end
 
 		if (((iOldPopulation == 1) && (getPopulation() > 1)) ||
 			  ((getPopulation() == 1) && (iOldPopulation > 1))
@@ -7637,6 +7640,16 @@ void CvCity::changeGreatPeopleProgress(int iChange)
 {
 	m_iGreatPeopleProgress = (m_iGreatPeopleProgress + iChange);
 	FAssert(getGreatPeopleProgress() >= 0);
+}
+
+CvProperties* CvCity::getProperties()
+{
+	return &m_Properties;
+}
+
+const CvProperties* CvCity::getPropertiesConst() const
+{
+	return &m_Properties;
 }
 
 
@@ -10648,9 +10661,9 @@ void CvCity::setCultureLevel(CultureLevelTypes eNewValue, bool bUpdatePlotGroups
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
-				// gvd start
+				// gdam start
 				spawnGreatPersonForCreativeOwner();
-				// gvd end
+				// gdam end
 				if (getCultureLevel() == (GC.getNumCultureLevelInfos() - 1))
 				{
 					for (iI = 0; iI < MAX_PLAYERS; iI++)
@@ -16808,7 +16821,7 @@ void CvCity::doMeltdown()
 		}
 	}
 }
-// gvd
+// gdam
 // MOD - START - Pandemics
 // Pandemic system by Mexico
 void CvCity::doPandemic()
@@ -19770,8 +19783,8 @@ int CvCity::getImprovementBadHealth() const
 {
 	return m_iImprovementBadHealth;
 }
-// gvd start
-void CvCity::spawnGreatPersonForCreativeOwner() // gvd what does const mean?
+// gdam start
+void CvCity::spawnGreatPersonForCreativeOwner()
 {	
 	CvString traitCreativeType = CvString::format("TRAIT_CREATIVE").GetCString();
 	for (int i = 0; i < GC.getNumTraitInfos(); i++)
@@ -19816,7 +19829,7 @@ void CvCity::spawnGreatPersonForCreativeOwner() // gvd what does const mean?
 	}
 	
 }
-// gvd end
+// gdam end
 void CvCity::updateImprovementHealth()
 {
 	CvPlayer &kPlayer = GET_PLAYER(getOwnerINLINE());
@@ -21649,6 +21662,94 @@ void CvCity::setMinimumDefenseLevel(int iNewValue)
 {
 	m_iMinimumDefenseLevel = iNewValue;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
+bool CvCity::getBuildingListFilterActive(BuildingFilterTypes eFilter)
+{
+	// gvd return m_BuildingList.getFilterActive(eFilter);
+	return false;
+}
+
+void CvCity::setBuildingListFilterActive(BuildingFilterTypes eFilter, bool bActive)
+{
+	// gvd m_BuildingList.setFilterActive(eFilter, bActive);
+}

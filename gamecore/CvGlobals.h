@@ -128,6 +128,7 @@ class CvEspionageMissionInfo;
 class CvUnitArtStyleTypeInfo;
 class CvVoteSourceInfo;
 class CvMainMenuInfo;
+class CvPropertyInfo;
 /************************************************************************************************/
 /* MODULAR_LOADING_CONTROL                 10/24/07                                MRGENIE      */
 /*                                                                                              */
@@ -247,6 +248,12 @@ void initUnitEventMissions();
 /************************************************************************************************/
 	DllExport void addToInfosVectors(void *infoVector);
 	DllExport void infosReset();
+
+	DllExport void addDelayedResolution(int* pType, CvString szString);
+	CvString* getDelayedResolution(int* pType);
+	DllExport void removeDelayedResolution(int* pType);
+	DllExport void copyNonDefaultDelayedResolution(int* pTypeSelf, int* pTypeOther);
+	DllExport void resolveDelayedResolution();
 
 	DllExport int getNumWorldInfos();
 	std::vector<CvWorldInfo*>& getWorldInfo();
@@ -465,6 +472,9 @@ void initUnitEventMissions();
 	std::vector<CvInfoBase*>& getNewConceptInfo();
 	CvInfoBase& getNewConceptInfo(NewConceptTypes e);
 
+	int getNumPropertyInfos();
+	std::vector<CvPropertyInfo*>& getPropertyInfo();
+	CvPropertyInfo& getPropertyInfo(PropertyTypes ePropertyNum);
 /************************************************************************************************/
 /* DCM                                     04/19/09                                Johny Smith  */
 /************************************************************************************************/
@@ -1187,6 +1197,11 @@ protected:
 	InfosMap m_infosMap;
 	std::vector<std::vector<CvInfoBase *> *> m_aInfoVectors;
 
+	// AIAndy: Delayed resolution of type strings
+	typedef std::map<int*,CvString> DelayedResolutionMap;
+	DelayedResolutionMap m_delayedResolutionMap;
+
+
 	std::vector<CvColorInfo*> m_paColorInfo;
 	std::vector<CvPlayerColorInfo*> m_paPlayerColorInfo;
 	std::vector<CvAdvisorInfo*> m_paAdvisorInfo;
@@ -1329,6 +1344,7 @@ protected:
 	std::vector<CvEventInfo*> m_paEventInfo;
 	std::vector<CvEspionageMissionInfo*> m_paEspionageMissionInfo;
     std::vector<CvUnitArtStyleTypeInfo*> m_paUnitArtStyleTypeInfo;
+	std::vector<CvPropertyInfo*> m_paPropertyInfo;
 
 	// Game Text
 	std::vector<CvGameText*> m_paGameTextXML;

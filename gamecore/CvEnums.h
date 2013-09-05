@@ -613,6 +613,14 @@ enum WidgetTypes					// Exposed to Python
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
+	WIDGET_BUILDING_FILTER,
+	WIDGET_BUILDING_GROUPING,
+	WIDGET_BUILDING_SORT,
+	WIDGET_UNIT_FILTER,
+	WIDGET_UNIT_GROUPING,
+	WIDGET_UNIT_SORT,
+	
+	WIDGET_PROPERTY,
 
 
 #ifdef _USRDLL
@@ -659,7 +667,7 @@ enum ButtonPopupTypes			// Exposed to Python
 	BUTTONPOPUP_LAUNCH,
 	BUTTONPOPUP_FOUND_RELIGION,
 /************************************************************************************************/
-/* Afforess	                  Start		 01/16/10                                               */
+/* Afforess	                  Start		 09/18/10                                               */
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
@@ -676,6 +684,10 @@ enum ButtonPopupTypes			// Exposed to Python
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
+	BUTTONPOPUP_GET_SAVE_FORMAT,	//	Koshling - user choose save format dialog
+	BUTTONPOPUP_SAVE_INFO_LOST,		//	Non-fatal warning that some entities could not be instantiated
+
+	BUTTONPOPUP_MODIFIER_RECALCULATION,  // Ask user if he wants to recalculated modifiers when DLL or assets have changed
 
 #ifdef _USRDLL
 	NUM_BUTTONPOPUP_TYPES
@@ -839,7 +851,7 @@ enum GameOptionTypes				// Exposed to Python
 	/********************************************************************************/
 	
 /************************************************************************************************/
-/* Afforess			 		Last Update: 7/21/10                                                */
+/* Afforess			 		Last Update: 6/12/11                                                */
 /*                              New Gameoptions                                                 */
 /*                                                                                              */
 /************************************************************************************************/
@@ -1123,6 +1135,31 @@ enum EraTypes							// Exposed to Python
 	NO_ERA = -1,
 };
 
+enum CulturalAgeTypes							
+{
+	NO_CULTURAL_AGE = -1,
+	FIRST_CULTURAL_AGE
+};
+
+enum AgeSegments
+{
+	NO_AGE_SEGMENT = -1,
+	AGE_SEGMENT_DAWN,
+	AGE_SEGMENT_RISING,
+	AGE_SEGMENT_ZENITH,
+	AGE_SEGMENT_WANING
+};
+
+enum PropertyTypes
+{
+	NO_PROPERTY = -1,
+};
+
+enum OutcomeTypes
+{
+	NO_OUTCOME = -1,
+};
+
 enum CivilizationTypes		// Exposed to Python
 {
 	NO_CIVILIZATION = -1,
@@ -1391,6 +1428,10 @@ enum CalendarTypes			// Exposed to Python
 enum SeasonTypes				// Exposed to Python
 {
 	NO_SEASON = -1,
+	SEASON_WINTER,
+	SEASON_SPRING,
+	SEASON_SUMMER,
+	SEASON_AUTUMN
 };
 
 enum MonthTypes					// Exposed to Python
@@ -1516,6 +1557,16 @@ enum UnitAITypes			// Exposed to Python
 	NUM_UNITAI_TYPES
 };
 
+enum AIScaleTypes
+{
+	AISCALE_NONE = -1,
+	AISCALE_CITY,
+	AISCALE_AREA,
+	AISCALE_PLAYER,
+	AISCALE_TEAM
+};
+
+
 enum InvisibleTypes			// Exposed to Python
 {
 	NO_INVISIBLE = -1,
@@ -1571,7 +1622,7 @@ enum AutomateTypes			// Exposed to Python
 	AUTOMATE_EXPLORE,
 	AUTOMATE_RELIGION,
 /************************************************************************************************/
-/* Afforess	                  Start		 08/20/10                                               */
+/* Afforess	                  Start		 09/16/10                                               */
 /*                                                                                              */
 /* Advanced Automations                                                                         */
 /************************************************************************************************/
@@ -1595,6 +1646,7 @@ enum AutomateTypes			// Exposed to Python
 	NUM_AUTOMATE_TYPES
 #endif
 };
+
 
 // Dale - RB: Field bombard new mission at end of list
 // Dale - AB: Bombing new missions at end of list
@@ -2970,7 +3022,7 @@ enum GameMessageTypes				// Exposed to Python
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-	, GAMEMESSAGE_SET_GLOBAL_DEFINE
+	, GAMEMESSAGE_SET_GLOBAL_DEFINE,
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
@@ -3230,5 +3282,116 @@ enum ModderGameOptionTypes
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
 
+// AIAndy: Game object types
+enum GameObjectTypes
+{
+	NO_GAMEOBJECT = -1,
+	GAMEOBJECT_GAME,
+	GAMEOBJECT_TEAM,
+	GAMEOBJECT_PLAYER,
+	GAMEOBJECT_CITY,
+	GAMEOBJECT_UNIT,
+	GAMEOBJECT_PLOT,
+
+	NUM_GAMEOBJECTS
+};
+
+// AIAndy: Game object modifier types
+enum GOMTypes
+{
+	NO_GOM = -1,
+	GOM_BUILDING,
+	GOM_PROMOTION,
+	GOM_TRAIT,
+	GOM_FEATURE,
+	GOM_OPTION,
+	GOM_TERRAIN,
+	GOM_GAMESPEED,
+	GOM_ROUTE,
+	GOM_BONUS,
+	GOM_UNITTYPE,
+	GOM_TECH,
+	GOM_CIVIC,
+	GOM_RELIGION,
+	GOM_CORPORATION,
+	GOM_IMPROVEMENT,
+
+	NUM_GOMS
+};
+
+// AIAndy: Game object relation types
+enum RelationTypes
+{
+	NO_RELATION = -1,
+	RELATION_ASSOCIATED, // owner, owned, ... depending on type
+	RELATION_TRADE,
+	RELATION_NEAR,
+	RELATION_SAME_PLOT,
+	RELATION_WORKING,
+
+	NUM_RELATIONS
+};
+
+// AIAndy: Built-in game object properties
+enum AttributeTypes
+{
+	NO_ATTRIBUTE = -1,
+	ATTRIBUTE_POPULATION,
+	ATTRIBUTE_HEALTH,
+	ATTRIBUTE_HAPPINESS,
+
+	NUM_ATTRIBUTES
+};
+
+// AIAndy: Built-in game boolean object properties
+enum TagTypes
+{
+	NO_TAG = -1,
+	TAG_ONLY_DEFENSIVE,
+	TAG_SPY,
+	TAG_FIRST_STRIKE_IMMUNE,
+	TAG_NO_DEFENSIVE_BONUS,
+	TAG_CAN_MOVE_IMPASSABLE,
+	TAG_HIDDEN_NATIONALITY,
+	TAG_BLITZ,
+	TAG_ALWAYS_HEAL,
+	TAG_ENEMY_ROUTE,
+	TAG_WATER,
+	TAG_FRESH_WATER,
+
+	NUM_TAGS
+};
+
+// AIAndy: Types of property sources
+enum PropertySourceTypes
+{
+	NO_PROPERTYSOURCE = -1,
+	PROPERTYSOURCE_CONSTANT,
+	PROPERTYSOURCE_CONSTANT_LIMITED,
+	PROPERTYSOURCE_DECAY,
+	PROPERTYSOURCE_ATTRIBUTE_CONSTANT,
+
+	NUM_PROPERTYSOURCES
+};
+
+// AIAndy: Types of property interactions
+enum PropertyInteractionTypes
+{
+	NO_PROPERTYINTERACTION = -1,
+	PROPERTYINTERACTION_CONVERT_CONSTANT,
+
+	NUM_PROPERTYINTERACTIONS
+};
+
+// AIAndy: Types of property propagators
+enum PropertyPropagatorTypes
+{
+	NO_PROPERTYPROPAGATOR = -1,
+	PROPERTYPROPAGATOR_SPREAD,
+	PROPERTYPROPAGATOR_GATHER,
+	PROPERTYPROPAGATOR_DIFFUSE,
+
+	NUM_PROPERTYPROPAGATORS
+};
 
 #endif	// CVENUMS_h

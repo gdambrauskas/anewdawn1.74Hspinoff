@@ -64,7 +64,7 @@
 			</UnitCombats>
 			<Button>,dummy.dds,Modules/Afforess/Required/Great_Commanders/Commanders.dds,4,1</Button>
 			<iCommandRange>0</iCommandRange>
-			<iControlPoints>10</iControlPoints>			
+			<iControlPoints>5</iControlPoints>			
 		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_MORALE1</Type>
@@ -84,7 +84,7 @@
 			<Description>TXT_KEY_PROMOTION_MORALE2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_MORALE1</PromotionPrereq>
-			<iCombatPercent>10</iCombatPercent>
+			<iCombatPercent>5</iCombatPercent>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -98,7 +98,7 @@
 			<Description>TXT_KEY_PROMOTION_MORALE3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_MORALE2</PromotionPrereq>
-			<iCombatPercent>15</iCombatPercent>
+			<iCombatPercent>5</iCombatPercent>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -112,8 +112,8 @@
 			<Description>TXT_KEY_PROMOTION_MORALE4</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_MORALE3</PromotionPrereq>
-			<iCombatPercent>10</iCombatPercent>
-			<iRevoltProtection>50</iRevoltProtection>
+			<iCombatPercent>5</iCombatPercent>
+			<iRevoltProtection>500</iRevoltProtection>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -127,9 +127,9 @@
 			<Description>TXT_KEY_PROMOTION_MORALE5</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_MORALE4</PromotionPrereq>
-			<iCombatPercent>10</iCombatPercent>
-			<iRevoltProtection>50</iRevoltProtection>
-			<iExperiencePercent>25</iExperiencePercent>
+			<iCombatPercent>5</iCombatPercent>
+			<iRevoltProtection>500</iRevoltProtection>
+			<iExperiencePercent>10</iExperiencePercent>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -143,7 +143,7 @@
 			<Description>TXT_KEY_PROMOTION_TACTICS1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_MORALE1</PromotionPrereq>
-			<iWithdrawalChange>15</iWithdrawalChange>
+			<iWithdrawalChange>5</iWithdrawalChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -163,7 +163,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_TACTICS1</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_MORALE2</PromotionPrereqOr1>
-			<iWithdrawalChange>15</iWithdrawalChange>
+			<iWithdrawalChange>5</iWithdrawalChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -179,7 +179,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_TACTICS2</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_MORALE3</PromotionPrereqOr1>
-			<iWithdrawalChange>20</iWithdrawalChange>
+			<iWithdrawalChange>5</iWithdrawalChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -194,7 +194,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_TACTICS3</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_MORALE4</PromotionPrereqOr1>
-			<iWithdrawalChange>20</iWithdrawalChange>
+			<iWithdrawalChange>5</iWithdrawalChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -280,7 +280,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_TACTICS2</PromotionPrereqOr1>
 			<iEnemyHealChange>2</iEnemyHealChange>
-			<iCityAttack>10</iCityAttack>
+			<iCityAttack>5</iCityAttack>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -296,7 +296,7 @@
 			<PromotionPrereq>PROMOTION_OPERATIONS2</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_SELFPRESERVATION1</PromotionPrereqOr1>
 			<iEnemyHealChange>3</iEnemyHealChange>
-			<iCityAttack>15</iCityAttack>
+			<iCityAttack>5</iCityAttack>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -312,7 +312,7 @@
 			<PromotionPrereq>PROMOTION_INITIATIVE2</PromotionPrereq>
 			<PromotionPrereqOr1>PROMOTION_SELFPRESERVATION2</PromotionPrereqOr1>
 			<iEnemyHealChange>5</iEnemyHealChange>
-			<iCityAttack>20</iCityAttack>
+			<iCityAttack>5</iCityAttack>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>

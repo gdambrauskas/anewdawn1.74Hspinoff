@@ -6,8 +6,10 @@
 #define CIV4_TEAM_H
 
 //#include "CvEnums.h"
+#include "CvGameObject.h"
 
 class CvArea;
+class CvProperties;
 
 class CvTeam
 {
@@ -18,6 +20,12 @@ public:
 
 	DllExport void init(TeamTypes eID);
 	DllExport void reset(TeamTypes eID = NO_TEAM, bool bConstructorCall = false);
+
+	CvGameObjectTeam* getGameObject() {return &m_GameObject;};
+protected:
+	CvGameObjectTeam m_GameObject;
+
+public:
 /************************************************************************************************/
 /* REVOLUTION_MOD                         01/01/08                                jdog5000      */
 /*                                                                                              */
@@ -693,6 +701,12 @@ protected:
 
 	virtual void read(FDataStreamBase* pStream);
 	virtual void write(FDataStreamBase* pStream);
+
+	// AIAndy: Properties
+	CvProperties m_Properties;
+public:
+	CvProperties* getProperties();
+	const CvProperties* getPropertiesConst() const;
 };
 
 #endif

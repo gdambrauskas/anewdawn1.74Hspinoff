@@ -11,6 +11,9 @@
 #include "CvPlotGroup.h"
 #include "LinkedList.h"
 #include "CvTalkingHeadMessage.h"
+#include "CvGameObject.h"
+// gvd below include added by me before full complete is done.
+#include "CvBuildingFilters.h"
 
 class CvDiploParameters;
 class CvPopupInfo;
@@ -43,6 +46,12 @@ public:
 	CvPlayer();
 	virtual ~CvPlayer();
 
+	CvGameObjectPlayer* getGameObject() {return &m_GameObject;};
+
+protected:
+	CvGameObjectPlayer m_GameObject;
+
+public:
 	DllExport void init(PlayerTypes eID);
 	DllExport void setupGraphical();
 	DllExport void reset(PlayerTypes eID = NO_PLAYER, bool bConstructorCall = false);
@@ -968,6 +977,8 @@ public:
 	int getSpecialistValidCount(SpecialistTypes eIndex) const;
 	DllExport bool isSpecialistValid(SpecialistTypes eIndex) const;																		// Exposed to Python					
 	void changeSpecialistValidCount(SpecialistTypes eIndex, int iChange);												
+	CvProperties* getProperties();
+	const CvProperties* getPropertiesConst() const;
 																																															
 	DllExport bool isResearchingTech(TechTypes eIndex) const;																					// Exposed to Python					
 	void setResearchingTech(TechTypes eIndex, bool bNewValue);																	
@@ -1430,6 +1441,8 @@ public:
 	
 	void updateCache();
 	
+	bool getBuildingListFilterActive(BuildingFilterTypes eFilter);
+	void setBuildingListFilterActive(BuildingFilterTypes eFilter, bool bActive);
 protected:
 	int** m_ppiSpecialistYieldPercentChanges;
 	int** m_ppiSpecialistCommercePercentChanges;
@@ -1495,6 +1508,7 @@ protected:
 	TeamTypes m_eDemandWarAgainstTeam;
 	
 
+	CvProperties m_Properties;
 	
 public:
 /************************************************************************************************/

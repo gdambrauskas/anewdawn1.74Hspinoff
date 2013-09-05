@@ -8,6 +8,7 @@
 #include "CvDLLEntity.h"
 //#include "CvEnums.h"
 #include "CvStructs.h"  // don't disable! used for modules
+#include "CvGameObject.h"
 
 #pragma warning( disable: 4251 )		// needs to have dll-interface to be used by clients of class
 
@@ -84,6 +85,13 @@ public:
 
 	CvUnit();
 	virtual ~CvUnit();
+
+	CvGameObjectUnit* getGameObject() {return &m_GameObject;};
+
+protected:
+	CvGameObjectUnit m_GameObject;
+
+public:
 	
 	void reloadEntity();
 	void init(int iID, UnitTypes eUnit, UnitAITypes eUnitAI, PlayerTypes eOwner, int iX, int iY, DirectionTypes eFacingDirection);
@@ -1192,6 +1200,11 @@ protected:
 /* BETTER_BTS_AI_MOD                       END                                                  */
 /************************************************************************************************/
 
+	// AIAndy: Properties
+	CvProperties m_Properties;
+public:
+	CvProperties* getProperties();
+	const CvProperties* getPropertiesConst() const;
 };
 
 #endif

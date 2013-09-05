@@ -3,12 +3,16 @@
 #########################################
 
 #### Paths ####
-TOOLKIT=W:\games-info\_game_files\civilization4\modding-development\Microsoft Visual C++ Toolkit 2003
-PSDK=W:\games-info\_game_files\civilization4\modding-development\WindowsSDK-v6
+#TOOLKIT=C:\Microsoft Visual C++ Toolkit 2003
+#PSDK=C:\WindowsSDK
+#CIVINSTALL=C:\Program Files (x86)\2K Games\Firaxis Games\Sid Meier's Civilization 4 Complete\Beyond the Sword
+#GLOBALBOOST=$(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
+#GLOBALPYTHON=$(CIVINSTALL)\CvGameCoreDLL\Python24
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-#YOURMOD=C:\Users\Danny\Documents\My Games\beyond the sword\MODS\MyMod
-#YOURMOD=W:\games\civ4\Beyond the Sword\Mods\gandtest
-YOURMOD=\\GOOGLELAP\games\civ4\Beyond the Sword\Mods\gandtest
+YOURMOD=W:\games\civ4\Beyond the Sword\Mods\gandtest
+#YOURMOD=\\GOOGLELAP\games\civ4\Beyond the Sword\Mods\gandtest
+
+include MakefilePaths
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"
@@ -63,25 +67,25 @@ Final_Release_OTHER=Final_Release\CvGameCoreDLL.exp
 #### CFLAGS ####
 GLOBAL_CFLAGS=/GR /Gy /W3 /EHsc /Gd /Gm- /DWIN32 /D_WINDOWS /D_USRDLL /DCVGAMECOREDLL_EXPORTS /Yu"CvGameCoreDLL.h"
 Debug_CFLAGS=/MD /Zi /Od /D_DEBUG /RTC1 /Fp"$(Debug_PCH)" $(GLOBAL_CFLAGS) $(Debug_GLOBAL_CFLAGS)
-Release_CFLAGS=/MD /O2 /Oy /Oi /G7 /DNDEBUG /DFINAL_RELEASE /Fp"$(Release_PCH)" $(GLOBAL_CFLAGS) $(Release_GLOBAL_CFLAGS)
-Final_Release_CFLAGS=/MD /O2 /Oy /Oi /G7 /DNDEBUG /DFINAL_RELEASE /Fp"$(Final_Release_PCH)" $(GLOBAL_CFLAGS) $(Final_Release_GLOBAL_CFLAGS)
+Release_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /DNDEBUG /Fp"$(Release_PCH)" $(GLOBAL_CFLAGS) $(Release_GLOBAL_CFLAGS)
+Final_Release_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /DNDEBUG /DFINAL_RELEASE /Fp"$(Final_Release_PCH)" $(GLOBAL_CFLAGS) $(Final_Release_GLOBAL_CFLAGS)
 
 #### LDFLAGS ####
 GLOBAL_LDFLAGS=/DLL /NOLOGO /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1
 Debug_LDFLAGS=/INCREMENTAL /DEBUG /PDB:"$(Debug_PDB)" /IMPLIB:"$(Debug_STATICLIB)" $(GLOBAL_LDFLAGS)
 Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF /IMPLIB:"$(Release_STATICLIB)" /PDB:"$(Release_PDB)" $(GLOBAL_LDFLAGS)
-Final_Release_LDFLAGS=/INCREMENTAL:NO /OPT:REF /OPT:ICF /IMPLIB:"$(Final_Release_LIBDEF)" /PDB:"$(Final_Release_PDB)" $(GLOBAL_LDFLAGS)
+Final_Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF /IMPLIB:"$(Final_Release_LIBDEF)" /PDB:"$(Final_Release_PDB)" $(GLOBAL_LDFLAGS)
 
 #### INCLUDES ####
-GLOBAL_INCS=/I"$(TOOLKIT)/include" /I"$(PSDK)/Include" /I"$(PSDK)/Include/mfc"
+GLOBAL_INCS=/I"$(TOOLKIT)/include" /I"$(PSDK)/Include" /I"$(PSDK)/Include/mfc" /I"$(GLOBALBOOST)/include" /I"$(GLOBALPYTHON)/include"
 PROJECT_INCS=/IBoost-1.32.0/include /IPython24/include
 Debug_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 Final_Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 
 #### LIBS ####
-GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib" winmm.lib user32.lib
-PROJECT_LIBS=/LIBPATH:Python24/libs /LIBPATH:boost-1.32.0/libs/ boost_python-vc71-mt-1_32.lib
+GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib" winmm.lib user32.lib psapi.lib
+PROJECT_LIBS=/LIBPATH:"$(GLOBALPYTHON)/libs" /LIBPATH:"$(GLOBALBOOST)/libs/" boost_python-vc71-mt-1_32.lib thread.obj exceptions.obj condition.obj xtime.obj mutex.obj once.obj recursive_mutex.obj read_write_mutex.obj tss_hooks.obj
 Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) msvcprt.lib #/NODEFAULTLIB:msvcprtd.lib
 Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
 Final_Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
@@ -119,150 +123,149 @@ all: Debug Final_Release Release
 clean: Debug_clean Release_clean Final_Release_clean
 
 Debug_clean:
-	@FOR %i IN ($(Debug_BIN) $(Debug_STATICLIB) $(Debug_LIBDEF) \
-		Debug\*.obj Debug\*.@ $(Debug_RESOURCE) \
-		$(Debug_PCH) $(Debug_PDB) $(Debug_OTHER)) DO @IF EXIST "%i" DEL "%i"
+    @FOR %i IN ($(Debug_BIN) $(Debug_STATICLIB) $(Debug_LIBDEF) \
+        Debug\*.obj Debug\*.@ $(Debug_RESOURCE) \
+        $(Debug_PCH) $(Debug_PDB) $(Debug_OTHER)) DO @IF EXIST "%i" DEL "%i"
 
 Release_clean:
-	@FOR %i IN ($(Release_BIN) $(Release_STATICLIB) $(Release_LIBDEF) \
-		Release\*.obj Release\*.@ $(Release_RESOURCE) \
-		$(Release_PCH) $(Release_PDB) $(Release_OTHER)) DO @IF EXIST "%i" DEL "%i"
-		
+    @FOR %i IN ($(Release_BIN) $(Release_STATICLIB) $(Release_LIBDEF) \
+        Release\*.obj Release\*.@ $(Release_RESOURCE) \
+        $(Release_PCH) $(Release_PDB) $(Release_OTHER)) DO @IF EXIST "%i" DEL "%i"
+        
 Final_Release_clean:
-	@FOR %i IN ($(Final_Release_BIN) $(Final_Release_STATICLIB) $(Final_Release_LIBDEF) \
-		Final_Release\*.obj Final_Release\*.@ $(Final_Release_RESOURCE) \
-		$(Final_Release_PCH) $(Final_Release_PDB) $(Final_Release_OTHER)) DO @IF EXIST "%i" DEL "%i"
+    @FOR %i IN ($(Final_Release_BIN) $(Final_Release_STATICLIB) $(Final_Release_LIBDEF) \
+        Final_Release\*.obj Final_Release\*.@ $(Final_Release_RESOURCE) \
+        $(Final_Release_PCH) $(Final_Release_PDB) $(Final_Release_OTHER)) DO @IF EXIST "%i" DEL "%i"
 
 Debug: Debug_DIR Debug_unfinished $(Debug_PCH) $(Debug_BIN)
 !IFDEF YOURMOD
-	-COPY "$(Debug_BIN)" "$(YOURMOD)\Assets\."
+    -COPY "$(Debug_BIN)" "$(YOURMOD)\Assets\."
 !ENDIF
 
 Release: Release_DIR Release_unfinished $(Release_PCH) $(Release_BIN)
 !IFDEF YOURMOD
-	-COPY "$(Release_BIN)" "$(YOURMOD)\Assets\."
+    -COPY "$(Release_BIN)" "$(YOURMOD)\Assets\."
 !ENDIF
 
 Final_Release: Final_Release_DIR Final_Release_unfinished $(Final_Release_PCH) $(Final_Release_BIN)
 !IFDEF YOURMOD
-	-COPY "$(Final_Release_BIN)" "$(YOURMOD)\Assets\."
+    -COPY "$(Final_Release_BIN)" "$(YOURMOD)\Assets\."
 !ENDIF
 
 Debug_DIR:
-	-@IF NOT EXIST "Debug\." MKDIR "Debug"
+    -@IF NOT EXIST "Debug\." MKDIR "Debug"
 
 Release_DIR:
-	-@IF NOT EXIST "Release\." MKDIR "Release"
-	
+    -@IF NOT EXIST "Release\." MKDIR "Release"
+    
 Final_Release_DIR:
-	-@IF NOT EXIST "Final_Release\." MKDIR "Final_Release"
+    -@IF NOT EXIST "Final_Release\." MKDIR "Final_Release"
 
 Debug_unfinished:
-	@ECHO.>Debug\unfinished.@
-	@FOR /F "delims=@" %i IN ('dir /b Debug\*.@') DO \
-		@IF EXIST "Debug\%i" DEL "Debug\%i"
-	@FOR /F %i IN ('dir /b Debug\*.@') DO \
-		@IF EXIST "Debug\%i" DEL "Debug\%i"
+    @ECHO.>Debug\unfinished.@
+    @FOR /F "delims=@" %i IN ('dir /b Debug\*.@') DO \
+        @IF EXIST "Debug\%i" DEL "Debug\%i"
+    @FOR /F %i IN ('dir /b Debug\*.@') DO \
+        @IF EXIST "Debug\%i" DEL "Debug\%i"
 
 Release_unfinished:
-	@ECHO.>Release\unfinished.@
-	@FOR /F "delims=@" %i IN ('dir /b Release\*.@') DO \
-		@IF EXIST "Release\%i" DEL "Release\%i"
-	@FOR /F %i IN ('dir /b Release\*.@') DO \
-		@IF EXIST "Release\%i" DEL "Release\%i"
-		
+    @ECHO.>Release\unfinished.@
+    @FOR /F "delims=@" %i IN ('dir /b Release\*.@') DO \
+        @IF EXIST "Release\%i" DEL "Release\%i"
+    @FOR /F %i IN ('dir /b Release\*.@') DO \
+        @IF EXIST "Release\%i" DEL "Release\%i"
+        
 Final_Release_unfinished:
-	@ECHO.>Final_Release\unfinished.@
-	@FOR /F "delims=@" %i IN ('dir /b Final_Release\*.@') DO \
-		@IF EXIST "Final_Release\%i" DEL "Final_Release\%i"
-	@FOR /F %i IN ('dir /b Final_Release\*.@') DO \
-		@IF EXIST "Final_Release\%i" DEL "Final_Release\%i"
+    @ECHO.>Final_Release\unfinished.@
+    @FOR /F "delims=@" %i IN ('dir /b Final_Release\*.@') DO \
+        @IF EXIST "Final_Release\%i" DEL "Final_Release\%i"
+    @FOR /F %i IN ('dir /b Final_Release\*.@') DO \
+        @IF EXIST "Final_Release\%i" DEL "Final_Release\%i"
 
 $(Debug_BIN): $(Debug_LINKOBJS) $(Debug_RESOURCE)
-	$(LD) /out:$(Debug_BIN) $(Debug_LDFLAGS) $(Debug_LIBS) $(Debug_LINKOBJS) $(Debug_RESOURCE)
+    $(LD) /out:$(Debug_BIN) $(Debug_LDFLAGS) $(Debug_LIBS) $(Debug_LINKOBJS) $(Debug_RESOURCE)
 
 $(Release_BIN): $(Release_LINKOBJS) $(Release_RESOURCE)
-	$(LD) /out:$(Release_BIN) $(Release_LDFLAGS) $(Release_LIBS) $(Release_LINKOBJS) $(Release_RESOURCE)
-	
+    $(LD) /out:$(Release_BIN) $(Release_LDFLAGS) $(Release_LIBS) $(Release_LINKOBJS) $(Release_RESOURCE)
+    
 $(Final_Release_BIN): $(Final_Release_LINKOBJS) $(Final_Release_RESOURCE)
-	$(LD) /out:$(Final_Release_BIN) $(Final_Release_LDFLAGS) $(Final_Release_LIBS) $(Final_Release_LINKOBJS) $(Final_Release_RESOURCE)
+    $(LD) /out:$(Final_Release_BIN) $(Final_Release_LDFLAGS) $(Final_Release_LIBS) $(Final_Release_LINKOBJS) $(Final_Release_RESOURCE)
 
 .cpp{Debug}.obj:
-	@ECHO.>"$*.obj.@"
+    @ECHO.>"$*.obj.@"
     $(CPP) /nologo $(Debug_CFLAGS) $(Debug_INCS) /Fo$*.obj /c $<
-	@DEL "$*.obj.@"
+    @DEL "$*.obj.@"
 
 .cpp{Release}.obj:
-	@ECHO.>"$*.obj.@"
+    @ECHO.>"$*.obj.@"
     $(CPP) /nologo $(Release_CFLAGS) $(Release_INCS) /Fo$*.obj /c $<
-	@DEL "$*.obj.@"
-	
+    @DEL "$*.obj.@"
+    
 .cpp{Final_Release}.obj:
-	@ECHO.>"$*.obj.@"
+    @ECHO.>"$*.obj.@"
     $(CPP) /nologo $(Final_Release_CFLAGS) $(Final_Release_INCS) /Fo$*.obj /c $<
-	@DEL "$*.obj.@"
+    @DEL "$*.obj.@"
 
 $(Debug_PCH) Debug\_precompile.obj:
-	@ECHO.>"$(Debug_PCH).@"
-	@ECHO.>"Debug\_precompile.obj.@"
-	$(CPP) /nologo $(Debug_CFLAGS) $(Debug_INCS) /YcCvGameCoreDLL.h /Fo"Debug\_precompile.obj" /c _precompile.cpp
-	@DEL "$(Debug_PCH).@"
-	@DEL "Debug\_precompile.obj.@"
+    @ECHO.>"$(Debug_PCH).@"
+    @ECHO.>"Debug\_precompile.obj.@"
+    $(CPP) /nologo $(Debug_CFLAGS) $(Debug_INCS) /YcCvGameCoreDLL.h /Fo"Debug\_precompile.obj" /c _precompile.cpp
+    @DEL "$(Debug_PCH).@"
+    @DEL "Debug\_precompile.obj.@"
 
 $(Release_PCH) Release\_precompile.obj:
-	@ECHO.>"$(Release_PCH).@"
-	@ECHO.>"Release\_precompile.obj.@"
+    @ECHO.>"$(Release_PCH).@"
+    @ECHO.>"Release\_precompile.obj.@"
     $(CPP) /nologo $(Release_CFLAGS) $(Release_INCS) /YcCvGameCoreDLL.h /Fo"Release\_precompile.obj" /c _precompile.cpp
-	@DEL "$(Release_PCH).@"
-	@DEL "Release\_precompile.obj.@"
-	
+    @DEL "$(Release_PCH).@"
+    @DEL "Release\_precompile.obj.@"
+    
 $(Final_Release_PCH) Final_Release\_precompile.obj:
-	@ECHO.>"$(Final_Release_PCH).@"
-	@ECHO.>"Final_Release\_precompile.obj.@"
+    @ECHO.>"$(Final_Release_PCH).@"
+    @ECHO.>"Final_Release\_precompile.obj.@"
     $(CPP) /nologo $(Final_Release_CFLAGS) $(Final_Release_INCS) /YcCvGameCoreDLL.h /Fo"Final_Release\_precompile.obj" /c _precompile.cpp
-	@DEL "$(Final_Release_PCH).@"
-	@DEL "Final_Release\_precompile.obj.@"
+    @DEL "$(Final_Release_PCH).@"
+    @DEL "Final_Release\_precompile.obj.@"
 
 .rc{Debug}.res:
-	@ECHO.>"$*.res.@"
-	$(RC) /Fo$@ $(Debug_INCS) $<
-	@DEL "$*.res.@"
+    @ECHO.>"$*.res.@"
+    $(RC) /Fo$@ $(Debug_INCS) $<
+    @DEL "$*.res.@"
 
 .rc{Release}.res:
-	@ECHO.>"$*.res.@"
-	$(RC) /Fo$@ $(Release_INCS) $<
-	@DEL "$*.res.@"
-	
+    @ECHO.>"$*.res.@"
+    $(RC) /Fo$@ $(Release_INCS) $<
+    @DEL "$*.res.@"
+    
 .rc{Final_Release}.res:
-	@ECHO.>"$*.res.@"
-	$(RC) /Fo$@ $(Final_Release_INCS) $<
-	@DEL "$*.res.@"
+    @ECHO.>"$*.res.@"
+    $(RC) /Fo$@ $(Final_Release_INCS) $<
+    @DEL "$*.res.@"
 
 !IFDEF BLACKLIST
 
 Debug\$(BLACKLIST).obj: $(BLACKLIST).cpp
-	@ECHO.>"$*.obj.@"
-	@ECHO.>"$*-dummy.cpp"
-	$(CPP) /nologo $(Debug_CFLAGS) $(Debug_INCS) /Y- /Fo$@ /c "$*-dummy.cpp"
-	@DEL "$*-dummy.cpp"
-	@DEL "$*.obj.@"
+    @ECHO.>"$*.obj.@"
+    @ECHO.>"$*-dummy.cpp"
+    $(CPP) /nologo $(Debug_CFLAGS) $(Debug_INCS) /Y- /Fo$@ /c "$*-dummy.cpp"
+    @DEL "$*-dummy.cpp"
+    @DEL "$*.obj.@"
 
 Release\$(BLACKLIST).obj: $(BLACKLIST).cpp
-	@ECHO.>"$*.obj.@"
-	@ECHO.>"$*-dummy.cpp"
-	$(CPP) /nologo $(Release_CFLAGS) $(Release_INCS) /Y- /Fo$@ /c "$*-dummy.cpp"
-	@DEL "$*-dummy.cpp"
-	@DEL "$*.obj.@"
-	
+    @ECHO.>"$*.obj.@"
+    @ECHO.>"$*-dummy.cpp"
+    $(CPP) /nologo $(Release_CFLAGS) $(Release_INCS) /Y- /Fo$@ /c "$*-dummy.cpp"
+    @DEL "$*-dummy.cpp"
+    @DEL "$*.obj.@"
+    
 Final_Release\$(BLACKLIST).obj: $(BLACKLIST).cpp
-	@ECHO.>"$*.obj.@"
-	@ECHO.>"$*-dummy.cpp"
-	$(CPP) /nologo $(Final_Release_CFLAGS) $(Final_Release_INCS) /Y- /Fo$@ /c "$*-dummy.cpp"
-	@DEL "$*-dummy.cpp"
-	@DEL "$*.obj.@"
+    @ECHO.>"$*.obj.@"
+    @ECHO.>"$*-dummy.cpp"
+    $(CPP) /nologo $(Final_Release_CFLAGS) $(Final_Release_INCS) /Y- /Fo$@ /c "$*-dummy.cpp"
+    @DEL "$*-dummy.cpp"
+    @DEL "$*.obj.@"
 
 !ENDIF
-
 
 !IFDEF FD
 

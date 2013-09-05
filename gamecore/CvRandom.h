@@ -19,6 +19,7 @@ public:
 
 	DllExport unsigned short get(unsigned short usNum, const TCHAR* pszLog = NULL);  //  Returns value from 0 to num-1 inclusive.
 	DllExport float getFloat();
+	unsigned int getInt();
 
 	void reseed(unsigned long ulNewValue);
 	DllExport unsigned long getSeed();

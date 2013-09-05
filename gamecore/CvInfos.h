@@ -19,11 +19,83 @@
 /*                                                                                              */
 /************************************************************************************************/
 #include "CvXMLLoadUtilityModTools.h"
+#include "CvProperties.h"
+#include "CvPropertySource.h"
+#include "CvPropertyInteraction.h"
+#include "CvPropertyPropagator.h"
+#include "CvPropertyManipulators.h"
+
+#include "CvDate.h"
+#include "BoolExpr.h"
+#include "IntExpr.h"
 /************************************************************************************************/
 /* XMLCOPY                                 END                                                  */
 /************************************************************************************************/
 #pragma warning( disable: 4251 )		// needs to have dll-interface to be used by clients of class
 #pragma warning( disable: 4127 )
+
+//------------------------------------------------------------------------------------------------------
+//
+//  FUNCTION:   CheckSum()
+//
+//  PURPOSE :   Function to calculate a checksum
+//
+//------------------------------------------------------------------------------------------------------
+inline void CheckSum(unsigned int& iSum, unsigned int iData)
+{
+	iSum += iData;
+	iSum = (iSum >> 1) | (iSum << (sizeof(iSum)*8 - 1));  // rotate
+}
+
+inline void CheckSum(unsigned int& iSum, int iData)
+{
+	CheckSum(iSum, (unsigned int) iData);
+}
+
+inline void CheckSum(unsigned int& iSum, bool bData)
+{
+	CheckSum(iSum, (unsigned int) bData);
+}
+
+inline void CheckSum(unsigned int& iSum, float fData)
+{
+	CheckSum(iSum, *(unsigned int *)&fData);
+}
+
+inline void CheckSum(unsigned int& iSum, int* aiData, int iNum)
+{
+	if (aiData)
+		for (int i=0; i<iNum; i++)
+			CheckSum(iSum, (unsigned int)aiData[i]);
+}
+
+inline void CheckSum(unsigned int& iSum, bool* abData, int iNum)
+{
+	if (abData)
+		for (int i=0; i<iNum; i++)
+			CheckSum(iSum, (unsigned int)abData[i]);
+}
+
+inline void CheckSum(unsigned int& iSum, char cData)
+{
+	CheckSum(iSum, (unsigned int) cData);
+}
+
+template<typename T1, typename T2>
+inline void CheckSum(unsigned int& iSum, std::pair<T1, T2>& p)
+{
+	CheckSum(iSum, p.first);
+	CheckSum(iSum, p.second);
+}
+
+template<typename Cont>
+inline void CheckSumC(unsigned int& iSum, Cont& kCont)
+{
+	for (Cont::iterator it = kCont.begin(); it!= kCont.end(); it++)
+		CheckSum(iSum, *it);
+}
+
+#define CheckSumI(A, B, C) CheckSum(A, C, B)
 
 class CvXMLLoadUtility;
 
@@ -746,6 +818,7 @@ public:
 	int getAssetMultiplier() const;
 	int getPowerMultiplier() const;
 	int getIgnoreTerrainDamage() const;
+	CvPropertyManipulators* getPropertyManipulators();
 protected:
 	bool m_bCanMovePeaks;
 	int m_iNumPromotionOverwrites;
@@ -758,6 +831,7 @@ protected:
 	int m_iAssetMultiplier;
 	int m_iPowerMultiplier;
 	int m_iIgnoreTerrainDamage;
+	int m_zobristValue;
 public:
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
@@ -839,6 +913,8 @@ protected:
 	bool* m_pbTerrainDoubleMove;
 	bool* m_pbFeatureDoubleMove;
 	bool* m_pbUnitCombat;
+
+	CvPropertyManipulators m_PropertyManipulators;
 
 };
 
@@ -1271,6 +1347,7 @@ public:
 	DllExport void setIndustrialArtDefineTag(int i, const TCHAR* szVal);
 	DllExport const TCHAR* getFutureArtDefineTag(int i, UnitArtStyleTypes eStyle) const;				// Exposed to Python
 	DllExport void setFutureArtDefineTag(int i, const TCHAR* szVal);
+	CvPropertyManipulators* getPropertyManipulators();
 protected:
 	std::vector<int> m_aiUpgradeUnitClassTypes;
 	bool* m_pbPassableRouteNeeded;
@@ -1285,6 +1362,7 @@ protected:
 	int m_iBaseFoodChange;
 	int m_iControlPoints;
 	int m_iCommandRange;
+	int m_zobristValue;
 	CvString* m_paszClassicalArtDefineTags;
 	CvString* m_paszRennArtDefineTags;
 	CvString* m_paszIndustrialArtDefineTags;
@@ -1644,6 +1722,7 @@ protected:
 	CvString m_szArtDefineButton;
 
 	std::vector<int> m_aiSeeInvisibleTypes;
+	CvPropertyManipulators m_PropertyManipulators;
 };
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -2054,6 +2133,7 @@ public:
 /************************************************************************************************/
 /* XMLCOPY                                 END                                                  */
 /************************************************************************************************/
+	CvPropertyManipulators* getPropertyManipulators();
 
 //---------------------------------------PROTECTED MEMBER VARIABLES---------------------------------
 protected:
@@ -2151,6 +2231,8 @@ protected:
 	bool* m_pabSpecialistValid;
 
 	int** m_ppiImprovementYieldChanges;
+
+	CvPropertyManipulators m_PropertyManipulators;
 	
 };
 
@@ -2643,7 +2725,10 @@ public:
 	int getCommerceAttacks(int i) const;
 	int* getCommerceAttacksArray() const;
 
+	CvProperties* getProperties();
+	CvProperties* getPropertiesAllCities();
 	bool readPass3();
+	CvPropertyManipulators* getPropertyManipulators();
 	
 	bool m_bAnySpecialistYieldChanges;
 	bool m_bAnyBonusYieldModifiers;
@@ -2925,6 +3010,9 @@ protected:
 	int** m_ppaiSpecialistYieldChange;
 	int** m_ppaiBonusYieldModifier;
 
+	CvProperties m_Properties;
+	CvProperties m_PropertiesAllCities;
+	CvPropertyManipulators m_PropertyManipulators;
 };
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -3627,6 +3715,11 @@ public:
 	int getNumTurnIncrements() const;				// Exposed to Python
 
 	GameTurnInfo& getGameTurnInfo(int iIndex) const;				// Exposed to Python
+	CvDateIncrement& getDateIncrement(int iIndex);
+	std::vector<CvDateIncrement>& getIncrements();
+	bool getEndDatesCalculated();
+	void setEndDatesCalculated(bool bCalculated);
+	
 	void allocateGameTurnInfos(const int iSize);
 
 	bool read(CvXMLLoadUtility* pXML);
@@ -3681,6 +3774,8 @@ protected:
 
 	CvString m_szGameSpeedName;
 	GameTurnInfo* m_pGameTurnInfo;
+	std::vector<CvDateIncrement> m_aIncrements;
+	bool m_bEndDatesCalculated;
 };
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -3941,6 +4036,7 @@ public:
 /************************************************************************************************/
 /* XMLCOPY                                 END                                                  */
 /************************************************************************************************/
+	CvPropertyManipulators* getPropertyManipulators();
 
 	//---------------------------------------PROTECTED MEMBER VARIABLES---------------------------------
 protected:
@@ -3968,6 +4064,9 @@ protected:
 	int* m_piTechMovementChange;
 	int* m_piPrereqOrBonuses;
 
+	int m_zobristValue;
+
+	CvPropertyManipulators m_PropertyManipulators;
 };
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -4152,6 +4251,7 @@ public:
 
 
 
+	CvPropertyManipulators* getPropertyManipulators();
 
 	//---------------------------------------PROTECTED MEMBER VARIABLES---------------------------------
 
@@ -4205,6 +4305,8 @@ protected:
 	int** m_ppiRouteYieldChanges;
 
 	CvImprovementBonusInfo* m_paImprovementBonus;
+
+	CvPropertyManipulators m_PropertyManipulators;
 
 };
 
@@ -4335,6 +4437,7 @@ public:
 /************************************************************************************************/
 /* XMLCOPY                                 END                                                  */
 /************************************************************************************************/
+	CvPropertyManipulators* getPropertyManipulators();
 
 	//---------------------------------------PUBLIC MEMBER VARIABLES---------------------------------
 
@@ -4391,6 +4494,8 @@ protected:
 	bool* m_pbTerrain;
 	bool* m_pbFeature;
 	bool* m_pbFeatureTerrain;
+
+	CvPropertyManipulators m_PropertyManipulators;
 
 };
 
@@ -4491,6 +4596,7 @@ public:
 /************************************************************************************************/
 /* XMLCOPY                                 END                                                  */
 /************************************************************************************************/
+	CvPropertyManipulators* getPropertyManipulators();
 
 	//---------------------------------------PROTECTED MEMBER VARIABLES---------------------------------
 protected:
@@ -4533,10 +4639,12 @@ protected:
 
 	bool* m_pbTerrain;
 
+	CvPropertyManipulators m_PropertyManipulators;
+
 private:
 
 	CvString m_szArtDefineTag;
-
+	int m_zobristValue;
 };
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -4711,6 +4819,7 @@ public:
 /************************************************************************************************/
 /* XMLCOPY                                 END                                                  */
 /************************************************************************************************/
+	CvPropertyManipulators* getPropertyManipulators();
 
 /************************************************************************************************/
 /* Afforess	                  Start		 04/21/10                                               */
@@ -4756,10 +4865,12 @@ protected:
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
+
+	CvPropertyManipulators m_PropertyManipulators;
 private:
 
 	CvString m_szArtDefineTag;
-
+	int	m_zobristValue;
 };
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -5613,6 +5724,7 @@ public:
 /************************************************************************************************/
 /* XMLCOPY                                 END                                                  */
 /************************************************************************************************/
+	CvPropertyManipulators* getPropertyManipulators();
 
 	//---------------------------------------PROTECTED MEMBER VARIABLES---------------------------------
 protected:
@@ -5646,6 +5758,7 @@ protected:
 	int* m_paiGlobalReligionCommerce;		
 	int* m_paiHolyCityCommerce;
 	int* m_paiStateReligionCommerce;
+	CvPropertyManipulators m_PropertyManipulators;
 
 };
 
@@ -5755,6 +5868,7 @@ public:
 /************************************************************************************************/
 /* XMLCOPY                                 END                                                  */
 /************************************************************************************************/
+	CvPropertyManipulators* getPropertyManipulators();
 
 	//---------------------------------------PROTECTED MEMBER VARIABLES---------------------------------
 protected:
@@ -5815,6 +5929,8 @@ protected:
 	int* m_paiCommerceProduced;
 	int* m_paiYieldProduced;
 
+	CvPropertyManipulators m_PropertyManipulators;
+
 };
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -5863,9 +5979,9 @@ public:
 /********************************************************************************/
 /**		REVDCM									END								*/
 /********************************************************************************/
-    // gvd start
+    // gdam start
 	int getHappyPerMilitaryUnit() const;
-	// gvd end
+	// gdam end
 
 
 	const TCHAR* getShortDescription() const;				// Exposed to Python
@@ -5880,6 +5996,7 @@ public:
 
 	int isFreePromotion(int i) const;				// Exposed to Python
 	int isFreePromotionUnitCombat(int i) const;			
+	CvPropertyManipulators* getPropertyManipulators();
 
 	bool read(CvXMLLoadUtility* pXML);
 /************************************************************************************************/
@@ -5925,9 +6042,9 @@ protected:
 /********************************************************************************/
 /**		REVDCM									END								*/
 /********************************************************************************/
-	//gvd start
+	//gdam start
 	int m_happyPerMilitaryUnit;
-	//gvd end
+	//gdam end
 	CvString m_szShortDescription;
 
 	// Arrays
@@ -5939,6 +6056,7 @@ protected:
 
 	bool* m_pabFreePromotion;
 	bool* m_pabFreePromotionUnitCombat;
+	CvPropertyManipulators m_PropertyManipulators;
 
 };
 
@@ -8268,6 +8386,8 @@ public:
 	int getBuildingHealthChange(int iBuildingClass) const;
 	int getNumBuildingHealthChanges() const;
 
+	CvProperties* getProperties();
+	CvProperties* getPropertiesAllCities();
 	const char* getPythonCallback() const;
 	const char* getPythonExpireCheck() const;
 	const char* getPythonCanDo() const;
@@ -8387,6 +8507,8 @@ private:
 	int m_iSpaceProductionModifier;
 	int m_iAIValue;
 
+	CvProperties m_Properties;
+	CvProperties m_PropertiesAllCities;
 	int* m_piTechFlavorValue;
 	int* m_piPlotExtraYields;
 	int* m_piFreeSpecialistCount;
@@ -8768,5 +8890,74 @@ protected:
 /************************************************************************************************/
 /* MODULAR_LOADING_CONTROL                 END                                                  */
 /************************************************************************************************/
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//
+//  class : CvPropertyInfo
+//
+//  DESC:   Contains info about generic properties which can be added to buildings
+//
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+class CvPropertyInfo : 
+	public CvInfoBase
+{
+public:
+
+	CvPropertyInfo();
+	virtual ~CvPropertyInfo();
+
+	int getAIWeight() const;
+	AIScaleTypes getAIScaleType() const;
+	int getOperationalRangeMin() const;
+	int getOperationalRangeMax() const;
+	bool isSourceDrain() const;
+	CvWString getValueDisplayText() const;
+	CvWString getChangeDisplayText() const;
+	CvWString getChangeAllCitiesDisplayText() const;
+	CvWString getPrereqMinDisplayText() const;
+	CvWString getPrereqMaxDisplayText() const;
+	PropertyBuilding& getPropertyBuilding(int index);
+	int getNumPropertyBuildings() const;
+	PropertyPromotion& getPropertyPromotion(int index);
+	int getNumPropertyPromotions() const;
+
+	int getChangePropagator(const GameObjectTypes eFrom, const GameObjectTypes eTo) const;
+
+	int getChar() const;
+	void setChar(int i);
+	int getFontButtonIndex() const;
+	
+	bool read(CvXMLLoadUtility* pXML);
+
+	void copyNonDefaults(CvPropertyInfo* pClassInfo, CvXMLLoadUtility* pXML);
+
+	void getCheckSum(unsigned int& iSum);
+
+	CvPropertyManipulators* getPropertyManipulators();
+
+protected:
+
+	int m_iChar;
+	int m_iFontButtonIndex;
+
+	int m_iAIWeight;
+	AIScaleTypes m_eAIScaleType;
+	int m_iOperationalRangeMin;
+	int m_iOperationalRangeMax;
+	bool m_bSourceDrain;
+	CvWString m_szValueDisplayText;
+	CvWString m_szChangeDisplayText;
+	CvWString m_szChangeAllCitiesDisplayText;
+	CvWString m_szPrereqMinDisplayText;
+	CvWString m_szPrereqMaxDisplayText;
+
+	int m_aaiChangePropagator[NUM_GAMEOBJECTS][NUM_GAMEOBJECTS]; // from/to, in percent
+
+	std::vector<PropertyBuilding> m_aPropertyBuildings;
+	std::vector<PropertyPromotion> m_aPropertyPromotions;
+
+	CvPropertyManipulators m_PropertyManipulators;
+};
 
 #endif

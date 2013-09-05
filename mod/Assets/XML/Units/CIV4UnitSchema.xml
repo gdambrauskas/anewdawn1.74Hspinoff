@@ -153,9 +153,9 @@
 	<ElementType name="bLineOfSight" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bHiddenNationality" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bAlwaysHostile" content="textOnly" dt:type="boolean"/>
-	<!--gvd-->
+	<!--gdam-->
     <ElementType name="bCanMovePeaks" content="textOnly" dt:type="boolean"/>
-    <!--gvd-->
+    <!--gdam-->
 <!--DPII < Revolution Mod Start> -->
 	<ElementType name="bInquisitor" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bCanBeRebel" content="textOnly" dt:type="boolean"/>

@@ -13,6 +13,7 @@ namespace python = boost::python;
 
 struct OrderData;
 class CvCity;
+class CvProperties;
 class CyPlot;
 class CyArea;
 class CyUnit;
@@ -679,6 +680,7 @@ public:
 /************************************************************************************************/
 /* REVOLUTION_MOD                          END                                                  */
 /************************************************************************************************/
+
 
 
 	std::string getScriptData() const;

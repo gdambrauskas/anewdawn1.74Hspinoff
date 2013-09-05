@@ -7,6 +7,9 @@
 
 #include "CvDLLEntity.h"
 #include "LinkedList.h"
+#include "CvInfos.h"
+#include "CvBuildingList.h"
+#include "CvGameObject.h"
 
 class CvPlot;
 class CvPlotGroup;
@@ -31,6 +34,13 @@ public:
 	void reset(int iID = 0, PlayerTypes eOwner = NO_PLAYER, int iX = 0, int iY = 0, bool bConstructorCall = false);
 	void setupGraphical();
 
+	CvGameObjectCity* getGameObject()  {return &m_GameObject;};
+	const CvGameObjectCity* getGameObjectConst() const {return (const CvGameObjectCity*)&m_GameObject;};
+
+protected:
+	CvGameObjectCity m_GameObject;
+
+public:
 /************************************************************************************************/
 /* REVOLUTION_MOD                         03/29/09                                jdog5000      */
 /*                                                                                              */
@@ -276,9 +286,9 @@ public:
 /************************************************************************************************/
 /* REVOLUTION_MOD                          END                                                  */
 /************************************************************************************************/
-	//gvd start
+	//gdam start
 	void spawnGreatPersonForCreativeOwner();
-	// gvd end
+	// gdam end
 	int getLargestCityHappiness() const;																		// Exposed to Python
 	int getVassalHappiness() const;																		// Exposed to Python
 	int getVassalUnhappiness() const;																		// Exposed to Python
@@ -406,6 +416,9 @@ public:
 
 	int getGreatPeopleRateModifier() const;																// Exposed to Python
 	void changeGreatPeopleRateModifier(int iChange);
+
+	CvProperties* getProperties();
+	const CvProperties* getPropertiesConst() const;
 
 // BUG - Building Additional Great People - start
 	int getAdditionalGreatPeopleRateByBuilding(BuildingTypes eBuilding) const;								// Exposed to Python
@@ -1335,6 +1348,8 @@ public:
 /************************************************************************************************/
 /* phunny_pharmer                End		 05/03/10                                           */
 /************************************************************************************************/
+	bool getBuildingListFilterActive(BuildingFilterTypes eFilter);
+	void setBuildingListFilterActive(BuildingFilterTypes eFilter, bool bActive);
 
 protected:
 
@@ -1592,6 +1607,7 @@ protected:
 	bool* m_pabHasReligion;
 	bool* m_pabHasCorporation;
 
+	CvProperties m_Properties;
 	IDInfo* m_paTradeCities;
 
 	mutable CLinkList<OrderData> m_orderQueue;

@@ -8,6 +8,7 @@
 //#include "CvStructs.h"
 #include "LinkedList.h"
 #include <bitset>
+#include "CvGameObject.h"
 
 #pragma warning( disable: 4251 )		// needs to have dll-interface to be used by clients of class
 
@@ -33,6 +34,12 @@ public:
 	CvPlot();
 	virtual ~CvPlot();
 
+	CvGameObjectPlot* getGameObject() {return &m_GameObject;};
+
+protected:
+	CvGameObjectPlot m_GameObject;
+
+public:
 /************************************************************************************************/
 /* DCM	                  Start		 05/31/10                        Johnny Smith               */
 /*                                                                   Afforess                   */
@@ -796,6 +803,12 @@ public:
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                       END                                                  */
 /************************************************************************************************/
+protected:
+	// AIAndy: Properties
+	CvProperties m_Properties;
+public:
+	CvProperties* getProperties();
+	const CvProperties* getPropertiesConst() const;
 };
 
 #endif

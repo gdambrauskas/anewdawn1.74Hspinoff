@@ -20,6 +20,9 @@
 #define USE_MEMMANAGER
 #include <crtdbg.h>
 #endif
+//#if !defined USE_MEMMANAGER
+//#define USE_MEMMANAGER
+//#endif
 #include <vector>
 #include <list>
 #include <tchar.h>
@@ -27,6 +30,11 @@
 #include <assert.h>
 #include <map>
 #include <hash_map>
+
+#include <utility>
+#include <algorithm>
+
+#include <fstream>
 
 #define DllExport   __declspec( dllexport ) 
 
@@ -151,8 +159,74 @@ __forceinline DWORD FtoDW( float f ) { return *(DWORD*)&f; }
 __forceinline float DWtoF( dword n ) { return *(float*)&n; }
 __forceinline float MaxFloat() { return DWtoF(0x7f7fffff); }
 
-void startProfilingDLL();
-void stopProfilingDLL();
+#ifdef _DEBUG
+#define	MEMORY_TRACKING
+#endif
+
+void startProfilingDLL(bool longLived);
+void stopProfilingDLL(bool longLived);
+//#define USE_INTERNAL_PROFILER
+#ifdef USE_INTERNAL_PROFILER
+struct ProfileSample;
+void IFPBeginSample(ProfileSample* sample);
+void IFPEndSample(ProfileSample* sample);
+void dumpProfileStack(void);
+void EnableDetailedTrace(bool enable);
+#endif
+
+#ifdef MEMORY_TRACKING
+class CMemoryTrack
+{
+#define	MAX_TRACKED_ALLOCS	1000
+	void*	m_track[MAX_TRACKED_ALLOCS];
+	char*	m_trackName[MAX_TRACKED_ALLOCS];
+	int		m_allocSeq[MAX_TRACKED_ALLOCS];
+	int		m_allocSize[MAX_TRACKED_ALLOCS];
+	int		m_highWater;
+	const char* m_name;
+	bool	m_valid;
+	int		m_seq;
+#define MAX_TRACK_DEPTH		50
+	static	CMemoryTrack*	trackStack[MAX_TRACK_DEPTH];
+	static	m_trackStackDepth;
+
+public:
+	CMemoryTrack(const char* name, bool valid);
+
+	~CMemoryTrack();
+
+	void NoteAlloc(void* ptr, int size);
+	void NoteDeAlloc(void* ptr);
+
+	static CMemoryTrack* GetCurrent(void);
+};
+
+class CMemoryTrace
+{
+	SIZE_T				m_start;
+	const char*			m_name;
+
+public:
+	CMemoryTrace(const char* name);
+
+	~CMemoryTrace();
+};
+
+void DumpMemUsage(const char* fn, int line);
+
+#define DUMP_MEMORY_USAGE()	DumpMemUsage(__FUNCTION__,__LINE__);
+#define MEMORY_TRACK()	CMemoryTrack __memoryTrack(__FUNCTION__, true);
+#define MEMORY_TRACK_NAME(x)	CMemoryTrack __memoryTrack(x, true);
+#define MEMORY_TRACK_EXEMPT()	CMemoryTrack __memoryTrackExemption(NULL, false);
+#define MEMORY_TRACE_FUNCTION()	CMemoryTrace __memoryTrace(__FUNCTION__);
+#else
+#define DUMP_MEMORY_USAGE()	
+#define	MEMORY_TRACK()
+#define MEMORY_TRACK_EXEMPT()
+#define MEMORY_TRACE_FUNCTION()
+#define MEMORY_TRACK_NAME(x)
+#endif
+
 
 //
 // Boost Python

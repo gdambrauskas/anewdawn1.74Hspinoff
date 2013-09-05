@@ -52,7 +52,8 @@
 
 // Public Functions...
 
-CvPlot::CvPlot()
+#pragma warning( disable : 4355 )
+CvPlot::CvPlot() : m_GameObject(this)
 {
 	m_aiYield = new short[NUM_YIELD_TYPES];
 
@@ -12331,3 +12332,12 @@ void CvPlot::removeSignForAllPlayers()
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
+CvProperties* CvPlot::getProperties()
+{
+	return &m_Properties;
+}
+
+const CvProperties* CvPlot::getPropertiesConst() const
+{
+	return &m_Properties;
+}

@@ -33,9 +33,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges>
@@ -78,9 +78,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
@@ -149,9 +149,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
@@ -186,9 +186,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
@@ -223,9 +223,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds>
 			   <iExtraYieldThreshold>0</iExtraYieldThreshold>
 			   <iExtraYieldThreshold>1</iExtraYieldThreshold>
@@ -264,9 +264,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges>
@@ -305,9 +305,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
@@ -352,9 +352,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
@@ -389,9 +389,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
@@ -426,9 +426,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>1</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
@@ -493,9 +493,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers>
 			  <iYield>30</iYield>
@@ -534,9 +534,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>1</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
@@ -621,9 +621,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds>
 				<iExtraYieldThreshold>1</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
@@ -666,9 +666,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
@@ -765,9 +765,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges>
@@ -845,9 +845,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges>
@@ -890,9 +890,9 @@
 			<bNonStateReligionCommerce>0</bNonStateReligionCommerce>
 			<bUpgradeAnywhere>0</bUpgradeAnywhere>
 			<!-- Revolution Trait Effects End -->
-			<!-- gvd start -->
+			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
-			<!-- gvd end -->
+			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>

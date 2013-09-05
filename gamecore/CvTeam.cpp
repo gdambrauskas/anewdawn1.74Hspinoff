@@ -41,8 +41,8 @@
 /************************************************************************************************/
 
 // Public Functions...
-
-CvTeam::CvTeam()
+#pragma warning( disable : 4355 )
+CvTeam::CvTeam() : m_GameObject(this)
 {
 	m_aiStolenVisibilityTimer = new int[MAX_TEAMS];
 	m_aiWarWeariness = new int[MAX_TEAMS];
@@ -9548,3 +9548,15 @@ void CvTeam::setFreeTradeAgreement(TeamTypes eIndex, bool bNewValue)
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
+
+
+
+CvProperties* CvTeam::getProperties()
+{
+	return &m_Properties;
+}
+
+const CvProperties* CvTeam::getPropertiesConst() const
+{
+	return &m_Properties;
+}

@@ -23,19 +23,37 @@
 //---------------------------------------------------------------------------------------------------------------------
 struct ProfileSample
 {
-	ProfileSample(char *name)					{ strcpy(Name, name); Added=false; Parent=-1; }
+	ProfileSample(char *name)
+	{	
+		strcpy(Name, name);
+		Added=false;
+		Parent=-1;
+#ifdef USE_INTERNAL_PROFILER
+		Id = -1;
+#endif
+	}
 
 	char	Name[256];						// Name of sample;
 
 	unsigned int	ProfileInstances;		// # of times ProfileBegin Called
 	int				OpenProfiles;			// # of time ProfileBegin called w/o ProfileEnd
+#ifdef USE_INTERNAL_PROFILER
+	LARGE_INTEGER	StartTime;				// The current open profile start time
+	LARGE_INTEGER	Accumulator;			// All samples this frame added together
+
+	LARGE_INTEGER	ChildrenSampleTime;		// Time taken by all children
+#else
 	double			StartTime;				// The current open profile start time
 	double			Accumulator;			// All samples this frame added together
 
 	double			ChildrenSampleTime;		// Time taken by all children
+#endif
 	unsigned int	NumParents;				// Number of profile Parents
 	bool			Added;					// true when added to the list
 	int				Parent;
+#ifdef USE_INTERNAL_PROFILER
+	int				Id;
+#endif
 };
 
 //---------------------------------------------------------------------------------------------------------------------

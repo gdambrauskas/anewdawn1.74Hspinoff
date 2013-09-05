@@ -3628,7 +3628,7 @@ void CvGame::setModem(bool bModem)
 /************************************************************************************************/
 void CvGame::revivePlayer(PlayerTypes iPlayer)
 {	
-	// gvd bug fix temp: game was crashing with player 49 failing to be found by gamecore.
+	// gdam bug fix temp: game was crashing with player 49 failing to be found by gamecore.
 	return;
 	if (!(GET_PLAYER(iPlayer).isAlive()))
 	{
@@ -3653,7 +3653,7 @@ void CvGame::revivePlayer(PlayerTypes iPlayer)
 
 void CvGame::reviveActivePlayer()
 {	
-	// gvd bug fix temp: game was crashing with player 49 failing to be found by gamecore.
+	// gdam bug fix temp: game was crashing with player 49 failing to be found by gamecore.
 	return;
 	if (!(GET_PLAYER(getActivePlayer()).isAlive()))
 	{
@@ -6330,7 +6330,7 @@ void CvGame::doTurn()
 
 	PROFILE_END();
 
-	stopProfilingDLL();
+	//stopProfilingDLL(true);
 
 	gDLL->getEngineIFace()->AutoSave();
 }
@@ -12463,3 +12463,13 @@ bool CvGame::canEverSpread(CorporationTypes eCorporation) const
 /************************************************************************************************/
 /* Afforess	                         END                                                        */
 /************************************************************************************************/	
+
+CvProperties* CvGame::getProperties()
+{
+	return &m_Properties;
+}
+
+const CvProperties* CvGame::getPropertiesConst() const
+{
+	return &m_Properties;
+}

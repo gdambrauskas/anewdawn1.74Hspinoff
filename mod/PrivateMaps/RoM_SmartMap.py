@@ -1761,7 +1761,7 @@ def generateTerrainTypes():
 
 
 	extraDesert = 0
-    # gvd
+    # gdam
 	extraCold = -20
 	grassFactor = 0
 

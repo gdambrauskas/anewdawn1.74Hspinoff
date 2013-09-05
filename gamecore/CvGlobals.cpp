@@ -2922,6 +2922,18 @@ int& CvGlobals::getNumFootstepAudioTypes()
 	return m_iNumFootstepAudioTypes;
 }
 
+int CvGlobals::getNumPropertyInfos()
+{
+	return (int)m_paPropertyInfo.size();
+}
+
+CvPropertyInfo& CvGlobals::getPropertyInfo(PropertyTypes ePropertyNum)
+{
+	FAssert(ePropertyNum > -1);
+	FAssert(ePropertyNum < GC.getNumPropertyInfos());
+	return *(m_paPropertyInfo[ePropertyNum]);
+}
+
 CvString*& CvGlobals::getFootstepAudioTypes()
 {
 	return m_paszFootstepAudioTypes;
@@ -4340,6 +4352,48 @@ void CvGlobals::infosReset()
 		for(int j=0;j<(int)infoBaseVector->size();j++)
 			infoBaseVector->at(j)->reset();
 	}
+}
+
+void CvGlobals::addDelayedResolution(int *pType, CvString szString)
+{
+	m_delayedResolutionMap[pType] = szString;
+	//m_delayedResolutionMap.insert(DelayedResolutionMap::value_type(pType, szString));
+}
+
+CvString* CvGlobals::getDelayedResolution(int *pType)
+{
+	DelayedResolutionMap::iterator it = m_delayedResolutionMap.find(pType);
+	if (it == m_delayedResolutionMap.end())
+	{
+		return NULL;
+	}
+	return &(it->second);
+}
+
+void CvGlobals::removeDelayedResolution(int *pType)
+{
+	m_delayedResolutionMap.erase(pType);
+}
+
+void CvGlobals::copyNonDefaultDelayedResolution(int* pTypeSelf, int* pTypeOther)
+{
+	if (getDelayedResolution(pTypeSelf) == NULL)
+	{
+		CvString* pszOther = getDelayedResolution(pTypeOther);
+		if (pszOther != NULL)
+		{
+			addDelayedResolution(pTypeSelf, *pszOther);
+		}
+	}
+}
+	
+void CvGlobals::resolveDelayedResolution()
+{
+	for (DelayedResolutionMap::iterator it = m_delayedResolutionMap.begin(); it != m_delayedResolutionMap.end(); it++)
+	{
+		*(it->first) = getInfoTypeForString(it->second);
+	}
+	m_delayedResolutionMap.clear();
 }
 
 int CvGlobals::getNumDirections() const { return NUM_DIRECTION_TYPES; }

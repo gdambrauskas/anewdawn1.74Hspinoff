@@ -23,6 +23,7 @@ class FXmlSchemaCache;
 class FXml;
 class CvGameText;
 class CvCacheObject;
+class CvImprovementBonusInfo;
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //
