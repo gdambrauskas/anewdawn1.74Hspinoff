@@ -35,6 +35,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -80,6 +81,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -151,6 +153,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -188,6 +191,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -225,6 +229,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds>
 			   <iExtraYieldThreshold>0</iExtraYieldThreshold>
@@ -266,6 +271,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -307,6 +313,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
@@ -332,7 +339,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>0</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
-			<iUpkeepModifier>-50</iUpkeepModifier>
+			<iUpkeepModifier>-70</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
@@ -354,6 +361,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -391,6 +399,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -428,6 +437,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>1</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -495,6 +505,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers>
@@ -536,6 +547,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -556,14 +568,6 @@
 				</FreePromotion>
 				<FreePromotion>
                     <PromotionType>PROMOTION_FLANKING2</PromotionType>
-                    <bFreePromotion>1</bFreePromotion>
-                </FreePromotion>
-				<FreePromotion>
-					<PromotionType>PROMOTION_GUERILLA1</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
-				<FreePromotion>
-                    <PromotionType>PROMOTION_GUERILLA2</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
                 <FreePromotion>
@@ -623,6 +627,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds>
 				<iExtraYieldThreshold>1</iExtraYieldThreshold>
@@ -668,6 +673,11 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges>
+                <iYield>1</iYield>
+                <iYield>1</iYield>
+                <iYield>1</iYield>
+            </GlobalSeaPlotYieldChanges>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -706,14 +716,6 @@
                     <PromotionType>PROMOTION_DRILL2</PromotionType>
                     <bFreePromotion>1</bFreePromotion>
                 </FreePromotion>
-                <FreePromotion>
-                    <PromotionType>PROMOTION_UPGRADE_DISCOUNT1</PromotionType>
-                    <bFreePromotion>1</bFreePromotion>
-                </FreePromotion>
-                <FreePromotion>
-                    <PromotionType>PROMOTION_UPGRADE_DISCOUNT2</PromotionType>
-                    <bFreePromotion>1</bFreePromotion>
-                </FreePromotion>     
             </FreePromotions>
             <FreePromotionUnitCombats>
                 <FreePromotionUnitCombat>
@@ -767,6 +769,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -847,6 +850,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>
@@ -892,6 +896,7 @@
 			<!-- Revolution Trait Effects End -->
 			<!-- gdam start -->
 			<iHappyPerMilitaryUnit>0</iHappyPerMilitaryUnit>
+			<GlobalSeaPlotYieldChanges/>
 			<!-- gdam end -->
 			<ExtraYieldThresholds/>
 			<TradeYieldModifiers/>

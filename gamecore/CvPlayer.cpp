@@ -342,11 +342,12 @@ void CvPlayer::init(PlayerTypes eID)
 /************************************************************************************************/
 /* REVDCM                                  END                                                  */
 /************************************************************************************************/
-				//gdam start
+				// gdam start
 				if ( GC.getTraitInfo((TraitTypes)iI).getHappyPerMilitaryUnit() != 0 )
 				{
 					changeHappyPerMilitaryUnit(GC.getTraitInfo((TraitTypes)iI).getHappyPerMilitaryUnit());
 				}
+
 				// gdam end
 
 /************************************************************************************************/
@@ -376,7 +377,10 @@ void CvPlayer::init(PlayerTypes eID)
 				changeMaxPlayerBuildingProductionModifier(GC.getTraitInfo((TraitTypes)iI).getMaxPlayerBuildingProductionModifier());
 
 				for (iJ = 0; iJ < NUM_YIELD_TYPES; iJ++)
-				{
+				{	
+					// gdam start
+					changeSeaPlotYield(((YieldTypes)iJ), GC.getTraitInfo((TraitTypes)iI).getSeaPlotYield(iJ));
+					// gdam end
 					changeTradeYieldModifier(((YieldTypes)iJ), GC.getTraitInfo((TraitTypes)iI).getTradeYieldModifier(iJ));
 				}
 

@@ -750,7 +750,7 @@
 	<!-- Pandemic system by Mexico -->
     <Define>
         <DefineName>PANDEMIC_TRADE_RATE</DefineName>
-        <iDefineIntVal>25</iDefineIntVal>
+        <iDefineIntVal>20</iDefineIntVal>
     </Define>
     <Define>
         <DefineName>PANDEMIC_TURN_RATE_SPREAD</DefineName>
@@ -790,7 +790,7 @@
     </Define>
     <Define>
         <DefineName>PANDEMIC_MIN_CITY_SIZE</DefineName>
-        <iDefineIntVal>1</iDefineIntVal>
+        <iDefineIntVal>4</iDefineIntVal>
     </Define>
     <Define>
         <DefineName>PANDEMIC_RAND_BASE</DefineName>

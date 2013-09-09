@@ -334,6 +334,9 @@
 	<!-- End Phungus Traits -->
 	<!-- gdam start -->
 	<ElementType name="iHappyPerMilitaryUnit" content= "textOnly" dt:type="int"/>
+	<ElementType name="GlobalSeaPlotYieldChanges" content="eltOnly">
+        <element type="iYield" minOccurs="0" maxOccurs="*"/>
+    </ElementType>
 	<!-- gdam end-->
 	<ElementType name="iExtraYieldThreshold" content="textOnly" dt:type="int"/>
 	<ElementType name="ExtraYieldThresholds" content="eltOnly">

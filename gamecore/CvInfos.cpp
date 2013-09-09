@@ -27783,8 +27783,9 @@ m_bUpgradeAnywhere(false),
 /********************************************************************************/
 /**		REVDCM									END								*/
 /********************************************************************************/
-//gdam start
+// gdam start
 m_happyPerMilitaryUnit(0),
+m_aiSeaPlotYield(NULL),
 // gdam end
 m_paiExtraYieldThreshold(NULL),
 m_paiTradeYieldModifier(NULL),
@@ -27804,7 +27805,10 @@ m_pabFreePromotion(NULL)
 //
 //------------------------------------------------------------------------------------------------------
 CvTraitInfo::~CvTraitInfo()
-{
+{	
+	// gdam start
+	SAFE_DELETE_ARRAY(m_aiSeaPlotYield);
+	//gdam end
 	SAFE_DELETE_ARRAY(m_paiExtraYieldThreshold);
 	SAFE_DELETE_ARRAY(m_paiTradeYieldModifier);
 	SAFE_DELETE_ARRAY(m_paiCommerceChange);
@@ -27927,13 +27931,6 @@ bool CvTraitInfo::isUpgradeAnywhere() const
 /**		REVDCM									END								*/
 /********************************************************************************/
 
-// gdam start
-int CvTraitInfo::getHappyPerMilitaryUnit() const
-{
-	return m_happyPerMilitaryUnit;
-}
-// gdam end
-
 const TCHAR* CvTraitInfo::getShortDescription() const
 {
 	return m_szShortDescription; 
@@ -27944,7 +27941,21 @@ void CvTraitInfo::setShortDescription(const TCHAR* szVal)
 	m_szShortDescription = szVal; 
 }
 
+// gdam start
+int CvTraitInfo::getHappyPerMilitaryUnit() const
+{
+	return m_happyPerMilitaryUnit;
+}
+// gdam end
+
 // Arrays
+
+// gdam start
+int CvTraitInfo::getSeaPlotYield(int i) const
+{
+	return m_aiSeaPlotYield ? m_aiSeaPlotYield[i] : -1; 
+}
+// gdam start
 
 int CvTraitInfo::getExtraYieldThreshold(int i) const
 {
@@ -28019,6 +28030,16 @@ bool CvTraitInfo::read(CvXMLLoadUtility* pXML)
 /********************************************************************************/
 	// gdam start
 	pXML->GetChildXmlValByName(&m_happyPerMilitaryUnit, "iHappyPerMilitaryUnit");
+	
+	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "GlobalSeaPlotYieldChanges"))
+    {
+        pXML->SetYields(&m_aiSeaPlotYield);
+        gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+    }
+    else
+    {
+        pXML->InitList(&m_aiSeaPlotYield, NUM_YIELD_TYPES);
+    }
 	// gdam end
 
 	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "ExtraYieldThresholds"))
@@ -28097,12 +28118,18 @@ void CvTraitInfo::copyNonDefaults(CvTraitInfo* pClassInfo, CvXMLLoadUtility* pXM
 	if (getMaxGlobalBuildingProductionModifier() == iDefault) m_iMaxGlobalBuildingProductionModifier = pClassInfo->getMaxGlobalBuildingProductionModifier();
 	if (getMaxTeamBuildingProductionModifier() == iDefault) m_iMaxTeamBuildingProductionModifier = pClassInfo->getMaxTeamBuildingProductionModifier();
 	if (getMaxPlayerBuildingProductionModifier() == iDefault) m_iMaxPlayerBuildingProductionModifier = pClassInfo->getMaxPlayerBuildingProductionModifier();
-	//gdam start
+	// gdam start
 	// not sure if this is need?
 	if (getHappyPerMilitaryUnit() == iDefault) m_happyPerMilitaryUnit = pClassInfo->getHappyPerMilitaryUnit();
 	// gdam end
 	for ( int j = 0; j < NUM_YIELD_TYPES; j++ )
 	{
+		// gdam start
+		if (m_aiSeaPlotYield[j] == iDefault)
+		{
+			m_aiSeaPlotYield[j] = pClassInfo->getSeaPlotYield(j);
+		}
+		// gdam end
 		if (m_paiExtraYieldThreshold[j] == iDefault)
 		{
 			m_paiExtraYieldThreshold[j] = pClassInfo->getExtraYieldThreshold(j);

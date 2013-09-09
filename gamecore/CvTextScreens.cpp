@@ -179,6 +179,7 @@ CvString CvTextScreen::buildLeaderInfoHelp( LeaderTypes eLeader, CivilizationTyp
 					"\n  %cNo State %c Maintenance", FC_BULLETPOINT, FC_RELIGION);
 				strcat(szHelpString, szTempBuffer);
 			}
+			// gvd add happy per military
 			// ExtraYieldThresholds
 			for (iI = 0; iI < NUM_YIELD_TYPES; iI++)
 			{

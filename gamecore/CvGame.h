@@ -202,6 +202,12 @@ public:
 
 	int getEstimateEndTurn() const;																// Exposed to Python
 	void setEstimateEndTurn(int iNewValue);												// Exposed to Python
+	// gdam start
+
+	// returns true if periodic time trigger is reached. Modeled after
+	// crusaders spawn time intervals.
+	bool isPeriodicSpawn();
+	// gdam end
 
 	DllExport int getTurnSlice() const;																			// Exposed to Python
 	int getMinutesPlayed() const;																	// Exposed to Python

@@ -3817,6 +3817,34 @@ void CvGame::setEstimateEndTurn(int iNewValue)
 	m_iEstimateEndTurn = iNewValue;
 }
 
+// gdam start
+
+// returns true if periodic time trigger is reached. Modeled after
+// crusaders spawn time intervals.
+bool CvGame::isPeriodicSpawn()
+{
+	int estiEnd = getEstimateEndTurn();
+	if ( estiEnd >= 1800 ) {
+		return getGameTurn() % 16 == 0;
+	}
+	if ( estiEnd >= 1400 ) {
+		return getGameTurn() % 14 == 0;
+	}
+	if ( estiEnd >= 1000 ) {
+		return getGameTurn() % 12 == 0;
+	}
+	if ( estiEnd >= 700 ) {
+		return getGameTurn() % 8 == 0;
+	}
+	if ( estiEnd >= 500 ) {
+		return getGameTurn() % 6 == 0;
+	}
+	if ( estiEnd >= 300 ) {
+		return getGameTurn() % 4 == 0;
+	}
+	return getGameTurn() % 4 == 0;
+}
+// gdam end
 
 int CvGame::getTurnSlice() const
 {

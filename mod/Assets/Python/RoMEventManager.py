@@ -67,34 +67,6 @@ class RoMEventManager:
 		self.iBUILDING_DJENNE = 0
 		self.iBUILDING_WORLD_BANK = 0
 		
-		# gdam nomad trait mounted unit spawn buildings start
-		self.building_stable = 0
-		self.building_ger = 0
-		self.nomad_trait = 0
-		self.sitting_bull = 0
-		self.nomad_leaders = []
-		
-		self.tech_chariotry = 0
-		self.unit_chariot = 0
-		
-		self.tech_horse_backriding = 0
-		self.unit_horseman = 0
-		
-		self.tech_horse_breeding = 0
-		self.unit_mounted_infantry = 0
-		self.unit_mounted_swordsman = 0
-		
-		self.tech_mounted_archery = 0
-		self.unit_horse_archer = 0
-		self.unit_keshik = 0
-		
-		self.tech_stirrup = 0
-		self.unit_light_cavalry = 0
-
-		self.tech_vertical_flight = 0
-		
-		# gdam nomad trait mounted unit spawn buildings end
-		
 		self.iTECH_KNOWLEDGE_MANAGEMENT = 0
 		self.iTECH_APPLIED_ECONOMICS = 0
 		self.m_iNetMessage_Colonist = 410
@@ -189,33 +161,7 @@ class RoMEventManager:
 		self.iBUILDING_CRUSADE = gc.getInfoTypeForString("BUILDING_CRUSADE")
 		self.iBUILDING_DJENNE = gc.getInfoTypeForString("BUILDING_DJENNE")
 		self.iBUILDING_WORLD_BANK = gc.getInfoTypeForString("BUILDING_WORLD_BANK")
-		
-		self.building_stable = gc.getInfoTypeForString("BUILDING_STABLE")
-		self.building_ger = gc.getInfoTypeForString("BUILDING_MONGOL_GER")
-		self.nomad_trait = gc.getInfoTypeForString("TRAIT_NOMAD")
-		self.sitting_bull = CvUtil.findInfoTypeNum(gc.getLeaderHeadInfo,gc.getNumLeaderHeadInfos(),"LEADER_SITTING_BULL")
-		for leader_name in ["LEADER_SITTING_BULL", "LEADER_KUBLAI_KHAN", "LEADER_GENGHIS_KHAN"]:
-			self.nomad_leaders.append(CvUtil.findInfoTypeNum(gc.getLeaderHeadInfo,gc.getNumLeaderHeadInfos(),leader_name))
-
-		self.tech_chariotry = gc.getInfoTypeForString("TECH_CHARIOTRY")
-		self.unit_chariot = gc.getInfoTypeForString("UNIT_CHARIOT")
-
-		self.tech_horse_backriding = gc.getInfoTypeForString("TECH_HORSEBACK_RIDING")
-		self.unit_horseman = gc.getInfoTypeForString("UNIT_HORSEMAN")
-
-		self.tech_horse_breeding = gc.getInfoTypeForString("TECH_HORSE_BREEDING")
-		self.unit_mounted_infantry = gc.getInfoTypeForString("UNIT_MOUNTED_INFANTRY")
-		self.unit_mounted_swordsman = gc.getInfoTypeForString("UNIT_MONGOL_MOUNTED_SWORDSMAN")
-
-		self.tech_mounted_archery = gc.getInfoTypeForString("TECH_MOUNTED_ARCHERY")
-		self.unit_horse_archer = gc.getInfoTypeForString("UNIT_HORSE_ARCHER")
-		self.unit_keshik = gc.getInfoTypeForString("UNIT_MONGOL_KESHIK")
-		
-		self.tech_stirrup = gc.getInfoTypeForString("TECH_STIRRUP")
-		self.unit_light_cavalry = gc.getInfoTypeForString("UNIT_LIGHT_CAVALRY")
-
-		self.tech_vertical_flight = gc.getInfoTypeForString("TECH_VERTICAL_FLIGHT")
-		
+				
 		self.iTECH_KNOWLEDGE_MANAGEMENT = gc.getInfoTypeForString("TECH_KNOWLEDGE_MANAGEMENT")
 		self.iTECH_APPLIED_ECONOMICS = gc.getInfoTypeForString("TECH_APPLIED_ECONOMICS")
 		self.iPROJECT_EDEN = gc.getInfoTypeForString("PROJECT_EDEN")
@@ -242,38 +188,7 @@ class RoMEventManager:
 #		test = ( iGameTurn % 14 )
 #		BugUtil.info ( "crusade test: %d", test) 
 		self.spawnCrusader(iGameTurn, pPlayer, self.iUNIT_CRUSADER, self.iBUILDING_CRUSADE, self.iTECH_FUNDAMENTALISM)
-		self.spawnNomadMountedUnits(iGameTurn, pPlayer)
 		# Crusade End #
-	
-	def spawnNomadMountedUnits(self, currentGameTurn, player):
-		if not self.isNomadLeader(player):
-			return
-		if gc.getTeam(player.getTeam()).isHasTech(self.tech_vertical_flight):
-			return
-		if not gc.getTeam(player.getTeam()).isHasTech(self.tech_chariotry):
-			return
-		self.spawnUnitInEachEligibleCity(currentGameTurn, player, self.getMountedUnitToSpawn(player), [self.building_stable, self.building_ger])
-	
-	def getMountedUnitToSpawn(self, player):
-		if gc.getTeam(player.getTeam()).isHasTech(self.tech_stirrup):
-			return self.unit_light_cavalry
-		if gc.getTeam(player.getTeam()).isHasTech(self.tech_mounted_archery):
-			if player.getLeaderType() == self.sitting_bull:
-				return self.unit_horse_archer
-			else:
-				return self.unit_keshik
-		if gc.getTeam(player.getTeam()).isHasTech(self.tech_horse_breeding):
-			if player.getLeaderType() == self.sitting_bull:
-				return self.unit_mounted_infantry
-			else:
-				return self.unit_mounted_swordsman
-		if gc.getTeam(player.getTeam()).isHasTech(self.tech_horse_backriding):
-			return self.unit_horseman
-		if gc.getTeam(player.getTeam()).isHasTech(self.tech_chariotry):
-			return self.unit_chariot
-	
-	def isNomadLeader(self, player):
-		return player.hasTrait(self.nomad_trait) and (player.getLeaderType() in self.nomad_leaders)
 	
 	def spawnCrusader(self, currentGameTurn, player, unit, building, tech):
 		if not gc.getTeam(player.getTeam()).isHasTech(tech):

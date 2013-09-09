@@ -1454,6 +1454,14 @@ void CvCity::doTurn()
 
 	doGreatPeople();
 
+	// gdam start
+
+	spawnFreeConscriptUnitForCharismaticOwner();
+	spawnFreeMountedUnitForNomadOwner();
+	spawnFreeDefensiveUnitForProtectiveOwner();
+
+	// gdam end
+
 	doMeltdown();
 
 	updateEspionageVisibility(true);
@@ -4755,7 +4763,6 @@ bool CvCity::hurryOverflow(HurryTypes eHurry, int* iProduction, int* iGold, bool
 }
 // BUG - Hurry Assist - end
 
-
 UnitTypes CvCity::getConscriptUnit() const
 {
 	UnitTypes eLoopUnit;
@@ -4771,6 +4778,7 @@ UnitTypes CvCity::getConscriptUnit() const
 
 	for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
 	{
+
 		eLoopUnit = (UnitTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(iI);
 
 		if (eLoopUnit != NO_UNIT)
@@ -6509,6 +6517,7 @@ int CvCity::badHealth(bool bNoAngry, int iExtra) const
 	// gdam start
 	// humanitarian trait has total bad health cut in half
 	int iFinalBadHealth = (unhealthyPopulation(bNoAngry, iExtra) - iTotalHealth);
+	// gvd instead of strings, use (PropertyTypes)GC.getInfoTypeForString("PROPERTY_CRIME") ?
 	CvString traitHumanitarianType = CvString::format("TRAIT_HUMANITARIAN").GetCString();
 	for (int i = 0; i < GC.getNumTraitInfos(); i++)
 	{
@@ -10663,6 +10672,7 @@ void CvCity::setCultureLevel(CultureLevelTypes eNewValue, bool bUpdatePlotGroups
 /************************************************************************************************/
 				// gdam start
 				spawnGreatPersonForCreativeOwner();
+				spawnGreatPriestForSpiritualOwner();
 				// gdam end
 				if (getCultureLevel() == (GC.getNumCultureLevelInfos() - 1))
 				{
@@ -14063,14 +14073,30 @@ int CvCity::getPandemicProbability() const
 		return 0;
 	}
 
+	int minTurns = GC.getDefineINT("PANDEMIC_MIN_TURNS");
+	int maxTurns = GC.getDefineINT("PANDEMIC_MAX_TURNS");
+	// For humanitarian trait pandemic lasts for 1 turn only, so min and max is 1.
+	CvString targetTraitType = CvString::format("TRAIT_HUMANITARIAN").GetCString();
+	for (int i = 0; i < GC.getNumTraitInfos(); i++)
+	{
+		if (hasTrait((TraitTypes)i))
+		{
+			CvTraitInfo& trait = GC.getTraitInfo((TraitTypes)i);
+			if (trait.getType() == targetTraitType) {
+				minTurns = 1;
+				maxTurns = 1;
+			}
+		}
+	}
+
 	// Check for minimum turns
-	if (isPandemic() && (GC.getDefineINT("PANDEMIC_MIN_TURNS")!= -1) && (getPandemicTurns() < GC.getDefineINT("PANDEMIC_MIN_TURNS")))
+	if (isPandemic() && (minTurns != -1) && (getPandemicTurns() < minTurns))
 	{
 		return GC.getDefineINT("PANDEMIC_RAND_BASE");
 	}
 
 	// Check for maximum turns
-	if (isPandemic() && (GC.getDefineINT("PANDEMIC_MAX_TURNS")!= -1) && (getPandemicTurns() >= GC.getDefineINT("PANDEMIC_MAX_TURNS")))
+	if (isPandemic() && (maxTurns != -1) && (getPandemicTurns() >= maxTurns))
 	{
 		return 0;
 	}
@@ -16821,7 +16847,7 @@ void CvCity::doMeltdown()
 		}
 	}
 }
-// gdam
+// gdam start
 // MOD - START - Pandemics
 // Pandemic system by Mexico
 void CvCity::doPandemic()
@@ -19784,15 +19810,69 @@ int CvCity::getImprovementBadHealth() const
 	return m_iImprovementBadHealth;
 }
 // gdam start
-void CvCity::spawnGreatPersonForCreativeOwner()
+
+void CvCity::spawnGreatPriestForSpiritualOwner()
 {	
-	CvString traitCreativeType = CvString::format("TRAIT_CREATIVE").GetCString();
+	if (isCapital() == false) {
+		return;
+	}
+
+	CvString targetTraitType = CvString::format("TRAIT_SPIRITUAL").GetCString();
 	for (int i = 0; i < GC.getNumTraitInfos(); i++)
 	{
 		if (hasTrait((TraitTypes)i))
 		{
 			CvTraitInfo& trait = GC.getTraitInfo((TraitTypes)i);
-			if (trait.getType() == traitCreativeType) {
+			if (trait.getType() == targetTraitType) {
+				SpecialistTypes eSpecialistType = (SpecialistTypes)0;
+				CvString priestType = CvString::format("SPECIALIST_PRIEST").GetCString();
+				for (int iSpecialist = 0; iSpecialist < GC.getNumSpecialistInfos(); iSpecialist++)
+				{					
+					eSpecialistType = (SpecialistTypes)iSpecialist;
+					CvSpecialistInfo& specialistInfo = GC.getSpecialistInfo(eSpecialistType);
+					if (specialistInfo.getGreatPeopleUnitClass() != NO_UNITCLASS)
+					{	
+						if (specialistInfo.getType() == priestType) {
+							UnitTypes eGreatPeopleUnit = ((UnitTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(GC.getSpecialistInfo(eSpecialistType).getGreatPeopleUnitClass())));
+
+							if (eGreatPeopleUnit != NO_UNIT)
+							{
+								createGreatPeople(eGreatPeopleUnit, false, false);
+								break;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+void CvCity::spawnGreatPersonForCreativeOwner()
+{	
+	// Only spawn great persons after city reaches developing culture. After that
+	// each expansion gives free great person. This is to nerf overpowered creative trait
+	// as well as avoid cheating where a new city could be placed, couple of great persons
+	// harvested, city abandoned and new city placed to repeat cycle for infinite great people.
+	CultureLevelTypes eCultureLevel;
+	int cultureLevelInfos = GC.getNumCultureLevelInfos();
+	for (int iI = 0; iI < cultureLevelInfos; iI++)
+	{	
+		eCultureLevel = ((CultureLevelTypes)iI);
+		// If it's less than developing, do not spawn great person.
+		if (iI < 4 && (getCultureLevel() == eCultureLevel))
+		{
+			return;
+		}
+	}
+
+	CvString targetTraitType = CvString::format("TRAIT_CREATIVE").GetCString();
+	for (int i = 0; i < GC.getNumTraitInfos(); i++)
+	{
+		if (hasTrait((TraitTypes)i))
+		{
+			CvTraitInfo& trait = GC.getTraitInfo((TraitTypes)i);
+			if (trait.getType() == targetTraitType) {
 				// pop a random great person in this city.
 				SpecialistTypes eSpecialistType = (SpecialistTypes)0;
 				CvString priestType = CvString::format("SPECIALIST_PRIEST").GetCString();
@@ -19827,8 +19907,226 @@ void CvCity::spawnGreatPersonForCreativeOwner()
 			}
 		}
 	}
-	
 }
+
+void CvCity::spawnFreeConscriptUnitForCharismaticOwner()
+{	
+	if (isCapital() == false) {
+		return;
+	}
+	if (GC.getGameINLINE().isPeriodicSpawn() == false) {
+		return;
+	}
+	TraitTypes targetType = (TraitTypes)GC.getInfoTypeForString("TRAIT_CHARISMATIC");
+	if (hasTrait(targetType))
+	{
+		CvUnit* pUnit = initConscriptedUnit();
+		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
+
+		if (NULL != pUnit)
+		{
+			if (GC.getGameINLINE().getActivePlayer() == getOwnerINLINE())
+			{
+				gDLL->getInterfaceIFace()->selectUnit(pUnit, true, false, true);
+			}
+			if( gCityLogLevel >= 2 )
+			{
+				logBBAI("      City %S conscripts a %S.", getName().GetCString(), pUnit->getName().GetCString() );
+			}
+		}
+	}
+}
+
+void CvCity::spawnFreeMountedUnitForNomadOwner()
+{	
+	if (isCapital() == false) {
+		return;
+	}
+	if (GC.getGameINLINE().isPeriodicSpawn() == false) {
+		return;
+	}
+	TraitTypes targetType = (TraitTypes)GC.getInfoTypeForString("TRAIT_NOMAD");
+	if (hasTrait(targetType))
+	{	
+		UnitTypes mountedConscriptUnit = getStrongestMountedUnit();
+		// It is possible techs for mounted units are not researched or horse
+		// resource is not available.
+		if (mountedConscriptUnit == NO_UNIT)
+		{
+			return;
+		}
+		CvUnit* pUnit = initConscriptedUnit(mountedConscriptUnit);
+		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
+
+		if (NULL != pUnit)
+		{
+			if (GC.getGameINLINE().getActivePlayer() == getOwnerINLINE())
+			{
+				gDLL->getInterfaceIFace()->selectUnit(pUnit, true, false, true);
+			}
+			if( gCityLogLevel >= 2 )
+			{
+				logBBAI("      City %S conscripts a %S.", getName().GetCString(), pUnit->getName().GetCString() );
+			}
+		}
+	}
+}
+
+void CvCity::spawnFreeDefensiveUnitForProtectiveOwner()
+{	
+	if (isCapital() == false) {
+		return;
+	}
+	if (GC.getGameINLINE().isPeriodicSpawn() == false) {
+		return;
+	}
+	TraitTypes targetType = (TraitTypes)GC.getInfoTypeForString("TRAIT_PROTECTIVE");
+	if (hasTrait(targetType))
+	{	
+		UnitTypes freeUnit = getStrongestDefensiveUnit();
+		// It is possible techs for free unit are not researched or resources
+		// required to build it are not available.
+		if (freeUnit == NO_UNIT)
+		{
+			return;
+		}
+		CvUnit* pUnit = initConscriptedUnit(freeUnit);
+		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
+
+		if (NULL != pUnit)
+		{
+			if (GC.getGameINLINE().getActivePlayer() == getOwnerINLINE())
+			{
+				gDLL->getInterfaceIFace()->selectUnit(pUnit, true, false, true);
+			}
+			if( gCityLogLevel >= 2 )
+			{
+				logBBAI("      City %S conscripts a %S.", getName().GetCString(), pUnit->getName().GetCString() );
+			}
+		}
+	}
+}
+
+CvUnit* CvCity::initConscriptedUnit(UnitTypes eConscriptUnit)
+{
+	UnitAITypes eCityAI = NO_UNITAI;
+
+	if (NO_UNIT == eConscriptUnit)
+	{
+		return NULL;
+	}
+
+	if (GET_PLAYER(getOwnerINLINE()).AI_unitValue(eConscriptUnit, UNITAI_ATTACK, area()) > 0) 
+	{ 
+		eCityAI = UNITAI_ATTACK; 
+	} 
+	else if (GET_PLAYER(getOwnerINLINE()).AI_unitValue(eConscriptUnit, UNITAI_CITY_DEFENSE, area()) > 0) 
+	{ 
+		eCityAI = UNITAI_CITY_DEFENSE; 
+	} 
+	else if (GET_PLAYER(getOwnerINLINE()).AI_unitValue(eConscriptUnit, UNITAI_CITY_COUNTER, area()) > 0)
+	{
+		eCityAI = UNITAI_CITY_COUNTER;
+	}
+	else if (GET_PLAYER(getOwnerINLINE()).AI_unitValue(eConscriptUnit, UNITAI_CITY_SPECIAL, area()) > 0)
+	{
+		eCityAI = UNITAI_CITY_SPECIAL;
+	}
+	else
+	{
+		eCityAI = NO_UNITAI;
+	}
+
+	CvUnit* pUnit = GET_PLAYER(getOwnerINLINE()).initUnit(eConscriptUnit, getX_INLINE(), getY_INLINE(), eCityAI);
+	FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
+
+	if (NULL != pUnit)
+	{
+		addProductionExperience(pUnit, true);
+
+		pUnit->setMoves(0);
+	}
+
+	return pUnit;
+}
+
+UnitTypes CvCity::getStrongestDefensiveUnit() const
+{
+	UnitTypes eLoopUnit;
+	UnitTypes eBestUnit;
+	int iValue;
+	int iBestValue;
+	int iI;
+	
+	iBestValue = 0;
+	eBestUnit = NO_UNIT;
+	
+	UnitCombatTypes targetUnitCombatType1 = (UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_ARCHER");
+	UnitCombatTypes targetUnitCombatType2 = (UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_GUN");
+
+	for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
+	{
+		eLoopUnit = (UnitTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(iI);
+		
+		if (eLoopUnit != NO_UNIT) 
+		{	
+			if ((targetUnitCombatType1 == GC.getUnitInfo(eLoopUnit).getUnitCombatType() ||
+				targetUnitCombatType2 == GC.getUnitInfo(eLoopUnit).getUnitCombatType()) &&
+				GC.getUnitInfo(eLoopUnit).getSpecialUnitType() == NO_SPECIALUNIT &&
+				canTrain(eLoopUnit))
+			{	
+				// archer unit conscription values are 0, so fake them by doing strength/2
+				if (targetUnitCombatType1 == GC.getUnitInfo(eLoopUnit).getUnitCombatType()) {
+					iValue = GC.getUnitInfo(eLoopUnit).getCombat() / 2;
+				} else {
+					iValue = GC.getUnitInfo(eLoopUnit).getConscriptionValue();
+				}
+
+				if (iValue > iBestValue)
+				{
+					iBestValue = iValue;
+					eBestUnit = eLoopUnit;
+				}
+			}
+		}
+	}
+	return eBestUnit;
+}
+
+UnitTypes CvCity::getStrongestMountedUnit() const
+{
+	UnitTypes eLoopUnit;
+	UnitTypes eBestUnit;
+	int iValue;
+	int iBestValue;
+	int iI;
+	
+	iBestValue = 0;
+	eBestUnit = NO_UNIT;
+	
+	UnitCombatTypes targetUnitCombatType = (UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_MOUNTED");
+
+	for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
+	{
+		eLoopUnit = (UnitTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(iI);
+		
+		if (eLoopUnit != NO_UNIT) 
+		{	
+			if (targetUnitCombatType == GC.getUnitInfo(eLoopUnit).getUnitCombatType() && canTrain(eLoopUnit))
+			{	
+				iValue = GC.getUnitInfo(eLoopUnit).getCombat();
+
+				if (iValue > iBestValue)
+				{
+					iBestValue = iValue;
+					eBestUnit = eLoopUnit;
+				}
+			}
+		}
+	}
+	return eBestUnit;
+}
+
 // gdam end
 void CvCity::updateImprovementHealth()
 {

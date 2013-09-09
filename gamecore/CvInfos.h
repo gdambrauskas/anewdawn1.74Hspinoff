@@ -5981,6 +5981,7 @@ public:
 /********************************************************************************/
     // gdam start
 	int getHappyPerMilitaryUnit() const;
+	int getSeaPlotYield(int i) const;
 	// gdam end
 
 
@@ -6042,13 +6043,13 @@ protected:
 /********************************************************************************/
 /**		REVDCM									END								*/
 /********************************************************************************/
-	//gdam start
+	// gdam start
 	int m_happyPerMilitaryUnit;
 	//gdam end
 	CvString m_szShortDescription;
 
 	// Arrays
-
+	int* m_aiSeaPlotYield;
 	int* m_paiExtraYieldThreshold;
 	int* m_paiTradeYieldModifier;
 	int* m_paiCommerceChange;

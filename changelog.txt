@@ -1,3 +1,24 @@
+// iReligionResearchModifier
+            if (pTraitInfo.m_iReligiousResearchModifier != 0)
+            {
+                if (pTraitInfo.m_iReligiousResearchModifier == 100)
+                {
+                    sprintf(szTempBuffer, "\n  %cHalf Cost %c Technologies", FC_BULLETPOINT, FC_RELIGION);
+                    strcat(szHelpString, szTempBuffer);
+                }
+                else
+                {
+                    sprintf(szTempBuffer, 
+                        "\n  %cResearch %c Techs %d%% Faster", FC_BULLETPOINT, FC_RELIGION, 
+                        pTraitInfo.m_iReligiousResearchModifier);
+                    strcat(szHelpString, szTempBuffer);
+                }
+            }
+            // bNoReligionMaintenance
+            if (pTraitInfo.m_bNoReligionMaintenance)
+
+
+
 TODO: seti research institute
 
 2012/06/17

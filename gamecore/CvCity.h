@@ -83,7 +83,7 @@ public:
 
 	void kill(bool bUpdatePlotGroups);																								// Exposed to Python
 
-	void doTurn();
+	void doTurn();	
 
 	bool isCitySelected();
 	DllExport bool canBeSelected() const;
@@ -213,7 +213,7 @@ public:
 // BUG - Hurry Assist - start
 	bool hurryOverflow(HurryTypes eHurry, int* iProduction, int* iGold, bool bCountThisTurn = false) const;
 // BUG - Hurry Assist - end
-
+	
 	UnitTypes getConscriptUnit() const;																// Exposed to Python
 	CvUnit* initConscriptedUnit();
 	int getConscriptPopulation() const;																// Exposed to Python
@@ -286,8 +286,17 @@ public:
 /************************************************************************************************/
 /* REVOLUTION_MOD                          END                                                  */
 /************************************************************************************************/
-	//gdam start
+	// gdam start
 	void spawnGreatPersonForCreativeOwner();
+	// Spawns great priest on each culture expansion of the capital.
+	void spawnGreatPriestForSpiritualOwner();
+	// Spaws free conscript for charismatic owner.
+	void spawnFreeConscriptUnitForCharismaticOwner();
+	void spawnFreeMountedUnitForNomadOwner();
+	void spawnFreeDefensiveUnitForProtectiveOwner();
+	UnitTypes getStrongestMountedUnit() const;
+	UnitTypes getStrongestDefensiveUnit() const;
+	CvUnit* initConscriptedUnit(UnitTypes eConscriptUnit);
 	// gdam end
 	int getLargestCityHappiness() const;																		// Exposed to Python
 	int getVassalHappiness() const;																		// Exposed to Python
