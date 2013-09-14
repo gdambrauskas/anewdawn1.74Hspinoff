@@ -1434,6 +1434,14 @@ void CvCity::doTurn()
 	doPandemic();
 	// MOD - END - Pandemics
 
+	// gdam start
+
+	spawnFreeConscriptUnitForCharismaticOwner();
+	spawnFreeMountedUnitForNomadOwner();
+	spawnFreeDefensiveUnitForProtectiveOwner();
+
+	// gdam end
+
 	setCurrAirlift(0);
 
 	AI_doTurn();
@@ -1453,14 +1461,6 @@ void CvCity::doTurn()
 	doReligion();
 
 	doGreatPeople();
-
-	// gdam start
-
-	spawnFreeConscriptUnitForCharismaticOwner();
-	spawnFreeMountedUnitForNomadOwner();
-	spawnFreeDefensiveUnitForProtectiveOwner();
-
-	// gdam end
 
 	doMeltdown();
 
