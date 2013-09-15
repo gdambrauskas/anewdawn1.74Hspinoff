@@ -235,6 +235,8 @@ public:
 	void setAutoPromoting(bool bNewValue);
 	bool isAutoUpgrading() const;
 	void setAutoUpgrading(bool bNewValue);
+	
+	const CvWString getDescription(uint uiForm = 0) const;
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/

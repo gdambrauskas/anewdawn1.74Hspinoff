@@ -4115,22 +4115,25 @@ int CvCity::getProductionNeeded(ProjectTypes eProject) const
 
 int CvCity::getProductionTurnsLeft() const
 {
-	CLLNode<OrderData>* pOrderNode = headOrderQueueNode();
+	return getQueueNodeProductionTurnsLeft(headOrderQueueNode());
+}
 
+int CvCity::getQueueNodeProductionTurnsLeft(CLLNode<OrderData>* pOrderNode, int iIndex) const
+{
 	if (pOrderNode != NULL)
 	{
 		switch (pOrderNode->m_data.eOrderType)
 		{
 		case ORDER_TRAIN:
-			return getProductionTurnsLeft(((UnitTypes)(pOrderNode->m_data.iData1)), 0);
+			return getProductionTurnsLeft(((UnitTypes)EXTERNAL_ORDER_IDATA(pOrderNode->m_data.iData1)), iIndex);
 			break;
 
 		case ORDER_CONSTRUCT:
-			return getProductionTurnsLeft(((BuildingTypes)(pOrderNode->m_data.iData1)), 0);
+			return getProductionTurnsLeft(((BuildingTypes)(pOrderNode->m_data.iData1)), iIndex);
 			break;
 
 		case ORDER_CREATE:
-			return getProductionTurnsLeft(((ProjectTypes)(pOrderNode->m_data.iData1)), 0);
+			return getProductionTurnsLeft(((ProjectTypes)(pOrderNode->m_data.iData1)), iIndex);
 			break;
 
 		case ORDER_MAINTAIN:
@@ -4144,7 +4147,6 @@ int CvCity::getProductionTurnsLeft() const
 
 	return MAX_INT;
 }
-
 
 int CvCity::getProductionTurnsLeft(UnitTypes eUnit, int iNum) const
 {
@@ -4168,6 +4170,41 @@ int CvCity::getProductionTurnsLeft(UnitTypes eUnit, int iNum) const
 	return getProductionTurnsLeft(iProductionNeeded, iProduction, getProductionDifference(iProductionNeeded, iProduction, iProductionModifier, isFoodProduction(eUnit), (iNum == 0)), getProductionDifference(iProductionNeeded, iProduction, iProductionModifier, isFoodProduction(eUnit), false));
 }
 
+int CvCity::getTotalProductionQueueTurnsLeft(void) const
+{
+	CLLNode<OrderData>* pOrderNode = headOrderQueueNode();
+	int iResult = 0;
+	int	iIndex = 0;
+
+	while(pOrderNode != NULL)
+	{
+		iResult += getQueueNodeProductionTurnsLeft( pOrderNode, iIndex++ );
+
+		pOrderNode = nextOrderQueueNode(pOrderNode);
+	}
+
+	return iResult;
+}
+
+int CvCity::numQueuedUnits(UnitAITypes eUnitAI, CvPlot* pDestPlot)
+{
+	CLLNode<OrderData>* pOrderNode = headOrderQueueNode();
+	int iResult = 0;
+
+	while(pOrderNode != NULL)
+	{
+		if ( pOrderNode->m_data.eOrderType == ORDER_TRAIN &&
+			 INTERNAL_AUXILIARY_ORDER_IDATA(pOrderNode->m_data.iData1) == GC.getMapINLINE().plotNumINLINE(pDestPlot->getX_INLINE(), pDestPlot->getY_INLINE()) &&
+			 (INTERNAL_AUXILIARY_ORDER_IDATA(pOrderNode->m_data.iData2) == eUnitAI))
+		{
+			iResult++;
+		}
+
+		pOrderNode = nextOrderQueueNode(pOrderNode);
+	}
+
+	return iResult;
+}
 
 int CvCity::getProductionTurnsLeft(BuildingTypes eBuilding, int iNum) const
 {
@@ -19865,7 +19902,7 @@ void CvCity::spawnGreatPriestForSpiritualOwner()
 
 void CvCity::spawnGreatPersonForCreativeOwner()
 {	
-	// Only spawn great persons after city reaches developing culture. After that
+	// Only spawn great persons after city reaches certain culture. After that
 	// each expansion gives free great person. This is to nerf overpowered creative trait
 	// as well as avoid cheating where a new city could be placed, couple of great persons
 	// harvested, city abandoned and new city placed to repeat cycle for infinite great people.
@@ -19874,8 +19911,9 @@ void CvCity::spawnGreatPersonForCreativeOwner()
 	for (int iI = 0; iI < cultureLevelInfos; iI++)
 	{	
 		eCultureLevel = ((CultureLevelTypes)iI);
-		// If it's less than developing, do not spawn great person.
-		if (iI < 4 && (getCultureLevel() == eCultureLevel))
+		// If it's less than CULTURELEVEL_FLEDGLING, do not spawn great person. On normal speed it gives
+		// ~20 turns before great person is spawned.
+		if (iI < 3 && (getCultureLevel() == eCultureLevel))
 		{
 			return;
 		}

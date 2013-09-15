@@ -180,6 +180,8 @@ public:
 	int getProductionNeeded(UnitTypes eUnit) const;
 	int getProductionNeeded(BuildingTypes eBuilding) const;
 	int getProductionNeeded(ProjectTypes eProject) const;		
+	int getQueueNodeProductionTurnsLeft(CLLNode<OrderData>* pOrderNode, int iIndex = 0) const;
+	int getTotalProductionQueueTurnsLeft(void) const;
 	int getProductionTurnsLeft() const;																	// Exposed to Python 
 	int getProductionTurnsLeft(UnitTypes eUnit, int iNum) const;					// Exposed to Python
 	int getProductionTurnsLeft(BuildingTypes eBuilding, int iNum) const;	// Exposed to Python
@@ -187,6 +189,7 @@ public:
 	int getProductionTurnsLeft(int iProductionNeeded, int iProduction, int iFirstProductionDifference, int iProductionDifference) const;
 	void setProduction(int iNewValue);																			// Exposed to Python
 	void changeProduction(int iChange);																			// Exposed to Python
+	int numQueuedUnits(UnitAITypes eUnitAI, CvPlot* pDestPlot);
 
 	int getProductionModifier() const;																						// Exposed to Python
 	int getProductionModifier(UnitTypes eUnit) const;															// Exposed to Python

@@ -13920,6 +13920,26 @@ void CvUnit::changeExtraDomainModifier(DomainTypes eIndex, int iChange)
 	m_aiExtraDomainModifier[eIndex] = (m_aiExtraDomainModifier[eIndex] + iChange);
 }
 
+/************************************************************************************************/
+/* Afforess	                  Start		 08/24/10                                               */
+/*                                                                                              */
+/*                                                                                              */
+/************************************************************************************************/
+const CvWString CvUnit::getDescription(uint uiForm) const
+{
+	if (m_pUnitInfo->getCivilizationName(getCivilizationType()) != NULL)
+	{
+		if (!CvWString(m_pUnitInfo->getCivilizationName(getCivilizationType())).empty())
+		{
+			return gDLL->getText(m_pUnitInfo->getCivilizationName(getCivilizationType()));
+		}
+	}
+	
+	return m_pUnitInfo->getDescription(uiForm);
+}
+/************************************************************************************************/
+/* Afforess	                     END                                                            */
+/************************************************************************************************/
 
 const CvWString CvUnit::getName(uint uiForm) const
 {

@@ -1789,7 +1789,7 @@ enum MissionAITypes		// Exposed to Python
 /************************************************************************************************/
 /* Afforess	                         END                                                        */
 /************************************************************************************************/	
-
+	, MISSIONAI_CONTRACT
 };
 
 // any additions need to be reflected in GlobalTypes.xml

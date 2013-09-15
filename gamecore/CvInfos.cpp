@@ -18,6 +18,8 @@
 #include "CvGameTextMgr.h"
 #include "CvGameCoreUtils.h"
 
+
+
 //------------------------------------------------------------------------------------------------------
 //
 //  FUNCTION:   CInfoBase()
@@ -342,11 +344,6 @@ bool CvInfoBase::read(CvXMLLoadUtility* pXML)
 	return true;
 }
 
-/************************************************************************************************/
-/* XMLCOPY                                 10/08/07                                MRGENIE      */
-/*                                                                                              */
-/*                                                                                              */
-/************************************************************************************************/
 void CvInfoBase::copyNonDefaults(CvInfoBase* pClassInfo, CvXMLLoadUtility* pXML)
 {	
 	CvString cDefault = CvString::format("").GetCString();
@@ -391,9 +388,7 @@ void CvInfoBase::copyNonDefaults(CvInfoBase* pClassInfo, CvXMLLoadUtility* pXML)
 		m_szTextKey = pClassInfo->getTextKeyWide();
 	}
 }
-/************************************************************************************************/
-/* XMLCOPY                                 END                                                  */
-/************************************************************************************************/
+
 //======================================================================================================
 //					CvScalableInfo
 //======================================================================================================
@@ -6270,6 +6265,17 @@ int CvUnitInfo::getPrereqOrVicinityBonuses(int i) const
 	FAssertMsg(i > -1, "Index out of bounds");
 	return m_piPrereqOrVicinityBonuses ? m_piPrereqOrVicinityBonuses[i] : -1;
 }
+
+CvWString CvUnitInfo::getCivilizationName(int i) const
+{
+	FAssertMsg(i < GC.getNumCivilizationInfos(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_paszCivilizationNames[i];
+}
+
+int CvUnitInfo::getCivilizationNamesVectorSize()					{return m_aszCivilizationNamesforPass3.size();}
+CvWString CvUnitInfo::getCivilizationNamesNamesVectorElement(int i)	{return m_aszCivilizationNamesforPass3[i];}
+CvWString CvUnitInfo::getCivilizationNamesValuesVectorElement(int i)		{return m_aszCivilizationNamesValueforPass3[i];}
 
 // Sanguo Mod Performance start, added by poyuzhe 07.27.09
 std::vector<int> CvUnitInfo::getUpgradeUnitClassTypes() const

@@ -26,6 +26,16 @@
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                       END                                                  */
 /************************************************************************************************/
+//	Koshling - This flag is used to check the turn's immediate movement for ending up next to
+//	an enemy unit that we don't have a high chance of surviving an attack from
+#define	MOVE_AVOID_ENEMY_UNITS									(0x00000200)
+//	Don't go into plots which appear dangerous, even in our own territory unless grouped with a defender
+#define	MOVE_WITH_CAUTION										(0x00000400)
+#define MOVE_OUR_TERRITORY										(0x00000800)
+//	Top byte used to represent max path len
+#define	MOVE_MAX_PATHLEN_MASK									(0xFF000000)
+#define MOVE_MAX_PATHLEN_FROM_INFO(x)							((x) >> 24)
+#define MOVE_FLAGS_FROM_MAX_PATHLEN(x)							((x) << 24)
 
 
 #define RANDPLOT_LAND													(0x00000001)

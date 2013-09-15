@@ -191,6 +191,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvContractBroker.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CvDate.cpp"
 				>
 			</File>
@@ -702,6 +706,10 @@
 			</File>
 			<File
 				RelativePath=".\CvCityAI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvContractBroker.h"
 				>
 			</File>
 			<File

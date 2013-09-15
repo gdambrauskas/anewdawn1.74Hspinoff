@@ -1348,6 +1348,11 @@ public:
 	DllExport void setIndustrialArtDefineTag(int i, const TCHAR* szVal);
 	DllExport const TCHAR* getFutureArtDefineTag(int i, UnitArtStyleTypes eStyle) const;				// Exposed to Python
 	DllExport void setFutureArtDefineTag(int i, const TCHAR* szVal);
+	
+	CvWString getCivilizationName(int i) const;
+	int getCivilizationNamesVectorSize();
+	CvWString getCivilizationNamesNamesVectorElement(int i);
+	CvWString getCivilizationNamesValuesVectorElement(int i);	
 	CvPropertyManipulators* getPropertyManipulators();
 protected:
 	std::vector<int> m_aiUpgradeUnitClassTypes;
@@ -1368,6 +1373,9 @@ protected:
 	CvString* m_paszRennArtDefineTags;
 	CvString* m_paszIndustrialArtDefineTags;
 	CvString* m_paszFutureArtDefineTags;
+	CvWString* m_paszCivilizationNames;
+	std::vector<CvString> m_aszCivilizationNamesforPass3;
+	std::vector<CvWString> m_aszCivilizationNamesValueforPass3;
 public:
 /************************************************************************************************/
 /* Afforess	                     END                                                            */

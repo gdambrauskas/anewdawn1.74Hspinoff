@@ -66,6 +66,16 @@ struct DllExport OrderData					// Exposed to Python
 	bool bSave;
 };
 
+//	Koshling - need to cram some extra info into some orders.  Existing usage
+//	means iData1 and iData2 can actually be shorts, so we divide them into two 16 bit fields
+//	iData1 gets the unitType in the external data (previous usage), and the location the unit
+//	is to head once built (if any)
+//	iData2 gets the UnitAI being built against in the external (previous usage) and the contract-requested
+//	UnitAI in the auxiliary (which can be NO_UNITAI)
+#define	EXTERNAL_ORDER_IDATA(iData)				(short)((iData) & 0xFFFF)
+#define	INTERNAL_AUXILIARY_ORDER_IDATA(iData)	(short)(((iData) & 0xffff0000) >> 16)
+#define	PACK_INTERNAL_ORDER_IDATA(iBase, iAux)	(((short)(iBase)) + (((short)(iAux)) << 16))
+
 struct DllExport MissionData				// Exposed to Python
 {
 	MissionTypes eMissionType;
