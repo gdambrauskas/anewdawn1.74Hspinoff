@@ -19912,7 +19912,8 @@ void CvCity::spawnGreatPersonForCreativeOwner()
 	{	
 		eCultureLevel = ((CultureLevelTypes)iI);
 		// If it's less than CULTURELEVEL_FLEDGLING, do not spawn great person. On normal speed it gives
-		// ~20 turns before great person is spawned.
+		// ~20 turns before great person is spawned. When culture goes from 2->3 rings, great persons
+		// start to be born.
 		if (iI < 3 && (getCultureLevel() == eCultureLevel))
 		{
 			return;
