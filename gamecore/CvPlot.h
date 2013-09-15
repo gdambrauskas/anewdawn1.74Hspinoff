@@ -23,13 +23,15 @@ class CvFeature;
 class CvUnit;
 class CvSymbol;
 class CvFlagEntity;
+class CvPathGeneratorPlotInfo;
+class CvPathPlotInfoStore;
 
 typedef bool (*ConstPlotUnitFunc)( const CvUnit* pUnit, int iData1, int iData2);
 typedef bool (*PlotUnitFunc)(CvUnit* pUnit, int iData1, int iData2);
 
 class CvPlot
 {
-
+friend CvPathPlotInfoStore;
 public:
 	CvPlot();
 	virtual ~CvPlot();
@@ -804,6 +806,10 @@ public:
 /* BETTER_BTS_AI_MOD                       END                                                  */
 /************************************************************************************************/
 protected:
+	//	Directly accessed cached pathing info per plot for performance reasons
+	mutable int							m_pathGenerationSeq;
+	mutable CvPathGeneratorPlotInfo*	m_currentPathInfo;
+
 	// AIAndy: Properties
 	CvProperties m_Properties;
 public:

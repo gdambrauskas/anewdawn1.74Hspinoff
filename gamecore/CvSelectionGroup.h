@@ -7,10 +7,23 @@
 
 //#include "CvStructs.h"
 #include "LinkedList.h"
+#include "CvPathGenerator.h"
 
 class CvPlot;
 class CvArea;
 class FAStarNode;
+
+typedef struct
+{
+	int		iCost;
+	int		iBestMoveCost;
+	int		iWorstMoveCost;
+	int		iToPlotNodeCost;
+#ifdef _DEBUG
+	CvPlot*	pFromPlot;
+	CvPlot*	pToPlot;
+#endif
+} edgeCosts;
 
 class CvSelectionGroup
 {
@@ -164,7 +177,9 @@ public:
 
 	FAStarNode* getPathLastNode() const;
 	CvPlot* getPathFirstPlot() const;																																		// Exposed to Python
-	CvPlot* getPathEndTurnPlot() const;																																	// Exposed to Python
+	CvPlot* getPathEndTurnPlot() const;																														// Exposed to Python
+	// gvd CvPath&	getPath() const;
+	static CvPathGenerator* getPathGenerator();																														// Exposed to Python
 	bool generatePath( const CvPlot* pFromPlot, const CvPlot* pToPlot, int iFlags = 0, bool bReuse = false, int* piPathTurns = NULL) const;	// Exposed to Python
 	void resetPath();																																										// Exposed to Python
 
@@ -301,6 +316,22 @@ protected:
 	bool sentryAlertSameDomainType() const;
 #endif
 // BUG - Sentry Actions - end
+
+//	KOSHLING Mod - add path validity results cache
+public:
+	//	These have to be static due to some assumptions the game engine seems to make about
+	//	this class which prsumably relates to the comment earlier that adding to this class causes
+	//	a crash in the main engine.  This is a bit untidy, but essentially fine due to the
+	//	single threaded nature of the application and the fact that cache validity is only
+	//	required across a single path generation call, which cannot interleave
+	static CvSelectionGroup* m_pCachedMovementGroup;
+	static std::map<int,edgeCosts>* m_pCachedNonEndTurnEdgeCosts;
+	static std::map<int,edgeCosts>* m_pCachedEndTurnEdgeCosts;
+	static CvPathGenerator*	m_generator;
+
+	static void setGroupToCacheFor(CvSelectionGroup* group);
+	bool HaveCachedPathEdgeCosts(CvPlot* pFromPlot, CvPlot* pToPlot, bool bIsEndTurnElement, int& iResult, int& iBestMoveCost, int& iWorstMoveCost, int &iToPlotNodeCost);
+	void CachePathEdgeCosts(CvPlot* pFromPlot, CvPlot* pToPlot, bool bIsEndTurnElement, int iCost, int iBestMoveCost, int iWorstMoveCost, int iToPlotNodeCost);
 };
 
 #endif

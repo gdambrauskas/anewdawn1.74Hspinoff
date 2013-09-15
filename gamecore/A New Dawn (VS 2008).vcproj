@@ -4,6 +4,7 @@
 	Version="9.00"
 	Name="A New Dawn"
 	ProjectGUID="{37D4A3BE-6EDB-4A5F-A42A-B82ECF9D34FC}"
+	RootNamespace="A New Dawn"
 	Keyword="MakeFileProj"
 	AssemblyReferenceSearchPaths="&quot;..\Sources&quot;"
 	TargetFrameworkVersion="131072"
@@ -298,6 +299,22 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvOutcome.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvOutcomeList.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvOutcomeMission.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPathGenerator.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CvPlayer.cpp"
 				>
 			</File>
@@ -399,6 +416,22 @@
 			</File>
 			<File
 				RelativePath=".\CvUnitAI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvUnitFilters.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvUnitGrouping.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvUnitList.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CvUnitSort.cpp"
 				>
 			</File>
 			<File
@@ -844,6 +877,22 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CvOutcome.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvOutcomeList.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvOutcomeMission.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvPathGenerator.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CvPlayer.h"
 				>
 			</File>
@@ -945,6 +994,22 @@
 			</File>
 			<File
 				RelativePath=".\CvUnitAI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvUnitFilters.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvUnitGrouping.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvUnitList.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CvUnitSort.h"
 				>
 			</File>
 			<File

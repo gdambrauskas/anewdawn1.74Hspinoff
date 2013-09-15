@@ -250,7 +250,10 @@ protected:
 
 	bool AI_potentialPlot(short* piYields);
 	bool AI_foodAvailable(int iExtra = 0);
+
+public:
 	int AI_yieldValue(short* piYields, short* piCommerceYields, bool bAvoidGrowth, bool bRemove, bool bIgnoreFood = false, bool bIgnoreGrowth = false, bool bIgnoreStarvation = false, bool bWorkerOptimization = false);
+protected:
 	int AI_plotValue(CvPlot* pPlot, bool bAvoidGrowth, bool bRemove, bool bIgnoreFood = false, bool bIgnoreGrowth = false, bool bIgnoreStarvation = false);
 
 	int AI_experienceWeight();

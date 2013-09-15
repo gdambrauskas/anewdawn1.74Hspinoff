@@ -17965,13 +17965,12 @@ bool CvCity::isValidBuildingLocation(BuildingTypes eBuilding) const
 	return true;
 }
 
-int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
+bool CvCity::isEventTriggerPossible(EventTriggerTypes eTrigger) const
 {
 	FAssert(eTrigger >= 0);
 	FAssert(eTrigger < GC.getNumEventTriggerInfos());
 
 	CvEventTriggerInfo& kTrigger = GC.getEventTriggerInfo(eTrigger);
-
 
 	if (!CvString(kTrigger.getPythonCanDoCity()).empty())
 	{
@@ -17986,7 +17985,7 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 
 		if (0 == lResult)
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 
@@ -18011,14 +18010,14 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 
 		if (!bFoundValid)
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 
 
 	if (getReligionCount() < kTrigger.getNumReligions())
 	{
-		return MIN_INT;
+		return false;
 	}
 
 	if (kTrigger.getNumReligions() > 0 && kTrigger.getNumReligionsRequired() > 0)
@@ -18041,13 +18040,13 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 
 		if (!bFoundValid)
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 
 	if (getCorporationCount() < kTrigger.getNumCorporations())
 	{
-		return MIN_INT;
+		return false;
 	}
 
 	if (kTrigger.getNumCorporations() > 0 && kTrigger.getNumCorporationsRequired() > 0)
@@ -18067,7 +18066,7 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 
 		if (!bFoundValid)
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 
@@ -18075,7 +18074,7 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 	{
 		if (getPopulation() < kTrigger.getMinPopulation())
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 
@@ -18084,7 +18083,7 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 	{
 		if (getPopulation() > kTrigger.getMaxPopulation())
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 
@@ -18092,14 +18091,14 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 	{
 		if (unhappyLevel(0) - happyLevel() < kTrigger.getAngry())
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 	else if (kTrigger.getAngry() < 0)
 	{
 		if (happyLevel() - unhappyLevel(0) < -kTrigger.getAngry())
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 
@@ -18107,14 +18106,14 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 	{
 		if (badHealth(false, 0) - goodHealth() < kTrigger.getUnhealthy())
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 	else if (kTrigger.getUnhealthy() < 0)
 	{
 		if (goodHealth() - badHealth(false, 0) < -kTrigger.getUnhealthy())
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 
@@ -18133,7 +18132,7 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 
 		if (!bFoundValid)
 		{
-			return MIN_INT;
+			return false;
 		}
 	}
 
@@ -18142,8 +18141,24 @@ int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
 
 	if (0 == getFood() && kTrigger.getCityFoodWeight() > 0)
 	{
+		return false;
+	}
+	return true;
+}
+
+int CvCity::getTriggerValue(EventTriggerTypes eTrigger) const
+{
+	FAssert(eTrigger >= 0);
+	FAssert(eTrigger < GC.getNumEventTriggerInfos());
+
+	CvEventTriggerInfo& kTrigger = GC.getEventTriggerInfo(eTrigger);
+
+	if (!isEventTriggerPossible(eTrigger))
+	{
 		return MIN_INT;
 	}
+
+	int iValue = 0;
 
 	iValue += getFood() * kTrigger.getCityFoodWeight();
 

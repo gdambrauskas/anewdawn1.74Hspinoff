@@ -37,6 +37,11 @@
 /* BETTER_BTS_AI_MOD                       END                                                  */
 /************************************************************************************************/
 
+CvSelectionGroup* CvSelectionGroup::m_pCachedMovementGroup = NULL;
+std::map<int,edgeCosts>* CvSelectionGroup::m_pCachedNonEndTurnEdgeCosts = NULL;
+std::map<int,edgeCosts>* CvSelectionGroup::m_pCachedEndTurnEdgeCosts = NULL;
+CvPathGenerator*	CvSelectionGroup::m_generator = NULL;
+
 // Public Functions...
 
 CvSelectionGroup::CvSelectionGroup()
@@ -5583,6 +5588,127 @@ bool CvSelectionGroup::generatePath( const CvPlot* pFromPlot, const CvPlot* pToP
 	return bSuccess;
 }
 
+CvPathGenerator*	CvSelectionGroup::getPathGenerator()
+{
+	if ( m_generator == NULL )
+	{
+		m_generator = new	CvPathGenerator(&GC.getMapINLINE());
+
+		// gvd m_generator->Initialize(NewPathHeuristicFunc, NewPathCostFunc, NewPathValidFunc, NewPathDestValid);
+	}
+
+	return m_generator;
+}
+
+
+
+void CvSelectionGroup::setGroupToCacheFor(CvSelectionGroup* group)
+{
+	MEMORY_TRACK_EXEMPT();
+	PROFILE_FUNC();
+
+	m_pCachedMovementGroup = group;
+
+	if ( m_pCachedNonEndTurnEdgeCosts == NULL )
+	{
+		m_pCachedNonEndTurnEdgeCosts = new std::map<int,edgeCosts>();
+	}
+	if ( m_pCachedEndTurnEdgeCosts == NULL )
+	{
+		m_pCachedEndTurnEdgeCosts = new std::map<int,edgeCosts>();
+	}
+
+	m_pCachedNonEndTurnEdgeCosts->clear();
+	m_pCachedEndTurnEdgeCosts->clear();
+}
+
+bool CvSelectionGroup::HaveCachedPathEdgeCosts(CvPlot* pFromPlot, CvPlot* pToPlot, bool bIsEndTurnElement, int& iResult, int& iBestMoveCost, int& iWorstMoveCost, int& iToPlotNodeCost)
+{
+	//	Could use Zobrist hashes of the plots, but actually since we're only combining two sets of coordinates we can
+	//	fit it all in an int for any reasonable map
+	int cacheKey = GC.getMapINLINE().plotNumINLINE(pFromPlot->getX_INLINE(),pFromPlot->getY_INLINE()) + (GC.getMapINLINE().plotNumINLINE(pToPlot->getX_INLINE(),pToPlot->getY_INLINE()) << 16);
+
+	if ( this != m_pCachedMovementGroup )
+	{
+		return false;
+	}
+
+	if ( bIsEndTurnElement )
+	{
+		std::map<int,edgeCosts>::const_iterator itr = m_pCachedEndTurnEdgeCosts->find(cacheKey);
+
+		if ( itr == m_pCachedEndTurnEdgeCosts->end() )
+		{
+			return false;
+		}
+		else
+		{
+			iResult = (itr->second).iCost;
+			iBestMoveCost = (itr->second).iBestMoveCost;
+			iWorstMoveCost = (itr->second).iWorstMoveCost;
+			iToPlotNodeCost = (itr->second).iToPlotNodeCost;
+#ifdef _DEBUG
+			FAssert((itr->second).pFromPlot == pFromPlot);
+			FAssert((itr->second).pToPlot == pToPlot);
+#endif
+			return true;
+		}
+	}
+	else
+	{
+		std::map<int,edgeCosts>::const_iterator itr = m_pCachedNonEndTurnEdgeCosts->find(cacheKey);
+
+		if ( itr == m_pCachedNonEndTurnEdgeCosts->end() )
+		{
+			return false;
+		}
+		else
+		{
+			iResult = (itr->second).iCost;
+			iBestMoveCost = (itr->second).iBestMoveCost;
+			iWorstMoveCost = (itr->second).iWorstMoveCost;
+			iToPlotNodeCost = (itr->second).iToPlotNodeCost;
+#ifdef _DEBUG
+			FAssert((itr->second).pFromPlot == pFromPlot);
+			FAssert((itr->second).pToPlot == pToPlot);
+#endif
+			return true;
+		}
+	}
+}
+
+void CvSelectionGroup::CachePathEdgeCosts(CvPlot* pFromPlot, CvPlot* pToPlot, bool bIsEndTurnElement, int iCost, int iBestMoveCost, int iWorstMoveCost, int iToPlotNodeCost)
+{
+	MEMORY_TRACK_EXEMPT();
+
+	if ( this == m_pCachedMovementGroup )
+	{
+		//	Could use Zobrist hashes of the plots, but actually since we're only combining two sets of coordinates we can
+		//	fit it all in an int for any reasonable map
+		FAssert(GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridWidthINLINE()*(GC.getMapINLINE().getGridWidthINLINE()/2) < MAXINT);
+		int cacheKey = GC.getMapINLINE().plotNumINLINE(pFromPlot->getX_INLINE(),pFromPlot->getY_INLINE()) + (GC.getMapINLINE().plotNumINLINE(pToPlot->getX_INLINE(),pToPlot->getY_INLINE()) << 16);
+
+		edgeCosts costs;
+
+		costs.iCost = iCost;
+		costs.iBestMoveCost = iBestMoveCost;
+		costs.iWorstMoveCost = iWorstMoveCost;
+		costs.iToPlotNodeCost = iToPlotNodeCost;
+#ifdef _DEBUG
+		costs.pFromPlot = pFromPlot;
+		costs.pToPlot = pToPlot;
+#endif
+
+		if ( bIsEndTurnElement )
+		{
+			(*m_pCachedEndTurnEdgeCosts)[cacheKey] = costs;
+		}
+		else
+		{
+			(*m_pCachedNonEndTurnEdgeCosts)[cacheKey] = costs;
+		}
+	}
+}
 
 void CvSelectionGroup::resetPath()
 {

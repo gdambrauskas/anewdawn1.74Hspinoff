@@ -3635,6 +3635,27 @@ bool CvPlayer::isCityNameValid(CvWString& szName, bool bTestDestroyed) const
 	return true;
 }
 
+CvUnit* CvPlayer::getTempUnit(UnitTypes eUnit, int iX, int iY)
+{
+	if ( m_pTempUnit == NULL )
+	{
+		m_pTempUnit = initUnit(eUnit, iX, iY);
+		((CvPlayerAI*)this)->AI_changeNumAIUnits(m_pTempUnit->AI_getUnitAIType(),-1);	//	This one doesn't count
+		removeGroupCycle(m_pTempUnit->getGroup()->getID());
+	}
+	else
+	{
+		m_pTempUnit->changeIdentity(eUnit);
+		m_pTempUnit->setXY(iX, iY, true, false);
+	}
+
+	return m_pTempUnit;
+}
+
+void CvPlayer::releaseTempUnit()
+{
+	m_pTempUnit->setXY(INVALID_PLOT_COORD,INVALID_PLOT_COORD,true,false);
+}
 
 CvUnit* CvPlayer::initUnit(UnitTypes eUnit, int iX, int iY, UnitAITypes eUnitAI, DirectionTypes eFacingDirection)
 {
@@ -24603,26 +24624,25 @@ CvUnit* CvPlayer::pickTriggerUnit(EventTriggerTypes eTrigger, CvPlot* pPlot, boo
 	return pUnit;
 }
 
-int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
+bool CvPlayer::isEventTriggerPossible(EventTriggerTypes eTrigger) const
 {
 	CvEventTriggerInfo& kTrigger = GC.getEventTriggerInfo(eTrigger);
-
 	if (NO_HANDICAP != kTrigger.getMinDifficulty())
 	{
 		if (GC.getGameINLINE().getHandicapType() < kTrigger.getMinDifficulty())
 		{
-			return 0;
+			return false;
 		}
 	}
 
 	if (kTrigger.isSinglePlayer() && GC.getGameINLINE().isGameMultiPlayer())
 	{
-		return 0;
+		return false;
 	}
 
 	if (!GC.getGameINLINE().isEventActive(eTrigger))
 	{
-		return 0;
+		return false;
 	}
 
 	if (kTrigger.getNumObsoleteTechs() > 0)
@@ -24631,7 +24651,7 @@ int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
 		{
 			if (GET_TEAM(getTeam()).isHasTech((TechTypes)(kTrigger.getObsoleteTech(iI))))
 			{
-				return 0;
+				return false;
 			}
 		}
 	}
@@ -24640,7 +24660,7 @@ int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
 	{
 		if (isTriggerFired(eTrigger))
 		{
-			return 0;
+			return false;
 		}
 	}
 
@@ -24659,7 +24679,7 @@ int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
 
 		if (!bFoundValid)
 		{
-			return 0;
+			return false;
 		}
 	}
 
@@ -24679,7 +24699,7 @@ int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
 
 		if (!bFoundValid)
 		{
-			return 0;
+			return false;
 		}
 	}
 
@@ -24697,7 +24717,7 @@ int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
 
 		if (!bFoundValid)
 		{
-			return 0;
+			return false;
 		}
 	}
 
@@ -24716,7 +24736,7 @@ int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
 
 		if (!bFoundValid)
 		{
-			return 0;
+			return false;
 		}
 	}
 
@@ -24724,13 +24744,13 @@ int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
 	{
 		if (getGold() < kTrigger.getMinTreasury())
 		{
-			return 0;
+			return false;
 		}
 	}
 
 	if (GC.getMapINLINE().getNumLandAreas() < kTrigger.getMinMapLandmass())
 	{
-		return 0;
+		return false;
 	}
 
 	if (kTrigger.getMinOurLandmass() > 0 || kTrigger.getMaxOurLandmass() != -1)
@@ -24751,14 +24771,25 @@ int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
 
 		if (iNumLandmass < kTrigger.getMinOurLandmass())
 		{
-			return 0;
+			return false;
 		}
 
 		if (kTrigger.getMaxOurLandmass() != -1 && iNumLandmass > kTrigger.getMaxOurLandmass())
 		{
-			return 0;
+			return false;
 		}
 	}
+	return true;
+}
+
+int CvPlayer::getEventTriggerWeight(EventTriggerTypes eTrigger) const
+{
+	if (!isEventTriggerPossible(eTrigger))
+	{
+		return 0;
+	}
+
+	CvEventTriggerInfo& kTrigger = GC.getEventTriggerInfo(eTrigger);
 
 	if (kTrigger.getProbability() < 0)
 	{

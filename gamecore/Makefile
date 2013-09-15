@@ -9,8 +9,8 @@
 #GLOBALBOOST=$(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
 #GLOBALPYTHON=$(CIVINSTALL)\CvGameCoreDLL\Python24
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-YOURMOD=W:\games\civ4\Beyond the Sword\Mods\gandtest
-#YOURMOD=\\GOOGLELAP\games\civ4\Beyond the Sword\Mods\gandtest
+#YOURMOD=W:\games\civ4\Beyond the Sword\Mods\gandtest
+YOURMOD=\\GOOGLELAP\games\civ4\Beyond the Sword\Mods\gandtest
 
 include MakefilePaths
 

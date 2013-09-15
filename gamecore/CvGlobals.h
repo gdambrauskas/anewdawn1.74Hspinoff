@@ -129,6 +129,7 @@ class CvUnitArtStyleTypeInfo;
 class CvVoteSourceInfo;
 class CvMainMenuInfo;
 class CvPropertyInfo;
+class CvOutcomeInfo;
 /************************************************************************************************/
 /* MODULAR_LOADING_CONTROL                 10/24/07                                MRGENIE      */
 /*                                                                                              */
@@ -475,6 +476,11 @@ void initUnitEventMissions();
 	int getNumPropertyInfos();
 	std::vector<CvPropertyInfo*>& getPropertyInfo();
 	CvPropertyInfo& getPropertyInfo(PropertyTypes ePropertyNum);
+
+	int getNumOutcomeInfos();
+	std::vector<CvOutcomeInfo*>& getOutcomeInfo();
+	CvOutcomeInfo& getOutcomeInfo(OutcomeTypes eOutcomeNum);
+
 /************************************************************************************************/
 /* DCM                                     04/19/09                                Johny Smith  */
 /************************************************************************************************/
@@ -1345,6 +1351,7 @@ protected:
 	std::vector<CvEspionageMissionInfo*> m_paEspionageMissionInfo;
     std::vector<CvUnitArtStyleTypeInfo*> m_paUnitArtStyleTypeInfo;
 	std::vector<CvPropertyInfo*> m_paPropertyInfo;
+	std::vector<CvOutcomeInfo*> m_paOutcomeInfo;
 
 	// Game Text
 	std::vector<CvGameText*> m_paGameTextXML;

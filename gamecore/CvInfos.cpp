@@ -14561,6 +14561,21 @@ void IntExprIntegrateCount::getCheckSum(unsigned int &iSum)
 	CheckSum(iSum, (int)m_eType);
 	m_pExpr->getCheckSum(iSum);
 }
+
+void CvOutcome::getCheckSum(unsigned int &iSum)
+{
+	CheckSum(iSum, m_eType);
+	CheckSum(iSum, m_iChance);
+	CheckSum(iSum, m_eUnitType);
+	CheckSum(iSum, m_ePromotionType);
+	CheckSum(iSum, m_eBonusType);
+	CheckSum(iSum, m_iGPP);
+	CheckSum(iSum, m_eGPUnitType);
+	CheckSumI(iSum, NUM_YIELD_TYPES, m_aiYield);
+	CheckSumI(iSum, NUM_COMMERCE_TYPES, m_aiCommerce);
+	CheckSum(iSum, m_iHappinessTimer);
+	m_Properties.getCheckSum(iSum);
+}
 //
 // read from XML
 //
@@ -38136,6 +38151,286 @@ int CvPropertyInfo::getNumPropertyPromotions() const
 {
 	return (int)m_aPropertyPromotions.size();
 }
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//
+//  class : CvOutcomeInfo
+//
+//  DESC:   Contains info about outcome types which can be the result of a kill or of actions
+//
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CvOutcomeInfo::CvOutcomeInfo() :
+									m_ePrereqTech(NO_TECH),
+									m_eObsoleteTech(NO_TECH),
+									m_bToCoastalCity(false),
+									m_bFriendlyTerritory(true),
+									m_bNeutralTerritory(true),
+									m_bHostileTerritory(true),
+									m_bBarbarianTerritory(false),
+									m_bCity(false),
+									m_bNotCity(false),
+									m_ePrereqCivic(NO_CIVIC)
+{
+}
+
+CvOutcomeInfo::~CvOutcomeInfo()
+{
+}
+
+bool CvOutcomeInfo::read(CvXMLLoadUtility* pXML)
+{
+	MEMORY_TRACE_FUNCTION();
+	
+	if (!CvInfoBase::read(pXML))
+	{
+		return false;
+	}
+
+
+	pXML->GetChildXmlValByName(m_szMessageText, "Message");
+	CvString szTextVal;
+	pXML->GetChildXmlValByName(szTextVal, "PrereqTech");
+	m_ePrereqTech = (TechTypes) pXML->FindInInfoClass(szTextVal);
+
+	pXML->GetChildXmlValByName(szTextVal, "ObsoleteTech");
+	m_eObsoleteTech = (TechTypes) pXML->FindInInfoClass(szTextVal);
+
+	pXML->GetChildXmlValByName(szTextVal, "PrereqCivic");
+	m_ePrereqCivic = (CivicTypes) pXML->FindInInfoClass(szTextVal);
+
+	pXML->GetChildXmlValByName(&m_bToCoastalCity, "bToCoastalCity", false);
+	pXML->GetChildXmlValByName(&m_bFriendlyTerritory, "bFriendlyTerritory", true);
+	pXML->GetChildXmlValByName(&m_bNeutralTerritory, "bNeutralTerritory", true);
+	pXML->GetChildXmlValByName(&m_bHostileTerritory, "bHostileTerritory", true);
+	pXML->GetChildXmlValByName(&m_bBarbarianTerritory, "bBarbarianTerritory", false);
+	pXML->GetChildXmlValByName(&m_bCity, "bCity", false);
+	pXML->GetChildXmlValByName(&m_bNotCity, "bNotCity", false);
+
+	if(gDLL->getXMLIFace()->SetToChildByTagName( pXML->GetXML(), "ExtraChancePromotions"))
+	{
+		if(gDLL->getXMLIFace()->SetToChild( pXML->GetXML() ))
+		{
+
+			if (gDLL->getXMLIFace()->LocateFirstSiblingNodeByTagName(pXML->GetXML(), "ExtraChancePromotion"))
+			{
+				do
+				{
+					int iExtraChance;
+					pXML->GetChildXmlValByName(szTextVal, "PromotionType");
+					PromotionTypes ePromotion = (PromotionTypes) pXML->FindInInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&iExtraChance, "iExtraChance");
+					m_aeiExtraChancePromotions.push_back(std::pair<PromotionTypes,int>(ePromotion, iExtraChance));
+				} while(gDLL->getXMLIFace()->NextSibling(pXML->GetXML()));
+			}
+			gDLL->getXMLIFace()->SetToParent( pXML->GetXML() );
+		}
+		gDLL->getXMLIFace()->SetToParent( pXML->GetXML() );
+	}
+
+	if(gDLL->getXMLIFace()->SetToChildByTagName( pXML->GetXML(), "PrereqBuildings"))
+	{
+		if(gDLL->getXMLIFace()->SetToChild( pXML->GetXML() ))
+		{
+
+			if (gDLL->getXMLIFace()->LocateFirstSiblingNodeByTagName(pXML->GetXML(), "BuildingType"))
+			{
+				do
+				{
+					pXML->GetXmlVal(szTextVal);
+					BuildingTypes eBuilding = (BuildingTypes) pXML->FindInInfoClass(szTextVal);
+					m_aePrereqBuildings.push_back(eBuilding);
+				} while(gDLL->getXMLIFace()->NextSibling(pXML->GetXML()));
+			}
+			gDLL->getXMLIFace()->SetToParent( pXML->GetXML() );
+		}
+		gDLL->getXMLIFace()->SetToParent( pXML->GetXML() );
+	}
+
+	return true;
+}
+
+bool CvOutcomeInfo::readPass2(CvXMLLoadUtility* pXML)
+{
+	CvString szTextVal;
+
+
+	if (!CvInfoBase::read(pXML))
+	{
+		return false;
+	}
+
+	if(gDLL->getXMLIFace()->SetToChildByTagName( pXML->GetXML(), "ReplaceOutcomes"))
+	{
+		if(gDLL->getXMLIFace()->SetToChild( pXML->GetXML() ))
+		{
+
+			if (gDLL->getXMLIFace()->LocateFirstSiblingNodeByTagName(pXML->GetXML(), "OutcomeType"))
+			{
+				do
+				{
+					pXML->GetXmlVal(szTextVal);
+					m_aeReplaceOutcomes.push_back((OutcomeTypes)pXML->FindInInfoClass(szTextVal));
+				} while(gDLL->getXMLIFace()->NextSibling(pXML->GetXML()));
+			}
+			gDLL->getXMLIFace()->SetToParent( pXML->GetXML() );
+		}
+		gDLL->getXMLIFace()->SetToParent( pXML->GetXML() );
+	}
+
+	return true;
+}
+
+void CvOutcomeInfo::copyNonDefaults(CvOutcomeInfo* pClassInfo, CvXMLLoadUtility* pXML)
+{
+	bool bDefault = false;
+	int iDefault = 0;
+	int iTextDefault = -1;  //all integers which are TEXT_KEYS in the xml are -1 by default
+	int iAudioDefault = -1;  //all audio is default -1	
+	float fDefault = 0.0f;
+	CvString cDefault = CvString::format("").GetCString();
+	CvWString wDefault = CvWString::format(L"").GetCString();
+
+	CvInfoBase::copyNonDefaults(pClassInfo, pXML);
+
+	if (getMessageText() == wDefault) m_szMessageText = pClassInfo->getMessageText();
+	if (getPrereqTech() == NO_TECH) m_ePrereqTech = pClassInfo->getPrereqTech();
+	if (getObsoleteTech() == NO_TECH) m_eObsoleteTech = pClassInfo->getObsoleteTech();
+	if (!getToCoastalCity()) m_bToCoastalCity = pClassInfo->getToCoastalCity();
+	if (getFriendlyTerritory()) m_bFriendlyTerritory = pClassInfo->getFriendlyTerritory();
+	if (getNeutralTerritory()) m_bNeutralTerritory = pClassInfo->getNeutralTerritory();
+	if (getHostileTerritory()) m_bHostileTerritory = pClassInfo->getHostileTerritory();
+	if (!getBarbarianTerritory()) m_bBarbarianTerritory = pClassInfo->getBarbarianTerritory();
+	if (!getCity()) m_bCity = pClassInfo->getCity();
+	if (!getNotCity()) m_bNotCity = pClassInfo->getNotCity();
+	if (getNumPrereqBuildings() == 0) m_aePrereqBuildings = pClassInfo->m_aePrereqBuildings;
+	if (getNumExtraChancePromotions() == 0) m_aeiExtraChancePromotions = pClassInfo->m_aeiExtraChancePromotions;
+	if (getPrereqCivic() == NO_CIVIC) m_ePrereqCivic = pClassInfo->getPrereqCivic();
+}
+
+void CvOutcomeInfo::copyNonDefaultsReadPass2(CvOutcomeInfo* pClassInfo, CvXMLLoadUtility* pXML)
+{
+	for ( int i = 0; i < pClassInfo->getNumReplaceOutcomes(); i++ )
+	{
+		m_aeReplaceOutcomes.push_back(pClassInfo->getReplaceOutcome(i));
+	}
+}
+
+void CvOutcomeInfo::getCheckSum(unsigned int& iSum)
+{
+	CheckSum(iSum, m_ePrereqTech);
+	CheckSum(iSum, m_eObsoleteTech);
+	CheckSumC(iSum, m_aeiExtraChancePromotions);
+	CheckSumC(iSum, m_aePrereqBuildings);
+	CheckSum(iSum, m_bToCoastalCity);
+	CheckSum(iSum, m_bFriendlyTerritory);
+	CheckSum(iSum, m_bNeutralTerritory);
+	CheckSum(iSum, m_bHostileTerritory);
+	CheckSum(iSum, m_bBarbarianTerritory);
+	CheckSum(iSum, m_bCity);
+	CheckSum(iSum, m_bNotCity);
+	CheckSumC(iSum, m_aeReplaceOutcomes);
+	CheckSum(iSum, m_ePrereqCivic);
+}
+
+CvWString CvOutcomeInfo::getMessageText() const
+{
+	return m_szMessageText;
+}
+
+bool CvOutcomeInfo::getToCoastalCity() const
+{
+	return m_bToCoastalCity;
+}
+
+bool CvOutcomeInfo::getFriendlyTerritory() const
+{
+	return m_bFriendlyTerritory;
+}
+
+bool CvOutcomeInfo::getNeutralTerritory() const
+{
+	return m_bNeutralTerritory;
+}
+
+bool CvOutcomeInfo::getHostileTerritory() const
+{
+	return m_bHostileTerritory;
+}
+
+bool CvOutcomeInfo::getBarbarianTerritory() const
+{
+	return m_bBarbarianTerritory;
+}
+
+bool CvOutcomeInfo::getCity() const
+{
+	return m_bCity;
+}
+
+bool CvOutcomeInfo::getNotCity() const
+{
+	return m_bNotCity;
+}
+
+TechTypes CvOutcomeInfo::getPrereqTech() const
+{
+	return m_ePrereqTech;
+}
+
+TechTypes CvOutcomeInfo::getObsoleteTech() const
+{
+	return m_eObsoleteTech;
+}
+
+CivicTypes CvOutcomeInfo::getPrereqCivic() const
+{
+	return m_ePrereqCivic;
+}
+
+int CvOutcomeInfo::getNumPrereqBuildings() const
+{
+	return m_aePrereqBuildings.size();
+}
+
+BuildingTypes CvOutcomeInfo::getPrereqBuilding(int i) const
+{
+	FAssertMsg(i < (int) m_aePrereqBuildings.size(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_aePrereqBuildings[i];
+}
+
+int CvOutcomeInfo::getNumExtraChancePromotions() const
+{
+	return m_aeiExtraChancePromotions.size();
+}
+
+PromotionTypes CvOutcomeInfo::getExtraChancePromotion(int i) const
+{
+	FAssertMsg(i < (int) m_aeiExtraChancePromotions.size(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_aeiExtraChancePromotions[i].first;
+}
+
+int CvOutcomeInfo::getExtraChancePromotionChance(int i) const
+{
+	FAssertMsg(i < (int) m_aeiExtraChancePromotions.size(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_aeiExtraChancePromotions[i].second;
+}
+
+int CvOutcomeInfo::getNumReplaceOutcomes() const
+{
+	return m_aeReplaceOutcomes.size();
+}
+
+OutcomeTypes CvOutcomeInfo::getReplaceOutcome(int i) const
+{
+	FAssertMsg(i < (int) m_aeReplaceOutcomes.size(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_aeReplaceOutcomes[i];
+}
+
 
 
 /************************************************************************************************/

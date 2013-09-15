@@ -24,7 +24,8 @@
 #include "CvPropertyInteraction.h"
 #include "CvPropertyPropagator.h"
 #include "CvPropertyManipulators.h"
-
+#include "CvOutcomeList.h"
+#include "CvOutcomeMission.h"
 #include "CvDate.h"
 #include "BoolExpr.h"
 #include "IntExpr.h"
@@ -8959,6 +8960,66 @@ protected:
 	std::vector<PropertyPromotion> m_aPropertyPromotions;
 
 	CvPropertyManipulators m_PropertyManipulators;
+};
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//
+//  class : CvOutcomeInfo
+//
+//  DESC:   Contains info about outcome types which can be the result of a kill or of actions
+//
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+class CvOutcomeInfo : 
+	public CvInfoBase
+{
+public:
+
+	CvOutcomeInfo();
+	virtual ~CvOutcomeInfo();
+
+	CvWString getMessageText() const;
+	TechTypes getPrereqTech() const;
+	TechTypes getObsoleteTech() const;
+	CivicTypes getPrereqCivic() const;
+	bool getToCoastalCity() const;
+	bool getFriendlyTerritory() const;
+	bool getNeutralTerritory() const;
+	bool getHostileTerritory() const;
+	bool getBarbarianTerritory() const;
+	bool getCity() const;
+	bool getNotCity() const;
+	int getNumPrereqBuildings() const;
+	BuildingTypes getPrereqBuilding(int i) const;
+	int getNumExtraChancePromotions() const;
+	PromotionTypes getExtraChancePromotion(int i) const;
+	int getExtraChancePromotionChance(int i) const;
+	int getNumReplaceOutcomes() const;
+	OutcomeTypes getReplaceOutcome(int i) const;
+	
+	bool read(CvXMLLoadUtility* pXML);
+	bool readPass2(CvXMLLoadUtility* pXML);
+
+	void copyNonDefaults(CvOutcomeInfo* pClassInfo, CvXMLLoadUtility* pXML);
+	void copyNonDefaultsReadPass2(CvOutcomeInfo* pClassInfo = NULL, CvXMLLoadUtility* pXML = NULL);
+
+	void getCheckSum(unsigned int& iSum);
+
+protected:
+
+	TechTypes m_ePrereqTech;
+	TechTypes m_eObsoleteTech;
+	CivicTypes m_ePrereqCivic;
+	bool m_bToCoastalCity;
+	bool m_bFriendlyTerritory;
+	bool m_bNeutralTerritory;
+	bool m_bHostileTerritory;
+	bool m_bBarbarianTerritory;
+	bool m_bCity;
+	bool m_bNotCity;
+	std::vector<BuildingTypes> m_aePrereqBuildings;
+	std::vector<std::pair<PromotionTypes, int> > m_aeiExtraChancePromotions;
+	std::vector<OutcomeTypes> m_aeReplaceOutcomes;
+	CvWString m_szMessageText;
 };
 
 #endif

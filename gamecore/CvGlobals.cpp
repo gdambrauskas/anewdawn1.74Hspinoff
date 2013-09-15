@@ -2917,11 +2917,6 @@ CvString& CvGlobals::getDirectionTypes(AutomateTypes e)
 	return m_paszDirectionTypes[e];
 }
 
-int& CvGlobals::getNumFootstepAudioTypes()
-{
-	return m_iNumFootstepAudioTypes;
-}
-
 int CvGlobals::getNumPropertyInfos()
 {
 	return (int)m_paPropertyInfo.size();
@@ -2932,6 +2927,28 @@ CvPropertyInfo& CvGlobals::getPropertyInfo(PropertyTypes ePropertyNum)
 	FAssert(ePropertyNum > -1);
 	FAssert(ePropertyNum < GC.getNumPropertyInfos());
 	return *(m_paPropertyInfo[ePropertyNum]);
+}
+
+int CvGlobals::getNumOutcomeInfos()
+{
+	return (int)m_paOutcomeInfo.size();
+}
+
+std::vector<CvOutcomeInfo*>& CvGlobals::getOutcomeInfo()
+{
+	return m_paOutcomeInfo;
+}
+
+CvOutcomeInfo& CvGlobals::getOutcomeInfo(OutcomeTypes eOutcomeNum)
+{
+	FAssert(eOutcomeNum > -1);
+	FAssert(eOutcomeNum < GC.getNumOutcomeInfos());
+	return *(m_paOutcomeInfo[eOutcomeNum]);
+}
+
+int& CvGlobals::getNumFootstepAudioTypes()
+{
+	return m_iNumFootstepAudioTypes;
 }
 
 CvString*& CvGlobals::getFootstepAudioTypes()

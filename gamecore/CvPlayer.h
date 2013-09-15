@@ -127,6 +127,8 @@ public:
 	void getCivilizationCityName(CvWString& szBuffer, CivilizationTypes eCivilization) const;
 	bool isCityNameValid(CvWString& szName, bool bTestDestroyed = true) const;
 
+	CvUnit* getTempUnit(UnitTypes eUnit, int iX, int iY);
+	void releaseTempUnit();
 	CvUnit* initUnit(UnitTypes eUnit, int iX, int iY, UnitAITypes eUnitAI = NO_UNITAI, DirectionTypes eFacingDirection = NO_DIRECTION);							// Exposed to Python
 	void disbandUnit(bool bAnnounce);																																					// Exposed to Python
 	void killUnits();																																													// Exposed to Python
@@ -1059,6 +1061,7 @@ public:
 	void deleteEventTriggered(int iID);
 	EventTriggeredData* initTriggeredData(EventTriggerTypes eEventTrigger, bool bFire = false, int iCityId = -1, int iPlotX = INVALID_PLOT_COORD, int iPlotY = INVALID_PLOT_COORD, PlayerTypes eOtherPlayer = NO_PLAYER, int iOtherPlayerCityId = -1, ReligionTypes eReligion = NO_RELIGION, CorporationTypes eCorporation = NO_CORPORATION, int iUnitId = -1, BuildingTypes eBuilding = NO_BUILDING);   // Exposed to Python
 	int getEventTriggerWeight(EventTriggerTypes eTrigger) const;    // Exposed to python
+	bool isEventTriggerPossible(EventTriggerTypes eTrigger) const;
 
 	DllExport void addMessage(const CvTalkingHeadMessage& message);
 	void showMissedMessages();
@@ -1443,6 +1446,7 @@ public:
 	
 	bool getBuildingListFilterActive(BuildingFilterTypes eFilter);
 	void setBuildingListFilterActive(BuildingFilterTypes eFilter, bool bActive);
+	
 protected:
 	int** m_ppiSpecialistYieldPercentChanges;
 	int** m_ppiSpecialistCommercePercentChanges;
@@ -1896,6 +1900,10 @@ protected:
 /* REVOLUTIONDCM_MOD                         END                                 Glider1        */
 /************************************************************************************************/
 	
+
+	//	Temp unit which is used to generate paths for hypothetical units.  Kept around
+	//	rather than created each usage to avoid chewing through the ID space
+	CvUnit* m_pTempUnit;
 
 	void doGold();
 	void doResearch();

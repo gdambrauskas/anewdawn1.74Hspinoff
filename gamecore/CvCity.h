@@ -1080,6 +1080,7 @@ public:
 	DllExport void setWallOverridePoints(const std::vector< std::pair<float, float> >& kPoints); /* points are given in world space ... i.e. PlotXToPointX, etc */
 	DllExport const std::vector< std::pair<float, float> >& getWallOverridePoints() const;
 
+	bool isEventTriggerPossible(EventTriggerTypes eTrigger) const;
 	int getTriggerValue(EventTriggerTypes eTrigger) const;
 	bool canApplyEvent(EventTypes eEvent, const EventTriggeredData& kTriggeredData) const;
 	void applyEvent(EventTypes eEvent, const EventTriggeredData& kTriggeredData, bool bClear);

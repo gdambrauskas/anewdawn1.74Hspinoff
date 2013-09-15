@@ -107,6 +107,10 @@ void CvUnit::reloadEntity()
 	setupGraphical();
 }
 
+void CvUnit::changeIdentity(UnitTypes eUnit)
+{
+	// gvd reset(getID(), eUnit, getOwnerINLINE(), false, true);
+}
 
 void CvUnit::init(int iID, UnitTypes eUnit, UnitAITypes eUnitAI, PlayerTypes eOwner, int iX, int iY, DirectionTypes eFacingDirection)
 {
