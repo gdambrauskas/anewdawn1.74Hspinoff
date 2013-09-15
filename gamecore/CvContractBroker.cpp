@@ -173,7 +173,7 @@ void CvContractBroker::finalizeTenderContracts(void)
 		{
 			int iBestValue = 0;
 			int iBestCityTenderKey;
-			int iValue;
+			int iValue = 0;
 			UnitTypes eUnit;
 			UnitTypes eBestUnit = NO_UNIT;
 			CvCity*	pBestCity = NULL;
