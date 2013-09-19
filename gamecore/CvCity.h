@@ -294,11 +294,10 @@ public:
 	// Spawns great priest on each culture expansion of the capital.
 	void spawnGreatPriestForSpiritualOwner();
 	// Spaws free conscript for charismatic owner.
-	void spawnFreeConscriptUnitForCharismaticOwner();
-	void spawnFreeMountedUnitForNomadOwner();
-	void spawnFreeDefensiveUnitForProtectiveOwner();
-	UnitTypes getStrongestMountedUnit() const;
-	UnitTypes getStrongestDefensiveUnit() const;
+	void spawnFreeUnitForCharismaticOwner();
+	void spawnFreeUnitForNomadOwner();
+	void spawnFreeUnitForProtectiveOwner();
+	UnitTypes getStrongestUnit(int *targetUnitTypes, int unitTypesCount) const;
 	CvUnit* initConscriptedUnit(UnitTypes eConscriptUnit);
 	// gdam end
 	int getLargestCityHappiness() const;																		// Exposed to Python

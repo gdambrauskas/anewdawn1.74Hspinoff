@@ -1436,9 +1436,9 @@ void CvCity::doTurn()
 
 	// gdam start
 
-	spawnFreeConscriptUnitForCharismaticOwner();
-	spawnFreeMountedUnitForNomadOwner();
-	spawnFreeDefensiveUnitForProtectiveOwner();
+	spawnFreeUnitForCharismaticOwner();
+	spawnFreeUnitForNomadOwner();
+	spawnFreeUnitForProtectiveOwner();
 
 	// gdam end
 
@@ -19963,7 +19963,7 @@ void CvCity::spawnGreatPersonForCreativeOwner()
 	}
 }
 
-void CvCity::spawnFreeConscriptUnitForCharismaticOwner()
+void CvCity::spawnFreeUnitForCharismaticOwner()
 {	
 	if (isCapital() == false) {
 		return;
@@ -19974,7 +19974,15 @@ void CvCity::spawnFreeConscriptUnitForCharismaticOwner()
 	TraitTypes targetType = (TraitTypes)GC.getInfoTypeForString("TRAIT_CHARISMATIC");
 	if (hasTrait(targetType))
 	{
-		CvUnit* pUnit = initConscriptedUnit();
+		int unitCombatTypes[] = {GC.getInfoTypeForString("UNITCOMBAT_MELEE"),
+		                         GC.getInfoTypeForString("UNITCOMBAT_GUN")};
+		UnitTypes strongestUnit = getStrongestUnit(unitCombatTypes, 2);
+		// It is possible techs for units are not researched or resources are not available.
+		if (strongestUnit == NO_UNIT)
+		{
+			return;
+		}
+		CvUnit* pUnit = initConscriptedUnit(strongestUnit);
 		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
 
 		if (NULL != pUnit)
@@ -19991,7 +19999,7 @@ void CvCity::spawnFreeConscriptUnitForCharismaticOwner()
 	}
 }
 
-void CvCity::spawnFreeMountedUnitForNomadOwner()
+void CvCity::spawnFreeUnitForNomadOwner()
 {	
 	if (isCapital() == false) {
 		return;
@@ -20001,15 +20009,14 @@ void CvCity::spawnFreeMountedUnitForNomadOwner()
 	}
 	TraitTypes targetType = (TraitTypes)GC.getInfoTypeForString("TRAIT_NOMAD");
 	if (hasTrait(targetType))
-	{	
-		UnitTypes mountedConscriptUnit = getStrongestMountedUnit();
-		// It is possible techs for mounted units are not researched or horse
-		// resource is not available.
-		if (mountedConscriptUnit == NO_UNIT)
+	{	int unitCombatTypes[] = {GC.getInfoTypeForString("UNITCOMBAT_MOUNTED")};
+		UnitTypes strongestUnit = getStrongestUnit(unitCombatTypes, 1);
+		// It is possible techs for units are not researched or resources are not available.
+		if (strongestUnit == NO_UNIT)
 		{
 			return;
 		}
-		CvUnit* pUnit = initConscriptedUnit(mountedConscriptUnit);
+		CvUnit* pUnit = initConscriptedUnit(strongestUnit);
 		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
 
 		if (NULL != pUnit)
@@ -20026,7 +20033,7 @@ void CvCity::spawnFreeMountedUnitForNomadOwner()
 	}
 }
 
-void CvCity::spawnFreeDefensiveUnitForProtectiveOwner()
+void CvCity::spawnFreeUnitForProtectiveOwner()
 {	
 	if (isCapital() == false) {
 		return;
@@ -20037,14 +20044,15 @@ void CvCity::spawnFreeDefensiveUnitForProtectiveOwner()
 	TraitTypes targetType = (TraitTypes)GC.getInfoTypeForString("TRAIT_PROTECTIVE");
 	if (hasTrait(targetType))
 	{	
-		UnitTypes freeUnit = getStrongestDefensiveUnit();
-		// It is possible techs for free unit are not researched or resources
-		// required to build it are not available.
-		if (freeUnit == NO_UNIT)
+		int unitCombatTypes[] = {GC.getInfoTypeForString("UNITCOMBAT_ARCHER"),
+		                         GC.getInfoTypeForString("UNITCOMBAT_GUN")};
+		UnitTypes strongestUnit = getStrongestUnit(unitCombatTypes, 2);
+		// It is possible techs for units are not researched or resources are not available.
+		if (strongestUnit == NO_UNIT)
 		{
 			return;
 		}
-		CvUnit* pUnit = initConscriptedUnit(freeUnit);
+		CvUnit* pUnit = initConscriptedUnit(strongestUnit);
 		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
 
 		if (NULL != pUnit)
@@ -20059,6 +20067,49 @@ void CvCity::spawnFreeDefensiveUnitForProtectiveOwner()
 			}
 		}
 	}
+}
+
+UnitTypes CvCity::getStrongestUnit(int *targetUnitTypes, int unitTypesCount) const
+{
+	UnitTypes eLoopUnit;
+	UnitTypes eBestUnit;
+	int iValue;
+	int iBestValue;
+	int iI, iJ;
+	
+	iBestValue = 0;
+	eBestUnit = NO_UNIT;
+
+	for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
+	{
+		eLoopUnit = (UnitTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(iI);
+		
+		if (eLoopUnit != NO_UNIT) 
+		{	
+			bool unitTypeMatch = false;
+			for (iJ = 0; iJ < unitTypesCount; iJ++)
+			{
+				if ((TraitTypes)targetUnitTypes[iJ] == GC.getUnitInfo(eLoopUnit).getUnitCombatType())
+				{
+					unitTypeMatch = true;
+					break;
+				}
+			}
+			if (unitTypeMatch &&
+				GC.getUnitInfo(eLoopUnit).getSpecialUnitType() == NO_SPECIALUNIT &&
+				canTrain(eLoopUnit))
+			{	
+				iValue = GC.getUnitInfo(eLoopUnit).getCombat();
+
+				if (iValue > iBestValue)
+				{
+					iBestValue = iValue;
+					eBestUnit = eLoopUnit;
+				}
+			}
+		}
+	}
+	return eBestUnit;
 }
 
 CvUnit* CvCity::initConscriptedUnit(UnitTypes eConscriptUnit)
@@ -20102,83 +20153,6 @@ CvUnit* CvCity::initConscriptedUnit(UnitTypes eConscriptUnit)
 	}
 
 	return pUnit;
-}
-
-UnitTypes CvCity::getStrongestDefensiveUnit() const
-{
-	UnitTypes eLoopUnit;
-	UnitTypes eBestUnit;
-	int iValue;
-	int iBestValue;
-	int iI;
-	
-	iBestValue = 0;
-	eBestUnit = NO_UNIT;
-	
-	UnitCombatTypes targetUnitCombatType1 = (UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_ARCHER");
-	UnitCombatTypes targetUnitCombatType2 = (UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_GUN");
-
-	for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
-	{
-		eLoopUnit = (UnitTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(iI);
-		
-		if (eLoopUnit != NO_UNIT) 
-		{	
-			if ((targetUnitCombatType1 == GC.getUnitInfo(eLoopUnit).getUnitCombatType() ||
-				targetUnitCombatType2 == GC.getUnitInfo(eLoopUnit).getUnitCombatType()) &&
-				GC.getUnitInfo(eLoopUnit).getSpecialUnitType() == NO_SPECIALUNIT &&
-				canTrain(eLoopUnit))
-			{	
-				// archer unit conscription values are 0, so fake them by doing strength/2
-				if (targetUnitCombatType1 == GC.getUnitInfo(eLoopUnit).getUnitCombatType()) {
-					iValue = GC.getUnitInfo(eLoopUnit).getCombat() / 2;
-				} else {
-					iValue = GC.getUnitInfo(eLoopUnit).getConscriptionValue();
-				}
-
-				if (iValue > iBestValue)
-				{
-					iBestValue = iValue;
-					eBestUnit = eLoopUnit;
-				}
-			}
-		}
-	}
-	return eBestUnit;
-}
-
-UnitTypes CvCity::getStrongestMountedUnit() const
-{
-	UnitTypes eLoopUnit;
-	UnitTypes eBestUnit;
-	int iValue;
-	int iBestValue;
-	int iI;
-	
-	iBestValue = 0;
-	eBestUnit = NO_UNIT;
-	
-	UnitCombatTypes targetUnitCombatType = (UnitCombatTypes)GC.getInfoTypeForString("UNITCOMBAT_MOUNTED");
-
-	for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
-	{
-		eLoopUnit = (UnitTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(iI);
-		
-		if (eLoopUnit != NO_UNIT) 
-		{	
-			if (targetUnitCombatType == GC.getUnitInfo(eLoopUnit).getUnitCombatType() && canTrain(eLoopUnit))
-			{	
-				iValue = GC.getUnitInfo(eLoopUnit).getCombat();
-
-				if (iValue > iBestValue)
-				{
-					iBestValue = iValue;
-					eBestUnit = eLoopUnit;
-				}
-			}
-		}
-	}
-	return eBestUnit;
 }
 
 // gdam end

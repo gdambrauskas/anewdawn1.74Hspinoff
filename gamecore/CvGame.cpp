@@ -3820,29 +3820,38 @@ void CvGame::setEstimateEndTurn(int iNewValue)
 // gdam start
 
 // returns true if periodic time trigger is reached. Modeled after
-// crusaders spawn time intervals.
+// crusaders spawn time intervals with small modification that after certain
+// treshhold (observed in games, that after 50% game turns are done, 1 or more
+// units can be produced in capital), a unit spawns every turn.
 bool CvGame::isPeriodicSpawn()
 {
 	int estiEnd = getEstimateEndTurn();
+	int treshhold = 0;
+	int spawnTurn = 0;
 	if ( estiEnd >= 1800 ) {
-		return getGameTurn() % 16 == 0;
+		spawnTurn = 16;
+		treshhold = 1800 / 2;
+	} else if ( estiEnd >= 1400 ) {
+		spawnTurn = 12;
+		treshhold = 1400 / 2;
+	} else if ( estiEnd >= 1000 ) {
+		spawnTurn = 8;
+		treshhold = 1000 / 2;
+	} else if ( estiEnd >= 700 ) {
+		treshhold = 700 / 2;
+		spawnTurn = 6;
+	} else if ( estiEnd >= 500 ) {
+		treshhold = 500 / 2;
+		spawnTurn = 4;
+	} else if ( estiEnd >= 300 ) {
+		treshhold = 300 / 2;
+		spawnTurn = 2;
 	}
-	if ( estiEnd >= 1400 ) {
-		return getGameTurn() % 14 == 0;
+	if (getGameTurn() >= treshhold)
+	{
+		return true;
 	}
-	if ( estiEnd >= 1000 ) {
-		return getGameTurn() % 12 == 0;
-	}
-	if ( estiEnd >= 700 ) {
-		return getGameTurn() % 8 == 0;
-	}
-	if ( estiEnd >= 500 ) {
-		return getGameTurn() % 6 == 0;
-	}
-	if ( estiEnd >= 300 ) {
-		return getGameTurn() % 4 == 0;
-	}
-	return getGameTurn() % 4 == 0;
+	return getGameTurn() % spawnTurn == 0;
 }
 // gdam end
 
