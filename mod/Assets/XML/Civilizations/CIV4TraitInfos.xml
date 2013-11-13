@@ -88,6 +88,14 @@
 			<CommerceChanges/>
 			<CommerceModifiers/>
 			<FreePromotions>
+			    <FreePromotion>
+                    <PromotionType>PROMOTION_UPGRADE_DISCOUNT1</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
+                <FreePromotion>
+                    <PromotionType>PROMOTION_UPGRADE_DISCOUNT2</PromotionType>
+                    <bFreePromotion>1</bFreePromotion>
+                </FreePromotion>
 				<FreePromotion>
 					<PromotionType>PROMOTION_COMBAT1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -169,7 +177,7 @@
 			<iHealth>0</iHealth>
 			<iHappiness>0</iHappiness>
 			<iMaxAnarchy>-1</iMaxAnarchy>
-			<iUpkeepModifier>-25</iUpkeepModifier>
+			<iUpkeepModifier>0</iUpkeepModifier>
 			<iLevelExperienceModifier>0</iLevelExperienceModifier>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>

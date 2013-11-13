@@ -70,7 +70,7 @@
 			<Type>PROMOTION_MORALE1</Type>
 			<Description>TXT_KEY_PROMOTION_MORALE1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<iCombatPercent>5</iCombatPercent>
+			<iCombatPercent>10</iCombatPercent>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -84,7 +84,7 @@
 			<Description>TXT_KEY_PROMOTION_MORALE2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_MORALE1</PromotionPrereq>
-			<iCombatPercent>5</iCombatPercent>
+			<iCombatPercent>10</iCombatPercent>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -98,7 +98,7 @@
 			<Description>TXT_KEY_PROMOTION_MORALE3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_MORALE2</PromotionPrereq>
-			<iCombatPercent>5</iCombatPercent>
+			<iCombatPercent>10</iCombatPercent>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
@@ -112,7 +112,7 @@
 			<Description>TXT_KEY_PROMOTION_MORALE4</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_MORALE3</PromotionPrereq>
-			<iCombatPercent>5</iCombatPercent>
+			<iCombatPercent>10</iCombatPercent>
 			<iRevoltProtection>500</iRevoltProtection>
 			<UnitCombats>
 				<UnitCombat>
@@ -127,7 +127,7 @@
 			<Description>TXT_KEY_PROMOTION_MORALE5</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_MORALE4</PromotionPrereq>
-			<iCombatPercent>5</iCombatPercent>
+			<iCombatPercent>10</iCombatPercent>
 			<iRevoltProtection>500</iRevoltProtection>
 			<iExperiencePercent>10</iExperiencePercent>
 			<UnitCombats>

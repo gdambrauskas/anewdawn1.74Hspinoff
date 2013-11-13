@@ -2285,7 +2285,7 @@
             <iAdjacentTileHealChange>0</iAdjacentTileHealChange>
             <iCombatPercent>0</iCombatPercent>
             <iCityAttack>0</iCityAttack>
-            <iCityDefense>100</iCityDefense>
+            <iCityDefense>25</iCityDefense>
             <iHillsAttack>0</iHillsAttack>
             <iHillsDefense>0</iHillsDefense>
             <iKamikazePercent>0</iKamikazePercent>

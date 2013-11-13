@@ -6328,8 +6328,15 @@ int CvCity::unhealthyPopulation(bool bNoAngry, int iExtra) const
 	{
 		return 0;
 	}
-
-	return std::max(0, ((getPopulation() + iExtra - ((bNoAngry) ? angryPopulation(iExtra) : 0))));
+	int result = std::max(0, ((getPopulation() + iExtra - ((bNoAngry) ? angryPopulation(iExtra) : 0))));
+	// expansive trait polution from population is cut in half.
+	// gdam start
+	if (GET_PLAYER(getOwnerINLINE()).isExpansive())
+	{
+		return result/2;
+	}
+	// gdam end
+	return result;
 }
 
 
@@ -6552,20 +6559,11 @@ int CvCity::badHealth(bool bNoAngry, int iExtra) const
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
 	// gdam start
-	// humanitarian trait has total bad health cut in half
-	int iFinalBadHealth = (unhealthyPopulation(bNoAngry, iExtra) - iTotalHealth);
-	// gvd instead of strings, use (PropertyTypes)GC.getInfoTypeForString("PROPERTY_CRIME") ?
-	CvString traitHumanitarianType = CvString::format("TRAIT_HUMANITARIAN").GetCString();
-	for (int i = 0; i < GC.getNumTraitInfos(); i++)
+	int iFinalBadHealth = unhealthyPopulation(bNoAngry, iExtra) - iTotalHealth;
+	// humanitarian trait has total bad health cut in half.
+	if (GET_PLAYER(getOwnerINLINE()).isHumanitarian())
 	{
-		if (hasTrait((TraitTypes)i))
-		{
-			CvTraitInfo& trait = GC.getTraitInfo((TraitTypes)i);
-			if (trait.getType() == traitHumanitarianType) {
-				iFinalBadHealth /=2;
-				break;
-			}
-		}
+		return iFinalBadHealth /=2;
 	}
 	// gdam end
 	return iFinalBadHealth;
@@ -7485,21 +7483,6 @@ void CvCity::setPopulation(int iNewValue)
 		plot()->updateYield();
 
 		updateMaintenance();
-		// gdam start
-		// expansive trait gets no polution from population
-		CvString traitExpansiveType = CvString::format("TRAIT_EXPANSIVE").GetCString();
-		for (int i = 0; i < GC.getNumTraitInfos(); i++)
-		{
-			if (hasTrait((TraitTypes)i))
-			{
-				CvTraitInfo& trait = GC.getTraitInfo((TraitTypes)i);
-				if (trait.getType() == traitExpansiveType) {
-					changeNoUnhealthyPopulationCount(getHighestPopulation());
-					break;
-				}
-			}
-		}
-		// gdam end
 
 		if (((iOldPopulation == 1) && (getPopulation() > 1)) ||
 			  ((getPopulation() == 1) && (iOldPopulation > 1))
@@ -19971,8 +19954,7 @@ void CvCity::spawnFreeUnitForCharismaticOwner()
 	if (GC.getGameINLINE().isPeriodicSpawn() == false) {
 		return;
 	}
-	TraitTypes targetType = (TraitTypes)GC.getInfoTypeForString("TRAIT_CHARISMATIC");
-	if (hasTrait(targetType))
+	if (GET_PLAYER(getOwnerINLINE()).isCharismatic())
 	{
 		int unitCombatTypes[] = {GC.getInfoTypeForString("UNITCOMBAT_MELEE"),
 		                         GC.getInfoTypeForString("UNITCOMBAT_GUN")};
@@ -20007,8 +19989,7 @@ void CvCity::spawnFreeUnitForNomadOwner()
 	if (GC.getGameINLINE().isPeriodicSpawn() == false) {
 		return;
 	}
-	TraitTypes targetType = (TraitTypes)GC.getInfoTypeForString("TRAIT_NOMAD");
-	if (hasTrait(targetType))
+	if (GET_PLAYER(getOwnerINLINE()).isNomad())
 	{	int unitCombatTypes[] = {GC.getInfoTypeForString("UNITCOMBAT_MOUNTED")};
 		UnitTypes strongestUnit = getStrongestUnit(unitCombatTypes, 1);
 		// It is possible techs for units are not researched or resources are not available.
@@ -20041,8 +20022,7 @@ void CvCity::spawnFreeUnitForProtectiveOwner()
 	if (GC.getGameINLINE().isPeriodicSpawn() == false) {
 		return;
 	}
-	TraitTypes targetType = (TraitTypes)GC.getInfoTypeForString("TRAIT_PROTECTIVE");
-	if (hasTrait(targetType))
+	if (GET_PLAYER(getOwnerINLINE()).isProtective())
 	{	
 		int unitCombatTypes[] = {GC.getInfoTypeForString("UNITCOMBAT_ARCHER"),
 		                         GC.getInfoTypeForString("UNITCOMBAT_GUN")};
@@ -20095,9 +20075,7 @@ UnitTypes CvCity::getStrongestUnit(int *targetUnitTypes, int unitTypesCount) con
 					break;
 				}
 			}
-			if (unitTypeMatch &&
-				GC.getUnitInfo(eLoopUnit).getSpecialUnitType() == NO_SPECIALUNIT &&
-				canTrain(eLoopUnit))
+			if (unitTypeMatch && canTrain(eLoopUnit))
 			{	
 				iValue = GC.getUnitInfo(eLoopUnit).getCombat();
 

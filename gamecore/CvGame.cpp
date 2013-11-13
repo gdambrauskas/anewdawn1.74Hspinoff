@@ -3821,7 +3821,7 @@ void CvGame::setEstimateEndTurn(int iNewValue)
 
 // returns true if periodic time trigger is reached. Modeled after
 // crusaders spawn time intervals with small modification that after certain
-// treshhold (observed in games, that after 50% game turns are done, 1 or more
+// treshhold (observed in games, that after 30% game turns are done, 1 or more
 // units can be produced in capital), a unit spawns every turn.
 bool CvGame::isPeriodicSpawn()
 {
@@ -3830,21 +3830,21 @@ bool CvGame::isPeriodicSpawn()
 	int spawnTurn = 0;
 	if ( estiEnd >= 1800 ) {
 		spawnTurn = 16;
-		treshhold = 1800 / 2;
+		treshhold = 1800 / 3;
 	} else if ( estiEnd >= 1400 ) {
 		spawnTurn = 12;
-		treshhold = 1400 / 2;
+		treshhold = 1400 / 3;
 	} else if ( estiEnd >= 1000 ) {
 		spawnTurn = 8;
-		treshhold = 1000 / 2;
+		treshhold = 1000 / 3;
 	} else if ( estiEnd >= 700 ) {
-		treshhold = 700 / 2;
+		treshhold = 700 / 3;
 		spawnTurn = 6;
 	} else if ( estiEnd >= 500 ) {
-		treshhold = 500 / 2;
+		treshhold = 500 / 3;
 		spawnTurn = 4;
 	} else if ( estiEnd >= 300 ) {
-		treshhold = 300 / 2;
+		treshhold = 300 / 3;
 		spawnTurn = 2;
 	}
 	if (getGameTurn() >= treshhold)

@@ -55,7 +55,13 @@ public:
 	DllExport void init(PlayerTypes eID);
 	DllExport void setupGraphical();
 	DllExport void reset(PlayerTypes eID = NO_PLAYER, bool bConstructorCall = false);
-
+	// gdam start
+	bool isExpansive() const;
+	bool isNomad() const;
+	bool isCharismatic() const;
+	bool isHumanitarian() const;
+	bool isProtective() const;
+	// gdam end
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      12/30/08                                jdog5000      */
 /*                                                                                              */

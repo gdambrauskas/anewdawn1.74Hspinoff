@@ -464,7 +464,7 @@
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_CITY_REVOLT</Type>
 			<Description>TXT_KEY_ESPIONAGE_CITY_REVOLT</Description>
-			<iCost>650</iCost>
+			<iCost>1500</iCost>
 			<bIsPassive>0</bIsPassive>
 			<bIsTwoPhases>0</bIsTwoPhases>
 			<bTargetsCity>1</bTargetsCity>
@@ -546,7 +546,7 @@
 			<bNoActiveMissions>0</bNoActiveMissions>
 			<bSeeResearch>0</bSeeResearch>
 			<bDestroyImprovement>0</bDestroyImprovement>
-			<iDifficultyMod>50</iDifficultyMod>
+			<iDifficultyMod>75</iDifficultyMod>
 			<iDestroyBuildingCostFactor>0</iDestroyBuildingCostFactor>
 			<iDestroyUnitCostFactor>0</iDestroyUnitCostFactor>
 			<iDestroyProjectCostFactor>0</iDestroyProjectCostFactor>
@@ -560,7 +560,7 @@
 			<iCityUnhappinessCounter>0</iCityUnhappinessCounter>
 			<iCityRevoltCounter>0</iCityRevoltCounter>
 			<iBuyTechCostFactor>0</iBuyTechCostFactor>
-			<iSwitchCivicCostFactor>60000</iSwitchCivicCostFactor>
+			<iSwitchCivicCostFactor>120000</iSwitchCivicCostFactor>
 			<iSwitchReligionCostFactor>0</iSwitchReligionCostFactor>
 			<iPlayerAnarchyCounter>0</iPlayerAnarchyCounter>
 			<iCounterespionageNumTurns>0</iCounterespionageNumTurns>
@@ -581,7 +581,7 @@
 			<bNoActiveMissions>0</bNoActiveMissions>
 			<bSeeResearch>0</bSeeResearch>
 			<bDestroyImprovement>0</bDestroyImprovement>
-			<iDifficultyMod>50</iDifficultyMod>
+			<iDifficultyMod>75</iDifficultyMod>
 			<iDestroyBuildingCostFactor>0</iDestroyBuildingCostFactor>
 			<iDestroyUnitCostFactor>0</iDestroyUnitCostFactor>
 			<iDestroyProjectCostFactor>0</iDestroyProjectCostFactor>
@@ -596,7 +596,7 @@
 			<iCityRevoltCounter>0</iCityRevoltCounter>
 			<iBuyTechCostFactor>0</iBuyTechCostFactor>
 			<iSwitchCivicCostFactor>0</iSwitchCivicCostFactor>
-			<iSwitchReligionCostFactor>60000</iSwitchReligionCostFactor>
+			<iSwitchReligionCostFactor>120000</iSwitchReligionCostFactor>
 			<iPlayerAnarchyCounter>0</iPlayerAnarchyCounter>
 			<iCounterespionageNumTurns>0</iCounterespionageNumTurns>
 			<iCounterespionageMod>0</iCounterespionageMod>
@@ -789,7 +789,7 @@
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_REVOLT</Type>
 			<Description>TXT_KEY_MISSION_REVOLT</Description>
-			<iCost>1250</iCost>
+			<iCost>2500</iCost>
 			<bIsPassive>0</bIsPassive>
 			<bIsTwoPhases>0</bIsTwoPhases>
 			<bTargetsCity>1</bTargetsCity>
@@ -949,7 +949,7 @@
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_SABATOGE_RESEARCH</Type>
 			<Description>TXT_KEY_ESPIONAGE_PLAYER_SABATOGE_RESEARCH</Description>
-			<iCost>100</iCost>
+			<iCost>250</iCost>
 			<bIsPassive>0</bIsPassive>
 			<bIsTwoPhases>0</bIsTwoPhases>
 			<bTargetsCity>1</bTargetsCity>

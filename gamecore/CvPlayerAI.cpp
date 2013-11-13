@@ -10141,7 +10141,7 @@ int CvPlayerAI::AI_unitImpassableCount(UnitTypes eUnit) const
 	return iCount;
 }
 
-
+// gvd trading uses this / gvd gvd
 int CvPlayerAI::AI_unitValue(UnitTypes eUnit, UnitAITypes eUnitAI, CvArea* pArea) const
 {
 	PROFILE_FUNC();

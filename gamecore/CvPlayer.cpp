@@ -3985,6 +3985,30 @@ CvSelectionGroup* CvPlayer::cycleSelectionGroups(CvUnit* pUnit, bool bForward, b
 	return NULL;
 }
 
+bool CvPlayer::isExpansive() const
+{
+	return hasTrait((TraitTypes)GC.getInfoTypeForString("TRAIT_EXPANSIVE"));
+}
+
+bool CvPlayer::isNomad() const
+{
+	return hasTrait((TraitTypes)GC.getInfoTypeForString("TRAIT_NOMAD"));
+}
+
+bool CvPlayer::isCharismatic() const
+{
+	return hasTrait((TraitTypes)GC.getInfoTypeForString("TRAIT_CHARISMATIC"));
+}
+
+bool CvPlayer::isHumanitarian() const
+{
+	return hasTrait((TraitTypes)GC.getInfoTypeForString("TRAIT_HUMANITARIAN"));
+}
+
+bool CvPlayer::isProtective() const
+{
+	return hasTrait((TraitTypes)GC.getInfoTypeForString("TRAIT_PROTECTIVE"));
+}
 
 bool CvPlayer::hasTrait(TraitTypes eTrait) const
 {
@@ -18371,8 +18395,13 @@ bool CvPlayer::doEspionageMission(EspionageMissionTypes eMission, PlayerTypes eT
 		if (NULL != pPlot)
 		{
 			CvCity* pCity = pPlot->getPlotCity();
-
-			if (NULL != pCity)
+			
+			// gdam start
+			// Do not allow capitol to be stolen. Costs for AI players to do so are very cheap and they go for
+			// capitol and its very very hard to stop spies. Capitol loss usually means game over.
+			// added !pCity->isCapital()
+			// gdam end
+			if (NULL != pCity && !pCity->isCapital())
 			{
 /************************************************************************************************/
 /* Afforess	                  Start		 07/25/10                                               */
