@@ -163,37 +163,6 @@
 			</ReplaceBuildings>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
-			<Type>BUILDING_WALLS</Type>
-			<ReplaceBuildings>
-				<ReplaceBuilding>
-					<BuildingClassType>BUILDINGCLASS_HIGH_WALLS</BuildingClassType>
-					<bReplace>1</bReplace>
-				</ReplaceBuilding>
-			</ReplaceBuildings>
-		</BuildingInfo>
-		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
-			<Type>BUILDING_CELTIC_DUN</Type>
-			<ReplaceBuildings>
-				<ReplaceBuilding>
-					<BuildingClassType>BUILDINGCLASS_HIGH_WALLS</BuildingClassType>
-					<bReplace>1</bReplace>
-				</ReplaceBuilding>
-			</ReplaceBuildings>
-		</BuildingInfo>
-		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
-			<Type>BUILDING_BOULEVARD_CIRCLE</Type>
-			<bTypeDependency>1</bTypeDependency>
-			<ReplaceBuildings>
-				<ReplaceBuilding>
-					<BuildingClassType>BUILDINGCLASS_HIGH_WALLS</BuildingClassType>
-					<bReplace>1</bReplace>
-				</ReplaceBuilding>
-			</ReplaceBuildings>
-		</BuildingInfo>
-		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_TOLL_HOUSE</BuildingClass>
 			<Type>BUILDING_TOLL_HOUSE</Type>
 			<ReplaceBuildings>

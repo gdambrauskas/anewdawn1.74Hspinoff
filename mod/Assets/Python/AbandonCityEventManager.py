@@ -170,6 +170,11 @@ class AbandonCityEventManager:
 				pHeadSelectedCity = CyInterface().getHeadSelectedCity()
 				pPlayer = gc.getPlayer(pHeadSelectedCity.getOwner())
 				## if player only has one city and that city has no buildings then do not display popup as it can cause a CDT
+				# gdam start
+				# Since I turned off city abandonment, now should never display popup if city has no buildings to sell. Empty popup clicked->CTD.
+				if (pHeadSelectedCity.getNumBuildings() == 0):
+					return 0
+				# gdam end
 				if (pHeadSelectedCity.getNumBuildings() == 0) and (pPlayer.getNumCities() == 1) :
 					return 0
 				g_eventMgr.beginEvent(ABANDON_CITY_DEMOLISH_BUILDING_EVENT_ID)
@@ -232,9 +237,12 @@ class AbandonCityEventManager:
 					popup.addPullDownString(szBuilding, iType)
 
 		# Only allow abandonment of city if there is more than one city
-		if pPlayer.getNumCities() > 1 :
-			popup.addPullDownString(abandoncity, g_iAbandonTrigger)
-
+	    # gdam start
+	    # Do not allow abandonment of the city. Maybe allow it later with a code check that there's no enemy within certain radius of the city.
+	    # Player would always choose to abandon the city, because that prevents tech from being captured, money obtained etc Cheesy tactics.
+		#if pPlayer.getNumCities() > 1 :
+		#	popup.addPullDownString(abandoncity, g_iAbandonTrigger)
+		# gdam end
 		popup.addButton(ok)
 		popup.addButton(cancel)
 		popup.launch(False, PopupStates.POPUPSTATE_IMMEDIATE)

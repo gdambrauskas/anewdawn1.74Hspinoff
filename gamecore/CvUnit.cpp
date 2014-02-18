@@ -9061,6 +9061,12 @@ int CvUnit::upgradePrice(UnitTypes eUnit) const
 /************************************************************************************************/
 
 	iPrice -= (iPrice * getUpgradeDiscount()) / 100;
+	
+	// gdam start
+	// Avoid situations where player actually gets money from upgrading. Noticed that promotion giving free upgrades(from lead by warlord)
+	// actually returns money, most likely because of price being negative number.
+	iPrice = std::max(0, iPrice);
+	// gdam end
 
 	return iPrice;
 }

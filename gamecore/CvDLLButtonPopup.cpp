@@ -1690,6 +1690,7 @@ bool CvDLLButtonPopup::launchRazeCityPopup(CvPopup* pPopup, CvPopupInfo &info)
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
+        // gvd remove this whole sacking/enslaving cities. Seems to be off in the game already + AI would not know to use this properly.
 		//No Sacking Barbarians
 		if (pNewCity->getCivilizationType() != NO_CIVILIZATION)
 		{

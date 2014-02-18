@@ -290,6 +290,8 @@ public:
 /* REVOLUTION_MOD                          END                                                  */
 /************************************************************************************************/
 	// gdam start
+	// Returns gold that would be gotten by razing the city.
+	int getRazeGold() const;
 	void spawnGreatPersonForCreativeOwner();
 	// Spawns great priest on each culture expansion of the capital.
 	void spawnGreatPriestForSpiritualOwner();

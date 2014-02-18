@@ -7351,7 +7351,9 @@ void CvPlayer::raze(CvCity* pCity)
 
 	// Report this event
 	CvEventReporter::getInstance().cityRazed(pCity, getID());
-
+	// gdam start
+	changeGold(pCity->getRazeGold());
+	// gdam end
 	disband(pCity);
 }
 

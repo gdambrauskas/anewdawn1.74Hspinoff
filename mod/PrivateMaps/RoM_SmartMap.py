@@ -140,15 +140,15 @@ def addRivers():
 				mst.marshMaker.convertTerrain()
 		# Build between 0..1 mountain-ranges.
 		mst.mapRegions.buildBigDents(1)
-		# Build between 0..2 bog-regions.
-		mst.mapRegions.buildBigBogs(2)
+		# Build between 0..1 bog-regions.
+		mst.mapRegions.buildBigBogs(1)
 	else:
 		# Generate marsh-terrain
 		mst.marshMaker.convertTerrain()
 		# Build between 0..3 mountain-ranges.
 		mst.mapRegions.buildBigDents(5)
-		# Build between 0..3 bog-regions.
-		mst.mapRegions.buildBigBogs(3)
+		# Build between 0..1 bog-regions.
+		mst.mapRegions.buildBigBogs(1)
 	# build ElementalQuarter; FFH only, 33% chance
 	mst.mapRegions.buildElementalQuarter(33)
 
@@ -1770,16 +1770,16 @@ def generateTerrainTypes():
 		extraCold -= 5
 		grassFactor -= 10
 	if climate == climateCold:
-		extraDesert -= 10
+		extraDesert -= 30
 		extraCold += 20
 		grassFactor -= 5
 	if climate == climateTemperate:
-		extraDesert -= 0
+		extraDesert -= 30
 		extraCold -= 0
 		grassFactor += 5
 	if climate == climateTropical:
-		extraDesert -= 16
-		extraCold -= 16
+		extraDesert -= 30
+		extraCold -= 20
 		grassFactor += 10
 
 	extraForest,extraJungle = getSelectedMapValue("Forest/Jungle:")

@@ -1435,7 +1435,7 @@ void CvCity::doTurn()
 	// MOD - END - Pandemics
 
 	// gdam start
-
+	
 	spawnFreeUnitForCharismaticOwner();
 	spawnFreeUnitForNomadOwner();
 	spawnFreeUnitForProtectiveOwner();
@@ -19846,6 +19846,26 @@ int CvCity::getImprovementBadHealth() const
 }
 // gdam start
 
+// Returns gold that would be gotten for razing the city.
+int CvCity:: getRazeGold() const {
+	// Gold for each population unit.
+	int razeGold = getPopulation() * 100;
+	// Each building, including national and great wonders, give 50% of their hammer cost in gold.
+	int buildingHammerCost = 0;
+	// getNumActiveBuilding is used for non-disabled buildings? Not too sure here if active means something like civic specific building that
+	// could be disabled or obsolete building). For now going to count such buildings.
+	int iI;
+	for (iI = 0; iI < GC.getNumBuildingInfos(); iI++)
+	{
+		if (getNumBuilding((BuildingTypes)iI) > 0)
+		{
+			buildingHammerCost += GC.getBuildingInfo((BuildingTypes)iI).getProductionCost();
+		}
+	}
+	buildingHammerCost /=2;
+	return razeGold + buildingHammerCost;
+}
+
 void CvCity::spawnGreatPriestForSpiritualOwner()
 {	
 	if (isCapital() == false) {
@@ -19888,14 +19908,14 @@ void CvCity::spawnGreatPersonForCreativeOwner()
 	// Only spawn great persons after city reaches certain culture. After that
 	// each expansion gives free great person. This is to nerf overpowered creative trait
 	// as well as avoid cheating where a new city could be placed, couple of great persons
-	// harvested, city abandoned and new city placed to repeat cycle for infinite great people.
+	// harvested, city destroyed and new city placed to repeat cycle for infinite great people.
 	CultureLevelTypes eCultureLevel;
 	int cultureLevelInfos = GC.getNumCultureLevelInfos();
 	for (int iI = 0; iI < cultureLevelInfos; iI++)
 	{	
 		eCultureLevel = ((CultureLevelTypes)iI);
 		// If it's less than CULTURELEVEL_FLEDGLING, do not spawn great person. On normal speed it gives
-		// ~20 turns before great person is spawned. When culture goes from 2->3 rings, great persons
+		// ~20 turns before great person is spawned. When culture goes from 2->3 rings, great people
 		// start to be born.
 		if (iI < 3 && (getCultureLevel() == eCultureLevel))
 		{
@@ -19964,18 +19984,22 @@ void CvCity::spawnFreeUnitForCharismaticOwner()
 		{
 			return;
 		}
-		CvUnit* pUnit = initConscriptedUnit(strongestUnit);
-		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
+		// Spawn extra 1 unit for every 10 cities owned.
+		int howManyUnitsToSpawn = 1 + GET_PLAYER(getOwnerINLINE()).getNumCities()/10;
+		for (int n=howManyUnitsToSpawn; n>0; n--) {
+			CvUnit* pUnit = initConscriptedUnit(strongestUnit);
+			FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
 
-		if (NULL != pUnit)
-		{
-			if (GC.getGameINLINE().getActivePlayer() == getOwnerINLINE())
+			if (NULL != pUnit)
 			{
-				gDLL->getInterfaceIFace()->selectUnit(pUnit, true, false, true);
-			}
-			if( gCityLogLevel >= 2 )
-			{
-				logBBAI("      City %S conscripts a %S.", getName().GetCString(), pUnit->getName().GetCString() );
+				if (GC.getGameINLINE().getActivePlayer() == getOwnerINLINE())
+				{
+					gDLL->getInterfaceIFace()->selectUnit(pUnit, true, false, true);
+				}
+				if( gCityLogLevel >= 2 )
+				{
+					logBBAI("      City %S conscripts a %S.", getName().GetCString(), pUnit->getName().GetCString() );
+				}
 			}
 		}
 	}
@@ -19997,18 +20021,24 @@ void CvCity::spawnFreeUnitForNomadOwner()
 		{
 			return;
 		}
-		CvUnit* pUnit = initConscriptedUnit(strongestUnit);
-		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
+		// Spawn extra 1 unit for every 10 cities owned.
+		CvPlayer& pPlayer = GET_PLAYER(getOwnerINLINE());
+		int howManyUnitsToSpawn;
+		howManyUnitsToSpawn = 1; // gvd oos in mp + pPlayer.getNumCities()/10;
+		for (int n=howManyUnitsToSpawn; n>0; n--) {
+			CvUnit* pUnit = initConscriptedUnit(strongestUnit);
+			FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
 
-		if (NULL != pUnit)
-		{
-			if (GC.getGameINLINE().getActivePlayer() == getOwnerINLINE())
+			if (NULL != pUnit)
 			{
-				gDLL->getInterfaceIFace()->selectUnit(pUnit, true, false, true);
-			}
-			if( gCityLogLevel >= 2 )
-			{
-				logBBAI("      City %S conscripts a %S.", getName().GetCString(), pUnit->getName().GetCString() );
+				if (GC.getGameINLINE().getActivePlayer() == getOwnerINLINE())
+				{
+					gDLL->getInterfaceIFace()->selectUnit(pUnit, true, false, true);
+				}
+				if( gCityLogLevel >= 2 )
+				{
+					logBBAI("      City %S conscripts a %S.", getName().GetCString(), pUnit->getName().GetCString() );
+				}
 			}
 		}
 	}
@@ -20032,18 +20062,24 @@ void CvCity::spawnFreeUnitForProtectiveOwner()
 		{
 			return;
 		}
-		CvUnit* pUnit = initConscriptedUnit(strongestUnit);
-		FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
+		// Spawn extra 1 unit for every 10 cities owned.
+		CvPlayer& pPlayer = GET_PLAYER(getOwnerINLINE());
+		int howManyUnitsToSpawn;
+		howManyUnitsToSpawn = 1; // gvd oos in mp + pPlayer.getNumCities()/10;
+		for (int n=howManyUnitsToSpawn; n>0; n--) {
+			CvUnit* pUnit = initConscriptedUnit(strongestUnit);
+			FAssertMsg(pUnit != NULL, "pUnit expected to be assigned (not NULL)");
 
-		if (NULL != pUnit)
-		{
-			if (GC.getGameINLINE().getActivePlayer() == getOwnerINLINE())
+			if (NULL != pUnit)
 			{
-				gDLL->getInterfaceIFace()->selectUnit(pUnit, true, false, true);
-			}
-			if( gCityLogLevel >= 2 )
-			{
-				logBBAI("      City %S conscripts a %S.", getName().GetCString(), pUnit->getName().GetCString() );
+				if (GC.getGameINLINE().getActivePlayer() == getOwnerINLINE())
+				{
+					gDLL->getInterfaceIFace()->selectUnit(pUnit, true, false, true);
+				}
+				if( gCityLogLevel >= 2 )
+				{
+					logBBAI("      City %S conscripts a %S.", getName().GetCString(), pUnit->getName().GetCString() );
+				}
 			}
 		}
 	}
@@ -20125,7 +20161,7 @@ CvUnit* CvCity::initConscriptedUnit(UnitTypes eConscriptUnit)
 
 	if (NULL != pUnit)
 	{
-		addProductionExperience(pUnit, true);
+		addProductionExperience(pUnit, false); // gvd true means conscript gets half experience
 
 		pUnit->setMoves(0);
 	}
@@ -20220,6 +20256,7 @@ int CvCity::getBonusCommerceRateModifier(CommerceTypes eIndex, BonusTypes eBonus
 	return iModifier;
 }
 
+// gvd remove this nonsense invasion chance(catacombs etc)
 int CvCity::getInvasionChance() const
 {
 	return m_iInvasionChance;
@@ -20738,7 +20775,7 @@ int CvCity::getAdditionalDefenseByBuilding(BuildingTypes eBuilding) const
 	}
 	return iExtraRate;
 }
-
+// TODO(gdambrauskas): seems that oil refinery works without oil as long as it was built while oil was available.
 void CvCity::checkBuildings(bool bVicinityBonus, bool bCivics, bool bWar, bool bPower)
 {
 
