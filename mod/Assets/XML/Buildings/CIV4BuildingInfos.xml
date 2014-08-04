@@ -20773,7 +20773,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_RITUALISM</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -20949,7 +20949,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_RITUALISM</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -21130,7 +21130,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_RITUALISM</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -21310,7 +21310,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_RITUALISM</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
@@ -21491,7 +21491,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>NONE</ObsoleteTech>
 			<PrereqTech>TECH_RITUALISM</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>
