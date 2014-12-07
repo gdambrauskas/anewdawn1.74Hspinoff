@@ -16,7 +16,7 @@ Mods
 
 
 Modules
--------
+------
 - Updated: Vincentz Infinite Projects vanilla patch
 - Updated: many leaderhead buttons
 - Updated: all leader modules' GameInfoSchema and CivilizationSchema files
